@@ -136,7 +136,7 @@ export function preMigrateSnapshot(
       const match = snapshots.find((snapshot) => path.basename(snapshot).startsWith(`${PREFIX}${thisRelease}-`));
       if (match) {
         return (
-          `The copy taken right before the newer TREK migrated it is ${match}: stop TREK, delete ${file}-wal and ` +
+          `The copy taken right before the newer Manzil migrated it is ${match}: stop Manzil, delete ${file}-wal and ` +
           `${file}-shm, and copy it over ${file}.`
         );
       }

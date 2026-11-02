@@ -81,10 +81,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': 'Ошибка авторизации',
   'oauth.authorize.loginTitle': 'Войдите, чтобы продолжить',
   'oauth.authorize.loginDescription':
-    '{client} запрашивает доступ к вашей учётной записи TREK. Сначала войдите в систему.',
-  'oauth.authorize.loginButton': 'Войти в TREK',
+    '{client} запрашивает доступ к вашей учётной записи Manzil. Сначала войдите в систему.',
+  'oauth.authorize.loginButton': 'Войти в Manzil',
   'oauth.authorize.requestLabel': 'Запрос авторизации',
-  'oauth.authorize.requestDescription': 'Это приложение запрашивает доступ к вашей учётной записи TREK.',
+  'oauth.authorize.requestDescription': 'Это приложение запрашивает доступ к вашей учётной записи Manzil.',
   'oauth.authorize.verifiedHost': 'Подтверждённый домен: {host}',
   'oauth.authorize.trustNote':
     'Предоставляйте доступ только приложениям, которым доверяете. Ваши данные остаются на вашем сервере.',

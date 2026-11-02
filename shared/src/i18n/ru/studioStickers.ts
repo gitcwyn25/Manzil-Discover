@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Цвета',
   'journey.studio.stickerSlot': 'Цвет {index}',
   'journey.studio.stickerResetColours': 'Исходные цвета',
-  'journey.studio.stickerMissing': 'Этого стикера нет в библиотеке этой версии TREK.',
+  'journey.studio.stickerMissing': 'Этого стикера нет в библиотеке этой версии Manzil.',
   'journey.studio.stickerFlip': 'Отразить',
   'journey.studio.stickerTurnLeft': 'Повернуть влево',
   'journey.studio.stickerTurnRight': 'Повернуть вправо',

@@ -9,6 +9,7 @@ import { authApi, configApi } from '../../api/client'
 import { getApiErrorMessage } from '../../types'
 import { START_DESTINATION_ROUTE } from '../../utils/startDestination'
 import { passwordErrorKey } from '../../utils/passwordError'
+import { canShowRegistration, requestedLoginMode, type LoginMode } from './registrationPolicy'
 
 interface AppConfig {
   has_users: boolean
@@ -55,7 +56,7 @@ const isOidcOnly = (config: AppConfig | null): boolean =>
  */
 export function useLogin() {
   const { t } = useTranslation()
-  const [mode, setMode] = useState<'login' | 'register'>('login')
+  const [mode, setMode] = useState<LoginMode>(() => requestedLoginMode(window.location.search))
   const [username, setUsername] = useState<string>('')
   const [email, setEmail] = useState<string>('')
   const [password, setPassword] = useState<string>('')
@@ -377,7 +378,7 @@ export function useLogin() {
     }
   }
 
-  const showRegisterOption = (appConfig?.password_registration || !appConfig?.has_users || inviteValid) && (appConfig?.setup_complete !== false || !appConfig?.has_users)
+  const showRegisterOption = canShowRegistration(appConfig, inviteValid)
 
   // In OIDC-only mode, show a minimal page that redirects directly to the IdP
   const oidcOnly = !appConfig?.password_login && appConfig?.oidc_login && appConfig?.oidc_configured

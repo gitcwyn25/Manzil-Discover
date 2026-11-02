@@ -23,12 +23,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Подключение к wanderer удалено',
   'wanderer.loadFailed': 'Не удалось загрузить подключение к wanderer',
   'wanderer.privateIp':
-    'Этот адрес находится в частной сети. Если TREK не может к нему подключиться, администратор должен разрешить внутренние сети.',
+    'Этот адрес находится в частной сети. Если Manzil не может к нему подключиться, администратор должен разрешить внутренние сети.',
   'wanderer.error.disabled': 'Администратор не включил wanderer для туров.',
   'wanderer.error.not_connected': 'wanderer ещё не подключён.',
   'wanderer.error.invalid_url': 'Этот адрес не является корректным URL wanderer.',
   'wanderer.error.blocked_address':
-    'TREK не разрешено обращаться к этому адресу. Для экземпляра в вашей собственной сети администратор должен задать ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil не разрешено обращаться к этому адресу. Для экземпляра в вашей собственной сети администратор должен задать ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'Не удалось связаться с wanderer. Проверьте адрес и убедитесь, что экземпляр запущен.',
   'wanderer.error.tls': 'Не удалось проверить сертификат экземпляра. Если он самоподписанный, разрешите его ниже.',
   'wanderer.error.unauthorized': 'wanderer не принял API-токен. Возможно, он был отозван или срок его действия истёк.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'Импортировать можно только собственные маршруты wanderer.',
   'wanderer.error.invalid_response': 'Ответ пришёл не от wanderer. Проверьте, что адрес указывает именно на wanderer.',
   'wanderer.error.no_author':
-    'wanderer ответил, но не указывает автора маршрутов для учётной записи этого API-токена, поэтому TREK не может определить, какие маршруты ваши.',
+    'wanderer ответил, но не указывает автора маршрутов для учётной записи этого API-токена, поэтому Manzil не может определить, какие маршруты ваши.',
   'wanderer.error.too_large': 'Файл маршрута больше 10 МБ.',
   'wanderer.error.server_error': 'wanderer ответил ошибкой. Повторите попытку позже.',
   'wanderer.error.offline': 'Нет подключения к сети. Поиск в wanderer доступен только онлайн.',

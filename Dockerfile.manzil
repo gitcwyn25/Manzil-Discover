@@ -1,0 +1,34 @@
+# Rebuild the fork from preferred source; retain the pinned upstream runtime,
+# document tools, bundled data, native modules and supported entrypoint.
+FROM mauriceboe/trek:5.1.0@sha256:23bf3fa6a134dc38a3b4f40ef8f7e8040abc96965105dffdcfcf5f202fb5d0b7 AS upstream
+
+FROM node:24-alpine AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+COPY shared/package.json ./shared/
+COPY client/package.json ./client/
+COPY server/package.json ./server/
+RUN npm ci --workspace=shared --workspace=client --workspace=server --ignore-scripts
+COPY shared/ ./shared/
+COPY client/ ./client/
+COPY server/ ./server/
+COPY scripts/ ./scripts/
+COPY manzil-branding/ ./manzil-branding/
+COPY LICENSE NOTICE.md ./
+ENV APP_VERSION=5.1.0
+RUN node manzil-branding/apply-branding.mjs \
+    && npm run build --workspace=shared \
+    && NODE_OPTIONS=--max-old-space-size=4096 npm run build --workspace=server \
+    && npm run build --workspace=client
+
+FROM upstream
+# These are immutable application build outputs, never the persistent data.
+RUN rm -rf /app/server/public /app/server/dist /app/shared/dist
+COPY --chown=node:node --from=build /app/server/dist ./server/dist
+COPY --chown=node:node --from=build /app/shared/dist ./shared/dist
+COPY --chown=node:node --from=build /app/client/dist ./server/public
+COPY --chown=node:node --from=build /app/client/public/fonts ./server/public/fonts
+COPY --chown=node:node LICENSE NOTICE.md ./
+LABEL org.opencontainers.image.title="Manzil Discover" \
+      org.opencontainers.image.source="https://github.com/gitcwyn25/Manzil-Discover" \
+      org.opencontainers.image.licenses="AGPL-3.0-only"

@@ -816,7 +816,7 @@ export class AuthService {
     try {
       secret = authenticator.generateSecret();
       mfaSetupPending.set(userId, { secret, exp: Date.now() + MFA_SETUP_TTL_MS });
-      otpauth_url = authenticator.keyuri(userEmail, 'TREK', secret);
+      otpauth_url = authenticator.keyuri(userEmail, 'Manzil', secret);
     } catch (err) {
       console.error('[MFA] Setup error:', err);
       throw new DomainError(500, 'MFA setup failed');

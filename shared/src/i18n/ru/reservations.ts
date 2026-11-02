@@ -143,7 +143,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'На карте',
   'reservations.import.pinMissingTitle': 'Пока нет на карте',
   'reservations.import.pinMissingBody':
-    'TREK не нашёл это жильё на карте. Проверьте название и адрес выше и повторите поиск или сохраните без метки.',
+    'Manzil не нашёл это жильё на карте. Проверьте название и адрес выше и повторите поиск или сохраните без метки.',
   'reservations.import.pinRetry': 'Искать снова',
   'reservations.import.savedWithoutPin':
     'Сохранено без метки на карте. Измените место и укажите его расположение, чтобы увидеть его на карте.',
@@ -285,7 +285,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Показать в файлах',
   'reservations.filesNeedConnection':
     'Для загрузки файлов нужно подключение. Удалите новые, чтобы сохранить бронирование офлайн, или сохраните, когда снова будете онлайн.',
-  'reservations.needsConnection': 'Для этого нужно подключение. Попробуйте ещё раз, когда TREK снова будет онлайн.',
+  'reservations.needsConnection': 'Для этого нужно подключение. Попробуйте ещё раз, когда Manzil снова будет онлайн.',
   'reservations.exportCsvFiltered': 'Экспортировать показанные строки: {shown} из {total} (CSV)',
 };
 export default reservations;

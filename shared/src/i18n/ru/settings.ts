@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     'Собственная Valhalla, к которой обращаются, если сервис маршрутизации выше установлен на неё или на «Автоматически». Если настроен только собственный сервер маршрутизации и сервис не выбран, ни к какой Valhalla не обращаются. После ввода URL перезапустите сервер и обновите страницу.',
   'settings.valhallaProvider': 'Сервис маршрутизации',
   'settings.valhallaProviderHint':
-    'С сервисами TREK или собственной Valhalla все маршруты рассчитывает Valhalla: дни и автопутешествия пешком, на велосипеде и на машине, маршруты без платных дорог, автомагистралей и паромов, а также маршруты, высоты и тропы походов. Если она не может ответить, этот день рассчитывает OSRM. Сервисы TREK опрашиваются через этот сервер. С публичной Valhalla FOSSGIS маршруты рассчитывает OSRM, а Valhalla отвечает только на то, чего не умеет OSRM. «Автоматически» опрашивает сервисы TREK, если не задана собственная Valhalla или только собственный сервер маршрутизации.',
+    'С сервисами Manzil или собственной Valhalla все маршруты рассчитывает Valhalla: дни и автопутешествия пешком, на велосипеде и на машине, маршруты без платных дорог, автомагистралей и паромов, а также маршруты, высоты и тропы походов. Если она не может ответить, этот день рассчитывает OSRM. Сервисы Manzil опрашиваются через этот сервер. С публичной Valhalla FOSSGIS маршруты рассчитывает OSRM, а Valhalla отвечает только на то, чего не умеет OSRM. «Автоматически» опрашивает сервисы Manzil, если не задана собственная Valhalla или только собственный сервер маршрутизации.',
   'settings.valhallaProviderOption.auto': 'Автоматически',
-  'settings.valhallaProviderOption.trek': 'Сервисы TREK',
+  'settings.valhallaProviderOption.trek': 'Сервисы Manzil',
   'settings.valhallaProviderOption.fossgis': 'Публичная Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Собственный экземпляр Valhalla',
   'settings.mapHint': 'URL-шаблон для тайлов карты',
@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
     'Без ключа на базовых картах CARTO появляется водяной знак. Бесплатно и без учётной записи, на',
   'settings.mapCartoKeyLink': 'ключ API базовых карт carto.com',
   'settings.mapCartoKeyMissing':
-    'Этот шаблон является базовой картой CARTO. Без ключа CARTO наносит "API KEY REQUIRED" на каждый тайл. Пока ключ не указан, TREK показывает базовую карту по умолчанию.',
+    'Этот шаблон является базовой картой CARTO. Без ключа CARTO наносит "API KEY REQUIRED" на каждый тайл. Пока ключ не указан, Manzil показывает базовую карту по умолчанию.',
   'settings.mapStyle': 'Стиль карты',
   'settings.mapStylePlaceholder': 'Выберите стиль Mapbox',
   'settings.mapStyleHint': 'Preset или собственный URL mapbox://styles/USER/ID',
@@ -212,19 +212,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Предложите новую функцию',
   'settings.about.wikiHint': 'Документация и руководства',
   'settings.about.sponsor.eyebrow': 'Спонсорская инфраструктура',
-  'settings.about.sponsor.title': 'Собственные серверы TREK работают на dataforest cloud',
+  'settings.about.sponsor.title': 'Собственные серверы Manzil работают на dataforest cloud',
   'settings.about.sponsor.body':
-    'Поиск мест, поиск адресов и маршруты работают на собственных серверах TREK вместо Google и компании, а машины для них спонсирует dataforest cloud.',
+    'Поиск мест, поиск адресов и маршруты работают на собственных серверах Manzil вместо Google и компании, а машины для них спонсирует dataforest cloud.',
   'settings.about.sponsor.cta': 'Перейти на dataforest cloud',
   'settings.about.sponsor.search': 'Поиск мест',
   'settings.about.sponsor.address': 'Поиск адресов',
   'settings.about.sponsor.routing': 'Маршруты',
   'settings.about.descriptionManaged':
-    'TREK помогает организовать поездки от первой идеи до последнего воспоминания. Планирование дней, бюджет, списки вещей, фото и многое другое: всё в одном месте.',
+    'Manzil помогает организовать поездки от первой идеи до последнего воспоминания. Планирование дней, бюджет, списки вещей, фото и многое другое: всё в одном месте.',
   'settings.about.sourceTitle': 'Исходный код',
   'settings.about.sourceHint': 'TREK с открытым исходным кодом, лицензия AGPL-3.0',
   'settings.about.supporters.badge': 'Ежемесячные спонсоры',
-  'settings.about.supporters.title': 'Спутники TREK',
+  'settings.about.supporters.title': 'Спутники Manzil',
   'settings.about.supporters.subtitle':
     'Пока ты планируешь следующий маршрут, эти люди планируют вместе со мной будущее TREK. Их ежемесячный взнос идёт напрямую в разработку и реально потраченные часы — чтобы TREK оставался Open Source.',
   'settings.about.supporters.since': 'спонсор с {date}',
@@ -235,7 +235,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Бюджетный путешественник',
   'settings.about.supporter.tier.hostelBunkmate': 'Сосед по койке в хостеле',
   'settings.about.description':
-    'TREK — это самостоятельно размещаемый планировщик путешествий, который помогает организовать поездки от первой идеи до последнего воспоминания. Планирование по дням, бюджет, списки вещей, фото и многое другое — всё в одном месте, на вашем собственном сервере.',
+    'Manzil — это самостоятельно размещаемый планировщик путешествий, который помогает организовать поездки от первой идеи до последнего воспоминания. Планирование по дням, бюджет, списки вещей, фото и многое другое — всё в одном месте, на вашем собственном сервере.',
   'settings.about.madeWith': 'Сделано с',
   'settings.about.madeBy': 'Морисом и растущим open-source сообществом.',
   'settings.username': 'Имя пользователя',
@@ -356,15 +356,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push',
   'settings.webPush.title': 'Push-уведомления на этом устройстве',
   'settings.webPush.hint':
-    'Показывает уведомления TREK на этом устройстве, даже когда TREK закрыт. Какие события приходят, определяет столбец Push.',
+    'Показывает уведомления Manzil на этом устройстве, даже когда Manzil закрыт. Какие события приходят, определяет столбец Push.',
   'settings.webPush.enable': 'Включить на этом устройстве',
   'settings.webPush.disable': 'Выключить на этом устройстве',
   'settings.webPush.enabled': 'Включено на этом устройстве',
   'settings.webPush.unsupported': 'Этот браузер не может получать push-уведомления.',
-  'settings.webPush.insecure': 'Для push TREK должен быть открыт по HTTPS.',
-  'settings.webPush.iosInstall': 'На iPhone и iPad сначала добавьте TREK на экран «Домой» и откройте его оттуда.',
+  'settings.webPush.insecure': 'Для push Manzil должен быть открыт по HTTPS.',
+  'settings.webPush.iosInstall': 'На iPhone и iPad сначала добавьте Manzil на экран «Домой» и откройте его оттуда.',
   'settings.webPush.denied':
-    'Уведомления для TREK заблокированы в этом браузере. Разрешите их в настройках браузера и попробуйте снова.',
+    'Уведомления для Manzil заблокированы в этом браузере. Разрешите их в настройках браузера и попробуйте снова.',
   'settings.webPush.failed': 'Не удалось включить push на этом устройстве.',
   'settings.currency': 'Валюта отображения',
   'settings.currencyHint':
@@ -411,7 +411,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Включайте только для доверенного экземпляра в вашей собственной сети.',
   'settings.airtrail.writeBack': 'Записывать изменения обратно в AirTrail',
   'settings.airtrail.writeBackHint':
-    'По умолчанию выключено: AirTrail является источником истины, а TREK только читает из него. Включите, чтобы отправлять изменения, сделанные в TREK, обратно в AirTrail.',
+    'По умолчанию выключено: AirTrail является источником истины, а Manzil только читает из него. Включите, чтобы отправлять изменения, сделанные в Manzil, обратно в AirTrail.',
   'settings.airtrail.connected': 'Подключено',
   'settings.airtrail.notConnected': 'Не подключено',
   'settings.airtrail.toast.saved': 'Подключение к AirTrail сохранено',
@@ -534,7 +534,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Панель управления',
   'settings.startPageActiveTrip': 'Активная поездка',
   'settings.startPageHint':
-    'TREK сразу открывает поездку, которая идёт сейчас, иначе ближайшую предстоящую. Это та же поездка, которую выделяет панель управления.',
+    'Manzil сразу открывает поездку, которая идёт сейчас, иначе ближайшую предстоящую. Это та же поездка, которую выделяет панель управления.',
   'settings.startTripTab': 'Стартовая вкладка',
   'settings.startTripTabHint':
     'Вкладка, с которой открывается поездка. Если она относится к отключённому дополнению, откроется план.',

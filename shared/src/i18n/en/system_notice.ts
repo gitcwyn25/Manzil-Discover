@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const system_notice: TranslationStrings = {
   'system_notice.v3_photos.title': 'Photos have moved in 3.0',
   'system_notice.v3_photos.body':
-    '**Photos** in the Trip Planner have been removed. Your photos are safe — TREK never modified your Immich or Synology library.\n\nPhotos now live in the **Journey** addon. Journey is optional — if it is not yet available, ask your admin to enable it under Admin → Addons.',
+    '**Photos** in the Trip Planner have been removed. Your photos are safe — Manzil never modified your Immich or Synology library.\n\nPhotos now live in the **Journey** addon. Journey is optional — if it is not yet available, ask your admin to enable it under Admin → Addons.',
   'system_notice.v3_journey.title': 'Meet Journey — travel journal',
   'system_notice.v3_journey.body':
     'Document your trips as rich travel stories with timelines, photo galleries, and interactive maps.',
@@ -31,18 +31,18 @@ const system_notice: TranslationStrings = {
   'system_notice.v3014_whitespace_collision.title': 'Action required: user account conflict',
   'system_notice.v3014_whitespace_collision.body':
     'The 3.0.14 upgrade detected one or more username or email collisions caused by leading/trailing whitespace in stored accounts. Affected accounts were renamed automatically. Check the server logs for lines starting with **[migration] WHITESPACE COLLISION** to identify which accounts need review.',
-  'system_notice.welcome_v1.title': 'Welcome to TREK',
+  'system_notice.welcome_v1.title': 'Welcome to Manzil',
   'system_notice.welcome_v1.body':
     'Your all-in-one travel planner. Build itineraries, share trips with friends, and stay organized — online or offline.',
   'system_notice.welcome_v1.cta_label': 'Plan a trip',
-  'system_notice.welcome_v1.hero_alt': 'A scenic travel destination with TREK planning UI overlay',
+  'system_notice.welcome_v1.hero_alt': 'A scenic travel destination with Manzil planning UI overlay',
   'system_notice.welcome_v1.highlight_plan': 'Day-by-day itineraries for any trip',
   'system_notice.welcome_v1.highlight_share': 'Collaborate with travel partners',
   'system_notice.welcome_v1.highlight_offline': 'Works offline on mobile',
   'system_notice.dev_test_modal.title': '[Dev] Test notice',
   'system_notice.dev_test_modal.body': 'This is a dev-only test notice.',
   // Thank-you + support the project (shown once per install and once per upgrade)
-  'system_notice.thank_you_support.title': 'Thank you for using TREK',
+  'system_notice.thank_you_support.title': 'Thank you for using Manzil',
   'system_notice.thank_you_support.body':
     "A quick thank-you for installing TREK — it genuinely means a lot.\n\nI'm a solo developer and I build TREK in my spare time. It started as a little tool just for my own trips, and I'm honestly blown away by the support and interest from the community since then. TREK is made with a lot of heart on my side — but also thanks to the many amazing external contributors who've helped shape it.\n\n**TREK is open source and completely free — and it will stay that way forever. No paid tiers, no subscriptions, no catch. I promise.**\n\nIf TREK is useful to you and you'd like to support its development, a small coffee genuinely helps me keep building — no pressure at all, but every cup keeps the late nights going.\n\nThank you for being here.\n\n— Maurice",
   'system_notice.thank_you_support.highlight_opensource': '100% open source on GitHub',
@@ -54,7 +54,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'Update installed',
   'system_notice.release_notes.headline': 'The right place, first.',
   'system_notice.release_notes.intro':
-    "Place search, address search and routing now run on TREK's own servers, sponsored by dataforest cloud, and every TREK can share what it knows about places with all the others.",
+    "Place search, address search and routing now run on Manzil's own servers, sponsored by dataforest cloud, and every Manzil can share what it knows about places with all the others.",
   'system_notice.release_notes.features_label': 'The headliners',
   'system_notice.release_notes.features_aside': 'Far from everything',
   'system_notice.release_notes.feature_search_title': 'Place search that gets it right',
@@ -62,18 +62,18 @@ const system_notice: TranslationStrings = {
     'Cities, islands, landmarks and airports by their code come first, cafés come from around you, and suggestions appear while you type.',
   'system_notice.release_notes.feature_share_title': 'Place details, shared',
   'system_notice.release_notes.feature_share_body':
-    'Share websites, opening hours and photos with every TREK, field by field, and your saved places pick up what others added.',
+    'Share websites, opening hours and photos with every Manzil, field by field, and your saved places pick up what others added.',
   'system_notice.release_notes.feature_routing_title': 'Faster routing',
   'system_notice.release_notes.feature_routing_body':
     'A whole day routes in one go with up to twenty stops, one slow route no longer holds up the rest, and transit asks a second provider when the first finds nothing.',
-  'system_notice.release_notes.footnote': 'Plus a long list of smaller changes across the rest of TREK.',
+  'system_notice.release_notes.footnote': 'Plus a long list of smaller changes across the rest of Manzil.',
   'system_notice.release_notes.notes_label': 'Release notes',
   'system_notice.release_notes.note_eyebrow': 'A note from the maintainer',
-  'system_notice.release_notes.note_title': 'You are the reason I keep building TREK.',
+  'system_notice.release_notes.note_title': 'You are the reason I keep building Manzil.',
   'system_notice.release_notes.note_body':
-    'TREK began as a small tool for my own trips, written after work because I wanted a better way to plan them. It never really stopped growing. Almost everything you use was built late at night, on weekends, on trains, next to a full-time job, and there were plenty of evenings I quietly wondered whether anyone out there would ever open it.',
+    'Manzil began as a small tool for my own trips, written after work because I wanted a better way to plan them. It never really stopped growing. Almost everything you use was built late at night, on weekends, on trains, next to a full-time job, and there were plenty of evenings I quietly wondered whether anyone out there would ever open it.',
   'system_notice.release_notes.promise_label': 'The promise',
-  'system_notice.release_notes.promise_lead': 'TREK stays free, forever.',
+  'system_notice.release_notes.promise_lead': 'Manzil stays free, forever.',
   'system_notice.release_notes.promise_text':
     'Every feature, every update, for everyone. No paid tiers, no subscriptions, no catch.',
   'system_notice.release_notes.note_body_after':
@@ -82,7 +82,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': 'Staying independent',
   'system_notice.release_notes.support_lead': 'Without Google and co.',
   'system_notice.release_notes.support_text':
-    "Place search, address search and routing run on TREK's own servers, sponsored by dataforest cloud today. I fight for that every day, and keeping it that way takes your support.",
+    "Place search, address search and routing run on Manzil's own servers, sponsored by dataforest cloud today. I fight for that every day, and keeping it that way takes your support.",
   'system_notice.release_notes.cta_bmc': 'Buy me a coffee',
   'system_notice.release_notes.cta_kofi': 'Support on Ko-fi',
   'system_notice.pager.prev': 'Previous notice',

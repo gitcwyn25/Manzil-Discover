@@ -47,7 +47,7 @@ function persistEnvKey(envKey: string): void {
   if (storedKey && storedKey !== envKey.trim()) {
     console.error(`FATAL: ENCRYPTION_KEY does not match ${encKeyFile}.`);
     console.error(
-      'The stored secrets are encrypted with the key in that file, so TREK will not start with a different one.',
+      'The stored secrets are encrypted with the key in that file, so Manzil will not start with a different one.',
     );
     console.error(
       'To change the key, run scripts/migrate-encryption.ts first; it re-encrypts the secrets and updates the file.',

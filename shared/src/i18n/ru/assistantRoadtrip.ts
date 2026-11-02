@@ -106,7 +106,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': 'После {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Следует треку {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'Пока прямые линии; TREK рассчитает дорогу, когда изменение будет применено.',
+    'Пока прямые линии; Manzil рассчитает дорогу, когда изменение будет применено.',
   'assistant.card.roadtrip.dayEnd.at': 'День заканчивается в {name}',
   'assistant.card.roadtrip.dayEnd.along': 'День заканчивается на {percent} % пути после {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'День снова заканчивается автоматически',

@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Добавить к дню',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Импорт GPX',
-  'tours.badge.planned': 'спланировано в TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'спланировано в Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'используйте с осторожностью',
@@ -45,7 +45,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Этот тур уже назначен на этот день.',
   'tours.conversion.title': 'Редактируемая версия',
   'tours.conversion.intro':
-    'Импорт представляет собой записанный трек. Спланируйте редактируемую версию: TREK возьмёт из него контрольные точки, заново проложит через них маршрут и покажет, насколько близко он подходит. Ничего не изменится, пока вы не выберете.',
+    'Импорт представляет собой записанный трек. Спланируйте редактируемую версию: Manzil возьмёт из него контрольные точки, заново проложит через них маршрут и покажет, насколько близко он подходит. Ничего не изменится, пока вы не выберете.',
   'tours.conversion.replace': 'Заменить импорт',
   'tours.conversion.replaceHint':
     'Планирует этот тур заново на том же месте: его дни и заметки сохраняются, а записанный трек остаётся, чтобы к нему можно было вернуться.',
@@ -135,7 +135,7 @@ const tours: TranslationStrings = {
   'tours.planner.addPoint': 'Добавить точку',
   'tours.planner.addPointActive': 'Нажмите на карту',
   'tours.planner.emptyHint':
-    'Включите «Добавить точку» и нажмите на карту. Начиная с двух точек TREK рассчитает маршрут.',
+    'Включите «Добавить точку» и нажмите на карту. Начиная с двух точек Manzil рассчитает маршрут.',
   'tours.planner.walkingEstimated': 'Примерное время в пути',
   'tours.planner.walkingEstimatedShort': 'Прим. время',
   'tours.planner.walkingEstimatedInfoLabel': 'Как оценивается время в пути',
@@ -253,7 +253,7 @@ const tours: TranslationStrings = {
     'Дата изменения, которую wanderer указал при импорте. Подсказка, а не доказательство версии.',
   'tours.provenance.localState': 'Здесь',
   'tours.provenance.plannedOver': 'Перепланировано, записанный трек сохранён',
-  'tours.provenance.editedLocally': 'Изменено в TREK',
+  'tours.provenance.editedLocally': 'Изменено в Manzil',
   'tours.provenance.asImported': 'Как импортировано',
   'tours.provenance.openSource': 'Открыть в wanderer',
   'tours.provenance.check': 'Проверить источник',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Импортировать прогулку из Google Maps',
   'tours.walkImport.title': 'Прогулка по ссылке Google Maps',
   'tours.walkImport.intro':
-    'Поделись пешим маршрутом в Google Maps и вставь сюда его ссылку. TREK прочитает остановки и сам проложит пеший путь между ними.',
+    'Поделись пешим маршрутом в Google Maps и вставь сюда его ссылку. Manzil прочитает остановки и сам проложит пеший путь между ними.',
   'tours.walkImport.urlLabel': 'Ссылка на пеший маршрут',
   'tours.walkImport.urlHint': 'Короткая ссылка maps.app.goo.gl или адрес маршрута на google.com/maps.',
   'tours.walkImport.read': 'Прочитать ссылку',
@@ -339,7 +339,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Из Google Maps',
   'tours.walkImport.openSource': 'Открыть в Google Maps',
   'tours.walkImport.recalculated':
-    'TREK заново прокладывает путь между остановками; линия, нарисованная в Google Maps, не переносится.',
+    'Manzil заново прокладывает путь между остановками; линия, нарисованная в Google Maps, не переносится.',
   'tours.walkImport.noPosition': 'В ссылке нет координат',
   'tours.walkImport.unresolved': 'У {count} остановки нет координат в ссылке, они не войдут в прогулку.',
   'tours.walkImport.unresolved.one': 'У {count} остановки нет координат в ссылке, она не войдёт в прогулку.',
@@ -348,7 +348,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.tooFewPositions': 'Для прогулки нужны хотя бы две остановки с координатами.',
   'tours.walkImport.replacesDraft': 'Загрузка прогулки заменит несохранённые изменения в планировщике.',
   'tours.walkImport.defaultName': 'Прогулка из Google Maps',
-  'tours.walkImport.draftNotice': 'Из пешего маршрута Google Maps. Путь между остановками TREK проложил сам.',
+  'tours.walkImport.draftNotice': 'Из пешего маршрута Google Maps. Путь между остановками Manzil проложил сам.',
   'tours.walkImport.offline': 'Чтобы прочитать ссылку, нужно подключение.',
   'tours.walkImport.failed': 'Не удалось прочитать ссылку сейчас. Попробуй ещё раз чуть позже.',
   'tours.walkImport.refusal.not_google_maps':
@@ -389,7 +389,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} от маршрута',
   'tours.poi.along': 'на {distance}',
   'tours.poi.source.osm': 'Из OpenStreetMap',
-  'tours.poi.source.trek': 'Из каталога мест TREK',
+  'tours.poi.source.trek': 'Из каталога мест Manzil',
   'tours.poi.hoursHint': 'По данным источника; проверьте перед выходом.',
   'tours.poi.website': 'Сайт',
   'tours.poi.slot.label': 'Куда вставить',
@@ -521,7 +521,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.saved':
     'Показано, как сохранено. Сдвиньте точку или измените параметр, чтобы спланировать заново.',
   'tours.ski.chooseTechnique': 'Выберите технику или «Неизвестно».',
-  'tours.ski.infoLabel': 'Что TREK делает с лыжными маршрутами и треками',
+  'tours.ski.infoLabel': 'Что Manzil делает с лыжными маршрутами и треками',
   'tours.ski.info':
     'Запланированный маршрут идёт по трассам, подъёмникам и лыжням из OpenStreetMap там, где есть данные трасс, а в остальных местах соединяет точки прямо. Импортированный трек остаётся таким, каким был записан. Высоты берутся из данных трасс, рельефа или файла. Ничто здесь, включая цвета уклона в 3D, ничего не говорит о снеге, лавинах или о том, открыты ли трассы, подъёмники и лыжни.',
   'tours.ski.time': 'Время на лыжах',
@@ -936,7 +936,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Снова проложить следующий участок',
   'tours.planner.freeLegBadge': 'Нарисовано вручную, не проложено',
   'tours.planner.freeLegInfo':
-    'TREK соединяет эти две точки прямой линией. Ни один маршрутизатор не прокладывал и не проверял этот участок.',
+    'Manzil соединяет эти две точки прямой линией. Ни один маршрутизатор не прокладывал и не проверял этот участок.',
   'tours.map.seamarks': 'Навигационные знаки',
   'tours.map.seamarksDown': 'Навигационные знаки не загружаются. Карта и ваш маршрут работают дальше.',
   'tours.map.pistes': 'Трассы, лыжни и подъёмники',
@@ -999,9 +999,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm.few': 'Импортировать {count} тура',
   'tours.import.previewConfirm.many': 'Импортировать {count} туров',
   'tours.conversion.introPaddle':
-    'Импорт — это записанный трек. Спланируйте редактируемый сплав: TREK берёт из него контрольные точки, соединяет их прямыми линиями, как рисуется сплав, и показывает, насколько это близко. Ничего не меняется, пока вы не решите.',
+    'Импорт — это записанный трек. Спланируйте редактируемый сплав: Manzil берёт из него контрольные точки, соединяет их прямыми линиями, как рисуется сплав, и показывает, насколько это близко. Ничего не меняется, пока вы не решите.',
   'tours.conversion.introSki':
-    'Импорт представляет собой записанный трек. Спланируйте редактируемый лыжный маршрут: TREK берёт из него контрольные точки, соединяет их прямыми линиями, как рисуется лыжный маршрут, и показывает, насколько это близко. Ничего не меняется, пока вы не решите.',
+    'Импорт представляет собой записанный трек. Спланируйте редактируемый лыжный маршрут: Manzil берёт из него контрольные точки, соединяет их прямыми линиями, как рисуется лыжный маршрут, и показывает, насколько это близко. Ничего не меняется, пока вы не решите.',
   'tours.conversion.closePaddle':
     'Предложение близко следует треку. Его точки соединены прямыми линиями, поэтому это не та же линия.',
   'tours.planner.moreActions': 'Другие действия',
@@ -1033,7 +1033,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Обходится по берегу, учитывается обнос',
   'tours.paddle.time.title': 'Оценка времени',
   'tours.paddle.time.assumptionInfo':
-    'TREK начинает с 4 км/ч на воде, 2 км/ч при переноске и 10 минут на выход и посадку на каждом обносе. Это стартовые значения для настройки, а не нормы и не измерения. Время шлюзов берётся только из того, что вы вводите.',
+    'Manzil начинает с 4 км/ч на воде, 2 км/ч при переноске и 10 минут на выход и посадку на каждом обносе. Это стартовые значения для настройки, а не нормы и не измерения. Время шлюзов берётся только из того, что вы вводите.',
   'tours.paddle.time.water': 'На воде',
   'tours.paddle.time.carry': 'Переноска',
   'tours.paddle.time.carrySpeed': 'Скорость переноски',
@@ -1113,7 +1113,7 @@ const tours: TranslationStrings = {
     'Данные о препятствиях охватывают только часть маршрута (по состоянию на {date}). Остальное проверьте сами.',
   'tours.paddle.obstacles.none':
     'Для этого района нет данных о препятствиях. Проверьте водосливы, шлюзы и обносы здесь сами.',
-  'tours.paddle.obstacles.offline': 'Без подключения TREK не загружает данные о препятствиях. Проверьте водоём сами.',
+  'tours.paddle.obstacles.offline': 'Без подключения Manzil не загружает данные о препятствиях. Проверьте водоём сами.',
   'tours.paddle.obstacles.error': 'Не удалось загрузить данные о препятствиях. Проверьте водоём сами.',
   'tours.paddle.obstacle.kind.weir': 'Водослив',
   'tours.paddle.obstacle.kind.dam': 'Плотина',
@@ -1128,7 +1128,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Место обноса',
   'tours.paddle.obstacle.kind.access': 'Правило плавания',
   'tours.paddle.obstacles.truncated':
-    'TREK показывает здесь только часть объектов, в районе их больше. Проверьте водоём сами.',
+    'Manzil показывает здесь только часть объектов, в районе их больше. Проверьте водоём сами.',
   'tours.paddle.obstacles.dateUnknown': 'неизвестную дату',
   'tours.paddle.obstacleCard.onRoute': 'На маршруте через',
   'tours.paddle.obstacleCard.near': 'Рядом с маршрутом',
@@ -1212,7 +1212,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Безопасность на воде',
   'tours.paddle.safety.short': 'Гребля связана с рисками. Сами проверьте водоём, правила и погоду.',
   'tours.paddle.safety.text':
-    'Гребля связана с рисками. Карты, предложения маршрутов и подсказки могут быть неполными или устаревшими. Перед сплавом проверьте текущие местные условия, правила пользования водоёмом и погоду. Соблюдайте необходимые меры безопасности. TREK помогает в планировании и не заменяет вашу собственную проверку и ответственное решение.',
+    'Гребля связана с рисками. Карты, предложения маршрутов и подсказки могут быть неполными или устаревшими. Перед сплавом проверьте текущие местные условия, правила пользования водоёмом и погоду. Соблюдайте необходимые меры безопасности. Manzil помогает в планировании и не заменяет вашу собственную проверку и ответственное решение.',
   'tours.paddle.check.bans.few': '{count} с запретом',
   'tours.paddle.check.bans.many': '{count} с запретом',
   'tours.paddle.check.decided.few': '{count} решения',
@@ -1279,7 +1279,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Проложить по воде участки, нарисованные вручную',
   'tours.paddle.auto': 'Найдено',
   'tours.paddle.autoHint':
-    'TREK поставил эту точку у волока или шлюза, найденного по пути. Если вы её переместите или измените, она станет вашей.',
+    'Manzil поставил эту точку у волока или шлюза, найденного по пути. Если вы её переместите или измените, она станет вашей.',
   'tours.paddle.note.rapids': 'Порог, категория {grade}',
   'tours.paddle.note.pass': 'Лодочный проход',
   'tours.paddle.note.gap': 'Пробел в данных карты',
@@ -1287,12 +1287,12 @@ const tours: TranslationStrings = {
     'Здесь маршрут идёт по быстрой воде. Сначала просмотрите участок и при сомнениях обнесите.',
   'tours.paddle.note.gapHint': 'В данных о водоёмах здесь пробел, соединённый прямой линией. Проверьте на месте.',
   'tours.paddle.failed.not_on_water':
-    'Один конец этого участка не на воде, известной TREK. Переместите его на реку или озеро.',
+    'Один конец этого участка не на воде, известной Manzil. Переместите его на реку или озеро.',
   'tours.paddle.failed.no_region':
     'Для этой местности пока нет данных о водоёмах. Администратор может добавить регион.',
   'tours.paddle.failed.building':
     'Данные о водоёмах этого региона ещё готовятся. Попробуйте снова через несколько минут.',
-  'tours.paddle.failed.no_water_path': 'TREK не нашёл пути по воде между этими точками.',
+  'tours.paddle.failed.no_water_path': 'Manzil не нашёл пути по воде между этими точками.',
   'tours.paddle.failed.cross_region': 'Эти точки лежат в двух регионах без общих данных о водоёмах.',
   'tours.paddle.failed.busy': 'Планировщик маршрутов занят. Попробуйте снова через мгновение.',
   'tours.paddle.failed.timeout':
@@ -1309,8 +1309,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Чтение',
   'tours.paddle.load.phase.build': 'Построение водной сети',
   'tours.paddle.load.hint': 'Обычно от одной до трёх минут. Продолжайте планировать, участок потом спланируется сам.',
-  'tours.paddle.load.reason.tooLarge': 'Регион больше, чем TREK загружает сам.',
-  'tours.paddle.load.reason.limit': 'TREK уже загрузил сегодня достаточно регионов сам.',
+  'tours.paddle.load.reason.tooLarge': 'Регион больше, чем Manzil загружает сам.',
+  'tours.paddle.load.reason.limit': 'Manzil уже загрузил сегодня достаточно регионов сам.',
   'tours.paddle.load.declined': 'Администратор отклонил данные о воде для {region}.',
   'tours.paddle.load.failed': 'Не удалось загрузить данные о воде для {region}.',
   'tours.paddle.load.noWater': 'В данных о воде для {region} здесь нет воды. Поставьте точку на реку или озеро.',
@@ -1336,7 +1336,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Время в седле',
   'tours.horse.timeInfoLabel': 'Почему нет времени в седле',
   'tours.horse.timeInfo':
-    'TREK не рассчитывает время в седле: темп зависит от лошади и всадника. При желании укажите общее время сами.',
+    'Manzil не рассчитывает время в седле: темп зависит от лошади и всадника. При желании укажите общее время сами.',
   'tours.horse.routes.title': 'Конные маршруты',
   'tours.horse.routes.infoLabel': 'О конных маршрутах',
   'tours.horse.routes.info':
@@ -1394,7 +1394,7 @@ const tours: TranslationStrings = {
     'Линия остаётся такой, какой её записал файл. Ничего не прокладывается заново.',
   'tours.horse.recorded.noTime': 'Без времени в седле',
   'tours.horse.recorded.noTimeInfo':
-    'TREK не рассчитывает время в седле для конной прогулки: темп задают лошадь и всадник.',
+    'Manzil не рассчитывает время в седле для конной прогулки: темп задают лошадь и всадник.',
   'tours.horse.recorded.accessUnchecked': 'Доступ не проверен',
   'tours.horse.recorded.accessUncheckedInfo':
     'Импорт не проверяет, можно ли ехать по этим дорогам верхом. На месте действуют знаки.',
@@ -1564,7 +1564,7 @@ const tours: TranslationStrings = {
   'tours.detail.openInTours': 'Открыть на вкладке «Туры»',
   'tours.planner.status.routingGeneric': 'Расчёт маршрута…',
   'tours.planner.emptyHintPlacing':
-    'Нажмите на карту, чтобы поставить точки. Начиная с двух точек TREK рассчитает маршрут.',
+    'Нажмите на карту, чтобы поставить точки. Начиная с двух точек Manzil рассчитает маршрут.',
   'tours.ski.drawStraight': 'Провести прямо',
   'tours.horse.routes.stale': 'Список показывает область, в которой вы искали. Повторите поиск для текущей.',
   'tours.horse.dialog.adoptGapHint':

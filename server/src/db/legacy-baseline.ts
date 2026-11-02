@@ -260,7 +260,7 @@ export function refuseNewerDatabase(executed: string[], known: Set<string>, rest
   const unknown = unknownMigrations(executed, known);
   if (unknown.length === 0) return;
   throw new Error(
-    `${REFUSAL} the database was migrated by a newer TREK (${unknown.length} unknown migration(s), latest ${unknown[unknown.length - 1]}), ` +
+    `${REFUSAL} the database was migrated by a newer Manzil (${unknown.length} unknown migration(s), latest ${unknown[unknown.length - 1]}), ` +
       'or by a development build that added migrations of its own. ' +
       'Run that version again, or restore a backup taken with this one.' +
       (restoreHint ? ` ${restoreHint}` : ''),

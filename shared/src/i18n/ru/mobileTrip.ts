@@ -63,7 +63,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Эти данные задаются на компьютере: там же можно сравнивать другие маршруты и провести день по импортированному треку.',
   'mobileTrip.planOnDesktop': 'Планирование на компьютере',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK рассчитает маршрут, как только в дне окажется два места.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil рассчитает маршрут, как только в дне окажется два места.',
   'mobileTrip.toursEmptyBody': 'Сохранённые туры появятся здесь, их можно добавить в день.',
   'mobileTrip.toursCount': '{count} тура',
   'mobileTrip.toursCount.one': '{count} тур',

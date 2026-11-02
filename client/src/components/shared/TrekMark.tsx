@@ -13,6 +13,15 @@ import React from 'react'
  * rather than its index: the viewBox then ends where the word does.
  */
 export default function TrekMark({ pill = true, ...props }: React.SVGProps<SVGSVGElement> & { pill?: boolean }): React.ReactElement {
+  // The bare word is the product identity. Keep the provider's indexed mark
+  // below unchanged so the external TREK Places API keeps its attribution.
+  if (!pill) {
+    return (
+      <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 104" fill="currentColor" role="img" aria-label="Manzil">
+        <text x="0" y="80" fontFamily="Inter,Arial,sans-serif" fontSize="84" fontWeight="750" letterSpacing="-3">Manzil</text>
+      </svg>
+    )
+  }
   return (
     <>
       <style>{`

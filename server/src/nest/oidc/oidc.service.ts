@@ -447,7 +447,7 @@ export class OidcService implements OnModuleDestroy {
         `[OIDC] User ${user.id} (${user.username}) is stored as an admin and the configured OIDC_ADMIN_CLAIM ` +
           `"${resolution.claimKey}" was not in their userinfo response, so the admin role is kept. Providers that omit a ` +
           `claim instead of sending it empty (Okta filtered groups, Entra ID) cannot take admin away this way — remove it ` +
-          `in TREK's admin panel. ${received} ${scopeHint}`,
+          `in Manzil's admin panel. ${received} ${scopeHint}`,
       );
       return;
     }

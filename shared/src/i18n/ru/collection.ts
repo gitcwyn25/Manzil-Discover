@@ -238,9 +238,9 @@ const collection: TranslationStrings = {
   'collections.file.doneSkipped.many': 'Импортировано {count} мест, пропущено: {skipped}',
   'collections.file.errorTooLarge': 'Этот файл слишком велик для списка.',
   'collections.file.errorUnreadable': 'Не удалось прочитать этот файл.',
-  'collections.file.errorNotACollection': 'Это не файл списка TREK.',
-  'collections.file.formatTrek': 'Список TREK',
-  'collections.file.formatTrekHint': 'Для другого TREK, с метками и статусом',
+  'collections.file.errorNotACollection': 'Это не файл списка Manzil.',
+  'collections.file.formatTrek': 'Список Manzil',
+  'collections.file.formatTrekHint': 'Для другого Manzil, с метками и статусом',
   'collections.file.formatGpxHint':
     'Путевые точки для OsmAnd, Organic Maps, Garmin и других картографических приложений',
   'collections.file.gpxOmitted': '{count} места без координат не попало в файл GPX',
