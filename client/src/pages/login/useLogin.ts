@@ -182,6 +182,7 @@ export function useLogin() {
           if (config) {
             setAppConfig(config)
             if (!config.has_users) setMode('register')
+            else if (!invite && !canShowRegistration(config)) setMode('login')
             // Skip auto-redirect when config is from cache — network is unreliable
             // and auto-redirecting to the IdP could loop if the proxy changed.
             if (allowRedirect && !fromCache && isOidcOnly(config) && config.has_users && !invite && !noRedirect) {
