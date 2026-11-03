@@ -128,7 +128,7 @@ describe('sw-push.js: push', () => {
   it('FE-SW-PUSH-002: a payload that is not JSON still shows, with its text as the body', async () => {
     const sw = boot();
     await fire(sw.listeners.push, { data: pushData('plain words, no JSON') });
-    expect(sw.registration.showNotification).toHaveBeenCalledWith('TREK', {
+    expect(sw.registration.showNotification).toHaveBeenCalledWith('Manzil', {
       body: 'plain words, no JSON',
       icon: '/icons/icon-192x192.png',
       data: { url: '/' },
@@ -141,7 +141,7 @@ describe('sw-push.js: push', () => {
     await fire(sw.listeners.push, { data: pushData({ title: 42, body: ['x'], tag: 7 }) });
     await fire(sw.listeners.push, { data: pushData('"just a string"') });
     for (const call of sw.registration.showNotification.mock.calls) {
-      expect(call[0]).toBe('TREK');
+      expect(call[0]).toBe('Manzil');
       expect(call[1]).toEqual({ body: '', icon: '/icons/icon-192x192.png', data: { url: '/' } });
     }
     expect(sw.registration.showNotification).toHaveBeenCalledTimes(3);

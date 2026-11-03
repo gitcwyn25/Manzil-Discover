@@ -8,6 +8,12 @@ import MDancingTrek, { type TrekScene } from '../../../src/mobile/components/MDa
 const svgOf = (container: HTMLElement) => container.querySelector('svg') as SVGSVGElement;
 
 describe('MDancingTrek', () => {
+  it('uses the Manzil arch instead of the old logo while remaining decorative', () => {
+    const { container } = render(<MDancingTrek scene="transport" />);
+    expect(container.querySelector('.manzil-mascot-mark')).toHaveAttribute('d', 'M22 68V43a22 22 0 0 1 44 0v25Z');
+    expect(svgOf(container)).toHaveAttribute('aria-hidden', 'true');
+    expect(container.querySelector('video')).toBeNull();
+  });
   it('FE-MOB-TREKM-001: the idle mascot keeps its aspect ratio and open eyes', () => {
     const { container } = render(<MDancingTrek size={88} className="mb-2" />);
     const svg = svgOf(container);

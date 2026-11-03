@@ -21,6 +21,13 @@ unchanged large public assets from the pinned upstream runtime.
 The build applies branding before compiling the frontend/shared/backend, then
 keeps the upstream runtime's document tools and supporting data assets.
 
+To publish branding independently of backend integration, build the client,
+then run `node manzil-branding/package-branding.mjs`. This release overlays the
+branded client onto the pinned upstream backend, preserves bundled assets and
+the persistent volume, and records client hashes and source commit in
+`release.json`. Set Railway's `RAILWAY_DOCKERFILE_PATH=Dockerfile` for this
+release. The full backend build continues to use `Dockerfile.manzil`.
+
 Focused local tests:
 
 ```sh
@@ -52,7 +59,7 @@ URLs and configure custom SMTP. The owner confirmed both settings. Actual
 inbox delivery still needs a user to complete an email round trip.
 
 Private uploads use the native S3 driver and the private `manzil-discover`
-bucket. Set `SUPABASE_S3_REGION` (Singapore: `ap-southeast-1`),
+bucket. The owner chose to keep its 4 MB limit. Set `SUPABASE_S3_REGION` (Singapore: `ap-southeast-1`),
 `SUPABASE_S3_ACCESS_KEY_ID`, `SUPABASE_S3_SECRET_ACCESS_KEY` and
 `SUPABASE_S3_BUCKET` in Railway only. The driver handles repeated edge headers
 and Supabase path-style requests. No storage credentials are sent to browsers.

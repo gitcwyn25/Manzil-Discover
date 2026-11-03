@@ -17,7 +17,7 @@
 (function () {
   'use strict';
 
-  var FALLBACK_TITLE = 'TREK';
+  var FALLBACK_TITLE = 'Manzil';
   var ICON = '/icons/icon-192x192.png';
   var SUBSCRIPTIONS_URL = '/api/notifications/push/subscriptions';
 
