@@ -12,6 +12,7 @@ import {
 } from '../storage.types';
 import awsLite from '@aws-lite/client';
 
+import { XMLParser } from 'fast-xml-parser';
 import fs from 'node:fs';
 import { PassThrough, Transform, type Readable } from 'node:stream';
 
@@ -81,7 +82,10 @@ export async function defaultClientFactory(opts: S3ClientOptions): Promise<S3Api
     Object.entries(plugin.methods).map(([name, value]) => {
       const method = {
         ...(value as {
-          response?: (response: { headers?: Record<string, unknown> }, ...args: unknown[]) => unknown;
+          response?: (
+            response: { headers?: Record<string, unknown>; payload?: unknown },
+            ...args: unknown[]
+          ) => unknown;
           request?: (
             params: { Bucket?: string },
             ...args: unknown[]
@@ -109,13 +113,38 @@ export async function defaultClientFactory(opts: S3ClientOptions): Promise<S3Api
         name,
         {
           ...method,
-          response(response: { headers?: Record<string, unknown> }, ...args: unknown[]) {
+          response(response: { headers?: Record<string, unknown>; payload?: unknown }, ...args: unknown[]) {
             if (response.headers)
               response.headers = Object.fromEntries(
                 Object.entries(response.headers)
                   .filter(([, header]) => header !== undefined)
                   .map(([key, header]) => [key, Array.isArray(header) ? header.join(', ') : String(header)]),
               );
+            // Some S3-compatible endpoints label control XML as octet-stream.
+            // Parse only control operations; object downloads remain byte-for-byte.
+            if (name !== 'GetObject' && (Buffer.isBuffer(response.payload) || typeof response.payload === 'string')) {
+              const text = response.payload.toString();
+              if (/^\s*(?:<\?xml[^>]*>\s*)?<\w/.test(text)) {
+                const document = new XMLParser({
+                  ignoreAttributes: true,
+                  parseTagValue: false,
+                  processEntities: false,
+                }).parse(text);
+                const root = Object.entries(document).find(([key]) => !key.startsWith('?'))?.[1];
+                if (root && typeof root === 'object') {
+                  const payload = root as Record<string, unknown>;
+                  if (payload.Contents) {
+                    const contents = Array.isArray(payload.Contents) ? payload.Contents : [payload.Contents];
+                    payload.Contents = contents.map((item) => ({
+                      ...item,
+                      Size: Number(item.Size),
+                      LastModified: new Date(item.LastModified),
+                    }));
+                  }
+                  response.payload = payload;
+                }
+              }
+            }
             return original(response, ...args);
           },
         },
