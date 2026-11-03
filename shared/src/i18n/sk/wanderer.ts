@@ -22,12 +22,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Pripojenie k wanderer odstránené',
   'wanderer.loadFailed': 'Pripojenie k wanderer sa nepodarilo načítať',
   'wanderer.privateIp':
-    'Táto adresa je v privátnej sieti. Ak sa k nej TREK nedokáže pripojiť, administrátor musí povoliť interné siete.',
+    'Táto adresa je v privátnej sieti. Ak sa k nej Manzil nedokáže pripojiť, administrátor musí povoliť interné siete.',
   'wanderer.error.disabled': 'Váš administrátor nepovolil wanderer pre túry.',
   'wanderer.error.not_connected': 'wanderer ešte nie je pripojený.',
   'wanderer.error.invalid_url': 'Táto adresa nie je platná URL inštancie wanderer.',
   'wanderer.error.blocked_address':
-    'TREK sa k tejto adrese nesmie pripojiť. Pre inštanciu vo vašej vlastnej sieti musí administrátor nastaviť ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil sa k tejto adrese nesmie pripojiť. Pre inštanciu vo vašej vlastnej sieti musí administrátor nastaviť ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'wanderer nie je dostupný. Skontrolujte adresu a či inštancia beží.',
   'wanderer.error.tls': 'Certifikát inštancie sa nepodarilo overiť. Ak je podpísaný sám sebou, povoľte ho nižšie.',
   'wanderer.error.unauthorized': 'wanderer neprijal token API. Mohol byť zrušený alebo mu vypršala platnosť.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Odpoveď neprišla z aplikácie wanderer. Skontrolujte, či adresa vedie priamo na wanderer.',
   'wanderer.error.no_author':
-    'wanderer odpovedal, ale pre účet tohto API tokenu neuvádza žiadneho autora trás, takže TREK nevie, ktoré trasy sú vaše.',
+    'wanderer odpovedal, ale pre účet tohto API tokenu neuvádza žiadneho autora trás, takže Manzil nevie, ktoré trasy sú vaše.',
   'wanderer.error.too_large': 'Súbor trasy je väčší ako 10 MB.',
   'wanderer.error.server_error': 'wanderer odpovedal chybou. Skúste to neskôr.',
   'wanderer.error.offline': 'Ste offline. V aplikácii wanderer sa dá vyhľadávať iba online.',

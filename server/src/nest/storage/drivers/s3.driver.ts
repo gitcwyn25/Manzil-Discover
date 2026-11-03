@@ -71,6 +71,57 @@ export type S3DriverOptions = Omit<S3ClientOptions, 'keepAlive'> & {
 
 /** Bare GetObject content-sniffs; streamResponsePayload is mandatory (spec, Client). */
 export async function defaultClientFactory(opts: S3ClientOptions): Promise<S3Api> {
+  const plugin = (await import('@aws-lite/s3')).default;
+  const endpoint = new URL(opts.endpoint);
+  const supabasePathStyle = endpoint.hostname.endsWith('.storage.supabase.co');
+  // Supabase's edge can send repeated Set-Cookie headers. The upstream plugin
+  // calls .match() on every header, including those unrelated to S3 metadata.
+  // Normalize the HTTP header representation before its existing parser runs.
+  const methods = Object.fromEntries(
+    Object.entries(plugin.methods).map(([name, value]) => {
+      const method = {
+        ...(value as {
+          response?: (response: { headers?: Record<string, unknown> }, ...args: unknown[]) => unknown;
+          request?: (
+            params: { Bucket?: string },
+            ...args: unknown[]
+          ) => Record<string, unknown> | void | Promise<Record<string, unknown> | void>;
+        }),
+      };
+      const request = method.request;
+      if (supabasePathStyle && request)
+        method.request = async (params, ...args) => {
+          const result = await request(params, ...args);
+          // aws-lite virtual-hosts HEAD/GET/list, but Supabase requires its fixed
+          // project host plus /storage/v1/s3/<bucket>, signed before transport.
+          if (result && params.Bucket && result.host === `${params.Bucket}.${endpoint.hostname}`) {
+            return {
+              ...result,
+              host: endpoint.hostname,
+              pathPrefix: `${endpoint.pathname.replace(/\/$/, '')}/${params.Bucket}`,
+            };
+          }
+          return result;
+        };
+      const original = method.response;
+      if (!original) return [name, method];
+      return [
+        name,
+        {
+          ...method,
+          response(response: { headers?: Record<string, unknown> }, ...args: unknown[]) {
+            if (response.headers)
+              response.headers = Object.fromEntries(
+                Object.entries(response.headers)
+                  .filter(([, header]) => header !== undefined)
+                  .map(([key, header]) => [key, Array.isArray(header) ? header.join(', ') : String(header)]),
+              );
+            return original(response, ...args);
+          },
+        },
+      ];
+    }),
+  );
   const client = await awsLite({
     accessKeyId: opts.accessKeyId,
     secretAccessKey: opts.secretAccessKey,
@@ -78,7 +129,7 @@ export async function defaultClientFactory(opts: S3ClientOptions): Promise<S3Api
     endpoint: opts.endpoint,
     retries: opts.retries,
     keepAlive: opts.keepAlive,
-    plugins: [await import('@aws-lite/s3')],
+    plugins: [{ ...plugin, methods }],
   });
   // The `/// <reference types="@aws-lite/s3-types" />` above pulls in the
   // declaration-merged `AwsLiteClient.S3` (https://aws-lite.org/using-typescript),

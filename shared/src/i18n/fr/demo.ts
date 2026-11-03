@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Démo en direct',
-  'demo.welcome.title': 'Bienvenue sur TREK',
+  'demo.welcome.title': 'Bienvenue sur Manzil',
   'demo.welcome.tagline':
     'Le planificateur de voyage à partager : planifiez ensemble sur la carte en temps réel, de la première idée au livre photo après le voyage.',
   'demo.welcome.resetTitle': 'Tout est réinitialisé chaque heure',
@@ -17,7 +17,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'Randonnées et circuits',
   'demo.feature.tours.body':
     'Tracez une randonnée sur le réseau de sentiers et suivez la en relief 3D avec son profil d’altitude.',
-  'demo.feature.studio.title': 'Livres photo avec TREK Studio',
+  'demo.feature.studio.title': 'Livres photo avec Manzil Studio',
   'demo.feature.studio.body': 'Transformez un voyage en livre photo mis en page, page après page.',
   'demo.feature.collab.title': 'Planifier ensemble en direct',
   'demo.feature.collab.body': 'Chaque participant voit chaque modification aussitôt, avec chat, notes et sondages.',
@@ -32,7 +32,7 @@ const demo: TranslationStrings = {
     'Enregistrez des lieux d’un voyage à l’autre dans vos propres listes et copiez les dans n’importe quel plan.',
   'demo.feature.offline.title': 'Fonctionne hors ligne',
   'demo.feature.offline.body':
-    'Installez TREK comme une application et gardez vos plans, cartes et listes sans connexion.',
+    'Installez Manzil comme une application et gardez vos plans, cartes et listes sans connexion.',
   'demo.welcome.limitsTitle': 'Absent de la démo',
   'demo.limit.uploads': 'Envoyer des photos, documents et couvertures',
   'demo.limit.account': 'Modifier le compte, son mot de passe ou la 2FA',

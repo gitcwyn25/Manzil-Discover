@@ -258,7 +258,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Geteilt über',
   'journey.public.madeWith': 'Erstellt mit',
   'journey.pdf.journeyBook': 'Reisebuch',
-  'journey.pdf.madeWith': 'Erstellt mit TREK',
+  'journey.pdf.madeWith': 'Erstellt mit Manzil',
   'journey.pdf.day': 'Tag',
   'journey.pdf.theEnd': 'Ende',
   'journey.pdf.saveAsPdf': 'Als PDF speichern',
@@ -285,7 +285,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     '{failed} Fotogruppen sind fehlgeschlagen, speichere erneut, um es noch einmal zu versuchen',
   'journey.picker.day': 'Dieser Tag',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Fotobuch-Studio öffnen',
   'journey.studio.backToJourney': 'Zurück zur Journey',
@@ -860,7 +860,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.stale':
     'Dawarich hat nicht geantwortet: {reason} Gezeigt werden die Aufenthalte des letzten Abgleichs vom {date}.',
   'journey.dayImport.staleNever':
-    'Dawarich hat nicht geantwortet: {reason} Gezeigt werden die Aufenthalte, die TREK schon kennt.',
+    'Dawarich hat nicht geantwortet: {reason} Gezeigt werden die Aufenthalte, die Manzil schon kennt.',
   'journey.dayImport.truncated': 'Dawarich hat nur einen Teil dieses Tages geliefert. Es können Aufenthalte fehlen.',
   'journey.dayImport.empty': 'Dawarich hat an diesem Tag keine Aufenthalte erkannt.',
   'journey.prep.lastSuccess': 'Zuletzt abgerufen {time}.',

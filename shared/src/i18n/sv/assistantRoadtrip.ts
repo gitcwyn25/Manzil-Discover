@@ -79,7 +79,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': 'Efter {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Följer {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'Raka linjer tills vidare; TREK räknar ut vägen när ändringen har tillämpats.',
+    'Raka linjer tills vidare; Manzil räknar ut vägen när ändringen har tillämpats.',
   'assistant.card.roadtrip.dayEnd.at': 'Dagen slutar vid {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Dagen slutar efter {percent} % av körningen från {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'Dagen slutar automatiskt igen',

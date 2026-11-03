@@ -63,7 +63,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Te dane ustawia się na komputerze, gdzie możesz też porównywać warianty trasy i sprawić, by dzień podążał za zaimportowanym śladem.',
   'mobileTrip.planOnDesktop': 'Planowanie na komputerze',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK wylicza przejazd, gdy dzień ma dwa miejsca.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil wylicza przejazd, gdy dzień ma dwa miejsca.',
   'mobileTrip.toursEmptyBody': 'Zapisane wycieczki pojawią się tutaj i można je dodać do dnia.',
   'mobileTrip.toursCount': '{count} wycieczki',
   'mobileTrip.toursCount.one': '{count} wycieczka',

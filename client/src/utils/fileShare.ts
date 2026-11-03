@@ -33,7 +33,7 @@ export function canShareText(): boolean {
   // A browser without `canShare` predates the file question and shares text and links.
   if (typeof navigator.canShare !== 'function') return true;
   try {
-    return navigator.canShare({ title: 'TREK', text: 'TREK' });
+    return navigator.canShare({ title: 'Manzil', text: 'Manzil' });
   } catch {
     return false;
   }

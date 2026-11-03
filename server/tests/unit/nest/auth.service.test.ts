@@ -995,6 +995,19 @@ describe('loginUser — credential branches', () => {
     expect(row.last_login).not.toBeNull();
   });
 
+  it('Supabase identities cannot bypass provider MFA through native password login; local MFA still gates exchange', async () => {
+    const { user, password } = createUser(testDb);
+    vi.stubEnv('SUPABASE_URL', 'https://wfabehnihelxemztmvca.supabase.co');
+    try {
+      await updateRows(orm, Users, { id: user.id }, { oidc_sub: 'provider-subject',
+        oidc_issuer: 'https://wfabehnihelxemztmvca.supabase.co/auth/v1', mfa_enabled: 1 });
+      expect((await svc.loginUser({ email: user.email, password })).status).toBe(401);
+      const exchanged = await svc.completeExternalLogin(user.id);
+      expect(exchanged).toHaveProperty('mfa_required', true);
+      expect(exchanged).not.toHaveProperty('token');
+    } finally { vi.unstubAllEnvs(); }
+  });
+
   it("AUTH-DB-062b: forwards the caller's remember choice into the minted token (T4, task-5-review-template.md; unit-level pin, not only the e2e)", async () => {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     const jwt = require('jsonwebtoken');

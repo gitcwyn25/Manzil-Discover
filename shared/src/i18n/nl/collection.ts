@@ -195,7 +195,7 @@ const collection: TranslationStrings = {
   'collections.file.errorUnreadable': 'Dit bestand kon niet worden gelezen.',
   'collections.file.errorNotACollection': 'Dit is geen TREK-lijstbestand.',
   'collections.file.formatTrek': 'TREK-lijst',
-  'collections.file.formatTrekHint': 'Voor een andere TREK, met labels en status',
+  'collections.file.formatTrekHint': 'Voor een andere Manzil, met labels en status',
   'collections.file.formatGpxHint': 'Waypoints voor OsmAnd, Organic Maps, Garmin en andere kaart-apps',
   'collections.file.gpxOmitted': '{count} plekken zonder coördinaten zijn niet in het GPX-bestand opgenomen',
   'collections.file.gpxOmitted.one': '{count} plek zonder coördinaten is niet in het GPX-bestand opgenomen',

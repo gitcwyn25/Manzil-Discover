@@ -186,7 +186,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nové údaje o mieste',
   'places.refresh.title': 'Aktualizovať údaje o mieste',
   'places.refresh.intro':
-    'TREK pozná novšie údaje o tomto mieste. Vyberte, čo chcete prevziať, zvyšok zostane bez zmeny. Potom miesto uložte.',
+    'Manzil pozná novšie údaje o tomto mieste. Vyberte, čo chcete prevziať, zvyšok zostane bez zmeny. Potom miesto uložte.',
   'places.refresh.apply': 'Prevziať',
   'places.refresh.replaces': 'Nahradí aktuálne uloženú hodnotu',
   'places.refresh.empty': 'prázdne',

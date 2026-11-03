@@ -10,6 +10,7 @@ import { getApiErrorMessage } from '../../types'
 import { START_DESTINATION_ROUTE } from '../../utils/startDestination'
 import { passwordErrorKey } from '../../utils/passwordError'
 import { canShowRegistration, requestedLoginMode, type LoginMode } from './registrationPolicy'
+import { signInSupabase, signUpSupabase, exchangeSupabaseSession, verifySupabaseMfa, SupabaseMfaRequired, type SupabaseConfig, type ExchangeResult } from '../../api/supabaseAuth'
 
 interface AppConfig {
   has_users: boolean
@@ -27,6 +28,7 @@ interface AppConfig {
   passkey_login?: boolean
   passkey_configured?: boolean
   env_override_oidc_only: boolean
+  supabase?: SupabaseConfig | null
 }
 
 const CONFIG_CACHE_KEY = 'trek_app_config_cache'
@@ -64,6 +66,9 @@ export function useLogin() {
   const [showPassword, setShowPassword] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [error, setError] = useState<string>('')
+  const [notice, setNotice] = useState('')
+  const [supabaseFactor, setSupabaseFactor] = useState('')
+  const nativeLogin = new URLSearchParams(window.location.search).get('auth') === 'local'
   // Set when the server signals it just issued a Secure cookie over plain HTTP —
   // the browser drops it, so we explain the fix instead of a bare 401 later.
   const [insecureCookie, setInsecureCookie] = useState(false)
@@ -162,6 +167,7 @@ export function useLogin() {
     const invite = params.get('invite')
     const oidcCode = params.get('oidc_code')
     const oidcError = params.get('oidc_error')
+    const supabaseCallback = !nativeLogin && (params.get('auth_callback') === '1' || window.location.hash.includes('access_token='))
 
     // Also after a failed sign-in at the IdP, only then without the redirect: an
     // OIDC-only instance has to show its own screen and the error, not a password
@@ -182,7 +188,15 @@ export function useLogin() {
           if (config) {
             setAppConfig(config)
             if (!config.has_users) setMode('register')
-            else if (!invite && !canShowRegistration(config)) setMode('login')
+            else if ((nativeLogin && config.supabase) || (!invite && !canShowRegistration(config))) setMode('login')
+            if (config.supabase && supabaseCallback && !fromCache) {
+              exchangeInitiated.current = true
+              setIsLoading(true)
+              exchangeSupabaseSession(config.supabase, false, invite || undefined)
+                .then(async result => { await finishSupabase(result) })
+                .catch(handleProviderError)
+                .finally(() => setIsLoading(false))
+            }
             // Skip auto-redirect when config is from cache — network is unreliable
             // and auto-redirecting to the IdP could loop if the proxy changed.
             if (allowRedirect && !fromCache && isOidcOnly(config) && config.has_users && !invite && !noRedirect) {
@@ -202,7 +216,7 @@ export function useLogin() {
       }).catch(() => {
         setError(t('login.invalidInviteLink'))
       })
-      window.history.replaceState({}, '', window.location.pathname)
+      window.history.replaceState({}, '', window.location.pathname + window.location.hash)
     }
 
     if (oidcCode) {
@@ -315,6 +329,7 @@ export function useLogin() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault()
     setError('')
+    setNotice('')
     setInsecureCookie(false)
     setIsLoading(true)
     try {
@@ -326,6 +341,12 @@ export function useLogin() {
         await authApi.changePassword({ current_password: savedLoginPassword, new_password: newPassword })
         await loadUser({ silent: true })
         takeOff()
+        return
+      }
+      if (mode === 'login' && mfaStep && supabaseFactor && appConfig?.supabase && !nativeLogin) {
+        const result = await verifySupabaseMfa(appConfig.supabase, supabaseFactor, mfaCode, rememberMe, inviteToken || undefined)
+        setSupabaseFactor('')
+        await finishSupabase(result)
         return
       }
       if (mode === 'login' && mfaStep) {
@@ -342,6 +363,25 @@ export function useLogin() {
           return
         }
         takeOff()
+        return
+      }
+      if (appConfig?.supabase && !nativeLogin) {
+        if (mode === 'register') {
+          if (!username.trim()) { setError(t('login.usernameRequired')); setIsLoading(false); return }
+          const weak = passwordErrorKey(password)
+          if (weak) { setError(t(weak)); setIsLoading(false); return }
+          const result = await signUpSupabase(appConfig.supabase, username, email, password, inviteToken || undefined)
+          if (!result) {
+            setNotice('Check your email to confirm your Manzil account, then sign in.')
+            setPassword('')
+            setMode('login')
+            setIsLoading(false)
+            return
+          }
+          await finishSupabase(result)
+        } else {
+          await finishSupabase(await signInSupabase(appConfig.supabase, email, password, rememberMe, inviteToken || undefined))
+        }
         return
       }
       if (mode === 'register') {
@@ -374,12 +414,30 @@ export function useLogin() {
       }
       takeOff()
     } catch (err: unknown) {
-      setError(getApiErrorMessage(err, t('login.error')))
+      handleProviderError(err)
       setIsLoading(false)
     }
   }
 
-  const showRegisterOption = canShowRegistration(appConfig, inviteValid)
+  const showRegisterOption = !(nativeLogin && appConfig?.supabase) && canShowRegistration(appConfig, inviteValid)
+
+  function handleProviderError(error: unknown) {
+    if (error instanceof SupabaseMfaRequired) {
+      setSupabaseFactor(error.factorId); setMfaStep(true); setMode('login'); setMfaCode(''); setError('')
+    } else setError(getApiErrorMessage(error, error instanceof Error ? error.message : t('login.error')))
+    setIsLoading(false)
+  }
+
+  async function finishSupabase(result: ExchangeResult) {
+    if (result.mfa_required && result.mfa_token) {
+      setSupabaseFactor(''); setMfaToken(result.mfa_token); setMfaStep(true); setMode('login'); setMfaCode(''); setIsLoading(false)
+      return
+    }
+    await loadUser({ silent: true, newSession: true })
+    if (!useAuthStore.getState().isAuthenticated) throw new Error('Unable to open your secure session. Please sign in again.')
+    window.history.replaceState({}, '', '/login')
+    takeOff()
+  }
 
   // In OIDC-only mode, show a minimal page that redirects directly to the IdP
   const oidcOnly = !appConfig?.password_login && appConfig?.oidc_login && appConfig?.oidc_configured
@@ -388,7 +446,7 @@ export function useLogin() {
     navigate,
     mode, setMode,
     username, setUsername, email, setEmail, password, setPassword, rememberMe, setRememberMe, showPassword, setShowPassword,
-    isLoading, error, setError, insecureCookie, appConfig, inviteToken,
+    isLoading, error, setError, notice, nativeLogin, insecureCookie, appConfig, inviteToken,
     langDropdownOpen, setLangDropdownOpen, setLanguageLocal,
     showTakeoff, mfaStep, setMfaStep, mfaToken, setMfaToken, mfaCode, setMfaCode,
     passwordChangeStep, newPassword, setNewPassword, confirmPassword, setConfirmPassword,

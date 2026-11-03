@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Αυτά τα στοιχεία ορίζονται στον υπολογιστή, όπου μπορείτε επίσης να συγκρίνετε άλλες διαδρομές και να κάνετε μια ημέρα να ακολουθεί ένα εισαγόμενο ίχνος.',
   'mobileTrip.planOnDesktop': 'Σχεδιάζεται στον υπολογιστή',
-  'mobileTrip.rtDriveOnTwoPlaces': 'Το TREK υπολογίζει τη διαδρομή μόλις μια ημέρα έχει δύο μέρη.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Το Manzil υπολογίζει τη διαδρομή μόλις μια ημέρα έχει δύο μέρη.',
   'mobileTrip.toursEmptyBody': 'Οι αποθηκευμένες εκδρομές εμφανίζονται εδώ, έτοιμες να μπουν σε μια ημέρα.',
   'mobileTrip.toursCount': '{count} εκδρομές',
   'mobileTrip.toursCount.one': '{count} εκδρομή',

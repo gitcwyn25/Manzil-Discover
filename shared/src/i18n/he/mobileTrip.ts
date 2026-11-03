@@ -60,7 +60,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'נתונים אלה נקבעים במחשב, שם אפשר גם להשוות חלופות מסלול ולגרום ליום לעקוב אחר מסלול מיובא.',
   'mobileTrip.planOnDesktop': 'תוכנן במחשב',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK יחשב את הנסיעה כשיהיו ביום שני מקומות.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil יחשב את הנסיעה כשיהיו ביום שני מקומות.',
   'mobileTrip.toursEmptyBody': 'מסלולים שמורים יופיעו כאן, מוכנים לשיבוץ ביום.',
   'mobileTrip.toursCount': '{count} מסלולים',
   'mobileTrip.toursCount.one': 'מסלול אחד',

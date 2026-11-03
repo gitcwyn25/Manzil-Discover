@@ -1,7 +1,7 @@
 import type { TranslationStrings } from '../types';
 
 const system_notice: TranslationStrings = {
-  'system_notice.welcome_v1.title': 'Willkommen bei TREK',
+  'system_notice.welcome_v1.title': 'Willkommen bei Manzil',
   'system_notice.welcome_v1.body':
     'Dein All-in-one-Reiseplaner. Erstelle Reisepläne, teile sie mit Freunden und bleib organisiert – online und offline.',
   'system_notice.welcome_v1.cta_label': 'Reise planen',
@@ -12,7 +12,7 @@ const system_notice: TranslationStrings = {
   'system_notice.dev_test_modal.title': '[Dev] Testhinweis',
   'system_notice.dev_test_modal.body': 'Dies ist ein Testhinweis nur für Entwickler.',
   // Dankeschön + Projektunterstützung (1x pro Installation und pro Update)
-  'system_notice.thank_you_support.title': 'Danke, dass du TREK nutzt',
+  'system_notice.thank_you_support.title': 'Danke, dass du Manzil nutzt',
   'system_notice.thank_you_support.body':
     'Ein kurzes Dankeschön, dass du TREK installiert hast — das bedeutet mir wirklich viel.\n\nIch bin Solo-Entwickler und baue TREK in meiner Freizeit. Angefangen hat alles als kleines Tool nur für meine eigenen Reisen, und ich bin ehrlich überwältigt von der Unterstützung und dem Interesse der Community seitdem. In TREK steckt viel Herzblut von meiner Seite — aber auch viele großartige externe Mitwirkende haben es mitgeprägt.\n\n**TREK ist Open Source und vollständig kostenlos — und das bleibt für immer so. Keine Paid Tiers, keine Abos, kein Haken. Versprochen.**\n\nWenn TREK dir nützt und du die Entwicklung unterstützen möchtest, hilft mir ein kleiner Kaffee wirklich beim Weitermachen — überhaupt kein Druck, aber jede Tasse trägt durch die langen Nächte.\n\nDanke, dass du dabei bist.\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '100% Open Source auf GitHub',
@@ -27,7 +27,7 @@ const system_notice: TranslationStrings = {
   'system_notice.pager.position': 'Meldung {current} von {total}',
   'system_notice.v3_photos.title': 'Fotos wurden in 3.0 verschoben',
   'system_notice.v3_photos.body':
-    '**Fotos** im Trip-Planer wurden entfernt. Deine Fotos sind sicher — TREK hat deine Immich- oder Synology-Bibliothek nie verändert.\n\nFotos befinden sich jetzt im **Journey**-Addon. Journey ist optional — falls es noch nicht verfügbar ist, bitte deinen Admin, es unter Admin → Addons zu aktivieren.',
+    '**Fotos** im Trip-Planer wurden entfernt. Deine Fotos sind sicher — Manzil hat deine Immich- oder Synology-Bibliothek nie verändert.\n\nFotos befinden sich jetzt im **Journey**-Addon. Journey ist optional — falls es noch nicht verfügbar ist, bitte deinen Admin, es unter Admin → Addons zu aktivieren.',
   'system_notice.v3_journey.title': 'Neu: Journey — dein Reisetagebuch',
   'system_notice.v3_journey.body':
     'Dokumentiere deine Reisen als lebendige Geschichten mit Zeitachsen, Fotogalerien und interaktiven Karten.',
@@ -59,7 +59,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'Update installiert',
   'system_notice.release_notes.headline': 'Der richtige Ort, zuerst.',
   'system_notice.release_notes.intro':
-    'Ortssuche, Adresssuche und Routing laufen jetzt auf TREKs eigenen Servern, gesponsert von dataforest cloud, und jedes TREK kann sein Wissen über Orte mit allen anderen teilen.',
+    'Ortssuche, Adresssuche und Routing laufen jetzt auf TREKs eigenen Servern, gesponsert von dataforest cloud, und jedes Manzil kann sein Wissen über Orte mit allen anderen teilen.',
   'system_notice.release_notes.features_label': 'Die Highlights',
   'system_notice.release_notes.features_aside': 'Längst nicht alles',
   'system_notice.release_notes.feature_search_title': 'Ortssuche, die trifft',
@@ -67,18 +67,18 @@ const system_notice: TranslationStrings = {
     'Städte, Inseln, Sehenswürdigkeiten und Flughäfen per Code stehen oben, Cafés kommen aus deiner Nähe, und Vorschläge erscheinen schon beim Tippen.',
   'system_notice.release_notes.feature_share_title': 'Ortsdetails, geteilt',
   'system_notice.release_notes.feature_share_body':
-    'Teile Websites, Öffnungszeiten und Fotos Feld für Feld mit jedem TREK, und deine gespeicherten Orte übernehmen, was andere ergänzt haben.',
+    'Teile Websites, Öffnungszeiten und Fotos Feld für Feld mit jedem Manzil, und deine gespeicherten Orte übernehmen, was andere ergänzt haben.',
   'system_notice.release_notes.feature_routing_title': 'Schnelleres Routing',
   'system_notice.release_notes.feature_routing_body':
     'Ein ganzer Tag wird mit bis zu zwanzig Stopps in einem Zug berechnet, eine langsame Route hält den Rest nicht mehr auf, und ÖPNV fragt einen zweiten Anbieter, wenn der erste nichts findet.',
-  'system_notice.release_notes.footnote': 'Dazu kommt eine lange Liste kleinerer Änderungen überall sonst in TREK.',
+  'system_notice.release_notes.footnote': 'Dazu kommt eine lange Liste kleinerer Änderungen überall sonst in Manzil.',
   'system_notice.release_notes.notes_label': 'Release Notes',
   'system_notice.release_notes.note_eyebrow': 'Ein Wort vom Maintainer',
-  'system_notice.release_notes.note_title': 'Du bist der Grund, warum ich TREK weiterbaue.',
+  'system_notice.release_notes.note_title': 'Du bist der Grund, warum ich Manzil weiterbaue.',
   'system_notice.release_notes.note_body':
-    'TREK hat als kleines Tool für meine eigenen Reisen angefangen, geschrieben nach Feierabend, weil ich sie besser planen wollte. Aufgehört zu wachsen hat es eigentlich nie. Fast alles, was du nutzt, ist spät in der Nacht entstanden, am Wochenende, im Zug, neben einem Vollzeitjob, und an so manchem Abend habe ich mich still gefragt, ob es da draußen überhaupt jemals jemand öffnen würde.',
+    'Manzil hat als kleines Tool für meine eigenen Reisen angefangen, geschrieben nach Feierabend, weil ich sie besser planen wollte. Aufgehört zu wachsen hat es eigentlich nie. Fast alles, was du nutzt, ist spät in der Nacht entstanden, am Wochenende, im Zug, neben einem Vollzeitjob, und an so manchem Abend habe ich mich still gefragt, ob es da draußen überhaupt jemals jemand öffnen würde.',
   'system_notice.release_notes.promise_label': 'Das Versprechen',
-  'system_notice.release_notes.promise_lead': 'TREK bleibt kostenlos, für immer.',
+  'system_notice.release_notes.promise_lead': 'Manzil bleibt kostenlos, für immer.',
   'system_notice.release_notes.promise_text':
     'Jede Funktion, jedes Update, für alle. Keine Paid Tiers, keine Abos, kein Haken.',
   'system_notice.release_notes.note_body_after':

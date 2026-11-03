@@ -210,7 +210,7 @@ const budget: TranslationStrings = {
   'costs.receiptLeftBehind.one': 'A mentés nem sikerült, és a feltöltött nyugta még ott van. Töröld a Fájlok fülön.',
   'costs.receiptsNeedConnection':
     'A nyugták feltöltéséhez kapcsolat kell. Távolítsd el az újakat, hogy offline mentsd a kiadást, vagy ments, amikor újra online vagy.',
-  'costs.paymentQueued': 'Offline vagy. A fizetés el van mentve, és megjelenik, amint a TREK újra online lesz.',
+  'costs.paymentQueued': 'Offline vagy. A fizetés el van mentve, és megjelenik, amint a Manzil újra online lesz.',
   'costs.confirm.deleteBodyReceipts': 'A(z) "{name}" véglegesen törlődik. A nyugtafájlok a Fájlok között megmaradnak.',
 };
 export default budget;

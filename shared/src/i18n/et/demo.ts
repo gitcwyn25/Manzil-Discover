@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Päevad, kohad ja marsruudid kaardil, koos lendude, hotellide, restoranide, broneeringute ja jagatud kuludega.',
   'demo.feature.tours.title': 'Matkad ja retked',
   'demo.feature.tours.body': 'Planeeri matk radade võrgustikus ja jälgi seda 3D maastikul koos kõrgusprofiiliga.',
-  'demo.feature.studio.title': 'Fotoraamatud TREK Studios',
+  'demo.feature.studio.title': 'Fotoraamatud Manzil Studios',
   'demo.feature.studio.body': 'Muuda reis lehekülg lehekülje haaval kujundatud fotoraamatuks.',
   'demo.feature.collab.title': 'Planeerige koos otse',
   'demo.feature.collab.body': 'Kõik reisil näevad iga muudatust kohe, koos vestluse, märkmete ja küsitlustega.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body': 'Salvesta kohti eri reisidelt oma nimekirjadesse ja kopeeri need mis tahes plaani.',
   'demo.feature.offline.title': 'Töötab võrguta',
   'demo.feature.offline.body':
-    'Paigalda TREK rakendusena ja hoia plaanid, kaardid ja nimekirjad käepärast ka ilma ühenduseta.',
+    'Paigalda Manzil rakendusena ja hoia plaanid, kaardid ja nimekirjad käepärast ka ilma ühenduseta.',
   'demo.welcome.limitsTitle': 'Demos puudub',
   'demo.limit.uploads': 'Fotode, dokumentide ja kaanepiltide üleslaadimine',
   'demo.limit.account': 'Konto, parooli või 2FA muutmine',

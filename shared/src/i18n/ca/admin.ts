@@ -99,13 +99,13 @@ const admin: TranslationStrings = {
     "Els usuaris sense 2FA han de completar la configuració a Ajustos abans d'utilitzar l'aplicació.",
   'admin.apiKeys': 'Claus API',
   'admin.apiKeysHint':
-    "D'on vénen les dades de llocs. L'índex de TREK no necessita clau; els dos proveïdors de sota són opcionals.",
+    "D'on vénen les dades de llocs. L'índex de Manzil no necessita clau; els dos proveïdors de sota són opcionals.",
   'admin.trekApi.badgeDefault': 'Font recomanada per defecte',
   'admin.googleCaveat.badge': 'No recomanat',
   'admin.googleCaveat.body':
-    "TREK és programari lliure i aquí no som neutrals. En aquesta escala, les valoracions i les fotos de negocis corrents només existeixen a Google, i això és un monopoli. El camp hi és per manca d'alternativa, no perquè el recomanem. Llavors cada consulta va a Google.",
+    "Manzil és programari lliure i aquí no som neutrals. En aquesta escala, les valoracions i les fotos de negocis corrents només existeixen a Google, i això és un monopoli. El camp hi és per manca d'alternativa, no perquè el recomanem. Llavors cada consulta va a Google.",
   'admin.trekApi.tagline':
-    "Els serveis propis de TREK: cerca de llocs, cerca d'adreces i rutes, sense clau de Google i sense haver d'introduir cap clau. Cada instal·lació rep una quota diària justa, i només es compta el nombre de sol·licituds.",
+    "Els serveis propis de Manzil: cerca de llocs, cerca d'adreces i rutes, sense clau de Google i sense haver d'introduir cap clau. Cada instal·lació rep una quota diària justa, i només es compta el nombre de sol·licituds.",
   'admin.trekApi.factPlaces': '73,6 milions de llocs al món',
   'admin.trekApi.factNoKey': 'Cap clau per introduir, quota diària justa',
   'admin.trekApi.factOffline': 'Els paquets per país funcionen sense connexió',
@@ -173,7 +173,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Clau API de Google Maps',
   'admin.mapsKeyHint': 'Obligatòria per cercar llocs. Aconsegueix-la a console.cloud.google.com',
   'admin.mapsKeyHintLong':
-    "Sense clau d'API de Google s'utilitza l'API de TREK recomanada. Amb una clau es poden carregar a més fotos, valoracions i horaris. Crea-la a console.cloud.google.com.",
+    "Sense clau d'API de Google s'utilitza l'API de Manzil recomanada. Amb una clau es poden carregar a més fotos, valoracions i horaris. Crea-la a console.cloud.google.com.",
   'admin.recommended': 'Recomanat',
   'admin.weatherKey': "Clau API d'OpenWeatherMap",
   'admin.weatherKeyHint': 'Per a dades meteorològiques. Gratuït a openweathermap.org',
@@ -208,14 +208,14 @@ const admin: TranslationStrings = {
     "Mostra imatges i una descripció en afegir un lloc. Wikipedia i OpenStreetMap s'usen sempre; Google s'hi afegeix si Fotos de llocs o Detalls de llocs estan actius.",
   'admin.placesGoogleOnly.title': 'Cercar només amb Google',
   'admin.placesGoogleOnly.subtitle':
-    "Cada cerca i cada suggeriment van a Google Places. Desactivat, responen primer l'índex de TREK i OpenStreetMap, i Google només es consulta si no troben res.",
+    "Cada cerca i cada suggeriment van a Google Places. Desactivat, responen primer l'índex de Manzil i OpenStreetMap, i Google només es consulta si no troben res.",
   'admin.placesGoogleOnly.missingKey':
-    "Cal una clau d'API de Google Maps. Sense clau, la cerca fa servir l'índex de TREK i OpenStreetMap, sigui com sigui aquest interruptor.",
+    "Cal una clau d'API de Google Maps. Sense clau, la cerca fa servir l'índex de Manzil i OpenStreetMap, sigui com sigui aquest interruptor.",
   'admin.placesGoogleOnly.otherProvider':
     'Necessita Google com a proveïdor de llocs. Amb Amap o OpenStreetMap seleccionats, cap cerca va a Google, digui el que digui aquest interruptor.',
   'admin.googleQuota.title': 'Límit diari de crides a Google',
   'admin.googleQuota.subtitle':
-    "Quan s'arriba al límit, TREK deixa de cridar Google fins l'endemà (UTC) i cerca amb OpenStreetMap. Buit vol dir sense límit.",
+    "Quan s'arriba al límit, Manzil deixa de cridar Google fins l'endemà (UTC) i cerca amb OpenStreetMap. Buit vol dir sense límit.",
   'admin.googleQuota.placeholder': 'Sense límit',
   'admin.googleQuota.usedToday': 'Avui: {used}',
   'admin.googleQuota.usedOfLimit': 'Avui: {used} de {limit}',
@@ -278,7 +278,7 @@ const admin: TranslationStrings = {
   'admin.packingTemplates.saveError': 'Error en desar',
   'admin.tabs.addons': 'Complements',
   'admin.addons.title': 'Complements',
-  'admin.addons.subtitle': 'Activa o desactiva funcions per personalitzar la teva experiència a TREK.',
+  'admin.addons.subtitle': 'Activa o desactiva funcions per personalitzar la teva experiència a Manzil.',
   'admin.addons.subtitleBefore': 'Activa o desactiva funcions per personalitzar la teva experiència a ',
   'admin.addons.subtitleAfter': '.',
   'admin.addons.catalog.naver_list_import.name': 'Importació de llistes de Naver',
@@ -337,7 +337,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Dades meteorològiques',
   'admin.weather.badge': 'Des del 24 de març de 2026',
   'admin.weather.description':
-    'TREK utilitza Open-Meteo com a font de dades meteorològiques. Open-Meteo és un servei meteorològic gratuït i de codi obert: no requereix clau API.',
+    'Manzil utilitza Open-Meteo com a font de dades meteorològiques. Open-Meteo és un servei meteorològic gratuït i de codi obert: no requereix clau API.',
   'admin.weather.forecast': 'Pronòstic de 16 dies',
   'admin.weather.forecastDesc': 'Abans eren 5 dies (OpenWeatherMap)',
   'admin.weather.climate': 'Dades climàtiques històriques',
@@ -395,16 +395,16 @@ const admin: TranslationStrings = {
   'admin.github.hideDetails': 'Amagar detalls',
   'admin.github.loadMore': 'Carregar més',
   'admin.github.loading': 'Carregant...',
-  'admin.github.support': 'Ajuda a continuar desenvolupant TREK',
+  'admin.github.support': 'Ajuda a continuar desenvolupant Manzil',
   'admin.github.error': "No s'han pogut carregar les versions",
   'admin.github.by': 'per',
   'admin.update.available': 'Actualització disponible',
-  'admin.update.text': 'TREK {version} està disponible. Estàs utilitzant {current}.',
+  'admin.update.text': 'Manzil {version} està disponible. Estàs utilitzant {current}.',
   'admin.update.button': 'Veure a GitHub',
   'admin.update.install': 'Instal·lar actualització',
   'admin.update.confirmTitle': "Vols instal·lar l'actualització?",
   'admin.update.confirmText':
-    "TREK s'actualitzarà de {current} a {version}. Després, el servidor es reiniciarà automàticament.",
+    "Manzil s'actualitzarà de {current} a {version}. Després, el servidor es reiniciarà automàticament.",
   'admin.update.dataInfo':
     'Totes les teves dades (viatges, usuaris, claus API, pujades, Vacay, Atlas, pressupostos) es conservaran.',
   'admin.update.warning': "L'aplicació estarà breument no disponible durant el reinici.",
@@ -416,10 +416,10 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Anar a Còpia de seguretat',
   'admin.update.howTo': 'Com actualitzar',
   'admin.update.dockerText':
-    "La teva instància de TREK s'executa en Docker. Per actualitzar a {version}, executa les següents ordres al teu servidor:",
+    "La teva instància de Manzil s'executa en Docker. Per actualitzar a {version}, executa les següents ordres al teu servidor:",
   'admin.update.reloadHint': 'Recarrega la pàgina en uns segons.',
   'admin.update.nonDockerText':
-    "Aquesta instància de TREK no s'executa amb Docker. Per actualitzar a {version}, torna a executar el mètode d'instal·lació o actualització que vas fer servir — per exemple, a Proxmox Community Scripts executa l'actualització des de la consola LXC:",
+    "Aquesta instància de Manzil no s'executa amb Docker. Per actualitzar a {version}, torna a executar el mètode d'instal·lació o actualització que vas fer servir — per exemple, a Proxmox Community Scripts executa l'actualització des de la consola LXC:",
   'admin.update.wikiLink': "Obre la guia d\\'actualització",
   'admin.addons.catalog.memories.name': 'Fotos (Immich)',
   'admin.addons.catalog.memories.description': "Comparteix fotos de viatge a través de la teva instància d'Immich",
@@ -456,7 +456,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    "Permet als usuaris rebre notificacions als telèfons i ordinadors a través del navegador, fins i tot amb TREK tancat. Cal HTTPS; a l'iPhone i l'iPad, TREK s'ha d'afegir a la pantalla d'inici.",
+    "Permet als usuaris rebre notificacions als telèfons i ordinadors a través del navegador, fins i tot amb Manzil tancat. Cal HTTPS; a l'iPhone i l'iPad, Manzil s'ha d'afegir a la pantalla d'inici.",
   'admin.notifications.inappPanel.title': 'In-App',
   'admin.notifications.inappPanel.hint':
     'Les notificacions in-app sempre estan actives i no es poden desactivar globalment.',
@@ -553,13 +553,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': 'Definida mitjançant {name}',
   'admin.placesProvider.title': 'Proveïdor de la cerca de llocs',
   'admin.placesProvider.subtitle':
-    "L'índex propi de TREK i OpenStreetMap responen cada cerca. Aquí es tria a qui més es consulta quan no troben res: Automàtic prefereix Google si hi ha clau, després Amap.",
+    "L'índex propi de Manzil i OpenStreetMap responen cada cerca. Aquí es tria a qui més es consulta quan no troben res: Automàtic prefereix Google si hi ha clau, després Amap.",
   'admin.placesProvider.auto': 'Automàtic',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    "El proveïdor seleccionat no té cap clau d'API configurada, així que la cerca de llocs la responen només l'índex de TREK i OpenStreetMap.",
+    "El proveïdor seleccionat no té cap clau d'API configurada, així que la cerca de llocs la responen només l'índex de Manzil i OpenStreetMap.",
   'admin.placesProvider.saved': 'Proveïdor de la cerca de llocs desat',
   'admin.tabs.plugins': 'Connectors',
   'admin.tabs.storage': 'Emmagatzematge',
@@ -645,7 +645,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Repositori de codi',
   'admin.plugins.reportIssue': "Informar d'un problema",
   'admin.plugins.homepage': 'Lloc web',
-  'admin.plugins.requiresTrek': 'Requereix TREK {version}+',
+  'admin.plugins.requiresTrek': 'Requereix Manzil {version}+',
   'admin.plugins.reviewedOn': 'Verificat el {date}',
   'admin.plugins.perm.db:own': 'Desar les seves pròpies dades en una base de dades aïllada',
   'admin.plugins.perm.db:read:trips': "Llegir els viatges als quals té accés l'usuari actiu",
@@ -714,7 +714,7 @@ const admin: TranslationStrings = {
     'Aportar detalls addicionals (ressenyes, valoracions, enllaços) a un lloc',
   'admin.plugins.perm.hook:map-layer-provider': 'Dibuixar rutes, corredors i zones al mapa del viatge',
   'admin.plugins.perm.hook:search-provider':
-    "Respondre cerques de llocs des d'un índex propi, al costat dels resultats de TREK",
+    "Respondre cerques de llocs des d'un índex propi, al costat dels resultats de Manzil",
   'admin.plugins.perm.hook:poi-category-provider':
     'Afegir categories de llocs pròpies a «Explora llocs al mapa»; triar-ne una envia al connector la zona del mapa que estàs mirant',
   'admin.plugins.perm.hook:trip-warning-provider':
@@ -737,7 +737,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     "Publicar eines que un assistent d'IA pot executar en nom teu (actua amb els permisos que concedeixes aquí al connector, no amb els seus)",
   'admin.plugins.perm.geolocation:read':
-    "Consultar la teva ubicació en temps real mentre una de les seves vistes és oberta (el TREK la llegeix amb el permís d'ubicació d'aquest lloc, no amb un permís propi del connector)",
+    "Consultar la teva ubicació en temps real mentre una de les seves vistes és oberta (el Manzil la llegeix amb el permís d'ubicació d'aquest lloc, no amb un permís propi del connector)",
   'admin.plugins.perm.hook:pdf-section-provider': "Afegir seccions de text a l'exportació en PDF del viatge",
   'admin.plugins.perm.hook:atlas-layer-provider':
     "Destacar països al mapa del món de l'Atles (p. ex. llistes de desitjos o avisos de viatge)",
@@ -768,26 +768,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Deixar-lo desactivat de moment',
   'admin.plugins.updateKeptOff': 'Actualització instal·lada — es deixa desactivada fins que aprovis els permisos nous',
   'admin.plugins.reviewedMeaning':
-    '"Verificat" significa que un mantenidor de TREK ha analitzat aquest connector a la recerca de programari maliciós en cada versió, no la seva qualitat ni si funciona. No és cap garantia que un connector sigui inofensiu.',
+    '"Verificat" significa que un mantenidor de Manzil ha analitzat aquest connector a la recerca de programari maliciós en cada versió, no la seva qualitat ni si funciona. No és cap garantia que un connector sigui inofensiu.',
   'admin.plugins.security.title': 'Com es contenen els connectors — i els límits',
   'admin.plugins.security.isolationTitle': "Cada connector s'executa aïllat",
   'admin.plugins.security.isolationBody':
-    "Un connector s'executa com el seu propi procés blindat que només pot llegir els seus propis fitxers. No pot llegir la teva base de dades, el teu secret d'inici de sessió ni la teva clau de xifratge, no pot iniciar altres programes i no pot escriure fitxers enlloc. La seva interfície s'executa en un marc de navegador segellat que no pot llegir la teva galeta de sessió ni tocar la pàgina de TREK que l'envolta.",
+    "Un connector s'executa com el seu propi procés blindat que només pot llegir els seus propis fitxers. No pot llegir la teva base de dades, el teu secret d'inici de sessió ni la teva clau de xifratge, no pot iniciar altres programes i no pot escriure fitxers enlloc. La seva interfície s'executa en un marc de navegador segellat que no pot llegir la teva galeta de sessió ni tocar la pàgina de Manzil que l'envolta.",
   'admin.plugins.security.permsTitle': 'Què signifiquen els permisos',
   'admin.plugins.security.permsBody':
-    "Els permisos que es mostren abans d'instal·lar són un límit estricte que TREK aplica mentre el connector s'executa: literalment no pot fer res que no sigui a la llista. Però t'indiquen el que un connector pot fer, no el que fa realment. Un connector amb permís per llegir els teus viatges i connectar-se a un servidor pot enviar els teus viatges a aquest servidor, així que llegeix els permisos i els amfitrions de sortida, no només la descripció.",
+    "Els permisos que es mostren abans d'instal·lar són un límit estricte que Manzil aplica mentre el connector s'executa: literalment no pot fer res que no sigui a la llista. Però t'indiquen el que un connector pot fer, no el que fa realment. Un connector amb permís per llegir els teus viatges i connectar-se a un servidor pot enviar els teus viatges a aquest servidor, així que llegeix els permisos i els amfitrions de sortida, no només la descripció.",
   'admin.plugins.security.limitsTitle': 'El que no podem prometre',
   'admin.plugins.security.limitsBody':
-    "L'aïllament és una frontera de programari sòlida, però no absoluta. Un connector actua exactament amb els permisos que aprovis, així que, dins d'aquests permisos, pot comportar-se de manera diferent del que suggereix la seva descripció i pot enviar les dades que té legítimament als amfitrions que ha declarat. TREK no llegeix ni jutja el que fa realment el codi d'un connector.",
+    "L'aïllament és una frontera de programari sòlida, però no absoluta. Un connector actua exactament amb els permisos que aprovis, així que, dins d'aquests permisos, pot comportar-se de manera diferent del que suggereix la seva descripció i pot enviar les dades que té legítimament als amfitrions que ha declarat. Manzil no llegeix ni jutja el que fa realment el codi d'un connector.",
   'admin.plugins.security.worstTitle': 'El pitjor dels casos',
   'admin.plugins.security.worstBody':
     "Un connector hostil que activis pot fer un mal ús de les dades i connexions que li has concedit — per exemple, filtrar els viatges que té permís per llegir. No pot robar contrasenyes, falsificar un inici de sessió d'administrador, executar ordres al teu servidor ni accedir a dades que no li has concedit. El dany es limita al que has aprovat, i desactivar el connector l'atura.",
   'admin.plugins.security.reviewedTitle': 'Què vol dir "Revisat"',
   'admin.plugins.security.reviewedBody':
-    "Un connector revisat ha estat analitzat manualment a la recerca de programari maliciós per un mantenidor de TREK a cada versió — s'hi ha buscat codi hostil, no pas si funciona bé. No és cap garantia que el connector sigui inofensiu.",
+    "Un connector revisat ha estat analitzat manualment a la recerca de programari maliciós per un mantenidor de Manzil a cada versió — s'hi ha buscat codi hostil, no pas si funciona bé. No és cap garantia que el connector sigui inofensiu.",
   'admin.plugins.security.signedTitle': 'Què vol dir "Signat"',
   'admin.plugins.security.signedBody':
-    "La suma de verificació que TREK comprova a cada instal·lació demostra que els fitxers són exactament els que el registre avala. Una signatura demostra una altra cosa: que provenen de l'autor, signats amb una clau que només ell posseeix. Un connector signat té totes dues coses. Un connector sense signar no és insegur — simplement té una garantia menys, i actualment la majoria dels connectors del registre no estan signats.",
+    "La suma de verificació que Manzil comprova a cada instal·lació demostra que els fitxers són exactament els que el registre avala. Una signatura demostra una altra cosa: que provenen de l'autor, signats amb una clau que només ell posseeix. Un connector signat té totes dues coses. Un connector sense signar no és insegur — simplement té una garantia menys, i actualment la majoria dels connectors del registre no estan signats.",
   'admin.plugins.signed': 'Signat',
   'admin.plugins.signedHint': "Verificat amb la clau de signatura de l'autor en el moment de la instal·lació",
   'admin.plugins.unsigned': 'Sense signar',
@@ -802,20 +802,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     "Els fitxers no coincideixen amb la signatura de l'autor. No són el que l'autor va signar — o bé s'han malmès, o bé s'han manipulat. Això no es pot ometre.",
   'admin.plugins.sig.missingBody':
-    'Aquest connector estava signat quan el vas instal·lar, però la nova versió no inclou cap signatura. TREK no acceptarà aquesta degradació en silenci. Això no es pot ometre.',
+    'Aquest connector estava signat quan el vas instal·lar, però la nova versió no inclou cap signatura. Manzil no acceptarà aquesta degradació en silenci. Això no es pot ometre.',
   'admin.plugins.sig.incompleteBody':
     "L'entrada del registre està signada a mitges: declara una clau d'autor però la versió no porta cap signatura (o a l'inrevés). És un error per part del connector. Això no es pot ometre.",
   'admin.plugins.sig.pinnedKey': 'Clau amb què es va instal·lar',
   'admin.plugins.sig.newKey': 'Clau que ofereix ara',
   'admin.plugins.sig.confirmOutOfBand':
-    "TREK no pot distingir una rotació de clau legítima d'una presa de control — des d'aquí totes dues es veuen idèntiques. Confirma la nova clau amb l'autor a través d'un canal en què ja confiïs abans d'acceptar-la. Un cop ho facis, el connector s'actualitza i la nova clau es recorda.",
+    "Manzil no pot distingir una rotació de clau legítima d'una presa de control — des d'aquí totes dues es veuen idèntiques. Confirma la nova clau amb l'autor a través d'un canal en què ja confiïs abans d'acceptar-la. Un cop ho facis, el connector s'actualitza i la nova clau es recorda.",
   'admin.plugins.sig.retrustConfirm': 'Confiar en la nova clau i actualitzar',
   'admin.plugins.sig.cancel': 'No confiar-hi',
   'admin.plugins.sig.consentUnsigned':
     "Res no vincula aquesta versió amb el seu autor — els fitxers coincideixen amb el registre, però no porten cap signatura de l'autor.",
   'admin.plugins.security.trustTitle': 'En resum',
   'admin.plugins.security.trustBody':
-    "Instal·lar un connector és com instal·lar qualsevol aplicació de tercers: afegeix només codi d'autors en qui confiïs i, en cas de dubte, inspecciona'l tu mateix primer. TREK no assumeix cap responsabilitat pels connectors de tercers.",
+    "Instal·lar un connector és com instal·lar qualsevol aplicació de tercers: afegeix només codi d'autors en qui confiïs i, en cas de dubte, inspecciona'l tu mateix primer. Manzil no assumeix cap responsabilitat pels connectors de tercers.",
   'admin.plugins.runtimeOn': "Entorn d'execució actiu",
   'admin.plugins.tabDiscover': 'Descobreix',
   'admin.plugins.searchPlaceholder': 'Cerca connectors…',
@@ -832,11 +832,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortDownloads': 'Més baixades',
   'admin.plugins.updatesAvailable': '{count} actualitzacions disponibles per als teus connectors.',
   'admin.plugins.updatesAvailable.one': '{count} actualització disponible per als teus connectors.',
-  'admin.plugins.newerNeedsTrek': 'v{version} disponible — necessita TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'v{version} disponible — necessita Manzil {range}',
   'admin.plugins.versionsTitle': 'Versions', // same-as-en
   'admin.plugins.versionPickerTitle': 'Canvia la versió — {name}',
   'admin.plugins.versionSwitch': 'Canvia a {version}',
-  'admin.plugins.versionNeedsTrek': 'necessita TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'necessita Manzil {range}',
   'admin.plugins.changeVersion': 'Canvia la versió…',
   'admin.plugins.noVersions': "No s'han trobat versions publicades al registre.",
   'admin.plugins.downgradeTitle': 'Vols revertir aquest connector?',
@@ -904,30 +904,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Baixa',
   'admin.plugins.dep.update': 'Actualitza',
   'admin.plugins.dep.resolveHint': 'Baixa la darrera versió compatible, incloses les seves pròpies dependències.',
-  'admin.plugins.dep.trekIncompatible': 'Necessita TREK {range} — aquest servidor executa {host}',
-  'admin.plugins.dep.trekUnknown': 'No indica quines versions de TREK admet',
+  'admin.plugins.dep.trekIncompatible': 'Necessita Manzil {range} — aquest servidor executa {host}',
+  'admin.plugins.dep.trekUnknown': 'No indica quines versions de Manzil admet',
   'admin.plugins.installCompatible': 'Instal·la {version}',
   'admin.plugins.installAnyway': 'Instal·la igualment',
   'admin.plugins.rangeBypass.pill': 'Comprovacions de versió desactivades',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE està definit — els connectors es poden instal·lar i executar fora de les versions de TREK declarades pels seus autors',
-  'admin.plugins.rangeBypass.title': 'Fora de les versions de TREK compatibles',
-  'admin.plugins.rangeBypass.noticeTitle': 'Instal·lat fora de les versions de TREK compatibles',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE està definit — els connectors es poden instal·lar i executar fora de les versions de Manzil declarades pels seus autors',
+  'admin.plugins.rangeBypass.title': 'Fora de les versions de Manzil compatibles',
+  'admin.plugins.rangeBypass.noticeTitle': 'Instal·lat fora de les versions de Manzil compatibles',
   'admin.plugins.rangeBypass.body':
-    '«{name}» declara compatibilitat amb TREK {range}, i aquest servidor executa {host}. TREK el deixa passar només perquè TREK_PLUGINS_IGNORE_TREK_RANGE està definit. L’autor no ha actualitzat el rang de versions del connector per a aquest TREK, així que no hi ha cap garantia que funcioni — i en casos rars un connector incompatible pot corrompre les dades de TREK. Continua només si acceptes aquest risc.',
+    '«{name}» declara compatibilitat amb Manzil {range}, i aquest servidor executa {host}. Manzil el deixa passar només perquè TREK_PLUGINS_IGNORE_TREK_RANGE està definit. L’autor no ha actualitzat el rang de versions del connector per a aquest Manzil, així que no hi ha cap garantia que funcioni — i en casos rars un connector incompatible pot corrompre les dades de Manzil. Continua només si acceptes aquest risc.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '«{name}» no declara quines versions de TREK admet; aquest servidor executa {host}. TREK el deixa passar només perquè TREK_PLUGINS_IGNORE_TREK_RANGE està definit. Res no indica que l’autor l’hagi provat en aquest TREK, així que no hi ha cap garantia que funcioni — i en casos rars un connector incompatible pot corrompre les dades de TREK. Continua només si acceptes aquest risc.',
-  'admin.plugins.dep.trekBypassed': 'Fora del seu rang de TREK ({range}) — comprovacions de versió desactivades',
-  'admin.plugins.dep.trekBypassedUnknown': 'No declara cap rang de TREK — comprovacions de versió desactivades',
-  'admin.plugins.rangeBypass.titleAdmin': 'Sense provar en aquest TREK',
+    '«{name}» no declara quines versions de Manzil admet; aquest servidor executa {host}. Manzil el deixa passar només perquè TREK_PLUGINS_IGNORE_TREK_RANGE està definit. Res no indica que l’autor l’hagi provat en aquest Manzil, així que no hi ha cap garantia que funcioni — i en casos rars un connector incompatible pot corrompre les dades de Manzil. Continua només si acceptes aquest risc.',
+  'admin.plugins.dep.trekBypassed': 'Fora del seu rang de Manzil ({range}) — comprovacions de versió desactivades',
+  'admin.plugins.dep.trekBypassedUnknown': 'No declara cap rang de Manzil — comprovacions de versió desactivades',
+  'admin.plugins.rangeBypass.titleAdmin': 'Sense provar en aquest Manzil',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Segons el seu autor, «{name}» és compatible amb TREK {range}, i aquest servidor executa {host}. L’autor encara no l’ha confirmat per a aquest TREK, així que pot no funcionar i, en casos rars, un plugin que no encaixa pot malmetre les dades de TREK. Igualment el pots fer servir: la teva decisió val només per a aquest plugin en aquesta versió, i TREK tornarà a preguntar després d’una actualització.',
+    'Segons el seu autor, «{name}» és compatible amb Manzil {range}, i aquest servidor executa {host}. L’autor encara no l’ha confirmat per a aquest Manzil, així que pot no funcionar i, en casos rars, un plugin que no encaixa pot malmetre les dades de Manzil. Igualment el pots fer servir: la teva decisió val només per a aquest plugin en aquesta versió, i Manzil tornarà a preguntar després d’una actualització.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '«{name}» no indica quines versions de TREK admet, i aquest servidor executa {host}. Res no indica que s’hagi provat en aquest TREK, així que pot no funcionar i, en casos rars, un plugin que no encaixa pot malmetre les dades de TREK. Igualment el pots fer servir: la teva decisió val només per a aquest plugin en aquesta versió, i TREK tornarà a preguntar després d’una actualització.',
-  'admin.plugins.dep.trekAccepted': 'Fet per a TREK {range}, en ús sota la teva responsabilitat',
-  'admin.plugins.dep.trekAcceptedUnknown': 'Sense versió de TREK indicada, en ús sota la teva responsabilitat',
+    '«{name}» no indica quines versions de Manzil admet, i aquest servidor executa {host}. Res no indica que s’hagi provat en aquest Manzil, així que pot no funcionar i, en casos rars, un plugin que no encaixa pot malmetre les dades de Manzil. Igualment el pots fer servir: la teva decisió val només per a aquest plugin en aquesta versió, i Manzil tornarà a preguntar després d’una actualització.',
+  'admin.plugins.dep.trekAccepted': 'Fet per a Manzil {range}, en ús sota la teva responsabilitat',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Sense versió de Manzil indicada, en ús sota la teva responsabilitat',
   'admin.plugins.activateAnyway': 'Activa igualment',
-  'admin.plugins.untestedChip': 'Encara no confirmat per a TREK {host}',
+  'admin.plugins.untestedChip': 'Encara no confirmat per a Manzil {host}',
   'admin.plugins.filters': 'Filtra',
   'admin.plugins.security.short': 'Com es protegeixen els plugins',
   'admin.plugins.accessTitle': 'A què pot accedir',
@@ -972,7 +972,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Ara mateix no es pot accedir a Geofabrik. Torna-ho a provar més tard.',
   'admin.paddleRegions.attribution':
     'Dades © col·laboradors d’OpenStreetMap (ODbL), extractes regionals de Geofabrik. Es tornen a llegir el dia 3 de cada mes.',
-  'admin.paddleRegions.toast.added': 'Regió afegida. TREK la llegeix en segon pla.',
+  'admin.paddleRegions.toast.added': 'Regió afegida. Manzil la llegeix en segon pla.',
   'admin.paddleRegions.toast.removed': 'Regió eliminada',
   'admin.paddleRegions.phase.build': 'Construint la xarxa d’aigua',
   'admin.paddleRegions.network.km': '{km} km d’aigua',
@@ -994,11 +994,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'A petició',
   'admin.paddleRegions.auto.mode.off': 'Desactivat',
   'admin.paddleRegions.auto.modeHint.auto':
-    "Quan algú planifica una ruta en caiac on encara no hi ha dades d'aigua, TREK carrega de seguida la regió més petita que hi encaixa, fins al límit de mida i només unes poques al dia. Les més grans esperen aquí com a petició. Només el nom de la regió va a Geofabrik, mai el lloc.",
+    "Quan algú planifica una ruta en caiac on encara no hi ha dades d'aigua, Manzil carrega de seguida la regió més petita que hi encaixa, fins al límit de mida i només unes poques al dia. Les més grans esperen aquí com a petició. Només el nom de la regió va a Geofabrik, mai el lloc.",
   'admin.paddleRegions.auto.modeHint.ask':
     'Cada regió nova espera aquí fins que un administrador la deixa passar. Quan planifica un administrador, es carrega de seguida.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK no carrega res pel seu compte ni demana res. Afegeix les regions aquí a mà.',
+    'Manzil no carrega res pel seu compte ni demana res. Afegeix les regions aquí a mà.',
   'admin.paddleRegions.auto.maxSize': 'Regió més gran que es carrega automàticament',
   'admin.paddleRegions.auto.maxSizeHint':
     'Les regions més grans esperen aquí com a petició. Llegir una regió triga uns minuts i ocupa memòria mentre dura.',
@@ -1012,7 +1012,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.decline': 'Rebutjar',
   'admin.paddleRegions.origin.auto': 'Automàtic',
   'admin.paddleRegions.origin.autoHint':
-    'TREK ha carregat aquesta regió pel seu compte per a una ruta en caiac planificada allà.',
+    'Manzil ha carregat aquesta regió pel seu compte per a una ruta en caiac planificada allà.',
   'admin.mfa.reset': 'Restablir 2FA',
   'admin.mfa.resetHint':
     "Desactiva l'autenticació de dos factors d'aquest usuari, per exemple després de perdre el telèfon. Es tanca la seva sessió a tot arreu i podrà tornar-la a configurar després d'iniciar sessió amb la contrasenya.",
@@ -1049,7 +1049,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Renova',
   'admin.addons.ai.name': 'IA',
   'admin.addons.ai.description':
-    "Una connexió per a l'assistent i la importació de reserves. MCP permet que altres apps d'IA facin servir TREK.",
+    "Una connexió per a l'assistent i la importació de reserves. MCP permet que altres apps d'IA facin servir Manzil.",
   'admin.addons.ai.setup': 'Configura la IA',
   'admin.addons.ai.dialogSub': "La connexió que comparteixen l'assistent i l'anàlisi amb IA, i què pot fer cadascun.",
   'admin.addons.ai.tab.connection': 'Connexió',
@@ -1080,16 +1080,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Desactivat',
   'admin.contribute.status.unavailable': 'No disponible',
   'admin.contribute.noteActive':
-    "El que els teus usuaris escriuen sobre els llocs arriba, després d'una revisió, a tots els TREK. Gràcies per ajudar.",
+    "El que els teus usuaris escriuen sobre els llocs arriba, després d'una revisió, a tots els Manzil. Gràcies per ajudar.",
   'admin.contribute.noteOff':
     'Fes que el que els teus usuaris escriuen sobre els llocs millori la TREK Places API per a tothom.',
   'admin.contribute.ineligible.env_off': 'Desactivat per a aquesta instal·lació mitjançant TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Només una instal·lació de producció pot compartir detalls de llocs.',
   'admin.contribute.ineligible.demo': 'Una instal·lació de demostració no comparteix detalls de llocs.',
-  'admin.contribute.ineligible.index_off': "Compartir requereix l'índex de TREK com a font de llocs.",
+  'admin.contribute.ineligible.index_off': "Compartir requereix l'índex de Manzil com a font de llocs.",
   'admin.contribute.ineligible.custom_places_url':
     'Aquesta instal·lació fa servir la seva pròpia Places API, així que no hi ha amb qui compartir.',
-  'admin.contribute.ineligible.services_off': 'Els serveis de TREK estan desactivats per a aquesta instal·lació.',
+  'admin.contribute.ineligible.services_off': 'Els serveis de Manzil estan desactivats per a aquesta instal·lació.',
   'admin.contribute.ineligible.no_key':
     'Aquesta instal·lació encara no té cap clau de serveis. Es sol·licita automàticament.',
   'admin.contribute.pause.key_invalid': "En pausa: el servei no ha acceptat la clau d'aquesta instal·lació.",
@@ -1135,9 +1135,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Deixa de compartir',
   'admin.contribute.refused.terms_outdated': 'Les condicions han canviat mentrestant. Torna a revisar-les.',
   'admin.contribute.refused.no_field': 'Tria almenys un camp per compartir.',
-  'admin.contribute.prompt.title': 'Ajuda cada TREK a conèixer millor els llocs',
+  'admin.contribute.prompt.title': 'Ajuda cada Manzil a conèixer millor els llocs',
   'admin.contribute.prompt.lead':
-    "Quan algú afegeix aquí un lloc web, un telèfon, un horari o una descripció a un lloc, TREK ho pot transmetre. Després d'una revisió, cada instal·lació de TREK ho mostra, i la teva rep a canvi el que han afegit altres.",
+    "Quan algú afegeix aquí un lloc web, un telèfon, un horari o una descripció a un lloc, Manzil ho pot transmetre. Després d'una revisió, cada instal·lació de Manzil ho mostra, i la teva rep a canvi el que han afegit altres.",
   'admin.contribute.prompt.why':
     'La TREK Places API és gratuïta i no necessita cap clau de Google perquè es construeix amb dades obertes. Cada detall que comparteixes la millora per a milers de viatgers. Gràcies per formar-ne part.',
   'admin.contribute.prompt.whatLabel': 'Què es comparteix',
@@ -1160,6 +1160,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Gràcies. Els detalls dels llocs ja es comparteixen.',
   'admin.servicesCard.title': 'Cerca de llocs i rutes',
   'admin.servicesCard.hint':
-    'Els serveis propis de TREK, quin proveïdor respon la cerca i el transport públic, i el registre de cerques.',
+    'Els serveis propis de Manzil, quin proveïdor respon la cerca i el transport públic, i el registre de cerques.',
 };
 export default admin;

@@ -79,7 +79,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved.one': '{count} dayanacaq yerləşdirilə bilmədi',
   'assistant.card.roadtrip.dayRoute.after': '{name} sonra',
   'assistant.card.roadtrip.dayRoute.follows': 'İzlədiyi iz: {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'Hələlik düz xətlər; dəyişiklik tətbiq olunanda TREK yolu hesablayır.',
+  'assistant.card.roadtrip.dayRoute.sketch': 'Hələlik düz xətlər; dəyişiklik tətbiq olunanda Manzil yolu hesablayır.',
   'assistant.card.roadtrip.dayEnd.at': 'Gün burada bitir: {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Gün {name} sonra səfərin {percent} %-ində bitir',
   'assistant.card.roadtrip.dayEnd.auto': 'Gün yenidən avtomatik bitir',

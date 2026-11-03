@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     '자체 Valhalla입니다. 위의 경로 서비스가 이것 또는 자동으로 설정되어 있을 때 요청합니다. 자체 라우팅 서버만 설정되어 있고 경로 서비스를 선택하지 않았다면 어떤 Valhalla에도 요청하지 않습니다. URL을 입력한 후 서버를 재시작하고 페이지를 새로고침하세요.',
   'settings.valhallaProvider': '경로 서비스',
   'settings.valhallaProviderHint':
-    'TREK 서비스나 자체 Valhalla를 쓰면 모든 경로를 Valhalla가 계산합니다: 도보, 자전거, 자동차로 이동하는 일별 경로와 로드 트립, 유료 도로, 고속도로, 페리를 피하는 경로, 투어의 경로, 고도, 길. 응답할 수 없으면 그날은 OSRM이 계산합니다. TREK 서비스는 이 서버를 통해 요청됩니다. FOSSGIS의 공개 Valhalla를 쓰면 경로는 OSRM이 계산하고 Valhalla는 OSRM이 할 수 없는 일만 처리합니다. 자동은 자체 Valhalla나 자체 라우팅 서버만 설정되어 있지 않으면 TREK 서비스에 요청합니다.',
+    'Manzil 서비스나 자체 Valhalla를 쓰면 모든 경로를 Valhalla가 계산합니다: 도보, 자전거, 자동차로 이동하는 일별 경로와 로드 트립, 유료 도로, 고속도로, 페리를 피하는 경로, 투어의 경로, 고도, 길. 응답할 수 없으면 그날은 OSRM이 계산합니다. Manzil 서비스는 이 서버를 통해 요청됩니다. FOSSGIS의 공개 Valhalla를 쓰면 경로는 OSRM이 계산하고 Valhalla는 OSRM이 할 수 없는 일만 처리합니다. 자동은 자체 Valhalla나 자체 라우팅 서버만 설정되어 있지 않으면 Manzil 서비스에 요청합니다.',
   'settings.valhallaProviderOption.auto': '자동',
-  'settings.valhallaProviderOption.trek': 'TREK 서비스',
+  'settings.valhallaProviderOption.trek': 'Manzil 서비스',
   'settings.valhallaProviderOption.fossgis': '공개 Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': '자체 Valhalla',
   'settings.mapHint': '지도 타일 URL 템플릿',
@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
     'CARTO 배경 지도는 키가 없으면 워터마크가 표시됩니다. 무료이며 계정도 필요 없습니다. 출처',
   'settings.mapCartoKeyLink': 'carto.com 배경 지도 API 키',
   'settings.mapCartoKeyMissing':
-    '이 템플릿은 CARTO 배경 지도입니다. 키가 없으면 CARTO가 모든 타일에 "API KEY REQUIRED"를 새깁니다. 키를 입력하기 전까지 TREK은 기본 배경 지도를 표시합니다.',
+    '이 템플릿은 CARTO 배경 지도입니다. 키가 없으면 CARTO가 모든 타일에 "API KEY REQUIRED"를 새깁니다. 키를 입력하기 전까지 Manzil은 기본 배경 지도를 표시합니다.',
   'settings.mapStyle': '지도 스타일',
   'settings.mapStylePlaceholder': 'Mapbox 스타일 선택',
   'settings.mapStyleHint': '프리셋 또는 mapbox://styles/USER/ID URL 직접 입력',
@@ -131,15 +131,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': '푸시',
   'settings.webPush.title': '이 기기의 푸시 알림',
   'settings.webPush.hint':
-    'TREK이 닫혀 있어도 이 기기에 TREK 알림을 표시합니다. 어떤 이벤트가 도착할지는 푸시 열을 따릅니다.',
+    'Manzil이 닫혀 있어도 이 기기에 Manzil 알림을 표시합니다. 어떤 이벤트가 도착할지는 푸시 열을 따릅니다.',
   'settings.webPush.enable': '이 기기에서 켜기',
   'settings.webPush.disable': '이 기기에서 끄기',
   'settings.webPush.enabled': '이 기기에서 켜짐',
   'settings.webPush.unsupported': '이 브라우저는 푸시 알림을 받을 수 없습니다.',
-  'settings.webPush.insecure': '푸시를 사용하려면 TREK을 HTTPS로 열어야 합니다.',
-  'settings.webPush.iosInstall': 'iPhone과 iPad에서는 먼저 TREK을 홈 화면에 추가한 뒤 그곳에서 여세요.',
+  'settings.webPush.insecure': '푸시를 사용하려면 Manzil을 HTTPS로 열어야 합니다.',
+  'settings.webPush.iosInstall': 'iPhone과 iPad에서는 먼저 Manzil을 홈 화면에 추가한 뒤 그곳에서 여세요.',
   'settings.webPush.denied':
-    '이 브라우저에서 TREK 알림이 차단되어 있습니다. 브라우저 설정에서 허용한 뒤 다시 시도하세요.',
+    '이 브라우저에서 Manzil 알림이 차단되어 있습니다. 브라우저 설정에서 허용한 뒤 다시 시도하세요.',
   'settings.webPush.failed': '이 기기에서 푸시를 켤 수 없습니다.',
   'settings.notificationPreferences.noChannels':
     '알림 채널이 설정되지 않았습니다. 관리자에게 이메일 또는 웹훅 알림 설정을 요청하세요.',
@@ -256,21 +256,21 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': '새로운 기능을 제안하세요',
   'settings.about.wikiHint': '문서 및 가이드',
   'settings.about.sponsor.eyebrow': '후원받는 인프라',
-  'settings.about.sponsor.title': 'TREK 자체 서버는 dataforest cloud에서 운영됩니다',
+  'settings.about.sponsor.title': 'Manzil 자체 서버는 dataforest cloud에서 운영됩니다',
   'settings.about.sponsor.body':
-    '장소 검색, 주소 검색, 경로 안내는 Google 등이 아닌 TREK 자체 서버에서 제공되며, 이 서버가 돌아가는 머신은 dataforest cloud가 후원합니다.',
+    '장소 검색, 주소 검색, 경로 안내는 Google 등이 아닌 Manzil 자체 서버에서 제공되며, 이 서버가 돌아가는 머신은 dataforest cloud가 후원합니다.',
   'settings.about.sponsor.cta': 'dataforest cloud 방문하기',
   'settings.about.sponsor.search': '장소 검색',
   'settings.about.sponsor.address': '주소 검색',
   'settings.about.sponsor.routing': '경로 안내',
   'settings.about.descriptionManaged':
-    'TREK은 첫 아이디어부터 마지막 추억까지 여행을 정리하도록 도와줍니다. 일정 계획, 예산, 짐 목록, 사진 등 모든 것을 한곳에서 관리하세요.',
+    'Manzil은 첫 아이디어부터 마지막 추억까지 여행을 정리하도록 도와줍니다. 일정 계획, 예산, 짐 목록, 사진 등 모든 것을 한곳에서 관리하세요.',
   'settings.about.sourceTitle': '소스 코드',
   'settings.about.sourceHint': 'TREK은 AGPL-3.0 라이선스의 오픈 소스입니다',
   'settings.about.supporters.badge': '월간 후원자',
-  'settings.about.supporters.title': 'TREK의 여행 동반자',
+  'settings.about.supporters.title': 'Manzil의 여행 동반자',
   'settings.about.supporters.subtitle':
-    '다음 여정을 계획하는 동안, 이분들이 TREK의 미래를 함께 만들어가고 있습니다. 월간 후원금은 개발과 실제 작업 시간에 직접 사용되어 TREK이 오픈 소스로 유지될 수 있게 합니다.',
+    '다음 여정을 계획하는 동안, 이분들이 Manzil의 미래를 함께 만들어가고 있습니다. 월간 후원금은 개발과 실제 작업 시간에 직접 사용되어 Manzil이 오픈 소스로 유지될 수 있게 합니다.',
   'settings.about.supporters.since': '{date}부터 후원자',
   'settings.about.supporters.tierEmpty': '첫 번째 후원자가 되어보세요',
   'settings.about.supporter.tier.noReturnTicket': '편도 티켓',
@@ -279,7 +279,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': '알뜰 여행자',
   'settings.about.supporter.tier.hostelBunkmate': '호스텔 룸메이트',
   'settings.about.description':
-    'TREK은 첫 아이디어부터 마지막 추억까지 여행을 체계적으로 관리하는 자체 호스팅 여행 플래너입니다. 일별 계획, 예산, 짐 목록, 사진 등 모든 것이 하나의 서버에 담겨 있습니다.',
+    'Manzil은 첫 아이디어부터 마지막 추억까지 여행을 체계적으로 관리하는 자체 호스팅 여행 플래너입니다. 일별 계획, 예산, 짐 목록, 사진 등 모든 것이 하나의 서버에 담겨 있습니다.',
   'settings.about.madeWith': '으로 만들어졌습니다',
   'settings.about.madeBy': 'Maurice와 성장하는 오픈 소스 커뮤니티가 함께',
   'settings.username': '사용자 이름',
@@ -399,7 +399,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': '자체 네트워크의 신뢰할 수 있는 인스턴스에서만 활성화하세요.',
   'settings.airtrail.writeBack': '변경 사항을 AirTrail에 다시 기록',
   'settings.airtrail.writeBackHint':
-    '기본적으로 꺼져 있음: AirTrail이 신뢰할 수 있는 원본이며 TREK은 읽기만 합니다. TREK에서 변경한 내용을 AirTrail로 다시 보내려면 켜세요.',
+    '기본적으로 꺼져 있음: AirTrail이 신뢰할 수 있는 원본이며 Manzil은 읽기만 합니다. Manzil에서 변경한 내용을 AirTrail로 다시 보내려면 켜세요.',
   'settings.airtrail.connected': '연결됨',
   'settings.airtrail.notConnected': '연결되지 않음',
   'settings.airtrail.toast.saved': 'AirTrail 연결이 저장되었습니다',
@@ -513,7 +513,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': '대시보드',
   'settings.startPageActiveTrip': '진행 중인 여행',
   'settings.startPageHint':
-    'TREK을 열면 지금 진행 중인 여행, 없으면 다음에 시작하는 여행으로 바로 이동합니다. 대시보드가 강조하는 여행과 같습니다.',
+    'Manzil을 열면 지금 진행 중인 여행, 없으면 다음에 시작하는 여행으로 바로 이동합니다. 대시보드가 강조하는 여행과 같습니다.',
   'settings.startTripTab': '시작 탭',
   'settings.startTripTabHint': '여행이 열릴 탭입니다. 꺼 둔 애드온의 탭이면 대신 계획이 열립니다.',
 

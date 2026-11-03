@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'ライブデモ',
-  'demo.welcome.title': 'TREK へようこそ',
+  'demo.welcome.title': 'Manzil へようこそ',
   'demo.welcome.tagline':
     '共有できる旅行プランナー。地図の上でリアルタイムに一緒に計画し、最初のアイデアから旅のあとのフォトブックまで。',
   'demo.welcome.resetTitle': '毎時すべてがリセットされます',
@@ -15,7 +15,7 @@ const demo: TranslationStrings = {
   'demo.feature.planner.body': '地図上の日程、スポット、ルートに、フライト、ホテル、レストラン、予約、共有費用まで。',
   'demo.feature.tours.title': 'ツアーとハイキング',
   'demo.feature.tours.body': '登山道のネットワークでハイキングを計画し、標高プロファイル付きの 3D 地形でたどれます。',
-  'demo.feature.studio.title': 'TREK Studio のフォトブック',
+  'demo.feature.studio.title': 'Manzil Studio のフォトブック',
   'demo.feature.studio.body': '旅をページごとにデザインされたフォトブックに仕上げます。',
   'demo.feature.collab.title': 'ライブで一緒に計画',
   'demo.feature.collab.body': '旅のメンバー全員が変更をすぐに確認でき、チャット、メモ、投票も使えます。',
@@ -28,7 +28,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.title': 'コレクション',
   'demo.feature.collections.body': '旅をまたいでスポットを自分のリストに保存し、どのプランにもコピーできます。',
   'demo.feature.offline.title': 'オフラインでも動作',
-  'demo.feature.offline.body': 'TREK をアプリとしてインストールすれば、接続がなくてもプラン、地図、リストを使えます。',
+  'demo.feature.offline.body': 'Manzil をアプリとしてインストールすれば、接続がなくてもプラン、地図、リストを使えます。',
   'demo.welcome.limitsTitle': 'デモでは使えないもの',
   'demo.limit.uploads': '写真、書類、カバー画像のアップロード',
   'demo.limit.account': 'アカウント、パスワード、2FA の変更',
@@ -47,7 +47,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': '写真のクレジット',
   'demo.credits.intro':
-    'このデモの写真は Wikimedia Commons のもので、それぞれ横に記載したライセンスで公開されています。そのライセンスは写真にのみ適用され、TREK やデモのほかの部分には適用されません。',
+    'このデモの写真は Wikimedia Commons のもので、それぞれ横に記載したライセンスで公開されています。そのライセンスは写真にのみ適用され、Manzil やデモのほかの部分には適用されません。',
   'demo.credits.by': '撮影：{author}',
   'demo.credits.publicDomain': 'パブリックドメイン',
   'demo.credits.back': '戻る',

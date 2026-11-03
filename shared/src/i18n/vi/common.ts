@@ -75,8 +75,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Thử lại',
   'common.errorReload': 'Tải lại trang',
   'common.errorUpdateTitle': 'Đã có phiên bản mới',
-  'common.errorUpdateBody': 'TREK đã được cập nhật trong khi thẻ này đang mở. Hãy tải lại để nhận phiên bản mới.',
+  'common.errorUpdateBody': 'Manzil đã được cập nhật trong khi thẻ này đang mở. Hãy tải lại để nhận phiên bản mới.',
   'common.errorPluginTitle': 'Không thể hiển thị plugin này',
-  'common.needsConnection': 'Thao tác này cần kết nối. Hãy thử lại khi TREK trực tuyến trở lại.',
+  'common.needsConnection': 'Thao tác này cần kết nối. Hãy thử lại khi Manzil trực tuyến trở lại.',
 };
 export default common;

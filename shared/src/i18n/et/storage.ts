@@ -22,7 +22,7 @@ const storage: TranslationStrings = {
   // Panel chrome
   'storage.title': 'Salvestusruum',
   'storage.description':
-    'Kus TREK hoiab üleslaaditud faile, fotosid ja varukoopiaid. Muudatused jõustuvad salvestamisel.',
+    'Kus Manzil hoiab üleslaaditud faile, fotosid ja varukoopiaid. Muudatused jõustuvad salvestamisel.',
   'storage.loading': 'Laadimine…',
   'storage.saved': 'Salvestusseadistus salvestatud',
   'storage.save': 'Salvesta muudatused',

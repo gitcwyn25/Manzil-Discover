@@ -142,7 +142,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'على الخريطة',
   'reservations.import.pinMissingTitle': 'ليس على الخريطة بعد',
   'reservations.import.pinMissingBody':
-    'لم يعثر TREK على مكان الإقامة هذا على الخريطة. تحقّق من الاسم والعنوان أعلاه وابحث مجددًا، أو احفظه دون دبوس.',
+    'لم يعثر Manzil على مكان الإقامة هذا على الخريطة. تحقّق من الاسم والعنوان أعلاه وابحث مجددًا، أو احفظه دون دبوس.',
   'reservations.import.pinRetry': 'ابحث مجددًا',
   'reservations.import.savedWithoutPin': 'حُفظ دون دبوس على الخريطة. عدّل المكان وحدّد موقعه لتراه على الخريطة.',
   'reservations.import.acceptedFormats':
@@ -297,7 +297,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'عرض في الملفات',
   'reservations.filesNeedConnection':
     'يحتاج رفع الملفات إلى اتصال. أزل الملفات الجديدة لحفظ الحجز دون اتصال، أو احفظ عندما تعود متصلاً.',
-  'reservations.needsConnection': 'يتطلب هذا اتصالاً. حاول مرة أخرى عندما يعود TREK للاتصال.',
+  'reservations.needsConnection': 'يتطلب هذا اتصالاً. حاول مرة أخرى عندما يعود Manzil للاتصال.',
   'reservations.exportCsvFiltered': 'تصدير الصفوف المعروضة ({shown} من {total}) (CSV)',
 };
 export default reservations;

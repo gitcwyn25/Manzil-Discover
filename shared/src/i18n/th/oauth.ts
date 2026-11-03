@@ -79,10 +79,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.loading': 'กำลังโหลด...',
   'oauth.authorize.errorTitle': 'ข้อผิดพลาดในการอนุญาต',
   'oauth.authorize.loginTitle': 'ลงชื่อเข้าใช้เพื่อดำเนินการต่อ',
-  'oauth.authorize.loginDescription': '{client} ต้องการเข้าถึงบัญชี TREK ของคุณ กรุณาเข้าสู่ระบบก่อน',
-  'oauth.authorize.loginButton': 'ลงชื่อเข้าใช้ TREK',
+  'oauth.authorize.loginDescription': '{client} ต้องการเข้าถึงบัญชี Manzil ของคุณ กรุณาเข้าสู่ระบบก่อน',
+  'oauth.authorize.loginButton': 'ลงชื่อเข้าใช้ Manzil',
   'oauth.authorize.requestLabel': 'คำขออนุมัติ',
-  'oauth.authorize.requestDescription': 'แอปพลิเคชันนี้กำลังขอเข้าถึงบัญชี TREK ของคุณ',
+  'oauth.authorize.requestDescription': 'แอปพลิเคชันนี้กำลังขอเข้าถึงบัญชี Manzil ของคุณ',
   'oauth.authorize.verifiedHost': 'โดเมนที่ยืนยันแล้ว: {host}',
   'oauth.authorize.trustNote':
     'ให้สิทธิ์การเข้าถึงเฉพาะแอปพลิเคชันที่คุณเชื่อถือเท่านั้น ข้อมูลของคุณอยู่บนเซิร์ฟเวอร์ของคุณ',

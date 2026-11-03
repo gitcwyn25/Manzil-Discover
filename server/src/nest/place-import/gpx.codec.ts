@@ -91,7 +91,7 @@ export function writeGpx(doc: GpxDocument): string {
     '?xml': { '@_version': '1.0', '@_encoding': 'UTF-8' },
     gpx: {
       '@_version': '1.1',
-      '@_creator': 'TREK',
+      '@_creator': 'Manzil',
       '@_xmlns': GPX_NAMESPACE,
       ...namespaces,
       '@_xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',

@@ -248,7 +248,7 @@ const assistant: TranslationStrings = {
     'アシスタントは、接続しているAIプロバイダーの検索でウェブを調べられます（口コミ、営業時間、イベントなど）。ChatGPT、Anthropic、OpenRouterで使え、検索はそのプロバイダーにだけ送られます。',
   'assistant.admin.retentionDays': '{count} 日',
   'assistant.admin.retentionForever': '無期限',
-  'assistant.mobile.tile': 'TREK に質問',
+  'assistant.mobile.tile': 'Manzil に質問',
   'assistant.mobile.tileHint': 'アシスタントと一緒に計画',
   'assistant.mobile.backToChat': 'チャットに戻る',
   'assistant.step.nearbyAt': '{place}の近くを検索中',
@@ -456,7 +456,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found': '{name} に予約が {count} 件見つかりました。必要なものを下で追加してください。',
   'assistant.attach.none': '{name} に予約は見つかりませんでした。',
   'assistant.attach.why.aiNotConfigured':
-    'ここではインポート用の AI 読み取りが設定されていないため、TREK 独自の読み取りだけで確認しました。',
+    'ここではインポート用の AI 読み取りが設定されていないため、Manzil 独自の読み取りだけで確認しました。',
   'assistant.attach.why.aiFailed': 'AI の読み取りでファイルを読めませんでした。',
   'assistant.attach.why.noText': '読み取れるテキストがありません。スキャンした画像の可能性が高いです。',
   'assistant.attach.why.nothingFound': '予約らしき内容は含まれていません。',

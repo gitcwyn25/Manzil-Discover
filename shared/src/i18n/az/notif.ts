@@ -27,7 +27,7 @@ const notif: TranslationStrings = {
   'notif.packing_tagged.title': 'Çamadan tapşırığı',
   'notif.packing_tagged.text': '{actor} {trip} səyahətindəki {category} kateqoriyasını sizə tapşırdı',
   'notif.version_available.title': 'Yeni versiya mövcuddur',
-  'notif.version_available.text': 'TREK {version} artıq mövcuddur',
+  'notif.version_available.text': 'Manzil {version} artıq mövcuddur',
   'notif.replica_failure.title': 'Yaddaş replikasında xəta',
   'notif.replica_failure.text': "'{backend}' replikasına yazmaq mümkün olmadı: {key} üçün {op} — {error}",
   'notif.replica_failure.textSuppressed':

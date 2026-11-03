@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'İstifadəçilərə TREK bağlı olanda belə brauzer vasitəsilə telefon və kompüterlərində bildiriş almağa imkan verir. HTTPS tələb olunur; iPhone və iPad-də TREK Əsas ekrana əlavə edilməlidir.',
+    'İstifadəçilərə Manzil bağlı olanda belə brauzer vasitəsilə telefon və kompüterlərində bildiriş almağa imkan verir. HTTPS tələb olunur; iPhone və iPad-də Manzil Əsas ekrana əlavə edilməlidir.',
   'admin.notifications.inappPanel.title': 'Tətbiqdaxili',
   'admin.notifications.inappPanel.hint':
     'Tətbiqdaxili bildirişlər həmişə aktivdir və ümumi şəkildə deaktiv edilə bilməz.',
@@ -149,11 +149,11 @@ const admin: TranslationStrings = {
     '2FA-sı olmayan istifadəçilər tətbiqdən istifadə etməzdən əvvəl Tənzimləmələr bölməsində quraşdırmanı tamamlamalıdırlar.',
   'admin.apiKeys': 'API açarları',
   'admin.apiKeysHint':
-    'Məkan məlumatlarının haradan əldə edildiyi. TREK indeksinə açar lazım deyil; aşağıdakı iki provayder istəyə bağlıdır.',
+    'Məkan məlumatlarının haradan əldə edildiyi. Manzil indeksinə açar lazım deyil; aşağıdakı iki provayder istəyə bağlıdır.',
   'admin.trekApi.badgeDefault': 'Tövsiyə edilən standart',
   'admin.googleCaveat.badge': 'Tövsiyə edilmir',
   'admin.googleCaveat.body':
-    'TREK açıq mənbəlidir və biz burada bitərəf deyilik. Adi müəssisələrin reytinqləri və fotoları bu miqyasda yalnız Google-da mövcuddur və inhisar məhz budur. Bu sahə onu tövsiyə etdiyimiz üçün deyil, alternativ olmadığı üçün buradadır. Bundan sonra hər sorğu Google-a göndərilir.',
+    'Manzil açıq mənbəlidir və biz burada bitərəf deyilik. Adi müəssisələrin reytinqləri və fotoları bu miqyasda yalnız Google-da mövcuddur və inhisar məhz budur. Bu sahə onu tövsiyə etdiyimiz üçün deyil, alternativ olmadığı üçün buradadır. Bundan sonra hər sorğu Google-a göndərilir.',
   'admin.trekApi.tagline':
     'TREK-in öz xidmətləri: məkan axtarışı, ünvan axtarışı və marşrut, Google açarı olmadan və heç bir açar daxil etmədən. Hər quraşdırma ədalətli gündəlik limit alır və yalnız sorğuların sayı hesablanır.',
   'admin.trekApi.factPlaces': 'Dünya üzrə 73,6 milyon məkan',
@@ -223,7 +223,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Google Maps API açarı',
   'admin.mapsKeyHint': 'Məkan axtarışı üçün tələb olunur. console.cloud.google.com saytından əldə edin',
   'admin.mapsKeyHintLong':
-    'Google API açarı olmadan tövsiyə edilən TREK API istifadə olunur. Açar olduqda fotolar, reytinqlər və iş saatları əlavə olaraq yüklənə bilər. Açarı console.cloud.google.com saytında yaradın.',
+    'Google API açarı olmadan tövsiyə edilən Manzil API istifadə olunur. Açar olduqda fotolar, reytinqlər və iş saatları əlavə olaraq yüklənə bilər. Açarı console.cloud.google.com saytında yaradın.',
   'admin.recommended': 'Tövsiyə edilir',
   'admin.weatherKey': 'OpenWeatherMap API açarı',
   'admin.weatherKeyHint': 'Hava məlumatları üçün. openweathermap.org saytında pulsuzdur',
@@ -241,7 +241,7 @@ const admin: TranslationStrings = {
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Seçilmiş provayder üçün API açarı konfiqurasiya edilməyib, buna görə məkan axtarışına yalnız TREK indeksi və OpenStreetMap cavab verir.',
+    'Seçilmiş provayder üçün API açarı konfiqurasiya edilməyib, buna görə məkan axtarışına yalnız Manzil indeksi və OpenStreetMap cavab verir.',
   'admin.placesProvider.saved': 'Məkan axtarışı provayderi yadda saxlanıldı',
   'admin.validateKey': 'Sına',
   'admin.keyValid': 'Qoşulub',
@@ -285,7 +285,7 @@ const admin: TranslationStrings = {
     'Məkan provayderi kimi Google tələb olunur. Amap və ya OpenStreetMap seçildikdə bu keçidin vəziyyətindən asılı olmayaraq axtarış heç vaxt Google-a göndərilmir.',
   'admin.googleQuota.title': 'Google sorğuları üçün gündəlik limit',
   'admin.googleQuota.subtitle':
-    'Limitə çatanda TREK növbəti günə (UTC) qədər Google-a müraciət etmir və OpenStreetMap ilə axtarır. Boş qalsa, limit yoxdur.',
+    'Limitə çatanda Manzil növbəti günə (UTC) qədər Google-a müraciət etmir və OpenStreetMap ilə axtarır. Boş qalsa, limit yoxdur.',
   'admin.googleQuota.placeholder': 'Limitsiz',
   'admin.googleQuota.usedToday': 'Bu gün: {used}',
   'admin.googleQuota.usedOfLimit': 'Bu gün: {used} / {limit}',
@@ -447,7 +447,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Mənbə kodu reyestri',
   'admin.plugins.reportIssue': 'Problem bildir',
   'admin.plugins.homepage': 'Ana səhifə',
-  'admin.plugins.requiresTrek': 'TREK {version}+ tələb edir',
+  'admin.plugins.requiresTrek': 'Manzil {version}+ tələb edir',
   'admin.plugins.reviewedOn': '{date} tarixində yoxlanılıb',
   'admin.plugins.perm.db:own': 'Öz məlumatlarını təcrid edilmiş verilənlər bazasında saxlamaq',
   'admin.plugins.perm.db:read:trips': 'Əməliyyatı həyata keçirən istifadəçinin giriş icazəsi olan səyahətləri oxumaq',
@@ -549,7 +549,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Süni intellekt köməkçisinin sizin adınızdan işə sala biləcəyi alətlər yayımlamaq (köməkçinin öz icazələri ilə deyil, burada plaginə verdiyiniz giriş icazələri ilə işləyir)',
   'admin.plugins.perm.geolocation:read':
-    'Plaginin görünüşlərindən biri açıq olduqda canlı mövqeyinizi istəmək (TREK onu plaginin öz icazəsi ilə deyil, bu saytın məkan icazəsi ilə oxuyur)',
+    'Plaginin görünüşlərindən biri açıq olduqda canlı mövqeyinizi istəmək (Manzil onu plaginin öz icazəsi ilə deyil, bu saytın məkan icazəsi ilə oxuyur)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Səyahətin PDF ixracına mətn bölmələri əlavə etmək',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Atlas dünya xəritəsində ölkələri vurğulamaq (məsələn, arzular siyahıları və ya səyahət xəbərdarlıqları)',
@@ -580,23 +580,23 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Hələlik deaktiv saxla',
   'admin.plugins.updateKeptOff': 'Yeniləmə quraşdırıldı — yeni icazələri təsdiqləyənə qədər deaktiv saxlanıldı',
   'admin.plugins.reviewedMeaning':
-    '“Yoxlanılıb” o deməkdir ki, TREK tərtibatçısı plaginin hər versiyasını zərərli proqramlara qarşı nəzərdən keçirib — keyfiyyətinə və ya işləyib-işləmədiyinə görə yox. Bu, plaginin zərərsiz olduğuna zəmanət vermir.',
+    '“Yoxlanılıb” o deməkdir ki, Manzil tərtibatçısı plaginin hər versiyasını zərərli proqramlara qarşı nəzərdən keçirib — keyfiyyətinə və ya işləyib-işləmədiyinə görə yox. Bu, plaginin zərərsiz olduğuna zəmanət vermir.',
   'admin.plugins.security.title': 'Plaginlərin necə təcrid edildiyi və məhdudiyyətlər',
   'admin.plugins.security.isolationTitle': 'Hər plagin təcrid edilmiş mühitdə işləyir',
   'admin.plugins.security.isolationBody':
-    'Plagin yalnız öz fayllarını oxuya bilən ayrıca, ciddi məhdudlaşdırılmış proses kimi işləyir. O, verilənlər bazanızı, giriş sirrinizi və ya şifrələmə açarınızı oxuya, başqa proqramları işə sala və heç bir yerə fayl yaza bilməz. Onun interfeysi sessiya kukinizi oxuya və ətrafındakı TREK səhifəsinə müdaxilə edə bilməyən qapalı brauzer çərçivəsində işləyir.',
+    'Plagin yalnız öz fayllarını oxuya bilən ayrıca, ciddi məhdudlaşdırılmış proses kimi işləyir. O, verilənlər bazanızı, giriş sirrinizi və ya şifrələmə açarınızı oxuya, başqa proqramları işə sala və heç bir yerə fayl yaza bilməz. Onun interfeysi sessiya kukinizi oxuya və ətrafındakı Manzil səhifəsinə müdaxilə edə bilməyən qapalı brauzer çərçivəsində işləyir.',
   'admin.plugins.security.permsTitle': 'İcazələr nə deməkdir',
   'admin.plugins.security.permsBody':
     'Quraşdırmadan əvvəl göstərilən icazələr plagin işləyərkən TREK-in tətbiq etdiyi sərt məhdudiyyətdir — plagin siyahıda olmayan heç bir əməliyyatı yerinə yetirə bilməz. Lakin onlar plaginin əslində nə etdiyini deyil, nə edə biləcəyini göstərir. Səyahətlərinizi oxumaq və serverə qoşulmaq icazəsi verilmiş plagin səyahətlərinizi həmin serverə göndərə bilər. Buna görə yalnız təsviri deyil, icazələri və xarici hostları da oxuyun.',
   'admin.plugins.security.limitsTitle': 'Nəyə zəmanət verə bilmərik',
   'admin.plugins.security.limitsBody':
-    'Təcridetmə güclü proqram sərhədidir, lakin mütləq deyil. Plagin tam olaraq təsdiqlədiyiniz hüquqlarla işləyir. Buna görə həmin hüquqlar daxilində təsvirində göstəriləndən fərqli davrana və qanuni şəkildə əldə etdiyi məlumatları elan etdiyi hostlara göndərə bilər. TREK plaginin kodunun əslində nə etdiyini oxumur və qiymətləndirmir.',
+    'Təcridetmə güclü proqram sərhədidir, lakin mütləq deyil. Plagin tam olaraq təsdiqlədiyiniz hüquqlarla işləyir. Buna görə həmin hüquqlar daxilində təsvirində göstəriləndən fərqli davrana və qanuni şəkildə əldə etdiyi məlumatları elan etdiyi hostlara göndərə bilər. Manzil plaginin kodunun əslində nə etdiyini oxumur və qiymətləndirmir.',
   'admin.plugins.security.worstTitle': 'Ən pis ehtimal',
   'admin.plugins.security.worstBody':
     'Aktivləşdirdiyiniz zərərli plagin ona verdiyiniz məlumatlardan və bağlantılardan sui-istifadə edə bilər — məsələn, oxumağa icazəsi olan səyahətləri sızdıra bilər. O, parolları oğurlaya, saxta administrator girişi yarada, serverinizdə əmrlər işlədə və ya icazə vermədiyiniz məlumatlara çata bilməz. Zərər təsdiqlədiyiniz icazələrlə məhdudlaşır və plagini deaktiv etmək onu dayandırır.',
   'admin.plugins.security.reviewedTitle': '“Yoxlanılıb” nə deməkdir',
   'admin.plugins.security.reviewedBody':
-    'Yoxlanılmış plagin hər versiyada TREK tərtibatçısı tərəfindən zərərli proqramlara qarşı əl ilə nəzərdən keçirilib — yaxşı işləyib-işləmədiyinə görə deyil, zərərli koda görə yoxlanılıb. Bu, plaginin zərərsiz olduğuna zəmanət deyil.',
+    'Yoxlanılmış plagin hər versiyada Manzil tərtibatçısı tərəfindən zərərli proqramlara qarşı əl ilə nəzərdən keçirilib — yaxşı işləyib-işləmədiyinə görə deyil, zərərli koda görə yoxlanılıb. Bu, plaginin zərərsiz olduğuna zəmanət deyil.',
   'admin.plugins.security.signedTitle': '“İmzalanıb” nə deməkdir',
   'admin.plugins.security.signedBody':
     'TREK-in hər quraşdırmada yoxladığı nəzarət cəmi faylların reyestrin təsdiqlədiyi fayllarla tam eyni olduğunu sübut edir. İmza isə başqa şeyi sübut edir: faylların müəllifdən gəldiyini və yalnız onun sahib olduğu açarla imzalandığını. İmzalanmış plagində hər ikisi mövcuddur. İmzalanmamış plagin təhlükəli demək deyil — sadəcə bir zəmanəti daha azdır və hazırda reyestrdəki plaginlərin əksəriyyəti imzalanmayıb.',
@@ -614,20 +614,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Fayllar müəllifin imzası ilə uyğun gəlmir. Bunlar müəllifin imzaladığı fayllar deyil — ya zədələniblər, ya da dəyişdiriliblər. Bu məhdudiyyəti keçmək mümkün deyil.',
   'admin.plugins.sig.missingBody':
-    'Bu plagin quraşdırdığınız zaman imzalanmışdı, lakin yeni versiyada imza yoxdur. TREK bu geriləməni səssizcə qəbul etməyəcək. Bu məhdudiyyəti keçmək mümkün deyil.',
+    'Bu plagin quraşdırdığınız zaman imzalanmışdı, lakin yeni versiyada imza yoxdur. Manzil bu geriləməni səssizcə qəbul etməyəcək. Bu məhdudiyyəti keçmək mümkün deyil.',
   'admin.plugins.sig.incompleteBody':
     'Reyestr qeydi yarımçıq imzalanıb: müəllif açarı göstərilib, lakin versiyada imza yoxdur və ya əksinə. Bu, plagin tərəfindəki xətadır. Bu məhdudiyyəti keçmək mümkün deyil.',
   'admin.plugins.sig.pinnedKey': 'Quraşdırılarkən istifadə edilən açar',
   'admin.plugins.sig.newKey': 'İndi təqdim etdiyi açar',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK qanuni açar dəyişikliyini plagin ələ keçirilməsindən fərqləndirə bilmir — hər ikisi buradan eyni görünür. Qəbul etməzdən əvvəl yeni açarı artıq etibar etdiyiniz kanal vasitəsilə müəlliflə təsdiqləyin. Təsdiqlədikdən sonra plagin yenilənəcək və yeni açar yadda saxlanılacaq.',
+    'Manzil qanuni açar dəyişikliyini plagin ələ keçirilməsindən fərqləndirə bilmir — hər ikisi buradan eyni görünür. Qəbul etməzdən əvvəl yeni açarı artıq etibar etdiyiniz kanal vasitəsilə müəlliflə təsdiqləyin. Təsdiqlədikdən sonra plagin yenilənəcək və yeni açar yadda saxlanılacaq.',
   'admin.plugins.sig.retrustConfirm': 'Yeni açara etibar et və yenilə',
   'admin.plugins.sig.cancel': 'Etibar etmə',
   'admin.plugins.sig.consentUnsigned':
     'Bu versiyanı müəllifi ilə əlaqələndirən heç nə yoxdur — fayllar reyestrdəki fayllarla uyğun gəlir, lakin müəllif imzası daşımır.',
   'admin.plugins.security.trustTitle': 'Əsas nəticə',
   'admin.plugins.security.trustBody':
-    'Plagin quraşdırmaq istənilən üçüncü tərəf tətbiqini quraşdırmağa bənzəyir: yalnız etibar etdiyiniz müəlliflərin kodunu əlavə edin və şübhə etdikdə əvvəlcə onu özünüz yoxlayın. TREK üçüncü tərəf plaginlərinə görə məsuliyyət daşımır.',
+    'Plagin quraşdırmaq istənilən üçüncü tərəf tətbiqini quraşdırmağa bənzəyir: yalnız etibar etdiyiniz müəlliflərin kodunu əlavə edin və şübhə etdikdə əvvəlcə onu özünüz yoxlayın. Manzil üçüncü tərəf plaginlərinə görə məsuliyyət daşımır.',
   'admin.plugins.runtimeOn': 'İcra mühiti aktivdir',
   'admin.plugins.tabDiscover': 'Kəşf et',
   'admin.plugins.searchPlaceholder': 'Plaginləri axtar…',
@@ -644,12 +644,12 @@ const admin: TranslationStrings = {
   'admin.plugins.sortDownloads': 'Ən çox endirilənlər',
   'admin.plugins.updatesAvailable': 'Plaginləriniz üçün {count} yeniləmə mövcuddur.',
   'admin.plugins.updatesAvailable.one': 'Plaginləriniz üçün {count} yeniləmə mövcuddur.',
-  'admin.plugins.newerNeedsTrek': 'v{version} mövcuddur — TREK {range} tələb edir',
+  'admin.plugins.newerNeedsTrek': 'v{version} mövcuddur — Manzil {range} tələb edir',
   'admin.plugins.updateAll': 'Hamısını yenilə',
   'admin.plugins.versionsTitle': 'Versiyalar',
   'admin.plugins.versionPickerTitle': 'Versiyanı dəyiş — {name}',
   'admin.plugins.versionSwitch': '{version} versiyasına keç',
-  'admin.plugins.versionNeedsTrek': 'TREK {range} tələb edir',
+  'admin.plugins.versionNeedsTrek': 'Manzil {range} tələb edir',
   'admin.plugins.changeVersion': 'Versiyanı dəyiş…',
   'admin.plugins.noVersions': 'Reyestrdə yayımlanmış versiya tapılmadı.',
   'admin.plugins.downgradeTitle': 'Bu plagin əvvəlki versiyaya qaytarılsın?',
@@ -715,30 +715,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Endir',
   'admin.plugins.dep.update': 'Yenilə',
   'admin.plugins.dep.resolveHint': 'Öz asılılıqları daxil olmaqla ən son uyğun versiyanı endirir.',
-  'admin.plugins.dep.trekIncompatible': 'TREK {range} tələb edir — bu serverdə {host} işləyir',
-  'admin.plugins.dep.trekUnknown': 'Hansı TREK versiyalarını dəstəklədiyini göstərmir',
+  'admin.plugins.dep.trekIncompatible': 'Manzil {range} tələb edir — bu serverdə {host} işləyir',
+  'admin.plugins.dep.trekUnknown': 'Hansı Manzil versiyalarını dəstəklədiyini göstərmir',
   'admin.plugins.installCompatible': '{version} versiyasını quraşdır',
   'admin.plugins.installAnyway': 'Yenə də quraşdır',
   'admin.plugins.rangeBypass.pill': 'Versiya yoxlamaları deaktivdir',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE təyin edilib — plaginlər müəlliflərinin göstərdiyi TREK versiyalarından kənarda quraşdırıla və işləyə bilər',
-  'admin.plugins.rangeBypass.title': 'Dəstəklədiyi TREK versiyalarından kənardır',
-  'admin.plugins.rangeBypass.noticeTitle': 'Dəstəklədiyi TREK versiyalarından kənarda quraşdırılıb',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE təyin edilib — plaginlər müəlliflərinin göstərdiyi Manzil versiyalarından kənarda quraşdırıla və işləyə bilər',
+  'admin.plugins.rangeBypass.title': 'Dəstəklədiyi Manzil versiyalarından kənardır',
+  'admin.plugins.rangeBypass.noticeTitle': 'Dəstəklədiyi Manzil versiyalarından kənarda quraşdırılıb',
   'admin.plugins.rangeBypass.body':
-    '“{name}” TREK {range} versiyalarını dəstəklədiyini göstərir, bu serverdə isə {host} işləyir. TREK buna yalnız TREK_PLUGINS_IGNORE_TREK_RANGE təyin edildiyi üçün icazə verir. Müəllif bu TREK versiyası üçün plaginin versiya aralığını yeniləməyib, buna görə işləyəcəyinə zəmanət yoxdur — nadir hallarda uyğun olmayan plagin TREK məlumatlarını korlaya bilər. Yalnız bu riski qəbul edirsinizsə davam edin.',
+    '“{name}” Manzil {range} versiyalarını dəstəklədiyini göstərir, bu serverdə isə {host} işləyir. Manzil buna yalnız TREK_PLUGINS_IGNORE_TREK_RANGE təyin edildiyi üçün icazə verir. Müəllif bu Manzil versiyası üçün plaginin versiya aralığını yeniləməyib, buna görə işləyəcəyinə zəmanət yoxdur — nadir hallarda uyğun olmayan plagin Manzil məlumatlarını korlaya bilər. Yalnız bu riski qəbul edirsinizsə davam edin.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '“{name}” hansı TREK versiyalarını dəstəklədiyini göstərmir; bu serverdə {host} işləyir. TREK buna yalnız TREK_PLUGINS_IGNORE_TREK_RANGE təyin edildiyi üçün icazə verir. Müəllifin onu bu TREK versiyasında sınaqdan keçirdiyinə dair məlumat yoxdur, buna görə işləyəcəyinə zəmanət verilmir — nadir hallarda uyğun olmayan plagin TREK məlumatlarını korlaya bilər. Yalnız bu riski qəbul edirsinizsə davam edin.',
-  'admin.plugins.dep.trekBypassed': 'TREK versiya aralığından ({range}) kənardır — versiya yoxlamaları deaktivdir',
-  'admin.plugins.dep.trekBypassedUnknown': 'TREK versiya aralığı göstərilməyib — versiya yoxlamaları deaktivdir',
+    '“{name}” hansı Manzil versiyalarını dəstəklədiyini göstərmir; bu serverdə {host} işləyir. Manzil buna yalnız TREK_PLUGINS_IGNORE_TREK_RANGE təyin edildiyi üçün icazə verir. Müəllifin onu bu Manzil versiyasında sınaqdan keçirdiyinə dair məlumat yoxdur, buna görə işləyəcəyinə zəmanət verilmir — nadir hallarda uyğun olmayan plagin Manzil məlumatlarını korlaya bilər. Yalnız bu riski qəbul edirsinizsə davam edin.',
+  'admin.plugins.dep.trekBypassed': 'Manzil versiya aralığından ({range}) kənardır — versiya yoxlamaları deaktivdir',
+  'admin.plugins.dep.trekBypassedUnknown': 'Manzil versiya aralığı göstərilməyib — versiya yoxlamaları deaktivdir',
   'admin.plugins.rangeBypass.titleAdmin': 'Bu TREK-də sınaqdan keçməyib',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Müəllifinə görə “{name}” TREK {range} versiyalarını dəstəkləyir, bu server isə {host} işlədir. Müəllif onu bu TREK üçün hələ təsdiqləməyib, ona görə də işləməyə bilər və nadir hallarda uyğun olmayan plagin TREK məlumatlarına zərər verə bilər. Yenə də istifadə edə bilərsən: seçimin yalnız bu versiyadakı bu plagin üçün keçərlidir, yeniləmədən sonra TREK yenidən soruşacaq.',
+    'Müəllifinə görə “{name}” Manzil {range} versiyalarını dəstəkləyir, bu server isə {host} işlədir. Müəllif onu bu Manzil üçün hələ təsdiqləməyib, ona görə də işləməyə bilər və nadir hallarda uyğun olmayan plagin Manzil məlumatlarına zərər verə bilər. Yenə də istifadə edə bilərsən: seçimin yalnız bu versiyadakı bu plagin üçün keçərlidir, yeniləmədən sonra Manzil yenidən soruşacaq.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '“{name}” hansı TREK versiyalarını dəstəklədiyini göstərmir, bu server isə {host} işlədir. Onun bu TREK-də sınaqdan keçdiyinə dair heç bir işarə yoxdur, ona görə də işləməyə bilər və nadir hallarda uyğun olmayan plagin TREK məlumatlarına zərər verə bilər. Yenə də istifadə edə bilərsən: seçimin yalnız bu versiyadakı bu plagin üçün keçərlidir, yeniləmədən sonra TREK yenidən soruşacaq.',
-  'admin.plugins.dep.trekAccepted': 'TREK {range} üçün hazırlanıb, öz riskinlə işləyir',
-  'admin.plugins.dep.trekAcceptedUnknown': 'TREK versiyası göstərilməyib, öz riskinlə işləyir',
+    '“{name}” hansı Manzil versiyalarını dəstəklədiyini göstərmir, bu server isə {host} işlədir. Onun bu TREK-də sınaqdan keçdiyinə dair heç bir işarə yoxdur, ona görə də işləməyə bilər və nadir hallarda uyğun olmayan plagin Manzil məlumatlarına zərər verə bilər. Yenə də istifadə edə bilərsən: seçimin yalnız bu versiyadakı bu plagin üçün keçərlidir, yeniləmədən sonra Manzil yenidən soruşacaq.',
+  'admin.plugins.dep.trekAccepted': 'Manzil {range} üçün hazırlanıb, öz riskinlə işləyir',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Manzil versiyası göstərilməyib, öz riskinlə işləyir',
   'admin.plugins.activateAnyway': 'Yenə də aktivləşdir',
-  'admin.plugins.untestedChip': 'TREK {host} üçün hələ təsdiqlənməyib',
+  'admin.plugins.untestedChip': 'Manzil {host} üçün hələ təsdiqlənməyib',
   'admin.plugins.filters': 'Filtr',
   'admin.plugins.security.short': 'Plaginlər necə qorunur',
   'admin.plugins.accessTitle': 'Giriş əldə edə biləcəyi məlumatlar',
@@ -751,7 +751,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'Yoxlanılma tarixi',
   'admin.plugins.downloads': 'Endirmələr',
   'admin.addons.title': 'Əlavələr',
-  'admin.addons.subtitle': 'TREK təcrübənizi fərdiləşdirmək üçün funksiyaları aktivləşdirin və ya deaktiv edin.',
+  'admin.addons.subtitle': 'Manzil təcrübənizi fərdiləşdirmək üçün funksiyaları aktivləşdirin və ya deaktiv edin.',
   'admin.addons.catalog.packing.name': 'Siyahılar',
   'admin.addons.catalog.packing.description': 'Səyahətləriniz üçün baqaj siyahıları və tapşırıqlar',
   'admin.addons.catalog.budget.name': 'Xərclər',
@@ -832,7 +832,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Hava məlumatları',
   'admin.weather.badge': '24 mart 2026-cı ildən',
   'admin.weather.description':
-    'TREK hava məlumatlarının mənbəyi kimi Open-Meteo-dan istifadə edir. Open-Meteo pulsuz, açıq mənbəli hava xidmətidir — API açarı tələb olunmur.',
+    'Manzil hava məlumatlarının mənbəyi kimi Open-Meteo-dan istifadə edir. Open-Meteo pulsuz, açıq mənbəli hava xidmətidir — API açarı tələb olunmur.',
   'admin.weather.forecast': '16 günlük hava proqnozu',
   'admin.weather.forecastDesc': 'Əvvəllər 5 gün idi (OpenWeatherMap)',
   'admin.weather.climate': 'Tarixi iqlim məlumatları',
@@ -895,12 +895,12 @@ const admin: TranslationStrings = {
   'admin.github.by': 'müəllif',
   'admin.github.support': 'TREK-i inkişaf etdirməyə davam etməyimə kömək edir',
   'admin.update.available': 'Yeniləmə mövcuddur',
-  'admin.update.text': 'TREK {version} mövcuddur. Sizdə {current} işləyir.',
+  'admin.update.text': 'Manzil {version} mövcuddur. Sizdə {current} işləyir.',
   'admin.update.button': 'GitHub-da bax',
   'admin.update.install': 'Yeniləməni quraşdır',
   'admin.update.confirmTitle': 'Yeniləmə quraşdırılsın?',
   'admin.update.confirmText':
-    'TREK {current} versiyasından {version} versiyasına yenilənəcək. Bundan sonra server avtomatik yenidən başladılacaq.',
+    'Manzil {current} versiyasından {version} versiyasına yenilənəcək. Bundan sonra server avtomatik yenidən başladılacaq.',
   'admin.update.dataInfo':
     'Bütün məlumatlarınız (səyahətlər, istifadəçilər, API açarları, yükləmələr, Vacay, Atlas və büdcələr) qorunacaq.',
   'admin.update.warning': 'Yenidən başlatma zamanı tətbiq qısa müddət ərzində əlçatmaz olacaq.',
@@ -912,9 +912,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Ehtiyat nüsxəyə keç',
   'admin.update.howTo': 'Necə yeniləməli',
   'admin.update.dockerText':
-    'TREK sisteminiz Docker-də işləyir. {version} versiyasına yeniləmək üçün serverinizdə aşağıdakı əmrləri icra edin:',
+    'Manzil sisteminiz Docker-də işləyir. {version} versiyasına yeniləmək üçün serverinizdə aşağıdakı əmrləri icra edin:',
   'admin.update.nonDockerText':
-    'Bu TREK sistemi Docker-də işləmir. {version} versiyasına yeniləmək üçün əvvəl istifadə etdiyiniz quraşdırma və ya yeniləmə üsulunu yenidən icra edin — məsələn, Proxmox Community Scripts istifadə edirsinizsə, yeniləməni LXC konsolundan başladın:',
+    'Bu Manzil sistemi Docker-də işləmir. {version} versiyasına yeniləmək üçün əvvəl istifadə etdiyiniz quraşdırma və ya yeniləmə üsulunu yenidən icra edin — məsələn, Proxmox Community Scripts istifadə edirsinizsə, yeniləməni LXC konsolundan başladın:',
   'admin.update.wikiLink': 'Yeniləmə təlimatını aç',
   'admin.update.reloadHint': 'Bir neçə saniyədən sonra səhifəni yenidən yükləyin.',
   'admin.tabs.permissions': 'İcazələr',
@@ -986,7 +986,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik hazırda əlçatan deyil. Sonra yenidən cəhd edin.',
   'admin.paddleRegions.attribution':
     'Məlumatlar © OpenStreetMap iştirakçıları (ODbL), regional çıxarışlar Geofabrik-dən. Hər ayın 3-də yenidən oxunur.',
-  'admin.paddleRegions.toast.added': 'Region əlavə edildi. TREK onu arxa planda oxuyur.',
+  'admin.paddleRegions.toast.added': 'Region əlavə edildi. Manzil onu arxa planda oxuyur.',
   'admin.paddleRegions.toast.removed': 'Region silindi',
   'admin.paddleRegions.phase.build': 'Su şəbəkəsi qurulur',
   'admin.paddleRegions.network.km': '{km} km su',
@@ -1007,11 +1007,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'Sorğu ilə',
   'admin.paddleRegions.auto.mode.off': 'Söndür',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Kimsə hələ su məlumatı olmayan yerdə avarçəkmə turu planlaşdırırsa, TREK ən kiçik uyğun regionu dərhal yükləyir, ölçü həddinə qədər və gündə yalnız bir neçəsini. Daha böyükləri burada sorğu kimi gözləyir. Geofabrik-ə yalnız regionun adı gedir, yer heç vaxt.',
+    'Kimsə hələ su məlumatı olmayan yerdə avarçəkmə turu planlaşdırırsa, Manzil ən kiçik uyğun regionu dərhal yükləyir, ölçü həddinə qədər və gündə yalnız bir neçəsini. Daha böyükləri burada sorğu kimi gözləyir. Geofabrik-ə yalnız regionun adı gedir, yer heç vaxt.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Hər yeni region admin icazə verənə qədər burada gözləyir. Admin özü planlaşdıranda dərhal yüklənir.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK özbaşına heç nə yükləmir və heç nə soruşmur. Regionları burada əl ilə əlavə et.',
+    'Manzil özbaşına heç nə yükləmir və heç nə soruşmur. Regionları burada əl ilə əlavə et.',
   'admin.paddleRegions.auto.maxSize': 'Avtomatik yüklənən ən böyük region',
   'admin.paddleRegions.auto.maxSizeHint':
     'Daha böyük regionlar burada sorğu kimi gözləyir. Regionun oxunması bir neçə dəqiqə çəkir və bu zaman yaddaş tələb edir.',
@@ -1024,7 +1024,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Yüklə',
   'admin.paddleRegions.requests.decline': 'Rədd et',
   'admin.paddleRegions.origin.auto': 'Avtomatik',
-  'admin.paddleRegions.origin.autoHint': 'TREK bu regionu orada planlaşdırılan avarçəkmə turu üçün özü yüklədi.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil bu regionu orada planlaşdırılan avarçəkmə turu üçün özü yüklədi.',
   'admin.mfa.reset': '2FA-nı sıfırla',
   'admin.mfa.resetHint':
     'Bu istifadəçi üçün iki faktorlu doğrulamanı söndürür, məsələn telefon itirildikdən sonra. İstifadəçi hər yerdən çıxarılır və parolu ilə daxil olduqdan sonra onu yenidən quraşdıra bilər.',
@@ -1092,16 +1092,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Söndürülüb',
   'admin.contribute.status.unavailable': 'Əlçatan deyil',
   'admin.contribute.noteActive':
-    'İstifadəçilərinizin məkanlar haqqında yazdıqları yoxlamadan sonra hər TREK-ə çatır. Kömək etdiyiniz üçün təşəkkür edirik.',
+    'İstifadəçilərinizin məkanlar haqqında yazdıqları yoxlamadan sonra hər Manzil-ə çatır. Kömək etdiyiniz üçün təşəkkür edirik.',
   'admin.contribute.noteOff':
     'İstifadəçilərinizin məkanlar haqqında yazdıqları TREK Places API-ni hamı üçün yaxşılaşdırsın.',
   'admin.contribute.ineligible.env_off': 'Bu quraşdırma üçün TREK_PLACES_CONTRIBUTE vasitəsilə söndürülüb.',
   'admin.contribute.ineligible.not_production': 'Məkan məlumatlarını yalnız istehsal quraşdırması paylaşa bilər.',
   'admin.contribute.ineligible.demo': 'Demo quraşdırma məkan məlumatlarını paylaşmır.',
-  'admin.contribute.ineligible.index_off': 'Paylaşım üçün məkan mənbəyi kimi TREK indeksi lazımdır.',
+  'admin.contribute.ineligible.index_off': 'Paylaşım üçün məkan mənbəyi kimi Manzil indeksi lazımdır.',
   'admin.contribute.ineligible.custom_places_url':
     'Bu quraşdırma öz Places API-sindən istifadə edir, ona görə paylaşmaq üçün heç kim yoxdur.',
-  'admin.contribute.ineligible.services_off': 'TREK xidmətləri bu quraşdırma üçün söndürülüb.',
+  'admin.contribute.ineligible.services_off': 'Manzil xidmətləri bu quraşdırma üçün söndürülüb.',
   'admin.contribute.ineligible.no_key': 'Bu quraşdırmanın hələ xidmət açarı yoxdur. O, avtomatik tələb olunur.',
   'admin.contribute.pause.key_invalid': 'Dayandırılıb: xidmət bu quraşdırmanın açarını qəbul etmədi.',
   'admin.contribute.pause.key_refused':
@@ -1147,7 +1147,7 @@ const admin: TranslationStrings = {
   'admin.contribute.refused.no_field': 'Paylaşmaq üçün ən azı bir sahə seçin.',
   'admin.contribute.prompt.title': 'Hər TREK-in məkanları daha yaxşı tanımasına kömək edin',
   'admin.contribute.prompt.lead':
-    'Burada kimsə məkana veb-sayt, telefon nömrəsi, iş saatları və ya təsvir əlavə edəndə, TREK bunu ötürə bilər. Yoxlamadan sonra hər TREK quraşdırması bunu göstərir, sizinki isə qarşılığında başqalarının əlavə etdiklərini alır.',
+    'Burada kimsə məkana veb-sayt, telefon nömrəsi, iş saatları və ya təsvir əlavə edəndə, Manzil bunu ötürə bilər. Yoxlamadan sonra hər Manzil quraşdırması bunu göstərir, sizinki isə qarşılığında başqalarının əlavə etdiklərini alır.',
   'admin.contribute.prompt.why':
     'TREK Places API pulsuzdur və Google açarı tələb etmir, çünki açıq verilənlərdən qurulub. Paylaşdığınız hər təfərrüat onu minlərlə səyyah üçün daha yaxşı edir. Bu işin bir hissəsi olduğunuz üçün təşəkkür edirik.',
   'admin.contribute.prompt.whatLabel': 'Nə paylaşılır',

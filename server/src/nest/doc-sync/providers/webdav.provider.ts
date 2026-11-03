@@ -69,7 +69,7 @@ const WEBHOOK_EVENTS = [
 const WEBHOOK_SECRET_HEADER = 'x-trek-docsync-secret';
 
 /** Where a Nextcloud connection looks for trip folders when nobody said otherwise. */
-const DEFAULT_BASE_PATH = '/TREK';
+const DEFAULT_BASE_PATH = '/Manzil';
 
 /** Enough scopes for a busy install, and a ceiling so the cache cannot grow forever. */
 const MAX_CACHED_SCOPES = 200;

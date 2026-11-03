@@ -65,9 +65,9 @@ const files: TranslationStrings = {
   'files.confirm.permanentDelete': 'Eliminar este archivo permanentemente? No se puede deshacer.',
   'files.confirm.emptyTrash': 'Eliminar todos los archivos de la papelera? No se puede deshacer.',
   'files.uploadNeedsConnection':
-    'Para subir hace falta conexión. Vuelve a intentarlo cuando TREK esté de nuevo en línea.',
+    'Para subir hace falta conexión. Vuelve a intentarlo cuando Manzil esté de nuevo en línea.',
   'files.linkNeedsConnection':
-    'Para quitar este vínculo hace falta conexión. Vuelve a intentarlo cuando TREK esté de nuevo en línea.',
+    'Para quitar este vínculo hace falta conexión. Vuelve a intentarlo cuando Manzil esté de nuevo en línea.',
   'files.placeFilesNeedConnection':
     'Los archivos necesitan conexión para subirse. Quita los nuevos para guardar el lugar sin conexión, o guarda cuando vuelvas a estar en línea.',
   'files.maxSize': 'Máx. {count} MB',

@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Questi dati si impostano da computer, dove puoi anche confrontare percorsi alternativi e far seguire a un giorno una traccia importata.',
   'mobileTrip.planOnDesktop': 'Si pianifica dal computer',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK calcola il tragitto appena un giorno ha due luoghi.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil calcola il tragitto appena un giorno ha due luoghi.',
   'mobileTrip.toursEmptyBody': 'Le escursioni salvate compaiono qui, pronte da aggiungere a un giorno.',
   'mobileTrip.toursCount': '{count} escursioni',
   'mobileTrip.toursCount.one': '{count} escursione',

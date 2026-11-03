@@ -10,6 +10,7 @@ import { StorageRegistryService } from './storage-registry.service';
 import { StorageStatsService } from './storage-stats.service';
 import { StorageUsageScanJob } from './storage-usage-scan.job';
 import { StorageService } from './storage.service';
+import { SupabaseStorageService } from './supabase-storage.service';
 import { MikroOrmModule } from '@mikro-orm/nestjs';
 import { Module } from '@nestjs/common';
 
@@ -40,6 +41,7 @@ import { Module } from '@nestjs/common';
     StorageJobsService,
     StorageStatsService,
     StorageUsageScanJob,
+    SupabaseStorageService,
   ],
   exports: [StorageService, StorageEventsService],
 })

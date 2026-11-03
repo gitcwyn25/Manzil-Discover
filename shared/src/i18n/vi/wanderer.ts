@@ -20,12 +20,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Đã xóa kết nối wanderer',
   'wanderer.loadFailed': 'Không thể tải kết nối wanderer',
   'wanderer.privateIp':
-    'Địa chỉ này nằm trong mạng riêng. Nếu TREK không truy cập được, quản trị viên cần cho phép mạng nội bộ.',
+    'Địa chỉ này nằm trong mạng riêng. Nếu Manzil không truy cập được, quản trị viên cần cho phép mạng nội bộ.',
   'wanderer.error.disabled': 'Quản trị viên chưa bật wanderer cho Chuyến tham quan.',
   'wanderer.error.not_connected': 'wanderer chưa được kết nối.',
   'wanderer.error.invalid_url': 'Địa chỉ đó không phải là URL wanderer hợp lệ.',
   'wanderer.error.blocked_address':
-    'TREK không được phép truy cập địa chỉ đó. Với máy chủ trong mạng riêng của bạn, quản trị viên cần đặt ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil không được phép truy cập địa chỉ đó. Với máy chủ trong mạng riêng của bạn, quản trị viên cần đặt ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'Không thể kết nối tới wanderer. Hãy kiểm tra địa chỉ và đảm bảo máy chủ đang chạy.',
   'wanderer.error.tls': 'Không thể xác minh chứng chỉ của máy chủ. Nếu đó là chứng chỉ tự ký, hãy cho phép ở bên dưới.',
   'wanderer.error.unauthorized': 'wanderer không chấp nhận token API. Token có thể đã bị thu hồi hoặc hết hạn.',
@@ -35,7 +35,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Phản hồi không đến từ wanderer. Hãy kiểm tra địa chỉ có trỏ đúng tới wanderer hay không.',
   'wanderer.error.no_author':
-    'wanderer đã phản hồi nhưng không nêu tác giả cung đường nào cho tài khoản của token API này, nên TREK không biết cung đường nào là của bạn.',
+    'wanderer đã phản hồi nhưng không nêu tác giả cung đường nào cho tài khoản của token API này, nên Manzil không biết cung đường nào là của bạn.',
   'wanderer.error.too_large': 'Tệp cung đường lớn hơn 10 MB.',
   'wanderer.error.server_error': 'wanderer trả về lỗi. Vui lòng thử lại sau.',
   'wanderer.error.offline': 'Bạn đang ngoại tuyến. Chỉ có thể tìm kiếm wanderer khi trực tuyến.',

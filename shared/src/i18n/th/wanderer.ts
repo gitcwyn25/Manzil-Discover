@@ -19,12 +19,12 @@ const wanderer: TranslationStrings = {
   'wanderer.saved': 'บันทึกการเชื่อมต่อ wanderer แล้ว',
   'wanderer.disconnected': 'ลบการเชื่อมต่อ wanderer แล้ว',
   'wanderer.loadFailed': 'ไม่สามารถโหลดการเชื่อมต่อ wanderer ได้',
-  'wanderer.privateIp': 'ที่อยู่นี้อยู่ในเครือข่ายส่วนตัว หาก TREK เข้าถึงไม่ได้ ผู้ดูแลระบบต้องอนุญาตเครือข่ายภายใน',
+  'wanderer.privateIp': 'ที่อยู่นี้อยู่ในเครือข่ายส่วนตัว หาก Manzil เข้าถึงไม่ได้ ผู้ดูแลระบบต้องอนุญาตเครือข่ายภายใน',
   'wanderer.error.disabled': 'ผู้ดูแลระบบยังไม่ได้เปิดใช้ wanderer สำหรับทัวร์',
   'wanderer.error.not_connected': 'ยังไม่ได้เชื่อมต่อ wanderer',
   'wanderer.error.invalid_url': 'ที่อยู่นี้ไม่ใช่ URL ของ wanderer ที่ถูกต้อง',
   'wanderer.error.blocked_address':
-    'TREK ไม่ได้รับอนุญาตให้เข้าถึงที่อยู่นี้ สำหรับอินสแตนซ์ในเครือข่ายของคุณเอง ผู้ดูแลระบบต้องตั้งค่า ALLOW_INTERNAL_NETWORK=true',
+    'Manzil ไม่ได้รับอนุญาตให้เข้าถึงที่อยู่นี้ สำหรับอินสแตนซ์ในเครือข่ายของคุณเอง ผู้ดูแลระบบต้องตั้งค่า ALLOW_INTERNAL_NETWORK=true',
   'wanderer.error.unreachable': 'ไม่สามารถเข้าถึง wanderer ได้ โปรดตรวจสอบที่อยู่และดูว่าอินสแตนซ์ทำงานอยู่',
   'wanderer.error.tls': 'ไม่สามารถตรวจสอบใบรับรองของอินสแตนซ์ได้ หากเป็นใบรับรองที่ลงนามด้วยตนเอง ให้อนุญาตด้านล่าง',
   'wanderer.error.unauthorized': 'wanderer ไม่ยอมรับโทเค็น API นี้ โทเค็นอาจถูกเพิกถอนหรือหมดอายุแล้ว',
@@ -33,7 +33,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'นำเข้าได้เฉพาะเส้นทางเดินของคุณเองใน wanderer เท่านั้น',
   'wanderer.error.invalid_response': 'คำตอบไม่ได้มาจาก wanderer โปรดตรวจสอบว่าที่อยู่ชี้ไปที่ wanderer โดยตรง',
   'wanderer.error.no_author':
-    'wanderer ตอบกลับแล้ว แต่ไม่ได้ระบุผู้สร้างเส้นทางเดินสำหรับบัญชีของโทเค็น API นี้ TREK จึงไม่ทราบว่าเส้นทางเดินใดเป็นของคุณ',
+    'wanderer ตอบกลับแล้ว แต่ไม่ได้ระบุผู้สร้างเส้นทางเดินสำหรับบัญชีของโทเค็น API นี้ Manzil จึงไม่ทราบว่าเส้นทางเดินใดเป็นของคุณ',
   'wanderer.error.too_large': 'ไฟล์เส้นทางเดินมีขนาดใหญ่กว่า 10 MB',
   'wanderer.error.server_error': 'wanderer ตอบกลับด้วยข้อผิดพลาด โปรดลองอีกครั้งภายหลัง',
   'wanderer.error.offline': 'คุณออฟไลน์อยู่ ค้นหา wanderer ได้เฉพาะเมื่อออนไลน์เท่านั้น',

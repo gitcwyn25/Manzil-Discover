@@ -193,7 +193,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Нові дані місця',
   'places.refresh.title': 'Оновити дані місця',
   'places.refresh.intro':
-    'TREK знає новіші дані про це місце. Виберіть, що перейняти, решта залишиться як є. Потім збережіть місце.',
+    'Manzil знає новіші дані про це місце. Виберіть, що перейняти, решта залишиться як є. Потім збережіть місце.',
   'places.refresh.apply': 'Перейняти',
   'places.refresh.replaces': 'Замінить збережене значення',
   'places.refresh.empty': 'порожньо',

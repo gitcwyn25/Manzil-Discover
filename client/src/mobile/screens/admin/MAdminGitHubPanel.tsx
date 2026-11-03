@@ -5,7 +5,7 @@ import { useGithubReleases } from '../../../components/Admin/useGithubReleases'
 import { escapeReleaseHtml as escapeHtml, parseReleaseNotes } from '../../../utils/releaseNotes'
 import { MAdminButton, MAdminCard } from './MAdminUi'
 
-const REPO = 'liketrek/TREK'
+const REPO = 'liketrek/Manzil'
 
 // Support / community link cards (design: brand-tinted icon tile + title/sub).
 // Brand hex stays as content identity; every surface/border uses --m-* tokens.

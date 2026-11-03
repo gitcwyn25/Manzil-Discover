@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const he: NotificationLocale = {
   email: {
-    footer: 'קיבלתם הודעה זו כי הפעלתם התראות ב-TREK.',
+    footer: 'קיבלתם הודעה זו כי הפעלתם התראות ב-Manzil.',
     manage: 'ניהול העדפות בהגדרות',
     madeWith: 'נוצר עם',
-    openTrek: 'פתיחת TREK',
+    openTrek: 'פתיחת Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const he: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'הזמנה לאיחוד חופשות',
-      body: `${p.actor} הזמין/ה אתכם לאחד תוכניות חופשה. פתחו את TREK כדי לאשר או לדחות.`,
+      body: `${p.actor} הזמין/ה אתכם לאחד תוכניות חופשה. פתחו את Manzil כדי לאשר או לדחות.`,
     }),
     vacay_share: (p) => ({
       title: 'לוח חופשות שותף',
-      body: `${p.actor} שיתף/ה איתכם את לוח החופשות. פתחו את TREK כדי לצפות בו.`,
+      body: `${p.actor} שיתף/ה איתכם את לוח החופשות. פתחו את Manzil כדי לצפות בו.`,
     }),
     collection_invite: (p) => ({
       title: 'הזמנה לאוסף',
-      body: `${p.actor} הזמין/ה אתכם לשתף אוסף. פתחו את TREK כדי לאשר או לדחות.`,
+      body: `${p.actor} הזמין/ה אתכם לשתף אוסף. פתחו את Manzil כדי לאשר או לדחות.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'he', {
@@ -58,8 +58,8 @@ const he: NotificationLocale = {
       body: `${p.actor} שייך/ה אתכם לקטגוריית האריזה "${p.category}" ב-"${p.trip}".`,
     }),
     version_available: (p) => ({
-      title: 'גרסה חדשה של TREK זמינה',
-      body: `TREK ${p.version} זמין עכשיו. היכנסו ללוח הניהול כדי לעדכן.`,
+      title: 'גרסה חדשה של Manzil זמינה',
+      body: `Manzil ${p.version} זמין עכשיו. היכנסו ללוח הניהול כדי לעדכן.`,
     }),
     replica_failure: (p) => ({
       title: 'כשל בעותק אחסון',
@@ -95,7 +95,7 @@ const he: NotificationLocale = {
   passwordReset: {
     subject: 'איפוס הסיסמה שלכם',
     greeting: 'שלום',
-    body: 'קיבלנו בקשה לאפס את הסיסמה של חשבון ה-TREK שלכם. לחצו על הכפתור למטה כדי להגדיר סיסמה חדשה.',
+    body: 'קיבלנו בקשה לאפס את הסיסמה של חשבון ה-Manzil שלכם. לחצו על הכפתור למטה כדי להגדיר סיסמה חדשה.',
     ctaIntro: 'איפוס סיסמה',
     expiry: 'הקישור יפוג בעוד 60 דקות.',
     ignore: 'אם לא ביקשתם זאת, אפשר להתעלם מהאימייל — הסיסמה שלכם לא תשתנה.',

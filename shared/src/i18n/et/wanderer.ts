@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer-ühendus eemaldatud',
   'wanderer.loadFailed': 'wanderer-ühenduse laadimine ebaõnnestus',
   'wanderer.privateIp':
-    'See aadress on privaatvõrgus. Kui TREK ei saa sellega ühendust, peab administraator lubama sisevõrgud.',
+    'See aadress on privaatvõrgus. Kui Manzil ei saa sellega ühendust, peab administraator lubama sisevõrgud.',
   'wanderer.error.disabled': 'Administraator pole wanderer-rakendust retkede jaoks lubanud.',
   'wanderer.error.not_connected': 'wanderer pole veel ühendatud.',
   'wanderer.error.invalid_url': 'See aadress pole kehtiv wanderer-URL.',
   'wanderer.error.blocked_address':
-    'TREK ei tohi selle aadressiga ühendust võtta. Sinu enda võrgus oleva serveri jaoks peab administraator määrama ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil ei tohi selle aadressiga ühendust võtta. Sinu enda võrgus oleva serveri jaoks peab administraator määrama ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'wanderer pole kättesaadav. Kontrolli aadressi ja et server töötab.',
   'wanderer.error.tls':
     'Serveri sertifikaati ei õnnestunud kontrollida. Iseallkirjastatud sertifikaadi korral luba see allpool.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Vastus ei tulnud wanderer-rakendusest. Kontrolli, et aadress viitab otse wanderer-rakendusele.',
   'wanderer.error.no_author':
-    'wanderer vastas, kuid ei nimeta selle API-tõendi konto jaoks ühtegi matkaraja autorit, seega ei saa TREK aru, millised matkarajad on sinu omad.',
+    'wanderer vastas, kuid ei nimeta selle API-tõendi konto jaoks ühtegi matkaraja autorit, seega ei saa Manzil aru, millised matkarajad on sinu omad.',
   'wanderer.error.too_large': 'Matkaraja fail on suurem kui 10 MB.',
   'wanderer.error.server_error': 'wanderer vastas veaga. Proovi hiljem uuesti.',
   'wanderer.error.offline': 'Oled võrguühenduseta. wanderer-rakendusest saab otsida ainult võrgus olles.',

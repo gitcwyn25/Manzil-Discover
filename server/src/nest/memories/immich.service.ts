@@ -802,7 +802,7 @@ export class ImmichService {
         parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="${name}"\r\n\r\n${value}\r\n`));
       };
       addField('deviceAssetId', `trek-${Date.now()}`);
-      addField('deviceId', 'TREK');
+      addField('deviceId', 'Manzil');
       addField('fileCreatedAt', now);
       addField('fileModifiedAt', now);
 

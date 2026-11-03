@@ -1,6 +1,7 @@
 import { useState, useEffect, type FormEvent } from 'react'
 import { useNavigate } from 'react-router'
 import { authApi } from '../../api/client'
+import { availableSupabaseConfig, requestSupabaseReset } from '../../api/supabaseAuth'
 
 /**
  * Forgot-password data hook — owns the form state, the SMTP-availability probe
@@ -20,8 +21,9 @@ export function useForgotPassword() {
     // link will land in the server console instead of their inbox. Null while
     // pending — hint is hidden until we know.
     authApi.getAppConfig?.()
-      .then((cfg: { available_channels?: { email?: boolean } } | null) => {
-        setSmtpConfigured(!!cfg?.available_channels?.email)
+      .then((cfg: { available_channels?: { email?: boolean }; supabase?: unknown } | null) => {
+        const provider = new URLSearchParams(window.location.search).get('auth') !== 'local' ? cfg?.supabase ?? null : null
+        setSmtpConfigured(!!provider || !!cfg?.available_channels?.email)
       })
       .catch(() => setSmtpConfigured(null))
   }, [])
@@ -31,7 +33,10 @@ export function useForgotPassword() {
     if (isLoading) return
     setIsLoading(true)
     try {
-      await authApi.forgotPassword({ email: email.trim() })
+      const provider = new URLSearchParams(window.location.search).get('auth') === 'local'
+        ? null : await availableSupabaseConfig()
+      if (provider) await requestSupabaseReset(provider, email.trim())
+      else await authApi.forgotPassword({ email: email.trim() })
     } catch {
       // Enumeration-safe: success UX regardless of server outcome.
     }

@@ -85,8 +85,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'إعادة المحاولة',
   'common.errorReload': 'إعادة تحميل الصفحة',
   'common.errorUpdateTitle': 'يتوفر إصدار جديد',
-  'common.errorUpdateBody': 'تم تحديث TREK أثناء فتح علامة التبويب هذه. أعد التحميل للحصول على الإصدار الجديد.',
+  'common.errorUpdateBody': 'تم تحديث Manzil أثناء فتح علامة التبويب هذه. أعد التحميل للحصول على الإصدار الجديد.',
   'common.errorPluginTitle': 'تعذّر عرض هذه الإضافة',
-  'common.needsConnection': 'يتطلب هذا اتصالاً. حاول مرة أخرى عندما يعود TREK للاتصال.',
+  'common.needsConnection': 'يتطلب هذا اتصالاً. حاول مرة أخرى عندما يعود Manzil للاتصال.',
 };
 export default common;

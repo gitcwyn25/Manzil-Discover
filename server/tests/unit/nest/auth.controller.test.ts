@@ -97,6 +97,17 @@ async function thrownAsync(fn: () => Promise<unknown>): Promise<{ status: number
 }
 
 beforeEach(() => vi.clearAllMocks());
+
+it('requires provider confirmation instead of accepting native signup when Supabase is configured', async () => {
+  vi.stubEnv('SUPABASE_URL', 'https://wfabehnihelxemztmvca.supabase.co');
+  vi.stubEnv('SUPABASE_PUBLISHABLE_KEY', 'public-test-key');
+  const registerUser = vi.fn();
+  try {
+    await expect(apc(asvc({ registerUser }), rl()).register({ email: 'a@b.c', password: 'p' }, req, res))
+      .rejects.toMatchObject({ status: 403 });
+    expect(registerUser).not.toHaveBeenCalled();
+  } finally { vi.unstubAllEnvs(); }
+});
 afterEach(() => {
   delete process.env.DEMO_MODE;
 });
@@ -255,9 +266,9 @@ describe('AuthPublicController', () => {
   it('app-config forwards the optional user (present and absent)', async () => {
     const getAppConfig = vi.fn().mockReturnValue({ version: '3' });
     const c = apc(asvc({ getAppConfig } as Partial<AuthService>), rl());
-    expect(await c.appConfig({ user } as unknown as Request)).toEqual({ version: '3' });
+    expect(await c.appConfig({ user } as unknown as Request)).toEqual({ version: '3', supabase: null });
     expect(getAppConfig).toHaveBeenLastCalledWith(user);
-    expect(await c.appConfig({} as Request)).toEqual({ version: '3' });
+    expect(await c.appConfig({} as Request)).toEqual({ version: '3', supabase: null });
     expect(getAppConfig).toHaveBeenLastCalledWith(undefined);
   });
 
@@ -458,7 +469,7 @@ describe('AuthController (authenticated)', () => {
       await thrownAsync(() => ac(asvc(), rl()).avatar(user, { filename: 'a.jpg' } as Express.Multer.File)),
     ).toEqual({
       status: 403,
-      body: { error: 'Uploads are disabled in demo mode. Self-host TREK for full functionality.' },
+      body: { error: 'Uploads are disabled in demo mode. Self-host Manzil for full functionality.' },
     });
     vi.mocked(isDemoEmail).mockReturnValue(false);
     delete process.env.DEMO_MODE;

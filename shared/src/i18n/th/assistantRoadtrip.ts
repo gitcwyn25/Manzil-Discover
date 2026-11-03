@@ -65,7 +65,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved': 'วางจุดแวะไม่ได้ {count} จุด',
   'assistant.card.roadtrip.dayRoute.after': 'หลัง {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'ตามแนว {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'ตอนนี้เป็นเส้นตรงก่อน TREK จะคำนวณถนนเมื่อใช้การเปลี่ยนแปลงแล้ว',
+  'assistant.card.roadtrip.dayRoute.sketch': 'ตอนนี้เป็นเส้นตรงก่อน Manzil จะคำนวณถนนเมื่อใช้การเปลี่ยนแปลงแล้ว',
   'assistant.card.roadtrip.dayEnd.at': 'วันสิ้นสุดที่ {name}',
   'assistant.card.roadtrip.dayEnd.along': 'วันสิ้นสุดที่ {percent} % ของการขับหลัง {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'วันกลับมาสิ้นสุดโดยอัตโนมัติ',

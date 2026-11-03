@@ -54,7 +54,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'กำหนดข้อมูลเหล่านี้บนเดสก์ท็อป ซึ่งคุณยังเปรียบเทียบเส้นทางอื่นและให้วันนั้นตามเส้นทางที่นำเข้าได้',
   'mobileTrip.planOnDesktop': 'วางแผนบนคอมพิวเตอร์',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK จะคำนวณการขับรถเมื่อวันหนึ่งมีสถานที่สองแห่ง',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil จะคำนวณการขับรถเมื่อวันหนึ่งมีสถานที่สองแห่ง',
   'mobileTrip.toursEmptyBody': 'ทัวร์ที่บันทึกไว้จะแสดงที่นี่ และเพิ่มลงในวันได้',
   'mobileTrip.toursCount': '{count} ทัวร์',
   'mobileTrip.rtSearchOffline': 'ต้องเชื่อมต่ออินเทอร์เน็ต: การค้นหาจะอ่านเส้นทางข้างหน้า',

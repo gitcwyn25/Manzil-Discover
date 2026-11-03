@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Verificar mudanças nas minhas trilhas',
   'wanderer.watch.hint': 'Uma notificação quando uma trilha importada pode ter mudado.',
   'wanderer.watch.info':
-    'No máximo uma vez por dia, o TREK lê o registro curto de cada trilha que você importou, nunca o arquivo GPX. Ele só avisa: incorporar uma mudança é decisão sua, pela verificação da fonte do passeio.',
+    'No máximo uma vez por dia, o Manzil lê o registro curto de cada trilha que você importou, nunca o arquivo GPX. Ele só avisa: incorporar uma mudança é decisão sua, pela verificação da fonte do passeio.',
   'wanderer.watch.notConnected': 'Conecte o wanderer primeiro',
   'wanderer.watch.on': 'Verificação em segundo plano ativada',
   'wanderer.watch.off': 'Verificação em segundo plano desativada',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Ainda não verificado',
   'wanderer.watch.paused': 'Pausado até {time}',
   'wanderer.watch.pausedHint':
-    'O wanderer não respondeu. Depois de cada falha, o TREK espera mais antes de perguntar de novo.',
+    'O wanderer não respondeu. Depois de cada falha, o Manzil espera mais antes de perguntar de novo.',
   'wanderer.watch.blocked': 'Token recusado',
   'wanderer.watch.blockedHint':
     'O wanderer recusou o token da API. A verificação volta quando um teste de conexão passar ou um novo token for salvo.',
@@ -33,7 +33,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'O registro do wanderer mostra outro nome ou outra descrição. A verificação da fonte mostra tudo o que mudou.',
   'wanderer.watch.stateHint.unverifiable':
-    'O TREK não conseguiu avaliar esta trilha, então nada é dito sobre se ela mudou.',
+    'O Manzil não conseguiu avaliar esta trilha, então nada é dito sobre se ela mudou.',
   'wanderer.watch.reason.unavailable': 'Trilha inacessível',
   'wanderer.watch.reason.no_change_time': 'Sem carimbo de data',
 };

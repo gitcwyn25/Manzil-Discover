@@ -12,7 +12,7 @@ const tours: TranslationStrings = {
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX idxalı',
   'tours.badge.planned': 'TREK-də planlaşdırılıb',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'ehtiyatla istifadə edin',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Bu tur artıq həmin gündədir.',
   'tours.conversion.title': 'Redaktə edilə bilən versiya',
   'tours.conversion.intro':
-    'İdxal qeydə alınmış izdir. Redaktə edilə bilən versiya planlaşdırın: TREK ondan nəzarət nöqtələri götürür, onlar üzərindən marşrutu yenidən hesablayır və nəticənin nə qədər yaxın olduğunu göstərir. Siz seçənə qədər heç nə dəyişmir.',
+    'İdxal qeydə alınmış izdir. Redaktə edilə bilən versiya planlaşdırın: Manzil ondan nəzarət nöqtələri götürür, onlar üzərindən marşrutu yenidən hesablayır və nəticənin nə qədər yaxın olduğunu göstərir. Siz seçənə qədər heç nə dəyişmir.',
   'tours.conversion.replace': 'İdxalı əvəz et',
   'tours.conversion.replaceHint':
     'Bu turu yerindəcə yenidən planlaşdırır: günləri və qeydləri qalır, qeydə alınmış iz isə saxlanılır ki, ona qayıda biləsiniz.',
@@ -124,7 +124,7 @@ const tours: TranslationStrings = {
   'tours.planner.addPoint': 'Nöqtə əlavə et',
   'tours.planner.addPointActive': 'Xəritəyə klikləyin',
   'tours.planner.emptyHint':
-    '“Nöqtə əlavə et”i aktiv edin və xəritəyə klikləyin. İki nöqtədən sonra TREK marşrutu hesablayır.',
+    '“Nöqtə əlavə et”i aktiv edin və xəritəyə klikləyin. İki nöqtədən sonra Manzil marşrutu hesablayır.',
   'tours.planner.walkingEstimated': 'Təxmini piyada vaxtı',
   'tours.planner.walkingEstimatedShort': 'Təxm. piyada vaxtı',
   'tours.planner.walkingEstimatedInfoLabel': 'Piyada vaxtı necə təxmin edilir',
@@ -312,7 +312,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Google Maps-dən gəzinti idxal et',
   'tours.walkImport.title': 'Google Maps keçidindən gəzinti',
   'tours.walkImport.intro':
-    'Google Maps-də piyada marşrutu paylaş və keçidini bura yapışdır. TREK dayanacaqları oxuyur və onların arasındakı piyada yolu özü planlaşdırır.',
+    'Google Maps-də piyada marşrutu paylaş və keçidini bura yapışdır. Manzil dayanacaqları oxuyur və onların arasındakı piyada yolu özü planlaşdırır.',
   'tours.walkImport.urlLabel': 'Piyada marşrutunun keçidi',
   'tours.walkImport.urlHint': 'maps.app.goo.gl qısa keçidi və ya marşrutun google.com/maps ünvanı.',
   'tours.walkImport.read': 'Keçidi oxu',
@@ -322,7 +322,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Google Maps-dən',
   'tours.walkImport.openSource': 'Google Maps-də aç',
   'tours.walkImport.recalculated':
-    'TREK dayanacaqlar arasındakı yolu yenidən planlaşdırır; Google Maps-də çəkilmiş xətt götürülmür.',
+    'Manzil dayanacaqlar arasındakı yolu yenidən planlaşdırır; Google Maps-də çəkilmiş xətt götürülmür.',
   'tours.walkImport.noPosition': 'Keçiddə mövqe yoxdur',
   'tours.walkImport.unresolved': '{count} dayanacağın keçiddə mövqeyi yoxdur və kənarda qalır.',
   'tours.walkImport.unresolved.one': '{count} dayanacağın keçiddə mövqeyi yoxdur və kənarda qalır.',
@@ -330,7 +330,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.replacesDraft': 'Gəzintini yükləmək planlayıcıdakı yadda saxlanmamış dəyişikliklərin yerini tutur.',
   'tours.walkImport.defaultName': 'Google Maps-dən gəzinti',
   'tours.walkImport.draftNotice':
-    'Google Maps piyada marşrutundan. Dayanacaqlar arasındakı yolu TREK özü planlaşdırdı.',
+    'Google Maps piyada marşrutundan. Dayanacaqlar arasındakı yolu Manzil özü planlaşdırdı.',
   'tours.walkImport.offline': 'Keçidi oxumaq üçün bağlantı lazımdır.',
   'tours.walkImport.failed': 'Keçidi indi oxumaq mümkün olmadı. Bir azdan yenidən cəhd et.',
   'tours.walkImport.refusal.not_google_maps':
@@ -502,7 +502,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Xəritə məlumatları: {build}',
   'tours.ski.summary.saved': 'Saxlandığı kimi göstərilir. Yenidən planlamaq üçün nöqtəni tərpət və ya seçimi dəyiş.',
   'tours.ski.chooseTechnique': 'Texnikanı və ya Naməlum seç.',
-  'tours.ski.infoLabel': 'TREK xizək turları və izləri ilə nə edir',
+  'tours.ski.infoLabel': 'Manzil xizək turları və izləri ilə nə edir',
   'tours.ski.info':
     'Planlaşdırılmış tur pist məlumatlarının çatdığı yerdə OpenStreetMap pistlərini, liftlərini və cığırlarını izləyir, çatmadığı yerdə nöqtələrini düz birləşdirir. İdxal edilmiş iz yazıldığı kimi qalır. Hündürlüklər pist məlumatlarından, relyefdən və ya fayldan gəlir. Burada heç nə, 3D meyil rəngləri də daxil, qar, uçqunlar və ya pistlərin, liftlərin və cığırların açıq olub-olmadığı barədə heç nə demir.',
   'tours.ski.time': 'Xizək vaxtı',
@@ -917,7 +917,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Növbəti hissəni yenidən marşrutlaşdır',
   'tours.planner.freeLegBadge': 'Əllə çəkilib, marşrutlaşdırılmayıb',
   'tours.planner.freeLegInfo':
-    'TREK bu iki nöqtəni düz xətlə birləşdirir. Heç bir marşrutlaşdırıcı bu hissəni planlaşdırmayıb və yoxlamayıb.',
+    'Manzil bu iki nöqtəni düz xətlə birləşdirir. Heç bir marşrutlaşdırıcı bu hissəni planlaşdırmayıb və yoxlamayıb.',
   'tours.map.seamarks': 'Dəniz nişanları',
   'tours.map.seamarksDown': 'Dəniz nişanları yüklənmir. Xəritə və marşrutun işləməyə davam edir.',
   'tours.map.pistes': 'Trasslar, xizək qaçışı yolları və liftlər',
@@ -966,9 +966,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': '{count} tur idxal et',
   'tours.import.previewConfirm.one': '{count} tur idxal et',
   'tours.conversion.introPaddle':
-    'İdxal qeydə alınmış bir trekdir. Redaktə edilə bilən avarlı tur planla: TREK ondan nəzarət nöqtələri götürür, avarlı tur necə çəkilirsə onları düz xətlərlə birləşdirir və nə qədər yaxın olduğunu göstərir. Sən seçənə qədər heç nə dəyişmir.',
+    'İdxal qeydə alınmış bir trekdir. Redaktə edilə bilən avarlı tur planla: Manzil ondan nəzarət nöqtələri götürür, avarlı tur necə çəkilirsə onları düz xətlərlə birləşdirir və nə qədər yaxın olduğunu göstərir. Sən seçənə qədər heç nə dəyişmir.',
   'tours.conversion.introSki':
-    'İdxal qeydə alınmış bir trekdir. Redaktə edilə bilən xizək turu planla: TREK ondan nəzarət nöqtələri götürür, xizək turu necə çəkilirsə onları düz xətlərlə birləşdirir və nə qədər yaxın olduğunu göstərir. Sən seçənə qədər heç nə dəyişmir.',
+    'İdxal qeydə alınmış bir trekdir. Redaktə edilə bilən xizək turu planla: Manzil ondan nəzarət nöqtələri götürür, xizək turu necə çəkilirsə onları düz xətlərlə birləşdirir və nə qədər yaxın olduğunu göstərir. Sən seçənə qədər heç nə dəyişmir.',
   'tours.conversion.closePaddle':
     'Təklif treki yaxından izləyir. Nöqtələri düz xətlərlə birləşdirilib, ona görə eyni xətt deyil.',
   'tours.planner.moreActions': 'Digər əməliyyatlar',
@@ -1000,7 +1000,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Ətrafından daşınır, daşıma hesablanır',
   'tours.paddle.time.title': 'Vaxt təxmini',
   'tours.paddle.time.assumptionInfo':
-    'TREK suda 4 km/saat, daşımada 2 km/saat və hər daşımada sudan çıxıb yenidən suya girmək üçün 10 dəqiqə ilə başlayır. Bunlar dəyişdirmək üçün başlanğıc dəyərlərdir, nə norma, nə də ölçmədir. Şlüz vaxtları yalnız sənin daxil etdiklərindir.',
+    'Manzil suda 4 km/saat, daşımada 2 km/saat və hər daşımada sudan çıxıb yenidən suya girmək üçün 10 dəqiqə ilə başlayır. Bunlar dəyişdirmək üçün başlanğıc dəyərlərdir, nə norma, nə də ölçmədir. Şlüz vaxtları yalnız sənin daxil etdiklərindir.',
   'tours.paddle.time.water': 'Suda',
   'tours.paddle.time.carry': 'Daşıma',
   'tours.paddle.time.carrySpeed': 'Daşıma sürəti',
@@ -1080,7 +1080,7 @@ const tours: TranslationStrings = {
     'Maneə məlumatları marşrutun yalnız bir hissəsini əhatə edir (tarix: {date}). Qalanını özün yoxla.',
   'tours.paddle.obstacles.none':
     'Bu ərazi üçün maneə məlumatı yoxdur. Buradakı alçaq bəndləri, şlüzləri və daşıma yerlərini özün yoxla.',
-  'tours.paddle.obstacles.offline': 'Bağlantı olmadan TREK maneə məlumatlarını yükləmir. Suyu özün yoxla.',
+  'tours.paddle.obstacles.offline': 'Bağlantı olmadan Manzil maneə məlumatlarını yükləmir. Suyu özün yoxla.',
   'tours.paddle.obstacles.error': 'Maneə məlumatlarını yükləmək mümkün olmadı. Suyu özün yoxla.',
   'tours.paddle.obstacle.kind.weir': 'Alçaq bənd',
   'tours.paddle.obstacle.kind.dam': 'Bənd',
@@ -1095,7 +1095,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Daşıma yeri',
   'tours.paddle.obstacle.kind.access': 'Avarçəkmə qaydası',
   'tours.paddle.obstacles.truncated':
-    'TREK burada obyektlərin yalnız bir hissəsini göstərir, ərazidə daha çoxu var. Suyu özün yoxla.',
+    'Manzil burada obyektlərin yalnız bir hissəsini göstərir, ərazidə daha çoxu var. Suyu özün yoxla.',
   'tours.paddle.obstacles.dateUnknown': 'naməlum',
   'tours.paddle.obstacleCard.onRoute': 'Marşrut üzrə',
   'tours.paddle.obstacleCard.near': 'Marşruta yaxın',
@@ -1180,7 +1180,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Suda təhlükəsizlik',
   'tours.paddle.safety.short': 'Avarçəkmənin riskləri var. Suyu, qaydaları və havanı özün yoxla.',
   'tours.paddle.safety.text':
-    'Avarçəkmə risklərlə bağlıdır. Xəritələr, marşrut təklifləri və qeydlər natamam və ya köhnə ola bilər. Turdan əvvəl cari yerli şəraiti, suyun istifadə qaydalarını və havanı yoxla. Uyğun təhlükəsizlik tədbirləri gör. TREK planlaşdırmana kömək edir, öz yoxlamanı və məsuliyyətli qərarını əvəz etmir.',
+    'Avarçəkmə risklərlə bağlıdır. Xəritələr, marşrut təklifləri və qeydlər natamam və ya köhnə ola bilər. Turdan əvvəl cari yerli şəraiti, suyun istifadə qaydalarını və havanı yoxla. Uyğun təhlükəsizlik tədbirləri gör. Manzil planlaşdırmana kömək edir, öz yoxlamanı və məsuliyyətli qərarını əvəz etmir.',
   'tours.planner.shapingPoint': 'Forma nöqtəsi',
   'tours.planner.shapingHint':
     'Dayanacaq olmadan marşrutu istiqamətləndirir. Onu marşrutun keçməli olduğu yerə sürüşdür.',
@@ -1233,7 +1233,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Əllə çəkilmiş hissələri su ilə planlaşdır',
   'tours.paddle.auto': 'Tapıldı',
   'tours.paddle.autoHint':
-    'TREK bu nöqtəni yolda tapdığı daşıma yerinə və ya şlüzə qoydu. Onu köçürsən və ya dəyişsən, sənin olacaq.',
+    'Manzil bu nöqtəni yolda tapdığı daşıma yerinə və ya şlüzə qoydu. Onu köçürsən və ya dəyişsən, sənin olacaq.',
   'tours.paddle.note.rapids': 'Sürətli su {grade}',
   'tours.paddle.note.pass': 'Qayıq keçidi',
   'tours.paddle.note.gap': 'Xəritə məlumatlarında boşluq',
@@ -1244,7 +1244,7 @@ const tours: TranslationStrings = {
   'tours.paddle.failed.no_region': 'Bu ərazi üçün hələ su məlumatı yoxdur. Administrator regionu əlavə edə bilər.',
   'tours.paddle.failed.building':
     'Bu regionun su məlumatları hələ hazırlanır. Bir neçə dəqiqədən sonra yenidən cəhd et.',
-  'tours.paddle.failed.no_water_path': 'TREK bu nöqtələr arasında su ilə yol tapmadı.',
+  'tours.paddle.failed.no_water_path': 'Manzil bu nöqtələr arasında su ilə yol tapmadı.',
   'tours.paddle.failed.cross_region': 'Bu nöqtələr ortaq su məlumatı olmayan iki regiondadır.',
   'tours.paddle.failed.busy': 'Marşrut planlayıcısı məşğuldur. Bir azdan yenidən cəhd et.',
   'tours.paddle.failed.timeout':
@@ -1261,7 +1261,7 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.build': 'Su şəbəkəsi qurulur',
   'tours.paddle.load.hint': 'Adətən bir-üç dəqiqə. Planlaşdırmağa davam et, hissə sonra özü planlaşdırılacaq.',
   'tours.paddle.load.reason.tooLarge': 'Region TREK-in özbaşına yüklədiyindən böyükdür.',
-  'tours.paddle.load.reason.limit': 'TREK bu gün artıq kifayət qədər regionu özü yükləyib.',
+  'tours.paddle.load.reason.limit': 'Manzil bu gün artıq kifayət qədər regionu özü yükləyib.',
   'tours.paddle.load.declined': 'Admin {region} üçün su məlumatını rədd etdi.',
   'tours.paddle.load.failed': '{region} üçün su məlumatı yüklənə bilmədi.',
   'tours.paddle.load.noWater': '{region} üçün su məlumatında burada su yoxdur. Nöqtəni çaya və ya gölə qoy.',
@@ -1286,7 +1286,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Sürmə vaxtı',
   'tours.horse.timeInfoLabel': 'Niyə sürmə vaxtı yoxdur',
   'tours.horse.timeInfo':
-    'TREK sürmə vaxtını hesablamır: tempi at və süvari müəyyən edir. İstəsən, planlaşdırılan ümumi vaxtı özün daxil et.',
+    'Manzil sürmə vaxtını hesablamır: tempi at və süvari müəyyən edir. İstəsən, planlaşdırılan ümumi vaxtı özün daxil et.',
   'tours.horse.routes.title': 'Atçılıq marşrutları',
   'tours.horse.routes.infoLabel': 'Atçılıq marşrutları haqqında',
   'tours.horse.routes.info':
@@ -1342,7 +1342,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecorded': 'Qeydə alındığı kimi',
   'tours.horse.recorded.asRecordedInfo': 'Xətt faylın qeydə aldığı kimi qalır. Heç nə yenidən planlanmır.',
   'tours.horse.recorded.noTime': 'Sürmə vaxtı yoxdur',
-  'tours.horse.recorded.noTimeInfo': 'TREK at gəzintisi üçün sürmə vaxtı hesablamır: tempi at və atlı müəyyən edir.',
+  'tours.horse.recorded.noTimeInfo': 'Manzil at gəzintisi üçün sürmə vaxtı hesablamır: tempi at və atlı müəyyən edir.',
   'tours.horse.recorded.accessUnchecked': 'Giriş yoxlanılmayıb',
   'tours.horse.recorded.accessUncheckedInfo':
     'İdxal yollarda at sürməyə icazə olub-olmadığını yoxlamır. Yerdəki lövhələr əsasdır.',
@@ -1499,7 +1499,7 @@ const tours: TranslationStrings = {
   'tours.detail.openInTours': 'Turlar sekmesində aç',
   'tours.planner.status.routingGeneric': 'Marşrut hesablanır…',
   'tours.planner.emptyHintPlacing':
-    'Nöqtələri qoymaq üçün xəritəyə klikləyin. İki nöqtədən etibarən TREK marşrutu hesablayır.',
+    'Nöqtələri qoymaq üçün xəritəyə klikləyin. İki nöqtədən etibarən Manzil marşrutu hesablayır.',
   'tours.ski.drawStraight': 'Düz çək',
   'tours.horse.routes.stale': 'Siyahı axtardığınız görünüşü göstərir. Bu görünüş üçün yenidən axtarın.',
   'tours.horse.dialog.adoptGapHint':

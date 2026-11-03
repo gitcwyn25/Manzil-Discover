@@ -10,7 +10,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Daxil olunur…',
   'login.signIn': 'Daxil ol',
   'login.createAdmin': 'Administrator hesabı yarat',
-  'login.createAdminHint': 'TREK üçün ilk administrator hesabını yaradın.',
+  'login.createAdminHint': 'Manzil üçün ilk administrator hesabını yaradın.',
   'login.setNewPassword': 'Yeni parol təyin et',
   'login.setNewPasswordHint': 'Davam etməzdən əvvəl parolunuzu dəyişməlisiniz.',
   'login.createAccount': 'Hesab yarat',

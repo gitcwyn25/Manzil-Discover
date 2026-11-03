@@ -246,7 +246,7 @@ const assistant: TranslationStrings = {
     'ผู้ช่วยค้นข้อมูลบนเว็บได้ (รีวิว เวลาเปิดปิด งานอีเวนต์) ผ่านการค้นหาของผู้ให้บริการ AI ที่ใช้อยู่ ใช้ได้กับ ChatGPT, Anthropic และ OpenRouter และการค้นหาจะส่งไปที่ผู้ให้บริการนั้นเท่านั้น',
   'assistant.admin.retentionDays': '{count} วัน',
   'assistant.admin.retentionForever': 'ตลอดไป',
-  'assistant.mobile.tile': 'ถาม TREK',
+  'assistant.mobile.tile': 'ถาม Manzil',
   'assistant.mobile.tileHint': 'วางแผนกับผู้ช่วย',
   'assistant.mobile.backToChat': 'กลับไปที่แชต',
   'assistant.step.nearbyAt': 'กำลังค้นหาใกล้ {place}',
@@ -454,7 +454,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found': 'ฉันพบการจอง {count} รายการใน {name} เพิ่มรายการที่ต้องการได้ด้านล่าง',
   'assistant.attach.none': 'ฉันไม่พบการจองใน {name}',
   'assistant.attach.why.aiNotConfigured':
-    'ที่นี่ยังไม่ได้ตั้งค่าการอ่านด้วย AI สำหรับการนำเข้า จึงมีเพียงตัวอ่านของ TREK ที่ตรวจไฟล์นี้',
+    'ที่นี่ยังไม่ได้ตั้งค่าการอ่านด้วย AI สำหรับการนำเข้า จึงมีเพียงตัวอ่านของ Manzil ที่ตรวจไฟล์นี้',
   'assistant.attach.why.aiFailed': 'ตัวอ่าน AI อ่านไฟล์นี้ไม่ได้',
   'assistant.attach.why.noText': 'ไฟล์นี้ไม่มีข้อความที่อ่านได้ น่าจะเป็นไฟล์สแกน',
   'assistant.attach.why.nothingFound': 'ไม่มีส่วนใดในไฟล์ที่ดูเหมือนการจอง',

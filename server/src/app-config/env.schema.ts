@@ -67,6 +67,12 @@ export const envSchema = z.object({
   LOG_LEVEL: oneOf(['error', 'warn', 'info', 'debug']),
   APP_VERSION: anyString,
   APP_URL: url,
+  SUPABASE_URL: optionalWith((value) => /^https:\/\/[a-z0-9]{20}\.supabase\.co\/?$/.test(value), 'must be an HTTPS Supabase project URL'),
+  SUPABASE_PUBLISHABLE_KEY: anyString,
+  SUPABASE_S3_REGION: anyString,
+  SUPABASE_S3_BUCKET: anyString,
+  SUPABASE_S3_ACCESS_KEY_ID: anyString,
+  SUPABASE_S3_SECRET_ACCESS_KEY: anyString,
   ALLOWED_ORIGINS: anyString,
   // Candidates lowercased so mixed-case codes (zh-TW) validate case-insensitively.
   DEFAULT_LANGUAGE: oneOf(SUPPORTED_LANGUAGE_CODES.map((c) => c.toLowerCase())),

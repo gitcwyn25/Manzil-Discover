@@ -94,7 +94,7 @@ export class JourneyBookMcp {
 
   @Tool({
     name: 'get_book',
-    description: `The TREK Studio book of a journey, without its document: whether it exists, its version, title and page setup, every page with its index, id, role, entry, photo ids, the first words of each text and how many elements, empty frames and parked elements it holds, and the book's own saved layouts. ${UNITS} Read it before changing the book: page and element ids are never invented, they come from here and from describe_book_page.`,
+    description: `The Manzil Studio book of a journey, without its document: whether it exists, its version, title and page setup, every page with its index, id, role, entry, photo ids, the first words of each text and how many elements, empty frames and parked elements it holds, and the book's own saved layouts. ${UNITS} Read it before changing the book: page and element ids are never invented, they come from here and from describe_book_page.`,
     inputSchema: { journeyId: idSchema },
     annotations: TOOL_ANNOTATIONS_READONLY,
     when: journeyAddonOn,

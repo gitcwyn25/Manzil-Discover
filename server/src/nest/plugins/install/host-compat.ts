@@ -207,14 +207,14 @@ export function trekRangeRefusal(id: string, row: TrekRangeRow, acceptNow = fals
   }
   if (!row.trek_range) {
     return {
-      message: `plugin ${id} does not declare which TREK versions it supports`,
+      message: `plugin ${id} does not declare which Manzil versions it supports`,
       code: 'TREK_VERSION_UNKNOWN',
       detail: { trekRange: null, hostVersion: hostVersion() },
     };
   }
   if (hostSatisfies(row.trek_range)) return null;
   return {
-    message: `plugin ${id} requires TREK ${row.trek_range} — this is TREK ${hostVersion()}`,
+    message: `plugin ${id} requires Manzil ${row.trek_range} — this is Manzil ${hostVersion()}`,
     code: 'TREK_VERSION_INCOMPATIBLE',
     detail: { trekRange: row.trek_range, hostVersion: hostVersion() },
   };
@@ -226,9 +226,9 @@ export function trekRangeRefusal(id: string, row: TrekRangeRow, acceptNow = fals
  * misbehaves can connect the two without the UI.
  */
 export function warnRangeBypass(id: string, b: TrekRangeBypass): void {
-  const declared = b.trekRange ? `declares TREK ${b.trekRange}` : 'declares no TREK version range';
+  const declared = b.trekRange ? `declares Manzil ${b.trekRange}` : 'declares no Manzil version range';
   const because = b.acceptedByAdmin ? 'an admin chose to run it anyway' : 'TREK_PLUGINS_IGNORE_TREK_RANGE is set';
   console.warn(
-    `[plugins] ${id} ${declared} — this is TREK ${b.hostVersion}; continuing because ${because}. The author has not verified it on this version: it may not work, and it could corrupt TREK data.`,
+    `[plugins] ${id} ${declared} — this is Manzil ${b.hostVersion}; continuing because ${because}. The author has not verified it on this version: it may not work, and it could corrupt Manzil data.`,
   );
 }

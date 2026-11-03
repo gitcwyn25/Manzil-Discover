@@ -64,8 +64,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'Vill du radera alla filer i papperskorgen permanent? Detta går inte att ångra.',
   'files.noteLabel': 'Notering',
   'files.notePlaceholder': 'Lägg till en notering...',
-  'files.uploadNeedsConnection': 'Uppladdning kräver en anslutning. Försök igen när TREK är online igen.',
-  'files.linkNeedsConnection': 'Att ta bort den här länken kräver en anslutning. Försök igen när TREK är online igen.',
+  'files.uploadNeedsConnection': 'Uppladdning kräver en anslutning. Försök igen när Manzil är online igen.',
+  'files.linkNeedsConnection': 'Att ta bort den här länken kräver en anslutning. Försök igen när Manzil är online igen.',
   'files.placeFilesNeedConnection':
     'Filer behöver en anslutning för att laddas upp. Ta bort de nya för att spara platsen offline, eller spara när du är online igen.',
   'files.maxSize': 'Högst {count} MB',

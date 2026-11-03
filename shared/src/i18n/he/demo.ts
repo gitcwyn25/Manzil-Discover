@@ -2,7 +2,7 @@ import type { TranslationStrings } from '../types';
 
 const demo: TranslationStrings = {
   'demo.welcome.eyebrow': 'הדגמה חיה',
-  'demo.welcome.title': 'ברוכים הבאים ל-TREK',
+  'demo.welcome.title': 'ברוכים הבאים ל-Manzil',
   'demo.welcome.tagline':
     'מתכנן הטיולים המשותף שלכם: תכננו יחד על המפה בזמן אמת, מהרעיון הראשון ועד אלבום התמונות שאחרי הטיול.',
   'demo.welcome.resetTitle': 'הכול מתאפס בכל שעה עגולה',
@@ -15,7 +15,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'סיורים וטיולים רגליים',
   'demo.feature.tours.body':
     'תכננו טיול רגלי לאורך רשת השבילים ועקבו אחר המסלול על גבי תבליט בתלת-ממד, לצד פרופיל הגובה שלו.',
-  'demo.feature.studio.title': 'אלבומי תמונות ב-TREK Studio',
+  'demo.feature.studio.title': 'אלבומי תמונות ב-Manzil Studio',
   'demo.feature.studio.body': 'הפכו יומן מסע לאלבום תמונות מעוצב, עמוד אחר עמוד.',
   'demo.feature.collab.title': 'תכננו יחד בזמן אמת',
   'demo.feature.collab.body': 'כל המשתתפים בטיול רואים כל שינוי ברגע שהוא קורה, עם צ׳אט, הערות וסקרים.',
@@ -28,7 +28,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.title': 'אוספים',
   'demo.feature.collections.body': 'שמרו מקומות מטיולים שונים ברשימות משלכם והעתיקו אותם לכל תוכנית.',
   'demo.feature.offline.title': 'עובד גם ללא חיבור לאינטרנט',
-  'demo.feature.offline.body': 'התקינו את TREK כאפליקציה ושמרו את התוכניות, המפות והרשימות שלכם גם ללא חיבור לאינטרנט.',
+  'demo.feature.offline.body': 'התקינו את Manzil כאפליקציה ושמרו את התוכניות, המפות והרשימות שלכם גם ללא חיבור לאינטרנט.',
   'demo.welcome.limitsTitle': 'לא כלול בהדגמה',
   'demo.limit.uploads': 'העלאת תמונות, מסמכים ותמונות כריכה',
   'demo.limit.account': 'שינוי החשבון, הסיסמה שלו או האימות הדו-שלבי (2FA)',
@@ -46,7 +46,7 @@ const demo: TranslationStrings = {
   'demo.welcome.credits': 'קרדיטים לתמונות',
   'demo.credits.title': 'קרדיטים לתמונות',
   'demo.credits.intro':
-    'התמונות בהדגמה הזו מגיעות מ-Wikimedia Commons, וכל אחת כפופה לרישיון שמצוין לצידה. הרישיון הזה חל על התמונה בלבד, ולא על TREK או על שאר ההדגמה.',
+    'התמונות בהדגמה הזו מגיעות מ-Wikimedia Commons, וכל אחת כפופה לרישיון שמצוין לצידה. הרישיון הזה חל על התמונה בלבד, ולא על Manzil או על שאר ההדגמה.',
   'demo.credits.by': 'מאת {author}',
   'demo.credits.publicDomain': 'נחלת הכלל',
   'demo.credits.back': 'חזרה',

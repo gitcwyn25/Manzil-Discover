@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer-anslutningen borttagen',
   'wanderer.loadFailed': 'Det gick inte att läsa in wanderer-anslutningen',
   'wanderer.privateIp':
-    'Den här adressen finns i ett privat nätverk. Om TREK inte kan nå den måste administratören tillåta interna nätverk.',
+    'Den här adressen finns i ett privat nätverk. Om Manzil inte kan nå den måste administratören tillåta interna nätverk.',
   'wanderer.error.disabled': 'Din administratör har inte aktiverat wanderer för turer.',
   'wanderer.error.not_connected': 'wanderer är inte anslutet ännu.',
   'wanderer.error.invalid_url': 'Den adressen är ingen giltig wanderer-URL.',
   'wanderer.error.blocked_address':
-    'TREK får inte nå den adressen. För en instans i ditt eget nätverk måste administratören ange ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil får inte nå den adressen. För en instans i ditt eget nätverk måste administratören ange ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'Det gick inte att nå wanderer. Kontrollera adressen och att instansen körs.',
   'wanderer.error.tls':
     'Instansens certifikat kunde inte verifieras. Om det är självsignerat kan du tillåta det nedan.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Svaret kom inte från wanderer. Kontrollera att adressen pekar på själva wanderer.',
   'wanderer.error.no_author':
-    'wanderer svarade, men anger ingen ledförfattare för kontot som den här API-token tillhör, så TREK kan inte avgöra vilka leder som är dina.',
+    'wanderer svarade, men anger ingen ledförfattare för kontot som den här API-token tillhör, så Manzil kan inte avgöra vilka leder som är dina.',
   'wanderer.error.too_large': 'Ledens fil är större än 10 MB.',
   'wanderer.error.server_error': 'wanderer svarade med ett fel. Försök igen senare.',
   'wanderer.error.offline': 'Du är offline. wanderer kan bara sökas online.',

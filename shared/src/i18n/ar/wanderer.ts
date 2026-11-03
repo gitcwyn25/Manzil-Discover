@@ -25,12 +25,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'تمت إزالة اتصال wanderer',
   'wanderer.loadFailed': 'تعذّر تحميل اتصال wanderer',
   'wanderer.privateIp':
-    'هذا العنوان ضمن شبكة خاصة. إذا تعذّر على TREK الوصول إليه، فعلى المسؤول السماح بالشبكات الداخلية.',
+    'هذا العنوان ضمن شبكة خاصة. إذا تعذّر على Manzil الوصول إليه، فعلى المسؤول السماح بالشبكات الداخلية.',
   'wanderer.error.disabled': 'لم يفعّل المسؤول wanderer للجولات.',
   'wanderer.error.not_connected': 'لم يتم ربط wanderer بعد.',
   'wanderer.error.invalid_url': 'هذا العنوان ليس رابط wanderer صالحًا.',
   'wanderer.error.blocked_address':
-    'لا يُسمح لـ TREK بالوصول إلى هذا العنوان. لخادم على شبكتك الخاصة، يجب على المسؤول ضبط ALLOW_INTERNAL_NETWORK=true.',
+    'لا يُسمح لـ Manzil بالوصول إلى هذا العنوان. لخادم على شبكتك الخاصة، يجب على المسؤول ضبط ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'تعذّر الوصول إلى wanderer. تحقق من العنوان ومن أن الخادم يعمل.',
   'wanderer.error.tls': 'تعذّر التحقق من شهادة الخادم. إذا كانت موقّعة ذاتيًا، فاسمح بها في الأسفل.',
   'wanderer.error.unauthorized': 'لم يقبل wanderer رمز API. ربما أُلغي أو انتهت صلاحيته.',
@@ -39,7 +39,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'يمكن استيراد دروبك الخاصة في wanderer فقط.',
   'wanderer.error.invalid_response': 'لم يأتِ الرد من wanderer. تحقق من أن العنوان يشير إلى wanderer نفسه.',
   'wanderer.error.no_author':
-    'ردّ wanderer، لكنه لا يذكر أي مؤلف للدروب لحساب رمز API هذا، لذلك لا يستطيع TREK معرفة الدروب التي تخصّك.',
+    'ردّ wanderer، لكنه لا يذكر أي مؤلف للدروب لحساب رمز API هذا، لذلك لا يستطيع Manzil معرفة الدروب التي تخصّك.',
   'wanderer.error.too_large': 'ملف الدرب أكبر من 10 MB.',
   'wanderer.error.server_error': 'ردّ wanderer بخطأ. حاول مرة أخرى لاحقًا.',
   'wanderer.error.offline': 'أنت غير متصل بالإنترنت. لا يمكن البحث في wanderer إلا عند الاتصال.',

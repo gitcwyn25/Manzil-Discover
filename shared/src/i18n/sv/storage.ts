@@ -18,7 +18,7 @@ const storage: TranslationStrings = {
   'storage.field.primary': 'Primär backend',
   'storage.field.replicas': 'Repliker',
   'storage.title': 'Lagring',
-  'storage.description': 'Var TREK sparar uppladdade filer, foton och säkerhetskopior. Inget ändras förrän du sparar.',
+  'storage.description': 'Var Manzil sparar uppladdade filer, foton och säkerhetskopior. Inget ändras förrän du sparar.',
   'storage.loading': 'Laddar…',
   'storage.saved': 'Lagringskonfiguration sparad',
   'storage.save': 'Spara ändringar',

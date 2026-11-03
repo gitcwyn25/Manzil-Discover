@@ -148,7 +148,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Kaardil',
   'reservations.import.pinMissingTitle': 'Veel pole kaardil',
   'reservations.import.pinMissingBody':
-    'TREK ei leidnud seda majutust kaardilt. Kontrolli ülal nime ja aadressi ning otsi uuesti või salvesta see ilma nõelata.',
+    'Manzil ei leidnud seda majutust kaardilt. Kontrolli ülal nime ja aadressi ning otsi uuesti või salvesta see ilma nõelata.',
   'reservations.import.pinRetry': 'Otsi uuesti',
   'reservations.import.savedWithoutPin':
     'Salvestatud ilma kaardinõelata. Muuda kohta ja määra selle asukoht, et seda kaardil näha.',
@@ -273,7 +273,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Näita failides',
   'reservations.filesNeedConnection':
     'Failide üleslaadimiseks on vaja ühendust. Eemalda uued, et broneering võrguühenduseta salvestada, või salvesta, kui oled taas võrgus.',
-  'reservations.needsConnection': 'Selleks on vaja ühendust. Proovi uuesti, kui TREK on taas võrgus.',
+  'reservations.needsConnection': 'Selleks on vaja ühendust. Proovi uuesti, kui Manzil on taas võrgus.',
   'reservations.exportCsvFiltered': 'Ekspordi näidatud read, {shown} / {total} (CSV)',
 };
 export default reservations;

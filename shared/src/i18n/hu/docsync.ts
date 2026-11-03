@@ -24,7 +24,7 @@ const docsync: TranslationStrings = {
   'docsync.onConflict.trek_wins': 'A TREK-példány megtartása',
   'docsync.onConflict.provider_wins': 'A tároló példányának megtartása',
   'docsync.webhookHint':
-    'Illeszd be ezt az URL-t a szolgáltatódnál, hogy a változások azonnal megérkezzenek. Enélkül a TREK időzítve ellenőriz.',
+    'Illeszd be ezt az URL-t a szolgáltatódnál, hogy a változások azonnal megérkezzenek. Enélkül a Manzil időzítve ellenőriz.',
 
   // A kapcsolati űrlap mezői. A kulcsok a document_provider_fields tábla `label`
   // oszlopát tükrözik, amely szöveg helyett kulcsvégződést tárol.
@@ -49,7 +49,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudAppPassword':
     'Beállítások, Biztonság, Új alkalmazásjelszó létrehozása. Soha ne a fiókod jelszava.',
   'docsync.hintOpenCloudToken': 'Az OpenCloudban az alkalmazástokenek alatt jön létre.',
-  'docsync.hintBasePath': 'Itt keresi a TREK az utak mappáit. Alapértelmezés szerint /TREK.',
+  'docsync.hintBasePath': 'Itt keresi a Manzil az utak mappáit. Alapértelmezés szerint /Manzil.',
   'docsync.hintSynologyUrl': 'Add meg a portot is, például https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Legjobb egy külön DSM-fiók, amely csak ehhez a megosztott mappához fér hozzá.',
   'docsync.hintSynologyOtp': 'Csak egyszer kell, ha a fiók kétlépcsős azonosítást használ.',
@@ -90,7 +90,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Ennek a fióknak ehhez nincs jogosultsága.',
   'docsync.error.not_found': 'Nem található a szolgáltatónál.',
   'docsync.error.scope_missing': 'A csatlakoztatott mappa már nem létezik.',
-  'docsync.error.rate_limited': 'A szolgáltató korlátozza a kéréseinket. A TREK később újra próbálkozik.',
+  'docsync.error.rate_limited': 'A szolgáltató korlátozza a kéréseinket. A Manzil később újra próbálkozik.',
   'docsync.error.too_large': 'A fájl nagyobb, mint amennyit a szolgáltató elfogad.',
   'docsync.error.unsupported_type': 'A szolgáltató nem fogadja el ezt a fájltípust.',
   'docsync.error.quota_exceeded': 'A szolgáltatónál elfogyott a hely.',
@@ -111,7 +111,7 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Még nincs semmi csatlakoztatva',
   'docsync.empty.hintOwner':
-    'Válassz egy tárolót a bal oldalon. A TREK mindenről saját másolatot tart, így semmi nem vész el, ha a tároló megszűnik.',
+    'Válassz egy tárolót a bal oldalon. A Manzil mindenről saját másolatot tart, így semmi nem vész el, ha a tároló megszűnik.',
   'docsync.empty.hintMember': 'Ezt az út tulajdonosa állítja be. A dokumentumok így is, úgy is megmaradnak a TREK-ben.',
 
   // Hogyan rendszerez az egyes termékek. A csatlakozás előtt látszik, mert ez az,
@@ -123,7 +123,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'A NAS egyik mappájába rendszerez',
 
   // ── A folyamatsáv ──────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Ki a tárolóba',
   'docsync.flow.toTrek': 'Be a tárolóból',
   'docsync.flow.documents': 'dokumentum',
@@ -153,12 +153,12 @@ const docsync: TranslationStrings = {
   'docsync.connect.okAs': 'Elértem, bejelentkezve mint {account}',
   'docsync.connect.insecureHint': 'Saját hálózaton futó, saját aláírású tanúsítványt használó példányhoz.',
   'docsync.connect.about.paperless':
-    'A TREK saját címke alá rendezi ezt az utat, és az archívumod többi részéhez nem nyúl.',
+    'A Manzil saját címke alá rendezi ezt az utat, és az archívumod többi részéhez nem nyúl.',
   'docsync.connect.about.papra':
-    'Válaszd ki a szervezetet, amelyhez ez az út tartozik. A TREK azon belül saját címke alá rendezi.',
+    'Válaszd ki a szervezetet, amelyhez ez az út tartozik. A Manzil azon belül saját címke alá rendezi.',
   'docsync.connect.about.nextcloud':
     'Alkalmazásjelszót használj, ne a fiókod jelszavát: átmegy a kétlépcsős azonosításon, és külön is visszavonható.',
-  'docsync.connect.about.opencloud': 'A TREK saját teret kap ehhez az úthoz, mindentől elkülönítve.',
+  'docsync.connect.about.opencloud': 'A Manzil saját teret kap ehhez az úthoz, mindentől elkülönítve.',
   'docsync.connect.about.synologydrive':
     'Legjobb egy olyan DSM-fiók, amely csak az ehhez az úthoz tartozó megosztott mappát éri el.',
 
@@ -184,11 +184,11 @@ const docsync: TranslationStrings = {
     'Szüneteltetve: egy rendszergazda kikapcsolta ezt a szolgáltatót. A szinkronizálás folytatódik, amint újra bekapcsolják.',
   'docsync.binding.reconnect': 'Újracsatlakozás',
   'docsync.connection.title': 'Kapcsolat',
-  'docsync.connection.hint': 'A cím és a bejelentkezés, amelyet a TREK ehhez a tárhoz használ.',
+  'docsync.connection.hint': 'A cím és a bejelentkezés, amelyet a Manzil ehhez a tárhoz használ.',
   'docsync.connection.edit': 'Kapcsolat szerkesztése',
   'docsync.connection.remove': 'Kapcsolat eltávolítása',
   'docsync.connection.confirmRemove':
-    'A TREK elfelejti ennek a tárnak a címét és a bejelentkezést, és az utazás minden ezen keresztül futó szinkronizálása leáll. A dokumentumok a TREK-ben és a tárban is megmaradnak.',
+    'A Manzil elfelejti ennek a tárnak a címét és a bejelentkezést, és az utazás minden ezen keresztül futó szinkronizálása leáll. A dokumentumok a TREK-ben és a tárban is megmaradnak.',
 };
 
 export default docsync;

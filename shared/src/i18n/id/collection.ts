@@ -170,9 +170,9 @@ const collection: TranslationStrings = {
   'collections.file.doneSkipped': '{count} tempat diimpor, {skipped} dilewati',
   'collections.file.errorTooLarge': 'Berkas ini terlalu besar untuk sebuah daftar.',
   'collections.file.errorUnreadable': 'Berkas ini tidak bisa dibaca.',
-  'collections.file.errorNotACollection': 'Ini bukan berkas daftar TREK.',
-  'collections.file.formatTrek': 'Daftar TREK',
-  'collections.file.formatTrekHint': 'Untuk TREK lain, lengkap dengan label dan status',
+  'collections.file.errorNotACollection': 'Ini bukan berkas daftar Manzil.',
+  'collections.file.formatTrek': 'Daftar Manzil',
+  'collections.file.formatTrekHint': 'Untuk Manzil lain, lengkap dengan label dan status',
   'collections.file.formatGpxHint': 'Titik lokasi untuk OsmAnd, Organic Maps, Garmin, dan aplikasi peta lain',
   'collections.file.gpxOmitted': '{count} tempat tanpa koordinat tidak dimasukkan ke berkas GPX',
   'collections.file.gpxNothing':

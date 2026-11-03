@@ -284,7 +284,7 @@ const journey: TranslationStrings = {
   'journey.picker.noAlbums': 'Albumeid ei leitud',
   'journey.picker.selectDate': 'Vali kuupäev',
   'journey.picker.search': 'Otsi',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Stuudio',
   'journey.studio.openAria': 'Ava fotoraamatu stuudio',
   'journey.studio.backToJourney': 'Tagasi reisiloo juurde',
@@ -327,7 +327,7 @@ const journey: TranslationStrings = {
     'Salvestab selle lehepaari kujunduse fotodeta failina jagamiseks või taaskasutamiseks',
   'journey.studio.importSpread': 'Impordi',
   'journey.studio.importSpreadHint': 'Lisa lehepaar allalaaditud kujundusfailist',
-  'journey.studio.importSpreadFailed': 'See fail ei ole TREK Studio lehepaar',
+  'journey.studio.importSpreadFailed': 'See fail ei ole Manzil Studio lehepaar',
   'journey.studio.desktopOnly': 'Stuudio vajab suuremat ekraani',
   'journey.studio.desktopOnlyHint':
     'Raamatu kujundamiseks on vaja tööruumi, seega saab stuudiot ja PDF-i loomist kasutada ainult töölaual. Kõik muu reisiloos töötab siin tavapäraselt.',
@@ -846,7 +846,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeFailed': 'Mustandid on olemas, kuid teekonda ei hoitud: {reason}',
   'journey.dayImport.routeRetry': 'Hoia teekond uuesti',
   'journey.dayImport.stale': 'Dawarich ei vastanud: {reason} Näidatakse viimase sünkroonimise ({date}) peatusi.',
-  'journey.dayImport.staleNever': 'Dawarich ei vastanud: {reason} Näidatakse peatusi, mida TREK juba teab.',
+  'journey.dayImport.staleNever': 'Dawarich ei vastanud: {reason} Näidatakse peatusi, mida Manzil juba teab.',
   'journey.dayImport.truncated': 'Dawarich saatis sellest päevast ainult osa. Mõni peatus võib puududa.',
   'journey.dayImport.empty': 'Dawarich ei leidnud sel päeval ühtegi peatust.',
   'journey.prep.lastSuccess': 'Viimati laaditud {time}.',

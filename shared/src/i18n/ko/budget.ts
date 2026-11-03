@@ -197,7 +197,7 @@ const budget: TranslationStrings = {
   'costs.receiptLeftBehind': '저장에 실패했고 업로드된 영수증 {count}개가 남아 있습니다. 파일 탭에서 삭제하세요.',
   'costs.receiptsNeedConnection':
     '영수증을 업로드하려면 연결이 필요합니다. 오프라인으로 지출을 저장하려면 새 영수증을 제거하거나, 다시 온라인이 되면 저장하세요.',
-  'costs.paymentQueued': '오프라인 상태입니다. 결제가 저장되었으며 TREK가 다시 온라인이 되면 표시됩니다.',
+  'costs.paymentQueued': '오프라인 상태입니다. 결제가 저장되었으며 Manzil가 다시 온라인이 되면 표시됩니다.',
   'costs.confirm.deleteBodyReceipts': '"{name}"이(가) 영구적으로 삭제됩니다. 영수증 파일은 파일에 남습니다.',
 };
 export default budget;

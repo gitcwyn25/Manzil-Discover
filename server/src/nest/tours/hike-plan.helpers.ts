@@ -440,7 +440,7 @@ export function hikeProposalOf(
 /** Why no way was planned, in words that say what to do about it. */
 const UNPLANNED: Readonly<Record<UnroutedHikePlan['why'], (position: number | null) => string>> = {
   no_valhalla: () =>
-    'TREK has no Valhalla router here to plan a hike with (a routing server of its own knows no hiking limit).',
+    'Manzil has no Valhalla router here to plan a hike with (a routing server of its own knows no hiking limit).',
   router_unavailable: () => 'The router did not answer, for the way or for its heights; try again in a moment.',
   no_way: () => 'No way within the hiking limit joins these points: raise the limit or move the points.',
   point_off_the_way: (position) =>

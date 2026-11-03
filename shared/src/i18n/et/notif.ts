@@ -27,7 +27,7 @@ const notif: TranslationStrings = {
   'notif.packing_tagged.title': 'Pakkimisülesanne',
   'notif.packing_tagged.text': '{actor} määras sulle reisil {trip} kategooria {category}',
   'notif.version_available.title': 'Uus versioon saadaval',
-  'notif.version_available.text': 'TREK {version} on nüüd saadaval',
+  'notif.version_available.text': 'Manzil {version} on nüüd saadaval',
   'notif.replica_failure.title': 'Salvestuskoopia tõrge',
   'notif.replica_failure.text': "Koopia kirjutamine taustsüsteemi '{backend}' ebaõnnestus: {op}, {key} — {error}",
   'notif.replica_failure.textSuppressed':

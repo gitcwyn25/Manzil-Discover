@@ -145,7 +145,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'En el mapa',
   'reservations.import.pinMissingTitle': 'Todavía no está en el mapa',
   'reservations.import.pinMissingBody':
-    'TREK no ha encontrado este alojamiento en el mapa. Revisa el nombre y la dirección de arriba y vuelve a buscar, o guárdalo sin chincheta.',
+    'Manzil no ha encontrado este alojamiento en el mapa. Revisa el nombre y la dirección de arriba y vuelve a buscar, o guárdalo sin chincheta.',
   'reservations.import.pinRetry': 'Buscar de nuevo',
   'reservations.import.savedWithoutPin':
     'Guardado sin chincheta en el mapa. Edita el lugar y fija su ubicación para verlo en el mapa.',
@@ -274,7 +274,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Mostrar en archivos',
   'reservations.filesNeedConnection':
     'Los archivos necesitan conexión para subirse. Quita los nuevos para guardar la reserva sin conexión, o guarda cuando vuelvas a estar en línea.',
-  'reservations.needsConnection': 'Esto necesita conexión. Vuelve a intentarlo cuando TREK esté de nuevo en línea.',
+  'reservations.needsConnection': 'Esto necesita conexión. Vuelve a intentarlo cuando Manzil esté de nuevo en línea.',
   'reservations.exportCsvFiltered': 'Exportar las {shown} de {total} filas mostradas (CSV)',
 };
 export default reservations;

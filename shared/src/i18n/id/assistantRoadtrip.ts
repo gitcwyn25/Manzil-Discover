@@ -67,7 +67,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': 'Setelah {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Mengikuti {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'Untuk sementara garis lurus; TREK menghitung jalannya setelah perubahan diterapkan.',
+    'Untuk sementara garis lurus; Manzil menghitung jalannya setelah perubahan diterapkan.',
   'assistant.card.roadtrip.dayEnd.at': 'Hari berakhir di {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Hari berakhir pada {percent} % perjalanan setelah {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'Hari kembali berakhir otomatis',

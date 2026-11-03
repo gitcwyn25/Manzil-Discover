@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const nl: NotificationLocale = {
   email: {
-    footer: 'Je ontvangt dit omdat je meldingen hebt ingeschakeld in TREK.',
+    footer: 'Je ontvangt dit omdat je meldingen hebt ingeschakeld in Manzil.',
     manage: 'Voorkeuren beheren',
     madeWith: 'Made with',
-    openTrek: 'TREK openen',
+    openTrek: 'Manzil openen',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const nl: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Vacay Fusion uitnodiging',
-      body: `${p.actor} nodigt je uit om vakantieplannen te fuseren. Open TREK om te accepteren of af te wijzen.`,
+      body: `${p.actor} nodigt je uit om vakantieplannen te fuseren. Open Manzil om te accepteren of af te wijzen.`,
     }),
     vacay_share: (p) => ({
       title: 'Vacay-kalender gedeeld',
-      body: `${p.actor} heeft zijn/haar vakantiekalender met je gedeeld. Open TREK om deze te bekijken.`,
+      body: `${p.actor} heeft zijn/haar vakantiekalender met je gedeeld. Open Manzil om deze te bekijken.`,
     }),
     collection_invite: (p) => ({
       title: 'Collectie-uitnodiging',
-      body: `${p.actor} nodigt je uit om een collectie te delen. Open TREK om te accepteren of af te wijzen.`,
+      body: `${p.actor} nodigt je uit om een collectie te delen. Open Manzil om te accepteren of af te wijzen.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'nl', { one: `${p.count} foto gedeeld`, other: `${p.count} foto's gedeeld` }),
@@ -54,7 +54,7 @@ const nl: NotificationLocale = {
     }),
     version_available: (p) => ({
       title: 'Nieuwe TREK-versie beschikbaar',
-      body: `TREK ${p.version} is nu beschikbaar. Bezoek het beheerderspaneel om bij te werken.`,
+      body: `Manzil ${p.version} is nu beschikbaar. Bezoek het beheerderspaneel om bij te werken.`,
     }),
     replica_failure: (p) => ({
       title: 'Opslagreplica mislukt',

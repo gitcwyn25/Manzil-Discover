@@ -177,7 +177,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nuovi dati del luogo',
   'places.refresh.title': 'Aggiorna i dati del luogo',
   'places.refresh.intro':
-    "TREK conosce dati più recenti per questo luogo. Scegli cosa adottare; il resto resta com'è. Poi salva il luogo.",
+    "Manzil conosce dati più recenti per questo luogo. Scegli cosa adottare; il resto resta com'è. Poi salva il luogo.",
   'places.refresh.apply': 'Adotta',
   'places.refresh.replaces': 'Sostituisce il valore salvato ora',
   'places.refresh.empty': 'vuoto',

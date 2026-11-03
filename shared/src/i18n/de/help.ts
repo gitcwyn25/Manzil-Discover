@@ -73,14 +73,14 @@ const help: TranslationStrings = {
   'help.guide.create-trip.step.2':
     'Gib der Reise einen Namen. Mehr brauchst du nicht, alles andere kannst du später ergänzen.',
   'help.guide.create-trip.step.3':
-    'Wähle ein Start- und ein Enddatum. TREK legt für jedes Datum einen Tag an, dein Reiseplan ist also gleich bereit zum Füllen. Noch keine Daten? Lass beide Felder leer und gib stattdessen die „Anzahl Tage“ ein.',
+    'Wähle ein Start- und ein Enddatum. Manzil legt für jedes Datum einen Tag an, dein Reiseplan ist also gleich bereit zum Füllen. Noch keine Daten? Lass beide Felder leer und gib stattdessen die „Anzahl Tage“ ein.',
   'help.guide.create-trip.step.4':
     'Optional: Füg ein Titelfoto hinzu. Lade ein eigenes hoch, zieh es ins Feld, füg es ein oder such auf Unsplash nach deinem Reiseziel.',
   'help.guide.create-trip.step.5': 'Klick auf „Neue Reise erstellen“.',
   'help.guide.create-trip.result':
     'Die Reise erscheint auf deinem Dashboard. Ist es deine nächste Reise, wird sie oben in der Bordkarte angezeigt.',
   'help.guide.create-trip.tip.1':
-    'Die Daten kannst du später noch ändern. Gibt es schon Buchungen, fragt TREK, ob sie mit den Tagen mitwandern sollen.',
+    'Die Daten kannst du später noch ändern. Gibt es schon Buchungen, fragt Manzil, ob sie mit den Tagen mitwandern sollen.',
   'help.guide.create-trip.tip.2':
     'In die Reisewährung, die du hier wählst, werden alle Kosten umgerechnet. Nimm am besten die Währung deines Reiseziels.',
 
@@ -93,7 +93,7 @@ const help: TranslationStrings = {
   'help.guide.edit-trip.step.3': 'Klick auf „Aktualisieren“.',
   'help.guide.edit-trip.result': 'Die Karte aktualisiert sich sofort, für alle Mitglieder der Reise.',
   'help.guide.edit-trip.tip.1':
-    'Verschiebst du den Beginn einer Reise mit Buchungen, fragt TREK, ob die Buchungen mitverschoben werden sollen. Kürzt du eine Reise, listet TREK die Tage auf, die wegfallen würden, und was darauf geplant ist; gespeichert wird erst nach „Tage entfernen und speichern“.',
+    'Verschiebst du den Beginn einer Reise mit Buchungen, fragt Manzil, ob die Buchungen mitverschoben werden sollen. Kürzt du eine Reise, listet Manzil die Tage auf, die wegfallen würden, und was darauf geplant ist; gespeichert wird erst nach „Tage entfernen und speichern“.',
 
   // cover-image
   'help.guide.cover-image.title': 'Titelbild festlegen',
@@ -152,7 +152,7 @@ const help: TranslationStrings = {
   'help.guide.calendar-feed.goal':
     'Die Tage und Buchungen aller aktiven Reisen in deiner Kalender-App sehen, immer auf dem aktuellen Stand.',
   'help.guide.calendar-feed.step.1': 'Klick auf das Kalendersymbol neben dem Ansichtsumschalter.',
-  'help.guide.calendar-feed.step.2': 'Klicke auf „Kalenderabo aktivieren“. TREK erstellt einen privaten Feed-Link.',
+  'help.guide.calendar-feed.step.2': 'Klicke auf „Kalenderabo aktivieren“. Manzil erstellt einen privaten Feed-Link.',
   'help.guide.calendar-feed.step.3':
     'Klick auf „Zu Google Kalender hinzufügen“ oder „Zu Apple Kalender / Outlook hinzufügen“. Für jede andere Kalender-App öffnest du „Oder Link manuell kopieren“ und kopierst den Link von dort.',
   'help.guide.calendar-feed.result':
@@ -374,7 +374,7 @@ const help: TranslationStrings = {
   // ── Screen: atlas ─────────────────────────────────────────────────────────────────────
   'help.ctx.atlas.title': 'Atlas',
   'help.ctx.atlas.summary':
-    'Der Atlas zeigt auf einer Weltkarte, wo du überall warst: Jedes Land, in das dich eine Reise geführt hat, ist eingefärbt, und Länder, die du vor TREK besucht hast, kannst du von Hand nachtragen. Zoom hinein, um Regionen zu sehen, führ eine Wunschliste mit Orten, die du noch sehen willst, und lies deine Zahlen im Glas-Panel unten ab.',
+    'Der Atlas zeigt auf einer Weltkarte, wo du überall warst: Jedes Land, in das dich eine Reise geführt hat, ist eingefärbt, und Länder, die du vor Manzil besucht hast, kannst du von Hand nachtragen. Zoom hinein, um Regionen zu sehen, führ eine Wunschliste mit Orten, die du noch sehen willst, und lies deine Zahlen im Glas-Panel unten ab.',
   'help.ctx.atlas.bullet.1':
     'Die Karte: Jedes besuchte Land hat seine feste Farbe, geplante Länder sind gestrichelt umrandet, Länder auf der Wunschliste schraffiert und alle anderen grau. Fahr mit der Maus über ein Land, um seine Reisen, Orte sowie den ersten und letzten Besuch zu sehen.',
   'help.ctx.atlas.bullet.2':
@@ -390,7 +390,7 @@ const help: TranslationStrings = {
   // mark-country
   'help.guide.mark-country.title': 'Land als besucht markieren',
   'help.guide.mark-country.goal':
-    'Trag ein Land nach, in dem du schon vor TREK warst, damit es auf der Karte und in deiner Zählung auftaucht.',
+    'Trag ein Land nach, in dem du schon vor Manzil warst, damit es auf der Karte und in deiner Zählung auftaucht.',
   'help.guide.mark-country.step.1': 'Gib das Land oben auf der Karte ins Suchfeld ein.',
   'help.guide.mark-country.step.2':
     'Wähle es aus der Liste. Die Karte springt zum Land, und ein Popup dazu öffnet sich.',
@@ -461,7 +461,7 @@ const help: TranslationStrings = {
   'help.guide.search-place.result':
     'Die Region ist markiert und das Land auch. Bei Ländern ohne Regionsdaten im Kartenpaket wird stattdessen das Land selbst markiert.',
   'help.guide.search-place.tip.1':
-    'Orte kommen aus derselben Suche wie überall in TREK und nutzen also den Anbieter, den deine Administration eingerichtet hat.',
+    'Orte kommen aus derselben Suche wie überall in Manzil und nutzen also den Anbieter, den deine Administration eingerichtet hat.',
   // bucket-country
   'help.guide.bucket-country.title': 'Land auf die Wunschliste setzen',
   'help.guide.bucket-country.goal':
@@ -509,7 +509,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.step.1':
     'Ist das Dawarich-Addon verbunden, erscheint unten auf der Karte links neben der Statistik ein Dawarich-Panel mit zwei Kacheln. Klick auf „Länder“.',
   'help.guide.dawarich-countries.step.2':
-    'Der Dialog öffnet sich im Tab „Länder“. Klick auf „Nach Ländern suchen“: TREK liest Monat für Monat die Länder und Städte aus, die deine Aufzeichnungen der letzten 12 Monate abdecken, das kann also einen Moment dauern. Jedes Land, das noch nicht in deinem Atlas ist, erscheint mit Flagge, Anzahl der Städte und dem Namen der ersten Stadt. Alle Länder sind vorab angehakt. Klick auf eine Zeile, um ein Land auszulassen.',
+    'Der Dialog öffnet sich im Tab „Länder“. Klick auf „Nach Ländern suchen“: Manzil liest Monat für Monat die Länder und Städte aus, die deine Aufzeichnungen der letzten 12 Monate abdecken, das kann also einen Moment dauern. Jedes Land, das noch nicht in deinem Atlas ist, erscheint mit Flagge, Anzahl der Städte und dem Namen der ersten Stadt. Alle Länder sind vorab angehakt. Klick auf eine Zeile, um ein Land auszulassen.',
   'help.guide.dawarich-countries.step.3':
     'Bestätige mit dem Button unten rechts; sind fünf Zeilen angehakt, heißt er „5 Länder hinzufügen“. Der Dialog zeigt, wie viele hinzugefügt wurden. Wenn du ihn schließt, ist die Karte schon aktualisiert.',
   'help.guide.dawarich-countries.result':
@@ -517,7 +517,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.tip.1':
     'Länder, die der Atlas schon als besucht zeigt, ob von Hand, durch eine Reise oder durch eine frühere Prüfung, werden ausgelassen. Deine eigenen Markierungen ändern sich also nie. Ein Land, das du früher aus dem Atlas entfernt hast, kommt wieder dazu, wenn du es hier bestätigst.',
   'help.guide.dawarich-countries.tip.2':
-    'Kann TREK einen Ländernamen nicht zuordnen, wird er unter den Zeilen aufgeführt und nicht verworfen. „Erneut prüfen“ fragt Dawarich noch einmal ab. Der Hinweis unter der Liste nennt die letzten 12 Monate als geprüften Zeitraum. Diesen Zeitraum kannst du nicht ändern.',
+    'Kann Manzil einen Ländernamen nicht zuordnen, wird er unter den Zeilen aufgeführt und nicht verworfen. „Erneut prüfen“ fragt Dawarich noch einmal ab. Der Hinweis unter der Liste nennt die letzten 12 Monate als geprüften Zeitraum. Diesen Zeitraum kannst du nicht ändern.',
   // dawarich-wishes
   'help.guide.dawarich-wishes.title': 'Wünsche anhand deiner Aufzeichnungen abhaken',
   'help.guide.dawarich-wishes.goal':
@@ -525,7 +525,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.step.1':
     'Klick im Dawarich-Panel unten auf der Karte, links neben der Statistik, auf „Wunschliste“.',
   'help.guide.dawarich-wishes.step.2':
-    'Der Dialog öffnet sich im Tab „Wunschliste“. Klick auf „Wunschliste prüfen“: TREK durchsucht deine Aufzeichnungen nach jedem Eintrag mit Koordinaten. Ein erreichter Wunsch erscheint mit der Angabe, wie nah du gekommen bist, wie lange du geblieben bist und an welchem Tag, und ist vorab angehakt. Bei einem bereits abgehakten steht „Bereits abgehakt“. Unter der Liste zählt ein Hinweis die Einträge ohne Koordinaten und nennt auch die Regel: Ein Wunsch gilt als erreicht, wenn du ihm auf 250 m nahe kommst und 20 Minuten vor Ort bist.',
+    'Der Dialog öffnet sich im Tab „Wunschliste“. Klick auf „Wunschliste prüfen“: Manzil durchsucht deine Aufzeichnungen nach jedem Eintrag mit Koordinaten. Ein erreichter Wunsch erscheint mit der Angabe, wie nah du gekommen bist, wie lange du geblieben bist und an welchem Tag, und ist vorab angehakt. Bei einem bereits abgehakten steht „Bereits abgehakt“. Unter der Liste zählt ein Hinweis die Einträge ohne Koordinaten und nennt auch die Regel: Ein Wunsch gilt als erreicht, wenn du ihm auf 250 m nahe kommst und 20 Minuten vor Ort bist.',
   'help.guide.dawarich-wishes.step.3':
     'Bestätige mit dem Button unten rechts, der bei zwei angehakten Zeilen „2 abhaken“ heißt. Schließ dann den Dialog und öffne im Panel daneben den Tab „Wunschliste“.',
   'help.guide.dawarich-wishes.result':
@@ -533,7 +533,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.tip.1':
     'Vorbeifahren zählt nicht: Du musst in der Nähe des Ortes gewesen und eine Weile geblieben sein. Kommen mehrere Aufenthalte infrage, zählt der längste. Ein Wunsch ohne Koordinaten lässt sich nicht prüfen. Leg Orte deshalb über die Suche in „Ort hinzufügen“ an, nicht nur mit dem Namen.',
   'help.guide.dawarich-wishes.tip.2':
-    'Eine Prüfung sieht sich bis zu 50 Einträge an, zuerst die noch nicht abgehakten. Gibt es mehr, sagt TREK dir Bescheid. Ein bereits abgehakter Wunsch behält sein eigenes Datum.',
+    'Eine Prüfung sieht sich bis zu 50 Einträge an, zuerst die noch nicht abgehakten. Gibt es mehr, sagt Manzil dir Bescheid. Ein bereits abgehakter Wunsch behält sein eigenes Datum.',
 
   // ── Screen: collections ───────────────────────────────────────────────────────────────
   'help.ctx.collections.title': 'Sammlungen',
@@ -591,7 +591,7 @@ const help: TranslationStrings = {
   'help.guide.import-from-trip.result':
     'Die Orte werden mit Name, Adresse, Koordinaten, Beschreibung und Kategorie in die Liste kopiert. Die Reise bleibt unverändert.',
   'help.guide.import-from-trip.tip.1':
-    'TREK überspringt Duplikate nach Name oder Koordinaten automatisch, du kannst also ruhig zweimal importieren.',
+    'Manzil überspringt Duplikate nach Name oder Koordinaten automatisch, du kannst also ruhig zweimal importieren.',
   'help.guide.import-from-trip.tip.2':
     'In der Ortsliste einer Reise bietet dir der Auswahlmodus stattdessen „In Sammlung speichern“ an, für Orte, die du selbst auswählst.',
   // place-status
@@ -663,7 +663,7 @@ const help: TranslationStrings = {
     'Das können auch Betrachter einer geteilten Liste. Dabei werden die Orte aus der Liste kopiert, die Liste selbst bleibt unverändert.',
   // share-list
   'help.guide.share-list.title': 'Liste mit anderen teilen',
-  'help.guide.share-list.goal': 'Eine Liste live mit anderen auf diesem TREK planen.',
+  'help.guide.share-list.goal': 'Eine Liste live mit anderen auf diesem Manzil planen.',
   'help.guide.share-list.step.1': 'Klick oben in deiner Liste auf „Teilen“.',
   'help.guide.share-list.step.2': 'Wähle den Benutzer und eine Rolle: „Betrachter“, „Bearbeiter“ oder „Admin“.',
   'help.guide.share-list.step.3':
@@ -680,11 +680,11 @@ const help: TranslationStrings = {
     'Eine Liste an jemanden auf einem anderen TREK-Server weitergeben oder in einer Karten-App öffnen.',
   'help.guide.export-list.step.1': 'Klick oben in der Liste auf „Exportieren“.',
   'help.guide.export-list.step.2':
-    'Wähle „TREK-Liste“, um die Liste samt Labels und Status in einem anderen TREK zu nutzen, oder GPX für OsmAnd, Organic Maps, ein Garmin-Gerät und andere Apps, die Wegpunkte lesen.',
+    'Wähle „TREK-Liste“, um die Liste samt Labels und Status in einem anderen Manzil zu nutzen, oder GPX für OsmAnd, Organic Maps, ein Garmin-Gerät und andere Apps, die Wegpunkte lesen.',
   'help.guide.export-list.result':
     'Die Datei wird heruntergeladen. Jedes Mitglied einer geteilten Liste darf sie exportieren.',
   'help.guide.export-list.tip.1':
-    'Ein Ort ohne Koordinaten kann kein GPX-Wegpunkt sein. Er wird ausgelassen, und TREK sagt dir, wie viele Orte das betrifft.',
+    'Ein Ort ohne Koordinaten kann kein GPX-Wegpunkt sein. Er wird ausgelassen, und Manzil sagt dir, wie viele Orte das betrifft.',
   'help.guide.export-list.tip.2':
     'Bewertungen, Mitglieder und hochgeladene Fotos werden bewusst nicht exportiert: Sie gehören zu dieser TREK-Instanz, nicht zur Liste.',
   // import-file
@@ -694,7 +694,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.step.1':
     'Klick in der Listenleiste neben „Neue Liste“ auf den Import-Button mit dem Upload-Pfeil.',
   'help.guide.import-file.step.2':
-    'Wähle die Datei aus. Bevor TREK etwas importiert, zeigt es dir den Inhalt der Datei: den Namen, die Anzahl der Orte und die Anzahl der Labels.',
+    'Wähle die Datei aus. Bevor Manzil etwas importiert, zeigt es dir den Inhalt der Datei: den Namen, die Anzahl der Orte und die Anzahl der Labels.',
   'help.guide.import-file.step.3':
     'Lass „Neue Liste“ ausgewählt und ändere den Namen, wenn du magst, dann klicke auf Importieren. Oder wähle „Zu einer Liste hinzufügen“, um die Orte in eine Liste zu legen, die du bearbeiten darfst, und klicke auf Hinzufügen.',
   'help.guide.import-file.result':
@@ -702,7 +702,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.tip.1':
     'Aus einer GPX-Datei wird jeder benannte Wegpunkt zu einem Ort. Tracks sind Linien und werden ausgelassen; die Vorschau zeigt, wie viele Punkte das waren.',
   'help.guide.import-file.tip.2':
-    'Eine Datei, die weder eine TREK-Liste noch eine GPX-Datei ist, lehnt TREK ab und nennt den Grund. Lässt sich ein einzelner Ort nicht lesen, wird nur dieser übersprungen, nicht die ganze Datei.',
+    'Eine Datei, die weder eine TREK-Liste noch eine GPX-Datei ist, lehnt Manzil ab und nennt den Grund. Lässt sich ein einzelner Ort nicht lesen, wird nur dieser übersprungen, nicht die ganze Datei.',
   // edit-list
   'help.guide.edit-list.title': 'Liste bearbeiten oder löschen',
   'help.guide.edit-list.goal':
@@ -918,7 +918,7 @@ const help: TranslationStrings = {
   'help.guide.contributors.result':
     'Die Journey erscheint in ihrer Liste, und ihre Einträge zeigen ihren Namen. Um jemanden zu entfernen, klick auf das × daneben.',
   'help.guide.contributors.tip.1':
-    'Mitwirkende sind für Leute auf diesem TREK gedacht. Für alle anderen gibt es den öffentlichen Link.',
+    'Mitwirkende sind für Leute auf diesem Manzil gedacht. Für alle anderen gibt es den öffentlichen Link.',
   // studio
   'help.guide.studio.title': 'Journey als Fotobuch gestalten',
   'help.guide.studio.goal': 'Aus dem Tagebuch druckbare Seiten machen.',
@@ -960,7 +960,7 @@ const help: TranslationStrings = {
   // ── Screen: journey-studio ────────────────────────────────────────────────────────────
   'help.ctx.journey-studio.title': 'Studio', // same-as-en
   'help.ctx.journey-studio.summary':
-    'TREK Studio gestaltet eine Journey als Fotobuch, das du drucken kannst. Es öffnet sich über dem Tagebuch: Links sind die Leiste und ihre Bereiche, in der Mitte die Doppelseite, an der du arbeitest, und rechts ihre Eigenschaften. Automatisch anordnen erstellt aus deinen Einträgen einen ersten Entwurf, ein Thema gibt dem Buch Farben und Schriften, und der Assistent kann mit dir Seiten gestalten. Danach kannst du alles verschieben, zuschneiden und neu gestalten und jeden Schritt rückgängig machen.',
+    'Manzil Studio gestaltet eine Journey als Fotobuch, das du drucken kannst. Es öffnet sich über dem Tagebuch: Links sind die Leiste und ihre Bereiche, in der Mitte die Doppelseite, an der du arbeitest, und rechts ihre Eigenschaften. Automatisch anordnen erstellt aus deinen Einträgen einen ersten Entwurf, ein Thema gibt dem Buch Farben und Schriften, und der Assistent kann mit dir Seiten gestalten. Danach kannst du alles verschieben, zuschneiden und neu gestalten und jeden Schritt rückgängig machen.',
   'help.ctx.journey-studio.bullet.1':
     'Obere Leiste: links Titelbild und Name der Journey. Rechts siehst du, wer sonst noch im Buch ist und ob es gespeichert ist, dazu Seitenformat, Rückgängig, Wiederholen und Einfügen, Automatisch anordnen, den Assistenten, die Hilfe, Exportieren und die Schaltfläche, die Studio schließt.',
   'help.ctx.journey-studio.bullet.2':
@@ -972,7 +972,7 @@ const help: TranslationStrings = {
   'help.ctx.journey-studio.bullet.5':
     'Das Buch ist aufgebaut wie ein gedrucktes Buch: Cover, eine einzelne erste Seite gegenüber der leeren Innenseite des Covers, die Doppelseiten, eine einzelne letzte Seite und die Rückseite. Die Seitenzahlen beginnen bei der ersten Seite und werden so gedruckt, wie sie angezeigt werden.',
   'help.ctx.journey-studio.bullet.6':
-    'Mehrere Personen können gleichzeitig gestalten: Alle sehen die Mauszeiger der anderen mit Namen. Speicherst du eine Version, die jemand anderes inzwischen geändert hat, zeigt TREK einen Konflikt an, statt dessen Arbeit zu überschreiben.',
+    'Mehrere Personen können gleichzeitig gestalten: Alle sehen die Mauszeiger der anderen mit Namen. Speicherst du eine Version, die jemand anderes inzwischen geändert hat, zeigt Manzil einen Konflikt an, statt dessen Arbeit zu überschreiben.',
   'help.ctx.journey-studio.bullet.7':
     'Thema: ein Look für das ganze Buch, mit Papier, Tinte und drei Akzentfarben, Schriften und Motiven. Mit dem Thema verknüpfte Elemente folgen ihm, wenn du es änderst.',
   'help.ctx.journey-studio.bullet.8':
@@ -1054,7 +1054,7 @@ const help: TranslationStrings = {
     'Alle verknüpften Farben und Schriften im Buch ändern sich auf einmal, und das Anwenden des Themas ist ein einziger Rückgängig-Schritt.',
   'help.guide.studio-content.tip.1': 'Das Suchfeld oben in „Inhalt“ filtert beide Listen.',
   'help.guide.studio-content.tip.2':
-    'Ziehst du eine Datei vom Desktop auf die Arbeitsfläche, lädt TREK sie hoch und platziert sie in einem Schritt.',
+    'Ziehst du eine Datei vom Desktop auf die Arbeitsfläche, lädt Manzil sie hoch und platziert sie in einem Schritt.',
   // studio-elements
   'help.guide.studio-elements.title': 'Text, Formen, Symbole und Sticker hinzufügen',
   'help.guide.studio-elements.goal': 'Schmück eine Doppelseite zusätzlich zu Fotos und Texten aus.',
@@ -1171,32 +1171,32 @@ const help: TranslationStrings = {
   'help.guide.studio-spread-file.result':
     'Die Doppelseite wird mit ihren Rahmen und Textstilen importiert. Zieh die Fotos der neuen Journey in die Rahmen.',
   'help.guide.studio-spread-file.tip.1':
-    'Ist eine Datei kein Doppelseiten-Design, lehnt TREK sie ab und nennt den Grund.',
+    'Ist eine Datei kein Doppelseiten-Design, lehnt Manzil sie ab und nennt den Grund.',
 
   // ── Screen: settings (all tabs) ───────────────────────────────────────────────────────
   'help.ctx.settings.title': 'Einstellungen',
   'help.ctx.settings.summary':
-    'Deine persönlichen Einstellungen, mit einem Tab pro Thema in der Seitenleiste links. Die meisten Schalter wirken sofort, sobald du sie umlegst; ein Formular mit „Speichern“-Button übernimmt Änderungen erst nach dem Klick darauf. Nichts hier ändert etwas am TREK anderer Leute.',
+    'Deine persönlichen Einstellungen, mit einem Tab pro Thema in der Seitenleiste links. Die meisten Schalter wirken sofort, sobald du sie umlegst; ein Formular mit „Speichern“-Button übernimmt Änderungen erst nach dem Klick darauf. Nichts hier ändert etwas am Manzil anderer Leute.',
   'help.ctx.settings.bullet.1':
     'Seitenleiste links: „Allgemein“, „Darstellung“, „Karte“, „Benachrichtigungen“, „Integrationen“, „Offline“ und „Konto“. „Plugins“ erscheint, sobald ein Plugin aktiv ist, „Über“ überall dort, wo der Betreiber es nicht ausgeblendet hat, und ganz unten steht die Version.',
   'help.ctx.settings.bullet.2':
-    'Unter Allgemein legst du fest, womit TREK startet: Sprache, Sprache der Ortsnamen, Einheiten, Zeitformat, Wochenbeginn und Anzeigewährung, dazu das Verhalten der Reisekarte. Unter Darstellung findest du Theme, Farben, Lesbarkeit, Schriftgröße und die Dashboard-Widgets.',
+    'Unter Allgemein legst du fest, womit Manzil startet: Sprache, Sprache der Ortsnamen, Einheiten, Zeitformat, Wochenbeginn und Anzeigewährung, dazu das Verhalten der Reisekarte. Unter Darstellung findest du Theme, Farben, Lesbarkeit, Schriftgröße und die Dashboard-Widgets.',
   'help.ctx.settings.bullet.3':
     '„Karte“ wählt die Engine und ihren Stil. Unter „Benachrichtigungen“ legst du fest, welche Ereignisse über welchen Kanal kommen. „Integrationen“ verbindet Fotobibliotheken, AirTrail, Dawarich und wanderer und enthält API-Schlüssel und MCP. Unter „Offline“ legst du fest, was dieses Gerät speichert.',
   'help.ctx.settings.bullet.4':
     'Unter „Konto“ findest du dein Profil, dein Passwort, die Zwei-Faktor-Authentifizierung, Passkeys und die Option, dein Konto zu löschen.',
   'help.ctx.settings-display.title': 'Allgemein',
   'help.ctx.settings-display.summary':
-    'Womit TREK startet, welche Sprache und Einheiten es verwendet und wie sich Reisekarte und Buchungen verhalten. Jede Änderung gilt sofort.',
+    'Womit Manzil startet, welche Sprache und Einheiten es verwendet und wie sich Reisekarte und Buchungen verhalten. Jede Änderung gilt sofort.',
   'help.ctx.settings-display.bullet.1':
-    'Start: Unter „Startseite“ legst du fest, ob TREK mit dem Dashboard oder der aktiven Reise startet; bei „Aktive Reise“ wählst du unter „Start-Tab“, mit welchem Tab sich diese Reise öffnet.',
+    'Start: Unter „Startseite“ legst du fest, ob Manzil mit dem Dashboard oder der aktiven Reise startet; bei „Aktive Reise“ wählst du unter „Start-Tab“, mit welchem Tab sich diese Reise öffnet.',
   'help.ctx.settings-display.bullet.2':
     'Sprache & Region: „Anzeigewährung“ (oder „Reisewährung“, wenn nicht umgerechnet werden soll), „Sprache“, „Ortsnamen“, „Temperatureinheit“, „Entfernungseinheit“, „Zeitformat“ und „Woche beginnt am“.',
   'help.ctx.settings-display.bullet.3':
     'Reise & Karte: „Orte öffnen in“, „Datum zuerst in Tagesüberschriften“, „Orts-Labels auf Buchungsrouten“, „Buchungsrouten immer anzeigen“, „Kompakte Markierungen für ungeplante Orte“, „Orte auf der Karte entdecken“, „Buchungscodes verbergen“ und „Route ab der Unterkunft optimieren“.',
   'help.ctx.settings-appearance.title': 'Darstellung',
   'help.ctx.settings-appearance.summary':
-    'So sieht TREK in deinem Konto aus: hell oder dunkel, Akzentfarbe, Glas und Animationen, Textgröße und welche Widgets das Dashboard zeigt. Alles wirkt sofort, auf jedem Gerät, auf dem du angemeldet bist.',
+    'So sieht Manzil in deinem Konto aus: hell oder dunkel, Akzentfarbe, Glas und Animationen, Textgröße und welche Widgets das Dashboard zeigt. Alles wirkt sofort, auf jedem Gerät, auf dem du angemeldet bist.',
   'help.ctx.settings-appearance.bullet.1':
     'Theme: „Farbmodus“ Hell, Dunkel oder Automatisch, das „Farbschema“ und mit „Individuell“ deine eigene Akzentfarbe für Hell und Dunkel, samt Kontrastprüfung.',
   'help.ctx.settings-appearance.bullet.2':
@@ -1215,7 +1215,7 @@ const help: TranslationStrings = {
     'Nur bei Mapbox GL: „3D-Gebäude & Terrain“ und „Hochqualitäts-Modus“. Über „Karte speichern“ siehst du eine Live-Vorschau; der Button speichert deine Auswahl.',
   'help.ctx.settings-notifications.title': 'Benachrichtigungen',
   'help.ctx.settings-notifications.summary':
-    'Wo TREK dich außerhalb der App erreicht. Oben legst du fest, was wohin geht: eine Zeile pro Ereignis, eine Spalte pro Kanal. Darunter folgen die Karten für den Webhook, ntfy, Push auf diesem Gerät und alle Plugin-Kanäle.',
+    'Wo Manzil dich außerhalb der App erreicht. Oben legst du fest, was wohin geht: eine Zeile pro Ereignis, eine Spalte pro Kanal. Darunter folgen die Karten für den Webhook, ntfy, Push auf diesem Gerät und alle Plugin-Kanäle.',
   'help.ctx.settings-notifications.bullet.1':
     'Benachrichtigungen: Schalte jedes Ereignis pro Kanal ein oder aus. Ein Schloss bedeutet, dass der Admin es für alle abgeschaltet hat.',
   'help.ctx.settings-notifications.bullet.2':
@@ -1226,7 +1226,7 @@ const help: TranslationStrings = {
     '„Push-Benachrichtigungen auf diesem Gerät“: „Für dieses Gerät einschalten“ gilt nur für diesen Browser, „Test senden“ probiert es aus. Ein Plugin-Kanal zeigt „Einrichten“, bis er eingerichtet ist.',
   'help.ctx.settings-integrations.title': 'Integrationen',
   'help.ctx.settings-integrations.summary':
-    'Alles, was TREK mit anderen Diensten verbindet: Fotobibliotheken für das Journal, AirTrail für Flüge, Dawarich für die Orte, an denen du tatsächlich warst, wanderer für Trails, schreibgeschützte API-Schlüssel für andere Software und MCP für KI-Clients. Eine Verbindung zu einem anderen Dienst erscheint erst, wenn der Admin sie freigeschaltet hat.',
+    'Alles, was Manzil mit anderen Diensten verbindet: Fotobibliotheken für das Journal, AirTrail für Flüge, Dawarich für die Orte, an denen du tatsächlich warst, wanderer für Trails, schreibgeschützte API-Schlüssel für andere Software und MCP für KI-Clients. Eine Verbindung zu einem anderen Dienst erscheint erst, wenn der Admin sie freigeschaltet hat.',
   'help.ctx.settings-integrations.bullet.1':
     'Immich und Synology Photos, AirTrail, Dawarich und wanderer: Jede Karte hat Felder für Adresse und Schlüssel, die Buttons „Speichern“ und „Verbindung testen“ sowie ein Badge „Verbunden“ oder „Nicht verbunden“.',
   'help.ctx.settings-integrations.bullet.2':
@@ -1237,7 +1237,7 @@ const help: TranslationStrings = {
     'API-Tokens: der alte Zugang zu MCP, als „Veraltet“ markiert; nutze stattdessen „OAuth 2.1-Clients“.',
   'help.ctx.settings-offline.title': 'Offline', // same-as-en
   'help.ctx.settings-offline.summary':
-    'Was TREK auf diesem Gerät speichert, damit sich eine Reise auch ohne Verbindung öffnen lässt, und was passiert, wenn eine Offline-Änderung mit einer Änderung von woanders kollidiert.',
+    'Was Manzil auf diesem Gerät speichert, damit sich eine Reise auch ohne Verbindung öffnen lässt, und was passiert, wenn eine Offline-Änderung mit einer Änderung von woanders kollidiert.',
   'help.ctx.settings-offline.bullet.1':
     'Offline-Modus: „Offline-Modus erzwingen“ lädt zuerst alles herunter, arbeitet danach nur noch aus dem Cache und sammelt deine Änderungen in einer Warteschlange.',
   'help.ctx.settings-offline.bullet.2':
@@ -1248,7 +1248,7 @@ const help: TranslationStrings = {
     'Der Bereich „Synchronisierungskonflikte“ erscheint nur, solange eine Änderung kollidiert, und bietet „Meine behalten“, „Server behalten“ und „Bei einem Konflikt“. Der Bereich „Offline-Cache“ zeigt die Zahl der Reisen und der ausstehenden oder fehlgeschlagenen Änderungen, mit „Erneut versuchen“, „Verwerfen“ und „Cache leeren“.',
   'help.ctx.settings-account.title': 'Konto',
   'help.ctx.settings-account.summary':
-    'Wer du auf diesem TREK bist und wie du dich anmeldest: Profilbild, Benutzername und E-Mail, Passwort, Zwei-Faktor-Authentifizierung und Passkeys. „Löschen“ für dein Konto findest du unten in der Karte „Konto“.',
+    'Wer du auf diesem Manzil bist und wie du dich anmeldest: Profilbild, Benutzername und E-Mail, Passwort, Zwei-Faktor-Authentifizierung und Passkeys. „Löschen“ für dein Konto findest du unten in der Karte „Konto“.',
   'help.ctx.settings-account.bullet.1':
     'Konto: Mit der Kamera auf dem Bild lädst du ein Profilbild hoch, der rote Papierkorb entfernt es. „Benutzername“ und „E-Mail“ sicherst du mit „Speichern“.',
   'help.ctx.settings-account.bullet.2':
@@ -1259,9 +1259,9 @@ const help: TranslationStrings = {
     '„Löschen“ links unten in der Karte „Konto“ löscht das Konto nach einer Bestätigung. Der einzige Administrator kann sich nicht selbst löschen.',
   // language-region
   'help.guide.language-region.title': 'Sprache, Einheiten und Währung festlegen',
-  'help.guide.language-region.goal': 'TREK in deiner Sprache und mit den Formaten deiner Region nutzen.',
+  'help.guide.language-region.goal': 'Manzil in deiner Sprache und mit den Formaten deiner Region nutzen.',
   'help.guide.language-region.step.1':
-    'Wähl unter „Sprache & Region“ bei „Sprache“ einen der Chips. TREK wechselt sofort, auf jedem Gerät, auf dem du angemeldet bist.',
+    'Wähl unter „Sprache & Region“ bei „Sprache“ einen der Chips. Manzil wechselt sofort, auf jedem Gerät, auf dem du angemeldet bist.',
   'help.guide.language-region.step.2':
     '„Ortsnamen“ legt fest, in welcher Sprache Ortssuche, Vorschläge und Adressen erscheinen; „Wie die App“ übernimmt die Sprache der Oberfläche.',
   'help.guide.language-region.result':
@@ -1284,20 +1284,20 @@ const help: TranslationStrings = {
   'help.guide.travel-map-prefs.tip.2':
     'Ein Admin kann die Standards für alle festlegen. Was du hier umstellst, gilt für dich.',
   // startup
-  'help.guide.startup.title': 'Festlegen, womit TREK startet',
+  'help.guide.startup.title': 'Festlegen, womit Manzil startet',
   'help.guide.startup.goal':
-    'TREK auf der Seite öffnen, die du am häufigsten nutzt, statt jedes Mal auf dem Dashboard.',
+    'Manzil auf der Seite öffnen, die du am häufigsten nutzt, statt jedes Mal auf dem Dashboard.',
   'help.guide.startup.step.1':
     'Stell oben in „Allgemein“ unter „Start“ die „Startseite“ auf „Dashboard“ oder „Aktive Reise“.',
   'help.guide.startup.step.2':
     'Bei „Aktive Reise“ erscheint „Start-Tab“: Wähl den Tab, mit dem sich diese Reise öffnet.',
-  'help.guide.startup.result': 'Wenn du TREK das nächste Mal öffnest, landest du direkt dort.',
+  'help.guide.startup.result': 'Wenn du Manzil das nächste Mal öffnest, landest du direkt dort.',
   'help.guide.startup.tip.1':
     '„Aktive Reise“ ist die Reise, die heute läuft, oder die nächste anstehende, also dieselbe, die das Dashboard hervorhebt.',
   // theme-scheme
   'help.guide.theme-scheme.title': 'Design und Akzentfarbe festlegen',
   'help.guide.theme-scheme.goal':
-    'TREK hell, dunkel oder passend zu deinem Gerät darstellen, in deiner Lieblingsfarbe.',
+    'Manzil hell, dunkel oder passend zu deinem Gerät darstellen, in deiner Lieblingsfarbe.',
   'help.guide.theme-scheme.step.1':
     'Stell unter „Theme“ den „Farbmodus“ auf „Hell“, „Dunkel“ oder „Automatisch“. „Automatisch“ richtet sich nach deinem Gerät.',
   'help.guide.theme-scheme.step.2':
@@ -1319,7 +1319,7 @@ const help: TranslationStrings = {
   'help.guide.readability.result':
     'Die Änderung gilt sofort in der ganzen App, auch in den Kartenpanels und im Tagebuch.',
   'help.guide.readability.tip.1':
-    'Teile von TREK reduzieren Animationen schon von selbst, wenn dein Gerät weniger Bewegung wünscht; „Bewegung reduzieren“ fährt auch den Rest herunter.',
+    'Teile von Manzil reduzieren Animationen schon von selbst, wenn dein Gerät weniger Bewegung wünscht; „Bewegung reduzieren“ fährt auch den Rest herunter.',
   'help.guide.readability.tip.2':
     'Die Textgröße wird über die Typografiestufen angewendet, deshalb wird nichts abgeschnitten; was nicht mehr passt, bricht um.',
   // dashboard-widgets
@@ -1412,7 +1412,7 @@ const help: TranslationStrings = {
   'help.guide.offline-prepare.step.1':
     'Lass unter „Was offline gespeichert wird“ die Option „Kartenkacheln offline speichern“ eingeschaltet und schalte die Reisen ein, die du auf diesem Gerät haben willst. Eine beendete Reise wird nur gespeichert, wenn du sie einschaltest.',
   'help.guide.offline-prepare.step.2':
-    'Klick wieder oben unter „Für Offline vorbereiten“ auf „Für Offline-Nutzung herunterladen“. TREK lädt Reisedaten, Dokumente und Kartenkacheln herunter und zeigt an, wie viele Reisen gespeichert wurden.',
+    'Klick wieder oben unter „Für Offline vorbereiten“ auf „Für Offline-Nutzung herunterladen“. Manzil lädt Reisedaten, Dokumente und Kartenkacheln herunter und zeigt an, wie viele Reisen gespeichert wurden.',
   'help.guide.offline-prepare.step.3':
     '„Offline-Modus erzwingen“ lädt noch einmal alles herunter und arbeitet danach nur noch mit den Daten auf diesem Gerät. So kannst du prüfen, ob alles da ist, bevor du losfährst.',
   'help.guide.offline-prepare.result':
@@ -1420,11 +1420,11 @@ const help: TranslationStrings = {
   'help.guide.offline-prepare.tip.1':
     'Kartenkacheln brauchen den meisten Platz; schalte sie aus, wenn du nur Reisedaten und Dokumente offline haben willst.',
   'help.guide.offline-prepare.tip.2':
-    'Installiere TREK über den Browser als App, dann klappt der Offline-Start am reibungslosesten.',
+    'Installiere Manzil über den Browser als App, dann klappt der Offline-Start am reibungslosesten.',
   // offline-conflicts
   'help.guide.offline-conflicts.title': 'Bei einem Synchronisierungskonflikt entscheiden, welche Version bleibt',
   'help.guide.offline-conflicts.goal':
-    'Leg fest, wie TREK einen Konflikt zwischen einer Offline-Änderung und einer Änderung von woanders auflöst.',
+    'Leg fest, wie Manzil einen Konflikt zwischen einer Offline-Änderung und einer Änderung von woanders auflöst.',
   'help.guide.offline-conflicts.step.1':
     'Kollidiert eine Änderung, die du offline gemacht hast, mit einer neueren, erscheint oben unter „Offline“ der Bereich „Synchronisierungskonflikte“. Klick bei jeder Änderung auf „Meine behalten“ oder „Server behalten“.',
   'help.guide.offline-conflicts.step.2':
@@ -1450,7 +1450,7 @@ const help: TranslationStrings = {
   'help.guide.password.result':
     'Das neue Passwort gilt sofort. Alle anderen Geräte werden abgemeldet, deine MCP-API-Tokens werden gelöscht, und OAuth-Clients müssen sich neu anmelden; auf diesem Gerät bleibst du angemeldet.',
   'help.guide.password.tip.1':
-    'Läuft die Anmeldung bei diesem TREK nur über SSO, gibt es kein TREK-Passwort und keine Karte „Passwort ändern“.',
+    'Läuft die Anmeldung bei diesem Manzil nur über SSO, gibt es kein TREK-Passwort und keine Karte „Passwort ändern“.',
   // mfa
   'help.guide.mfa.title': 'Zwei-Faktor-Authentifizierung einschalten',
   'help.guide.mfa.goal': 'Schütze dein Konto mit einem Code aus einer Authenticator-App.',
@@ -1486,14 +1486,14 @@ const help: TranslationStrings = {
   'help.guide.delete-account.result':
     'Dein Konto ist gelöscht, und mit ihm die Reisen, Orte und Dateien, die dir gehören. Reisen, die anderen gehören, bleiben bei ihnen.',
   'help.guide.delete-account.tip.1':
-    'Bist du der einzige Administrator, meldet TREK „Löschung nicht möglich“. Mach dann zuerst einen anderen Benutzer zum Admin.',
+    'Bist du der einzige Administrator, meldet Manzil „Löschung nicht möglich“. Mach dann zuerst einen anderen Benutzer zum Admin.',
   'help.guide.delete-account.tip.2':
     'Das lässt sich nicht rückgängig machen. Exportiere vor dem Bestätigen alles, was du behalten willst.',
 
   // ── Screen: admin (all tabs) ──────────────────────────────────────────────────────────
   'help.ctx.admin.title': 'Administration',
   'help.ctx.admin.summary':
-    'Die Instanz, auf der TREK für alle läuft: wer sich anmelden darf und wie, was eingeschaltet ist, wo Dateien liegen, wie der Server die Leute erreicht und wie er gesichert wird. Nur Admins sehen diese Seite. Die Seitenleiste gruppiert die Tabs unter „Benutzer“, „Konfiguration“, „Integrationen“ und „Wartung“, und jeder Tab ist eine eigene Ansicht.',
+    'Die Instanz, auf der Manzil für alle läuft: wer sich anmelden darf und wie, was eingeschaltet ist, wo Dateien liegen, wie der Server die Leute erreicht und wie er gesichert wird. Nur Admins sehen diese Seite. Die Seitenleiste gruppiert die Tabs unter „Benutzer“, „Konfiguration“, „Integrationen“ und „Wartung“, und jeder Tab ist eine eigene Ansicht.',
   'help.ctx.admin.bullet.1':
     'Rechts in der Kopfzeile stehen die Zahlen der Benutzer, Reisen, Orte und Dateien. Darunter erscheint das Banner „Update verfügbar“, sobald es eine neuere TREK-Version gibt.',
   'help.ctx.admin.bullet.2':
@@ -1506,7 +1506,7 @@ const help: TranslationStrings = {
     'Backup und Audit: Backups auf Abruf und nach Zeitplan sowie das Protokoll sicherheitsrelevanter Ereignisse.',
   'help.ctx.admin-users.title': 'Benutzer',
   'help.ctx.admin-users.summary':
-    'Alle Konten auf diesem TREK mit Rolle, E-Mail und letzter Aktivität, die Einladungslinks, mit denen sich Leute auf einer geschlossenen Instanz registrieren können, und wer in Reisen was darf.',
+    'Alle Konten auf diesem Manzil mit Rolle, E-Mail und letzter Aktivität, die Einladungslinks, mit denen sich Leute auf einer geschlossenen Instanz registrieren können, und wer in Reisen was darf.',
   'help.ctx.admin-users.bullet.1':
     'Die Tabelle zeigt Benutzer, E-Mail, Rolle, Erstellt und Zuletzt aktiv, in jeder Zeile mit „Benutzer bearbeiten“ und „Benutzer löschen“. Ein grüner Punkt am Avatar bedeutet, dass die Person gerade online ist; deine eigene Zeile ist mit „(Du)“ markiert.',
   'help.ctx.admin-users.bullet.2':
@@ -1528,7 +1528,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-config.bullet.1':
     '„Packvorlagen“: benannte Listen mit Kategorien und Einträgen, mit denen die Packliste einer Reise starten kann.',
   'help.ctx.admin-config.bullet.2':
-    'Kategorien: Name, Icon und Farbe der Kategorien, die überall in TREK verwendet werden, vom Ortsinspektor bis zu den Sammlungen; jede bearbeitest du in einem Dialog mit Vorschau.',
+    'Kategorien: Name, Icon und Farbe der Kategorien, die überall in Manzil verwendet werden, vom Ortsinspektor bis zu den Sammlungen; jede bearbeitest du in einem Dialog mit Vorschau.',
   'help.ctx.admin-config.bullet.3':
     'Schulferien: der Katalog der Länder und Regionen mit ihren Ferienzeiten, aus dem alle in Vacay wählen können.',
   'help.ctx.admin-settings.title': 'Einstellungen',
@@ -1544,7 +1544,7 @@ const help: TranslationStrings = {
     '„Verkehrsanbieter“ und „Anbieter für die Ortssuche“ legen fest, wer ÖPNV- und Ortssuchen beantwortet; „Ortssuche protokollieren“ hält fest, welches Ergebnis gewählt wurde; „Erlaubte Dateitypen“ schränkt Uploads ein.',
   'help.ctx.admin-addons.title': 'Add-ons',
   'help.ctx.admin-addons.summary':
-    'Die Funktionsmodule von TREK, jedes mit eigenem Schalter: Packliste, Budget, Dokumente, Vacay, Atlas, Collab, Journey, Sammlungen, Roadtrip, MCP, AirTrail, Dawarich und die KI-Verarbeitung. Aus heißt: Navigationseintrag, Routen und API sind für alle entfernt.',
+    'Die Funktionsmodule von Manzil, jedes mit eigenem Schalter: Packliste, Budget, Dokumente, Vacay, Atlas, Collab, Journey, Sammlungen, Roadtrip, MCP, AirTrail, Dawarich und die KI-Verarbeitung. Aus heißt: Navigationseintrag, Routen und API sind für alle entfernt.',
   'help.ctx.admin-addons.bullet.1':
     'Eine Kachel pro Addon mit Schalter und, falls vorhanden, Unterzeilen für seine Optionen.',
   'help.ctx.admin-addons.bullet.2':
@@ -1552,7 +1552,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-addons.bullet.3': '„Gepäck-Tracking“ hat unter den Kacheln einen eigenen Schalter.',
   'help.ctx.admin-plugins.title': 'Plugins', // same-as-en
   'help.ctx.admin-plugins.summary':
-    'Plugins von Drittanbietern, die in einem eigenen Prozess neben TREK laufen, jedes mit den Berechtigungen, die es bei der Installation angefordert hat. Installiere aus dem Katalog, lade ein Paket hoch oder verknüpfe einen Ordner, während du ein Plugin entwickelst.',
+    'Plugins von Drittanbietern, die in einem eigenen Prozess neben Manzil laufen, jedes mit den Berechtigungen, die es bei der Installation angefordert hat. Installiere aus dem Katalog, lade ein Paket hoch oder verknüpfe einen Ordner, während du ein Plugin entwickelst.',
   'help.ctx.admin-plugins.bullet.1':
     '„Installiert“ und „Entdecken“, mit „Plugins durchsuchen…“ und den Filtern Typ, Status und Sortieren. Jede Zeile zeigt die Version, „Geprüft“, „Signiert“ oder „Unsigniert“, worauf das Plugin zugreifen darf, einen Schalter und ein ⋯-Menü.',
   'help.ctx.admin-plugins.bullet.2':
@@ -1586,7 +1586,7 @@ const help: TranslationStrings = {
     '„API-Tokens“: Name, Besitzer, „Erstellt“ und „Zuletzt verwendet“, dazu ein Papierkorb, der das Token löscht.',
   'help.ctx.admin-github.title': 'GitHub',
   'help.ctx.admin-github.summary':
-    'Was es Neues in TREK gibt: die Versionshistorie von GitHub und ob es eine neuere Version als deine gibt. Das Update selbst läuft nicht in der App, sondern auf dem Host.',
+    'Was es Neues in Manzil gibt: die Versionshistorie von GitHub und ob es eine neuere Version als deine gibt. Das Update selbst läuft nicht in der App, sondern auf dem Host.',
   'help.ctx.admin-github.bullet.1':
     '„Update-Verlauf“ zeigt die Versionen als Zeitleiste mit ihren Versionshinweisen; die neueste ist mit „Aktuell“ markiert, Vorabversionen mit „Vorabversion“, und „GitHub“ öffnet die Release-Seite.',
   'help.ctx.admin-github.bullet.2':
@@ -1735,10 +1735,10 @@ const help: TranslationStrings = {
   'help.guide.auth-methods.step.2':
     '„SSO Login“ und „SSO Auto-Provisioning“ setzen voraus, dass unten Single Sign-On (OIDC) eingerichtet ist. Auto-Provisioning legt ein Konto an, wenn sich jemand zum ersten Mal per SSO anmeldet.',
   'help.guide.auth-methods.step.3':
-    'Schalt „Zwei-Faktor-Authentifizierung (2FA) für alle verlangen“ ein. Dann muss jeder ohne 2FA sie erst in den Einstellungen einrichten, bevor er TREK nutzen kann.',
+    'Schalt „Zwei-Faktor-Authentifizierung (2FA) für alle verlangen“ ein. Dann muss jeder ohne 2FA sie erst in den Einstellungen einrichten, bevor er Manzil nutzen kann.',
   'help.guide.auth-methods.result': 'Die Anmeldeseite bietet genau die Methoden an, die du aktiviert gelassen hast.',
   'help.guide.auth-methods.tip.1':
-    'TREK lässt dich die letzte Anmeldemöglichkeit nicht ausschalten: Ihr Schalter wird grau, und der Tooltip zeigt „Mindestens eine Anmeldemethode muss aktiviert bleiben“.',
+    'Manzil lässt dich die letzte Anmeldemöglichkeit nicht ausschalten: Ihr Schalter wird grau, und der Tooltip zeigt „Mindestens eine Anmeldemethode muss aktiviert bleiben“.',
   'help.guide.auth-methods.tip.2':
     'Ist auf dem Server OIDC_ONLY gesetzt, sind die Passwort-Schalter gesperrt, und ein Hinweis weist darauf hin.',
   // oidc
@@ -1766,11 +1766,11 @@ const help: TranslationStrings = {
   'help.guide.instance-keys.result':
     'Benutzer können die Funktionen nutzen, ohne eigene Schlüssel zu hinterlegen. Ohne Google-Schlüssel läuft die Suche über die TREK Places API und OpenStreetMap.',
   'help.guide.instance-keys.tip.1':
-    'Hat ein Benutzer unter „Einstellungen“ einen eigenen Schlüssel hinterlegt, verwendet TREK für ihn diesen statt des Instanzschlüssels.',
+    'Hat ein Benutzer unter „Einstellungen“ einen eigenen Schlüssel hinterlegt, verwendet Manzil für ihn diesen statt des Instanzschlüssels.',
   'help.guide.instance-keys.tip.2':
     'Schlüssel können auch aus Umgebungsvariablen stammen; diese erscheinen hier schreibgeschützt.',
   'help.guide.instance-keys.tip.3':
-    '„Tageslimit für Google-Aufrufe“ begrenzt, wie viel TREK pro Tag über den Schlüssel ausgeben darf; das Badge neben dem Titel zählt die heutigen Aufrufe. Ist das Limit erreicht, laufen Suchen bis zum nächsten Tag (UTC) über OpenStreetMap.',
+    '„Tageslimit für Google-Aufrufe“ begrenzt, wie viel Manzil pro Tag über den Schlüssel ausgeben darf; das Badge neben dem Titel zählt die heutigen Aufrufe. Ist das Limit erreicht, laufen Suchen bis zum nächsten Tag (UTC) über OpenStreetMap.',
   // places-transit
   'help.guide.places-transit.title': 'Such- und ÖPNV-Anbieter wählen',
   'help.guide.places-transit.goal': 'Leg fest, welcher Dienst Ortssuchen und ÖPNV-Routenanfragen beantwortet.',
@@ -1778,7 +1778,7 @@ const help: TranslationStrings = {
     'Wähl unter „Verkehrsanbieter“ entweder „Transitous (kostenlos)“, das ohne Schlüssel auskommt und in Europa die beste Abdeckung hat, oder Google, das den Google-Schlüssel nutzt. Die Auswahl wird sofort gespeichert.',
   'help.guide.places-transit.step.2':
     'Wähle unter „Anbieter für die Ortssuche“, wer gefragt wird, wenn der TREK-Index und OpenStreetMap nichts finden: „Automatisch“ (Google, wenn ein Schlüssel hinterlegt ist, danach Amap), „Google Places“, „Amap (高德地图)“ oder „OpenStreetMap“.',
-  'help.guide.places-transit.result': 'Alle Suchfelder und ÖPNV-Routen in TREK nutzen diese Auswahl.',
+  'help.guide.places-transit.result': 'Alle Suchfelder und ÖPNV-Routen in Manzil nutzen diese Auswahl.',
   'help.guide.places-transit.tip.1':
     'Fehlt für eine Auswahl der Schlüssel, erscheint hier eine Warnung: Die Ortssuche nutzt dann weiter den TREK-Index und OpenStreetMap, der ÖPNV weiter Transitous.',
   'help.guide.places-transit.tip.2': 'ÖPNV-Routen von Google werden pro Anfrage abgerechnet, Transitous nicht.',
@@ -1829,7 +1829,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.2':
     'Ordne unter „Kategorien“ jeder Upload-Art, etwa „Reisedokumente“, „Journey-Fotos“ oder „Backups“, ein Backend zu.',
   'help.guide.storage-backends.step.3':
-    'Klick unten auf „Änderungen speichern“. Zeigt eine Kategorie jetzt auf ein anderes Ziel, fragt TREK, ob es „Vorhandene Objekte verschieben“ oder „Nur neue Schreibvorgänge umleiten“ soll.',
+    'Klick unten auf „Änderungen speichern“. Zeigt eine Kategorie jetzt auf ein anderes Ziel, fragt Manzil, ob es „Vorhandene Objekte verschieben“ oder „Nur neue Schreibvorgänge umleiten“ soll.',
   'help.guide.storage-backends.result':
     'Neue Uploads landen im zugewiesenen Backend. Verschobene Dateien werden von dort ausgeliefert, und was du nicht verschieben wolltest, bleibt, wo es war.',
   'help.guide.storage-backends.tip.1':
@@ -1880,7 +1880,7 @@ const help: TranslationStrings = {
     'Schaltest du das Add-on MCP aus, werden alle Clients sofort gestoppt und dieser Tab ausgeblendet, gelöscht wird aber nichts: Sobald es wieder an ist, funktionieren die Tokens wieder.',
   // release-history
   'help.guide.release-history.title': 'Nach neuem Release suchen',
-  'help.guide.release-history.goal': 'Wissen, ob dein TREK aktuell ist und was die nächste Version bringt.',
+  'help.guide.release-history.goal': 'Wissen, ob dein Manzil aktuell ist und was die nächste Version bringt.',
   'help.guide.release-history.step.1':
     'Gibt es eine neuere Version, erscheint unter der Kopfzeile „Update verfügbar“ zusammen mit der Version, die bei dir läuft. „Auf GitHub ansehen“ öffnet das Release, und „Update-Anleitung“ zeigt die Befehle für Docker oder die Anleitung für andere Installationen.',
   'help.guide.release-history.step.2':
@@ -1939,7 +1939,7 @@ const help: TranslationStrings = {
   'help.guide.document-providers.step.2':
     'Schalte in der Zeile „Nextcloud“ den Schalter ein. Die Meldung „Addon aktualisiert“ erscheint, und ab jetzt finden Reise-Eigentümer im Tab „Dateien“ ihrer Reisen den „Dokumentenabgleich“, mit Nextcloud unter „Anbieter verbinden“.',
   'help.guide.document-providers.result':
-    'Der Speicherdienst steht in jeder Reise dieses TREK zur Verfügung. Verbunden ist aber nichts, bis ein Reise-Eigentümer die Verbindung herstellt.',
+    'Der Speicherdienst steht in jeder Reise dieses Manzil zur Verfügung. Verbunden ist aber nichts, bis ein Reise-Eigentümer die Verbindung herstellt.',
   'help.guide.document-providers.tip.1':
     'Hier wird nur entschieden, ob ein Speicherdienst angeboten werden darf. Adresse und Zugangsdaten gehören zu einer Reise und werden vom Reise-Eigentümer im Tab „Dateien“ der Reise eingetragen, nie im Admin-Bereich.',
   'help.guide.document-providers.tip.2':
@@ -1950,7 +1950,7 @@ const help: TranslationStrings = {
   'help.ctx.trip.summary':
     'Eine Reise mit allem, was dazugehört: der Plan mit Tagen, Karte und Orten sowie die Tabs für Touren, Transporte, Buchungen, Listen, Kosten, Dateien, Zusammenarbeit und ein verknüpftes Tagebuch. Zu jedem davon gibt es unter diesem einen eigenen Hilfebildschirm.',
   'help.ctx.trip.bullet.1':
-    'Die Tab-Leiste unter der oberen Leiste: Planung, Touren, Transporte, Buchungen, Listen, Kosten, Dateien, Collab und, sobald ein Tagebuch verknüpft ist, Tagebuch. Welche Tabs es auf deinem TREK gibt, hängt von den Add-ons und Plugins ab.',
+    'Die Tab-Leiste unter der oberen Leiste: Planung, Touren, Transporte, Buchungen, Listen, Kosten, Dateien, Collab und, sobald ein Tagebuch verknüpft ist, Tagebuch. Welche Tabs es auf deinem Manzil gibt, hängt von den Add-ons und Plugins ab.',
   'help.ctx.trip.bullet.2':
     '„Planung“ hat drei Spalten: links die Tage, in der Mitte die Karte, rechts die Orte. Mit dem Add-on Roadtrip beginnt die Tagesspalte mit einem Umschalter zwischen „Tage“ und „Roadtrip“, mit dem Add-on Touren beginnt die Ortsspalte mit „Orte“ und „Touren“. Buchungen und Transporte stehen direkt im Plan, am jeweiligen Halt und zwischen den Halten; die Tabs listen sie auf.',
   'help.ctx.trip.bullet.3':
@@ -1992,7 +1992,7 @@ const help: TranslationStrings = {
     'Hast du den Link in den falschen Chat geschickt, erzeuge ihn neu: Der alte Link funktioniert dann sofort nicht mehr.',
   // add-guest
   'help.guide.add-guest.title': 'Gast ohne Konto hinzufügen',
-  'help.guide.add-guest.goal': 'Jemanden zur Reise hinzufügen, der TREK nicht nutzt.',
+  'help.guide.add-guest.goal': 'Jemanden zur Reise hinzufügen, der Manzil nicht nutzt.',
   'help.guide.add-guest.step.1':
     'Klick neben dem Reisenamen auf „Reiseeinstellungen“. Unter „Personen“ findest du „Gäste“ ganz unten, unter „Zugriff“.',
   'help.guide.add-guest.step.2': 'Gib den Namen bei „Name des Gasts“ ein und klick auf „Gast hinzufügen“.',
@@ -2053,7 +2053,7 @@ const help: TranslationStrings = {
   'help.guide.undo-change.tip.1':
     '„Rückgängig“ gilt für den Plan: Orte hinzufügen, zuweisen, entfernen, umsortieren, verschieben und sperren, einen Tag leeren, eine Route optimieren, Orte löschen, Kategorien ändern und Importe.',
   'help.guide.undo-change.tip.2':
-    'Klick erneut, um weiter zurückzugehen: TREK merkt sich deine letzten 30 Änderungen an dieser Reise, die neueste zuerst, bis du die Reise verlässt.',
+    'Klick erneut, um weiter zurückzugehen: Manzil merkt sich deine letzten 30 Änderungen an dieser Reise, die neueste zuerst, bis du die Reise verlässt.',
   'help.guide.clear-day.title': 'Tag leeren',
   'help.guide.clear-day.goal': 'Alle Orte auf einmal von einem Tag entfernen, zum Beispiel um den Tag neu zu planen.',
   'help.guide.clear-day.step.1': 'Klick im Plan mit der rechten Maustaste auf die Kopfzeile des Tages.',
@@ -2085,19 +2085,19 @@ const help: TranslationStrings = {
   'help.guide.create-place.step.1':
     'Klick oben in der Ortsspalte auf „Ort/Aktivität hinzufügen“ (bei geöffnetem Tag „Neuer Ort“). Das Formular öffnet sich, und der Cursor steht im Suchfeld.',
   'help.guide.create-place.step.2':
-    'Tippe den Ort in „Orte durchsuchen…“ ein und wähle ein Ergebnis. Der Name oben im Dialog, Adresse, Breitengrad, Längengrad und Webseite werden ausgefüllt, und „Ortsdetails“ links zeigt Bilder, Öffnungszeiten und eine Beschreibung. Hat dein TREK einen Google-Schlüssel, führt „Nicht der richtige Ort? Stattdessen bei Google suchen“ unter den Ergebnissen dieselbe Suche über Google aus. Sind Sammlungen eingeschaltet, bietet dir „Gespeicherte Orte“ rechts die Orte aus deinen Listen auf dieselbe Weise an.',
+    'Tippe den Ort in „Orte durchsuchen…“ ein und wähle ein Ergebnis. Der Name oben im Dialog, Adresse, Breitengrad, Längengrad und Webseite werden ausgefüllt, und „Ortsdetails“ links zeigt Bilder, Öffnungszeiten und eine Beschreibung. Hat dein Manzil einen Google-Schlüssel, führt „Nicht der richtige Ort? Stattdessen bei Google suchen“ unter den Ergebnissen dieselbe Suche über Google aus. Sind Sammlungen eingeschaltet, bietet dir „Gespeicherte Orte“ rechts die Orte aus deinen Listen auf dieselbe Weise an.',
   'help.guide.create-place.step.3':
     'Klick in „Ortsdetails“ unter „Bild auswählen“ auf ein Bild, um es als Bild des Ortes zu verwenden. „Text übernehmen“ kopiert die Beschreibung ins Formular.',
   'help.guide.create-place.step.4':
     'Prüf, was im Formular steht. Der Name im Kopf des Dialogs ist das einzige Pflichtfeld. Mit dem Chip „Kategorie“ darunter wählst du eine Kategorie der Reise, das + daneben legt eine neue an. „Adresse“, „Breitengrad“ und „Längengrad“ kommen aus der Suche, oder du tippst sie ein. „Beschreibung“ und „Notizen“ füllst du selbst. In „Webseite“ kommt der Link, „Anhängen“ unter „Dateien“ fügt ein Dokument hinzu, und in „Telefon“, „E-Mail“ und „Öffnungszeiten hinzufügen“ trägst du ein, was die Suche nicht kannte.',
   'help.guide.create-place.step.5':
-    'Klick auf „Hinzufügen“. Gibt es in der Reise schon einen Ort mit demselben Namen oder an derselben Stelle, zeigt TREK eine Warnung, und der Button heißt dann „Trotzdem hinzufügen“.',
+    'Klick auf „Hinzufügen“. Gibt es in der Reise schon einen Ort mit demselben Namen oder an derselben Stelle, zeigt Manzil eine Warnung, und der Button heißt dann „Trotzdem hinzufügen“.',
   'help.guide.create-place.result':
     'Der Ort steht in der Liste und auf der Karte, unter „Ungeplant“, bis er einem Tag zugeordnet wird.',
   'help.guide.create-place.tip.1':
     'Ist das Add-on Budget aktiv, öffnet „Kosten“ unten im Formular direkt nach dem Speichern den Kosten-Editor für die Ausgabe dieses Ortes. Ein Bild oder PDF, das du in den Dialog einfügst, wird wie eine Datei unter „Dateien“ angehängt.',
   'help.guide.create-place.tip.2':
-    'Die Suchergebnisse liefern auf jedem TREK der TREK-Index und OpenStreetMap, und die „Ortsdetails“ werden automatisch aus Wikipedia, Wikivoyage und Wikimedia gefüllt. Google fragt TREK nur, wenn beide nichts finden, und nur Google liefert Bewertungen.',
+    'Die Suchergebnisse liefern auf jedem Manzil der TREK-Index und OpenStreetMap, und die „Ortsdetails“ werden automatisch aus Wikipedia, Wikivoyage und Wikimedia gefüllt. Google fragt Manzil nur, wenn beide nichts finden, und nur Google liefert Bewertungen.',
   'help.guide.create-place.tip.3':
     'Du kannst einen Ort auch auf der Karte anlegen: Klick mit der rechten Maustaste auf die Stelle, und das Formular öffnet sich mit bereits eingetragenen Koordinaten und Adresse.',
   // place-to-open-day
@@ -2193,7 +2193,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-file.result':
     'Die Orte stehen in der Liste. Ein Track hat in seiner Zeile einen farbigen Strich, wird auf der Karte eingezeichnet und bekommt einen eigenen Filter „Strecken“.',
   'help.guide.import-places-file.tip.1':
-    'Eine zu große Datei lehnt TREK ab und nennt die Größengrenze. Exportiere sie noch einmal ohne Fotos oder teile sie auf.',
+    'Eine zu große Datei lehnt Manzil ab und nennt die Größengrenze. Exportiere sie noch einmal ohne Fotos oder teile sie auf.',
   'help.guide.import-places-file.tip.2':
     'Den ganzen Import kannst du in der Werkzeugleiste über den Tagen rückgängig machen.',
   // import-places-list
@@ -2209,7 +2209,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-list.tip.1':
     'Die Liste muss öffentlich geteilt sein; über den Link einer privaten Liste wird nichts importiert.',
   'help.guide.import-places-list.tip.2':
-    '„Orte über Google anreichern“ erscheint im Dialog, wenn dein TREK einen Google-Schlüssel hat: Damit wird jeder importierte Ort nachgeschlagen und um Fotos, Adresse und Details ergänzt.',
+    '„Orte über Google anreichern“ erscheint im Dialog, wenn dein Manzil einen Google-Schlüssel hat: Damit wird jeder importierte Ort nachgeschlagen und um Fotos, Adresse und Details ergänzt.',
   'help.guide.sort-places.title': 'Orteliste sortieren',
   'help.guide.sort-places.goal':
     'Die Liste nach Name, nach Bewertung oder nach zuletzt hinzugefügt bzw. geändert sortieren.',
@@ -2305,7 +2305,7 @@ const help: TranslationStrings = {
   'help.guide.reorder-stops.step.3':
     'Zieh den Stopp auf eine andere Tageskarte, um ihn dorthin zu verschieben; vom bisherigen Tag wird er entfernt.',
   'help.guide.reorder-stops.step.4':
-    'Hat ein Stopp eine feste Uhrzeit und würde das Verschieben die Reihenfolge des Tages durcheinanderbringen, fragt TREK „Uhrzeit entfernen?“, denn die Uhrzeit hat seinen Platz bestimmt: Bestätigen entfernt die Uhrzeit, und du kannst den Stopp überall hinlegen; Abbrechen lässt den Tag, wie er war.',
+    'Hat ein Stopp eine feste Uhrzeit und würde das Verschieben die Reihenfolge des Tages durcheinanderbringen, fragt Manzil „Uhrzeit entfernen?“, denn die Uhrzeit hat seinen Platz bestimmt: Bestätigen entfernt die Uhrzeit, und du kannst den Stopp überall hinlegen; Abbrechen lässt den Tag, wie er war.',
   'help.guide.reorder-stops.result': 'Route und Fahrzeiten passen sich sofort an die neue Reihenfolge an.',
   'help.guide.reorder-stops.tip.1':
     'Eine Buchung mit fester Uhrzeit bleibt an der Stelle, die ihre Uhrzeit vorgibt: Legst du sie woanders in ihrem Tag ab, springt sie zurück. Ziehst du sie auf eine andere Tageskarte, verschiebt sie sich auf diesen Tag.',
@@ -2326,7 +2326,7 @@ const help: TranslationStrings = {
   'help.guide.set-stop-times.tip.1':
     'Die Uhrzeit gehört zum Stopp an diesem Tag; derselbe Ort kann an einem anderen Tag eine andere Uhrzeit haben.',
   'help.guide.set-stop-times.tip.2':
-    'Willst du einen Stopp mit Uhrzeit von Hand verschieben, zieh ihn. TREK fragt „Uhrzeit entfernen?“, und wenn du auf „Bestätigen“ klickst, wird die Uhrzeit entfernt.',
+    'Willst du einen Stopp mit Uhrzeit von Hand verschieben, zieh ihn. Manzil fragt „Uhrzeit entfernen?“, und wenn du auf „Bestätigen“ klickst, wird die Uhrzeit entfernt.',
   'help.guide.set-stop-times.tip.3':
     '„Notizen für diesen Tag“ im selben Formular sind für Infos, die nur an diesem Tag gelten, etwa eine Tischreservierung oder eine Ticketnummer.',
   // remove-from-day
@@ -2364,7 +2364,7 @@ const help: TranslationStrings = {
   'help.guide.day-note.step.3':
     'Wähle ein „Symbol“ und eine „Farbe“, damit sich die Notiz gut von den Stopps abhebt, und klick dann auf „Hinzufügen“.',
   'help.guide.day-note.step.4':
-    'Die Notiz steht im Tag wie ein Halt: Zieh sie an ihren Platz oder nutz ihre Pfeile. Klick darauf, um sie zu bearbeiten. „Löschen“ findest du im Dialog sowie unter ihren drei Punkten oder im Rechtsklick-Menü; vorher fragt TREK „Notiz löschen?“.',
+    'Die Notiz steht im Tag wie ein Halt: Zieh sie an ihren Platz oder nutz ihre Pfeile. Klick darauf, um sie zu bearbeiten. „Löschen“ findest du im Dialog sowie unter ihren drei Punkten oder im Rechtsklick-Menü; vorher fragt Manzil „Notiz löschen?“.',
   'help.guide.day-note.result':
     'Die Notiz gehört zum Tag und erscheint im PDF, genau an der Stelle, an die du sie gezogen hast.',
   'help.guide.day-note.tip.1':
@@ -2373,7 +2373,7 @@ const help: TranslationStrings = {
   // day-route
   'help.guide.day-route.title': 'Route des Tages anzeigen und optimieren',
   'help.guide.day-route.goal':
-    'Die Route zwischen den Stopps sehen, das Verkehrsmittel wählen und TREK die Reihenfolge sortieren lassen.',
+    'Die Route zwischen den Stopps sehen, das Verkehrsmittel wählen und Manzil die Reihenfolge sortieren lassen.',
   'help.guide.day-route.step.1':
     'Öffne den Tag und klicke in der Routenleiste unter seinen Stopps auf „Route“: Der Weg zwischen den Stopps wird auf der Karte eingezeichnet, und die Verbindungen zwischen den Stopps zeigen Zeit und Distanz jedes Abschnitts.',
   'help.guide.day-route.step.2':
@@ -2462,7 +2462,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-place.bullet.5':
     'Die Reihe unten: „Zum Tag hinzufügen“ oder „Vom Tag entfernen“, solange ein Tag geöffnet ist, dann „Navigation“ (oder der Name deiner Karten-App, sobald du in den Einstellungen eine gewählt hast), „Webseite öffnen“ und „In Sammlung speichern“. Rechts löscht der rote Mülleimer den Ort, und Bearbeiten öffnet sein Formular.',
   'help.ctx.trip-place.bullet.6':
-    'Bei einem Ort aus der Suche siehst du, was der TREK-Index oder OpenStreetMap über ihn wissen: „Offen“ oder „Geschlossen“ unter den Pillen oben, mit grünem oder rotem Ring um das Bild, gemessen an der Ortszeit des Ortes; seine Telefonnummer ebenfalls als Pille; weiter unten „Öffnungszeiten“ mit den Zeiten des Tages in der Zeile und der ganzen Woche nach einem Klick; und seine Webseite hinter „Webseite öffnen“. Die Google-Bewertung erscheint nur bei einem Ort, der über Google gefunden wurde, auf einem TREK mit Google-Schlüssel. Öffnungszeiten, Telefonnummer und E-Mail, die du selbst ins Formular des Ortes eingetragen hast, haben Vorrang vor den abgerufenen Daten und bestimmen auch den Ring.',
+    'Bei einem Ort aus der Suche siehst du, was der TREK-Index oder OpenStreetMap über ihn wissen: „Offen“ oder „Geschlossen“ unter den Pillen oben, mit grünem oder rotem Ring um das Bild, gemessen an der Ortszeit des Ortes; seine Telefonnummer ebenfalls als Pille; weiter unten „Öffnungszeiten“ mit den Zeiten des Tages in der Zeile und der ganzen Woche nach einem Klick; und seine Webseite hinter „Webseite öffnen“. Die Google-Bewertung erscheint nur bei einem Ort, der über Google gefunden wurde, auf einem Manzil mit Google-Schlüssel. Öffnungszeiten, Telefonnummer und E-Mail, die du selbst ins Formular des Ortes eingetragen hast, haben Vorrang vor den abgerufenen Daten und bestimmen auch den Ring.',
   // read-place
   'help.guide.read-place.title': 'Was die Karte über einen Ort verrät',
   'help.guide.read-place.goal': 'Alles, was die Reise über einen Ort weiß, auf einer Karte sehen.',
@@ -2485,7 +2485,7 @@ const help: TranslationStrings = {
   'help.guide.read-place.tip.2':
     'Wenn du Orte ändern darfst, doppelklicke auf den Namen, um den Ort umzubenennen, ohne das Formular zu öffnen. Enter speichert, Escape verwirft die Änderung.',
   'help.guide.read-place.tip.3':
-    'Ein von Hand eingegebener Ort kennt nur, was in seinem Formular steht. Klick auf „Bearbeiten“ und trag „Telefon“, „E-Mail“ und die Öffnungszeiten selbst ein, oder wähl den Ort aus den Vorschlägen unter „Orte durchsuchen…“ und klick auf „Aktualisieren“, damit TREK sie nachschlägt. Für die Google-Bewertung brauchst du einen Google-Schlüssel.',
+    'Ein von Hand eingegebener Ort kennt nur, was in seinem Formular steht. Klick auf „Bearbeiten“ und trag „Telefon“, „E-Mail“ und die Öffnungszeiten selbst ein, oder wähl den Ort aus den Vorschlägen unter „Orte durchsuchen…“ und klick auf „Aktualisieren“, damit Manzil sie nachschlägt. Für die Google-Bewertung brauchst du einen Google-Schlüssel.',
   // rate-place
   'help.guide.rate-place.title': 'Ort bewerten',
   'help.guide.rate-place.goal': 'Einem Ort eigene Sterne geben und die Bewertungen der anderen sehen.',
@@ -2522,7 +2522,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.tip.2':
     'Mit dem X in der Ecke entfernst du dein Bild, dann erscheint wieder das automatische. Der Ort selbst bleibt unverändert.',
   'help.guide.place-image.tip.3':
-    'Hast du kein eigenes Bild gesetzt, sucht TREK anhand der Koordinaten des Ortes eines heraus und zeigt sonst das Icon der Kategorie. Nur Reisende, die Orte ändern dürfen, können ein Bild setzen.',
+    'Hast du kein eigenes Bild gesetzt, sucht Manzil anhand der Koordinaten des Ortes eines heraus und zeigt sonst das Icon der Kategorie. Nur Reisende, die Orte ändern dürfen, können ein Bild setzen.',
   // place-day-assign
   'help.guide.place-day-assign.title': 'Ort zum geöffneten Tag hinzufügen oder entfernen',
   'help.guide.place-day-assign.goal':
@@ -2609,11 +2609,11 @@ const help: TranslationStrings = {
   'help.guide.place-navigation.step.2':
     'Die Liste zeigt die Karten-Apps, die zu diesem Ort passen: Google Maps, Waze, Apple Maps, OpenStreetMap und CoMaps, auf Android außerdem „Andere Karten-App“.',
   'help.guide.place-navigation.step.3':
-    'Klick auf die App, die du nutzt. Wo möglich, übergibt TREK der App den Ort selbst und nicht nur seine Koordinaten, damit du am richtigen Eingang ankommst.',
+    'Klick auf die App, die du nutzt. Wo möglich, übergibt Manzil der App den Ort selbst und nicht nur seine Koordinaten, damit du am richtigen Eingang ankommst.',
   'help.guide.place-navigation.step.4':
     '„Webseite öffnen“ daneben öffnet die Website des Ortes mit Öffnungszeiten und Tickets in einem neuen Tab.',
   'help.guide.place-navigation.result':
-    'Die Karten-App öffnet sich mit dem Ort, die Webseite in einem eigenen Tab, und an der Reise ändert sich nichts. Ist TREK als App installiert, übernimmt die Karten-App statt eines neuen Tabs.',
+    'Die Karten-App öffnet sich mit dem Ort, die Webseite in einem eigenen Tab, und an der Reise ändert sich nichts. Ist Manzil als App installiert, übernimmt die Karten-App statt eines neuen Tabs.',
   'help.guide.place-navigation.tip.1':
     'Waze startet die Navigation sofort. Die anderen Apps öffnen den Ort, und du tippst noch einmal, um die Navigation zu starten.',
   'help.guide.place-navigation.tip.2':
@@ -2654,7 +2654,7 @@ const help: TranslationStrings = {
   'help.guide.place-track.result':
     'Der Track wird in der gewählten Farbe angezeigt: auf der Karte des Ortes, in seiner Zeile in der Ortsspalte und auf der Karte.',
   'help.guide.place-track.tip.1':
-    'Diese zwei Blöcke hat nur ein Ort mit einem Pfad: einer, der vor Einführung der Touren aus einer GPX-, KML- oder KMZ-Datei importiert wurde, oder einer auf einem TREK, auf dem „Touren“ ausgeschaltet ist. Ist „Touren“ eingeschaltet, wird eine neue GPX-Datei zu einer Tour, die eine eigene Tourkarte öffnet.',
+    'Diese zwei Blöcke hat nur ein Ort mit einem Pfad: einer, der vor Einführung der Touren aus einer GPX-, KML- oder KMZ-Datei importiert wurde, oder einer auf einem Manzil, auf dem „Touren“ ausgeschaltet ist. Ist „Touren“ eingeschaltet, wird eine neue GPX-Datei zu einer Tour, die eine eigene Tourkarte öffnet.',
   'help.guide.place-track.tip.2':
     'Wurde ein Track mit Höhendaten aufgezeichnet, siehst du außerdem den höchsten und tiefsten Punkt, die Höhenmeter im Auf- und Abstieg und das Höhenprofil der Wanderung.',
   'help.guide.place-track.tip.3':
@@ -2668,13 +2668,13 @@ const help: TranslationStrings = {
   'help.ctx.trip-files.summary':
     'Alle Dokumente der Reise in einer Liste: Tickets, Bestätigungen, Pässe und Bilder. Jedes hat eine Notiz, eine Verknüpfung zum zugehörigen Ort oder zur Buchung und einen Papierkorb, aus dem du es wiederherstellen kannst.',
   'help.ctx.trip-files.bullet.1':
-    '„Dateien hier ablegen“, das gestrichelte Feld unter der Leiste, nimmt die Dateien auf; ein Klick darauf öffnet die Dateiauswahl. Darin stehen die Dateitypen, die dieses TREK annimmt, und die Größengrenze pro Datei (Max. 50 MB, sofern ein Administrator nichts anderes festgelegt hat).',
+    '„Dateien hier ablegen“, das gestrichelte Feld unter der Leiste, nimmt die Dateien auf; ein Klick darauf öffnet die Dateiauswahl. Darin stehen die Dateitypen, die dieses Manzil annimmt, und die Größengrenze pro Datei (Max. 50 MB, sofern ein Administrator nichts anderes festgelegt hat).',
   'help.ctx.trip-files.bullet.2':
     'In der Leiste oben stehen „Dateien“ und die Filtertabs „Alle“, „PDFs“, „Bilder“ und „Dokumente“, jeweils mit Anzahl. Sobald eine Datei markiert ist, erscheint hinter „Alle“ ein Stern-Tab, und sobald eine Notiz einen Anhang hat, am Ende ein Tab „Collab Notizen“.',
   'help.ctx.trip-files.bullet.3':
     'Eine Zeile zeigt ein Vorschaubild oder den Dateityp, wer die Datei hochgeladen hat, den Namen, die Notiz darunter, die Größe und das Datum sowie ein Badge pro Verknüpfung: den Ort, die Buchung oder den Transport mit Namen (fährst du mit der Maus darüber, steht dort „Tagesplan“, „Buchung“ oder „Transport“) und „Aus Collab Notizen“.',
   'help.ctx.trip-files.bullet.4':
-    'Am Ende einer Zeile stehen bis zu fünf Icons, deren Namen erscheinen, wenn du mit der Maus darüberfährst: „Markieren“, „Zuweisen“ (der Stift), „Öffnen“, „Herunterladen“ und „Löschen“. „Löschen“ fragt nicht nach: Die Datei kommt in den Papierkorb und lässt sich von dort wiederherstellen. Offline funktionieren Notizen, Verknüpfungen, Sterne und der Papierkorb weiterhin und werden übertragen, sobald TREK wieder online ist; nur das Hochladen und das Entfernen einer weiteren Verknüpfung brauchen eine Verbindung.',
+    'Am Ende einer Zeile stehen bis zu fünf Icons, deren Namen erscheinen, wenn du mit der Maus darüberfährst: „Markieren“, „Zuweisen“ (der Stift), „Öffnen“, „Herunterladen“ und „Löschen“. „Löschen“ fragt nicht nach: Die Datei kommt in den Papierkorb und lässt sich von dort wiederherstellen. Offline funktionieren Notizen, Verknüpfungen, Sterne und der Papierkorb weiterhin und werden übertragen, sobald Manzil wieder online ist; nur das Hochladen und das Entfernen einer weiteren Verknüpfung brauchen eine Verbindung.',
   'help.ctx.trip-files.bullet.5':
     'Ein Bild oder Video öffnet sich im Vollbild, mit Pfeiltasten-Navigation und einer Reihe von Vorschaubildern. Jedes andere Dokument öffnet sich in einem Dialog, oben mit seinem Namen und darunter „In neuem Tab öffnen“ und „Herunterladen“. Ein Wallet-Pass wird direkt heruntergeladen.',
   'help.ctx.trip-files.bullet.6':
@@ -2686,7 +2686,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.step.1':
     'Öffne die Reise und klick in der Tab-Leiste auf „Dateien“. Dort stehen die Dokumente der Reise, darüber das Feld zum Hochladen.',
   'help.guide.files-upload.step.2':
-    'Klicke auf „Dateien hier ablegen“ und wähle eine oder mehrere Dateien. Sie werden nacheinander hochgeladen, und solange das läuft, zeigt das Feld „Wird hochgeladen...“. Im Feld stehen unter „oder klicken zum Auswählen“ die Dateitypen, die dieses TREK annimmt, und die maximale Dateigröße.',
+    'Klicke auf „Dateien hier ablegen“ und wähle eine oder mehrere Dateien. Sie werden nacheinander hochgeladen, und solange das läuft, zeigt das Feld „Wird hochgeladen...“. Im Feld stehen unter „oder klicken zum Auswählen“ die Dateitypen, die dieses Manzil annimmt, und die maximale Dateigröße.',
   'help.guide.files-upload.step.3':
     'Ist die letzte Datei hochgeladen, öffnet sich automatisch „Datei zuweisen“ (sofern die Reise Orte oder Buchungen hat), mit dem Dateinamen oben im Dialog. Über „Notiz hinzufügen...“ unter „Notiz“ versiehst du die Datei mit einer Notiz, und mit den Listen darunter verknüpfst du sie mit einem Ort oder einer Buchung. Schließ den Dialog mit dem × oben rechts; dabei geht nichts verloren.',
   'help.guide.files-upload.step.4':
@@ -2698,7 +2698,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.tip.2':
     'Mit Strg+V fügst du ein Bild aus der Zwischenablage direkt in die Liste ein. So musst du einen Screenshot einer Buchung nicht erst speichern.',
   'help.guide.files-upload.tip.3':
-    'Zum Hochladen brauchst du die Berechtigung dafür; ohne sie fehlt das Feld ganz. Ein Dateityp, der nicht auf der Liste steht, wird mit einer Meldung abgelehnt, und es wird nichts hochgeladen. Eine Datei über dem Limit (50 MB, sofern ein Administrator nichts anderes festgelegt hat) wird abgelehnt, bevor überhaupt etwas gesendet wird, und die Meldung nennt das Limit. Außerdem brauchst du eine Verbindung: Offline weist TREK darauf hin und lädt nichts hoch.',
+    'Zum Hochladen brauchst du die Berechtigung dafür; ohne sie fehlt das Feld ganz. Ein Dateityp, der nicht auf der Liste steht, wird mit einer Meldung abgelehnt, und es wird nichts hochgeladen. Eine Datei über dem Limit (50 MB, sofern ein Administrator nichts anderes festgelegt hat) wird abgelehnt, bevor überhaupt etwas gesendet wird, und die Meldung nennt das Limit. Außerdem brauchst du eine Verbindung: Offline weist Manzil darauf hin und lädt nichts hoch.',
   // files-link
   'help.guide.files-link.title': 'Dokument mit einem Ort oder einer Buchung verknüpfen',
   'help.guide.files-link.goal': 'Mach das Ticket auch über den zugehörigen Tag auffindbar, nicht nur über diese Liste.',
@@ -2717,7 +2717,7 @@ const help: TranslationStrings = {
   'help.guide.files-link.tip.1':
     'Eine Datei kann mehrere Verknüpfungen gleichzeitig haben. Dieselbe Bestätigung kann also zur Buchung des Hotels und zum Ort des Hotels gehören.',
   'help.guide.files-link.tip.2':
-    'Klickst du einen angehakten Eintrag erneut an, wird diese Verknüpfung entfernt, die Datei selbst bleibt. Offline warten die Notiz und neue Häkchen und werden gesendet, sobald TREK wieder online ist; nur das Entfernen einer weiteren Verknüpfung braucht eine Verbindung.',
+    'Klickst du einen angehakten Eintrag erneut an, wird diese Verknüpfung entfernt, die Datei selbst bleibt. Offline warten die Notiz und neue Häkchen und werden gesendet, sobald Manzil wieder online ist; nur das Entfernen einer weiteren Verknüpfung braucht eine Verbindung.',
   'help.guide.files-link.tip.3':
     'Das funktioniert auch andersherum: Ein Dokument, das an einem Ort oder einer Buchung hängt, steht ebenfalls in dieser Liste, mit demselben Badge in seiner Zeile.',
   // files-star
@@ -2752,7 +2752,7 @@ const help: TranslationStrings = {
   'help.guide.files-filter.tip.2':
     'Die Liste ist immer so sortiert: zuerst markierte Dateien, dann die neuesten. Ein heute hochgeladenes Dokument steht also über einem vom letzten Monat.',
   // files-preview
-  'help.guide.files-preview.title': 'Dokument lesen, ohne TREK zu verlassen',
+  'help.guide.files-preview.title': 'Dokument lesen, ohne Manzil zu verlassen',
   'help.guide.files-preview.goal':
     'Sieh dir ein Ticket oder Bild sofort an und lade es auf dein Gerät herunter, wenn du es dort brauchst.',
   'help.guide.files-preview.step.1':
@@ -2788,7 +2788,7 @@ const help: TranslationStrings = {
     '„Papierkorb leeren“ in der Leiste neben dem Papierkorb-Symbol löscht alles endgültig, was noch im Papierkorb liegt. Der Browser fragt vorher einmal nach. Das Papierkorb-Symbol wechselt zurück zu den Dateien.',
   'help.guide.files-trash.result': 'Die Datei steht wieder an ihrer alten Stelle in der Liste.',
   'help.guide.files-trash.tip.1':
-    '„Löschen“ in einer Zeile fragt nicht nach, und genau dafür gibt es den Papierkorb: Nichts wird endgültig aus TREK entfernt, bevor du es hier bestätigst. Das alles funktioniert auch offline und wird übertragen, sobald TREK wieder online ist.',
+    '„Löschen“ in einer Zeile fragt nicht nach, und genau dafür gibt es den Papierkorb: Nichts wird endgültig aus Manzil entfernt, bevor du es hier bestätigst. Das alles funktioniert auch offline und wird übertragen, sobald Manzil wieder online ist.',
   'help.guide.files-trash.tip.2':
     'Zum Löschen und Wiederherstellen brauchst du das Recht, Dateien zu löschen. Mitglieder ohne dieses Recht sehen weder „Löschen“ in der Zeile noch die Buttons im Papierkorb.',
   'help.guide.files-trash.tip.3': 'Eine im Papierkorb endgültig gelöschte Datei lässt sich nicht wiederherstellen.',
@@ -2801,21 +2801,21 @@ const help: TranslationStrings = {
   'help.guide.files-sync.step.2':
     'Klick auf deinen Speicher, hier Nextcloud. Ein kleinerer Dialog für die Verbindung öffnet sich. Er trägt den Namen des Speichers und fragt die Anmeldedaten ab, die dieser Speicher braucht.',
   'help.guide.files-sync.step.3':
-    'Trag die „Adresse“ und die Zugangsdaten des Speicherdienstes ein: ein „API-Token“ für Paperless-ngx, einen „API-Schlüssel“ und die „Organisations-ID“ für Papra, „Benutzername“ und ein „App-Passwort“ für Nextcloud, „Benutzername“ und ein „App-Token“ für OpenCloud und für Synology Drive „Benutzername“, „Passwort“ und, falls das Konto einen verlangt, einen „Zwei-Faktor-Code“. Nutze ein App-Passwort oder Token, wo immer der Dienst eines anbietet, nie dein Kontopasswort. Nextcloud und Synology Drive akzeptieren außerdem einen optionalen „Basisordner“, in dem TREK nach Reiseordnern sucht, hier /Reisen. „Selbstsigniertes Zertifikat zulassen“ ganz unten ist nur für einen Dienst in deinem eigenen Netzwerk mit einem solchen Zertifikat gedacht.',
+    'Trag die „Adresse“ und die Zugangsdaten des Speicherdienstes ein: ein „API-Token“ für Paperless-ngx, einen „API-Schlüssel“ und die „Organisations-ID“ für Papra, „Benutzername“ und ein „App-Passwort“ für Nextcloud, „Benutzername“ und ein „App-Token“ für OpenCloud und für Synology Drive „Benutzername“, „Passwort“ und, falls das Konto einen verlangt, einen „Zwei-Faktor-Code“. Nutze ein App-Passwort oder Token, wo immer der Dienst eines anbietet, nie dein Kontopasswort. Nextcloud und Synology Drive akzeptieren außerdem einen optionalen „Basisordner“, in dem Manzil nach Reiseordnern sucht, hier /Reisen. „Selbstsigniertes Zertifikat zulassen“ ganz unten ist nur für einen Dienst in deinem eigenen Netzwerk mit einem solchen Zertifikat gedacht.',
   'help.guide.files-sync.step.4':
-    'Klick auf „Verbindung testen“. TREK verbindet sich mit deinen Angaben mit dem Speicherdienst, und in der Fußzeile steht „Erreicht, angemeldet als“ und der Kontoname. Werden die Zugangsdaten abgelehnt oder ist die Adresse nicht erreichbar, steht das stattdessen dort. In beiden Fällen wird nichts gespeichert.',
+    'Klick auf „Verbindung testen“. Manzil verbindet sich mit deinen Angaben mit dem Speicherdienst, und in der Fußzeile steht „Erreicht, angemeldet als“ und der Kontoname. Werden die Zugangsdaten abgelehnt oder ist die Adresse nicht erreichbar, steht das stattdessen dort. In beiden Fällen wird nichts gespeichert.',
   'help.guide.files-sync.step.5':
-    'Klick auf „Verbinden“. Die Verbindung wird mit der Reise gespeichert, und TREK fragt, wo im Speicherdienst die Dokumente der Reise liegen sollen: in welchem Tag, Ordner oder Space. Abgeglichen wird nur, was dort liegt. „Neu anlegen“ erstellt ihn, sobald du auf „Erstellen“ klickst, mit einem Namen aus dem Reisetitel. Unter „Oder etwas Vorhandenes nehmen“ siehst du die bestehenden. Klick einen an, hier den Ordner Autumn in Japan.',
+    'Klick auf „Verbinden“. Die Verbindung wird mit der Reise gespeichert, und Manzil fragt, wo im Speicherdienst die Dokumente der Reise liegen sollen: in welchem Tag, Ordner oder Space. Abgeglichen wird nur, was dort liegt. „Neu anlegen“ erstellt ihn, sobald du auf „Erstellen“ klickst, mit einem Namen aus dem Reisetitel. Unter „Oder etwas Vorhandenes nehmen“ siehst du die bestehenden. Klick einen an, hier den Ordner Autumn in Japan.',
   'help.guide.files-sync.step.6':
-    'Der Dialog öffnet sich erneut: Dein Speicherdienst steht links unter „Diese Reise“, und seine Karte rechts zeigt, wohin abgeglichen wird, wann der letzte Abgleich lief, und „Jetzt abgleichen“. Der erste Abgleich startet automatisch; mit „Jetzt abgleichen“ startest du jederzeit einen neuen. Nach einem Abgleich wird aus dem Badge „Noch nicht abgeglichen“ neben dem Namen ein grüner Punkt, der beim Darüberfahren „Im Gleichstand“ zeigt. Der Flussbalken zeigt, wie viele Dokumente TREK und der Speicherdienst jeweils haben, dazwischen die Spuren „Raus zum Speicher“ und „Rein vom Speicher“. Schließ den Dialog mit dem × oben rechts.',
+    'Der Dialog öffnet sich erneut: Dein Speicherdienst steht links unter „Diese Reise“, und seine Karte rechts zeigt, wohin abgeglichen wird, wann der letzte Abgleich lief, und „Jetzt abgleichen“. Der erste Abgleich startet automatisch; mit „Jetzt abgleichen“ startest du jederzeit einen neuen. Nach einem Abgleich wird aus dem Badge „Noch nicht abgeglichen“ neben dem Namen ein grüner Punkt, der beim Darüberfahren „Im Gleichstand“ zeigt. Der Flussbalken zeigt, wie viele Dokumente Manzil und der Speicherdienst jeweils haben, dazwischen die Spuren „Raus zum Speicher“ und „Rein vom Speicher“. Schließ den Dialog mit dem × oben rechts.',
   'help.guide.files-sync.result':
-    'Die Dokumente, die schon im Speicher lagen, erscheinen oben in der Liste, hochgeladen in deinem Namen. Jedes Dokument der Reise liegt auch im Speicher, außer denen aus „Collab Notizen“. Ab jetzt prüft TREK den Speicher im Hintergrund, und Änderungen in der Liste werden in den Speicher übernommen.',
+    'Die Dokumente, die schon im Speicher lagen, erscheinen oben in der Liste, hochgeladen in deinem Namen. Jedes Dokument der Reise liegt auch im Speicher, außer denen aus „Collab Notizen“. Ab jetzt prüft Manzil den Speicher im Hintergrund, und Änderungen in der Liste werden in den Speicher übernommen.',
   'help.guide.files-sync.tip.1':
     'Nur der Besitzer der Reise oder ein Instanz-Admin kann eine Reise verbinden, denn die Zugangsdaten geben Zugriff auf das ganze Konto beim Speicher. Ist die Reise verbunden, sehen alle Mitglieder „Dokumentenabgleich“, können ihn öffnen, die Karte lesen und auf „Jetzt abgleichen“ klicken.',
   'help.guide.files-sync.tip.2':
     'Ein Speicher in deinem eigenen Netzwerk braucht ALLOW_INTERNAL_NETWORK=true auf dem TREK-Server, und seine Adresse muss die Netzwerkadresse des Rechners sein, nie localhost. Sonst antwortet „Verbindung testen“ mit „Diese Adresse ist nicht erlaubt.“',
   'help.guide.files-sync.tip.3':
-    '„Trennen“, das Symbol neben „Jetzt abgleichen“, fragt einmal nach. Dann wird die Verbindung beendet, und alle Dokumente bleiben auf beiden Seiten erhalten. Verbindest du einen Tag, Ordner oder Space ein zweites Mal, behandelt TREK ihn als neu und importiert alles darin erneut. Verbinde nach dem Trennen also einen leeren, nicht den alten.',
+    '„Trennen“, das Symbol neben „Jetzt abgleichen“, fragt einmal nach. Dann wird die Verbindung beendet, und alle Dokumente bleiben auf beiden Seiten erhalten. Verbindest du einen Tag, Ordner oder Space ein zweites Mal, behandelt Manzil ihn als neu und importiert alles darin erneut. Verbinde nach dem Trennen also einen leeren, nicht den alten.',
 
   // ── Screen: trip-day-detail ───────────────────────────────────────────────────────────
   'help.ctx.trip-day-detail.title': 'Tagesdetails',
@@ -2872,7 +2872,7 @@ const help: TranslationStrings = {
   'help.guide.day-weather.tip.2':
     'Ein Tag ohne Stopp mit Standort und ohne Hotel aus der Nacht davor zeigt gar kein Wetter: Die Vorhersage gilt immer für einen Ort, nie für die ganze Reise.',
   'help.guide.day-weather.tip.3':
-    'Mehr als 16 Tage im Voraus gibt es keine Vorhersage. Dann zeigt TREK die Durchschnittswerte früherer Jahre für dieses Datum. Sie sind mit Ø gekennzeichnet, und ein Hinweis darunter erklärt das.',
+    'Mehr als 16 Tage im Voraus gibt es keine Vorhersage. Dann zeigt Manzil die Durchschnittswerte früherer Jahre für dieses Datum. Sie sind mit Ø gekennzeichnet, und ein Hinweis darunter erklärt das.',
   // rename-day
   'help.guide.rename-day.title': 'Tag benennen',
   'help.guide.rename-day.goal': 'Einem Tag einen Namen wie „Ankunft in Kyoto“ oder „Ruhetag“ statt „Tag 5“ geben.',
@@ -3002,7 +3002,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.1':
     'Die Icon-Reihe oben auf der Karte ist die Kategoriesuche: Restaurants, Cafés, Bars & Nachtleben, Unterkunft, Sehenswürdigkeiten, Museen & Kultur, Natur & Parks und Aktivitäten. Kategorien aus Plugins folgen nach einem schmalen Trenner; fahr mit der Maus über ein Icon, um seinen Namen zu sehen.',
   'help.guide.map-nearby-places.step.2':
-    'Klick auf eine Kategorie. TREK sucht im sichtbaren Kartenausschnitt nach Orten dieser Art und setzt für jeden Treffer eine Stecknadel in der Farbe der Kategorie. Es ist immer nur eine Kategorie aktiv: Ein Klick auf eine andere ersetzt sie, ein Klick auf die aktive schaltet sie aus.',
+    'Klick auf eine Kategorie. Manzil sucht im sichtbaren Kartenausschnitt nach Orten dieser Art und setzt für jeden Treffer eine Stecknadel in der Farbe der Kategorie. Es ist immer nur eine Kategorie aktiv: Ein Klick auf eine andere ersetzt sie, ein Klick auf die aktive schaltet sie aus.',
   'help.guide.map-nearby-places.step.3':
     'Verschiebst du die Karte, erscheint unter der Zeile ein zweiter Button: „Diesen Bereich durchsuchen“ startet dieselbe Suche für den neuen Ausschnitt. Das Verschieben allein löst keine neue Suche aus. So bleibt die Zahl der Anfragen gering.',
   'help.guide.map-nearby-places.step.4':
@@ -3010,7 +3010,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.5':
     'Prüf, was automatisch ausgefüllt wurde, und ergänze, was die Suche nicht wissen konnte. Die Kategorie unter dem Namen ist schon gesetzt, wenn die Reise eine passende Kategorie hat, etwa „Restaurant“ für ein Restaurant; sonst steht dort „Keine Kategorie“, bis du eine wählst. Füg eine „Beschreibung“ und eigene Notizen hinzu.',
   'help.guide.map-nearby-places.step.6':
-    'Klick auf „Hinzufügen“. Gibt es in der Reise schon einen Ort mit gleichem Namen oder an derselben Stelle, weist TREK dich darauf hin, und der Button wird zu „Trotzdem hinzufügen“.',
+    'Klick auf „Hinzufügen“. Gibt es in der Reise schon einen Ort mit gleichem Namen oder an derselben Stelle, weist Manzil dich darauf hin, und der Button wird zu „Trotzdem hinzufügen“.',
   'help.guide.map-nearby-places.result':
     'Der Ort steht in der Ortsliste und als eigener Pin der Reise auf der Karte, unter „Ungeplant“, bis du ihn einem Tag zuordnest. Die Suchpins bleiben, bis du die Kategorie ausschaltest.',
   'help.guide.map-nearby-places.tip.1':
@@ -3025,7 +3025,7 @@ const help: TranslationStrings = {
   'help.guide.map-add-place.step.1':
     'Klick mit der rechten Maustaste auf die Stelle auf der Karte. Das Ortsformular öffnet sich mit der Überschrift „Ort/Aktivität hinzufügen“.',
   'help.guide.map-add-place.step.2':
-    '„Breitengrad“ und „Längengrad“ sind schon auf diesen Punkt gesetzt. TREK schlägt die Koordinaten nach und trägt unter „Adresse“ ein, was es dort findet. Findet die Suche einen Namen, trägt TREK ihn auch oben im Dialog ein. Gespeichert ist noch nichts, korrigiere also, was nicht stimmt.',
+    '„Breitengrad“ und „Längengrad“ sind schon auf diesen Punkt gesetzt. Manzil schlägt die Koordinaten nach und trägt unter „Adresse“ ein, was es dort findet. Findet die Suche einen Namen, trägt Manzil ihn auch oben im Dialog ein. Gespeichert ist noch nichts, korrigiere also, was nicht stimmt.',
   'help.guide.map-add-place.step.3':
     'Gib oben im Dialog einen Namen ein, unter dem du den Ort wiedererkennst. Wähle darunter eine Kategorie; bis dahin steht dort „Keine Kategorie“. Ergänze dann alles Weitere für den Plan: „Beschreibung“, „Notizen“, „Website“.',
   'help.guide.map-add-place.step.4':
@@ -3042,7 +3042,7 @@ const help: TranslationStrings = {
   'help.guide.map-satellite.step.1':
     'Der Schalter für die Grundkarte ist der untere der beiden runden Buttons unten links auf der Karte, unter dem Schloss. Sein Symbol zeigt immer die Ansicht, zu der er wechselt, und der Tooltip nennt sie: „Zur Satellitenansicht wechseln“. Klick darauf.',
   'help.guide.map-satellite.step.2':
-    'Die Karte zeigt jetzt Luftbilder. Sie sind so detailliert, dass du einzelne Gebäude erkennst, und du brauchst keinen eigenen Schlüssel. Alles, was TREK zeichnet, bleibt obendrauf: die Pins, die Route des Tages, die Tracks und die Buchungsrouten.',
+    'Die Karte zeigt jetzt Luftbilder. Sie sind so detailliert, dass du einzelne Gebäude erkennst, und du brauchst keinen eigenen Schlüssel. Alles, was Manzil zeichnet, bleibt obendrauf: die Pins, die Route des Tages, die Tracks und die Buchungsrouten.',
   'help.guide.map-satellite.step.3':
     'Der Button heißt jetzt „Zur Kartenansicht wechseln“. Klick darauf, um zur Kartenansicht zurückzukehren.',
   'help.guide.map-satellite.result':
@@ -3098,7 +3098,7 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.goal':
     'Zeig die Route, die Dawarich auf deinem Smartphone aufgezeichnet hat, als gestrichelte Linie neben deiner geplanten Route auf der Karte und sieh Tag für Tag, wie die Reise wirklich verlaufen ist.',
   'help.guide.map-dawarich-trail.step.1':
-    'Der runde Dawarich-Button sitzt unten rechts auf der Karte, unter „Ganze Reise anzeigen“. Fährst du mit der Maus darüber, steht dort „Aufgezeichnete Route anzeigen“. Klick darauf. TREK fragt bei deinem Dawarich die Daten für den Reisezeitraum ab, und ein Ring dreht sich um den Button, solange TREK auf die Antwort wartet.',
+    'Der runde Dawarich-Button sitzt unten rechts auf der Karte, unter „Ganze Reise anzeigen“. Fährst du mit der Maus darüber, steht dort „Aufgezeichnete Route anzeigen“. Klick darauf. Manzil fragt bei deinem Dawarich die Daten für den Reisezeitraum ab, und ein Ring dreht sich um den Button, solange Manzil auf die Antwort wartet.',
   'help.guide.map-dawarich-trail.step.2':
     'Die aufgezeichnete Route erscheint als gestrichelte Linie, in einer Farbe pro Tag, unter der geplanten Route, damit der Plan lesbar bleibt. Der Button heißt jetzt „Aufgezeichnete Route ausblenden“. Jeder Tag endet um Mitternacht Ortszeit. Klappst du einen Tag in der Tagesspalte ein, werden seine gestrichelte Linie und seine Stopps auf der Karte ausgeblendet.',
   'help.guide.map-dawarich-trail.step.3':
@@ -3106,9 +3106,9 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.result':
     'Geplantes und tatsächlich Erlebtes siehst du zusammen auf der Karte, als gestrichelte und durchgezogene Linien. Die Karte über den Buttons listet weiterhin die geplanten Tage und ihre Entfernungen.',
   'help.guide.map-dawarich-trail.tip.1':
-    'Ob die Route an oder aus ist, wird pro Reise in deinem Konto gespeichert und gilt damit in jedem Browser und auf jedem Gerät. Solange sie eingeschaltet ist, fragt TREK alle zwei Minuten neu bei Dawarich an, sodass sich eine laufende Reise ohne Neuladen der Seite aktualisiert. Die Route selbst wird nie gespeichert: Sie steht weder in der Datenbank von TREK noch in Backups und ist offline nicht verfügbar.',
+    'Ob die Route an oder aus ist, wird pro Reise in deinem Konto gespeichert und gilt damit in jedem Browser und auf jedem Gerät. Solange sie eingeschaltet ist, fragt Manzil alle zwei Minuten neu bei Dawarich an, sodass sich eine laufende Reise ohne Neuladen der Seite aktualisiert. Die Route selbst wird nie gespeichert: Sie steht weder in der Datenbank von Manzil noch in Backups und ist offline nicht verfügbar.',
   'help.guide.map-dawarich-trail.tip.2':
-    'Die Beschriftung des Buttons verrät, warum die Karte leer ist: „Aufgezeichnete Route wird geladen…“ während des Ladens, „An diesen Tagen wurde nichts aufgezeichnet“, „Die aufgezeichnete Route konnte nicht geladen werden“ oder „Die aufgezeichnete Route braucht eine Verbindung“, wenn TREK offline ist.',
+    'Die Beschriftung des Buttons verrät, warum die Karte leer ist: „Aufgezeichnete Route wird geladen…“ während des Ladens, „An diesen Tagen wurde nichts aufgezeichnet“, „Die aufgezeichnete Route konnte nicht geladen werden“ oder „Die aufgezeichnete Route braucht eine Verbindung“, wenn Manzil offline ist.',
   // map-compass
   'help.guide.map-compass.title': 'Karte drehen und wieder nach Norden ausrichten',
   'help.guide.map-compass.goal':
@@ -3283,7 +3283,7 @@ const help: TranslationStrings = {
   'help.guide.trip-chat.tip.2':
     'Mit „Bilder anhängen“ fügst du einer Nachricht bis zu vier Bilder hinzu. Du kannst sie auch einfügen oder ins Feld ziehen.',
   'help.guide.trip-chat.tip.3':
-    'Enthält eine Nachricht einen Link, erscheint darunter eine Vorschaukarte. Die lädt dein eigenes TREK, ein Link zu etwas, das nur du erreichst, bleibt also ein einfacher Link.',
+    'Enthält eine Nachricht einen Link, erscheint darunter eine Vorschaukarte. Die lädt dein eigenes Manzil, ein Link zu etwas, das nur du erreichst, bleibt also ein einfacher Link.',
   'help.guide.trip-chat.tip.4':
     'Der Chat hat unter „Addons“ einen eigenen Schalter, unterhalb von Collab: Ein Admin kann ihn ausschalten und Notizen, Links, Umfragen und „Nächstes“ trotzdem aktiv lassen.',
 
@@ -3324,7 +3324,7 @@ const help: TranslationStrings = {
   'help.guide.packing-categories.tip.2':
     'Weist du jemandem eine Liste zu, bekommt die Person eine Benachrichtigung zum Packen. Wer die Einträge sehen kann, ändert sich dadurch nicht. Das legst du unter „Wird geteilt“ im Drei-Punkte-Menü einer Zeile fest.',
   'help.guide.packing-categories.tip.3':
-    'Zwei Listen dürfen gleich heißen. TREK unterscheidet sie intern, die Namen bleiben also genau so, wie du sie eingegeben hast.',
+    'Zwei Listen dürfen gleich heißen. Manzil unterscheidet sie intern, die Namen bleiben also genau so, wie du sie eingegeben hast.',
   // check-off-packing
   'help.guide.check-off-packing.title': 'Beim Packen abhaken',
   'help.guide.check-off-packing.goal':
@@ -3377,7 +3377,7 @@ const help: TranslationStrings = {
   'help.guide.import-packing-list.step.3':
     'Oder lade die Zeilen mit „CSV/TXT/MD laden“ unten links im Dialog aus einer Datei. Das funktioniert mit .csv-, .txt- und .md-Dateien und ersetzt den Inhalt des Feldes.',
   'help.guide.import-packing-list.step.4':
-    'Klick unten rechts auf „3 importieren“; die Zahl darauf zählt die Zeilen, die TREK verstanden hat.',
+    'Klick unten rechts auf „3 importieren“; die Zahl darauf zählt die Zeilen, die Manzil verstanden hat.',
   'help.guide.import-packing-list.result':
     'Jede Zeile wird zu einem Eintrag in der Liste, die im ersten Feld steht. Bereits vorhandene Einträge bleiben unverändert.',
   'help.guide.import-packing-list.tip.1':
@@ -3502,7 +3502,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-bookings.bullet.5':
     'Jede Karte hat eine Kopfzeile in der Farbe ihres Status, mit dem Statuspunkt (ein Klick wechselt zwischen „Ausstehend“ und „Bestätigt“), dem Typ, dem Titel, dem Stift und dem Papierkorb. Darunter stehen die Angaben, die die Buchung hat: Datum, Zeit, Buchungscode, Check-in und Check-out, Ort / Adresse, Unterkunft, „Verknüpft mit“ (der Stopp im Plan), Link, Notizen, Reisende, Dateien und die verknüpften Kosten.',
   'help.ctx.trip-bookings.bullet.6':
-    'Ein Klick auf eine Karte, eine Zeile oder einen Balken öffnet die Details der Buchung, unten mit „Auf Karte“ (wenn die Buchung einen Ort hat), dem Papierkorb und „Bearbeiten“. Vor dem Löschen fragt TREK einmal nach („Buchung löschen?“, mit Hinweis, wenn Kosten mitgelöscht werden); dann ist die Buchung samt verknüpfter Ausgaben weg, und bei einer Unterkunft verschwinden ihre Nächte aus dem Tagesplan.',
+    'Ein Klick auf eine Karte, eine Zeile oder einen Balken öffnet die Details der Buchung, unten mit „Auf Karte“ (wenn die Buchung einen Ort hat), dem Papierkorb und „Bearbeiten“. Vor dem Löschen fragt Manzil einmal nach („Buchung löschen?“, mit Hinweis, wenn Kosten mitgelöscht werden); dann ist die Buchung samt verknüpfter Ausgaben weg, und bei einer Unterkunft verschwinden ihre Nächte aus dem Tagesplan.',
   // booking-views
   'help.guide.booking-views.title': 'Ansicht wechseln und Buchung öffnen',
   'help.guide.booking-views.goal':
@@ -3559,7 +3559,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.step.2':
     'Wähl das Hotel unter „Unterkunft“. Die Liste enthält die Orte der Reise, ohne importierte Tracks und Touren. Wählst du eins aus, landet sein Name in einem leeren Titel und seine Adresse in „Ort / Adresse“.',
   'help.guide.booking-hotel.step.3':
-    'Leg „Von“ und „Bis“ fest: die erste Nacht und den Morgen deiner Abreise. Beide bieten die Tage der Reise mit Datum an, und TREK sorgt dafür, dass „Bis“ nach „Von“ liegt.',
+    'Leg „Von“ und „Bis“ fest: die erste Nacht und den Morgen deiner Abreise. Beide bieten die Tage der Reise mit Datum an, und Manzil sorgt dafür, dass „Bis“ nach „Von“ liegt.',
   'help.guide.booking-hotel.step.4':
     'Füll „Check-in“, „Check-in bis“ und „Check-out“ aus und trag den „Buchungscode“ aus der Bestätigung ein.',
   'help.guide.booking-hotel.step.5': 'Klick auf „Hinzufügen“.',
@@ -3568,7 +3568,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.tip.1':
     '„Unterkunft“ ist der einzige Typ ohne „Datum“ und „Startzeit“. Seine Daten sind „Von“ und „Bis“, und du wählst Tage der Reise, keine Kalenderdaten.',
   'help.guide.booking-hotel.tip.2':
-    'Lass „Unterkunft“ leer und gib stattdessen die Adresse ein: TREK sucht den Ort, legt ihn an und setzt einen Pin auf der Karte.',
+    'Lass „Unterkunft“ leer und gib stattdessen die Adresse ein: Manzil sucht den Ort, legt ihn an und setzt einen Pin auf der Karte.',
   'help.guide.booking-hotel.tip.3': 'Löschst du die Buchung, werden auch ihre Nächte aus dem Tagesplan entfernt.',
   // link-booking
   'help.guide.link-booking.title': 'Buchung mit dem Plan verknüpfen',
@@ -3608,7 +3608,7 @@ const help: TranslationStrings = {
   'help.guide.booking-files.title': 'Beleg bei der Buchung ablegen',
   'help.guide.booking-files.goal': 'Bestätigung, Ticket oder Pass an die zugehörige Buchung hängen.',
   'help.guide.booking-files.step.1':
-    'Öffne die Buchung mit dem Stift auf ihrer Karte. „Dateien“ steht neben „Verknüpfen“; klick dort auf „Datei anhängen“. Bei einer bereits bestehenden Buchung wird das Dokument sofort hochgeladen, und TREK zeigt „Datei hochgeladen“.',
+    'Öffne die Buchung mit dem Stift auf ihrer Karte. „Dateien“ steht neben „Verknüpfen“; klick dort auf „Datei anhängen“. Bei einer bereits bestehenden Buchung wird das Dokument sofort hochgeladen, und Manzil zeigt „Datei hochgeladen“.',
   'help.guide.booking-files.step.2':
     'Das Dokument erscheint mit seinem Namen, einem Button zum Öffnen und einem X daneben.',
   'help.guide.booking-files.step.3':
@@ -3665,7 +3665,7 @@ const help: TranslationStrings = {
   // import-booking-file
   'help.guide.import-booking-file.title': 'Buchung aus der Bestätigung importieren',
   'help.guide.import-booking-file.goal':
-    'TREK die Buchung aus der E-Mail oder dem PDF des Anbieters auslesen lassen, damit du nichts abtippen musst.',
+    'Manzil die Buchung aus der E-Mail oder dem PDF des Anbieters auslesen lassen, damit du nichts abtippen musst.',
   'help.guide.import-booking-file.step.1':
     'Klick in der Leiste auf das Download-Symbol „Buchungsbestätigungen importieren“; der Name erscheint, wenn du mit der Maus darüberfährst. Der gleichnamige Dialog öffnet sich.',
   'help.guide.import-booking-file.step.2':
@@ -3800,16 +3800,16 @@ const help: TranslationStrings = {
   'help.guide.split-expense.tip.2':
     '„Gleichmäßig“ teilt auf den Cent genau: Der übrige Cent geht bei jeder Ausgabe an eine andere Person, damit nicht immer dieselbe ihn zahlt.',
   'help.guide.split-expense.tip.3':
-    'Im Beleg-Modus berechnet TREK den „Gesamtbetrag“ selbst und graut das Feld aus: Er ist die Summe der Positionen auf dem Beleg.',
+    'Im Beleg-Modus berechnet Manzil den „Gesamtbetrag“ selbst und graut das Feld aus: Er ist die Summe der Positionen auf dem Beleg.',
   'help.guide.split-expense.tip.4':
     'Eine individuelle Aufteilung kannst du auch in Prozent eingeben: Stell „Anteile eingeben als“ auf %. Die Anteile müssen zusammen 100 % ergeben, bevor sich die Ausgabe speichern lässt.',
   // expense-currency
   'help.guide.expense-currency.title': 'Ausgabe in einer anderen Währung eintragen',
-  'help.guide.expense-currency.goal': 'Trag den Betrag vom Beleg ein, TREK speichert den Wechselkurs.',
+  'help.guide.expense-currency.goal': 'Trag den Betrag vom Beleg ein, Manzil speichert den Wechselkurs.',
   'help.guide.expense-currency.step.1':
     'Öffne „Ausgabe hinzufügen“. Gib oben im Dialog den Namen ein und trag unter „Gesamtbetrag“ genau den Betrag vom Beleg ein, nicht einen umgerechneten.',
   'help.guide.expense-currency.step.2':
-    'Öffne „Währung“ neben dem Betrag und wähle die Währung des Belegs. Die Liste enthält alle Codes, die TREK kennt, und lässt sich durchsuchen: Gib einfach die drei Buchstaben ein.',
+    'Öffne „Währung“ neben dem Betrag und wähle die Währung des Belegs. Die Liste enthält alle Codes, die Manzil kennt, und lässt sich durchsuchen: Gib einfach die drei Buchstaben ein.',
   'help.guide.expense-currency.step.3':
     'Unter den Feldern erscheint eine Reihe von Badges: dein eingegebener Betrag und sein aktueller Wert, markiert mit „Live-Kurs“. Das ist nur eine Vorschau, gespeichert wird nicht dieser Wert.',
   'help.guide.expense-currency.step.4':
@@ -3819,7 +3819,7 @@ const help: TranslationStrings = {
   'help.guide.expense-currency.result':
     'Die Ausgabe behält den eingegebenen Betrag und die Währung. Das Kassenbuch zeigt beides, und Summen und Salden der Reise werden in der Reisewährung berechnet.',
   'help.guide.expense-currency.tip.1':
-    'Der Kurs wird beim Speichern festgeschrieben. Eine beglichene Schuld ändert sich also nicht, wenn sich der Wechselkurs eine Woche später ändert. Einen neuen Kurs speichert TREK nur, wenn du die Währung der Ausgabe änderst.',
+    'Der Kurs wird beim Speichern festgeschrieben. Eine beglichene Schuld ändert sich also nicht, wenn sich der Wechselkurs eine Woche später ändert. Einen neuen Kurs speichert Manzil nur, wenn du die Währung der Ausgabe änderst.',
   'help.guide.expense-currency.tip.2':
     'Die „Anzeigewährung“ in den Einstellungen ändert nur die Darstellung der Beträge. Die gespeicherten Beträge ändern sich nie. Ist sie leer, wird jede Reise in ihrer eigenen Währung angezeigt.',
   'help.guide.expense-currency.tip.3':
@@ -3933,7 +3933,7 @@ const help: TranslationStrings = {
   // ── Screen: trip-transports ───────────────────────────────────────────────────────────
   'help.ctx.trip-transports.title': 'Transporte',
   'help.ctx.trip-transports.summary':
-    'Alles, womit du von Stopp zu Stopp kommst: Flüge, Züge, Busse, Autos, Taxis, Fahrräder, Kreuzfahrten, Fähren, Seilbahnen und die ÖPNV-Verbindungen, die TREK für dich heraussucht. Der Tab listet sie auf; angelegt und angezeigt werden sie auch im Plan, und auf der Karte sind sie eingezeichnet.',
+    'Alles, womit du von Stopp zu Stopp kommst: Flüge, Züge, Busse, Autos, Taxis, Fahrräder, Kreuzfahrten, Fähren, Seilbahnen und die ÖPNV-Verbindungen, die Manzil für dich heraussucht. Der Tab listet sie auf; angelegt und angezeigt werden sie auch im Plan, und auf der Karte sind sie eingezeichnet.',
   'help.ctx.trip-transports.bullet.1':
     'Der Tab enthält nur die Fahrten. Unterkünfte, Restaurants, Veranstaltungen und Tickets findest du im Tab „Buchungen“, so erscheint derselbe Eintrag nie doppelt.',
   'help.ctx.trip-transports.bullet.2':
@@ -3991,7 +3991,7 @@ const help: TranslationStrings = {
   // import-transport-file
   'help.guide.import-transport-file.title': 'Flug aus dem E-Ticket importieren',
   'help.guide.import-transport-file.goal':
-    'Einen Flug, Zug oder eine Fähre von TREK aus dem Ticket des Anbieters auslesen lassen und vor dem Speichern prüfen.',
+    'Einen Flug, Zug oder eine Fähre von Manzil aus dem Ticket des Anbieters auslesen lassen und vor dem Speichern prüfen.',
   'help.guide.import-transport-file.step.1':
     'Klicke in der Leiste des Tabs Transporte auf das Download-Icon vor „Transport“; sein Tooltip lautet „Buchungsbestätigungen importieren“. Es öffnet sich der gleichnamige Dialog, derselbe wie im Tab Buchungen. Ist der Tab leer, kommst du auch über „Aus Datei importieren“ in der Mitte dorthin.',
   'help.guide.import-transport-file.step.2':
@@ -4011,7 +4011,7 @@ const help: TranslationStrings = {
   // plan-transit
   'help.guide.plan-transit.title': 'ÖPNV-Verbindung planen',
   'help.guide.plan-transit.goal':
-    'TREK die echten Züge und Busse zwischen zwei Punkten eines Tages suchen lassen und die gewählte Verbindung in den Plan übernehmen.',
+    'Manzil die echten Züge und Busse zwischen zwei Punkten eines Tages suchen lassen und die gewählte Verbindung in den Plan übernehmen.',
   'help.guide.plan-transit.step.1':
     'Klick auf das + in der Kopfzeile des Tages und wähle „ÖPNV“. Die Suche öffnet sich für diesen Tag: Der Tag erscheint oben als Badge, und „Selbst“ und „Automatisch“ daneben wechseln zwischen dieser Suche und dem normalen Formular.',
   'help.guide.plan-transit.step.2':
@@ -4130,7 +4130,7 @@ const help: TranslationStrings = {
   'help.guide.airtrail-import.tip.1':
     'Flüge, die mit gleicher Nummer und gleichem Datum schon in der Reise sind, werden übersprungen. Eine Meldung sagt dir, wie viele es waren. Mit dem Rückgängig-Pfeil in der Werkzeugleiste über den Tagen machst du den ganzen Import rückgängig.',
   'help.guide.airtrail-import.tip.2':
-    'AirTrail bleibt die maßgebliche Datenquelle. TREK übernimmt die Änderungen, wenn du die Reise öffnest, und alle paar Minuten im Hintergrund. Wird ein Flug in AirTrail gelöscht, bleibt seine Karte in TREK erhalten, ihr Label wechselt aber zu „Nicht synchronisiert“. Änderungen in TREK gehen nur dann zurück an AirTrail, wenn unter „Integrationen“ die Option „Änderungen zurück nach AirTrail schreiben“ eingeschaltet ist.',
+    'AirTrail bleibt die maßgebliche Datenquelle. Manzil übernimmt die Änderungen, wenn du die Reise öffnest, und alle paar Minuten im Hintergrund. Wird ein Flug in AirTrail gelöscht, bleibt seine Karte in Manzil erhalten, ihr Label wechselt aber zu „Nicht synchronisiert“. Änderungen in Manzil gehen nur dann zurück an AirTrail, wenn unter „Integrationen“ die Option „Änderungen zurück nach AirTrail schreiben“ eingeschaltet ist.',
   'help.guide.airtrail-import.tip.3':
     'Eine zusammengefasste Verbindung ist kein einzelner AirTrail-Flug, der synchronisiert werden kann. Sie wird deshalb nur einmalig importiert: Sie behält das blaue Label, und beim Darüberfahren mit der Maus siehst du einen Hinweis darauf. Dasselbe passiert mit einem synchronisierten Flug, wenn du ihm von Hand einen Zwischenstopp hinzufügst.',
 
@@ -4254,13 +4254,13 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-alternatives.result':
     'Die Etappe nutzt jetzt die gewählte Strecke, und auch die Entfernung in der Seitenspalte und die folgenden Ankunftszeiten ändern sich.',
   'help.guide.roadtrip-alternatives.tip.1':
-    'Wählst du eine andere Strecke, prüft TREK sie zuerst mit dem Router des Roadtrips. Dann hält es die Etappe mit so wenigen Wegpunkten wie nötig auf dieser Strecke und ersetzt dabei alle Wegpunkte, die die Etappe schon hatte. Eine Strecke, der der Router nicht folgen kann, wird nicht gespeichert. Wählst du die Strecke des Routers selbst, verschwinden die Wegpunkte wieder.',
+    'Wählst du eine andere Strecke, prüft Manzil sie zuerst mit dem Router des Roadtrips. Dann hält es die Etappe mit so wenigen Wegpunkten wie nötig auf dieser Strecke und ersetzt dabei alle Wegpunkte, die die Etappe schon hatte. Eine Strecke, der der Router nicht folgen kann, wird nicht gespeichert. Wählst du die Strecke des Routers selbst, verschwinden die Wegpunkte wieder.',
   'help.guide.roadtrip-alternatives.tip.2':
     '„Ohne Autobahn“, „Ohne Maut“ und „Ohne Fähre“ stammen von einem zweiten Routing-Dienst mit eigenem Geschwindigkeitsmodell. Ihre Zeiten lassen sich daher nicht mit den anderen vergleichen.',
   // roadtrip-limits
   'help.guide.roadtrip-limits.title': 'Auto und Fahrgrenzen festlegen',
   'help.guide.roadtrip-limits.goal':
-    'Sag TREK, mit welchem Fahrzeug du unterwegs bist und wie weit du ohne Pause fahren willst.',
+    'Sag Manzil, mit welchem Fahrzeug du unterwegs bist und wie weit du ohne Pause fahren willst.',
   'help.guide.roadtrip-limits.step.1':
     'Die „Fahreinstellungen“ findest du unter der Suche in der rechten Spalte. Ihre Badges zeigen, was eingestellt ist; klick darauf, um sie zu öffnen.',
   'help.guide.roadtrip-limits.step.2':
@@ -4332,7 +4332,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-track.step.2':
     'Wähle eine Spur. Jede zeigt ihre Länge und ob sie der Route dieses Tages folgt oder wie weit sie entfernt ist. Die nächstgelegene Spur steht oben.',
   'help.guide.roadtrip-track.step.3':
-    'Klick auf „Dieser Spur folgen“. TREK setzt Wegpunkte dort, wo die Route am weitesten von der Spur abweicht, berechnet sie neu und wiederholt das mehrmals.',
+    'Klick auf „Dieser Spur folgen“. Manzil setzt Wegpunkte dort, wo die Route am weitesten von der Spur abweicht, berechnet sie neu und wiederholt das mehrmals.',
   'help.guide.roadtrip-track.step.4':
     'Der Dialog zeigt, wie viele Via-Punkte gesetzt wurden und wie nah die Fahrt jetzt am Track bleibt, oder dass sie dem Track schon folgte. „Via-Punkte verwerfen“ unten links entfernt sie wieder und überlässt den Tag erneut dem Router. Wenn du den Dialog schließt, bleibt der Track erhalten.',
   'help.guide.roadtrip-track.result':
@@ -4384,7 +4384,7 @@ const help: TranslationStrings = {
   'help.ctx.settings-plugins.summary':
     'Deine persönlichen Einstellungen für die Plugins, die der Admin installiert hat: die Schlüssel und Präferenzen, die jedes Plugin von dir braucht, und ein Protokoll dessen, was Plugins in deinem Namen getan haben. Der Tab erscheint nur, solange ein Plugin aktiv ist.',
   'help.ctx.settings-about.bullet.3':
-    'Über Ko-fi, Buy Me a Coffee und Discord kannst du TREK unterstützen oder die Leute dahinter kennenlernen.',
+    'Über Ko-fi, Buy Me a Coffee und Discord kannst du Manzil unterstützen oder die Leute dahinter kennenlernen.',
   'help.guide.language-region.step.3':
     'Leg die „Anzeigewährung“ fest oder behalte „Reisewährung“, damit jede Reise in ihrer eigenen Währung angezeigt wird. Wähl dann „Temperatureinheit“, „Entfernungseinheit“, „Zeitformat“ und unter „Woche beginnt am“ den ersten Wochentag.',
   'help.guide.travel-map-prefs.step.3':
@@ -4392,10 +4392,10 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.step.2':
     'In der Karte „Benachrichtigungen“ oben legst du in der Spalte „Push“ fest, welche Ereignisse auf deinen Geräten ankommen.',
   'help.guide.connect-airtrail.goal':
-    'TREK die Flüge aus deinem eigenen AirTrail importieren und synchronisieren lassen.',
-  'help.guide.connect-dawarich.goal': 'TREK aus deinem eigenen Dawarich lesen lassen, wo du tatsächlich warst.',
+    'Manzil die Flüge aus deinem eigenen AirTrail importieren und synchronisieren lassen.',
+  'help.guide.connect-dawarich.goal': 'Manzil aus deinem eigenen Dawarich lesen lassen, wo du tatsächlich warst.',
   'help.guide.tour-connect-wanderer.goal':
-    'TREK die Trails aus deinem eigenen wanderer lesen lassen, damit du sie als Touren importieren kannst.',
+    'Manzil die Trails aus deinem eigenen wanderer lesen lassen, damit du sie als Touren importieren kannst.',
   'help.guide.tour-wanderer-watch.title': 'Benachrichtigung bei Änderungen an deinen wanderer-Trails',
   'help.guide.plugin-settings.tip.2':
     'Ein Plugin-Kanal unter „Benachrichtigungen“ bringt dich über „Einrichten“ hierher.',
@@ -4463,7 +4463,7 @@ const help: TranslationStrings = {
   'help.guide.final-budget.tip.3':
     'Wer die Reise verlassen hat, behält eine Zeile in „Salden“ und „Endbudget“, solange mit ihm noch Geld abzurechnen ist.',
   'help.guide.files-sync-settings.step.2':
-    'Die Flussleiste zeigt TREK und deinen Speicher mit den Dokumenten auf beiden Seiten, dazwischen zwei Bahnen: „Raus zum Speicher“ und „Rein vom Speicher“. Klick auf „Raus zum Speicher“, um diese Richtung abzuschalten. Die Bahn wird ausgegraut, und unter den Bahnen steht „Nur eingehend“. Klick noch einmal darauf, um sie wieder einzuschalten.',
+    'Die Flussleiste zeigt Manzil und deinen Speicher mit den Dokumenten auf beiden Seiten, dazwischen zwei Bahnen: „Raus zum Speicher“ und „Rein vom Speicher“. Klick auf „Raus zum Speicher“, um diese Richtung abzuschalten. Die Bahn wird ausgegraut, und unter den Bahnen steht „Nur eingehend“. Klick noch einmal darauf, um sie wieder einzuschalten.',
   'help.guide.files-sync-settings.tip.4':
     'Ändern kann das nur der Besitzer der Reise oder ein Administrator. Andere Mitglieder sehen die Flussleiste mit einem Hinweis wie „Dokumente wandern in beide Richtungen“, aber keine Einstellungen.',
   'help.guide.manage-notes.step.2':
@@ -4488,7 +4488,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tours.bullet.2':
     'Oben holst du mit „GPX oder KML importieren“ Dateien als Touren herein. Der Filter-Button darunter (anfangs „Alle“, mit der Anzahl der Touren) grenzt die Liste nach Status, Quelle, Routenlimit und Typ ein.',
   'help.guide.tour-show-list.step.2':
-    'Jede Zeile ist eine Tour. Der farbige Balken entspricht ihrer Linie auf der Karte, und die runde Kachel zeigt das Routenlimit (T1 bis T6) einer in TREK geplanten Wanderung oder das Icon ihres Typs. Die Badges unter dem Namen nennen die Tage, an denen sie eingeplant ist, ihre Dauer, Distanz und ihren Anstieg; der Mond mit einer Zahl neben einer Mehrtagestour zeigt die Anzahl ihrer Etappen.',
+    'Jede Zeile ist eine Tour. Der farbige Balken entspricht ihrer Linie auf der Karte, und die runde Kachel zeigt das Routenlimit (T1 bis T6) einer in Manzil geplanten Wanderung oder das Icon ihres Typs. Die Badges unter dem Namen nennen die Tage, an denen sie eingeplant ist, ihre Dauer, Distanz und ihren Anstieg; der Mond mit einer Zahl neben einer Mehrtagestour zeigt die Anzahl ihrer Etappen.',
   'help.guide.tour-add-to-day.title': 'Eine Tour einem Tag zuordnen',
   'help.guide.tour-add-to-day.tip.2':
     'Endet die Reise vor der letzten Etappe, zeigt die Auswahl, bis zu welcher Etappe es passt; die Etappen danach bleiben ohne Tag.',
@@ -4521,15 +4521,15 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.4':
     'Mit „Ändern“ unten am Track wählst du eine andere Aufzeichnung. „Trennen“ löst sie von der Tour, und der Track bleibt als Import in der Reise.',
   'help.guide.tour-origin-check.step.3':
-    'Bei einer Tour, die du im Tab „Touren“ gezeichnet hast, steht „in TREK geplant“, dazu unter „Erstellt“ der Tag, an dem sie angelegt wurde.',
+    'Bei einer Tour, die du im Tab „Touren“ gezeichnet hast, steht „in Manzil geplant“, dazu unter „Erstellt“ der Tag, an dem sie angelegt wurde.',
   'help.ctx.trip-tour-planner.bullet.2':
     'Die linke Leiste ist der Editor. Ist nichts geöffnet, bietet sie „Neue Tour planen“ an. Eine geöffnete Tour zeigt dort Namen, Typ, Wegpunkte, die Karten ihres Typs und ihre Details, unten „Verwerfen“ und „Speichern“.',
   'help.guide.tour-open-workspace.step.2':
     'Die linke Leiste ist der Editor. Ist keine Tour geöffnet, bietet sie „Neue Tour planen“ an; damit beginnst du eine Tour auf der Karte.',
   'help.guide.tour-open-workspace.tip.3':
-    'Öffnest du eine andere Tour, während im Editor ungespeicherte Änderungen sind, fragt TREK zuerst nach: „Änderungen verwerfen“ oder weiter bearbeiten.',
+    'Öffnest du eine andere Tour, während im Editor ungespeicherte Änderungen sind, fragt Manzil zuerst nach: „Änderungen verwerfen“ oder weiter bearbeiten.',
   'help.guide.tour-draw-route.step.5':
-    'Klick die nächsten Stellen in der Reihenfolge an, in der du sie gehst. Jeder Klick fügt den Punkt als neues Ende hinzu, und ab zwei Punkten plant TREK die Route entlang der Wege.',
+    'Klick die nächsten Stellen in der Reihenfolge an, in der du sie gehst. Jeder Klick fügt den Punkt als neues Ende hinzu, und ab zwei Punkten plant Manzil die Route entlang der Wege.',
   'help.guide.tour-type-profile.goal':
     'Den Tourtyp wählen, bei einer Radtour auch das Profil, damit die Route den passenden Wegen folgt.',
   'help.guide.tour-edit-points.title': 'Punkte verschieben, umordnen und entfernen',
@@ -4656,11 +4656,11 @@ const help: TranslationStrings = {
     'Die Pisten, Loipen und Lifte rund um deine Skitour sehen und verstehen, was ihre Farben bedeuten.',
   'help.guide.tour-ski-import.title': 'Einen Ski-Track importieren und angeben, was es war',
   'help.guide.tour-ski-import.tip.1':
-    'Ein importierter Track bleibt so, wie er aufgezeichnet wurde: TREK legt ihn nicht auf die Pisten, und seine Karte zeigt bei „Skizeit“ „Nicht berechnet“.',
+    'Ein importierter Track bleibt so, wie er aufgezeichnet wurde: Manzil legt ihn nicht auf die Pisten, und seine Karte zeigt bei „Skizeit“ „Nicht berechnet“.',
   'help.ctx.trip-tour-paddle.bullet.3':
     'Unter „Weitere Aktionen“ an einem Punkt findest du die Paddel-Werkzeuge: den nächsten Abschnitt auf dem Wasser planen oder von Hand zeichnen, „Ab hier umtragen“ und „Schleuse an diesem Punkt“.',
   'help.guide.tour-paddle-setup.step.3':
-    'Wähl unter „Boot“ „Kajak“, „Kanadier“, „SUP“ oder „Andere“. Nach dem Boot richtet sich die Geschwindigkeit, die TREK vorschlägt.',
+    'Wähl unter „Boot“ „Kajak“, „Kanadier“, „SUP“ oder „Andere“. Nach dem Boot richtet sich die Geschwindigkeit, die Manzil vorschlägt.',
   'help.guide.tour-paddle-setup.tip.4':
     '„Paddeln hat Risiken“, die Zeile unten in der Spalte, öffnet „Sicherheit beim Paddeln“. Lies das einmal vor deiner ersten Tour.',
   'help.guide.tour-paddle-water-route.step.5':
@@ -4683,7 +4683,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-track-marks.tip.2':
     '„Verwerfen“ entfernt die Marken, die du noch nicht gespeichert hast. Der aufgezeichnete Track selbst wird nie neu gezeichnet.',
   'help.ctx.trip-tour-horse.bullet.4':
-    'TREK berechnet keine Reitzeit. Wenn du am Tag eine Zeit sehen willst, gib sie in den Details unter „Geplant“ ein.',
+    'Manzil berechnet keine Reitzeit. Wenn du am Tag eine Zeit sehen willst, gib sie in den Details unter „Geplant“ ein.',
   'help.guide.tour-horse-plan.step.5':
     'Wähl unter „Bereiche“ einen Abschnitt. Prüf die „Richtung“, in der du ihn reitest, und was „Reitzugang“ entlang des Abschnitts angibt.',
   'help.guide.tour-horse-plan.tip.5':
@@ -4742,7 +4742,7 @@ const help: TranslationStrings = {
   'help.guide.dashboard-widgets.step.3':
     '„Auf Standard zurücksetzen“ unter den Karten setzt den ganzen Tab „Darstellung“ auf den Auslieferungszustand zurück.',
   'help.guide.web-push-device.result':
-    'Auf der Karte steht „Für dieses Gerät eingeschaltet“, und die Ereignisse, die du unter „Push“ eingeschaltet hast, kommen auch an, wenn TREK geschlossen ist.',
+    'Auf der Karte steht „Für dieses Gerät eingeschaltet“, und die Ereignisse, die du unter „Push“ eingeschaltet hast, kommen auch an, wenn Manzil geschlossen ist.',
   'help.guide.connect-airtrail.step.1':
     'Such unter „Integrationen“ AirTrail und gib die „Instanz-URL“ und einen API-Schlüssel ein. Den Schlüssel erstellst du in AirTrail unter „Einstellungen“, „Sicherheit“.',
   'help.guide.connect-dawarich.step.1':
@@ -4750,7 +4750,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.1':
     'Such unter „Integrationen“ wanderer und gib die „Instanz-URL“ und ein API-Token ein. Das Token erstellst du in wanderer unter „Einstellungen“, „Konto“, „API-Tokens“, es beginnt mit wanderer_key_.',
   'help.guide.tour-wanderer-watch.goal':
-    'TREK im Hintergrund prüfen lassen, ob sich deine importierten Trails geändert haben.',
+    'Manzil im Hintergrund prüfen lassen, ob sich deine importierten Trails geändert haben.',
   'help.guide.mcp-oauth.tip.3':
     'API-Tokens funktionieren weiterhin, sind aber als „Veraltet“ markiert. Steig auf einen OAuth-Client um.',
   'help.guide.offline-conflicts.tip.2': 'Diese Auswahl gilt nur für dieses Gerät.',
@@ -4779,7 +4779,7 @@ const help: TranslationStrings = {
   'help.guide.collapse-columns.tip.3':
     'Sobald der Trenner den Fokus hat, lässt er sich auch mit den Pfeiltasten verschieben.',
   'help.guide.edit-place.tip.3':
-    'Ein Klick neben den Dialog verwirft deine Änderungen nicht einfach: TREK fragt erst „Änderungen verwerfen?“, und „Weiter bearbeiten“ bringt dich zurück zum Formular.',
+    'Ein Klick neben den Dialog verwirft deine Änderungen nicht einfach: Manzil fragt erst „Änderungen verwerfen?“, und „Weiter bearbeiten“ bringt dich zurück zum Formular.',
   'help.guide.dawarich-stays.goal':
     'Die Orte übernehmen, an denen du dich laut Dawarich während der Reise aufgehalten hast, nachdem du jeden einzeln geprüft hast.',
   'help.guide.leave-stop-off-route.step.1':
@@ -4828,7 +4828,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.step.2':
     'In der Leiste erscheint die Fahrt als Karte in der Farbe ihres Typs, mit den Fahrplanzeiten in der Ankunftsspalte und Start und Ziel unter dem Titel.',
   'help.guide.roadtrip-google-import.tip.1':
-    'TREK berechnet zwischen den Halten eine eigene Route; Googles Straßenverlauf wird nicht übernommen.',
+    'Manzil berechnet zwischen den Halten eine eigene Route; Googles Straßenverlauf wird nicht übernommen.',
   'help.guide.roadtrip-hazards.result':
     'Die Karte zeigt die aktuellen Warnungen rund um deine Reise, und die Route bleibt unverändert.',
   'help.ctx.trip-tours.bullet.3':
@@ -4877,7 +4877,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.result':
     'Der Tab „Touren“: links der Editor, rechts die Touren der Reise, dazwischen die Karte.',
   'help.guide.tour-draw-route.step.6':
-    'Unter „Wegpunkte“ bekommt jeder Punkt eine Zeile mit seiner Nummer und, sobald der Name geladen ist, dem Namen des Ortes. Während TREK arbeitet, zeigt ein kleiner Punkt neben „Neue Tour“, was gerade passiert.',
+    'Unter „Wegpunkte“ bekommt jeder Punkt eine Zeile mit seiner Nummer und, sobald der Name geladen ist, dem Namen des Ortes. Während Manzil arbeitet, zeigt ein kleiner Punkt neben „Neue Tour“, was gerade passiert.',
   'help.guide.tour-type-profile.step.1':
     'Klick unter „Name der Tour“ auf „Tourtyp“. Dort siehst du den aktuellen Typ und eine Zeile dazu, wie er geplant wird.',
   'help.guide.tour-edit-points.goal':
@@ -4928,7 +4928,7 @@ const help: TranslationStrings = {
   'help.guide.tour-map-layers.tip.1':
     'Die gewählte Karte bleibt für jede Tour erhalten, die du öffnest, bis du die Seite neu lädst. Eine Tour, deren Typ diese Karte nicht anbietet, öffnet sich mit „Karte“. Die Karte im Tab „Planung“ und die Einstellung unter „Einstellungen“ bleiben unverändert.',
   'help.guide.tour-along-search.step.4':
-    'Klick auf „Entlang der Tour suchen“. TREK sucht nur, an der Tour ändert sich nichts.',
+    'Klick auf „Entlang der Tour suchen“. Manzil sucht nur, an der Tour ändert sich nichts.',
   'help.guide.tour-along-add-stop.step.1':
     'Klick in der Liste „Entlang der Tour“ auf einen Ort oder auf seinen Pin auf der Karte. Über der Karte öffnet sich seine Infokarte: was er ist, wie weit er von der Route entfernt ist und an welcher Stelle der Tour er liegt.',
   'help.guide.tour-3d-terrain.title': 'Eine Tour in 3D sehen',
@@ -4954,7 +4954,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-round.tip.1':
     'Rundwanderungen halten sich an die „Maximale Wegschwierigkeit“ der Wanderung; welche das ist, zeigt der T-Chip in der Karte.',
   'help.guide.tour-hike-compare-ways.step.4':
-    'Klick auf „Diesen Weg nehmen“. TREK prüft mit dem Router, ob die Route wirklich diesem Weg folgt.',
+    'Klick auf „Diesen Weg nehmen“. Manzil prüft mit dem Router, ob die Route wirklich diesem Weg folgt.',
   'help.guide.tour-ferrata-add.step.2':
     'Klick auf der Karte auf einen Klettersteig, auf seine gestrichelte Linie oder sein Schild. Seine Infokarte zeigt Name, Schwierigkeitsgrad und Länge.',
   'help.guide.tour-ferrata-add.tip.4':
@@ -5011,7 +5011,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.result':
     'Eine neue Paddeltour mit Boot, Gewässer und Geschwindigkeit, bereit für den ersten Punkt auf der Karte.',
   'help.guide.tour-paddle-water-route.tip.1':
-    'Fehlen die Gewässerdaten, holt TREK sie für die Region selbst oder fragt einen Admin danach, je nachdem, wie die Instanz eingerichtet ist. Der Abschnitt zeigt dann „Wasserdaten werden geladen“ und plant sich von selbst, sobald sie da sind, meist innerhalb von ein bis drei Minuten.',
+    'Fehlen die Gewässerdaten, holt Manzil sie für die Region selbst oder fragt einen Admin danach, je nachdem, wie die Instanz eingerichtet ist. Der Abschnitt zeigt dann „Wasserdaten werden geladen“ und plant sich von selbst, sobald sie da sind, meist innerhalb von ein bis drei Minuten.',
   'help.guide.tour-paddle-portage.step.2':
     'Wähl „Ab hier umtragen“. Die Strecke bis zum nächsten Punkt wird zur Portage und an Land gezeichnet.',
   'help.guide.tour-paddle-lock.title': 'Schleuse mit Wartezeit hinzufügen',
@@ -5087,9 +5087,9 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.tip.1':
     'Push gilt pro Browser: Wiederhol das auf jedem Handy und Computer, auf dem du Benachrichtigungen bekommen willst. „Für dieses Gerät ausschalten“ beendet es nur dort.',
   'help.guide.connect-airtrail.step.2':
-    '„Selbstsignierte Zertifikate erlauben“ ist nur für eine vertrauenswürdige Instanz in deinem eigenen Netzwerk gedacht. „Änderungen zurück nach AirTrail schreiben“ ist standardmäßig aus, TREK liest also nur; schalte es ein, wenn deine Änderungen zurück an AirTrail gehen sollen.',
+    '„Selbstsignierte Zertifikate erlauben“ ist nur für eine vertrauenswürdige Instanz in deinem eigenen Netzwerk gedacht. „Änderungen zurück nach AirTrail schreiben“ ist standardmäßig aus, Manzil liest also nur; schalte es ein, wenn deine Änderungen zurück an AirTrail gehen sollen.',
   'help.guide.connect-dawarich.step.2':
-    'Mit „Automatisch nach neuen Aufenthalten suchen“ sieht TREK von selbst nach; ist es aus, liest TREK Dawarich nur, wenn du es anstößt. „Selbstsigniertes Zertifikat zulassen“ brauchst du nur für eine Instanz, der dein Server nicht vertraut.',
+    'Mit „Automatisch nach neuen Aufenthalten suchen“ sieht Manzil von selbst nach; ist es aus, liest Manzil Dawarich nur, wenn du es anstößt. „Selbstsigniertes Zertifikat zulassen“ brauchst du nur für eine Instanz, der dein Server nicht vertraut.',
   'help.guide.tour-connect-wanderer.step.2':
     'Schalte „Selbstsigniertes Zertifikat zulassen“ nur für eine Instanz in deinem eigenen Netzwerk ein.',
   'help.guide.tour-wanderer-watch.step.1':
@@ -5114,7 +5114,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.step.4':
     'Lies den gelben Hinweis: Er zeigt, wer das Journal zum ersten Mal bekommt. Klick dann auf „Journal verknüpfen“.',
   'help.guide.dawarich-stays.step.1':
-    'Ist Dawarich in den Einstellungen unter „Integrationen“ verbunden, steht „Aus Dawarich“ oben in der Ortsliste. Die Kopfzeile zeigt, wann TREK zuletzt nachgesehen hat und wie viele Aufenthalte warten. Klick darauf, um die Liste zu öffnen.',
+    'Ist Dawarich in den Einstellungen unter „Integrationen“ verbunden, steht „Aus Dawarich“ oben in der Ortsliste. Die Kopfzeile zeigt, wann Manzil zuletzt nachgesehen hat und wie viele Aufenthalte warten. Klick darauf, um die Liste zu öffnen.',
   'help.guide.leave-stop-off-route.step.2':
     'Neben dem Namen erscheint das Badge „Nicht auf der Route“. Der Halt bleibt im Tag und auf der Karte, aber die Route des Tages und ihre Abschnittszeiten lassen ihn aus.',
   'help.guide.move-booking-day.result': 'Die Buchung gehört im Plan jetzt zum neuen Tag, die Uhrzeit bleibt gleich.',
@@ -5143,15 +5143,15 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.tip.2':
     'Die Spalten sind durch Semikolons getrennt, und Excel zeigt Akzente in der Datei korrekt an.',
   'help.guide.arrange-packing-list.tip.2':
-    'TREK merkt sich „A bis Z“ in diesem Browser, die Liste ist also auch beim nächsten Mal sortiert. Das ändert nur deine Ansicht, nie die Reihenfolge, die die anderen sehen.',
+    'Manzil merkt sich „A bis Z“ in diesem Browser, die Liste ist also auch beim nächsten Mal sortiert. Das ändert nur deine Ansicht, nie die Reihenfolge, die die anderen sehen.',
   'help.guide.count-packed-pieces.step.4':
     'Sobald der Zähler die Menge erreicht, hakt sich der Eintrag selbst ab und gilt als gepackt.',
   'help.guide.expense-receipts.result':
     'Der Beleg bleibt bei der Ausgabe: Der Chip in ihrer Zeile öffnet ihn, und die Datei liegt außerdem in den Dateien der Reise.',
   'help.guide.files-sync-settings.step.4':
-    'Wähl unter „Wenn ein Dokument gelöscht wird“, was mit der Kopie auf der anderen Seite passiert. „Beide Kopien behalten“ lässt die Kopie im Speicher, wo sie ist. „In den Papierkorb verschieben“ schiebt sie in den Papierkorb des Speichers, sobald das Dokument in TREK gelöscht wird.',
+    'Wähl unter „Wenn ein Dokument gelöscht wird“, was mit der Kopie auf der anderen Seite passiert. „Beide Kopien behalten“ lässt die Kopie im Speicher, wo sie ist. „In den Papierkorb verschieben“ schiebt sie in den Papierkorb des Speichers, sobald das Dokument in Manzil gelöscht wird.',
   'help.ctx.trip-collab.bullet.7':
-    'Alles hier braucht eine Verbindung. Offline werden Nachrichten, Notizen, Links, Umfragen und Stimmen nicht gespeichert, und TREK meldet „Das braucht eine Verbindung. Versuche es erneut, sobald TREK wieder online ist.“ Mitglieder, die Collab nicht bearbeiten dürfen, können alles lesen, sehen aber weder „Neue Notiz“ noch „Link hinzufügen“ noch „Neue Umfrage“, und das Nachrichtenfeld ist ausgegraut.',
+    'Alles hier braucht eine Verbindung. Offline werden Nachrichten, Notizen, Links, Umfragen und Stimmen nicht gespeichert, und Manzil meldet „Das braucht eine Verbindung. Versuche es erneut, sobald Manzil wieder online ist.“ Mitglieder, die Collab nicht bearbeiten dürfen, können alles lesen, sehen aber weder „Neue Notiz“ noch „Link hinzufügen“ noch „Neue Umfrage“, und das Nachrichtenfeld ist ausgegraut.',
   'help.guide.manage-notes.step.4':
     '„Bearbeiten“ öffnet den Notizdialog mit allen bisherigen Angaben. Ändere, was nötig ist, hier eine weitere Zeile unter „Inhalt“, und klick auf „Speichern“.',
   'help.guide.note-categories.step.2':
@@ -5168,7 +5168,7 @@ const help: TranslationStrings = {
     'Der Chip „Check-in“ oder „Einstieg“ zeigt, bis wann dich die Fahrt zum Terminal bringen muss: Die Abfahrt wird um diese Zeit vor die Fahrplanzeit gelegt.',
   'help.guide.roadtrip-google-import.title': 'Eine Route aus Google Maps importieren',
   'help.guide.roadtrip-google-import.tip.2':
-    'Der Link muss mindestens zwei und höchstens 30 Stopps enthalten, die TREK verorten kann.',
+    'Der Link muss mindestens zwei und höchstens 30 Stopps enthalten, die Manzil verorten kann.',
   'help.guide.roadtrip-hazards.tip.1':
     'Warnungen sind keine Straßensperrungen: Die Route ändert sich deswegen nie, und es sind aktuelle Hinweise, keine Vorhersage für deinen Reisezeitraum.',
   'help.ctx.trip-tours.bullet.4':
@@ -5298,7 +5298,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-trail-details.step.3':
     'Die Badges fassen es zusammen: wie viel der Route „Bekannt“ ist, der „Höchste bekannte“ Grad und, davon abgesetzt, die „Routing-Grenze“, mit der die Wanderung geplant wurde.',
   'help.guide.tour-hike-round.goal':
-    'TREK Runden in der gewünschten Länge vorschlagen lassen, ausgehend von einem Halt einer Wanderung.',
+    'Manzil Runden in der gewünschten Länge vorschlagen lassen, ausgehend von einem Halt einer Wanderung.',
   'help.guide.tour-hike-round.tip.2':
     'Möglich sind Längen von 1 bis 60 km; angeboten werden Runden, die höchstens 20 % von deiner Wunschlänge abweichen.',
   'help.guide.tour-hike-compare-ways.result':
@@ -5325,7 +5325,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-check-off.result':
     'Besuchte Halte sind abgehakt, übersprungene durchgestrichen, und die Restzeit zählt nur, was noch vor dir liegt.',
   'help.guide.tour-bike-profile.goal':
-    'Eine Radtour anlegen und von TREK für Touring, Rennrad, Gravel oder MTB routen lassen.',
+    'Eine Radtour anlegen und von Manzil für Touring, Rennrad, Gravel oder MTB routen lassen.',
   'help.guide.tour-bike-profile.tip.1':
     'Wechselst du das Profil später, wird die ganze Route für das neue Profil neu geplant.',
   'help.guide.tour-bike-surfaces.step.2':
@@ -5356,14 +5356,14 @@ const help: TranslationStrings = {
     'Auf einem See bestimmt „Über Seen“ die Linie: „Direkt“ ist am kürzesten, „Ufernah“ bleibt für windige Tage dicht am Ufer.',
   'help.guide.tour-paddle-water-route.title': 'Die Abschnitte auf dem Wasser planen',
   'help.guide.tour-paddle-water-route.tip.2':
-    'Wo der Router um ein Wehr herumträgt oder durch eine Schleuse fährt, setzt TREK dort selbst einen Punkt, markiert als „Erkannt“. Verschiebst oder änderst du ihn, wird er zu deinem eigenen.',
+    'Wo der Router um ein Wehr herumträgt oder durch eine Schleuse fährt, setzt Manzil dort selbst einen Punkt, markiert als „Erkannt“. Verschiebst oder änderst du ihn, wird er zu deinem eigenen.',
   'help.guide.tour-paddle-portage.step.3':
     'Unter dem Punkt erscheint die Karte „Umtragen“ mit Länge und zusätzlichen Minuten. Klick darauf, um sie zu öffnen.',
   'help.guide.tour-paddle-lock.goal': 'Eine Schleuse in die Tour aufnehmen und Wartezeit und Durchfahrt einrechnen.',
   'help.guide.tour-paddle-lock.result':
     'Die Schleuse ist mit ihren Minuten in der Tour, und die „Zeitschätzung“ rechnet sie ein.',
   'help.guide.tour-paddle-time.tip.1':
-    'TREK rechnet anfangs mit 4 km/h auf dem Wasser, 2 km/h beim Tragen und 10 Minuten pro Umtragestelle. Das sind Startwerte zum Anpassen, keine Messwerte.',
+    'Manzil rechnet anfangs mit 4 km/h auf dem Wasser, 2 km/h beim Tragen und 10 Minuten pro Umtragestelle. Das sind Startwerte zum Anpassen, keine Messwerte.',
   'help.guide.tour-paddle-wind.step.3':
     'Die Balken zeigen die Stunden des Tages, die Böen hinter dem Mittelwert. Zeig auf einen Balken, um Werte und Richtung für diese Stunde zu sehen.',
   'help.guide.tour-paddle-checklist.goal':
@@ -5425,15 +5425,15 @@ const help: TranslationStrings = {
   'help.guide.language-region.tip.3':
     '„Woche beginnt am“ legt die erste Spalte jeder Datumsauswahl fest; Vacay hat dafür eine eigene Einstellung.',
   'help.guide.web-push-device.tip.2':
-    'Füge TREK auf iPhone und iPad zuerst zum Home-Bildschirm hinzu und öffne es von dort.',
+    'Füge Manzil auf iPhone und iPad zuerst zum Home-Bildschirm hinzu und öffne es von dort.',
   'help.guide.connect-airtrail.step.3':
-    'Klicke auf Speichern und dann auf „Verbindung testen“. TREK zeigt an, wie viele Flüge gefunden wurden, und das Badge wechselt zu „Verbunden“.',
+    'Klicke auf Speichern und dann auf „Verbindung testen“. Manzil zeigt an, wie viele Flüge gefunden wurden, und das Badge wechselt zu „Verbunden“.',
   'help.guide.connect-dawarich.step.3':
     'Klicke auf Speichern und dann auf „Verbindung testen“: Der Test zählt die Aufenthalte der letzten 30 Tage. Sobald die Verbindung steht, prüft „Jetzt nachsehen“ sofort, und „Trennen“ rechts beendet die Verbindung.',
   'help.guide.tour-connect-wanderer.step.3':
-    'Klicke auf Speichern und dann auf „Verbindung testen“. TREK zeigt an, wie viele deiner Trails du importieren kannst, und das Badge wechselt zu „Verbunden“.',
+    'Klicke auf Speichern und dann auf „Verbindung testen“. Manzil zeigt an, wie viele deiner Trails du importieren kannst, und das Badge wechselt zu „Verbunden“.',
   'help.guide.tour-wanderer-watch.step.2':
-    'Höchstens einmal am Tag liest TREK die Kurzinfo jedes importierten Trails, und in der Zeile steht, wann zuletzt geprüft wurde. Wenn sich ein Trail geändert haben könnte, bekommst du eine Benachrichtigung, und „Hinweise“ zählt ihn mit: Klicke auf „Hinweise“, um jede Tour als „Möglicherweise geändert“, „Geändert“ oder „Nicht prüfbar“ zu sehen, und öffne sie von dort.',
+    'Höchstens einmal am Tag liest Manzil die Kurzinfo jedes importierten Trails, und in der Zeile steht, wann zuletzt geprüft wurde. Wenn sich ein Trail geändert haben könnte, bekommst du eine Benachrichtigung, und „Hinweise“ zählt ihn mit: Klicke auf „Hinweise“, um jede Tour als „Möglicherweise geändert“, „Geändert“ oder „Nicht prüfbar“ zu sehen, und öffne sie von dort.',
   'help.guide.plugin-settings.goal':
     'Einem Plugin eigene Schlüssel und Einstellungen geben und sehen, was es in deinem Namen getan hat.',
   'help.guide.own-routing-engine.result': 'Routen werden in allen Reisen auf deinen Servern berechnet.',
@@ -5444,7 +5444,7 @@ const help: TranslationStrings = {
   'help.guide.read-notifications.goal':
     'Sehen, was in deinen Reisen passiert ist, während du woanders warst, und direkt dorthin springen.',
   'help.guide.filter-notifications.goal':
-    'Alle Benachrichtigungen von TREK durchgehen oder nur die, die du noch nicht gelesen hast.',
+    'Alle Benachrichtigungen von Manzil durchgehen oder nur die, die du noch nicht gelesen hast.',
   'help.guide.mark-notifications-read.step.1':
     'Klicke auf „Als gelesen markieren“, den Doppelhaken neben der Uhrzeit einer Benachrichtigung, um nur diese eine zu markieren.',
   'help.guide.delete-notifications.step.2':
@@ -5454,7 +5454,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.result':
     'In der Tab-Leiste der Reise erscheint der Tab „Tagebuch“, und alle, denen du „Lesen“ oder „Bearbeiten“ gegeben hast, öffnen das Tagebuch direkt dort, live.',
   'help.guide.create-place.tip.4':
-    'Auch ein aus Google Maps kopierter Link funktioniert in der Suche: Füge ihn ein, drück Enter, und TREK liest den Ort daraus aus. Sobald das Formular eine Position hat, listet „Orte in der Nähe dieser Markierung“, das Fadenkreuz neben der Suche, auf, was in der Umgebung liegt.',
+    'Auch ein aus Google Maps kopierter Link funktioniert in der Suche: Füge ihn ein, drück Enter, und Manzil liest den Ort daraus aus. Sobald das Formular eine Position hat, listet „Orte in der Nähe dieser Markierung“, das Fadenkreuz neben der Suche, auf, was in der Umgebung liegt.',
   'help.guide.dawarich-stays.step.2':
     'Die Aufenthalte sind nach Tag gruppiert, jeweils mit Ankunfts- und Abfahrtszeit; ein Messuhr-Symbol markiert Aufenthalte, bei denen Dawarich unsicher war. Klicke auf „Als Ort hinzufügen“, die Stecknadel neben einem Aufenthalt.',
   'help.guide.leave-stop-off-route.step.3':
@@ -5478,7 +5478,7 @@ const help: TranslationStrings = {
   'help.guide.transport-details.step.4':
     'Klicke auf den Titel, um die Fahrt umzubenennen, ohne das Formular zu öffnen. „Umbenennen“ öffnet sich mit dem aktuellen Namen: Tipp den neuen ein und klicke auf Speichern.',
   'help.guide.export-transports-csv.goal':
-    'Die Fahrten der Reise als CSV-Datei aus TREK exportieren, für eine Tabellenkalkulation, ein Reisebüro oder zum Ausdrucken.',
+    'Die Fahrten der Reise als CSV-Datei aus Manzil exportieren, für eine Tabellenkalkulation, ein Reisebüro oder zum Ausdrucken.',
   'help.guide.group-sort-bookings.result':
     'Die Buchungen stehen in den Abschnitten und in der Reihenfolge, die du gewählt hast, und dieser Browser merkt sich die Auswahl für den nächsten Besuch.',
   'help.guide.booking-on-map.step.1':
@@ -5493,7 +5493,7 @@ const help: TranslationStrings = {
   'help.guide.expense-receipts.tip.1':
     'Im Editor öffnet ein Klick auf den Namen einer aufgelisteten Datei dieselbe Vorschau. Esc schließt dann nur die Vorschau, nicht die Ausgabe.',
   'help.guide.files-sync-settings.step.5':
-    '„Wenn beide Seiten geändert wurden“ legt fest, welche Kopie gilt, wenn ein Dokument an beiden Stellen bearbeitet wurde: „Mich fragen“, „Die TREK-Kopie behalten“ oder „Die Kopie im Speicher behalten“. Mit „Automatisch abgleichen“ sucht TREK im Hintergrund nach Änderungen; ist es aus, steht auf der Karte „Pausiert“, und abgeglichen wird nur über „Jetzt abgleichen“. Jede Änderung hier wird sofort gespeichert.',
+    '„Wenn beide Seiten geändert wurden“ legt fest, welche Kopie gilt, wenn ein Dokument an beiden Stellen bearbeitet wurde: „Mich fragen“, „Die TREK-Kopie behalten“ oder „Die Kopie im Speicher behalten“. Mit „Automatisch abgleichen“ sucht Manzil im Hintergrund nach Änderungen; ist es aus, steht auf der Karte „Pausiert“, und abgeglichen wird nur über „Jetzt abgleichen“. Jede Änderung hier wird sofort gespeichert.',
   'help.guide.manage-notes.step.5':
     '„Löschen“ fragt zuerst nach („Notiz löschen?“), denn die Notiz verschwindet für alle Mitglieder, und ihre Dateien werden mitgelöscht. Klicke zum Bestätigen auf „Löschen“.',
   'help.guide.note-categories.step.3':
@@ -5525,7 +5525,7 @@ const help: TranslationStrings = {
   'help.guide.tour-remove-from-day.step.3':
     'Oder klicke auf die Kopfzeile des Tages, um ihn zu öffnen, klicke in der Liste auf die Tour und dann unten auf ihrer Karte auf „Vom Tag entfernen“.',
   'help.guide.tour-filter-list.step.3':
-    'Wenn die Liste verschiedene Touren enthält, kannst du sie mit „Quelle“ (TREK, GPX-Import, wanderer), „Routing-Grenze“ (T1 bis T6) und „Typ“ (Wanderung, Radtour und so weiter) weiter eingrenzen. Klicke noch einmal auf einen angehakten Wert, um ihn abzuwählen.',
+    'Wenn die Liste verschiedene Touren enthält, kannst du sie mit „Quelle“ (Manzil, GPX-Import, wanderer), „Routing-Grenze“ (T1 bis T6) und „Typ“ (Wanderung, Radtour und so weiter) weiter eingrenzen. Klicke noch einmal auf einen angehakten Wert, um ihn abzuwählen.',
   'help.guide.tour-hide-on-map.step.1':
     'Fahr in der Liste mit der Maus über eine Tour und klicke auf das Auge, das rechts in ihrer Zeile erscheint („Auf der Karte ausblenden“).',
   'help.guide.tour-import-plan-tab.step.1':
@@ -5545,7 +5545,7 @@ const help: TranslationStrings = {
   'help.guide.tour-copy-keep.tip.4':
     '„Sammlung“ gibt es nur, solange das Add-on „Sammlungen“ eingeschaltet ist. Eine Liste, die du nur lesen darfst, kannst du nicht wählen, und gibt es noch keine Liste, bietet der Dialog „Sammlungen öffnen“ an.',
   'help.guide.tour-packing-link.step.5':
-    'Klicke auf „Packliste öffnen“, um Dinge abzuhaken. TREK wechselt in den Tab „Listen“ zur Packliste.',
+    'Klicke auf „Packliste öffnen“, um Dinge abzuhaken. Manzil wechselt in den Tab „Listen“ zur Packliste.',
   'help.guide.tour-files.step.2': 'Die Zeile darunter zeigt jetzt ihre Anzahl, und die Liste klappt auf.',
   'help.guide.tour-activity-link.step.2':
     'Hake unter „Durchgeführt am“ den Tag an, an dem du die Tour gemacht hast. Wähle „Ohne Tag“, wenn sie zu keinem Tag gehört.',
@@ -5559,7 +5559,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.step.5':
     '„Ort oder Adresse suchen“ oben auf der Karte bringt dich zu einem Ort, damit du dort beginnen kannst, wo die Tour liegt.',
   'help.guide.tour-draw-route.goal':
-    'Die Punkte einer neuen Tour auf der Karte setzen und TREK die Route dazwischen berechnen lassen.',
+    'Die Punkte einer neuen Tour auf der Karte setzen und Manzil die Route dazwischen berechnen lassen.',
   'help.guide.tour-draw-route.tip.2':
     'Topo oder Wandern in der Kartenleiste zeigen die Wege, so triffst du sie leichter beim Klicken. Liegt ein Punkt zu weit von jedem Weg entfernt, den der Tourtyp nutzen kann, bekommst du statt einer Route einen Hinweis.',
   'help.guide.tour-type-profile.step.3':
@@ -5635,7 +5635,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-plan.step.1':
     'Klicke oben in der linken Spalte auf „Neue Tour planen“. Der Editor öffnet sich als „Neue Tour“.',
   'help.guide.tour-hike-plan.tip.2':
-    'Ab T4 fragt TREK zuerst „Alpine Routenplanung aktivieren?“. Bestätige nur, wenn die Route durch ausgesetztes oder unmarkiertes Gelände führen darf; die Frage kommt einmal pro Bearbeitungssitzung.',
+    'Ab T4 fragt Manzil zuerst „Alpine Routenplanung aktivieren?“. Bestätige nur, wenn die Route durch ausgesetztes oder unmarkiertes Gelände führen darf; die Frage kommt einmal pro Bearbeitungssitzung.',
   'help.guide.tour-hike-trail-details.step.4':
     'Klicke in der Liste auf eine Schwierigkeitsstufe, um nur diese Abschnitte auf der Karte zu zeigen. Klicke noch einmal darauf, um wieder die ganze Route zu sehen.',
   'help.guide.tour-hike-round.step.1':
@@ -5695,11 +5695,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.6':
     '„Paddeltempo“ zeigt den Vorschlag für das Boot in Grau. Gibst du ein eigenes Tempo ein, steht am Feld „Eigenes Tempo“; der Link darunter, „Den vorgeschlagenen nehmen“, übernimmt wieder das Tempo des Bootes.',
   'help.guide.tour-paddle-water-route.goal':
-    'TREK einen Abschnitt entlang des Flusses oder Sees planen lassen und verstehen, was dir ein nicht planbarer Abschnitt mitteilt.',
+    'Manzil einen Abschnitt entlang des Flusses oder Sees planen lassen und verstehen, was dir ein nicht planbarer Abschnitt mitteilt.',
   'help.guide.tour-paddle-water-route.tip.3':
     'Hinweise unter einem geplanten Abschnitt markieren „Wildwasser“ mit seinem Schwierigkeitsgrad, eine „Bootsgasse“ oder eine „Lücke in den Kartendaten“, die mit einer geraden Linie überbrückt wurde.',
   'help.guide.tour-paddle-portage.step.4':
-    'Unter „Route“ trägst du mit „Dem Weg folgen“ entlang eines kartierten Weges um, mit „Gerade Linie“ direkt querfeldein. TREK sucht den Weg selbstständig und meldet, wenn es keinen ohne langen Umweg gibt.',
+    'Unter „Route“ trägst du mit „Dem Weg folgen“ entlang eines kartierten Weges um, mit „Gerade Linie“ direkt querfeldein. Manzil sucht den Weg selbstständig und meldet, wenn es keinen ohne langen Umweg gibt.',
   'help.guide.tour-paddle-lock.step.1':
     'Fahr mit der Maus über den Stopp an der Schleuse und klicke auf „Weitere Aktionen“, die drei Punkte.',
   'help.guide.tour-paddle-time.title': 'Zeit einer Paddeltour ablesen und anpassen',
@@ -5709,7 +5709,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-checklist.step.1':
     'Speichere die Paddeltour und such dann „Prüfliste“ in der linken Spalte. Das Badge in ihrer Kopfzeile zeigt, wie weit die Liste abgearbeitet ist.',
   'help.guide.tour-paddle-checklist.tip.4':
-    'Hindernisse stammen aus den OpenStreetMap-Daten der Regionen, die TREK vorhält. Wo es keine Daten gibt, weist die Karte darauf hin, und du prüfst Wehre, Schleusen und Portagen selbst.',
+    'Hindernisse stammen aus den OpenStreetMap-Daten der Regionen, die Manzil vorhält. Wo es keine Daten gibt, weist die Karte darauf hin, und du prüfst Wehre, Schleusen und Portagen selbst.',
   'help.guide.tour-paddle-track-marks.step.4':
     'Klicke in „Touren dieser Reise“ auf den Track. Die linke Spalte zeigt ihn so, wie er aufgezeichnet wurde, mit der Karte „Portagen und Schleusen“.',
   'help.ctx.trip-tour-horse.title': 'Ausritte',
@@ -5764,7 +5764,7 @@ const help: TranslationStrings = {
     'Solange eine verknüpfte Reise läuft, liegen die Aufenthalte jedes Tages an ihrem Tag bereit für „Tag übernehmen“.',
   'help.ctx.settings-about.title': 'Über',
   'help.guide.web-push-device.tip.3':
-    'Push funktioniert nur, wenn TREK über HTTPS geöffnet ist. Sind Benachrichtigungen blockiert, erlaub sie in den Browsereinstellungen und versuch es noch einmal.',
+    'Push funktioniert nur, wenn Manzil über HTTPS geöffnet ist. Sind Benachrichtigungen blockiert, erlaub sie in den Browsereinstellungen und versuch es noch einmal.',
   'help.guide.connect-airtrail.result':
     'Das Badge zeigt „Verbunden“, und im Tab „Transporte“ einer Reise gibt es jetzt „Aus AirTrail importieren“.',
   'help.guide.connect-dawarich.result':
@@ -5772,7 +5772,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.result':
     'Das Badge zeigt „Verbunden“, und im Tab „Touren“ einer Reise kannst du dein wanderer durchsuchen und dessen Trails importieren.',
   'help.guide.tour-wanderer-watch.result':
-    'TREK behält deine importierten Trails im Blick und meldet sich, wenn sich einer geändert haben könnte. An einer Tour ändert sich nichts, bis du die Änderung übernimmst.',
+    'Manzil behält deine importierten Trails im Blick und meldet sich, wenn sich einer geändert haben könnte. An einer Tour ändert sich nichts, bis du die Änderung übernimmst.',
   'help.guide.plugin-settings.step.1':
     'Öffne in der Seitenleiste der Einstellungen „Plugins“. Unter „Plugin-Einstellungen“ hat jedes Plugin, das Angaben von dir braucht, eine Karte mit seinen Feldern: Füll sie aus und klick auf „Speichern“. Aktionen auf der Karte laufen erst, nachdem du sie bestätigt hast.',
   'help.guide.profile.step.3': 'Klick rechts in der Fußzeile der Karte auf „Speichern“.',
@@ -5785,7 +5785,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.goal':
     'Festlegen, mit welchen Benachrichtigungseinstellungen jeder Benutzer startet, und einen Kanal für ein Ereignis komplett sperren.',
   'help.ctx.notifications.summary':
-    'Alles, was TREK dir in der App mitgeteilt hat, das Neueste zuerst: eine Buchung, die jemand geändert hat, eine neue Nachricht in einem Reise-Chat, ein Kalender, den jemand mit dir geteilt hat. Die Glocke oben rechts zeigt die zehn neuesten, diese Seite alle.',
+    'Alles, was Manzil dir in der App mitgeteilt hat, das Neueste zuerst: eine Buchung, die jemand geändert hat, eine neue Nachricht in einem Reise-Chat, ein Kalender, den jemand mit dir geteilt hat. Die Glocke oben rechts zeigt die zehn neuesten, diese Seite alle.',
   'help.guide.read-notifications.step.1':
     'Klick oben rechts auf die Glocke. Die rote Zahl darauf zeigt, wie viele Benachrichtigungen du noch nicht gelesen hast.',
   'help.guide.filter-notifications.step.1': 'Klick oben rechts auf die Glocke.',
@@ -5804,7 +5804,7 @@ const help: TranslationStrings = {
   'help.guide.filter-places.step.5':
     'Sobald die Reise mehr als ein Land oder eine Region umfasst, kannst du die Liste mit dem Globus auf ein Land oder eine Region darin eingrenzen, jeweils mit Anzahl. „Filter zurücksetzen“ stellt wieder „Alle Länder“ ein.',
   'help.guide.import-places-file.tip.3':
-    'Ist „Touren“ eingeschaltet, wie bei TREK ab Werk, importierst du eine Datei über „Touren“ oben in der Spalte mit „GPX oder KML importieren“, und ihre Linien werden zu Touren. Die Pins darin werden dort nicht importiert, weil Touren nur aus Linien bestehen.',
+    'Ist „Touren“ eingeschaltet, wie bei Manzil ab Werk, importierst du eine Datei über „Touren“ oben in der Spalte mit „GPX oder KML importieren“, und ihre Linien werden zu Touren. Die Pins darin werden dort nicht importiert, weil Touren nur aus Linien bestehen.',
   'help.guide.dawarich-stays.step.3':
     'Prüf „Name“, „Angekommen“ und „Aufgebrochen“, wähl einen Tag oder lass „Noch keinem Tag zugeordnet“ stehen, ergänz bei Bedarf „Notizen“ und klick auf „Ort hinzufügen“.',
   'help.guide.leave-stop-off-route.result':
@@ -5896,7 +5896,7 @@ const help: TranslationStrings = {
   'help.guide.tour-take-along.step.3':
     'Klick auf „GPX“, um die gespeicherte Tour als GPX-Datei herunterzuladen: die ganze Route mit allen vorhandenen Höhenangaben, bereit für eine Navigations-App oder ein GPS-Gerät.',
   'help.guide.tour-copy-keep.step.1':
-    'Öffne die Tourkarte und klick unten auf „Kopieren“. TREK legt eine neue, unabhängige Tour ohne ihre Tage an, und das Original bleibt unverändert.',
+    'Öffne die Tourkarte und klick unten auf „Kopieren“. Manzil legt eine neue, unabhängige Tour ohne ihre Tage an, und das Original bleibt unverändert.',
   'help.guide.tour-copy-keep.result':
     'Die Reise hat jetzt eine zweite Tour, die du frei ändern kannst, und die Sammlung hat ihre eigene Kopie, die du in eine andere Reise übernehmen kannst.',
   'help.guide.tour-packing-link.tip.1':
@@ -6006,7 +6006,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.3':
     'Die Öffnungszeiten stammen aus OpenStreetMap oder vom Ort der Reise, für den ein Halt steht; die Pille daneben zeigt, woher. Prüf sie, bevor du losgehst.',
   'help.guide.tour-walk-google-import.step.4':
-    'Klick auf „Als Walk laden“. TREK plant den Fußweg zwischen den Halten selbst. Klick auf „Speichern“, um den Spaziergang zu behalten.',
+    'Klick auf „Als Walk laden“. Manzil plant den Fußweg zwischen den Halten selbst. Klick auf „Speichern“, um den Spaziergang zu behalten.',
   'help.guide.tour-walk-check-off.step.2':
     'Scroll zu „Stationen“. Jeder Halt zeigt seine Aufenthaltsdauer und, wenn eine Startzeit gesetzt ist, wann du dort ankommst.',
   'help.ctx.trip-tour-bike.summary':
@@ -6022,7 +6022,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-plan.goal':
     'Einen Tag auf den Pisten, eine Langlaufrunde, eine Skitour oder eine Schneeschuhwanderung entlang der kartierten Pisten, Lifte und Wege planen.',
   'help.guide.tour-ski-plan.tip.2':
-    'Der Info-Punkt neben „Disziplin“ erklärt, was TREK mit Skitouren macht. Weder dort noch sonst irgendwo hier gibt es Angaben zu Schnee, Lawinen oder dazu, ob Pisten, Lifte und Wege geöffnet sind.',
+    'Der Info-Punkt neben „Disziplin“ erklärt, was Manzil mit Skitouren macht. Weder dort noch sonst irgendwo hier gibt es Angaben zu Schnee, Lawinen oder dazu, ob Pisten, Lifte und Wege geöffnet sind.',
   'help.guide.tour-ski-options.step.3':
     'Wähl unter „Bevorzugen“ „Schnellste“, „Am meisten Skifahren“ oder „Am leichtesten“. Wähl unter „Tempo“ „Gemütlich“, „Normal“ oder „Sportlich“: Davon hängt ab, wie viel Zeit der Router für jede Abfahrt ansetzt.',
   'help.guide.tour-ski-fix-leg.goal':
@@ -6040,7 +6040,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.7':
     'Prüf, ob „Punkt hinzufügen“ aktiv ist, und klick dann auf die Karte: zuerst auf deine Einstiegsstelle, dann auf Punkte unterwegs und zuletzt auf deine Ausstiegsstelle.',
   'help.guide.tour-paddle-water-route.step.1':
-    'Unter dem Punkt eines von Hand gezeichneten Abschnitts steht „Von Hand gezeichnet, nicht geroutet“ mit seiner Länge. TREK behält die Linie so, wie du sie gezeichnet hast.',
+    'Unter dem Punkt eines von Hand gezeichneten Abschnitts steht „Von Hand gezeichnet, nicht geroutet“ mit seiner Länge. Manzil behält die Linie so, wie du sie gezeichnet hast.',
   'help.guide.tour-paddle-water-route.tip.4':
     'Solange ein Abschnitt nicht geplant ist, kannst du nicht speichern. Plane ihn auf dem Wasser oder zeichne ihn von Hand.',
   'help.guide.tour-paddle-portage.step.5':
@@ -6054,7 +6054,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-wind.tip.1':
     'Vorhersagen gibt es nur für die nächsten 16 Tage. Bei einem späteren Tag steht dort, ab wann es eine gibt, bei einem vergangenen Tag, dass er vorbei ist.',
   'help.guide.tour-paddle-checklist.step.2':
-    'Die Zeile darunter zeigt, wie aktuell die Daten sind: „OSM-Stand“ für den Stand von OpenStreetMap, „Abgerufen“ für den Zeitpunkt, zu dem TREK sie gelesen hat, und „Hindernisdaten“, falls sie nicht die ganze Route abdecken.',
+    'Die Zeile darunter zeigt, wie aktuell die Daten sind: „OSM-Stand“ für den Stand von OpenStreetMap, „Abgerufen“ für den Zeitpunkt, zu dem Manzil sie gelesen hat, und „Hindernisdaten“, falls sie nicht die ganze Route abdecken.',
   'help.guide.tour-paddle-checklist.tip.5':
     'Eine Prüfliste ist keine Sicherheits- oder rechtliche Freigabe. Eine Entscheidung hebt weder ein Verbot noch Privatgrund auf, die in OpenStreetMap verzeichnet sind.',
   'help.guide.tour-paddle-track-marks.step.5':
@@ -6096,7 +6096,7 @@ const help: TranslationStrings = {
     'Behaltene Touren: Touren, die du aus einer Reise behalten hast, stehen ganz oben in einer Liste, mit Schwierigkeitsgrad, Typ, der Reise, aus der sie stammen, und ihren Kennzahlen. „In eine Reise übernehmen“ macht daraus eine neue Tour, der Papierkorb entfernt sie aus der Liste.',
   'help.guide.move-to-list.title': 'Orte in eine andere Liste verschieben oder duplizieren',
   'help.guide.copy-to-trip.tip.2':
-    'Orte, die schon in der Reise sind, werden übersprungen, und TREK zeigt dir, wie viele es waren.',
+    'Orte, die schon in der Reise sind, werden übersprungen, und Manzil zeigt dir, wie viele es waren.',
   'help.guide.accept-list-invite.tip.2':
     'Klick im Kopfbereich der Liste auf „Geteilt“, um ihre Mitglieder zu sehen. Mit „Liste verlassen“ trittst du dort wieder aus.',
   'help.guide.tour-collection-add-to-trip.goal':
@@ -6115,16 +6115,16 @@ const help: TranslationStrings = {
     'Orte, an denen du dich laut Dawarich aufgehalten hast, einzeln in Einträge umwandeln.',
   'help.guide.journey-take-over-day.goal':
     'Die Aufenthalte eines Tages in einem Schritt in Entwurfseinträge oder einen Tagesbericht umwandeln.',
-  'help.guide.journey-auto-prepare.title': 'Aufgezeichnete Tage von TREK vorbereiten lassen',
+  'help.guide.journey-auto-prepare.title': 'Aufgezeichnete Tage von Manzil vorbereiten lassen',
   'help.guide.photo-location.title': 'Einträge an den Aufnahmeort ihrer Fotos setzen',
   'help.ctx.settings-about.summary':
-    'Was TREK ist, welche Version auf diesem Server läuft und wo du das Projekt findest: die Dokumentation, die Stelle zum Melden von Bugs und die Möglichkeiten, das Projekt zu unterstützen.',
+    'Was Manzil ist, welche Version auf diesem Server läuft und wo du das Projekt findest: die Dokumentation, die Stelle zum Melden von Bugs und die Möglichkeiten, das Projekt zu unterstützen.',
   'help.guide.startup.tip.2':
     'Gehört der Start-Tab zu einem Add-on, das du ausgeschaltet hast, öffnet sich stattdessen die Planung.',
   'help.guide.web-push-device.title': 'Push-Benachrichtigungen auf diesem Gerät erhalten',
   'help.guide.connect-airtrail.tip.1': 'Die Karte erscheint nur, wenn der Admin das Add-on AirTrail eingeschaltet hat.',
   'help.guide.connect-dawarich.tip.1':
-    'TREK schlägt Einträge, Orte und Länder nur vor: Nichts wird hinzugefügt, bevor du es bestätigst, und nichts wird an Dawarich zurückgeschrieben.',
+    'Manzil schlägt Einträge, Orte und Länder nur vor: Nichts wird hinzugefügt, bevor du es bestätigst, und nichts wird an Dawarich zurückgeschrieben.',
   'help.guide.tour-connect-wanderer.tip.1':
     'Die Karte erscheint nur, wenn der Admin wanderer unter „Touren“ erlaubt hat.',
   'help.guide.tour-wanderer-watch.tip.1':
@@ -6138,7 +6138,7 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.goal':
     'Allen Konten sinnvolle Einheiten, Farbmodus und Währung vorgeben, ohne dass jemand die Einstellungen öffnen muss.',
   'help.guide.default-map.step.3':
-    'Jedes Feld wird gespeichert, sobald du es verlässt. Über den Link zum Zurücksetzen neben dem Feldnamen stellst du den Standardwert von TREK wieder her.',
+    'Jedes Feld wird gespeichert, sobald du es verlässt. Über den Link zum Zurücksetzen neben dem Feldnamen stellst du den Standardwert von Manzil wieder her.',
   'help.guide.own-routing-engine.tip.2':
     'Ist nur deine eigene Routing-Instanz eingetragen, wird auch das öffentliche Valhalla nicht genutzt. Der Link zum Zurücksetzen neben einem Feld leert es wieder.',
   'help.guide.admin-passkeys.step.1':
@@ -6146,7 +6146,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.4':
     '„Gesundheit“ oben listet fehlgeschlagene Schreibvorgänge auf ein Spiegelziel. Steht dort „Keine Replikatfehler aufgezeichnet“, ist alles in Ordnung.',
   'help.guide.channels-instance.tip.3':
-    'Web Push braucht HTTPS. Auf iPhone und iPad müssen Nutzer TREK zuerst zum Home-Bildschirm hinzufügen.',
+    'Web Push braucht HTTPS. Auf iPhone und iPad müssen Nutzer Manzil zuerst zum Home-Bildschirm hinzufügen.',
   'help.guide.notification-defaults.step.1':
     'Scroll im Tab „Benachrichtigungen“ ganz nach unten zu „Vorgaben für Nutzer“. Jede Zeile ist ein Ereignis, jede Spalte ein Kanal.',
   'help.ctx.notifications.bullet.1':
@@ -6179,7 +6179,7 @@ const help: TranslationStrings = {
   'help.guide.confirm-stay-booking.goal':
     'Die Hotelbuchung zu einem Aufenthalt direkt vom Tag aus als bestätigt markieren.',
   'help.guide.map-whole-trip.tip.4':
-    'Ob die ganze Reise angezeigt wird, speichert TREK pro Reise in deinem Konto. So öffnet sich die Reise auch in einem anderen Browser genauso.',
+    'Ob die ganze Reise angezeigt wird, speichert Manzil pro Reise in deinem Konto. So öffnet sich die Reise auch in einem anderen Browser genauso.',
   'help.guide.tour-map-lines.step.3':
     'Öffne in der Tagesspalte einen Tag, an dem die Tour liegt, und sie wird Teil der Tagesroute: Die Route führt zum Start der Tour und geht an ihrem Ende weiter.',
   'help.guide.car-stops.goal':
@@ -6198,7 +6198,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.1':
     'Willst du nur einen Teil des Tabs exportieren, grenz ihn vorher mit „Suchen“ oder „Filter“ ein. Die Datei enthält genau das, was der Tab anzeigt.',
   'help.guide.import-booking-file.tip.4':
-    'Zum Auslesen einer Bestätigung brauchst du eine Verbindung. Offline weist „Importieren“ darauf hin, und du versuchst es noch einmal, sobald TREK wieder online ist.',
+    'Zum Auslesen einer Bestätigung brauchst du eine Verbindung. Offline weist „Importieren“ darauf hin, und du versuchst es noch einmal, sobald Manzil wieder online ist.',
   'help.guide.arrange-packing-list.step.1':
     'Fass den Griff am linken Ende der Kopfleiste einer Liste an, vor ihrem Farbpunkt, und zieh die Liste auf eine andere Karte. Ein Rahmen in deiner Akzentfarbe zeigt, wo sie landet, und die Liste nimmt für alle in der Reise den Platz dieser Karte ein.',
   'help.guide.count-packed-pieces.title': 'Mehrere Exemplare eines Gegenstands packen',
@@ -6225,7 +6225,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-overnight.goal':
     'Unterwegs einen Schlafplatz finden und die Übernachtung in die Fahrt einbuchen.',
   'help.guide.roadtrip-overnight.tip.2':
-    'Stellst du eine gebuchte Nacht über „Bearbeiten“ in ihrer Karte wieder auf „Pause“, fragt TREK zuerst „Übernachtung aufheben?“. „Als Pause behalten“ entfernt die Nacht samt Buchung und allen damit verknüpften Ausgaben, der Halt bleibt aber Teil der Fahrt.',
+    'Stellst du eine gebuchte Nacht über „Bearbeiten“ in ihrer Karte wieder auf „Pause“, fragt Manzil zuerst „Übernachtung aufheben?“. „Als Pause behalten“ entfernt die Nacht samt Buchung und allen damit verknüpften Ausgaben, der Halt bleibt aber Teil der Fahrt.',
   'help.guide.roadtrip-stop-fill.tip.2':
     'Wählst du den Wert, den der Halt schon hat, gilt für ihn ebenfalls wieder dein Standard.',
   'help.guide.roadtrip-bookings.tip.1':
@@ -6272,11 +6272,11 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.1':
     'Öffne die Karte der Tour. „Planung und Ist“ stellt „Distanz“, „Aufstieg“, „Abstieg“ und „Zeit mit Pausen“ aus der Planung den Werten des Tracks gegenüber, samt „Unterschied“.',
   'help.guide.tour-origin-check.goal':
-    'Herausfinden, ob eine Tour in TREK gezeichnet oder importiert wurde, aus welcher Datei sie stammt und ob sie seitdem geändert wurde.',
+    'Herausfinden, ob eine Tour in Manzil gezeichnet oder importiert wurde, aus welcher Datei sie stammt und ob sie seitdem geändert wurde.',
   'help.ctx.trip-tour-planner.title': 'Touren',
   'help.guide.tour-open-workspace.title': 'Im Tab „Touren“ zurechtfinden',
   'help.guide.tour-open-workspace.step.7':
-    'Klick in der rechten Leiste auf eine Tour. Eine in TREK geplante Tour öffnet sich im Editor, ein importierter Track unverändert als „GPX-Tour“ zum Ansehen.',
+    'Klick in der rechten Leiste auf eine Tour. Eine in Manzil geplante Tour öffnet sich im Editor, ein importierter Track unverändert als „GPX-Tour“ zum Ansehen.',
   'help.guide.tour-draw-route.step.2':
     'Gib in „Ort oder Adresse suchen“ ein, wo die Tour beginnt, und wähl das Ergebnis. Die Karte springt dorthin.',
   'help.guide.tour-draw-route.tip.4':
@@ -6312,7 +6312,7 @@ const help: TranslationStrings = {
     'Ein Track, den die Reise schon hat, ist als Schon in der Reise ausgegraut und wird übersprungen.',
   'help.guide.tour-view-import.step.3': '„Zurück zu den Touren“, der Pfeil oben links, schließt sie wieder.',
   'help.guide.tour-plan-from-import.step.2':
-    'TREK übernimmt Kontrollpunkte aus dem Track und berechnet die Route neu. Auf der Karte ist der Import gepunktet und der Vorschlag durchgezogen eingezeichnet, und die Vergleichskarte zeigt die beiden Längen, den Anteil „Im Umkreis von 50 m“ um den Track und die „Größte Abweichung“.',
+    'Manzil übernimmt Kontrollpunkte aus dem Track und berechnet die Route neu. Auf der Karte ist der Import gepunktet und der Vorschlag durchgezogen eingezeichnet, und die Vergleichskarte zeigt die beiden Längen, den Anteil „Im Umkreis von 50 m“ um den Track und die „Größte Abweichung“.',
   'help.guide.tour-restore-recorded.title': 'Zum aufgezeichneten Track zurückkehren',
   'help.guide.tour-take-over.title': 'Eine Tour aus einer anderen Reise übernehmen',
   'help.guide.tour-take-over.tip.1':
@@ -6402,7 +6402,7 @@ const help: TranslationStrings = {
     'Laden die Pisten nicht mehr, zeigt der Schalter ein Warnsymbol. Karte und Route funktionieren trotzdem weiter.',
   'help.guide.tour-ski-import.step.4': 'Klick auf „1 Tour importieren“.',
   'help.ctx.trip-tour-paddle.summary':
-    'Eine Kajak-, Kanu- oder SUP-Tour auf einem Fluss oder See. Sie nennt Boot und Gewässer, folgt dem Wasser, wo TREK die Daten dafür hat, rechnet Portagen und Schleusen in ihre Zeit ein und zeigt den Wind an dem Tag, an dem du paddelst, sowie das, was über Hindernisse unterwegs bekannt ist.',
+    'Eine Kajak-, Kanu- oder SUP-Tour auf einem Fluss oder See. Sie nennt Boot und Gewässer, folgt dem Wasser, wo Manzil die Daten dafür hat, rechnet Portagen und Schleusen in ihre Zeit ein und zeigt den Wind an dem Tag, an dem du paddelst, sowie das, was über Hindernisse unterwegs bekannt ist.',
   'help.guide.tour-paddle-setup.goal':
     'Eine Kajak-, Kanu- oder SUP-Tour anlegen und angeben, womit du paddelst, auf welchem Gewässer und wie schnell.',
   'help.guide.tour-paddle-setup.tip.1':
@@ -6410,7 +6410,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.step.2':
     'Soll ein Abschnitt auf dem Wasser geplant werden, zeig auf den Halt davor und klick auf „Weitere Aktionen“, die drei Punkte.',
   'help.guide.tour-paddle-water-route.result':
-    'Jeder Abschnitt folgt dem Wasser oder ist bewusst von Hand gezeichnet, und bei einem Abschnitt, den TREK nicht planen konnte, steht der Grund dabei.',
+    'Jeder Abschnitt folgt dem Wasser oder ist bewusst von Hand gezeichnet, und bei einem Abschnitt, den Manzil nicht planen konnte, steht der Grund dabei.',
   'help.guide.tour-paddle-portage.tip.1':
     'Willst du die Strecke doch paddeln, öffne am Punkt erneut „Weitere Aktionen“ und wähl „Diese Strecke wieder paddeln“. Sie wird dann wieder ein von Hand gezeichneter Abschnitt.',
   'help.guide.tour-paddle-lock.step.3': 'Klick auf die Karte „Schleuse“, um sie zu öffnen.',
@@ -6431,7 +6431,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.2':
     'Klick unter „Name der Tour“ auf das Feld „Tourtyp“ und wähl „Ausritt“. Unter „Wegpunkte“ erscheint die Karte „Reitrouten“.',
   'help.guide.tour-horse-plan.tip.2':
-    'Für einen Ausritt berechnet TREK keine Reitzeit. Trag in den Details unter „Geplant“ eine ein, wenn der Ausritt eine Zeit im Tagesplan haben soll.',
+    'Für einen Ausritt berechnet Manzil keine Reitzeit. Trag in den Details unter „Geplant“ eine ein, wenn der Ausritt eine Zeit im Tagesplan haben soll.',
   'help.guide.tour-horse-gap.step.3':
     'Klick auf „Abschnitt übernehmen“. Solange der Schalter nicht eingeschaltet ist, bleibt der Button ausgegraut.',
   'help.guide.tour-horse-recorded.step.1':
@@ -6448,7 +6448,7 @@ const help: TranslationStrings = {
   'help.guide.log-for-partner.title': 'Tage für jemanden eintragen, mit dem du planst',
   'help.guide.dissolve-fusion.title': 'Gemeinsames Planen beenden',
   'help.guide.country-places.goal':
-    'Die Orte anzeigen, die TREK einem Land zuordnet, um zu sehen, was du dort gemacht hast, oder einen Ort zu finden, der im falschen Land gelandet ist.',
+    'Die Orte anzeigen, die Manzil einem Land zuordnet, um zu sehen, was du dort gemacht hast, oder einen Ort zu finden, der im falschen Land gelandet ist.',
   'help.guide.regions.tip.3':
     '„Zur Bucket List“ funktioniert auch bei Regionen. Sie werden dann genauso schraffiert wie ein Wunschland.',
   'help.guide.tour-activity-stats.step.2':
@@ -6480,11 +6480,11 @@ const help: TranslationStrings = {
   'help.guide.readability.tip.3':
     '„Lesbarkeit“ ist als „Experimentell“ markiert. Sieht etwas seltsam aus, stellt „Auf Standard zurücksetzen“ unten im Tab alles wieder her.',
   'help.guide.web-push-device.goal':
-    'TREK-Benachrichtigungen auf deinem Handy oder Computer erhalten, auch wenn TREK geschlossen ist.',
+    'TREK-Benachrichtigungen auf deinem Handy oder Computer erhalten, auch wenn Manzil geschlossen ist.',
   'help.guide.connect-airtrail.tip.2':
     'Der Schlüssel wird verschlüsselt gespeichert und nie wieder angezeigt; Punkte im Feld bedeuten, dass einer gespeichert ist.',
   'help.guide.connect-dawarich.tip.2':
-    'Unter den Buttons zeigt die Karte, wann TREK zuletzt geprüft hat und was deine Dawarich-Version nicht bietet.',
+    'Unter den Buttons zeigt die Karte, wann Manzil zuletzt geprüft hat und was deine Dawarich-Version nicht bietet.',
   'help.guide.tour-connect-wanderer.tip.2':
     'Liegt eine Instanz unter einer privaten Adresse, muss der Admin eventuell interne Netzwerke erlauben.',
   'help.guide.tour-wanderer-watch.tip.2':
@@ -6497,7 +6497,7 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.step.1':
     'Wähl unter „Standard-Benutzereinstellungen“ den „Farbmodus“ (Hell, Dunkel oder Automatisch), „Temperatureinheit“, „Entfernungseinheit“, „Zeitformat“, „Woche beginnt am“, die „Anzeigewährung“ und ob „Buchungscodes verbergen“ auf „Ein“ oder „Aus“ steht. Jede Auswahl wird sofort gespeichert.',
   'help.guide.admin-passkeys.step.2':
-    'Gib die „Relying Party ID (Domain)“ ein, etwa trek.example.org, und unter „Erlaubte Origins“ die Adressen, unter denen dein TREK erreichbar ist. Klick dann auf „Speichern“. Lässt du beide leer, wird APP_URL verwendet.',
+    'Gib die „Relying Party ID (Domain)“ ein, etwa trek.example.org, und unter „Erlaubte Origins“ die Adressen, unter denen dein Manzil erreichbar ist. Klick dann auf „Speichern“. Lässt du beide leer, wird APP_URL verwendet.',
   'help.guide.rotate-jwt-secret.title': 'Alle auf einmal abmelden',
   'help.guide.notification-defaults.step.2':
     'Klick auf eine Zelle, um sie weiterzuschalten: „An“, „Aus“, „Gesperrt“. Der Tooltip zeigt den nächsten Zustand, und jeder Klick wird sofort gespeichert.',
@@ -6527,7 +6527,7 @@ const help: TranslationStrings = {
   'help.guide.place-image-from-file.result':
     'Das Foto ist jetzt das Bild des Orts: in seiner Detailansicht, in der Ortsspalte, im Tag und auf der Karte.',
   'help.guide.place-own-hours.step.3':
-    'Darunter zeigt „Öffnungszeiten“ die Woche, eine Zeile pro Tag. Hat TREK Zeiten für den Ort gefunden, sind sie schon eingetragen; andernfalls klick zuerst auf „Öffnungszeiten hinzufügen“. Gib für jeden Tag ein, wann geöffnet und wann geschlossen wird, und klick bei Tagen ohne Öffnung auf „Geschlossen“.',
+    'Darunter zeigt „Öffnungszeiten“ die Woche, eine Zeile pro Tag. Hat Manzil Zeiten für den Ort gefunden, sind sie schon eingetragen; andernfalls klick zuerst auf „Öffnungszeiten hinzufügen“. Gib für jeden Tag ein, wann geöffnet und wann geschlossen wird, und klick bei Tagen ohne Öffnung auf „Geschlossen“.',
   'help.guide.add-accommodation.tip.5':
     'GPX-Tracks und Tourorte werden nie als Unterkunft angeboten, nur normale Orte der Reise.',
   'help.guide.confirm-stay-booking.step.1':
@@ -6550,7 +6550,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.2':
     'Öffne „Ansicht anpassen“ (das Regler-Symbol neben den Ansichts-Icons) und wähl unter „Sortieren nach“ eine Reihenfolge. Die Zeilen folgen dieser Reihenfolge, eine Zeile pro Buchung und ohne Abschnitte.',
   'help.guide.edit-booking.tip.4':
-    'Hast du etwas geändert und klickst versehentlich neben das Formular oder drückst Escape, fragt TREK „Änderungen verwerfen?“. Mit „Weiter bearbeiten“ kommst du zurück zum Formular.',
+    'Hast du etwas geändert und klickst versehentlich neben das Formular oder drückst Escape, fragt Manzil „Änderungen verwerfen?“. Mit „Weiter bearbeiten“ kommst du zurück zum Formular.',
   'help.guide.arrange-packing-list.step.2':
     'Innerhalb einer Liste ziehst du einen Eintrag am Griff links in der Zeile nach oben oder unten. Eine Linie in deiner Akzentfarbe am linken Rand einer Zeile zeigt, wo er landet.',
   'help.guide.count-packed-pieces.goal': 'Einem Eintrag eine Menge geben und beim Packen Stück für Stück mitzählen.',
@@ -6681,7 +6681,7 @@ const help: TranslationStrings = {
   'help.guide.tour-along-search.step.1':
     'Öffne eine Tour im Tab „Touren“ und scroll im linken Bereich nach unten zu „Entlang der Tour“, unter den Halten der Tour. Dieser Abschnitt erscheint, sobald die Tour eine Route hat.',
   'help.guide.tour-along-search.tip.3':
-    'Die Ergebnisse stammen aus OpenStreetMap und dem Ortsindex von TREK, deshalb braucht die Suche eine Verbindung. Wird nichts gefunden, sucht „Erweitern auf“ im nächstgrößeren Umkreis; ist ein Server ausgelastet, zählt „Erneut versuchen“ herunter, bis sich ein neuer Versuch lohnt.',
+    'Die Ergebnisse stammen aus OpenStreetMap und dem Ortsindex von Manzil, deshalb braucht die Suche eine Verbindung. Wird nichts gefunden, sucht „Erweitern auf“ im nächstgrößeren Umkreis; ist ein Server ausgelastet, zählt „Erneut versuchen“ herunter, bis sich ein neuer Versuch lohnt.',
   'help.guide.tour-along-add-stop.tip.1':
     'Der Ort wird ein Halt der Tour, kein Ort der Reise, und erscheint deshalb nicht in der Ortsliste.',
   'help.guide.tour-3d-terrain.step.4':
@@ -6702,7 +6702,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-hike.bullet.4':
     '„Wegdetails“ unter den Wegpunkten liest für jeden Abschnitt den SAC-Grad, den Belag und die Wegart aus OpenStreetMap und färbt die Route auf der Karte danach ein. Die Tour selbst ändert sich dadurch nicht.',
   'help.guide.tour-hike-plan.step.4':
-    '„Punkt hinzufügen“ ist von Anfang an eingeschaltet: Klick auf die Karte, wo die Wanderung beginnt und wo sie endet. Mit „Reise-Orte“ daneben wählst du stattdessen eine Hütte oder ein Hotel der Reise. Ab zwei Punkten berechnet TREK die Wanderroute.',
+    '„Punkt hinzufügen“ ist von Anfang an eingeschaltet: Klick auf die Karte, wo die Wanderung beginnt und wo sie endet. Mit „Reise-Orte“ daneben wählst du stattdessen eine Hütte oder ein Hotel der Reise. Ab zwei Punkten berechnet Manzil die Wanderroute.',
   'help.guide.tour-hike-trail-details.title': 'Schwierigkeit, Belag und Wegart entlang einer Wanderung ansehen',
   'help.guide.tour-hike-trail-details.tip.1':
     'Wege, für die OpenStreetMap keinen Wert hat, stehen unter „Unbekannt“, und unbekannt heißt nicht leicht. Steht bei manchen „Diesmal nicht abfragbar“, klick auf „Erneut versuchen“.',
@@ -6734,7 +6734,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.2':
     'Die „Tourenübersicht“ rechts zeigt die „Fahrzeit (geschätzt)“: die vom Router für das Profil berechnete Zeit, Anstiege eingerechnet. Pausen sind nicht enthalten.',
   'help.guide.tour-bike-profile.step.4':
-    'Klick unter „Wegpunkte“ auf „Reise-Orte“ und wähl Start und Ziel, hier Hotel Alpenroyal und dann Hotel Greif. Du kannst auch prüfen, ob „Punkt hinzufügen“ eingeschaltet ist, und auf die Karte klicken. Ab zwei Punkten berechnet TREK die Route.',
+    'Klick unter „Wegpunkte“ auf „Reise-Orte“ und wähl Start und Ziel, hier Hotel Alpenroyal und dann Hotel Greif. Du kannst auch prüfen, ob „Punkt hinzufügen“ eingeschaltet ist, und auf die Karte klicken. Ab zwei Punkten berechnet Manzil die Route.',
   'help.guide.tour-bike-profile.tip.5':
     'Hat ein Admin die Karte CyclOSM freigegeben, bietet die Kartenauswahl bei geöffneter Radtour auch „Fahrrad“ an. Lädt sie nicht mehr, wechsle zu „Karte“. Die Tour bleibt unverändert.',
   'help.guide.tour-bike-surfaces.tip.1':
@@ -6763,7 +6763,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.2':
     'Die Karte einer Paddeltour bietet „Karte“ und „Satellit“ sowie „Seezeichen“ von OpenSeaMap als Overlay.',
   'help.guide.tour-paddle-water-route.step.3':
-    'Wähl „Nächsten Abschnitt auf dem Wasser planen“. TREK plant den Abschnitt von diesem Punkt bis zum nächsten entlang des Flusses oder Sees.',
+    'Wähl „Nächsten Abschnitt auf dem Wasser planen“. Manzil plant den Abschnitt von diesem Punkt bis zum nächsten entlang des Flusses oder Sees.',
   'help.guide.tour-paddle-portage.title': 'Das Boot um ein Hindernis herumtragen',
   'help.guide.tour-paddle-portage.tip.2':
     'Am letzten Punkt wartet „Ab hier umtragen“ auf den nächsten Punkt, den du setzt. Die Zeile zeigt dann „Umtragen ab hier“, und ihr Kreuz, „Doch nicht umtragen“, macht es rückgängig.',
@@ -6851,7 +6851,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-notifications.bullet.4':
     '„Vorgaben für Nutzer“ ganz unten: pro Ereignis und Kanal An, Aus oder Gesperrt für alle, die die Einstellung nicht selbst geändert haben.',
   'help.guide.default-user-settings.step.2':
-    'Neben dem Namen eines Feldes, das du festgelegt hast, erscheint ein Link zum Zurücksetzen; er stellt den eingebauten Standardwert von TREK wieder her.',
+    'Neben dem Namen eines Feldes, das du festgelegt hast, erscheint ein Link zum Zurücksetzen; er stellt den eingebauten Standardwert von Manzil wieder her.',
   'help.guide.own-routing-engine.title': 'Eigene Routing-Server nutzen',
   'help.guide.admin-passkeys.result':
     'Auf der Anmeldeseite gibt es „Mit Passkey anmelden“, und alle können in ihren Einstellungen Passkeys hinzufügen.',
@@ -6877,7 +6877,7 @@ const help: TranslationStrings = {
   'help.guide.place-image-from-file.tip.1':
     'Angeboten werden nur JPG-, PNG-, GIF- und WebP-Dateien, ein PDF-Ticket also nicht.',
   'help.guide.place-own-hours.step.4':
-    'Die Buttons rechts neben „Öffnungszeiten“: Der Kopier-Button überträgt die Zeiten vom Montag auf alle Tage, und das X entfernt deine Zeiten wieder. Hat TREK selbst Öffnungszeiten gefunden, holt „Aus den Ortsdetails übernehmen“ sie zurück.',
+    'Die Buttons rechts neben „Öffnungszeiten“: Der Kopier-Button überträgt die Zeiten vom Montag auf alle Tage, und das X entfernt deine Zeiten wieder. Hat Manzil selbst Öffnungszeiten gefunden, holt „Aus den Ortsdetails übernehmen“ sie zurück.',
   'help.guide.confirm-stay-booking.step.2':
     'Die Buchung öffnet sich über dem Plan. Das erste Badge in ihrem Kopf zeigt ihren Status.',
   'help.ctx.trip-map.bullet.9':
@@ -6895,7 +6895,7 @@ const help: TranslationStrings = {
   'help.guide.group-sort-bookings.step.1':
     'Klicke in der Ansicht Karten oder Liste auf „Ansicht anpassen“, die Regler hinter den drei Ansichts-Icons.',
   'help.guide.create-booking.tip.4':
-    'Offline wird die Buchung auf diesem Gerät gespeichert und synchronisiert, sobald du wieder online bist. Neue Dateien brauchen eine Verbindung, entferne sie also oder speichere später. Klickst du versehentlich neben das Formular oder drückst Escape, fragt TREK „Änderungen verwerfen?“, bevor etwas von deinen Eingaben verloren geht.',
+    'Offline wird die Buchung auf diesem Gerät gespeichert und synchronisiert, sobald du wieder online bist. Neue Dateien brauchen eine Verbindung, entferne sie also oder speichere später. Klickst du versehentlich neben das Formular oder drückst Escape, fragt Manzil „Änderungen verwerfen?“, bevor etwas von deinen Eingaben verloren geht.',
   'help.guide.booking-on-map.tip.2': 'Ein Aufenthalt öffnet sich bei seiner ersten Nacht.',
   'help.guide.export-bookings-csv.step.3':
     'Klicke auf „Als Tabelle exportieren (CSV)“, das Tabellen-Icon hinter „Ansicht anpassen“.',
@@ -6908,7 +6908,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.1':
     'Klicke am rechten Ende der Leiste auf „Dokumentenabgleich“. Ist die Reise verbunden, öffnet sich rechts die Karte deines Speichers; hast du mehrere Speicher, klicke links unter „Diese Reise“ auf den gewünschten.',
   'help.guide.files-sync-settings.tip.3':
-    '„Sofortige Updates“, ein Link mit „Kopieren“ daneben, gibt es nur bei Speichern, bei denen sich TREK nicht selbst für Änderungen registrieren kann. Hinterlege den Link beim Speicher, dann kommen Änderungen sofort an statt erst bei der nächsten Prüfung.',
+    '„Sofortige Updates“, ein Link mit „Kopieren“ daneben, gibt es nur bei Speichern, bei denen sich Manzil nicht selbst für Änderungen registrieren kann. Hinterlege den Link beim Speicher, dann kommen Änderungen sofort an statt erst bei der nächsten Prüfung.',
   'help.guide.manage-notes.step.1':
     'Klicke im Kopf einer Notizkarte auf die drei Punkte („Weitere Optionen“). Das Menü enthält Erweitern, Anheften, Bearbeiten und Löschen.',
   'help.guide.note-categories.title': 'Notizen in Kategorien sortieren',
@@ -6939,7 +6939,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.tip.1':
     'Ziehst du eine Tour mit Etappen auf einen Tag, fragt ein kleiner Dialog dasselbe. Abbrechen lässt den Plan unverändert.',
   'help.guide.tour-day-times.step.2':
-    'Gib einen Start ein und lass „Ende“ leer. Die Zeile unter den Feldern zeigt das Ende, das TREK daraus berechnet: Start plus Dauer der Tour.',
+    'Gib einen Start ein und lass „Ende“ leer. Die Zeile unter den Feldern zeigt das Ende, das Manzil daraus berechnet: Start plus Dauer der Tour.',
   'help.guide.tour-remove-from-day.title': 'Eine Tour von einem Tag entfernen',
   'help.guide.tour-filter-list.title': 'Die Tourenliste filtern',
   'help.guide.tour-filter-list.tip.3':
@@ -6951,7 +6951,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-detail.bullet.5':
     'Die Karte ist zum Lesen da und für alles, was zu einer Tour gehört. Die Route selbst änderst du im Tab Touren: Öffne ihn und klicke unter „Touren dieser Reise“ auf die Tour. Auch gelöscht wird eine Tour dort, nicht hier.',
   'help.guide.tour-detail-read.step.6':
-    'Scrolle weiter zu Beschreibung und Notizen, dann zu „Herkunft“: „in TREK geplant“, die Datei, aus der sie importiert wurde, oder der wanderer-Trail, aus dem sie stammt, jeweils mit Datum.',
+    'Scrolle weiter zu Beschreibung und Notizen, dann zu „Herkunft“: „in Manzil geplant“, die Datei, aus der sie importiert wurde, oder der wanderer-Trail, aus dem sie stammt, jeweils mit Datum.',
   'help.guide.tour-rename-colour.title': 'Eine Tour umbenennen und ihre Farbe ändern',
   'help.guide.tour-rename-colour.result':
     'Die Tour trägt überall in der Reise ihren neuen Namen, und ihre Linie erscheint in der gewählten Farbe.',
@@ -6969,7 +6969,7 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.3':
     'Klicke auf „Auf der Karte vergleichen“, um den tatsächlichen Track gepunktet neben dem Plan anzuzeigen. „Vergleich beenden“ blendet ihn wieder aus.',
   'help.guide.tour-origin-check.step.2':
-    '„Importiert“ nennt den Tag, an dem sie importiert wurde. „Hier“ zeigt den aktuellen Stand: „Wie importiert“, „In TREK bearbeitet“ oder „Überplant, Originalspur gesichert“.',
+    '„Importiert“ nennt den Tag, an dem sie importiert wurde. „Hier“ zeigt den aktuellen Stand: „Wie importiert“, „In Manzil bearbeitet“ oder „Überplant, Originalspur gesichert“.',
   'help.ctx.trip-tour-planner.bullet.1':
     'Touren steht in der Tab-Leiste der Reise direkt nach Planung, solange das Add-on Touren aktiv ist. Den Tab gibt es auf Computer und Tablet; auf dem Handy kannst du Touren im Tab Planung ansehen und auf Tage legen, aber nicht zeichnen.',
   'help.guide.tour-open-workspace.step.1':
@@ -7111,13 +7111,13 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.3':
     'Bei einer Paddeltour sucht „Entlang der Tour“ zuerst nach Einsetzstellen, Bootsverleih und Trinkwasser.',
   'help.guide.tour-paddle-water-route.step.4':
-    'Einen Abschnitt, den TREK nicht planen konnte, färbt TREK rot und nennt den Grund, zum Beispiel dass es für das Gebiet noch keine Gewässerdaten gibt. Klicke auf „Gerade zeichnen“, um ihn vorerst von Hand zu zeichnen.',
+    'Einen Abschnitt, den Manzil nicht planen konnte, färbt Manzil rot und nennt den Grund, zum Beispiel dass es für das Gebiet noch keine Gewässerdaten gibt. Klicke auf „Gerade zeichnen“, um ihn vorerst von Hand zu zeichnen.',
   'help.guide.tour-paddle-portage.goal':
     'Eine Strecke markieren, auf der du das Boot trägst, damit sie als Landstrecke zählt, samt Zeit zum Aus- und Wiedereinsteigen.',
   'help.guide.tour-paddle-portage.tip.3':
-    'Fürs Tragen rechnet TREK mit 2 km/h, bis du in der Karte „Zeitschätzung“ dein eigenes Tragetempo einstellst.',
+    'Fürs Tragen rechnet Manzil mit 2 km/h, bis du in der Karte „Zeitschätzung“ dein eigenes Tragetempo einstellst.',
   'help.guide.tour-paddle-lock.tip.1':
-    'TREK kennt keine Schleusenzeiten. Die Zeiten sind nur das, was du eingibst, prüfe die Betriebszeiten der Schleuse also selbst.',
+    'Manzil kennt keine Schleusenzeiten. Die Zeiten sind nur das, was du eingibst, prüfe die Betriebszeiten der Schleuse also selbst.',
   'help.guide.tour-paddle-time.step.3':
     'Die Zeile „Gewässer“ ist die Strecke auf dem Wasser bei deinem Paddeltempo. Ändere das Tempo im Feld „Paddeltempo“ oben in der Spalte.',
   'help.guide.tour-paddle-wind.goal':

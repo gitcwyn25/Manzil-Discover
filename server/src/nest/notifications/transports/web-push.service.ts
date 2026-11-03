@@ -51,7 +51,7 @@ const HIGH_URGENCY_EVENTS: ReadonlySet<string> = new Set(['trip_reminder', 'todo
 /** No tag either: two presses of Send test are two notifications, like two of anything but chat. */
 const TEST_PAYLOAD: PushPayload = {
   title: 'Test Notification',
-  body: 'This is a test notification from TREK. If you received this, push notifications are working on this device.',
+  body: 'This is a test notification from Manzil. If you received this, push notifications are working on this device.',
   url: '/settings?tab=notifications',
 };
 

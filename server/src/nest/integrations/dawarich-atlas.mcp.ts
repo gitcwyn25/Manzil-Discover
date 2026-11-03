@@ -100,7 +100,7 @@ export class DawarichAtlasMcp {
 
   @Tool({
     name: 'suggest_atlas_countries',
-    description: `List the countries the caller's Dawarich recordings put them in between from and to (at most ${DAWARICH_WINDOW_MAX_DAYS} days), each with its cities, the minutes spent there and whether the Atlas counts the country as visited already. Country names TREK could not match to a code are listed under unresolved. Nothing is marked here: accept_atlas_countries does that for the codes the user confirms.`,
+    description: `List the countries the caller's Dawarich recordings put them in between from and to (at most ${DAWARICH_WINDOW_MAX_DAYS} days), each with its cities, the minutes spent there and whether the Atlas counts the country as visited already. Country names Manzil could not match to a code are listed under unresolved. Nothing is marked here: accept_atlas_countries does that for the codes the user confirms.`,
     inputSchema: dawarichTimeWindowSchema.shape,
     // Reads the caller's Dawarich instance live and writes nothing.
     annotations: TOOL_ANNOTATIONS_OPEN_WORLD_READONLY,

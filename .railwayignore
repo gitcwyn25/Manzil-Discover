@@ -1,0 +1,16 @@
+.git/
+**/node_modules/
+**/dist/
+**/data/
+**/uploads/
+**/.env
+**/.env.*
+**/*.log
+**/coverage/
+server/tests/
+client/tests/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.sqlite*
+**/*.db*

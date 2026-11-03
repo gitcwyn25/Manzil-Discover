@@ -250,7 +250,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Gedeeld via',
   'journey.public.madeWith': 'Gemaakt met',
   'journey.pdf.journeyBook': 'Reisboek',
-  'journey.pdf.madeWith': 'Gemaakt met TREK',
+  'journey.pdf.madeWith': 'Gemaakt met Manzil',
   'journey.pdf.day': 'Dag',
   'journey.pdf.theEnd': 'Einde',
   'journey.pdf.saveAsPdf': 'Opslaan als PDF',
@@ -285,7 +285,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     '{failed} fotogroepen mislukt: sla opnieuw op om het nog eens te proberen',
   'journey.picker.day': 'Deze dag',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Fotoboekstudio openen',
   'journey.studio.backToJourney': 'Terug naar het reisverslag',
@@ -330,7 +330,7 @@ const journey: TranslationStrings = {
     "Slaat het ontwerp van deze dubbele pagina op als bestand, zonder de foto's, om te delen of opnieuw te gebruiken",
   'journey.studio.importSpread': 'Importeren',
   'journey.studio.importSpreadHint': 'Voegt een dubbele pagina toe uit een gedownload ontwerpbestand',
-  'journey.studio.importSpreadFailed': 'Dat bestand is geen TREK Studio-pagina',
+  'journey.studio.importSpreadFailed': 'Dat bestand is geen Manzil Studio-pagina',
   'journey.studio.desktopOnly': 'Studio heeft een groter scherm nodig',
   'journey.studio.desktopOnlyHint':
     'Een boek opmaken vraagt om ruimte, dus Studio is alleen voor de desktop, en de pdf ook. Al het andere van je reisverslag werkt hier gewoon.',
@@ -855,7 +855,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Route opnieuw bewaren',
   'journey.dayImport.stale':
     'Dawarich antwoordde niet: {reason} Je ziet de verblijven van de laatste synchronisatie op {date}.',
-  'journey.dayImport.staleNever': 'Dawarich antwoordde niet: {reason} Je ziet de verblijven die TREK al kent.',
+  'journey.dayImport.staleNever': 'Dawarich antwoordde niet: {reason} Je ziet de verblijven die Manzil al kent.',
   'journey.dayImport.truncated': 'Dawarich stuurde maar een deel van deze dag. Er kunnen verblijven ontbreken.',
   'journey.dayImport.empty': 'Dawarich vond op deze dag geen verblijven.',
   'journey.prep.lastSuccess': 'Laatst opgehaald {time}.',

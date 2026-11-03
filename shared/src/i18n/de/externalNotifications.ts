@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const de: NotificationLocale = {
   email: {
-    footer: 'Du erhältst diese E-Mail, weil du Benachrichtigungen in TREK aktiviert hast.',
+    footer: 'Du erhältst diese E-Mail, weil du Benachrichtigungen in Manzil aktiviert hast.',
     manage: 'Einstellungen verwalten',
     madeWith: 'Made with',
-    openTrek: 'TREK öffnen',
+    openTrek: 'Manzil öffnen',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const de: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Vacay Fusion-Einladung',
-      body: `${p.actor} hat dich eingeladen, Urlaubspläne zu fusionieren. Öffne TREK um anzunehmen oder abzulehnen.`,
+      body: `${p.actor} hat dich eingeladen, Urlaubspläne zu fusionieren. Öffne Manzil um anzunehmen oder abzulehnen.`,
     }),
     vacay_share: (p) => ({
       title: 'Vacay Kalender geteilt',
-      body: `${p.actor} hat den eigenen Urlaubskalender mit dir geteilt. Öffne TREK um ihn anzusehen.`,
+      body: `${p.actor} hat den eigenen Urlaubskalender mit dir geteilt. Öffne Manzil um ihn anzusehen.`,
     }),
     collection_invite: (p) => ({
       title: 'Sammlungs-Einladung',
-      body: `${p.actor} hat dich eingeladen, eine Sammlung zu teilen. Öffne TREK um anzunehmen oder abzulehnen.`,
+      body: `${p.actor} hat dich eingeladen, eine Sammlung zu teilen. Öffne Manzil um anzunehmen oder abzulehnen.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'de', { one: `${p.count} Foto geteilt`, other: `${p.count} Fotos geteilt` }),
@@ -54,7 +54,7 @@ const de: NotificationLocale = {
     }),
     version_available: (p) => ({
       title: 'Neue TREK-Version verfügbar',
-      body: `TREK ${p.version} ist jetzt verfügbar. Besuche das Admin-Panel zum Aktualisieren.`,
+      body: `Manzil ${p.version} ist jetzt verfügbar. Besuche das Admin-Panel zum Aktualisieren.`,
     }),
     replica_failure: (p) => ({
       title: 'Speicher-Replik-Fehler',

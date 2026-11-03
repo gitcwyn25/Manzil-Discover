@@ -14,17 +14,17 @@ const docsync: TranslationStrings = {
   'docsync.syncNow': 'Sincronitza ara',
   'docsync.unlink': 'Desconnecta',
   'docsync.confirmUnlink':
-    'Els documents es queden a TREK i al teu gestor. Només desapareix l’aparellament entre els dos.',
+    'Els documents es queden a Manzil i al teu gestor. Només desapareix l’aparellament entre els dos.',
   'docsync.syncEnabled': 'Sincronitza automàticament',
   'docsync.deletePolicy': 'Quan s’elimina un document',
   'docsync.deleteUnlink': 'Conserva les dues còpies',
   'docsync.deleteTrash': 'Mou a la paperera',
   'docsync.conflictPolicy': 'Quan han canviat les dues bandes',
   'docsync.onConflict.manual': "Pregunta-m'ho",
-  'docsync.onConflict.trek_wins': 'Conserva la còpia del TREK',
+  'docsync.onConflict.trek_wins': 'Conserva la còpia del Manzil',
   'docsync.onConflict.provider_wins': 'Conserva la còpia del magatzem',
   'docsync.webhookHint':
-    'Enganxa aquesta URL al teu proveïdor perquè els canvis arribin de seguida. Sense això, TREK ho comprova cada cert temps.',
+    'Enganxa aquesta URL al teu proveïdor perquè els canvis arribin de seguida. Sense això, Manzil ho comprova cada cert temps.',
 
   // Camps del formulari de connexió. Les claus reflecteixen la columna `label` de
   // document_provider_fields, que desa un sufix de clau i no pas el text.
@@ -48,7 +48,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudAppPassword':
     'Configuració, Seguretat, Crea una contrasenya d’aplicació nova. Mai la contrasenya del compte.',
   'docsync.hintOpenCloudToken': 'Es crea als tokens d’aplicació d’OpenCloud.',
-  'docsync.hintBasePath': 'On busca TREK les carpetes dels viatges. Per defecte, /TREK.',
+  'docsync.hintBasePath': 'On busca Manzil les carpetes dels viatges. Per defecte, /Manzil.',
   'docsync.hintSynologyUrl': 'Inclou-hi el port, per exemple https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Millor un compte DSM dedicat amb accés només a aquesta carpeta compartida.',
   'docsync.hintSynologyOtp': 'Només cal un cop, si el compte fa servir autenticació de doble factor.',
@@ -68,14 +68,14 @@ const docsync: TranslationStrings = {
   'docsync.state.too_large': 'Massa gran',
   'docsync.state.error': 'Error', // same-as-en
   'docsync.state.remote_missing': 'No hi és, al proveïdor',
-  'docsync.state.local_deleted': 'Eliminat a TREK',
+  'docsync.state.local_deleted': 'Eliminat a Manzil',
   'docsync.state.scope_drift': 'Ha sortit de la carpeta',
 
   'docsync.conflict.resolve': 'Resol {count}',
   'docsync.conflict.resolve.one': 'Resol {count}',
 
   'docsync.conflict.title': 'Han canviat totes dues còpies',
-  'docsync.conflict.keepTrek': 'Conserva la versió de TREK',
+  'docsync.conflict.keepTrek': 'Conserva la versió de Manzil',
   'docsync.conflict.keepProvider': 'Conserva la versió del proveïdor',
   'docsync.conflict.keepBoth': 'Conserva-les totes dues',
 
@@ -89,7 +89,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Aquest compte no té permís per fer-ho.',
   'docsync.error.not_found': 'No s’ha trobat al proveïdor.',
   'docsync.error.scope_missing': 'La carpeta connectada ja no existeix.',
-  'docsync.error.rate_limited': 'El proveïdor ens està limitant el ritme. TREK ho tornarà a provar més tard.',
+  'docsync.error.rate_limited': 'El proveïdor ens està limitant el ritme. Manzil ho tornarà a provar més tard.',
   'docsync.error.too_large': 'El fitxer és més gran del que accepta el proveïdor.',
   'docsync.error.unsupported_type': 'El proveïdor no accepta aquest tipus de fitxer.',
   'docsync.error.quota_exceeded': 'El proveïdor s’ha quedat sense espai.',
@@ -110,8 +110,8 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Encara no hi ha res connectat',
   'docsync.empty.hintOwner':
-    'Tria un gestor a l’esquerra. TREK en guarda sempre una còpia pròpia, així que no es perd res si desapareix.',
-  'docsync.empty.hintMember': 'Això ho configura el propietari del viatge. Els documents es queden a TREK igualment.',
+    'Tria un gestor a l’esquerra. Manzil en guarda sempre una còpia pròpia, així que no es perd res si desapareix.',
+  'docsync.empty.hintMember': 'Això ho configura el propietari del viatge. Els documents es queden a Manzil igualment.',
 
   // Com arxiva les coses cada producte. Es mostra abans que ningú connecti res,
   // perquè és el que demanarà la pantalla següent.
@@ -122,7 +122,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'Arxiva en una carpeta del NAS',
 
   // ── La barra de flux ───────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Cap al gestor',
   'docsync.flow.toTrek': 'Des del gestor',
   'docsync.flow.documents': 'documents', // same-as-en
@@ -152,18 +152,18 @@ const docsync: TranslationStrings = {
   'docsync.connect.okAs': 'Contactat, sessió iniciada com a {account}',
   'docsync.connect.insecureHint': 'Per a una instància de la teva xarxa amb un certificat autosignat.',
   'docsync.connect.about.paperless':
-    'TREK arxiva aquest viatge sota una etiqueta pròpia i no toca mai la resta del teu arxiu.',
+    'Manzil arxiva aquest viatge sota una etiqueta pròpia i no toca mai la resta del teu arxiu.',
   'docsync.connect.about.papra':
-    'Tria l’organització a què pertany aquest viatge. TREK l’arxiva sota una etiqueta pròpia a dins.',
+    'Tria l’organització a què pertany aquest viatge. Manzil l’arxiva sota una etiqueta pròpia a dins.',
   'docsync.connect.about.nextcloud':
     'Fes servir una contrasenya d’aplicació, no la del compte: funciona amb el doble factor i la pots revocar per separat.',
-  'docsync.connect.about.opencloud': 'TREK té un espai propi per a aquest viatge, separat de tota la resta.',
+  'docsync.connect.about.opencloud': 'Manzil té un espai propi per a aquest viatge, separat de tota la resta.',
   'docsync.connect.about.synologydrive':
     'Millor un compte DSM que només arribi a la carpeta compartida que ha de fer servir aquest viatge.',
 
   // ── Tria del contenidor ────────────────────────────────────────────────────
   'docsync.scope.title': 'On ha d’anar aquest viatge dins de {provider}?',
-  'docsync.scope.intro': 'Només se sincronitza el que hi ha aquí dins. La resta del teu gestor es queda fora de TREK.',
+  'docsync.scope.intro': 'Només se sincronitza el que hi ha aquí dins. La resta del teu gestor es queda fora de Manzil.',
   'docsync.scope.createTitle': 'Crea’n un de nou',
   'docsync.scope.createAction': 'Crea',
   'docsync.scope.pickTitle': 'O fes servir un que ja tinguis',
@@ -173,7 +173,7 @@ const docsync: TranslationStrings = {
   // ── Coses que ha de decidir una persona ────────────────────────────────────
   'docsync.issues.title': 'Cal revisar-ho',
   'docsync.issues.conflict': 'Ha canviat als dos llocs. Tria quina còpia vols conservar.',
-  'docsync.issues.remote_missing': 'Ha desaparegut del gestor. La còpia de TREK encara hi és.',
+  'docsync.issues.remote_missing': 'Ha desaparegut del gestor. La còpia de Manzil encara hi és.',
   'docsync.issues.rejected_type': 'Aquest tipus de fitxer no s’admet aquí.',
   'docsync.issues.too_large': 'Més gran que el límit.',
   'docsync.issues.error': 'La transferència no s’ha completat.',
@@ -183,11 +183,11 @@ const docsync: TranslationStrings = {
     'En pausa: un administrador ha desactivat aquest proveïdor. La sincronització es reprèn quan es torni a activar.',
   'docsync.binding.reconnect': 'Torna a connectar',
   'docsync.connection.title': 'Connexió',
-  'docsync.connection.hint': 'L’adreça i l’inici de sessió que TREK fa servir per a aquest emmagatzematge.',
+  'docsync.connection.hint': 'L’adreça i l’inici de sessió que Manzil fa servir per a aquest emmagatzematge.',
   'docsync.connection.edit': 'Edita la connexió',
   'docsync.connection.remove': 'Elimina la connexió',
   'docsync.connection.confirmRemove':
-    'TREK oblida l’adreça i l’inici de sessió d’aquest emmagatzematge, i totes les sincronitzacions d’aquest viatge a través seu s’aturen. Els documents es queden a TREK i a l’emmagatzematge.',
+    'Manzil oblida l’adreça i l’inici de sessió d’aquest emmagatzematge, i totes les sincronitzacions d’aquest viatge a través seu s’aturen. Els documents es queden a Manzil i a l’emmagatzematge.',
 };
 
 export default docsync;

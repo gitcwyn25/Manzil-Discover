@@ -414,7 +414,7 @@ export const USE_TOOLS_TOOL = 'use_addon_tools';
 /** The step's description: the groups, and what needs nothing loaded in this kind of conversation. */
 function useToolsDescription(core: string): string {
   return (
-    'Load the tools of more parts of TREK for the rest of this turn. Call it before working with any of: ' +
+    'Load the tools of more parts of Manzil for the rest of this turn. Call it before working with any of: ' +
     Object.entries(ASSISTANT_TOOL_GROUPS)
       .map(([group, { about }]) => `"${group}" (${about})`)
       .join('; ') +

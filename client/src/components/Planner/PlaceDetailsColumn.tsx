@@ -371,7 +371,7 @@ function descriptionSourceLabel(
     case 'wikipedia':
       return 'Wikipedia'
     case 'community':
-      return 'TREK Community'
+      return 'Manzil Community'
     case 'website':
       try {
         return new URL(sourceUrl || '').hostname.replace(/^www\./, '')

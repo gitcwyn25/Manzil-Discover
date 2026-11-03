@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'CARTO-Basiskarten zeigen ohne Key ein Wasserzeichen. Kostenlos und ohne Konto, unter',
   'settings.mapCartoKeyLink': 'carto.com Basemap-API-Key',
   'settings.mapCartoKeyMissing':
-    'Diese Vorlage ist eine CARTO-Basiskarte. Ohne Key brennt CARTO "API KEY REQUIRED" in jede Kachel. Bis ein Key eingetragen ist, zeigt TREK die Standard-Basiskarte.',
+    'Diese Vorlage ist eine CARTO-Basiskarte. Ohne Key brennt CARTO "API KEY REQUIRED" in jede Kachel. Bis ein Key eingetragen ist, zeigt Manzil die Standard-Basiskarte.',
   'settings.mapStyle': 'Kartenstil',
   'settings.mapStylePlaceholder': 'Mapbox-Stil wählen',
   'settings.mapStyleHint': 'Preset oder eigene mapbox://styles/USER/ID URL',
@@ -223,11 +223,11 @@ const settings: TranslationStrings = {
   'settings.about.sponsor.address': 'Adresssuche',
   'settings.about.sponsor.routing': 'Routing', // same-as-en
   'settings.about.descriptionManaged':
-    'TREK hilft dir, deine Reisen von der ersten Idee bis zur letzten Erinnerung zu organisieren. Tagesplanung, Budget, Packlisten, Fotos und vieles mehr, alles an einem Ort.',
+    'Manzil hilft dir, deine Reisen von der ersten Idee bis zur letzten Erinnerung zu organisieren. Tagesplanung, Budget, Packlisten, Fotos und vieles mehr, alles an einem Ort.',
   'settings.about.sourceTitle': 'Quellcode',
   'settings.about.sourceHint': 'TREK ist Open Source und steht unter der AGPL-3.0',
   'settings.about.supporters.badge': 'Monatliche Unterstützer',
-  'settings.about.supporters.title': 'Reisebegleitung für TREK',
+  'settings.about.supporters.title': 'Reisebegleitung für Manzil',
   'settings.about.supporters.subtitle':
     'Während du deine nächste Route planst, planen diese Leute mit, wie TREK weitergeht. Ihr monatlicher Beitrag fließt direkt in Entwicklung und echten Zeitaufwand — damit TREK Open Source bleibt.',
   'settings.about.supporters.since': 'Unterstützer seit {date}',
@@ -238,7 +238,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Budget-Reisender',
   'settings.about.supporter.tier.hostelBunkmate': 'Hostel-Bettnachbar',
   'settings.about.description':
-    'TREK ist ein selbst gehosteter Reiseplaner, der dir hilft, deine Trips von der ersten Idee bis zur letzten Erinnerung zu organisieren. Tagesplanung, Budget, Packlisten, Fotos und vieles mehr — alles an einem Ort, auf deinem eigenen Server.',
+    'Manzil ist ein selbst gehosteter Reiseplaner, der dir hilft, deine Trips von der ersten Idee bis zur letzten Erinnerung zu organisieren. Tagesplanung, Budget, Packlisten, Fotos und vieles mehr — alles an einem Ort, auf deinem eigenen Server.',
   'settings.about.madeWith': 'Entwickelt mit',
   'settings.about.madeBy': 'von Maurice und einer wachsenden Open-Source-Community.',
   'settings.username': 'Benutzername',
@@ -358,16 +358,16 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Push-Benachrichtigungen auf diesem Gerät',
   'settings.webPush.hint':
-    'Zeigt TREK-Benachrichtigungen auf diesem Gerät an, auch wenn TREK geschlossen ist. Welche Ereignisse ankommen, richtet sich nach der Spalte Push.',
+    'Zeigt TREK-Benachrichtigungen auf diesem Gerät an, auch wenn Manzil geschlossen ist. Welche Ereignisse ankommen, richtet sich nach der Spalte Push.',
   'settings.webPush.enable': 'Für dieses Gerät einschalten',
   'settings.webPush.disable': 'Für dieses Gerät ausschalten',
   'settings.webPush.enabled': 'Für dieses Gerät eingeschaltet',
   'settings.webPush.unsupported': 'Dieser Browser kann keine Push-Benachrichtigungen empfangen.',
-  'settings.webPush.insecure': 'Für Push muss TREK über HTTPS geöffnet werden.',
+  'settings.webPush.insecure': 'Für Push muss Manzil über HTTPS geöffnet werden.',
   'settings.webPush.iosInstall':
-    'Füge TREK auf iPhone und iPad zuerst zum Home-Bildschirm hinzu und öffne es von dort.',
+    'Füge Manzil auf iPhone und iPad zuerst zum Home-Bildschirm hinzu und öffne es von dort.',
   'settings.webPush.denied':
-    'Benachrichtigungen für TREK sind in diesem Browser blockiert. Erlaube sie in den Browsereinstellungen und versuche es dann erneut.',
+    'Benachrichtigungen für Manzil sind in diesem Browser blockiert. Erlaube sie in den Browsereinstellungen und versuche es dann erneut.',
   'settings.webPush.failed': 'Push konnte für dieses Gerät nicht eingeschaltet werden.',
   'settings.currency': 'Anzeigewährung',
   'settings.currencyHint':
@@ -414,7 +414,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Nur für eine vertrauenswürdige Instanz im eigenen Netzwerk aktivieren.',
   'settings.airtrail.writeBack': 'Änderungen zurück nach AirTrail schreiben',
   'settings.airtrail.writeBackHint':
-    'Standardmäßig aus: AirTrail ist die maßgebliche Quelle und TREK liest nur. Aktivieren, um in TREK vorgenommene Änderungen zurück an AirTrail zu senden.',
+    'Standardmäßig aus: AirTrail ist die maßgebliche Quelle und Manzil liest nur. Aktivieren, um in Manzil vorgenommene Änderungen zurück an AirTrail zu senden.',
   'settings.airtrail.connected': 'Verbunden',
   'settings.airtrail.notConnected': 'Nicht verbunden',
   'settings.airtrail.toast.saved': 'AirTrail-Verbindung gespeichert',
@@ -533,7 +533,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Dashboard', // same-as-en
   'settings.startPageActiveTrip': 'Aktive Reise',
   'settings.startPageHint':
-    'TREK öffnet direkt die Reise, die gerade läuft, sonst die nächste anstehende. Also genau die Reise, die auch das Dashboard hervorhebt.',
+    'Manzil öffnet direkt die Reise, die gerade läuft, sonst die nächste anstehende. Also genau die Reise, die auch das Dashboard hervorhebt.',
   'settings.startTripTab': 'Start-Tab',
   'settings.startTripTabHint':
     'Der Tab, mit dem die Reise öffnet. Gehört er zu einem ausgeschalteten Addon, öffnet stattdessen die Planung.',

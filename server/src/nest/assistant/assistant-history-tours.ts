@@ -32,11 +32,11 @@ export function tourStopOutcome(part: ToolCallPart): string {
 /** A route file read into its tracks. */
 export function tourFileReadNote(part: ToolCallPart): string {
   const file = quoted(part.args.name);
-  if (part.isError) return `TREK could not read the attached route file ${file}.`;
+  if (part.isError) return `Manzil could not read the attached route file ${file}.`;
   const result = (part.result ?? {}) as { tracks?: unknown };
   const tracks = Array.isArray(result.tracks) ? result.tracks : [];
-  if (tracks.length === 0) return `TREK read the attached route file ${file} and found no track or route in it.`;
-  return `TREK read the attached route file ${file} and found ${tracks.length} track(s): ${JSON.stringify(tracks)}.`;
+  if (tracks.length === 0) return `Manzil read the attached route file ${file} and found no track or route in it.`;
+  return `Manzil read the attached route file ${file} and found ${tracks.length} track(s): ${JSON.stringify(tracks)}.`;
 }
 
 /** One track of a route file taken in as a hike. */

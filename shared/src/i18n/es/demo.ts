@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Demo en vivo',
-  'demo.welcome.title': 'Bienvenido a TREK',
+  'demo.welcome.title': 'Bienvenido a Manzil',
   'demo.welcome.tagline':
     'El planificador de viajes para compartir: planificad juntos en el mapa en tiempo real, desde la primera idea hasta el fotolibro después del viaje.',
   'demo.welcome.resetTitle': 'Todo se restablece cada hora',
@@ -17,7 +17,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'Rutas y senderismo',
   'demo.feature.tours.body':
     'Planifica una ruta por la red de senderos y síguela sobre relieve 3D con su perfil de altitud.',
-  'demo.feature.studio.title': 'Fotolibros con TREK Studio',
+  'demo.feature.studio.title': 'Fotolibros con Manzil Studio',
   'demo.feature.studio.body': 'Convierte un viaje en un fotolibro diseñado, página a página.',
   'demo.feature.collab.title': 'Planificar juntos en directo',
   'demo.feature.collab.body': 'Todos en el viaje ven cada cambio al instante, con chat, notas y encuestas.',
@@ -31,7 +31,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Guarda lugares de distintos viajes en tus propias listas y cópialos a cualquier plan.',
   'demo.feature.offline.title': 'Funciona sin conexión',
-  'demo.feature.offline.body': 'Instala TREK como app y conserva tus planes, mapas y listas sin conexión.',
+  'demo.feature.offline.body': 'Instala Manzil como app y conserva tus planes, mapas y listas sin conexión.',
   'demo.welcome.limitsTitle': 'Fuera de la demo',
   'demo.limit.uploads': 'Subir fotos, documentos y portadas',
   'demo.limit.account': 'Cambiar la cuenta, su contraseña o la 2FA',
@@ -50,7 +50,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Créditos de las fotos',
   'demo.credits.intro':
-    'Las fotos de esta demo proceden de Wikimedia Commons, cada una con la licencia indicada junto a ella. Esa licencia se aplica solo a la foto, no a TREK ni al resto de la demo.',
+    'Las fotos de esta demo proceden de Wikimedia Commons, cada una con la licencia indicada junto a ella. Esa licencia se aplica solo a la foto, no a Manzil ni al resto de la demo.',
   'demo.credits.by': 'por {author}',
   'demo.credits.publicDomain': 'Dominio público',
   'demo.credits.back': 'Volver',

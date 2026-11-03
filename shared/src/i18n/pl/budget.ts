@@ -230,7 +230,7 @@ const budget: TranslationStrings = {
     'Zapis nie powiódł się, a {count} przesłanych paragonów wciąż tam jest. Usuń je w zakładce Pliki.',
   'costs.receiptsNeedConnection':
     'Paragony wymagają połączenia do przesłania. Usuń nowe, aby zapisać wydatek offline, albo zapisz po powrocie online.',
-  'costs.paymentQueued': 'Jesteś offline. Płatność została zapisana i pojawi się, gdy TREK znów będzie online.',
+  'costs.paymentQueued': 'Jesteś offline. Płatność została zapisana i pojawi się, gdy Manzil znów będzie online.',
   'costs.confirm.deleteBodyReceipts': '"{name}" zostanie trwale usunięty. Pliki jego paragonów pozostaną w Plikach.',
 };
 export default budget;

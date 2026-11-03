@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Bản demo trực tiếp',
-  'demo.welcome.title': 'Chào mừng đến với TREK',
+  'demo.welcome.title': 'Chào mừng đến với Manzil',
   'demo.welcome.tagline':
     'Trình lập kế hoạch du lịch để chia sẻ: cùng nhau lên kế hoạch trên bản đồ theo thời gian thực, từ ý tưởng đầu tiên đến cuốn sách ảnh sau chuyến đi.',
   'demo.welcome.resetTitle': 'Mọi thứ được đặt lại mỗi giờ',
@@ -17,7 +17,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'Hành trình và đi bộ đường dài',
   'demo.feature.tours.body':
     'Lên kế hoạch đi bộ trên mạng lưới đường mòn và theo dõi trên địa hình 3D với biểu đồ độ cao.',
-  'demo.feature.studio.title': 'Sách ảnh với TREK Studio',
+  'demo.feature.studio.title': 'Sách ảnh với Manzil Studio',
   'demo.feature.studio.body': 'Biến một chuyến đi thành cuốn sách ảnh được thiết kế, từng trang một.',
   'demo.feature.collab.title': 'Cùng lên kế hoạch trực tiếp',
   'demo.feature.collab.body':
@@ -33,7 +33,7 @@ const demo: TranslationStrings = {
     'Lưu địa điểm từ nhiều chuyến đi vào danh sách riêng và sao chép vào bất kỳ kế hoạch nào.',
   'demo.feature.offline.title': 'Hoạt động ngoại tuyến',
   'demo.feature.offline.body':
-    'Cài TREK như một ứng dụng và giữ kế hoạch, bản đồ, danh sách ngay cả khi không có kết nối.',
+    'Cài Manzil như một ứng dụng và giữ kế hoạch, bản đồ, danh sách ngay cả khi không có kết nối.',
   'demo.welcome.limitsTitle': 'Không có trong bản demo',
   'demo.limit.uploads': 'Tải lên ảnh, tài liệu và ảnh bìa',
   'demo.limit.account': 'Thay đổi tài khoản, mật khẩu hoặc 2FA',
@@ -52,7 +52,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Nguồn ảnh',
   'demo.credits.intro':
-    'Ảnh trong bản demo này lấy từ Wikimedia Commons, mỗi ảnh theo giấy phép ghi kèm. Giấy phép đó chỉ áp dụng cho ảnh, không áp dụng cho TREK hay phần còn lại của bản demo.',
+    'Ảnh trong bản demo này lấy từ Wikimedia Commons, mỗi ảnh theo giấy phép ghi kèm. Giấy phép đó chỉ áp dụng cho ảnh, không áp dụng cho Manzil hay phần còn lại của bản demo.',
   'demo.credits.by': 'Ảnh: {author}',
   'demo.credits.publicDomain': 'Phạm vi công cộng',
   'demo.credits.back': 'Quay lại',

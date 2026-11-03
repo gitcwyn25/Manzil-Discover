@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const en: NotificationLocale = {
   email: {
-    footer: 'Du har fått detta eftersom du har aktiverat aviseringar i TREK.',
+    footer: 'Du har fått detta eftersom du har aktiverat aviseringar i Manzil.',
     manage: 'Hantera egenskaper under Inställningar',
     madeWith: 'Gjorde med',
-    openTrek: 'Öppna TREK',
+    openTrek: 'Öppna Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const en: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Vacay sammanslagnings inbjudan',
-      body: `${p.actor} bjöd in dig att slå samman semesterplaner. Öppna TREK för att acceptera eller avvisa.`,
+      body: `${p.actor} bjöd in dig att slå samman semesterplaner. Öppna Manzil för att acceptera eller avvisa.`,
     }),
     vacay_share: (p) => ({
       title: 'Vacay kalender delad',
-      body: `${p.actor} delade sin semesterkalender med dig. Öppna TREK för att se den.`,
+      body: `${p.actor} delade sin semesterkalender med dig. Öppna Manzil för att se den.`,
     }),
     collection_invite: (p) => ({
       title: 'Inbjudan till samling',
-      body: `${p.actor} bjöd in dig att dela en samling. Öppna TREK för att acceptera eller avvisa.`,
+      body: `${p.actor} bjöd in dig att dela en samling. Öppna Manzil för att acceptera eller avvisa.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'sv', { one: `${p.count} foto delat`, other: `${p.count} foton delade` }),
@@ -53,8 +53,8 @@ const en: NotificationLocale = {
       body: `${p.actor} tilldelade dig till "${p.category}" packning kategori i "${p.trip}".`,
     }),
     version_available: (p) => ({
-      title: 'Ny TREK version tillgänglig',
-      body: `TREK ${p.version} är nu tillgänglig. Gå till adminpanelen för att uppdatera.`,
+      title: 'Ny Manzil version tillgänglig',
+      body: `Manzil ${p.version} är nu tillgänglig. Gå till adminpanelen för att uppdatera.`,
     }),
     replica_failure: (p) => ({
       title: 'Fel i lagringsreplik',
@@ -89,7 +89,7 @@ const en: NotificationLocale = {
   passwordReset: {
     subject: 'Återställ ditt lösenord',
     greeting: 'Hej',
-    body: 'Vi har fått en begäran om att återställa lösenordet till ditt TREK konto. Klicka på knappen nedan för att ange ett nytt lösenord.',
+    body: 'Vi har fått en begäran om att återställa lösenordet till ditt Manzil konto. Klicka på knappen nedan för att ange ett nytt lösenord.',
     ctaIntro: 'Återställ lösenord',
     expiry: 'Den här länken upphör att gälla om 60 minuter.',
     ignore:

@@ -32,7 +32,7 @@ const notifications: TranslationStrings = {
   'notifications.countLabel': 'meldingen',
   'notifications.countLabel.one': 'melding',
   'notifications.versionAvailable.title': 'Update beschikbaar',
-  'notifications.versionAvailable.text': 'TREK {version} is nu beschikbaar.',
+  'notifications.versionAvailable.text': 'Manzil {version} is nu beschikbaar.',
   'notifications.versionAvailable.button': 'Details bekijken',
   'notifications.deleteAllConfirmTitle': 'Alle meldingen verwijderen?',
   'notifications.deleteAllConfirmText':

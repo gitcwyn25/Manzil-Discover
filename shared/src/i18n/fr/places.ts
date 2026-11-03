@@ -179,7 +179,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nouvelles infos du lieu',
   'places.refresh.title': 'Mettre à jour les infos du lieu',
   'places.refresh.intro':
-    'TREK connaît des infos plus récentes pour ce lieu. Choisissez ce que vous reprenez ; le reste ne change pas. Enregistrez ensuite le lieu.',
+    'Manzil connaît des infos plus récentes pour ce lieu. Choisissez ce que vous reprenez ; le reste ne change pas. Enregistrez ensuite le lieu.',
   'places.refresh.apply': 'Reprendre',
   'places.refresh.replaces': 'Remplace la valeur enregistrée',
   'places.refresh.empty': 'vide',

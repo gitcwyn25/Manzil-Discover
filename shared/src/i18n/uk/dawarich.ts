@@ -4,7 +4,7 @@ const dawarich: TranslationStrings = {
   // ── Connection ─────────────────────────────────────────────────────────────
   'dawarich.title': 'Dawarich',
   'dawarich.intro':
-    'Підключіть власний сервер Dawarich, щоб бачити, де ви насправді були. TREK читає його та пропонує записи щоденника, місця й країни; нічого не додається, доки ви це не підтвердите, і нічого не записується назад у Dawarich.',
+    'Підключіть власний сервер Dawarich, щоб бачити, де ви насправді були. Manzil читає його та пропонує записи щоденника, місця й країни; нічого не додається, доки ви це не підтвердите, і нічого не записується назад у Dawarich.',
   'dawarich.url': 'Адреса сервера',
   'dawarich.apiKey': 'Ключ API',
   'dawarich.apiKeyPlaceholder': 'Вставте свій ключ API Dawarich',
@@ -14,7 +14,7 @@ const dawarich: TranslationStrings = {
   'dawarich.allowInsecureTlsHint':
     'Потрібно лише тоді, коли ваш сервер використовує сертифікат, якому ваш сервер не довіряє.',
   'dawarich.syncEnabled': 'Автоматично перевіряти нові перебування',
-  'dawarich.syncEnabledHint': 'Якщо вимкнено, TREK читає Dawarich лише на ваш запит.',
+  'dawarich.syncEnabledHint': 'Якщо вимкнено, Manzil читає Dawarich лише на ваш запит.',
   'dawarich.test.button': 'Перевірити з’єднання',
   'dawarich.test.success': 'З’єднано. За останні 30 днів знайдено {count} перебування.',
   'dawarich.test.success.one': 'З’єднано. За останні 30 днів знайдено {count} перебування.',
@@ -53,18 +53,18 @@ const dawarich: TranslationStrings = {
   'dawarich.capability.missing': 'Ця версія Dawarich не надає: {features}.',
 
   // ── Failure reasons, as sentences the reader can act on ────────────────────
-  'dawarich.error.unreachable': 'TREK не зміг зв’язатися з цією адресою.',
+  'dawarich.error.unreachable': 'Manzil не зміг зв’язатися з цією адресою.',
   'dawarich.error.unauthorized': 'Dawarich відхилив ключ API.',
   'dawarich.error.forbidden': 'Цьому ключу API не дозволено це читати.',
   'dawarich.error.not_found': 'Ця версія Dawarich не має такої кінцевої точки.',
-  'dawarich.error.rate_limited': 'Dawarich попросив TREK сповільнитися. Спробуйте трохи згодом.',
+  'dawarich.error.rate_limited': 'Dawarich попросив Manzil сповільнитися. Спробуйте трохи згодом.',
   'dawarich.error.server_error': 'Dawarich відповів помилкою.',
   'dawarich.error.invalid_response': 'Ця адреса відповіла чимось, що не є Dawarich.',
-  'dawarich.error.too_large': 'Dawarich надіслав більше даних, ніж TREK читає за один раз.',
+  'dawarich.error.too_large': 'Dawarich надіслав більше даних, ніж Manzil читає за один раз.',
   'dawarich.error.not_connected': 'Жодного сервера Dawarich ще не підключено.',
   'dawarich.error.addon_disabled': 'Доповнення Dawarich вимкнено на цьому сервері.',
-  'dawarich.error.offline': 'Для цього потрібне з’єднання — TREK зараз офлайн.',
-  'dawarich.error.invalid_url': 'TREK не може використати цю адресу.',
+  'dawarich.error.offline': 'Для цього потрібне з’єднання — Manzil зараз офлайн.',
+  'dawarich.error.invalid_url': 'Manzil не може використати цю адресу.',
   'dawarich.warning.private_ip':
     'Ця адреса вказує на приватну IP ({ip}). Перевірте, чи саме це мали на увазі — серверу може знадобитися ALLOW_INTERNAL_NETWORK=true.',
   'dawarich.error.unknown': 'Щось пішло не так під час обміну даними з Dawarich.',
@@ -111,9 +111,9 @@ const dawarich: TranslationStrings = {
   'dawarich.suggestions.acceptedAs.journal': 'У щоденнику',
   'dawarich.suggestions.acceptedAs.bucket_list': 'Бажання позначено виконаним',
   'dawarich.suggestions.sourceChanged':
-    'Це перебування змінилося в Dawarich відтоді, як ви його використали. Написане вами в TREK лишилося недоторканим.',
+    'Це перебування змінилося в Dawarich відтоді, як ви його використали. Написане вами в Manzil лишилося недоторканим.',
   'dawarich.suggestions.sourceMissing':
-    'Цього перебування більше немає в Dawarich. Написане вами в TREK лишилося недоторканим.',
+    'Цього перебування більше немає в Dawarich. Написане вами в Manzil лишилося недоторканим.',
   'dawarich.sourceStatus.suggested': 'Виявлено, не підтверджено',
   'dawarich.confidence.high': 'Упевнене виявлення',
   'dawarich.confidence.medium': 'Доволі впевнене виявлення',
@@ -180,7 +180,7 @@ const dawarich: TranslationStrings = {
     'Країни, у яких ви були за вашими записами. Підтвердьте ті, які хочете бачити в Atlas, — нічого не додається саме собою, а позначене вами вручну лишається вашим.',
   'dawarich.atlas.load': 'Пошукати країни',
   'dawarich.atlas.loading': 'Читання ваших записів…',
-  'dawarich.atlas.empty': 'У ваших записах немає країн, яких TREK ще не має.',
+  'dawarich.atlas.empty': 'У ваших записах немає країн, яких Manzil ще не має.',
   'dawarich.atlas.cities': '{count} міста',
   'dawarich.atlas.cities.one': '{count} місто',
   'dawarich.atlas.cities.few': '{count} міста',
@@ -193,7 +193,7 @@ const dawarich: TranslationStrings = {
   'dawarich.atlas.accepted.one': 'Додано {count} країну',
   'dawarich.atlas.accepted.few': 'Додано {count} країни',
   'dawarich.atlas.accepted.many': 'Додано {count} країн',
-  'dawarich.atlas.unresolved': 'TREK не зміг зіставити з країною: {names}.',
+  'dawarich.atlas.unresolved': 'Manzil не зміг зіставити з країною: {names}.',
   'dawarich.atlas.source': 'З Dawarich',
   'dawarich.atlas.range': 'Переглянуто з {from} до {to}',
 

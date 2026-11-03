@@ -65,9 +65,9 @@ const files: TranslationStrings = {
   'files.noteLabel': 'Notiz',
   'files.notePlaceholder': 'Notiz hinzufügen...',
   'files.uploadNeedsConnection':
-    'Zum Hochladen braucht es eine Verbindung. Versuch es noch einmal, sobald TREK wieder online ist.',
+    'Zum Hochladen braucht es eine Verbindung. Versuch es noch einmal, sobald Manzil wieder online ist.',
   'files.linkNeedsConnection':
-    'Diese Verknüpfung lässt sich nur mit Verbindung entfernen. Versuch es noch einmal, sobald TREK wieder online ist.',
+    'Diese Verknüpfung lässt sich nur mit Verbindung entfernen. Versuch es noch einmal, sobald Manzil wieder online ist.',
   'files.placeFilesNeedConnection':
     'Dateien brauchen zum Hochladen eine Verbindung. Entferne die neuen, um den Ort offline zu speichern, oder speichere, sobald du wieder online bist.',
   'files.maxSize': 'Max. {count} MB',

@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer-kapcsolat eltávolítva',
   'wanderer.loadFailed': 'Nem sikerült betölteni a wanderer-kapcsolatot',
   'wanderer.privateIp':
-    'Ez a cím egy magánhálózatban van. Ha a TREK nem éri el, a rendszergazdának engedélyeznie kell a belső hálózatokat.',
+    'Ez a cím egy magánhálózatban van. Ha a Manzil nem éri el, a rendszergazdának engedélyeznie kell a belső hálózatokat.',
   'wanderer.error.disabled': 'A rendszergazda nem engedélyezte a wanderer használatát a túrákhoz.',
   'wanderer.error.not_connected': 'A wanderer még nincs csatlakoztatva.',
   'wanderer.error.invalid_url': 'Ez a cím nem érvényes wanderer-URL.',
   'wanderer.error.blocked_address':
-    'A TREK nem érheti el ezt a címet. A saját hálózatodon lévő példányhoz a rendszergazdának be kell állítania: ALLOW_INTERNAL_NETWORK=true.',
+    'A Manzil nem érheti el ezt a címet. A saját hálózatodon lévő példányhoz a rendszergazdának be kell állítania: ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'A wanderer nem érhető el. Ellenőrizd a címet, és hogy fut-e a példány.',
   'wanderer.error.tls':
     'A példány tanúsítványát nem sikerült ellenőrizni. Önaláírt tanúsítvány esetén engedélyezd lent.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'A válasz nem a wanderer alkalmazástól érkezett. Ellenőrizd, hogy a cím magára a wanderer alkalmazásra mutat-e.',
   'wanderer.error.no_author':
-    'A wanderer válaszolt, de ennek az API-tokennek a fiókjához nem nevez meg túraútvonal-szerzőt, így a TREK nem tudja, mely túraútvonalak a tieid.',
+    'A wanderer válaszolt, de ennek az API-tokennek a fiókjához nem nevez meg túraútvonal-szerzőt, így a Manzil nem tudja, mely túraútvonalak a tieid.',
   'wanderer.error.too_large': 'A túraútvonal fájlja nagyobb 10 MB-nál.',
   'wanderer.error.server_error': 'A wanderer hibával válaszolt. Próbáld újra később.',
   'wanderer.error.offline': 'Offline vagy. A wanderer csak online kereshető.',

@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Connexió amb wanderer eliminada',
   'wanderer.loadFailed': "No s'ha pogut carregar la connexió amb wanderer",
   'wanderer.privateIp':
-    "Aquesta adreça és en una xarxa privada. Si TREK no hi pot arribar, l'administrador ha de permetre les xarxes internes.",
+    "Aquesta adreça és en una xarxa privada. Si Manzil no hi pot arribar, l'administrador ha de permetre les xarxes internes.",
   'wanderer.error.disabled': 'El teu administrador no ha activat wanderer per a les excursions.',
   'wanderer.error.not_connected': 'wanderer encara no està connectat.',
   'wanderer.error.invalid_url': 'Aquesta adreça no és un URL de wanderer vàlid.',
   'wanderer.error.blocked_address':
-    "TREK no pot accedir a aquesta adreça. Per a una instància a la teva pròpia xarxa, l'administrador ha de definir ALLOW_INTERNAL_NETWORK=true.",
+    "Manzil no pot accedir a aquesta adreça. Per a una instància a la teva pròpia xarxa, l'administrador ha de definir ALLOW_INTERNAL_NETWORK=true.",
   'wanderer.error.unreachable':
     "No s'ha pogut contactar amb wanderer. Comprova l'adreça i que la instància estigui en marxa.",
   'wanderer.error.tls': "No s'ha pogut verificar el certificat de la instància. Si és autosignat, permet-lo a sota.",
@@ -36,7 +36,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'Només es poden importar els teus propis senders de wanderer.',
   'wanderer.error.invalid_response': "La resposta no ve de wanderer. Comprova que l'adreça apunti al mateix wanderer.",
   'wanderer.error.no_author':
-    "wanderer ha respost, però no indica cap autor de senders per al compte d'aquest token d'API, així que TREK no pot saber quins senders són teus.",
+    "wanderer ha respost, però no indica cap autor de senders per al compte d'aquest token d'API, així que Manzil no pot saber quins senders són teus.",
   'wanderer.error.too_large': 'El fitxer del sender ocupa més de 10 MB.',
   'wanderer.error.server_error': 'wanderer ha respost amb un error. Torna-ho a provar més tard.',
   'wanderer.error.offline': 'No tens connexió. Només es pot cercar a wanderer amb connexió.',

@@ -633,7 +633,7 @@ export class WebdavClient {
       tooLarge: (declared) =>
         new WebdavError(
           'too_large',
-          'The document is larger than TREK will transfer',
+          'The document is larger than Manzil will transfer',
           response.status,
           `content_length=${declared}`,
         ),

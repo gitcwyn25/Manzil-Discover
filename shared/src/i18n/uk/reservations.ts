@@ -143,7 +143,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'На мапі',
   'reservations.import.pinMissingTitle': 'Поки немає на мапі',
   'reservations.import.pinMissingBody':
-    'TREK не знайшов це житло на мапі. Перевірте назву й адресу вище та повторіть пошук або збережіть без позначки.',
+    'Manzil не знайшов це житло на мапі. Перевірте назву й адресу вище та повторіть пошук або збережіть без позначки.',
   'reservations.import.pinRetry': 'Шукати знову',
   'reservations.import.savedWithoutPin':
     'Збережено без позначки на мапі. Відредагуйте місце й укажіть його розташування, щоб побачити його на мапі.',
@@ -285,7 +285,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Показати у файлах',
   'reservations.filesNeedConnection':
     "Для завантаження файлів потрібне з'єднання. Видаліть нові, щоб зберегти бронювання офлайн, або збережіть, коли знову будете онлайн.",
-  'reservations.needsConnection': "Для цього потрібне з'єднання. Спробуйте ще раз, коли TREK знову буде онлайн.",
+  'reservations.needsConnection': "Для цього потрібне з'єднання. Спробуйте ще раз, коли Manzil знову буде онлайн.",
   'reservations.exportCsvFiltered': 'Експортувати показані рядки: {shown} із {total} (CSV)',
 };
 export default reservations;

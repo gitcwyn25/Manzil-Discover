@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Trên bản đồ',
   'reservations.import.pinMissingTitle': 'Chưa có trên bản đồ',
   'reservations.import.pinMissingBody':
-    'TREK không tìm thấy chỗ ở này trên bản đồ. Kiểm tra tên và địa chỉ ở trên rồi tìm lại, hoặc lưu mà không có ghim.',
+    'Manzil không tìm thấy chỗ ở này trên bản đồ. Kiểm tra tên và địa chỉ ở trên rồi tìm lại, hoặc lưu mà không có ghim.',
   'reservations.import.pinRetry': 'Tìm lại',
   'reservations.import.savedWithoutPin':
     'Đã lưu mà không có ghim trên bản đồ. Hãy sửa địa điểm và đặt vị trí để thấy nó trên bản đồ.',
@@ -267,7 +267,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Hiện trong Tập tin',
   'reservations.filesNeedConnection':
     'Cần có kết nối để tải tệp lên. Gỡ các tệp mới để lưu đặt chỗ khi ngoại tuyến, hoặc lưu khi bạn trực tuyến trở lại.',
-  'reservations.needsConnection': 'Thao tác này cần kết nối. Hãy thử lại khi TREK trực tuyến trở lại.',
+  'reservations.needsConnection': 'Thao tác này cần kết nối. Hãy thử lại khi Manzil trực tuyến trở lại.',
   'reservations.exportCsvFiltered': 'Xuất {shown} trong {total} dòng đang hiển thị (CSV)',
 };
 export default reservations;

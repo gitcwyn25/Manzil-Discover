@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'Cho phép người dùng nhận thông báo trên điện thoại và máy tính qua trình duyệt, ngay cả khi TREK đang đóng. Cần HTTPS; trên iPhone và iPad, TREK phải được thêm vào Màn hình chính.',
+    'Cho phép người dùng nhận thông báo trên điện thoại và máy tính qua trình duyệt, ngay cả khi Manzil đang đóng. Cần HTTPS; trên iPhone và iPad, Manzil phải được thêm vào Màn hình chính.',
   'admin.notifications.inappPanel.title': 'Trong ứng dụng',
   'admin.notifications.inappPanel.hint': 'Thông báo trong ứng dụng luôn hoạt động và không thể tắt trên toàn cầu.',
   'admin.notifications.adminWebhookPanel.title': 'Webhook quản trị viên',
@@ -141,13 +141,13 @@ const admin: TranslationStrings = {
   'admin.requireMfaHint': 'Người dùng không có 2FA phải hoàn tất thiết lập trong Cài đặt trước khi sử dụng ứng dụng.',
   'admin.apiKeys': 'API Key',
   'admin.apiKeysHint':
-    'Dữ liệu địa điểm đến từ đâu. Chỉ mục TREK không cần khóa; hai nhà cung cấp bên dưới là tùy chọn.',
+    'Dữ liệu địa điểm đến từ đâu. Chỉ mục Manzil không cần khóa; hai nhà cung cấp bên dưới là tùy chọn.',
   'admin.trekApi.badgeDefault': 'Nguồn mặc định khuyến nghị',
   'admin.googleCaveat.badge': 'Không khuyến nghị',
   'admin.googleCaveat.body':
-    'TREK là phần mềm nguồn mở và ở đây chúng tôi không trung lập. Ở quy mô này, đánh giá và ảnh của các cửa hàng thông thường chỉ có ở Google, và đó là độc quyền. Ô này có mặt vì không có lựa chọn khác, không phải vì chúng tôi khuyến nghị. Khi đó mọi truy vấn đều đi tới Google.',
+    'Manzil là phần mềm nguồn mở và ở đây chúng tôi không trung lập. Ở quy mô này, đánh giá và ảnh của các cửa hàng thông thường chỉ có ở Google, và đó là độc quyền. Ô này có mặt vì không có lựa chọn khác, không phải vì chúng tôi khuyến nghị. Khi đó mọi truy vấn đều đi tới Google.',
   'admin.trekApi.tagline':
-    'Các dịch vụ riêng của TREK: tìm địa điểm, tìm địa chỉ và chỉ đường, không cần khóa Google và không phải nhập khóa nào. Mỗi bản cài đặt nhận một hạn mức hằng ngày công bằng, và chỉ số lượng yêu cầu được tính.',
+    'Các dịch vụ riêng của Manzil: tìm địa điểm, tìm địa chỉ và chỉ đường, không cần khóa Google và không phải nhập khóa nào. Mỗi bản cài đặt nhận một hạn mức hằng ngày công bằng, và chỉ số lượng yêu cầu được tính.',
   'admin.trekApi.factPlaces': '73,6 triệu địa điểm trên toàn thế giới',
   'admin.trekApi.factNoKey': 'Không cần nhập khóa, hạn mức hằng ngày công bằng',
   'admin.trekApi.factOffline': 'Gói theo quốc gia dùng được ngoại tuyến',
@@ -215,7 +215,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Google Maps API Key', // same-as-en
   'admin.mapsKeyHint': 'Cần thiết cho tìm kiếm địa điểm. Truy cập tại console.cloud.google.com',
   'admin.mapsKeyHintLong':
-    'Không có khóa API của Google thì TREK API được khuyến nghị sẽ được dùng. Có khóa thì có thể tải thêm ảnh, đánh giá và giờ mở cửa. Tạo khóa tại console.cloud.google.com.',
+    'Không có khóa API của Google thì Manzil API được khuyến nghị sẽ được dùng. Có khóa thì có thể tải thêm ảnh, đánh giá và giờ mở cửa. Tạo khóa tại console.cloud.google.com.',
   'admin.recommended': 'Khuyến khích',
   'admin.weatherKey': 'OpenWeatherMap API Key', // same-as-en
   'admin.weatherKeyHint': 'Đối với dữ liệu thời tiết. Miễn phí tại openweathermap.org',
@@ -227,13 +227,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': 'Đặt qua {name}',
   'admin.placesProvider.title': 'Nhà cung cấp tìm kiếm địa điểm',
   'admin.placesProvider.subtitle':
-    'Chỉ mục riêng của TREK và OpenStreetMap trả lời mọi tìm kiếm. Ở đây chọn ai được hỏi thêm khi chúng không tìm thấy gì: Tự động ưu tiên Google nếu có khóa, rồi đến Amap.',
+    'Chỉ mục riêng của Manzil và OpenStreetMap trả lời mọi tìm kiếm. Ở đây chọn ai được hỏi thêm khi chúng không tìm thấy gì: Tự động ưu tiên Google nếu có khóa, rồi đến Amap.',
   'admin.placesProvider.auto': 'Tự động',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Nhà cung cấp đã chọn chưa có khóa API, nên tìm kiếm địa điểm chỉ do chỉ mục TREK và OpenStreetMap trả lời.',
+    'Nhà cung cấp đã chọn chưa có khóa API, nên tìm kiếm địa điểm chỉ do chỉ mục Manzil và OpenStreetMap trả lời.',
   'admin.placesProvider.saved': 'Đã lưu nhà cung cấp tìm kiếm địa điểm',
   'admin.validateKey': 'Bài kiểm tra',
   'admin.keyValid': 'Đã kết nối',
@@ -269,14 +269,14 @@ const admin: TranslationStrings = {
     'Hiển thị hình ảnh và mô tả khi thêm địa điểm. Wikipedia và OpenStreetMap luôn được dùng; Google được thêm vào khi bật Ảnh địa điểm hoặc Chi tiết địa điểm.',
   'admin.placesGoogleOnly.title': 'Chỉ tìm bằng Google',
   'admin.placesGoogleOnly.subtitle':
-    'Mọi tìm kiếm và mọi gợi ý đều đi tới Google Places. Khi tắt, chỉ mục của TREK và OpenStreetMap trả lời trước, Google chỉ được hỏi khi cả hai không tìm thấy gì.',
+    'Mọi tìm kiếm và mọi gợi ý đều đi tới Google Places. Khi tắt, chỉ mục của Manzil và OpenStreetMap trả lời trước, Google chỉ được hỏi khi cả hai không tìm thấy gì.',
   'admin.placesGoogleOnly.missingKey':
-    'Cần khóa API Google Maps. Không có khóa, tìm kiếm chạy trên chỉ mục của TREK và OpenStreetMap, bất kể công tắc này.',
+    'Cần khóa API Google Maps. Không có khóa, tìm kiếm chạy trên chỉ mục của Manzil và OpenStreetMap, bất kể công tắc này.',
   'admin.placesGoogleOnly.otherProvider':
     'Cần Google làm nhà cung cấp địa điểm. Khi chọn Amap hoặc OpenStreetMap, không tìm kiếm nào được gửi đến Google dù công tắc này đặt thế nào.',
   'admin.googleQuota.title': 'Giới hạn lượt gọi Google mỗi ngày',
   'admin.googleQuota.subtitle':
-    'Khi đạt giới hạn, TREK ngừng gọi Google đến ngày hôm sau (UTC) và tìm kiếm bằng OpenStreetMap. Để trống nếu không giới hạn.',
+    'Khi đạt giới hạn, Manzil ngừng gọi Google đến ngày hôm sau (UTC) và tìm kiếm bằng OpenStreetMap. Để trống nếu không giới hạn.',
   'admin.googleQuota.placeholder': 'Không giới hạn',
   'admin.googleQuota.usedToday': 'Hôm nay: {used}',
   'admin.googleQuota.usedOfLimit': 'Hôm nay: {used} / {limit}',
@@ -435,7 +435,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Kho mã nguồn',
   'admin.plugins.reportIssue': 'Báo cáo sự cố',
   'admin.plugins.homepage': 'Trang chủ',
-  'admin.plugins.requiresTrek': 'Yêu cầu TREK {version}+',
+  'admin.plugins.requiresTrek': 'Yêu cầu Manzil {version}+',
   'admin.plugins.reviewedOn': 'Đã kiểm duyệt {date}',
   'admin.plugins.perm.db:own': 'Lưu trữ dữ liệu riêng trong một cơ sở dữ liệu cách ly',
   'admin.plugins.perm.db:read:trips': 'Đọc các chuyến đi mà người dùng hiện tại có quyền truy cập',
@@ -506,7 +506,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:calendar-source': 'Cung cấp sự kiện cho lịch',
   'admin.plugins.perm.hook:place-detail-provider':
     'Đóng góp thêm thông tin chi tiết (đánh giá, xếp hạng, liên kết) cho một địa điểm',
-  'admin.plugins.perm.hook:search-provider': 'Trả lời tìm kiếm địa điểm từ chỉ mục riêng, bên cạnh kết quả của TREK',
+  'admin.plugins.perm.hook:search-provider': 'Trả lời tìm kiếm địa điểm từ chỉ mục riêng, bên cạnh kết quả của Manzil',
   'admin.plugins.perm.hook:poi-category-provider':
     'Thêm các danh mục địa điểm riêng vào “Khám phá các địa điểm trên bản đồ”; khi bạn chọn một danh mục, plugin sẽ nhận vùng bản đồ bạn đang xem',
   'admin.plugins.perm.hook:trip-warning-provider':
@@ -530,7 +530,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Xuất bản các công cụ mà trợ lý AI có thể chạy thay bạn (nó hoạt động với quyền bạn cấp cho tiện ích tại đây, không phải quyền của trợ lý)',
   'admin.plugins.perm.geolocation:read':
-    'Hỏi vị trí trực tiếp của bạn khi một trong các chế độ xem của nó đang mở (TREK đọc vị trí bằng quyền vị trí của trang này, không phải quyền riêng của plugin)',
+    'Hỏi vị trí trực tiếp của bạn khi một trong các chế độ xem của nó đang mở (Manzil đọc vị trí bằng quyền vị trí của trang này, không phải quyền riêng của plugin)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Thêm các phần văn bản vào bản xuất PDF của chuyến đi',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Làm nổi bật các quốc gia trên bản đồ thế giới Atlas (vd. danh sách mong muốn hoặc cảnh báo du lịch)',
@@ -560,26 +560,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Tạm thời để tắt',
   'admin.plugins.updateKeptOff': 'Đã cài đặt bản cập nhật — vẫn tắt cho đến khi bạn phê duyệt các quyền mới',
   'admin.plugins.reviewedMeaning':
-    '"Đã kiểm duyệt" nghĩa là một người bảo trì TREK đã quét plugin này để tìm mã độc trên mỗi phiên bản — không phải về chất lượng hay việc nó có hoạt động hay không. Đây không phải là bảo đảm rằng plugin vô hại.',
+    '"Đã kiểm duyệt" nghĩa là một người bảo trì Manzil đã quét plugin này để tìm mã độc trên mỗi phiên bản — không phải về chất lượng hay việc nó có hoạt động hay không. Đây không phải là bảo đảm rằng plugin vô hại.',
   'admin.plugins.security.title': 'Cách plugin được cô lập — và những giới hạn',
   'admin.plugins.security.isolationTitle': 'Mọi plugin đều chạy trong hộp cách ly',
   'admin.plugins.security.isolationBody':
-    'Plugin chạy như một tiến trình bị khóa riêng, chỉ có thể đọc các tệp của chính nó. Nó không thể đọc cơ sở dữ liệu, khóa bí mật đăng nhập hay khóa mã hóa của bạn, không thể khởi chạy chương trình khác và không thể ghi tệp ở bất kỳ đâu. Giao diện của nó chạy trong một khung trình duyệt được niêm phong, không thể đọc cookie phiên của bạn hay tác động đến trang TREK xung quanh.',
+    'Plugin chạy như một tiến trình bị khóa riêng, chỉ có thể đọc các tệp của chính nó. Nó không thể đọc cơ sở dữ liệu, khóa bí mật đăng nhập hay khóa mã hóa của bạn, không thể khởi chạy chương trình khác và không thể ghi tệp ở bất kỳ đâu. Giao diện của nó chạy trong một khung trình duyệt được niêm phong, không thể đọc cookie phiên của bạn hay tác động đến trang Manzil xung quanh.',
   'admin.plugins.security.permsTitle': 'Các quyền có ý nghĩa gì',
   'admin.plugins.security.permsBody':
-    'Các quyền hiển thị trước khi bạn cài đặt là một giới hạn cứng mà TREK thực thi trong khi plugin chạy — nó thực sự không thể làm bất cứ điều gì không có trong danh sách. Nhưng chúng cho bạn biết một plugin có thể làm gì, chứ không phải nó thực sự làm gì. Một plugin được phép đọc các chuyến đi của bạn và kết nối tới một máy chủ có thể gửi các chuyến đi của bạn đến máy chủ đó, vì vậy hãy đọc các quyền và các máy chủ ra ngoài, chứ không chỉ phần mô tả.',
+    'Các quyền hiển thị trước khi bạn cài đặt là một giới hạn cứng mà Manzil thực thi trong khi plugin chạy — nó thực sự không thể làm bất cứ điều gì không có trong danh sách. Nhưng chúng cho bạn biết một plugin có thể làm gì, chứ không phải nó thực sự làm gì. Một plugin được phép đọc các chuyến đi của bạn và kết nối tới một máy chủ có thể gửi các chuyến đi của bạn đến máy chủ đó, vì vậy hãy đọc các quyền và các máy chủ ra ngoài, chứ không chỉ phần mô tả.',
   'admin.plugins.security.limitsTitle': 'Những điều chúng tôi không thể hứa',
   'admin.plugins.security.limitsBody':
-    'Sự cô lập là một ranh giới phần mềm mạnh mẽ, chứ không tuyệt đối. Một plugin hoạt động với đúng các quyền mà bạn phê duyệt, vì vậy trong phạm vi các quyền đó nó có thể hành xử khác với mô tả của nó, và nó có thể gửi dữ liệu mà nó nắm giữ hợp lệ đến các máy chủ mà nó đã khai báo. TREK không đọc hay đánh giá những gì mã của một plugin thực sự làm.',
+    'Sự cô lập là một ranh giới phần mềm mạnh mẽ, chứ không tuyệt đối. Một plugin hoạt động với đúng các quyền mà bạn phê duyệt, vì vậy trong phạm vi các quyền đó nó có thể hành xử khác với mô tả của nó, và nó có thể gửi dữ liệu mà nó nắm giữ hợp lệ đến các máy chủ mà nó đã khai báo. Manzil không đọc hay đánh giá những gì mã của một plugin thực sự làm.',
   'admin.plugins.security.worstTitle': 'Trường hợp xấu nhất',
   'admin.plugins.security.worstBody':
     'Một plugin độc hại mà bạn bật lên có thể lạm dụng dữ liệu và các kết nối mà bạn đã cấp cho nó — ví dụ, làm rò rỉ các chuyến đi mà nó được phép đọc. Nó không thể đánh cắp mật khẩu, giả mạo đăng nhập quản trị viên, chạy lệnh trên máy chủ của bạn hay truy cập dữ liệu mà bạn không cấp. Thiệt hại chỉ nằm trong phạm vi những gì bạn đã phê duyệt, và việc tắt plugin sẽ dừng nó lại.',
   'admin.plugins.security.reviewedTitle': '"Đã kiểm duyệt" nghĩa là gì',
   'admin.plugins.security.reviewedBody':
-    'Một plugin đã kiểm duyệt đã được người bảo trì TREK quét thủ công để tìm mã độc trên mỗi phiên bản — được kiểm tra về mã độc hại, chứ không phải về việc nó có hoạt động tốt hay không. Đây không phải là lời hứa rằng plugin vô hại.',
+    'Một plugin đã kiểm duyệt đã được người bảo trì Manzil quét thủ công để tìm mã độc trên mỗi phiên bản — được kiểm tra về mã độc hại, chứ không phải về việc nó có hoạt động tốt hay không. Đây không phải là lời hứa rằng plugin vô hại.',
   'admin.plugins.security.signedTitle': '"Đã ký" nghĩa là gì',
   'admin.plugins.security.signedBody':
-    'Giá trị kiểm tra (checksum) mà TREK xác minh ở mỗi lần cài đặt chứng minh rằng các tệp đúng là những gì kho đăng ký bảo chứng. Chữ ký chứng minh một điều khác: rằng chúng đến từ tác giả, được ký bằng một khóa chỉ mình họ nắm giữ. Một plugin đã ký có cả hai. Một plugin chưa ký không phải là không an toàn — nó chỉ mang ít hơn một bảo đảm, và hiện nay phần lớn plugin trong kho đăng ký đều chưa ký.',
+    'Giá trị kiểm tra (checksum) mà Manzil xác minh ở mỗi lần cài đặt chứng minh rằng các tệp đúng là những gì kho đăng ký bảo chứng. Chữ ký chứng minh một điều khác: rằng chúng đến từ tác giả, được ký bằng một khóa chỉ mình họ nắm giữ. Một plugin đã ký có cả hai. Một plugin chưa ký không phải là không an toàn — nó chỉ mang ít hơn một bảo đảm, và hiện nay phần lớn plugin trong kho đăng ký đều chưa ký.',
   'admin.plugins.signed': 'Đã ký',
   'admin.plugins.signedHint': 'Đã được xác minh với khóa ký của tác giả khi cài đặt',
   'admin.plugins.unsigned': 'Chưa ký',
@@ -594,20 +594,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Các tệp không khớp với chữ ký của tác giả. Chúng không phải là những gì tác giả đã ký — hoặc chúng bị hỏng, hoặc chúng đã bị can thiệp. Không thể bỏ qua điều này.',
   'admin.plugins.sig.missingBody':
-    'Plugin này đã được ký khi bạn cài đặt, nhưng phiên bản mới không kèm chữ ký nào. TREK sẽ không lặng lẽ chấp nhận bước lùi đó. Không thể bỏ qua điều này.',
+    'Plugin này đã được ký khi bạn cài đặt, nhưng phiên bản mới không kèm chữ ký nào. Manzil sẽ không lặng lẽ chấp nhận bước lùi đó. Không thể bỏ qua điều này.',
   'admin.plugins.sig.incompleteBody':
     'Mục trong kho đăng ký chỉ được ký một nửa: nó khai báo khóa của tác giả nhưng phiên bản lại không có chữ ký (hoặc ngược lại). Đó là một sai sót từ phía plugin. Không thể bỏ qua điều này.',
   'admin.plugins.sig.pinnedKey': 'Khóa đã dùng khi cài đặt',
   'admin.plugins.sig.newKey': 'Khóa nó đang đưa ra hiện giờ',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK không thể phân biệt một lần xoay khóa hợp lệ với một vụ chiếm quyền — nhìn từ đây, cả hai giống hệt nhau. Hãy xác nhận khóa mới với tác giả qua một kênh mà bạn đã tin tưởng trước khi chấp nhận nó. Khi bạn chấp nhận, plugin sẽ được cập nhật và khóa mới sẽ được ghi nhớ.',
+    'Manzil không thể phân biệt một lần xoay khóa hợp lệ với một vụ chiếm quyền — nhìn từ đây, cả hai giống hệt nhau. Hãy xác nhận khóa mới với tác giả qua một kênh mà bạn đã tin tưởng trước khi chấp nhận nó. Khi bạn chấp nhận, plugin sẽ được cập nhật và khóa mới sẽ được ghi nhớ.',
   'admin.plugins.sig.retrustConfirm': 'Tin cậy khóa mới & cập nhật',
   'admin.plugins.sig.cancel': 'Không tin cậy',
   'admin.plugins.sig.consentUnsigned':
     'Không có gì gắn phiên bản này với tác giả của nó — các tệp khớp với kho đăng ký, nhưng chúng không mang chữ ký của tác giả.',
   'admin.plugins.security.trustTitle': 'Điểm mấu chốt',
   'admin.plugins.security.trustBody':
-    'Cài đặt một plugin cũng giống như cài đặt bất kỳ ứng dụng bên thứ ba nào: chỉ cài đặt mã từ những tác giả bạn tin tưởng, và khi còn nghi ngờ, hãy tự kiểm tra nó trước. TREK không chịu trách nhiệm về các plugin của bên thứ ba.',
+    'Cài đặt một plugin cũng giống như cài đặt bất kỳ ứng dụng bên thứ ba nào: chỉ cài đặt mã từ những tác giả bạn tin tưởng, và khi còn nghi ngờ, hãy tự kiểm tra nó trước. Manzil không chịu trách nhiệm về các plugin của bên thứ ba.',
   'admin.plugins.runtimeOn': 'Runtime đang bật',
   'admin.plugins.tabDiscover': 'Khám phá',
   'admin.plugins.searchPlaceholder': 'Tìm kiếm plugin…',
@@ -623,11 +623,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortUpdates': 'Ưu tiên bản cập nhật',
   'admin.plugins.sortDownloads': 'Tải nhiều nhất',
   'admin.plugins.updatesAvailable': 'Có {count} bản cập nhật cho các plugin của bạn.',
-  'admin.plugins.newerNeedsTrek': 'Đã có v{version} — cần TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'Đã có v{version} — cần Manzil {range}',
   'admin.plugins.versionsTitle': 'Phiên bản',
   'admin.plugins.versionPickerTitle': 'Đổi phiên bản — {name}',
   'admin.plugins.versionSwitch': 'Chuyển sang {version}',
-  'admin.plugins.versionNeedsTrek': 'cần TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'cần Manzil {range}',
   'admin.plugins.changeVersion': 'Đổi phiên bản…',
   'admin.plugins.noVersions': 'Không tìm thấy phiên bản đã xuất bản trong sổ đăng ký.',
   'admin.plugins.downgradeTitle': 'Quay lại phiên bản cũ của plugin này?',
@@ -692,30 +692,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Tải xuống',
   'admin.plugins.dep.update': 'Cập nhật',
   'admin.plugins.dep.resolveHint': 'Tải phiên bản tương thích mới nhất, bao gồm cả các phần phụ thuộc của nó.',
-  'admin.plugins.dep.trekIncompatible': 'Cần TREK {range} — máy chủ này đang chạy {host}',
-  'admin.plugins.dep.trekUnknown': 'Không nêu rõ hỗ trợ những phiên bản TREK nào',
+  'admin.plugins.dep.trekIncompatible': 'Cần Manzil {range} — máy chủ này đang chạy {host}',
+  'admin.plugins.dep.trekUnknown': 'Không nêu rõ hỗ trợ những phiên bản Manzil nào',
   'admin.plugins.installCompatible': 'Cài đặt {version}',
   'admin.plugins.installAnyway': 'Vẫn cài đặt',
   'admin.plugins.rangeBypass.pill': 'Đã tắt kiểm tra phiên bản',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt — plugin có thể được cài đặt và chạy ngoài các phiên bản TREK mà tác giả đã khai báo',
-  'admin.plugins.rangeBypass.title': 'Ngoài các phiên bản TREK được hỗ trợ',
-  'admin.plugins.rangeBypass.noticeTitle': 'Đã cài đặt ngoài các phiên bản TREK được hỗ trợ',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt — plugin có thể được cài đặt và chạy ngoài các phiên bản Manzil mà tác giả đã khai báo',
+  'admin.plugins.rangeBypass.title': 'Ngoài các phiên bản Manzil được hỗ trợ',
+  'admin.plugins.rangeBypass.noticeTitle': 'Đã cài đặt ngoài các phiên bản Manzil được hỗ trợ',
   'admin.plugins.rangeBypass.body':
-    '“{name}” khai báo hỗ trợ TREK {range}, còn máy chủ này đang chạy {host}. TREK chỉ cho phép vì TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt. Tác giả chưa cập nhật phạm vi phiên bản của plugin cho TREK này, nên không có gì đảm bảo nó hoạt động — và trong một số ít trường hợp, plugin không tương thích có thể làm hỏng dữ liệu TREK. Chỉ tiếp tục nếu bạn chấp nhận rủi ro đó.',
+    '“{name}” khai báo hỗ trợ Manzil {range}, còn máy chủ này đang chạy {host}. Manzil chỉ cho phép vì TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt. Tác giả chưa cập nhật phạm vi phiên bản của plugin cho Manzil này, nên không có gì đảm bảo nó hoạt động — và trong một số ít trường hợp, plugin không tương thích có thể làm hỏng dữ liệu Manzil. Chỉ tiếp tục nếu bạn chấp nhận rủi ro đó.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '“{name}” không khai báo hỗ trợ phiên bản TREK nào; máy chủ này đang chạy {host}. TREK chỉ cho phép vì TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt. Không có dấu hiệu nào cho thấy tác giả đã thử nghiệm trên TREK này, nên không có gì đảm bảo nó hoạt động — và trong một số ít trường hợp, plugin không tương thích có thể làm hỏng dữ liệu TREK. Chỉ tiếp tục nếu bạn chấp nhận rủi ro đó.',
-  'admin.plugins.dep.trekBypassed': 'Ngoài phạm vi TREK của nó ({range}) — đã tắt kiểm tra phiên bản',
-  'admin.plugins.dep.trekBypassedUnknown': 'Không khai báo phạm vi TREK — đã tắt kiểm tra phiên bản',
-  'admin.plugins.rangeBypass.titleAdmin': 'Chưa thử trên TREK này',
+    '“{name}” không khai báo hỗ trợ phiên bản Manzil nào; máy chủ này đang chạy {host}. Manzil chỉ cho phép vì TREK_PLUGINS_IGNORE_TREK_RANGE đã được đặt. Không có dấu hiệu nào cho thấy tác giả đã thử nghiệm trên Manzil này, nên không có gì đảm bảo nó hoạt động — và trong một số ít trường hợp, plugin không tương thích có thể làm hỏng dữ liệu Manzil. Chỉ tiếp tục nếu bạn chấp nhận rủi ro đó.',
+  'admin.plugins.dep.trekBypassed': 'Ngoài phạm vi Manzil của nó ({range}) — đã tắt kiểm tra phiên bản',
+  'admin.plugins.dep.trekBypassedUnknown': 'Không khai báo phạm vi Manzil — đã tắt kiểm tra phiên bản',
+  'admin.plugins.rangeBypass.titleAdmin': 'Chưa thử trên Manzil này',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Theo tác giả, “{name}” hỗ trợ TREK {range}, còn máy chủ này chạy {host}. Tác giả chưa xác nhận nó cho TREK này, nên nó có thể không hoạt động, và trong vài trường hợp hiếm, một plugin không phù hợp có thể làm hỏng dữ liệu TREK. Bạn vẫn có thể dùng nó: lựa chọn của bạn chỉ áp dụng cho plugin này ở phiên bản này, và TREK sẽ hỏi lại sau khi cập nhật.',
+    'Theo tác giả, “{name}” hỗ trợ Manzil {range}, còn máy chủ này chạy {host}. Tác giả chưa xác nhận nó cho Manzil này, nên nó có thể không hoạt động, và trong vài trường hợp hiếm, một plugin không phù hợp có thể làm hỏng dữ liệu Manzil. Bạn vẫn có thể dùng nó: lựa chọn của bạn chỉ áp dụng cho plugin này ở phiên bản này, và Manzil sẽ hỏi lại sau khi cập nhật.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '“{name}” không cho biết hỗ trợ những phiên bản TREK nào, còn máy chủ này chạy {host}. Không có dấu hiệu nào cho thấy nó đã được thử trên TREK này, nên nó có thể không hoạt động, và trong vài trường hợp hiếm, một plugin không phù hợp có thể làm hỏng dữ liệu TREK. Bạn vẫn có thể dùng nó: lựa chọn của bạn chỉ áp dụng cho plugin này ở phiên bản này, và TREK sẽ hỏi lại sau khi cập nhật.',
-  'admin.plugins.dep.trekAccepted': 'Làm cho TREK {range}, chạy với rủi ro của bạn',
-  'admin.plugins.dep.trekAcceptedUnknown': 'Không ghi phiên bản TREK, chạy với rủi ro của bạn',
+    '“{name}” không cho biết hỗ trợ những phiên bản Manzil nào, còn máy chủ này chạy {host}. Không có dấu hiệu nào cho thấy nó đã được thử trên Manzil này, nên nó có thể không hoạt động, và trong vài trường hợp hiếm, một plugin không phù hợp có thể làm hỏng dữ liệu Manzil. Bạn vẫn có thể dùng nó: lựa chọn của bạn chỉ áp dụng cho plugin này ở phiên bản này, và Manzil sẽ hỏi lại sau khi cập nhật.',
+  'admin.plugins.dep.trekAccepted': 'Làm cho Manzil {range}, chạy với rủi ro của bạn',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Không ghi phiên bản Manzil, chạy với rủi ro của bạn',
   'admin.plugins.activateAnyway': 'Vẫn kích hoạt',
-  'admin.plugins.untestedChip': 'Chưa được xác nhận cho TREK {host}',
+  'admin.plugins.untestedChip': 'Chưa được xác nhận cho Manzil {host}',
   'admin.plugins.filters': 'Lọc',
   'admin.plugins.security.short': 'Cách plugin được bảo vệ',
   'admin.plugins.accessTitle': 'Những gì có thể truy cập',
@@ -728,7 +728,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'Đã kiểm duyệt vào',
   'admin.plugins.downloads': 'Lượt tải',
   'admin.addons.title': 'Tiện ích bổ sung',
-  'admin.addons.subtitle': 'Bật hoặc tắt các tính năng để tùy chỉnh trải nghiệm TREK của bạn.',
+  'admin.addons.subtitle': 'Bật hoặc tắt các tính năng để tùy chỉnh trải nghiệm Manzil của bạn.',
   'admin.addons.catalog.packing.name': 'Danh sách',
   'admin.addons.catalog.packing.description': 'Danh sách đóng gói và nhiệm vụ cần làm cho chuyến đi của bạn',
   'admin.addons.catalog.budget.name': 'Chi phí',
@@ -805,7 +805,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Dữ liệu thời tiết',
   'admin.weather.badge': 'Kể từ ngày 24 tháng 3 năm 2026',
   'admin.weather.description':
-    'TREK sử dụng Open-Meteo làm nguồn dữ liệu thời tiết. Open-Meteo là dịch vụ thời tiết nguồn mở, miễn phí — không yêu cầu khóa API.',
+    'Manzil sử dụng Open-Meteo làm nguồn dữ liệu thời tiết. Open-Meteo là dịch vụ thời tiết nguồn mở, miễn phí — không yêu cầu khóa API.',
   'admin.weather.forecast': 'dự báo 16 ngày',
   'admin.weather.forecastDesc': 'Trước đây 5 ngày (OpenWeatherMap)',
   'admin.weather.climate': 'Dữ liệu khí hậu lịch sử',
@@ -864,14 +864,14 @@ const admin: TranslationStrings = {
   'admin.github.loading': 'Đang tải...',
   'admin.github.error': 'Không tải được bản phát hành',
   'admin.github.by': 'qua',
-  'admin.github.support': 'Giúp tôi tiếp tục xây dựng TREK',
+  'admin.github.support': 'Giúp tôi tiếp tục xây dựng Manzil',
   'admin.update.available': 'Đã có bản cập nhật',
-  'admin.update.text': 'TREK {version} có sẵn. Bạn đang chạy {current}.',
+  'admin.update.text': 'Manzil {version} có sẵn. Bạn đang chạy {current}.',
   'admin.update.button': 'Xem trên GitHub',
   'admin.update.install': 'Cài đặt bản cập nhật',
   'admin.update.confirmTitle': 'Cài đặt bản cập nhật?',
   'admin.update.confirmText':
-    'TREK sẽ được cập nhật từ {current} lên {version}. Máy chủ sẽ tự động khởi động lại sau đó.',
+    'Manzil sẽ được cập nhật từ {current} lên {version}. Máy chủ sẽ tự động khởi động lại sau đó.',
   'admin.update.dataInfo':
     'Tất cả dữ liệu của bạn (chuyến đi, người dùng, khóa API, nội dung tải lên, Vacay, Atlas, ngân sách) sẽ được giữ nguyên.',
   'admin.update.warning': 'Ứng dụng sẽ không khả dụng trong thời gian ngắn khi khởi động lại.',
@@ -883,9 +883,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Đi tới Sao lưu',
   'admin.update.howTo': 'Cách cập nhật',
   'admin.update.dockerText':
-    'Phiên bản TREK của bạn chạy trong Docker. Để cập nhật lên {version}, hãy chạy các lệnh sau trên máy chủ của bạn:',
+    'Phiên bản Manzil của bạn chạy trong Docker. Để cập nhật lên {version}, hãy chạy các lệnh sau trên máy chủ của bạn:',
   'admin.update.nonDockerText':
-    'Phiên bản TREK này không chạy trong Docker. Để cập nhật lên {version}, hãy chạy lại phương pháp cài đặt hoặc cập nhật mà bạn đã sử dụng — ví dụ: trên Proxmox Community Script chạy bản cập nhật từ bảng điều khiển LXC:',
+    'Phiên bản Manzil này không chạy trong Docker. Để cập nhật lên {version}, hãy chạy lại phương pháp cài đặt hoặc cập nhật mà bạn đã sử dụng — ví dụ: trên Proxmox Community Script chạy bản cập nhật từ bảng điều khiển LXC:',
   'admin.update.wikiLink': 'Mở hướng dẫn cập nhật',
   'admin.update.reloadHint': 'Vui lòng tải lại trang sau vài giây.',
   'admin.tabs.permissions': 'Quyền',
@@ -952,7 +952,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Hiện không kết nối được Geofabrik. Hãy thử lại sau.',
   'admin.paddleRegions.attribution':
     'Dữ liệu © những người đóng góp OpenStreetMap (ODbL), bản trích xuất theo vùng của Geofabrik. Được đọc lại vào ngày 3 hằng tháng.',
-  'admin.paddleRegions.toast.added': 'Đã thêm vùng. TREK đang đọc vùng này trong nền.',
+  'admin.paddleRegions.toast.added': 'Đã thêm vùng. Manzil đang đọc vùng này trong nền.',
   'admin.paddleRegions.toast.removed': 'Đã xóa vùng',
   'admin.paddleRegions.phase.build': 'Đang xây dựng mạng lưới mặt nước',
   'admin.paddleRegions.network.km': '{km} km mặt nước',
@@ -968,11 +968,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'Theo yêu cầu',
   'admin.paddleRegions.auto.mode.off': 'Tắt',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Khi ai đó lên kế hoạch chèo thuyền ở nơi chưa có dữ liệu nước, TREK tải ngay vùng nhỏ nhất phù hợp, trong giới hạn kích thước và chỉ vài vùng mỗi ngày. Vùng lớn hơn sẽ chờ ở đây dưới dạng yêu cầu. Chỉ tên vùng được gửi tới Geofabrik, không bao giờ là vị trí.',
+    'Khi ai đó lên kế hoạch chèo thuyền ở nơi chưa có dữ liệu nước, Manzil tải ngay vùng nhỏ nhất phù hợp, trong giới hạn kích thước và chỉ vài vùng mỗi ngày. Vùng lớn hơn sẽ chờ ở đây dưới dạng yêu cầu. Chỉ tên vùng được gửi tới Geofabrik, không bao giờ là vị trí.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Mỗi vùng mới chờ ở đây cho đến khi quản trị viên cho phép. Khi quản trị viên tự lên kế hoạch, vùng được tải ngay.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK không tự tải gì và không yêu cầu gì. Hãy thêm vùng ở đây theo cách thủ công.',
+    'Manzil không tự tải gì và không yêu cầu gì. Hãy thêm vùng ở đây theo cách thủ công.',
   'admin.paddleRegions.auto.maxSize': 'Vùng lớn nhất được tải tự động',
   'admin.paddleRegions.auto.maxSizeHint':
     'Vùng lớn hơn chờ ở đây dưới dạng yêu cầu. Đọc một vùng mất vài phút và dùng bộ nhớ trong lúc đó.',
@@ -985,7 +985,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Tải',
   'admin.paddleRegions.requests.decline': 'Từ chối',
   'admin.paddleRegions.origin.auto': 'Tự động',
-  'admin.paddleRegions.origin.autoHint': 'TREK đã tự tải vùng này cho một chuyến chèo thuyền được lên kế hoạch ở đó.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil đã tự tải vùng này cho một chuyến chèo thuyền được lên kế hoạch ở đó.',
   'admin.mfa.reset': 'Đặt lại 2FA',
   'admin.mfa.resetHint':
     'Tắt xác thực hai yếu tố của người dùng này, ví dụ khi mất điện thoại. Họ bị đăng xuất ở mọi nơi và có thể thiết lập lại sau khi đăng nhập bằng mật khẩu.',
@@ -1019,7 +1019,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Quay',
   'admin.addons.ai.name': 'AI', // same-as-en
   'admin.addons.ai.description':
-    'Một kết nối cho trợ lý và việc nhập đặt chỗ. MCP cho phép các ứng dụng AI khác dùng TREK.',
+    'Một kết nối cho trợ lý và việc nhập đặt chỗ. MCP cho phép các ứng dụng AI khác dùng Manzil.',
   'admin.addons.ai.setup': 'Thiết lập AI',
   'admin.addons.ai.dialogSub': 'Kết nối mà trợ lý và phân tích bằng AI dùng chung, và những gì mỗi bên được làm.',
   'admin.addons.ai.tab.connection': 'Kết nối',
@@ -1050,16 +1050,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Tắt',
   'admin.contribute.status.unavailable': 'Không khả dụng',
   'admin.contribute.noteActive':
-    'Những gì người dùng của bạn nhập về địa điểm sẽ đến với mọi TREK sau khi được kiểm tra. Cảm ơn bạn đã giúp đỡ.',
+    'Những gì người dùng của bạn nhập về địa điểm sẽ đến với mọi Manzil sau khi được kiểm tra. Cảm ơn bạn đã giúp đỡ.',
   'admin.contribute.noteOff':
     'Hãy để những gì người dùng của bạn nhập về địa điểm giúp TREK Places API tốt hơn cho tất cả mọi người.',
   'admin.contribute.ineligible.env_off': 'Đã tắt cho bản cài đặt này bởi TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Chỉ bản cài đặt chạy thật mới có thể chia sẻ chi tiết địa điểm.',
   'admin.contribute.ineligible.demo': 'Bản cài đặt demo không chia sẻ chi tiết địa điểm.',
-  'admin.contribute.ineligible.index_off': 'Chia sẻ cần chỉ mục TREK làm nguồn địa điểm.',
+  'admin.contribute.ineligible.index_off': 'Chia sẻ cần chỉ mục Manzil làm nguồn địa điểm.',
   'admin.contribute.ineligible.custom_places_url':
     'Bản cài đặt này dùng Places API riêng, nên không có nơi nào để chia sẻ.',
-  'admin.contribute.ineligible.services_off': 'Các dịch vụ TREK đã bị tắt cho bản cài đặt này.',
+  'admin.contribute.ineligible.services_off': 'Các dịch vụ Manzil đã bị tắt cho bản cài đặt này.',
   'admin.contribute.ineligible.no_key': 'Bản cài đặt này chưa có khóa dịch vụ. Khóa được yêu cầu tự động.',
   'admin.contribute.pause.key_invalid': 'Đã tạm dừng: dịch vụ không chấp nhận khóa của bản cài đặt này.',
   'admin.contribute.pause.key_refused':
@@ -1103,9 +1103,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Dừng chia sẻ',
   'admin.contribute.refused.terms_outdated': 'Điều khoản đã thay đổi trong lúc này. Vui lòng xem lại.',
   'admin.contribute.refused.no_field': 'Hãy chọn ít nhất một trường để chia sẻ.',
-  'admin.contribute.prompt.title': 'Giúp mọi TREK hiểu địa điểm tốt hơn',
+  'admin.contribute.prompt.title': 'Giúp mọi Manzil hiểu địa điểm tốt hơn',
   'admin.contribute.prompt.lead':
-    'Khi ai đó ở đây thêm trang web, số điện thoại, giờ mở cửa hoặc mô tả cho một địa điểm, TREK có thể chuyển tiếp thông tin đó. Sau khi kiểm tra, mọi bản cài đặt TREK sẽ hiển thị nó, và bản của bạn cũng nhận lại những gì người khác đã thêm.',
+    'Khi ai đó ở đây thêm trang web, số điện thoại, giờ mở cửa hoặc mô tả cho một địa điểm, Manzil có thể chuyển tiếp thông tin đó. Sau khi kiểm tra, mọi bản cài đặt Manzil sẽ hiển thị nó, và bản của bạn cũng nhận lại những gì người khác đã thêm.',
   'admin.contribute.prompt.why':
     'TREK Places API miễn phí và không cần khóa Google vì được xây dựng từ dữ liệu mở. Mỗi chi tiết bạn chia sẻ giúp nó tốt hơn cho hàng nghìn du khách. Cảm ơn bạn đã cùng tham gia.',
   'admin.contribute.prompt.whatLabel': 'Những gì được chia sẻ',
@@ -1129,6 +1129,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Cảm ơn bạn. Chi tiết địa điểm hiện đã được chia sẻ.',
   'admin.servicesCard.title': 'Tìm kiếm địa điểm và chỉ đường',
   'admin.servicesCard.hint':
-    'Các dịch vụ riêng của TREK, nhà cung cấp trả lời tìm kiếm và giao thông công cộng, và nhật ký tìm kiếm.',
+    'Các dịch vụ riêng của Manzil, nhà cung cấp trả lời tìm kiếm và giao thông công cộng, và nhật ký tìm kiếm.',
 };
 export default admin;

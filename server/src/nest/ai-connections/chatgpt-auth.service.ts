@@ -166,7 +166,7 @@ export class ChatgptAuthService {
     const params = new URLSearchParams({
       client_id: savedClientId ?? DYNAMIC_CLIENT_ID,
       // The name is a hint for the first registration only.
-      ...(savedClientId ? {} : { agent_name_hint: 'TREK' }),
+      ...(savedClientId ? {} : { agent_name_hint: 'Manzil' }),
       ext_agent_host_id: await this.settings.siwcHostId(),
       response_type: 'code',
       redirect_uri: CHATGPT_REDIRECT_URI,
@@ -396,7 +396,7 @@ export class ChatgptAuthService {
           headers: {
             'content-type': 'application/x-www-form-urlencoded',
             accept: 'application/json',
-            'user-agent': `TREK/${runningVersion()}`,
+            'user-agent': `Manzil/${runningVersion()}`,
           },
           body: new URLSearchParams(body).toString(),
           signal: AbortSignal.timeout(TOKEN_TIMEOUT_MS),

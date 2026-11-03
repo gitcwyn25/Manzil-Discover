@@ -198,7 +198,7 @@ const budget: TranslationStrings = {
   'costs.receiptsNeedConnection':
     'Cần có kết nối để tải hóa đơn lên. Gỡ các hóa đơn mới để lưu khoản chi khi ngoại tuyến, hoặc lưu khi bạn trực tuyến trở lại.',
   'costs.paymentQueued':
-    'Bạn đang ngoại tuyến. Khoản thanh toán đã được lưu và sẽ hiện ra khi TREK trực tuyến trở lại.',
+    'Bạn đang ngoại tuyến. Khoản thanh toán đã được lưu và sẽ hiện ra khi Manzil trực tuyến trở lại.',
   'costs.confirm.deleteBodyReceipts': '"{name}" sẽ bị xóa vĩnh viễn. Các tệp biên lai của nó vẫn nằm trong Tệp.',
 };
 

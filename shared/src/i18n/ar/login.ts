@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'جارٍ تسجيل الدخول…',
   'login.signIn': 'دخول',
   'login.createAdmin': 'إنشاء حساب مسؤول',
-  'login.createAdminHint': 'أعد إعداد أول حساب مسؤول لـ TREK.',
+  'login.createAdminHint': 'أعد إعداد أول حساب مسؤول لـ Manzil.',
   'login.setNewPassword': 'تعيين كلمة مرور جديدة',
   'login.setNewPasswordHint': 'يجب عليك تغيير كلمة المرور قبل المتابعة.',
   'login.createAccount': 'إنشاء حساب',
@@ -75,7 +75,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'فشل تسجيل الدخول بمفتاح المرور. يرجى المحاولة مرة أخرى.',
   'login.insecureCookie.title': 'لن يستمر تسجيل الدخول عبر HTTP',
   'login.insecureCookie.body':
-    'أنت تتصل عبر HTTP العادي، لذلك يتجاهل المتصفح ملف تعريف الارتباط الآمن للجلسة في TREK، وسيفشل الطلب التالي مع الرسالة "Access token required". الحل: استخدم HTTPS، أو اضبط COOKIE_SECURE=false في المختبر المنزلي.',
+    'أنت تتصل عبر HTTP العادي، لذلك يتجاهل المتصفح ملف تعريف الارتباط الآمن للجلسة في Manzil، وسيفشل الطلب التالي مع الرسالة "Access token required". الحل: استخدم HTTPS، أو اضبط COOKIE_SECURE=false في المختبر المنزلي.',
   'login.insecureCookie.link': 'افتح دليل استكشاف الأخطاء',
 };
 export default login;

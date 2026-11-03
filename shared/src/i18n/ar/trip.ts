@@ -46,7 +46,7 @@ const trip: TranslationStrings = {
   'trip.toast.placesDeleted.many': 'تم حذف {count} مكانًا',
   'trip.invite.linkTitle': 'رابط دعوة الرحلة',
   'trip.invite.linkHint':
-    'أي شخص لديه حساب TREK ويفتح هذا الرابط ينضم إلى الرحلة كعضو. أعد الإنشاء لإبطال الرابط القديم.',
+    'أي شخص لديه حساب Manzil ويفتح هذا الرابط ينضم إلى الرحلة كعضو. أعد الإنشاء لإبطال الرابط القديم.',
   'trip.invite.create': 'إنشاء رابط دعوة',
   'trip.invite.regenerate': 'إعادة الإنشاء',
   'trip.invite.disable': 'تعطيل',

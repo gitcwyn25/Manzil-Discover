@@ -54,7 +54,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'これらの数値はデスクトップで設定します。デスクトップでは、別のルートを比べたり、読み込んだトラックにその日を沿わせたりもできます。',
   'mobileTrip.planOnDesktop': '計画はデスクトップで',
-  'mobileTrip.rtDriveOnTwoPlaces': '1日に場所が2か所そろうと、TREKが走行を計算します。',
+  'mobileTrip.rtDriveOnTwoPlaces': '1日に場所が2か所そろうと、Manzilが走行を計算します。',
   'mobileTrip.toursEmptyBody': '保存したツアーがここに表示され、日に追加できます。',
   'mobileTrip.toursCount': '{count} 件のツアー',
   'mobileTrip.rtSearchOffline': '接続が必要です：この検索は先のルートを読み取ります。',

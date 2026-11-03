@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Ezeket az adatokat asztali gépen adod meg, ott hasonlíthatod össze az útvonalváltozatokat, és állíthatod be, hogy egy nap importált nyomvonalat kövessen.',
   'mobileTrip.planOnDesktop': 'Tervezés számítógépen',
-  'mobileTrip.rtDriveOnTwoPlaces': 'Amint egy napon két hely szerepel, a TREK kiszámolja az útvonalat.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Amint egy napon két hely szerepel, a Manzil kiszámolja az útvonalat.',
   'mobileTrip.toursEmptyBody': 'A mentett túrák itt jelennek meg, és egy naphoz rendelhetők.',
   'mobileTrip.toursCount': '{count} túra',
   'mobileTrip.toursCount.one': '{count} túra',

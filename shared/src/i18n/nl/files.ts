@@ -65,9 +65,9 @@ const files: TranslationStrings = {
     'Alle bestanden in de prullenbak permanent verwijderen? Dit kan niet ongedaan worden gemaakt.',
   'files.noteLabel': 'Notitie',
   'files.notePlaceholder': 'Notitie toevoegen...',
-  'files.uploadNeedsConnection': 'Uploaden heeft een verbinding nodig. Probeer het opnieuw zodra TREK weer online is.',
+  'files.uploadNeedsConnection': 'Uploaden heeft een verbinding nodig. Probeer het opnieuw zodra Manzil weer online is.',
   'files.linkNeedsConnection':
-    'Deze koppeling verwijderen heeft een verbinding nodig. Probeer het opnieuw zodra TREK weer online is.',
+    'Deze koppeling verwijderen heeft een verbinding nodig. Probeer het opnieuw zodra Manzil weer online is.',
   'files.placeFilesNeedConnection':
     'Bestanden hebben een verbinding nodig om te uploaden. Verwijder de nieuwe om de plek offline op te slaan, of sla op zodra je weer online bent.',
   'files.maxSize': 'Max. {count} MB',

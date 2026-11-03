@@ -252,7 +252,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Được chia sẻ qua',
   'journey.public.madeWith': 'Được làm bằng',
   'journey.pdf.journeyBook': 'Sách hành trình',
-  'journey.pdf.madeWith': 'Được làm bằng TREK',
+  'journey.pdf.madeWith': 'Được làm bằng Manzil',
   'journey.pdf.day': 'Ngày',
   'journey.pdf.theEnd': 'Sự kết thúc',
   'journey.pdf.saveAsPdf': 'Lưu dưới dạng PDF',
@@ -277,7 +277,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosUnavailable': 'Không có nhà cung cấp ảnh nào được kết nối.',
   'journey.editor.externalPhotosPartialFailed': '{failed} nhóm ảnh bị lỗi, hãy lưu lại để thử lại',
   'journey.picker.day': 'Ngày này',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Mở studio thiết kế photobook',
   'journey.studio.backToJourney': 'Quay lại hành trình',
@@ -318,7 +318,7 @@ const journey: TranslationStrings = {
     'Lưu thiết kế của trang đôi này thành tệp, không kèm ảnh, để chia sẻ hoặc dùng lại',
   'journey.studio.importSpread': 'Nhập',
   'journey.studio.importSpreadHint': 'Thêm một trang đôi từ tệp thiết kế đã tải về',
-  'journey.studio.importSpreadFailed': 'Tệp đó không phải trang đôi của TREK Studio',
+  'journey.studio.importSpreadFailed': 'Tệp đó không phải trang đôi của Manzil Studio',
   'journey.studio.desktopOnly': 'Studio cần màn hình lớn hơn',
   'journey.studio.desktopOnlyHint':
     'Dàn một cuốn sách cần chỗ để làm việc, nên Studio chỉ có trên máy tính, và việc tạo PDF cũng vậy. Mọi thứ khác của hành trình vẫn dùng bình thường ở đây.',
@@ -826,7 +826,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Lưu lại lộ trình',
   'journey.dayImport.stale':
     'Dawarich không phản hồi: {reason} Đang hiển thị các điểm dừng của lần đồng bộ cuối lúc {date}.',
-  'journey.dayImport.staleNever': 'Dawarich không phản hồi: {reason} Đang hiển thị các điểm dừng TREK đã biết.',
+  'journey.dayImport.staleNever': 'Dawarich không phản hồi: {reason} Đang hiển thị các điểm dừng Manzil đã biết.',
   'journey.dayImport.truncated': 'Dawarich chỉ gửi một phần của ngày này. Có thể thiếu điểm dừng.',
   'journey.dayImport.empty': 'Dawarich không tìm thấy điểm dừng nào trong ngày này.',
   'journey.prep.lastSuccess': 'Lần lấy gần nhất {time}.',

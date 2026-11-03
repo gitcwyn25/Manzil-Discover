@@ -54,7 +54,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Các số liệu này được đặt trên máy tính, nơi bạn cũng có thể so sánh các lộ trình khác và cho một ngày đi theo tuyến đã nhập.',
   'mobileTrip.planOnDesktop': 'Lập kế hoạch trên máy tính',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK tính chặng lái xe ngay khi một ngày có hai địa điểm.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil tính chặng lái xe ngay khi một ngày có hai địa điểm.',
   'mobileTrip.toursEmptyBody': 'Các chuyến tham quan đã lưu hiện ở đây, sẵn sàng thêm vào một ngày.',
   'mobileTrip.toursCount': '{count} chuyến tham quan',
   'mobileTrip.rtSearchOffline': 'Cần có kết nối: việc tìm kiếm đọc lộ trình phía trước.',

@@ -4,6 +4,7 @@ FROM mauriceboe/trek:5.1.0@sha256:23bf3fa6a134dc38a3b4f40ef8f7e8040abc96965105df
 
 FROM node:24-alpine AS build
 WORKDIR /app
+COPY --from=upstream /app/server/public /upstream-public
 COPY package.json package-lock.json ./
 COPY shared/package.json ./shared/
 COPY client/package.json ./client/
@@ -16,7 +17,8 @@ COPY scripts/ ./scripts/
 COPY manzil-branding/ ./manzil-branding/
 COPY LICENSE NOTICE.md ./
 ENV APP_VERSION=5.1.0
-RUN node manzil-branding/apply-branding.mjs \
+RUN node manzil-branding/seed-public-assets.mjs \
+    && node manzil-branding/apply-branding.mjs \
     && npm run build --workspace=shared \
     && NODE_OPTIONS=--max-old-space-size=4096 npm run build --workspace=server \
     && npm run build --workspace=client
@@ -29,6 +31,12 @@ COPY --chown=node:node --from=build /app/shared/dist ./shared/dist
 COPY --chown=node:node --from=build /app/client/dist ./server/public
 COPY --chown=node:node --from=build /app/client/public/fonts ./server/public/fonts
 COPY --chown=node:node LICENSE NOTICE.md ./
+RUN mv /app/data /app/image-data \
+    && mv /app/uploads /app/image-uploads \
+    && ln -s /persist/data /app/data \
+    && ln -s /persist/uploads /app/uploads
+COPY --chmod=0755 manzil-branding/start.sh /usr/local/bin/manzil-discover-start
+CMD ["/usr/local/bin/manzil-discover-start"]
 LABEL org.opencontainers.image.title="Manzil Discover" \
       org.opencontainers.image.source="https://github.com/gitcwyn25/Manzil-Discover" \
       org.opencontainers.image.licenses="AGPL-3.0-only"

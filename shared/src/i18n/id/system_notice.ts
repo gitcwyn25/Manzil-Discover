@@ -1,17 +1,17 @@
 import type { TranslationStrings } from '../types';
 
 const system_notice: TranslationStrings = {
-  'system_notice.welcome_v1.title': 'Selamat datang di TREK',
+  'system_notice.welcome_v1.title': 'Selamat datang di Manzil',
   'system_notice.welcome_v1.body':
     'Perencana perjalanan lengkap Anda. Buat itinerari, bagikan perjalanan dengan teman, dan tetap terorganisir — online maupun offline.',
   'system_notice.welcome_v1.cta_label': 'Rencanakan perjalanan',
-  'system_notice.welcome_v1.hero_alt': 'Destinasi wisata indah dengan antarmuka TREK',
+  'system_notice.welcome_v1.hero_alt': 'Destinasi wisata indah dengan antarmuka Manzil',
   'system_notice.welcome_v1.highlight_plan': 'Itinerari harian untuk setiap perjalanan',
   'system_notice.welcome_v1.highlight_share': 'Berkolaborasi dengan teman perjalanan',
   'system_notice.welcome_v1.highlight_offline': 'Bekerja offline di ponsel',
   'system_notice.dev_test_modal.title': '[Dev] Pemberitahuan uji',
   'system_notice.dev_test_modal.body': 'Ini adalah pemberitahuan uji khusus dev.',
-  'system_notice.thank_you_support.title': 'Terima kasih telah memakai TREK',
+  'system_notice.thank_you_support.title': 'Terima kasih telah memakai Manzil',
   'system_notice.thank_you_support.body':
     'Sekadar ucapan terima kasih singkat karena telah memasang TREK — ini benar-benar berarti banyak bagi saya.\n\nSaya seorang developer solo dan membangun TREK di waktu luang. Awalnya hanya alat kecil untuk perjalanan saya sendiri, dan sejujurnya saya terharu dengan dukungan serta minat dari komunitas sejak saat itu. TREK dibuat dengan sepenuh hati dari saya — tetapi juga berkat banyak kontributor eksternal hebat yang telah membantu membentuknya.\n\n**TREK bersifat open source dan sepenuhnya gratis — dan akan selalu begitu, selamanya. Tanpa paket berbayar, tanpa langganan, tanpa syarat tersembunyi. Saya janji.**\n\nJika TREK bermanfaat bagimu dan kamu ingin mendukung pengembangannya, secangkir kopi kecil sungguh membantu saya untuk terus membangun — sama sekali tanpa paksaan, tapi setiap cangkir membuat malam-malam panjang ini tetap berjalan.\n\nTerima kasih telah berada di sini.\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '100% open source di GitHub',
@@ -26,7 +26,7 @@ const system_notice: TranslationStrings = {
   'system_notice.pager.position': 'Pemberitahuan {current} dari {total}',
   'system_notice.v3_photos.title': 'Foto dipindahkan di 3.0',
   'system_notice.v3_photos.body':
-    '**Foto** di Perencana Perjalanan telah dihapus. Foto Anda aman — TREK tidak pernah mengubah perpustakaan Immich atau Synology Anda.\n\nFoto kini ada di addon **Journey**. Journey bersifat opsional — jika belum tersedia, minta admin untuk mengaktifkannya di Admin → Addon.',
+    '**Foto** di Perencana Perjalanan telah dihapus. Foto Anda aman — Manzil tidak pernah mengubah perpustakaan Immich atau Synology Anda.\n\nFoto kini ada di addon **Journey**. Journey bersifat opsional — jika belum tersedia, minta admin untuk mengaktifkannya di Admin → Addon.',
   'system_notice.v3_journey.title': 'Kenali Journey — jurnal perjalanan',
   'system_notice.v3_journey.body':
     'Dokumentasikan perjalanan Anda sebagai cerita hidup dengan linimasa, galeri foto, dan peta interaktif.',
@@ -57,7 +57,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'Pembaruan terpasang',
   'system_notice.release_notes.headline': 'Tempat yang tepat, lebih dulu.',
   'system_notice.release_notes.intro':
-    'Pencarian tempat, pencarian alamat, dan perutean kini berjalan di server milik TREK sendiri, disponsori oleh dataforest cloud, dan setiap TREK bisa berbagi apa yang diketahuinya tentang tempat dengan semua TREK lainnya.',
+    'Pencarian tempat, pencarian alamat, dan perutean kini berjalan di server milik Manzil sendiri, disponsori oleh dataforest cloud, dan setiap Manzil bisa berbagi apa yang diketahuinya tentang tempat dengan semua Manzil lainnya.',
   'system_notice.release_notes.features_label': 'Sorotan utama',
   'system_notice.release_notes.features_aside': 'Masih banyak lagi',
   'system_notice.release_notes.feature_search_title': 'Pencarian tempat yang tepat sasaran',
@@ -65,18 +65,18 @@ const system_notice: TranslationStrings = {
     'Kota, pulau, landmark, dan bandara berdasarkan kodenya muncul lebih dulu, kafe diambil dari sekitar Anda, dan saran muncul saat Anda mengetik.',
   'system_notice.release_notes.feature_share_title': 'Detail tempat, dibagikan',
   'system_notice.release_notes.feature_share_body':
-    'Bagikan situs web, jam buka, dan foto dengan setiap TREK, kolom demi kolom, dan tempat tersimpan Anda ikut mendapatkan apa yang ditambahkan orang lain.',
+    'Bagikan situs web, jam buka, dan foto dengan setiap Manzil, kolom demi kolom, dan tempat tersimpan Anda ikut mendapatkan apa yang ditambahkan orang lain.',
   'system_notice.release_notes.feature_routing_title': 'Perutean lebih cepat',
   'system_notice.release_notes.feature_routing_body':
     'Satu hari penuh dirutekan sekaligus dengan hingga dua puluh perhentian, satu rute yang lambat tidak lagi menahan yang lain, dan transportasi umum bertanya ke penyedia kedua saat yang pertama tidak menemukan apa pun.',
-  'system_notice.release_notes.footnote': 'Ditambah deretan panjang perubahan kecil di bagian TREK lainnya.',
+  'system_notice.release_notes.footnote': 'Ditambah deretan panjang perubahan kecil di bagian Manzil lainnya.',
   'system_notice.release_notes.notes_label': 'Catatan rilis',
   'system_notice.release_notes.note_eyebrow': 'Catatan dari maintainer',
-  'system_notice.release_notes.note_title': 'Kalianlah alasan saya terus membangun TREK.',
+  'system_notice.release_notes.note_title': 'Kalianlah alasan saya terus membangun Manzil.',
   'system_notice.release_notes.note_body':
-    'TREK dimulai sebagai alat kecil untuk perjalanan saya sendiri, saya tulis sepulang kerja karena ingin cara yang lebih baik untuk merencanakannya. Sejak itu ia tidak pernah benar-benar berhenti tumbuh. Hampir semua yang kalian pakai dibangun larut malam, di akhir pekan, di kereta, di samping pekerjaan penuh waktu, dan tak sedikit malam saya diam-diam bertanya-tanya apakah akan ada orang di luar sana yang membukanya.',
+    'Manzil dimulai sebagai alat kecil untuk perjalanan saya sendiri, saya tulis sepulang kerja karena ingin cara yang lebih baik untuk merencanakannya. Sejak itu ia tidak pernah benar-benar berhenti tumbuh. Hampir semua yang kalian pakai dibangun larut malam, di akhir pekan, di kereta, di samping pekerjaan penuh waktu, dan tak sedikit malam saya diam-diam bertanya-tanya apakah akan ada orang di luar sana yang membukanya.',
   'system_notice.release_notes.promise_label': 'Janjinya',
-  'system_notice.release_notes.promise_lead': 'TREK tetap gratis, selamanya.',
+  'system_notice.release_notes.promise_lead': 'Manzil tetap gratis, selamanya.',
   'system_notice.release_notes.promise_text':
     'Setiap fitur, setiap pembaruan, untuk semua orang. Tanpa paket berbayar, tanpa langganan, tanpa syarat tersembunyi.',
   'system_notice.release_notes.note_body_after':
@@ -85,7 +85,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': 'Tetap independen',
   'system_notice.release_notes.support_lead': 'Tanpa Google dan kawan-kawan.',
   'system_notice.release_notes.support_text':
-    'Pencarian tempat, pencarian alamat, dan perutean berjalan di server milik TREK sendiri, saat ini disponsori oleh dataforest cloud. Saya memperjuangkannya setiap hari, dan agar tetap begitu, saya butuh dukungan Anda.',
+    'Pencarian tempat, pencarian alamat, dan perutean berjalan di server milik Manzil sendiri, saat ini disponsori oleh dataforest cloud. Saya memperjuangkannya setiap hari, dan agar tetap begitu, saya butuh dukungan Anda.',
   'system_notice.release_notes.cta_bmc': 'Traktir aku kopi',
   'system_notice.release_notes.cta_kofi': 'Dukung di Ko-fi',
 };

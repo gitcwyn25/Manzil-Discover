@@ -178,7 +178,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Uued kohaandmed',
   'places.refresh.title': 'Uuenda kohaandmeid',
   'places.refresh.intro':
-    'TREK teab selle koha kohta uuemaid andmeid. Vali, mida üle võtta, ülejäänu jääb samaks. Seejärel salvesta koht.',
+    'Manzil teab selle koha kohta uuemaid andmeid. Vali, mida üle võtta, ülejäänu jääb samaks. Seejärel salvesta koht.',
   'places.refresh.apply': 'Võta üle',
   'places.refresh.replaces': 'Asendab praegu salvestatud väärtuse',
   'places.refresh.empty': 'tühi',

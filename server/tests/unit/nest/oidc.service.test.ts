@@ -574,6 +574,30 @@ describe('getOidcConfig issuer trailing-slash regex', () => {
 // ── findOrCreateUser ──────────────────────────────────────────────────────────
 
 describe('findOrCreateUser', () => {
+  it('Supabase refuses to bootstrap an administrator', async () => {
+    expect(await svc.findOrCreateUser({ sub: 'external-owner', email: 'owner@example.com' }, MOCK_CONFIG, undefined, 'supabase'))
+      .toEqual({ error: 'owner_setup_required' });
+  });
+
+  it('Supabase never links an existing local account by email', async () => {
+    const { user } = createAdmin(testDb, { email: 'owner@example.com' });
+    expect(await svc.findOrCreateUser({ sub: 'foreign-subject', email: 'owner@example.com', email_verified: true }, MOCK_CONFIG, undefined, 'supabase'))
+      .toEqual({ error: 'identity_link_required' });
+    expect((await readUser(await orm(), user.id))?.oidc_sub).toBeFalsy();
+  });
+
+  it('Supabase ignores metadata role claims on new and returning accounts', async () => {
+    createAdmin(testDb, { email: 'owner@example.com' });
+    process.env.OIDC_ADMIN_VALUE = 'admin';
+    process.env.OIDC_ADMIN_CLAIM = 'roles';
+    await setAppSetting(await orm(), 'password_registration', 'true');
+    const info = { sub: 'external-user', email: 'member@example.com', roles: ['admin'], email_verified: true };
+    const created = await svc.findOrCreateUser(info, MOCK_CONFIG, undefined, 'supabase');
+    expect('user' in created && created.user.role).toBe('user');
+    const returning = await svc.findOrCreateUser(info, MOCK_CONFIG, undefined, 'supabase');
+    expect('user' in returning && returning.user.role).toBe('user');
+  });
+
   it('OIDC-SVC-020: finds existing user by oidc_sub', async () => {
     const { user } = createUser(testDb, { email: 'alice@example.com' });
     // Link the sub manually

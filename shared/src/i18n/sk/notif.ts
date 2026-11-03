@@ -28,7 +28,7 @@ const notif: TranslationStrings = {
   'notif.packing_tagged.title': 'Priradenie balenia',
   'notif.packing_tagged.text': '{actor} vás priradil ku {category} vo {trip}',
   'notif.version_available.title': 'Nová verzia dostupná',
-  'notif.version_available.text': 'TREK {version} je teraz dostupný',
+  'notif.version_available.text': 'Manzil {version} je teraz dostupný',
   'notif.replica_failure.title': 'Zlyhanie repliky úložiska',
   'notif.replica_failure.text': "Zápis do repliky na '{backend}' zlyhal: {op} položky {key} — {error}",
   'notif.replica_failure.textSuppressed':

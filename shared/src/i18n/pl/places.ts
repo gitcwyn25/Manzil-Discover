@@ -193,7 +193,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nowe dane miejsca',
   'places.refresh.title': 'Zaktualizuj dane miejsca',
   'places.refresh.intro':
-    'TREK zna nowsze dane tego miejsca. Wybierz, co przejąć, reszta pozostanie bez zmian. Potem zapisz miejsce.',
+    'Manzil zna nowsze dane tego miejsca. Wybierz, co przejąć, reszta pozostanie bez zmian. Potem zapisz miejsce.',
   'places.refresh.apply': 'Przejmij',
   'places.refresh.replaces': 'Zastępuje obecnie zapisaną wartość',
   'places.refresh.empty': 'puste',

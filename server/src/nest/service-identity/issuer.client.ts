@@ -118,7 +118,7 @@ export class IssuerClient {
 /** Why a dialect's registration may not go out, or null when it may. */
 function registrationRefusal(path: string, request: RegistrationRequest): string | null {
   if (!REGISTER_PATH.test(path)) return 'registers elsewhere';
-  if (!Object.entries(request.headers).every(isDialectHeader)) return 'sends a header TREK does not send';
+  if (!Object.entries(request.headers).every(isDialectHeader)) return 'sends a header Manzil does not send';
   if (Buffer.byteLength(JSON.stringify(request.body), 'utf8') > MAX_REGISTRATION_BYTES) {
     return 'sends a body larger than a registration';
   }

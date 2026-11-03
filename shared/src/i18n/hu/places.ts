@@ -177,7 +177,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Új helyadatok',
   'places.refresh.title': 'Helyadatok frissítése',
   'places.refresh.intro':
-    'A TREK újabb adatokat ismer erről a helyről. Válaszd ki, mit veszel át, a többi változatlan marad. Utána mentsd a helyet.',
+    'A Manzil újabb adatokat ismer erről a helyről. Válaszd ki, mit veszel át, a többi változatlan marad. Utána mentsd a helyet.',
   'places.refresh.apply': 'Átvétel',
   'places.refresh.replaces': 'Lecseréli a most mentett értéket',
   'places.refresh.empty': 'üres',

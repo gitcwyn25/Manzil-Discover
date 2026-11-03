@@ -169,7 +169,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Thông tin địa điểm mới',
   'places.refresh.title': 'Cập nhật thông tin địa điểm',
   'places.refresh.intro':
-    'TREK biết thông tin mới hơn cho địa điểm này. Chọn những gì muốn lấy, phần còn lại giữ nguyên. Sau đó lưu địa điểm.',
+    'Manzil biết thông tin mới hơn cho địa điểm này. Chọn những gì muốn lấy, phần còn lại giữ nguyên. Sau đó lưu địa điểm.',
   'places.refresh.apply': 'Lấy',
   'places.refresh.replaces': 'Thay thế giá trị đang lưu',
   'places.refresh.empty': 'trống',

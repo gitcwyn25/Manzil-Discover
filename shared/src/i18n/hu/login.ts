@@ -77,7 +77,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'A passkey-bejelentkezés sikertelen. Kérjük, próbáld újra.',
   'login.insecureCookie.title': 'A bejelentkezés HTTP-n nem marad meg',
   'login.insecureCookie.body':
-    'Egyszerű HTTP-n csatlakozol, ezért a böngésző eldobja a TREK biztonságos munkamenet-sütijét, és a következő kérés ezzel a hibával elbukik: "Access token required". Megoldás: használj HTTPS-t, vagy otthoni labor esetén állítsd be: COOKIE_SECURE=false.',
+    'Egyszerű HTTP-n csatlakozol, ezért a böngésző eldobja a Manzil biztonságos munkamenet-sütijét, és a következő kérés ezzel a hibával elbukik: "Access token required". Megoldás: használj HTTPS-t, vagy otthoni labor esetén állítsd be: COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Hibaelhárítási útmutató megnyitása',
 };
 export default login;

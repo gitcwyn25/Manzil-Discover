@@ -209,7 +209,7 @@ const budget: TranslationStrings = {
     'Salvataggio non riuscito e {count} ricevuta caricata è ancora lì. Rimuovila nella scheda File.',
   'costs.receiptsNeedConnection':
     'Le ricevute hanno bisogno di una connessione per essere caricate. Rimuovi quelle nuove per salvare la spesa offline, oppure salva quando sei di nuovo online.',
-  'costs.paymentQueued': 'Sei offline. Il pagamento è salvato e comparirà quando TREK tornerà online.',
+  'costs.paymentQueued': 'Sei offline. Il pagamento è salvato e comparirà quando Manzil tornerà online.',
   'costs.confirm.deleteBodyReceipts':
     '"{name}" verrà eliminato definitivamente. I file delle sue ricevute restano in File.',
 };

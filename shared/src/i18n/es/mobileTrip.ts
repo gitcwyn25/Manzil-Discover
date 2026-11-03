@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Estas cifras se ajustan en el escritorio, donde también puedes comparar rutas alternativas y hacer que un día siga una traza importada.',
   'mobileTrip.planOnDesktop': 'Se planifica en el ordenador',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK calcula el trayecto en cuanto un día tiene dos lugares.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil calcula el trayecto en cuanto un día tiene dos lugares.',
   'mobileTrip.toursEmptyBody': 'Las excursiones guardadas aparecen aquí, listas para añadirlas a un día.',
   'mobileTrip.toursCount': '{count} excursiones',
   'mobileTrip.toursCount.one': '{count} excursión',

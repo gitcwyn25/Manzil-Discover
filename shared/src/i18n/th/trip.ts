@@ -34,7 +34,7 @@ const trip: TranslationStrings = {
   'trip.toast.placesDeleted': 'ลบสถานที่ {count} แห่งแล้ว',
   'trip.invite.linkTitle': 'ลิงก์เชิญเข้าร่วมทริป',
   'trip.invite.linkHint':
-    'ใครก็ตามที่มีบัญชี TREK ที่เปิดลิงก์นี้จะเข้าร่วมการเดินทางในฐานะสมาชิก สร้างใหม่เพื่อทำให้ลิงก์เก่าใช้ไม่ได้',
+    'ใครก็ตามที่มีบัญชี Manzil ที่เปิดลิงก์นี้จะเข้าร่วมการเดินทางในฐานะสมาชิก สร้างใหม่เพื่อทำให้ลิงก์เก่าใช้ไม่ได้',
   'trip.invite.create': 'สร้างลิงก์คำเชิญ',
   'trip.invite.regenerate': 'สร้างใหม่',
   'trip.invite.disable': 'ปิดการใช้งาน',

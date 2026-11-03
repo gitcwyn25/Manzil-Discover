@@ -105,7 +105,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved.many': 'Не вдалося розмістити {count} зупинок',
   'assistant.card.roadtrip.dayRoute.after': 'Після {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Слідує треку {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'Поки прямі лінії; TREK розрахує дорогу, коли зміну буде застосовано.',
+  'assistant.card.roadtrip.dayRoute.sketch': 'Поки прямі лінії; Manzil розрахує дорогу, коли зміну буде застосовано.',
   'assistant.card.roadtrip.dayEnd.at': 'День закінчується в {name}',
   'assistant.card.roadtrip.dayEnd.along': 'День закінчується на {percent} % шляху після {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'День знову закінчується автоматично',

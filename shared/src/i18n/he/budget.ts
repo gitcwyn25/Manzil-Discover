@@ -217,7 +217,7 @@ const budget: TranslationStrings = {
   'costs.receiptLeftBehind.two': 'השמירה נכשלה, ושתי קבלות שהועלו עדיין שם. הסירו אותן בלשונית הקבצים.',
   'costs.receiptsNeedConnection':
     'העלאת קבלות דורשת חיבור. הסירו את הקבלות החדשות כדי לשמור את ההוצאה במצב לא מקוון, או שמרו כשתחזרו לרשת.',
-  'costs.paymentQueued': 'אתם במצב לא מקוון. התשלום נשמר ויופיע כש-TREK יחזור לרשת.',
+  'costs.paymentQueued': 'אתם במצב לא מקוון. התשלום נשמר ויופיע כש-Manzil יחזור לרשת.',
   'costs.confirm.deleteBodyReceipts': '"{name}" יימחק לצמיתות. קובצי הקבלה שלו נשארים בקבצים.',
 };
 

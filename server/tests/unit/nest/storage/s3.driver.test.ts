@@ -300,6 +300,23 @@ describe('S3Driver list', () => {
 });
 
 describe('defaultClientFactory', () => {
+  it('accepts repeated response headers from a Supabase edge without corrupting S3 parsing', async () => {
+    const { createServer } = await import('node:http');
+    const server = createServer((_req, res) => {
+      res.setHeader('Set-Cookie', ['edge-one=1; Secure', 'edge-two=2; Secure']);
+      res.setHeader('ETag', '"test-etag"');
+      res.end();
+    });
+    await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
+    try {
+      const address = server.address();
+      if (!address || typeof address === 'string') throw new Error('Test server did not bind');
+      const s3 = await defaultClientFactory({ endpoint: `http://127.0.0.1:${address.port}`, region: 'us-east-1',
+        accessKeyId: 'test-key', secretAccessKey: 'test-secret', retries: 0, keepAlive: false });
+      const result = await s3.PutObject({ Bucket: 'test-bucket', Key: 'probe', Body: Buffer.from('probe') });
+      expect(result).toMatchObject({ ETag: 'test-etag' });
+    } finally { await new Promise<void>((resolve, reject) => server.close(error => error ? reject(error) : resolve())); }
+  });
   it('builds a real aws-lite client exposing the S3 surface (no network at init)', async () => {
     const s3 = await defaultClientFactory({
       endpoint: 'http://127.0.0.1:1',

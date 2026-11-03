@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'De här värdena ställer du in på datorn. Där kan du också jämföra alternativa vägar och låta en dag följa ett importerat spår.',
   'mobileTrip.planOnDesktop': 'Planeras på datorn',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK räknar ut körningen så snart en dag har två platser.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil räknar ut körningen så snart en dag har två platser.',
   'mobileTrip.toursEmptyBody': 'Sparade turer visas här och kan läggas till en dag.',
   'mobileTrip.toursCount': '{count} turer',
   'mobileTrip.toursCount.one': '{count} tur',

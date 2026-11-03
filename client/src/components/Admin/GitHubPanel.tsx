@@ -20,7 +20,7 @@ import { fs } from '../shared/DialogShell';
 import { SETTINGS_BUTTON, SettingsCard, StatusPill } from '../Settings/settingsKit';
 import { useGithubReleases } from './useGithubReleases';
 
-const REPO = 'liketrek/TREK';
+const REPO = 'liketrek/Manzil';
 
 /** The Discord mark, sized and coloured like the lucide glyphs beside it. */
 function DiscordIcon({ size = 18 }: { size?: number }) {

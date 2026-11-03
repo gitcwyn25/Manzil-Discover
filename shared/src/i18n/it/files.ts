@@ -66,9 +66,9 @@ const files: TranslationStrings = {
     'Eliminare in modo permanente tutti i file nel cestino? Questa operazione non può essere annullata.',
   'files.noteLabel': 'Nota',
   'files.notePlaceholder': 'Aggiungi una nota...',
-  'files.uploadNeedsConnection': 'Il caricamento richiede una connessione. Riprova quando TREK sarà di nuovo online.',
+  'files.uploadNeedsConnection': 'Il caricamento richiede una connessione. Riprova quando Manzil sarà di nuovo online.',
   'files.linkNeedsConnection':
-    'Rimuovere questo collegamento richiede una connessione. Riprova quando TREK sarà di nuovo online.',
+    'Rimuovere questo collegamento richiede una connessione. Riprova quando Manzil sarà di nuovo online.',
   'files.placeFilesNeedConnection':
     'I file richiedono una connessione per essere caricati. Rimuovi quelli nuovi per salvare il luogo offline, oppure salva quando sei di nuovo online.',
   'files.maxSize': 'Massimo {count} MB',

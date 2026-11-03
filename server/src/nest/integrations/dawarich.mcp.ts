@@ -64,7 +64,7 @@ export class DawarichMcp {
   @Tool({
     name: 'list_dawarich_suggestions',
     description:
-      "List the stays TREK pulled from the caller's connected Dawarich instance and is holding for review: where they were, when they arrived and left, how long they stayed, and which trip the stay falls into. Each entry carries the id the accept tools take. Use it to answer what someone actually did on a trip, or to fill a travel journal from what was recorded rather than from memory. Nothing here has been added to a trip yet — accepting is a separate, explicit step.",
+      "List the stays Manzil pulled from the caller's connected Dawarich instance and is holding for review: where they were, when they arrived and left, how long they stayed, and which trip the stay falls into. Each entry carries the id the accept tools take. Use it to answer what someone actually did on a trip, or to fill a travel journal from what was recorded rather than from memory. Nothing here has been added to a trip yet — accepting is a separate, explicit step.",
     inputSchema: {
       tripId: idSchema.optional().describe('Only stays that fall inside this trip'),
       state: z

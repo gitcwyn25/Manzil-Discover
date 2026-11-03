@@ -242,7 +242,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Dibagikan melalui',
   'journey.public.madeWith': 'Dibuat dengan',
   'journey.pdf.journeyBook': 'Buku Journey',
-  'journey.pdf.madeWith': 'Dibuat dengan TREK',
+  'journey.pdf.madeWith': 'Dibuat dengan Manzil',
   'journey.pdf.day': 'Hari',
   'journey.pdf.theEnd': 'Tamat',
   'journey.pdf.saveAsPdf': 'Simpan sebagai PDF',
@@ -276,7 +276,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosUnavailable': 'Tidak ada penyedia foto terhubung yang tersedia.',
   'journey.editor.externalPhotosPartialFailed': '{failed} grup foto gagal, simpan lagi untuk mencoba ulang',
   'journey.picker.day': 'Hari ini',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Buka studio buku foto',
   'journey.studio.backToJourney': 'Kembali ke jurnal perjalanan',
@@ -318,7 +318,7 @@ const journey: TranslationStrings = {
     'Menyimpan desain halaman ganda ini sebagai berkas, tanpa foto, untuk dibagikan atau dipakai lagi',
   'journey.studio.importSpread': 'Impor',
   'journey.studio.importSpreadHint': 'Menambahkan halaman ganda dari berkas desain yang diunduh',
-  'journey.studio.importSpreadFailed': 'Berkas itu bukan halaman ganda TREK Studio',
+  'journey.studio.importSpreadFailed': 'Berkas itu bukan halaman ganda Manzil Studio',
   'journey.studio.desktopOnly': 'Studio butuh layar yang lebih besar',
   'journey.studio.desktopOnlyHint':
     'Menyusun buku butuh ruang kerja, jadi Studio hanya ada di desktop, begitu juga pembuatan PDF. Bagian lain dari jurnal perjalananmu tetap berjalan seperti biasa di sini.',
@@ -831,7 +831,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.stale':
     'Dawarich tidak menjawab: {reason} Menampilkan persinggahan dari sinkronisasi terakhir pada {date}.',
   'journey.dayImport.staleNever':
-    'Dawarich tidak menjawab: {reason} Menampilkan persinggahan yang sudah diketahui TREK.',
+    'Dawarich tidak menjawab: {reason} Menampilkan persinggahan yang sudah diketahui Manzil.',
   'journey.dayImport.truncated': 'Dawarich hanya mengirim sebagian hari ini. Beberapa persinggahan mungkin hilang.',
   'journey.dayImport.empty': 'Dawarich tidak menemukan persinggahan pada hari ini.',
   'journey.prep.lastSuccess': 'Terakhir diambil {time}.',

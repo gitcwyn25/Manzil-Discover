@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Η σύνδεση με το wanderer αφαιρέθηκε',
   'wanderer.loadFailed': 'Δεν ήταν δυνατή η φόρτωση της σύνδεσης με το wanderer',
   'wanderer.privateIp':
-    'Αυτή η διεύθυνση βρίσκεται σε ιδιωτικό δίκτυο. Αν το TREK δεν μπορεί να τη φτάσει, ο διαχειριστής πρέπει να επιτρέψει τα εσωτερικά δίκτυα.',
+    'Αυτή η διεύθυνση βρίσκεται σε ιδιωτικό δίκτυο. Αν το Manzil δεν μπορεί να τη φτάσει, ο διαχειριστής πρέπει να επιτρέψει τα εσωτερικά δίκτυα.',
   'wanderer.error.disabled': 'Ο διαχειριστής δεν έχει ενεργοποιήσει το wanderer για τις Εκδρομές.',
   'wanderer.error.not_connected': 'Το wanderer δεν έχει συνδεθεί ακόμη.',
   'wanderer.error.invalid_url': 'Αυτή η διεύθυνση δεν είναι έγκυρο URL του wanderer.',
   'wanderer.error.blocked_address':
-    'Το TREK δεν επιτρέπεται να προσπελάσει αυτή τη διεύθυνση. Για εγκατάσταση στο δικό σας δίκτυο ο διαχειριστής πρέπει να ορίσει ALLOW_INTERNAL_NETWORK=true.',
+    'Το Manzil δεν επιτρέπεται να προσπελάσει αυτή τη διεύθυνση. Για εγκατάσταση στο δικό σας δίκτυο ο διαχειριστής πρέπει να ορίσει ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable':
     'Δεν ήταν δυνατή η πρόσβαση στο wanderer. Ελέγξτε τη διεύθυνση και ότι η εγκατάσταση λειτουργεί.',
   'wanderer.error.tls':
@@ -39,7 +39,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Η απάντηση δεν προήλθε από το wanderer. Ελέγξτε ότι η διεύθυνση οδηγεί στο ίδιο το wanderer.',
   'wanderer.error.no_author':
-    'Το wanderer απάντησε, αλλά δεν αναφέρει κανέναν δημιουργό μονοπατιών για τον λογαριασμό αυτού του API token, οπότε το TREK δεν μπορεί να ξέρει ποια μονοπάτια είναι δικά σας.',
+    'Το wanderer απάντησε, αλλά δεν αναφέρει κανέναν δημιουργό μονοπατιών για τον λογαριασμό αυτού του API token, οπότε το Manzil δεν μπορεί να ξέρει ποια μονοπάτια είναι δικά σας.',
   'wanderer.error.too_large': 'Το αρχείο του μονοπατιού είναι μεγαλύτερο από 10 MB.',
   'wanderer.error.server_error': 'Το wanderer απάντησε με σφάλμα. Δοκιμάστε ξανά αργότερα.',
   'wanderer.error.offline': 'Είστε εκτός σύνδεσης. Η αναζήτηση στο wanderer γίνεται μόνο με σύνδεση.',

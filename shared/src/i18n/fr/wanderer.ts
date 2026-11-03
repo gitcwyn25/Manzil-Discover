@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Connexion wanderer supprimée',
   'wanderer.loadFailed': 'Impossible de charger la connexion wanderer',
   'wanderer.privateIp':
-    "Cette adresse se trouve dans un réseau privé. Si TREK ne peut pas l'atteindre, l'administrateur doit autoriser les réseaux internes.",
+    "Cette adresse se trouve dans un réseau privé. Si Manzil ne peut pas l'atteindre, l'administrateur doit autoriser les réseaux internes.",
   'wanderer.error.disabled': "Votre administrateur n'a pas activé wanderer pour les sorties.",
   'wanderer.error.not_connected': "wanderer n'est pas encore connecté.",
   'wanderer.error.invalid_url': "Cette adresse n'est pas une URL wanderer valide.",
   'wanderer.error.blocked_address':
-    "TREK n'a pas le droit d'atteindre cette adresse. Pour une instance sur votre propre réseau, l'administrateur doit définir ALLOW_INTERNAL_NETWORK=true.",
+    "Manzil n'a pas le droit d'atteindre cette adresse. Pour une instance sur votre propre réseau, l'administrateur doit définir ALLOW_INTERNAL_NETWORK=true.",
   'wanderer.error.unreachable': "wanderer est injoignable. Vérifiez l'adresse et que l'instance est bien en marche.",
   'wanderer.error.tls':
     "Le certificat de l'instance n'a pas pu être vérifié. S'il est auto-signé, autorisez-le ci-dessous.",
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     "La réponse ne vient pas de wanderer. Vérifiez que l'adresse pointe bien vers wanderer lui-même.",
   'wanderer.error.no_author':
-    "wanderer a répondu, mais n'indique aucun auteur de sentiers pour le compte de ce jeton API, TREK ne peut donc pas savoir quels sentiers sont les vôtres.",
+    "wanderer a répondu, mais n'indique aucun auteur de sentiers pour le compte de ce jeton API, Manzil ne peut donc pas savoir quels sentiers sont les vôtres.",
   'wanderer.error.too_large': 'Le fichier du sentier dépasse 10 MB.',
   'wanderer.error.server_error': 'wanderer a répondu par une erreur. Réessayez plus tard.',
   'wanderer.error.offline': "Vous êtes hors ligne. wanderer ne peut être consulté qu'en ligne.",

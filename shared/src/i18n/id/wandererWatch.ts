@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Periksa perubahan jalur saya',
   'wanderer.watch.hint': 'Notifikasi saat jalur yang diimpor mungkin telah berubah.',
   'wanderer.watch.info':
-    'Paling banyak sekali sehari, TREK membaca catatan singkat setiap jalur yang Anda impor, tidak pernah file GPX-nya. TREK hanya memberi tahu: menerima perubahan atau tidak, Anda sendiri yang memutuskan lewat pemeriksaan sumber tur.',
+    'Paling banyak sekali sehari, Manzil membaca catatan singkat setiap jalur yang Anda impor, tidak pernah file GPX-nya. Manzil hanya memberi tahu: menerima perubahan atau tidak, Anda sendiri yang memutuskan lewat pemeriksaan sumber tur.',
   'wanderer.watch.notConnected': 'Hubungkan wanderer terlebih dahulu',
   'wanderer.watch.on': 'Pemeriksaan latar belakang diaktifkan',
   'wanderer.watch.off': 'Pemeriksaan latar belakang dinonaktifkan',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Belum diperiksa',
   'wanderer.watch.paused': 'Dijeda hingga {time}',
   'wanderer.watch.pausedHint':
-    'wanderer tidak menjawab. Setelah setiap kegagalan, TREK menunggu lebih lama sebelum bertanya lagi.',
+    'wanderer tidak menjawab. Setelah setiap kegagalan, Manzil menunggu lebih lama sebelum bertanya lagi.',
   'wanderer.watch.blocked': 'Token ditolak',
   'wanderer.watch.blockedHint':
     'wanderer menolak token API. Pemeriksaan berlanjut setelah tes koneksi berhasil atau token baru disimpan.',
@@ -32,7 +32,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'Catatan di wanderer menunjukkan nama atau deskripsi lain. Pemeriksaan sumber menunjukkan semua yang berubah.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK tidak dapat menilai jalur ini, jadi tidak ada yang dikatakan tentang perubahannya.',
+    'Manzil tidak dapat menilai jalur ini, jadi tidak ada yang dikatakan tentang perubahannya.',
   'wanderer.watch.reason.unavailable': 'Jalur tidak dapat dijangkau',
   'wanderer.watch.reason.no_change_time': 'Tanpa stempel waktu',
 };

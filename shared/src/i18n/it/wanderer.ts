@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Collegamento a wanderer rimosso',
   'wanderer.loadFailed': 'Impossibile caricare il collegamento a wanderer',
   'wanderer.privateIp':
-    "Questo indirizzo è in una rete privata. Se TREK non riesce a raggiungerlo, l'amministratore deve consentire le reti interne.",
+    "Questo indirizzo è in una rete privata. Se Manzil non riesce a raggiungerlo, l'amministratore deve consentire le reti interne.",
   'wanderer.error.disabled': 'Il tuo amministratore non ha abilitato wanderer per le escursioni.',
   'wanderer.error.not_connected': 'wanderer non è ancora collegato.',
   'wanderer.error.invalid_url': 'Questo indirizzo non è un URL di wanderer valido.',
   'wanderer.error.blocked_address':
-    "TREK non può raggiungere questo indirizzo. Per un'istanza nella tua rete l'amministratore deve impostare ALLOW_INTERNAL_NETWORK=true.",
+    "Manzil non può raggiungere questo indirizzo. Per un'istanza nella tua rete l'amministratore deve impostare ALLOW_INTERNAL_NETWORK=true.",
   'wanderer.error.unreachable':
     "Impossibile raggiungere wanderer. Controlla l'indirizzo e che l'istanza sia in esecuzione.",
   'wanderer.error.tls': "Impossibile verificare il certificato dell'istanza. Se è autofirmato, consentilo qui sotto.",
@@ -38,7 +38,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     "La risposta non proviene da wanderer. Controlla che l'indirizzo punti proprio a wanderer.",
   'wanderer.error.no_author':
-    "wanderer ha risposto, ma non indica alcun autore di sentieri per l'account di questo token API, quindi TREK non può sapere quali sentieri sono tuoi.",
+    "wanderer ha risposto, ma non indica alcun autore di sentieri per l'account di questo token API, quindi Manzil non può sapere quali sentieri sono tuoi.",
   'wanderer.error.too_large': 'Il file del sentiero supera i 10 MB.',
   'wanderer.error.server_error': 'wanderer ha risposto con un errore. Riprova più tardi.',
   'wanderer.error.offline': 'Sei offline. In wanderer si può cercare solo online.',

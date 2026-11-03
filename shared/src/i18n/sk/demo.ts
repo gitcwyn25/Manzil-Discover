@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Živé demo',
-  'demo.welcome.title': 'Vitajte v TREK',
+  'demo.welcome.title': 'Vitajte v Manzil',
   'demo.welcome.tagline':
     'Plánovač ciest na zdieľanie: plánujte spolu na mape v reálnom čase, od prvého nápadu až po fotoknihu po ceste.',
   'demo.welcome.resetTitle': 'Každú hodinu sa všetko obnoví',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Dni, miesta a trasy na mape, s letmi, hotelmi, reštauráciami, rezerváciami a zdieľanými nákladmi.',
   'demo.feature.tours.title': 'Túry a výlety',
   'demo.feature.tours.body': 'Naplánujte túru po sieti chodníkov a sledujte ju nad 3D terénom s výškovým profilom.',
-  'demo.feature.studio.title': 'Fotoknihy v TREK Studio',
+  'demo.feature.studio.title': 'Fotoknihy v Manzil Studio',
   'demo.feature.studio.body': 'Premeňte cestu stranu po strane na navrhnutú fotoknihu.',
   'demo.feature.collab.title': 'Plánovanie spolu naživo',
   'demo.feature.collab.body': 'Všetci v ceste vidia každú zmenu okamžite, s chatom, poznámkami a anketami.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Ukladajte miesta z rôznych ciest do vlastných zoznamov a kopírujte ich do ľubovoľného plánu.',
   'demo.feature.offline.title': 'Funguje offline',
-  'demo.feature.offline.body': 'Nainštalujte si TREK ako aplikáciu a majte plány, mapy a zoznamy aj bez pripojenia.',
+  'demo.feature.offline.body': 'Nainštalujte si Manzil ako aplikáciu a majte plány, mapy a zoznamy aj bez pripojenia.',
   'demo.welcome.limitsTitle': 'Nie je súčasťou dema',
   'demo.limit.uploads': 'Nahrávanie fotiek, dokumentov a obálok',
   'demo.limit.account': 'Zmena účtu, hesla alebo 2FA',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Autori fotografií',
   'demo.credits.intro':
-    'Fotografie v tomto deme pochádzajú z Wikimedia Commons, každá pod licenciou, ktorá je pri nej uvedená. Táto licencia platí len pre fotografiu, nie pre TREK ani pre zvyšok dema.',
+    'Fotografie v tomto deme pochádzajú z Wikimedia Commons, každá pod licenciou, ktorá je pri nej uvedená. Táto licencia platí len pre fotografiu, nie pre Manzil ani pre zvyšok dema.',
   'demo.credits.by': 'Autor: {author}',
   'demo.credits.publicDomain': 'Voľné dielo',
   'demo.credits.back': 'Späť',

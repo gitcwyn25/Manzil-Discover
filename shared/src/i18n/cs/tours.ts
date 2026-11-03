@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Přidat ke dni',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Import GPX',
-  'tours.badge.planned': 'naplánováno v TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'naplánováno v Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'používejte s opatrností',
@@ -42,7 +42,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Tento výlet už je k tomuto dni přiřazen.',
   'tours.conversion.title': 'Upravitelná verze',
   'tours.conversion.intro':
-    'Import je zaznamenaná stopa. Naplánujte upravitelnou verzi: TREK z ní vezme kontrolní body, znovu přes ně vypočte trasu a ukáže, jak blízko se výsledek drží. Dokud se nerozhodnete, nic se nezmění.',
+    'Import je zaznamenaná stopa. Naplánujte upravitelnou verzi: Manzil z ní vezme kontrolní body, znovu přes ně vypočte trasu a ukáže, jak blízko se výsledek drží. Dokud se nerozhodnete, nic se nezmění.',
   'tours.conversion.replace': 'Nahradit import',
   'tours.conversion.replaceHint':
     'Naplánuje tento výlet znovu na místě: jeho dny a poznámky zůstanou a zaznamenaná stopa se uchová, abyste se k ní mohli vrátit.',
@@ -125,7 +125,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'O bezpečnosti',
   'tours.planner.addPoint': 'Přidat bod',
   'tours.planner.addPointActive': 'Klikněte do mapy',
-  'tours.planner.emptyHint': 'Zapněte „Přidat bod“ a klikněte do mapy. Od dvou bodů TREK spočítá trasu.',
+  'tours.planner.emptyHint': 'Zapněte „Přidat bod“ a klikněte do mapy. Od dvou bodů Manzil spočítá trasu.',
   'tours.planner.walkingEstimated': 'Odhadovaný čas chůze',
   'tours.planner.walkingEstimatedShort': 'Odhad. čas chůze',
   'tours.planner.walkingEstimatedInfoLabel': 'Jak se čas chůze odhaduje',
@@ -239,7 +239,7 @@ const tours: TranslationStrings = {
   'tours.provenance.externalUpdatedHint': 'Datum změny, které wanderer uvedl při importu. Vodítko, ne důkaz verze.',
   'tours.provenance.localState': 'Zde',
   'tours.provenance.plannedOver': 'Přeplánováno, zaznamenaná stopa zachována',
-  'tours.provenance.editedLocally': 'Upraveno v TREK',
+  'tours.provenance.editedLocally': 'Upraveno v Manzil',
   'tours.provenance.asImported': 'Jak bylo importováno',
   'tours.provenance.openSource': 'Otevřít ve wanderer',
   'tours.provenance.check': 'Zkontrolovat zdroj',
@@ -311,7 +311,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Importovat procházku z Google Maps',
   'tours.walkImport.title': 'Procházka z odkazu Google Maps',
   'tours.walkImport.intro':
-    'Sdílej pěší trasu v Google Maps a vlož sem její odkaz. TREK přečte zastávky a pěší cestu mezi nimi naplánuje sám.',
+    'Sdílej pěší trasu v Google Maps a vlož sem její odkaz. Manzil přečte zastávky a pěší cestu mezi nimi naplánuje sám.',
   'tours.walkImport.urlLabel': 'Odkaz na pěší trasu',
   'tours.walkImport.urlHint': 'Krátký odkaz maps.app.goo.gl nebo adresa trasy na google.com/maps.',
   'tours.walkImport.read': 'Přečíst odkaz',
@@ -321,7 +321,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Z Google Maps',
   'tours.walkImport.openSource': 'Otevřít v Google Maps',
   'tours.walkImport.recalculated':
-    'TREK naplánuje cestu mezi zastávkami znovu; čára nakreslená v Google Maps se nepřebírá.',
+    'Manzil naplánuje cestu mezi zastávkami znovu; čára nakreslená v Google Maps se nepřebírá.',
   'tours.walkImport.noPosition': 'V odkazu chybí poloha',
   'tours.walkImport.unresolved': '{count} zastávek nemá v odkazu polohu, proto je vynecháme.',
   'tours.walkImport.unresolved.one': '{count} zastávka nemá v odkazu polohu a vynechává se.',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.tooFewPositions': 'Procházka potřebuje aspoň dvě zastávky s polohou.',
   'tours.walkImport.replacesDraft': 'Načtení procházky nahradí neuložené změny v plánovači.',
   'tours.walkImport.defaultName': 'Procházka z Google Maps',
-  'tours.walkImport.draftNotice': 'Z pěší trasy v Google Maps. Cestu mezi zastávkami naplánoval TREK sám.',
+  'tours.walkImport.draftNotice': 'Z pěší trasy v Google Maps. Cestu mezi zastávkami naplánoval Manzil sám.',
   'tours.walkImport.offline': 'Ke čtení odkazu je potřeba připojení.',
   'tours.walkImport.failed': 'Odkaz se teď nepodařilo přečíst. Zkus to za chvíli znovu.',
   'tours.walkImport.refusal.not_google_maps':
@@ -369,7 +369,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} od trasy',
   'tours.poi.along': 'na {distance}',
   'tours.poi.source.osm': 'Z OpenStreetMap',
-  'tours.poi.source.trek': 'Z rejstříku míst TREK',
+  'tours.poi.source.trek': 'Z rejstříku míst Manzil',
   'tours.poi.hoursHint': 'Podle zdroje; před cestou si je ověř.',
   'tours.poi.website': 'Webové stránky',
   'tours.poi.slot.label': 'Kam patří',
@@ -500,7 +500,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Mapová data z {build}',
   'tours.ski.summary.saved': 'Zobrazeno, jak bylo uloženo. Posuňte bod nebo změňte volbu a naplánujte znovu.',
   'tours.ski.chooseTechnique': 'Vyberte techniku, nebo Neznámá.',
-  'tours.ski.infoLabel': 'Co TREK dělá s lyžařskými túrami a trasami',
+  'tours.ski.infoLabel': 'Co Manzil dělá s lyžařskými túrami a trasami',
   'tours.ski.info':
     'Naplánovaná túra vede po sjezdovkách, lanovkách a stopách z OpenStreetMap, kam sahají data sjezdovek, jinde spojuje své body rovně. Importovaná stopa zůstává tak, jak byla nahrána. Výšky pocházejí z dat sjezdovek, terénu nebo souboru. Nic tu, ani barvy sklonu ve 3D, neříká nic o sněhu, lavinách ani o tom, zda jsou sjezdovky, lanovky a stopy otevřené.',
   'tours.ski.time': 'Čas na lyžích',
@@ -905,7 +905,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Další úsek znovu vypočítat',
   'tours.planner.freeLegBadge': 'Nakresleno ručně, nevypočítáno',
   'tours.planner.freeLegInfo':
-    'TREK spojí tyto dva body přímou čarou. Žádný plánovač trasy tento úsek nenaplánoval ani nezkontroloval.',
+    'Manzil spojí tyto dva body přímou čarou. Žádný plánovač trasy tento úsek nenaplánoval ani nezkontroloval.',
   'tours.map.seamarks': 'Plavební znaky',
   'tours.map.seamarksDown': 'Plavební znaky se nenačítají. Mapa i vaše trasa dál fungují.',
   'tours.map.pistes': 'Sjezdovky, běžkařské tratě a vleky',
@@ -961,9 +961,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm.one': 'Importovat {count} túru',
   'tours.import.previewConfirm.few': 'Importovat {count} túry',
   'tours.conversion.introPaddle':
-    'Import je zaznamenaná trasa. Naplánujte upravitelnou vodáckou túru: TREK z ní vezme kontrolní body, spojí je přímými čarami, jak se vodácká túra kreslí, a ukáže, jak blízko to je. Nic se nezmění, dokud se nerozhodnete.',
+    'Import je zaznamenaná trasa. Naplánujte upravitelnou vodáckou túru: Manzil z ní vezme kontrolní body, spojí je přímými čarami, jak se vodácká túra kreslí, a ukáže, jak blízko to je. Nic se nezmění, dokud se nerozhodnete.',
   'tours.conversion.introSki':
-    'Import je zaznamenaná trasa. Naplánujte upravitelnou lyžařskou túru: TREK z ní vezme kontrolní body, spojí je přímými čarami, jak se lyžařská túra kreslí, a ukáže, jak blízko to je. Nic se nezmění, dokud se nerozhodnete.',
+    'Import je zaznamenaná trasa. Naplánujte upravitelnou lyžařskou túru: Manzil z ní vezme kontrolní body, spojí je přímými čarami, jak se lyžařská túra kreslí, a ukáže, jak blízko to je. Nic se nezmění, dokud se nerozhodnete.',
   'tours.conversion.closePaddle': 'Návrh trasu těsně sleduje. Jeho body spojují přímé čáry, takže to není stejná čára.',
   'tours.planner.moreActions': 'Další akce',
   'tours.paddle.role.put_in': 'Nástup',
@@ -994,7 +994,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Přeneseno kolem, počítá se přenáška',
   'tours.paddle.time.title': 'Odhad času',
   'tours.paddle.time.assumptionInfo':
-    'TREK začíná se 4 km/h na vodě, 2 km/h při přenášení a 10 minutami na vystoupení a opětovné nastoupení u každé přenášky. Jsou to výchozí hodnoty k úpravě, ne normy ani měření. Časy zdymadel jsou jen to, co zadáte.',
+    'Manzil začíná se 4 km/h na vodě, 2 km/h při přenášení a 10 minutami na vystoupení a opětovné nastoupení u každé přenášky. Jsou to výchozí hodnoty k úpravě, ne normy ani měření. Časy zdymadel jsou jen to, co zadáte.',
   'tours.paddle.time.water': 'Na vodě',
   'tours.paddle.time.carry': 'Přenášení',
   'tours.paddle.time.carrySpeed': 'Rychlost přenášení',
@@ -1074,7 +1074,7 @@ const tours: TranslationStrings = {
     'Údaje o překážkách pokrývají jen část trasy (stav k {date}). Zbytek si ověřte sami.',
   'tours.paddle.obstacles.none':
     'Pro tuto oblast nejsou žádné údaje o překážkách. Jezy, zdymadla a přenášky si zde ověřte sami.',
-  'tours.paddle.obstacles.offline': 'Bez připojení TREK nenačítá údaje o překážkách. Situaci na vodě si ověřte sami.',
+  'tours.paddle.obstacles.offline': 'Bez připojení Manzil nenačítá údaje o překážkách. Situaci na vodě si ověřte sami.',
   'tours.paddle.obstacles.error': 'Údaje o překážkách se nepodařilo načíst. Situaci na vodě si ověřte sami.',
   'tours.paddle.obstacle.kind.weir': 'Jez',
   'tours.paddle.obstacle.kind.dam': 'Hráz',
@@ -1089,7 +1089,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Přenáška',
   'tours.paddle.obstacle.kind.access': 'Pravidlo plavby',
   'tours.paddle.obstacles.truncated':
-    'TREK zde zobrazuje jen část objektů, oblast jich obsahuje víc. Situaci na vodě si ověřte sami.',
+    'Manzil zde zobrazuje jen část objektů, oblast jich obsahuje víc. Situaci na vodě si ověřte sami.',
   'tours.paddle.obstacles.dateUnknown': 'neznámému datu',
   'tours.paddle.obstacleCard.onRoute': 'Na trase po',
   'tours.paddle.obstacleCard.near': 'Blízko trasy',
@@ -1173,7 +1173,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Bezpečnost na vodě',
   'tours.paddle.safety.short': 'Pádlování s sebou nese rizika. Vodu, pravidla a počasí si ověřte sami.',
   'tours.paddle.safety.text':
-    'Pádlování s sebou nese rizika. Mapy, návrhy tras a upozornění mohou být neúplné nebo zastaralé. Před túrou si ověřte aktuální místní podmínky, pravidla plavby a počasí. Dbejte na vhodná bezpečnostní opatření. TREK vám pomáhá s plánováním a nenahrazuje vaše vlastní posouzení ani zodpovědné rozhodnutí.',
+    'Pádlování s sebou nese rizika. Mapy, návrhy tras a upozornění mohou být neúplné nebo zastaralé. Před túrou si ověřte aktuální místní podmínky, pravidla plavby a počasí. Dbejte na vhodná bezpečnostní opatření. Manzil vám pomáhá s plánováním a nenahrazuje vaše vlastní posouzení ani zodpovědné rozhodnutí.',
   'tours.paddle.check.bans.few': '{count} se zákazem',
   'tours.paddle.check.decided.few': '{count} rozhodnutí',
   'tours.paddle.check.review.few': '{count} k opětovné kontrole',
@@ -1232,7 +1232,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Naplánovat ručně kreslené úseky po vodě',
   'tours.paddle.auto': 'Nalezeno',
   'tours.paddle.autoHint':
-    'TREK umístil tento bod k přenášce nebo zdymadlu, které našel po cestě. Když ho přesuneš nebo změníš, bude tvůj.',
+    'Manzil umístil tento bod k přenášce nebo zdymadlu, které našel po cestě. Když ho přesuneš nebo změníš, bude tvůj.',
   'tours.paddle.note.rapids': 'Divoká voda {grade}',
   'tours.paddle.note.pass': 'Vodácká propust',
   'tours.paddle.note.gap': 'Mezera v mapových datech',
@@ -1240,10 +1240,10 @@ const tours: TranslationStrings = {
     'Trasa zde vede proudící vodou. Nejdřív si místo prohlédni a v případě pochybností přenášej.',
   'tours.paddle.note.gapHint': 'Data o vodě tu mají mezeru, překlenutou přímou čarou. Ověř si to na místě.',
   'tours.paddle.failed.not_on_water':
-    'Jeden konec tohoto úseku neleží na žádné vodě, kterou TREK zná. Přesuň ho na řeku nebo jezero.',
+    'Jeden konec tohoto úseku neleží na žádné vodě, kterou Manzil zná. Přesuň ho na řeku nebo jezero.',
   'tours.paddle.failed.no_region': 'Pro tuto oblast zatím nejsou data o vodě. Administrátor může region přidat.',
   'tours.paddle.failed.building': 'Data o vodě pro tento region se ještě připravují. Zkus to znovu za pár minut.',
-  'tours.paddle.failed.no_water_path': 'TREK mezi těmito body nenašel cestu po vodě.',
+  'tours.paddle.failed.no_water_path': 'Manzil mezi těmito body nenašel cestu po vodě.',
   'tours.paddle.failed.cross_region': 'Tyto body leží ve dvou regionech bez společných dat o vodě.',
   'tours.paddle.failed.busy': 'Plánovač tras je vytížený. Zkus to za chvíli znovu.',
   'tours.paddle.failed.timeout': 'Plánování tohoto úseku trvalo příliš dlouho. Přidej mezi ně bod a zkus to znovu.',
@@ -1258,8 +1258,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Čtení',
   'tours.paddle.load.phase.build': 'Staví se vodní síť',
   'tours.paddle.load.hint': 'Obvykle jedna až tři minuty. Klidně plánuj dál, úsek se pak naplánuje sám.',
-  'tours.paddle.load.reason.tooLarge': 'Region je větší, než TREK sám načítá.',
-  'tours.paddle.load.reason.limit': 'TREK dnes už sám načetl dost regionů.',
+  'tours.paddle.load.reason.tooLarge': 'Region je větší, než Manzil sám načítá.',
+  'tours.paddle.load.reason.limit': 'Manzil dnes už sám načetl dost regionů.',
   'tours.paddle.load.declined': 'Správce zamítl vodní data pro {region}.',
   'tours.paddle.load.failed': 'Vodní data pro {region} se nepodařilo načíst.',
   'tours.paddle.load.noWater': 'Ve vodních datech pro {region} tu žádná voda není. Dej bod na řeku nebo jezero.',
@@ -1284,7 +1284,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Doba jízdy',
   'tours.horse.timeInfoLabel': 'Proč tu není doba jízdy',
   'tours.horse.timeInfo':
-    'TREK dobu jízdy nepočítá: tempo určuje kůň a jezdec. Pokud chceš, zadej plánovaný celkový čas sám.',
+    'Manzil dobu jízdy nepočítá: tempo určuje kůň a jezdec. Pokud chceš, zadej plánovaný celkový čas sám.',
   'tours.horse.routes.title': 'Jezdecké trasy',
   'tours.horse.routes.infoLabel': 'O jezdeckých trasách',
   'tours.horse.routes.info':
@@ -1339,7 +1339,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecorded': 'Jak bylo zaznamenáno',
   'tours.horse.recorded.asRecordedInfo': 'Trasa zůstává tak, jak ji soubor zaznamenal. Nic se znovu neplánuje.',
   'tours.horse.recorded.noTime': 'Bez doby jízdy',
-  'tours.horse.recorded.noTimeInfo': 'TREK pro vyjížďku nepočítá dobu jízdy: tempo určuje kůň a jezdec.',
+  'tours.horse.recorded.noTimeInfo': 'Manzil pro vyjížďku nepočítá dobu jízdy: tempo určuje kůň a jezdec.',
   'tours.horse.recorded.accessUnchecked': 'Přístup neověřen',
   'tours.horse.recorded.accessUncheckedInfo':
     'Import neověřuje, zda se po cestách smí jezdit na koni. Platí značení na místě.',
@@ -1499,7 +1499,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Zatím není co uložit. Nejprve výlet změňte.',
   'tours.detail.openInTours': 'Otevřít na kartě Výlety',
   'tours.planner.status.routingGeneric': 'Výpočet trasy…',
-  'tours.planner.emptyHintPlacing': 'Klikněte do mapy a zadejte body. Od dvou bodů TREK spočítá trasu.',
+  'tours.planner.emptyHintPlacing': 'Klikněte do mapy a zadejte body. Od dvou bodů Manzil spočítá trasu.',
   'tours.ski.drawStraight': 'Nakreslit rovně',
   'tours.horse.routes.stale': 'Seznam ukazuje výřez, který jste prohledali. Hledejte znovu v tomto.',
   'tours.horse.dialog.adoptGapHint':

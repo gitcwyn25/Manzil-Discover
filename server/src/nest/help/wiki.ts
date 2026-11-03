@@ -16,7 +16,7 @@ import path from 'path';
  * GitHub directly either way; images are proxied through /api/help/asset.
  */
 
-const REPO = 'liketrek/TREK';
+const REPO = 'liketrek/Manzil';
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/main/wiki`;
 const TTL_MS = 60 * 60 * 1000; // remote fallback only: refresh from GitHub at most hourly
 // Remote fallback only: raw.githubusercontent.com is a third party on the

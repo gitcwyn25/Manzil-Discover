@@ -33,9 +33,9 @@ const settings: TranslationStrings = {
     'Μια δική σας Valhalla, που ερωτάται όταν η υπηρεσία δρομολόγησης παραπάνω έχει οριστεί σε αυτήν ή στο Αυτόματα. Αν έχει ρυθμιστεί μόνο δική σας υπηρεσία δρομολόγησης και δεν έχει επιλεγεί υπηρεσία, δεν ερωτάται καμία Valhalla. Αφού εισαγάγετε διεύθυνση URL, επανεκκινήστε τον διακομιστή και φορτώστε ξανά τη σελίδα.',
   'settings.valhallaProvider': 'Υπηρεσία δρομολόγησης',
   'settings.valhallaProviderHint':
-    'Με τις υπηρεσίες TREK ή δική σας Valhalla, η Valhalla υπολογίζει όλες τις διαδρομές: τις ημέρες και τα οδικά ταξίδια με τα πόδια, με ποδήλατο και με αυτοκίνητο, διαδρομές χωρίς διόδια, αυτοκινητοδρόμους ή πορθμεία, καθώς και τις διαδρομές, τα υψόμετρα και τα μονοπάτια των εκδρομών. Όταν δεν μπορεί να απαντήσει, το OSRM υπολογίζει εκείνη την ημέρα. Οι υπηρεσίες TREK ερωτώνται μέσω αυτού του διακομιστή. Με τη δημόσια Valhalla της FOSSGIS, το OSRM υπολογίζει τις διαδρομές και η Valhalla απαντά μόνο σε ό,τι δεν μπορεί το OSRM. Η αυτόματη επιλογή ρωτά τις υπηρεσίες TREK, εκτός αν έχει οριστεί δική σας Valhalla ή μόνο δική σας υπηρεσία δρομολόγησης.',
+    'Με τις υπηρεσίες Manzil ή δική σας Valhalla, η Valhalla υπολογίζει όλες τις διαδρομές: τις ημέρες και τα οδικά ταξίδια με τα πόδια, με ποδήλατο και με αυτοκίνητο, διαδρομές χωρίς διόδια, αυτοκινητοδρόμους ή πορθμεία, καθώς και τις διαδρομές, τα υψόμετρα και τα μονοπάτια των εκδρομών. Όταν δεν μπορεί να απαντήσει, το OSRM υπολογίζει εκείνη την ημέρα. Οι υπηρεσίες Manzil ερωτώνται μέσω αυτού του διακομιστή. Με τη δημόσια Valhalla της FOSSGIS, το OSRM υπολογίζει τις διαδρομές και η Valhalla απαντά μόνο σε ό,τι δεν μπορεί το OSRM. Η αυτόματη επιλογή ρωτά τις υπηρεσίες Manzil, εκτός αν έχει οριστεί δική σας Valhalla ή μόνο δική σας υπηρεσία δρομολόγησης.',
   'settings.valhallaProviderOption.auto': 'Αυτόματα',
-  'settings.valhallaProviderOption.trek': 'Υπηρεσίες TREK',
+  'settings.valhallaProviderOption.trek': 'Υπηρεσίες Manzil',
   'settings.valhallaProviderOption.fossgis': 'Δημόσια Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Δική σας Valhalla',
   'settings.mapHint': 'Πρότυπο URL για πλακίδια χάρτη',
@@ -54,7 +54,7 @@ const settings: TranslationStrings = {
     'Οι βασικοί χάρτες CARTO εμφανίζουν υδατογράφημα χωρίς κλειδί. Δωρεάν, χωρίς λογαριασμό, από',
   'settings.mapCartoKeyLink': 'κλειδί API βασικών χαρτών carto.com',
   'settings.mapCartoKeyMissing':
-    'Αυτό το πρότυπο είναι βασικός χάρτης CARTO. Χωρίς κλειδί, η CARTO τυπώνει "API KEY REQUIRED" σε κάθε πλακίδιο. Μέχρι να εισαγάγετε κλειδί, το TREK εμφανίζει τον προεπιλεγμένο βασικό χάρτη.',
+    'Αυτό το πρότυπο είναι βασικός χάρτης CARTO. Χωρίς κλειδί, η CARTO τυπώνει "API KEY REQUIRED" σε κάθε πλακίδιο. Μέχρι να εισαγάγετε κλειδί, το Manzil εμφανίζει τον προεπιλεγμένο βασικό χάρτη.',
   'settings.mapStyle': 'Στυλ Χάρτη',
   'settings.mapStylePlaceholder': 'Επιλέξτε ένα στυλ Mapbox',
   'settings.mapStyleHint': 'Προκαθορισμένο ή δικό σας mapbox://styles/USER/ID URL',
@@ -142,16 +142,16 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push',
   'settings.webPush.title': 'Push ειδοποιήσεις σε αυτή τη συσκευή',
   'settings.webPush.hint':
-    'Εμφανίζει τις ειδοποιήσεις του TREK σε αυτή τη συσκευή ακόμη και όταν το TREK είναι κλειστό. Ποια συμβάντα φτάνουν καθορίζεται από τη στήλη Push.',
+    'Εμφανίζει τις ειδοποιήσεις του Manzil σε αυτή τη συσκευή ακόμη και όταν το Manzil είναι κλειστό. Ποια συμβάντα φτάνουν καθορίζεται από τη στήλη Push.',
   'settings.webPush.enable': 'Ενεργοποίηση για αυτή τη συσκευή',
   'settings.webPush.disable': 'Απενεργοποίηση για αυτή τη συσκευή',
   'settings.webPush.enabled': 'Ενεργό για αυτή τη συσκευή',
   'settings.webPush.unsupported': 'Αυτό το πρόγραμμα περιήγησης δεν μπορεί να λάβει push ειδοποιήσεις.',
-  'settings.webPush.insecure': 'Για το push, το TREK πρέπει να ανοίγει μέσω HTTPS.',
+  'settings.webPush.insecure': 'Για το push, το Manzil πρέπει να ανοίγει μέσω HTTPS.',
   'settings.webPush.iosInstall':
-    'Σε iPhone και iPad, προσθέστε πρώτα το TREK στην οθόνη Αφετηρίας και ανοίξτε το από εκεί.',
+    'Σε iPhone και iPad, προσθέστε πρώτα το Manzil στην οθόνη Αφετηρίας και ανοίξτε το από εκεί.',
   'settings.webPush.denied':
-    'Οι ειδοποιήσεις για το TREK είναι αποκλεισμένες σε αυτό το πρόγραμμα περιήγησης. Επιτρέψτε τις στις ρυθμίσεις του προγράμματος περιήγησης και δοκιμάστε ξανά.',
+    'Οι ειδοποιήσεις για το Manzil είναι αποκλεισμένες σε αυτό το πρόγραμμα περιήγησης. Επιτρέψτε τις στις ρυθμίσεις του προγράμματος περιήγησης και δοκιμάστε ξανά.',
   'settings.webPush.failed': 'Δεν ήταν δυνατή η ενεργοποίηση του push για αυτή τη συσκευή.',
   'settings.notificationPreferences.noChannels':
     'Δεν έχουν διαμορφωθεί κανάλια ειδοποιήσεων. Ζητήστε από έναν διαχειριστή να ρυθμίσει ειδοποιήσεις email ή webhook.',
@@ -276,19 +276,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Προτείνετε ένα νέο χαρακτηριστικό',
   'settings.about.wikiHint': 'Τεκμηρίωση & οδηγοί',
   'settings.about.sponsor.eyebrow': 'Χορηγούμενη υποδομή',
-  'settings.about.sponsor.title': 'Οι δικοί διακομιστές του TREK τρέχουν στο dataforest cloud',
+  'settings.about.sponsor.title': 'Οι δικοί διακομιστές του Manzil τρέχουν στο dataforest cloud',
   'settings.about.sponsor.body':
-    'Η αναζήτηση τοποθεσιών, η αναζήτηση διευθύνσεων και η δρομολόγηση προέρχονται από τους δικούς διακομιστές του TREK αντί για την Google και τους ομοίους της, και το dataforest cloud χορηγεί τα μηχανήματα στα οποία τρέχουν.',
+    'Η αναζήτηση τοποθεσιών, η αναζήτηση διευθύνσεων και η δρομολόγηση προέρχονται από τους δικούς διακομιστές του Manzil αντί για την Google και τους ομοίους της, και το dataforest cloud χορηγεί τα μηχανήματα στα οποία τρέχουν.',
   'settings.about.sponsor.cta': 'Επισκεφθείτε το dataforest cloud',
   'settings.about.sponsor.search': 'Αναζήτηση τοποθεσιών',
   'settings.about.sponsor.address': 'Αναζήτηση διευθύνσεων',
   'settings.about.sponsor.routing': 'Δρομολόγηση',
   'settings.about.descriptionManaged':
-    'Το TREK σας βοηθά να οργανώνετε τα ταξίδια σας από την πρώτη ιδέα μέχρι την τελευταία ανάμνηση. Σχεδιασμός ημερών, προϋπολογισμός, λίστες αποσκευών, φωτογραφίες και πολλά ακόμη, όλα σε ένα μέρος.',
+    'Το Manzil σας βοηθά να οργανώνετε τα ταξίδια σας από την πρώτη ιδέα μέχρι την τελευταία ανάμνηση. Σχεδιασμός ημερών, προϋπολογισμός, λίστες αποσκευών, φωτογραφίες και πολλά ακόμη, όλα σε ένα μέρος.',
   'settings.about.sourceTitle': 'Πηγαίος κώδικας',
   'settings.about.sourceHint': 'Το TREK είναι ανοιχτού κώδικα, με άδεια AGPL-3.0',
   'settings.about.supporters.badge': 'Μηνιαίοι Υποστηρικτές',
-  'settings.about.supporters.title': 'Συνταξιδιώτες για το TREK',
+  'settings.about.supporters.title': 'Συνταξιδιώτες για το Manzil',
   'settings.about.supporters.subtitle':
     'Καθώς εσείς σχεδιάζετε την επόμενή σας διαδρομή, αυτοί οι άνθρωποι βοηθούν να σχεδιαστεί το μέλλον του TREK. Η μηνιαία τους συνεισφορά πηγαίνει απευθείας στην ανάπτυξη και σε πραγματικές ώρες εργασίας — ώστε το TREK να παραμένει Open Source.',
   'settings.about.supporters.since': 'υποστηρικτής από {date}',
@@ -299,7 +299,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Οικονομικός Ταξιδιώτης',
   'settings.about.supporter.tier.hostelBunkmate': 'Συγκάτοικος Hostel',
   'settings.about.description':
-    'Το TREK είναι ένας self-hosted ταξιδιωτικός σχεδιαστής που σας βοηθά να οργανώσετε τα ταξίδια σας από την πρώτη ιδέα μέχρι την τελευταία ανάμνηση. Σχεδιασμός ημερών, προϋπολογισμός, λίστες πακεταρίσματος, φωτογραφίες και πολλά άλλα — όλα σε ένα μέρος, στον δικό σας server.',
+    'Το Manzil είναι ένας self-hosted ταξιδιωτικός σχεδιαστής που σας βοηθά να οργανώσετε τα ταξίδια σας από την πρώτη ιδέα μέχρι την τελευταία ανάμνηση. Σχεδιασμός ημερών, προϋπολογισμός, λίστες πακεταρίσματος, φωτογραφίες και πολλά άλλα — όλα σε ένα μέρος, στον δικό σας server.',
   'settings.about.madeWith': 'Φτιαγμένο με',
   'settings.about.madeBy': 'από τον Maurice και μια αναπτυσσόμενη κοινότητα open-source.',
   'settings.username': 'Όνομα χρήστη',
@@ -421,7 +421,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Ενεργοποιήστε το μόνο για μια αξιόπιστη εγκατάσταση στο δικό σας δίκτυο.',
   'settings.airtrail.writeBack': 'Εγγραφή αλλαγών πίσω στο AirTrail',
   'settings.airtrail.writeBackHint':
-    'Απενεργοποιημένο από προεπιλογή: το AirTrail είναι η πηγή αλήθειας και το TREK μόνο διαβάζει από αυτό. Ενεργοποιήστε το για να στέλνετε πίσω στο AirTrail τις αλλαγές που κάνετε στο TREK.',
+    'Απενεργοποιημένο από προεπιλογή: το AirTrail είναι η πηγή αλήθειας και το Manzil μόνο διαβάζει από αυτό. Ενεργοποιήστε το για να στέλνετε πίσω στο AirTrail τις αλλαγές που κάνετε στο Manzil.',
   'settings.airtrail.connected': 'Συνδέθηκε',
   'settings.airtrail.notConnected': 'Δεν συνδέθηκε',
   'settings.airtrail.toast.saved': 'Η σύνδεση με το AirTrail αποθηκεύτηκε',
@@ -542,7 +542,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Πίνακας ελέγχου',
   'settings.startPageActiveTrip': 'Ενεργό ταξίδι',
   'settings.startPageHint':
-    'Το TREK ανοίγει απευθείας στο ταξίδι που είναι σε εξέλιξη ή στο επόμενο που ξεκινά. Είναι το ίδιο ταξίδι που προβάλλει ο πίνακας ελέγχου.',
+    'Το Manzil ανοίγει απευθείας στο ταξίδι που είναι σε εξέλιξη ή στο επόμενο που ξεκινά. Είναι το ίδιο ταξίδι που προβάλλει ο πίνακας ελέγχου.',
   'settings.startTripTab': 'Αρχική καρτέλα',
   'settings.startTripTabHint':
     'Η καρτέλα με την οποία ανοίγει το ταξίδι. Αν ανήκει σε απενεργοποιημένο πρόσθετο, ανοίγει το πλάνο.',

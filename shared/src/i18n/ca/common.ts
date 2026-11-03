@@ -79,8 +79,8 @@ const common: TranslationStrings = {
   'common.errorReload': 'Torna a carregar la pàgina',
   'common.errorUpdateTitle': 'Hi ha una versió nova disponible',
   'common.errorUpdateBody':
-    "TREK s'ha actualitzat mentre aquesta pestanya era oberta. Torna a carregar per obtenir la versió nova.",
+    "Manzil s'ha actualitzat mentre aquesta pestanya era oberta. Torna a carregar per obtenir la versió nova.",
   'common.errorPluginTitle': "No s'ha pogut mostrar aquest connector",
-  'common.needsConnection': 'Això necessita connexió. Torna-ho a provar quan TREK torni a estar en línia.',
+  'common.needsConnection': 'Això necessita connexió. Torna-ho a provar quan Manzil torni a estar en línia.',
 };
 export default common;

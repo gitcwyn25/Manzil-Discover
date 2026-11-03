@@ -255,7 +255,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays.one': 'יום אחד',
   'assistant.admin.retentionDays.two': 'יומיים',
   'assistant.admin.retentionForever': 'לתמיד',
-  'assistant.mobile.tile': 'שאלו את TREK',
+  'assistant.mobile.tile': 'שאלו את Manzil',
   'assistant.mobile.tileHint': 'תכננו עם העוזר',
   'assistant.mobile.backToChat': 'חזרה לשיחה',
   'assistant.step.nearbyAt': 'מחפש ליד {place}',
@@ -498,7 +498,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.two': 'מצאתי {count} הזמנות ב-{name}. הוסיפו למטה את ההזמנות שתרצו.',
   'assistant.attach.none': 'לא הצלחתי למצוא הזמנה ב-{name}.',
   'assistant.attach.why.aiNotConfigured':
-    'קריאה באמצעות בינה מלאכותית אינה מוגדרת כאן לייבוא, ולכן רק כלי הקריאה המובנה של TREK בדק את הקובץ.',
+    'קריאה באמצעות בינה מלאכותית אינה מוגדרת כאן לייבוא, ולכן רק כלי הקריאה המובנה של Manzil בדק את הקובץ.',
   'assistant.attach.why.aiFailed': 'כלי הקריאה של הבינה המלאכותית לא הצליח לקרוא את הקובץ.',
   'assistant.attach.why.noText': 'אין בו טקסט שניתן לקרוא, ולכן זה כנראה מסמך סרוק.',
   'assistant.attach.why.nothingFound': 'לא נמצא בו תוכן שנראה כמו הזמנה.',

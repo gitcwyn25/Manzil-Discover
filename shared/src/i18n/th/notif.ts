@@ -26,7 +26,7 @@ const notif: TranslationStrings = {
   'notif.packing_tagged.title': 'มอบหมายรายการจัดกระเป๋า',
   'notif.packing_tagged.text': '{actor} มอบหมายให้คุณเป็น {category} ใน {trip}',
   'notif.version_available.title': 'มีเวอร์ชันใหม่แล้ว',
-  'notif.version_available.text': 'TREK {version} มีจำหน่ายแล้ว',
+  'notif.version_available.text': 'Manzil {version} มีจำหน่ายแล้ว',
   'notif.replica_failure.title': 'การจำลองการจัดเก็บข้อมูลล้มเหลว',
   'notif.replica_failure.text': "การเขียนแบบจำลองล้มเหลวใน '{backend}': {op} จาก {key} — {error}",
   'notif.replica_failure.textSuppressed':

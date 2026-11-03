@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'กำลังลงชื่อเข้าใช้...',
   'login.signIn': 'เข้าสู่ระบบ',
   'login.createAdmin': 'สร้างบัญชีผู้ดูแลระบบ',
-  'login.createAdminHint': 'ตั้งค่าบัญชีผู้ดูแลระบบบัญชีแรกสำหรับ TREK',
+  'login.createAdminHint': 'ตั้งค่าบัญชีผู้ดูแลระบบบัญชีแรกสำหรับ Manzil',
   'login.setNewPassword': 'ตั้งรหัสผ่านใหม่',
   'login.setNewPasswordHint': 'คุณต้องเปลี่ยนรหัสผ่านก่อนดำเนินการต่อ',
   'login.createAccount': 'สร้างบัญชี',
@@ -74,7 +74,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'การเข้าสู่ระบบด้วยพาสคีย์ล้มเหลว โปรดลองอีกครั้ง',
   'login.insecureCookie.title': 'การเข้าสู่ระบบจะไม่ติดบน HTTP',
   'login.insecureCookie.body':
-    'คุณกำลังเชื่อมต่อผ่าน HTTP ธรรมดา ดังนั้นเบราว์เซอร์ของคุณจึงทิ้งคุกกี้เซสชันที่ปลอดภัยของ TREK คำขอถัดไปล้มเหลวด้วย "ต้องใช้โทเค็นการเข้าถึง" แก้ไข: ใช้ HTTPS หรือสำหรับชุดโฮมแล็บ COOKIE_SECURE=false',
+    'คุณกำลังเชื่อมต่อผ่าน HTTP ธรรมดา ดังนั้นเบราว์เซอร์ของคุณจึงทิ้งคุกกี้เซสชันที่ปลอดภัยของ Manzil คำขอถัดไปล้มเหลวด้วย "ต้องใช้โทเค็นการเข้าถึง" แก้ไข: ใช้ HTTPS หรือสำหรับชุดโฮมแล็บ COOKIE_SECURE=false',
   'login.insecureCookie.link': 'เปิดคู่มือการแก้ไขปัญหา',
 };
 export default login;

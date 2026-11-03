@@ -179,7 +179,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Dades noves del lloc',
   'places.refresh.title': 'Actualitza les dades del lloc',
   'places.refresh.intro':
-    "TREK coneix dades més noves d'aquest lloc. Tria què vols adoptar; la resta es queda com està. Després desa el lloc.",
+    "Manzil coneix dades més noves d'aquest lloc. Tria què vols adoptar; la resta es queda com està. Després desa el lloc.",
   'places.refresh.apply': 'Adopta',
   'places.refresh.replaces': 'Substitueix el que hi ha desat ara',
   'places.refresh.empty': 'buit',

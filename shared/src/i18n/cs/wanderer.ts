@@ -22,12 +22,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Připojení k wanderer odebráno',
   'wanderer.loadFailed': 'Připojení k wanderer se nepodařilo načíst',
   'wanderer.privateIp':
-    'Tato adresa je v privátní síti. Pokud se k ní TREK nedokáže připojit, musí administrátor povolit interní sítě.',
+    'Tato adresa je v privátní síti. Pokud se k ní Manzil nedokáže připojit, musí administrátor povolit interní sítě.',
   'wanderer.error.disabled': 'Váš administrátor nepovolil wanderer pro výlety.',
   'wanderer.error.not_connected': 'wanderer zatím není připojen.',
   'wanderer.error.invalid_url': 'Tato adresa není platná URL instance wanderer.',
   'wanderer.error.blocked_address':
-    'TREK se k této adrese nesmí připojit. Pro instanci ve vaší vlastní síti musí administrátor nastavit ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil se k této adrese nesmí připojit. Pro instanci ve vaší vlastní síti musí administrátor nastavit ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'wanderer není dostupný. Zkontrolujte adresu a zda instance běží.',
   'wanderer.error.tls': 'Certifikát instance se nepodařilo ověřit. Pokud je podepsaný sám sebou, povolte ho níže.',
   'wanderer.error.unauthorized': 'wanderer nepřijal token API. Mohl být zrušen nebo mu vypršela platnost.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Odpověď nepřišla z aplikace wanderer. Zkontrolujte, zda adresa vede přímo na wanderer.',
   'wanderer.error.no_author':
-    'wanderer odpověděl, ale pro účet tohoto API tokenu neuvádí žádného autora tras, takže TREK nepozná, které trasy jsou vaše.',
+    'wanderer odpověděl, ale pro účet tohoto API tokenu neuvádí žádného autora tras, takže Manzil nepozná, které trasy jsou vaše.',
   'wanderer.error.too_large': 'Soubor trasy je větší než 10 MB.',
   'wanderer.error.server_error': 'wanderer odpověděl chybou. Zkuste to později.',
   'wanderer.error.offline': 'Jste offline. V aplikaci wanderer lze vyhledávat jen online.',

@@ -32,7 +32,7 @@ update(path.join(root, 'client/index.html'), source => source.replace('<title>TR
   .replace('name="apple-mobile-web-app-title" content="TREK"', 'name="apple-mobile-web-app-title" content="Manzil"'));
 const publicRoot = path.join(root, 'client/public');
 mkdirSync(path.join(publicRoot, 'icons'), { recursive: true });
-for (const file of ['logo-light.svg', 'logo-dark.svg', 'source.html']) copyFileSync(path.join(assetRoot, file), path.join(publicRoot, file));
+for (const file of ['logo-light.svg', 'logo-dark.svg', 'text-light.svg', 'text-dark.svg', 'source.html']) copyFileSync(path.join(assetRoot, file), path.join(publicRoot, file));
 for (const file of ['icon.svg', 'icon-dark.svg', 'icon-white.svg', 'manzil-loading-light.svg', 'manzil-loading-dark.svg']) {
   copyFileSync(path.join(assetRoot, file), path.join(publicRoot, 'icons', file));
 }

@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Ζωντανή επίδειξη',
-  'demo.welcome.title': 'Καλώς ήρθες στο TREK',
+  'demo.welcome.title': 'Καλώς ήρθες στο Manzil',
   'demo.welcome.tagline':
     'Ο ταξιδιωτικός σχεδιαστής για να μοιράζεσαι: σχεδιάστε μαζί στον χάρτη σε πραγματικό χρόνο, από την πρώτη ιδέα ως το φωτοβιβλίο μετά το ταξίδι.',
   'demo.welcome.resetTitle': 'Όλα επαναφέρονται κάθε ώρα',
@@ -17,7 +17,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'Διαδρομές και πεζοπορίες',
   'demo.feature.tours.body':
     'Σχεδίασε μια πεζοπορία στο δίκτυο μονοπατιών και ακολούθησέ την πάνω σε 3D ανάγλυφο με το υψομετρικό της προφίλ.',
-  'demo.feature.studio.title': 'Φωτοβιβλία με το TREK Studio',
+  'demo.feature.studio.title': 'Φωτοβιβλία με το Manzil Studio',
   'demo.feature.studio.body': 'Κάνε ένα ταξίδι σχεδιασμένο φωτοβιβλίο, σελίδα προς σελίδα.',
   'demo.feature.collab.title': 'Σχεδιάστε μαζί ζωντανά',
   'demo.feature.collab.body': 'Όλοι στο ταξίδι βλέπουν κάθε αλλαγή αμέσως, με συνομιλία, σημειώσεις και ψηφοφορίες.',
@@ -31,7 +31,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Αποθήκευσε μέρη από διάφορα ταξίδια σε δικές σου λίστες και αντίγραψέ τα σε οποιοδήποτε πλάνο.',
   'demo.feature.offline.title': 'Λειτουργεί εκτός σύνδεσης',
-  'demo.feature.offline.body': 'Εγκατάστησε το TREK ως εφαρμογή και κράτα πλάνα, χάρτες και λίστες χωρίς σύνδεση.',
+  'demo.feature.offline.body': 'Εγκατάστησε το Manzil ως εφαρμογή και κράτα πλάνα, χάρτες και λίστες χωρίς σύνδεση.',
   'demo.welcome.limitsTitle': 'Εκτός επίδειξης',
   'demo.limit.uploads': 'Μεταφόρτωση φωτογραφιών, εγγράφων και εξωφύλλων',
   'demo.limit.account': 'Αλλαγή λογαριασμού, κωδικού ή 2FA',
@@ -50,7 +50,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Πηγές φωτογραφιών',
   'demo.credits.intro':
-    'Οι φωτογραφίες αυτής της επίδειξης προέρχονται από το Wikimedia Commons, η καθεμία με την άδεια που αναγράφεται δίπλα της. Η άδεια αυτή ισχύει μόνο για τη φωτογραφία, όχι για το TREK ή την υπόλοιπη επίδειξη.',
+    'Οι φωτογραφίες αυτής της επίδειξης προέρχονται από το Wikimedia Commons, η καθεμία με την άδεια που αναγράφεται δίπλα της. Η άδεια αυτή ισχύει μόνο για τη φωτογραφία, όχι για το Manzil ή την υπόλοιπη επίδειξη.',
   'demo.credits.by': 'Φωτογραφία: {author}',
   'demo.credits.publicDomain': 'Κοινό κτήμα',
   'demo.credits.back': 'Πίσω',

@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Lägg till på en dag',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX-import',
-  'tours.badge.planned': 'planerad i TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'planerad i Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'använd med försiktighet',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Den här turen finns redan på den dagen.',
   'tours.conversion.title': 'Redigerbar version',
   'tours.conversion.intro':
-    'En import är ett inspelat spår. Planera en redigerbar version: TREK tar kontrollpunkter från det, ruttar dem på nytt och visar hur nära det kommer. Inget ändras förrän du väljer.',
+    'En import är ett inspelat spår. Planera en redigerbar version: Manzil tar kontrollpunkter från det, ruttar dem på nytt och visar hur nära det kommer. Inget ändras förrän du väljer.',
   'tours.conversion.replace': 'Ersätt importen',
   'tours.conversion.replaceHint':
     'Planerar om den här turen på plats: dess dagar och anteckningar finns kvar, och det inspelade spåret sparas så att du kan gå tillbaka till det.',
@@ -123,7 +123,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Om säkerhet',
   'tours.planner.addPoint': 'Lägg till punkt',
   'tours.planner.addPointActive': 'Klicka på kartan',
-  'tours.planner.emptyHint': 'Slå på ”Lägg till punkt” och klicka på kartan. Från två punkter räknar TREK ut rutten.',
+  'tours.planner.emptyHint': 'Slå på ”Lägg till punkt” och klicka på kartan. Från två punkter räknar Manzil ut rutten.',
   'tours.planner.walkingEstimated': 'Uppskattad gångtid',
   'tours.planner.walkingEstimatedShort': 'Uppsk. gångtid',
   'tours.planner.walkingEstimatedInfoLabel': 'Hur gångtiden uppskattas',
@@ -237,7 +237,7 @@ const tours: TranslationStrings = {
     'Ändringsdatumet som wanderer angav vid importen. En ledtråd, inte ett bevis på en version.',
   'tours.provenance.localState': 'Här',
   'tours.provenance.plannedOver': 'Omplanerad, inspelat spår sparat',
-  'tours.provenance.editedLocally': 'Redigerad i TREK',
+  'tours.provenance.editedLocally': 'Redigerad i Manzil',
   'tours.provenance.asImported': 'Som importerad',
   'tours.provenance.openSource': 'Öppna i wanderer',
   'tours.provenance.check': 'Kontrollera källan',
@@ -310,7 +310,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Importera promenad från Google Maps',
   'tours.walkImport.title': 'Promenad från en Google Maps-länk',
   'tours.walkImport.intro':
-    'Dela en gångrutt i Google Maps och klistra in länken här. TREK läser stoppen och planerar själv vägen till fots mellan dem.',
+    'Dela en gångrutt i Google Maps och klistra in länken här. Manzil läser stoppen och planerar själv vägen till fots mellan dem.',
   'tours.walkImport.urlLabel': 'Länk till gångrutten',
   'tours.walkImport.urlHint': 'En kortlänk från maps.app.goo.gl eller ruttens adress på google.com/maps.',
   'tours.walkImport.read': 'Läs länken',
@@ -320,14 +320,14 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Från Google Maps',
   'tours.walkImport.openSource': 'Öppna i Google Maps',
   'tours.walkImport.recalculated':
-    'TREK planerar vägen mellan stoppen på nytt; linjen som ritats i Google Maps tas inte över.',
+    'Manzil planerar vägen mellan stoppen på nytt; linjen som ritats i Google Maps tas inte över.',
   'tours.walkImport.noPosition': 'Ingen position i länken',
   'tours.walkImport.unresolved': '{count} stopp saknar position i länken och lämnas utanför.',
   'tours.walkImport.unresolved.one': '{count} stopp saknar position i länken och lämnas utanför.',
   'tours.walkImport.tooFewPositions': 'En promenad behöver minst två stopp med position.',
   'tours.walkImport.replacesDraft': 'När promenaden läses in ersätts de osparade ändringarna i planeraren.',
   'tours.walkImport.defaultName': 'Promenad från Google Maps',
-  'tours.walkImport.draftNotice': 'Från en gångrutt i Google Maps. TREK har själv planerat vägen mellan stoppen.',
+  'tours.walkImport.draftNotice': 'Från en gångrutt i Google Maps. Manzil har själv planerat vägen mellan stoppen.',
   'tours.walkImport.offline': 'Att läsa en länk kräver en anslutning.',
   'tours.walkImport.failed': 'Länken kunde inte läsas just nu. Försök igen om en stund.',
   'tours.walkImport.refusal.not_google_maps':
@@ -499,7 +499,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Kartdata från {build}',
   'tours.ski.summary.saved': 'Visas som det sparades. Flytta en punkt eller ändra ett val för att planera om.',
   'tours.ski.chooseTechnique': 'Välj teknik, eller Okänd.',
-  'tours.ski.infoLabel': 'Vad TREK gör med skidturer och skidspår',
+  'tours.ski.infoLabel': 'Vad Manzil gör med skidturer och skidspår',
   'tours.ski.info':
     'En planerad tur följer pister, liftar och spår från OpenStreetMap där pistdatan når, och går annars rakt mellan sina punkter. Ett importerat spår behålls som det spelades in. Höjder kommer från pistdatan, terrängen eller filen. Inget här, inte heller lutningsfärgerna i 3D, säger något om snö, laviner eller om pister, liftar och spår är öppna.',
   'tours.ski.time': 'Skidtid',
@@ -904,7 +904,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Rutta nästa sträcka igen',
   'tours.planner.freeLegBadge': 'Ritad för hand, inte ruttad',
   'tours.planner.freeLegInfo':
-    'TREK förbinder de här två punkterna med en rak linje. Ingen ruttplanerare har planerat eller kontrollerat sträckan.',
+    'Manzil förbinder de här två punkterna med en rak linje. Ingen ruttplanerare har planerat eller kontrollerat sträckan.',
   'tours.map.seamarks': 'Sjömärken',
   'tours.map.seamarksDown': 'Sjömärkena laddas inte. Kartan och din rutt fungerar ändå.',
   'tours.map.pistes': 'Pister, längdspår och liftar',
@@ -953,9 +953,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': 'Importera {count} turer',
   'tours.import.previewConfirm.one': 'Importera {count} tur',
   'tours.conversion.introPaddle':
-    'En import är ett inspelat spår. Planera en redigerbar paddeltur: TREK tar kontrollpunkter ur det, förbinder dem med raka linjer som en paddeltur ritas och visar hur nära det kommer. Inget ändras förrän du väljer.',
+    'En import är ett inspelat spår. Planera en redigerbar paddeltur: Manzil tar kontrollpunkter ur det, förbinder dem med raka linjer som en paddeltur ritas och visar hur nära det kommer. Inget ändras förrän du väljer.',
   'tours.conversion.introSki':
-    'En import är ett inspelat spår. Planera en redigerbar skidtur: TREK tar kontrollpunkter ur det, förbinder dem med raka linjer som en skidtur ritas och visar hur nära det kommer. Inget ändras förrän du väljer.',
+    'En import är ett inspelat spår. Planera en redigerbar skidtur: Manzil tar kontrollpunkter ur det, förbinder dem med raka linjer som en skidtur ritas och visar hur nära det kommer. Inget ändras förrän du väljer.',
   'tours.conversion.closePaddle':
     'Förslaget följer spåret noga. Punkterna är förbundna med raka linjer, så det är inte samma linje.',
   'tours.planner.moreActions': 'Fler åtgärder',
@@ -987,7 +987,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Bärs runt, lyftet räknas',
   'tours.paddle.time.title': 'Tidsuppskattning',
   'tours.paddle.time.assumptionInfo':
-    'TREK utgår från 4 km/h på vattnet, 2 km/h vid bärning och 10 minuter för att kliva ur och i igen vid varje lyft. Det är startvärden att justera, inte normer och inte mätningar. Slusstider är bara det du anger.',
+    'Manzil utgår från 4 km/h på vattnet, 2 km/h vid bärning och 10 minuter för att kliva ur och i igen vid varje lyft. Det är startvärden att justera, inte normer och inte mätningar. Slusstider är bara det du anger.',
   'tours.paddle.time.water': 'På vattnet',
   'tours.paddle.time.carry': 'Bärning',
   'tours.paddle.time.carrySpeed': 'Bärtempo',
@@ -1067,7 +1067,7 @@ const tours: TranslationStrings = {
     'Hinderdata täcker bara en del av rutten (data från {date}). Kontrollera resten själv.',
   'tours.paddle.obstacles.none':
     'Inga hinderdata för det här området. Kontrollera fördämningar, slussar och lyft här själv.',
-  'tours.paddle.obstacles.offline': 'Utan anslutning läser TREK inte in några hinderdata. Kontrollera vattnet själv.',
+  'tours.paddle.obstacles.offline': 'Utan anslutning läser Manzil inte in några hinderdata. Kontrollera vattnet själv.',
   'tours.paddle.obstacles.error': 'Hinderdata kunde inte läsas in. Kontrollera vattnet själv.',
   'tours.paddle.obstacle.kind.weir': 'Fördämning',
   'tours.paddle.obstacle.kind.dam': 'Damm',
@@ -1082,7 +1082,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Lyftställe',
   'tours.paddle.obstacle.kind.access': 'Paddlingsregel',
   'tours.paddle.obstacles.truncated':
-    'TREK visar bara en del av objekten här; området innehåller fler. Kontrollera vattnet själv.',
+    'Manzil visar bara en del av objekten här; området innehåller fler. Kontrollera vattnet själv.',
   'tours.paddle.obstacles.dateUnknown': 'ett okänt datum',
   'tours.paddle.obstacleCard.onRoute': 'På rutten vid',
   'tours.paddle.obstacleCard.near': 'Nära rutten',
@@ -1167,7 +1167,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Säkerhet på vattnet',
   'tours.paddle.safety.short': 'Paddling innebär risker. Kontrollera själv vattnet, reglerna och vädret.',
   'tours.paddle.safety.text':
-    'Paddling innebär risker. Kartor, ruttförslag och anvisningar kan vara ofullständiga eller inaktuella. Kontrollera före turen de aktuella lokala förhållandena, reglerna för att färdas på vattnet och vädret. Vidta lämpliga säkerhetsåtgärder. TREK stöder din planering och ersätter inte din egen kontroll och ditt ansvarsfulla beslut.',
+    'Paddling innebär risker. Kartor, ruttförslag och anvisningar kan vara ofullständiga eller inaktuella. Kontrollera före turen de aktuella lokala förhållandena, reglerna för att färdas på vattnet och vädret. Vidta lämpliga säkerhetsåtgärder. Manzil stöder din planering och ersätter inte din egen kontroll och ditt ansvarsfulla beslut.',
   'tours.planner.shapingPoint': 'Formpunkt',
   'tours.planner.shapingHint': 'Styr rutten utan att vara ett stopp. Dra den dit rutten ska gå.',
   'tours.planner.makeStop': 'Gör till stopp',
@@ -1219,7 +1219,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Planera handritade etapper på vattnet',
   'tours.paddle.auto': 'Hittad',
   'tours.paddle.autoHint':
-    'TREK satte den här punkten vid en bärning eller sluss som hittades på vägen. Flyttar eller ändrar du den blir den din.',
+    'Manzil satte den här punkten vid en bärning eller sluss som hittades på vägen. Flyttar eller ändrar du den blir den din.',
   'tours.paddle.note.rapids': 'Forsvatten {grade}',
   'tours.paddle.note.pass': 'Kanotränna',
   'tours.paddle.note.gap': 'Lucka i kartdata',
@@ -1227,10 +1227,10 @@ const tours: TranslationStrings = {
     'Rutten går här genom strömmande vatten. Rekognosera först och bär runt om du är osäker.',
   'tours.paddle.note.gapHint': 'Vattendata har en lucka här, överbryggad med en rak linje. Kontrollera på plats.',
   'tours.paddle.failed.not_on_water':
-    'Ena änden av etappen ligger inte på något vatten TREK känner till. Flytta den till ån eller sjön.',
+    'Ena änden av etappen ligger inte på något vatten Manzil känner till. Flytta den till ån eller sjön.',
   'tours.paddle.failed.no_region': 'Ännu inga vattendata för området. En administratör kan lägga till regionen.',
   'tours.paddle.failed.building': 'Vattendata för regionen förbereds fortfarande. Försök igen om några minuter.',
-  'tours.paddle.failed.no_water_path': 'TREK hittade ingen väg på vattnet mellan de här punkterna.',
+  'tours.paddle.failed.no_water_path': 'Manzil hittade ingen väg på vattnet mellan de här punkterna.',
   'tours.paddle.failed.cross_region': 'Punkterna ligger i två regioner utan gemensamma vattendata.',
   'tours.paddle.failed.busy': 'Ruttplaneraren är upptagen. Försök igen om en stund.',
   'tours.paddle.failed.timeout': 'Planeringen av etappen tog för lång tid. Lägg till en punkt emellan och försök igen.',
@@ -1246,8 +1246,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Läser',
   'tours.paddle.load.phase.build': 'Bygger vattennätet',
   'tours.paddle.load.hint': 'Oftast en till tre minuter. Planera vidare, sträckan planeras av sig själv efteråt.',
-  'tours.paddle.load.reason.tooLarge': 'Regionen är större än vad TREK läser in av sig själv.',
-  'tours.paddle.load.reason.limit': 'TREK har redan läst in tillräckligt många regioner av sig själv i dag.',
+  'tours.paddle.load.reason.tooLarge': 'Regionen är större än vad Manzil läser in av sig själv.',
+  'tours.paddle.load.reason.limit': 'Manzil har redan läst in tillräckligt många regioner av sig själv i dag.',
   'tours.paddle.load.declined': 'En administratör avböjde vattendata för {region}.',
   'tours.paddle.load.failed': 'Vattendata för {region} kunde inte läsas in.',
   'tours.paddle.load.noWater': 'I vattendata för {region} finns inget vatten här. Sätt punkten på floden eller sjön.',
@@ -1272,7 +1272,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Ridtid',
   'tours.horse.timeInfoLabel': 'Varför det inte finns någon ridtid',
   'tours.horse.timeInfo':
-    'TREK räknar inte ut någon ridtid: tempot bestäms av häst och ryttare. Ange själv en planerad total tid om du vill.',
+    'Manzil räknar inte ut någon ridtid: tempot bestäms av häst och ryttare. Ange själv en planerad total tid om du vill.',
   'tours.horse.routes.title': 'Ridleder',
   'tours.horse.routes.infoLabel': 'Om ridleder',
   'tours.horse.routes.info':
@@ -1328,7 +1328,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'Linjen förblir som filen spelade in den. Inget planeras om.',
   'tours.horse.recorded.noTime': 'Ingen ridtid',
   'tours.horse.recorded.noTimeInfo':
-    'TREK räknar inte ut någon ridtid för en ridtur: takten bestäms av hästen och ryttaren.',
+    'Manzil räknar inte ut någon ridtid för en ridtur: takten bestäms av hästen och ryttaren.',
   'tours.horse.recorded.accessUnchecked': 'Tillträde okontrollerat',
   'tours.horse.recorded.accessUncheckedInfo':
     'Importen kontrollerar inte om vägarna får ridas. Skyltarna på plats gäller.',
@@ -1484,7 +1484,7 @@ const tours: TranslationStrings = {
   'tours.detail.openInTours': 'Öppna på fliken Turer',
   'tours.planner.status.routingGeneric': 'Beräknar rutt…',
   'tours.planner.emptyHintPlacing':
-    'Klicka på kartan för att sätta ut punkter. Från två punkter räknar TREK ut rutten.',
+    'Klicka på kartan för att sätta ut punkter. Från två punkter räknar Manzil ut rutten.',
   'tours.ski.drawStraight': 'Rita rakt',
   'tours.horse.routes.stale': 'Listan visar vyn du sökte i. Sök igen för den här.',
   'tours.horse.dialog.adoptGapHint':

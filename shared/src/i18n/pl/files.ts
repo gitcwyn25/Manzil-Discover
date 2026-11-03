@@ -71,9 +71,9 @@ const files: TranslationStrings = {
     'Czy na pewno chcesz trwale usunąć wszystkie pliki z kosza? Tej operacji nie można cofnąć.',
   'files.noteLabel': 'Notatka',
   'files.notePlaceholder': 'Dodaj notatkę...',
-  'files.uploadNeedsConnection': 'Przesyłanie wymaga połączenia. Spróbuj ponownie, gdy TREK znów będzie online.',
+  'files.uploadNeedsConnection': 'Przesyłanie wymaga połączenia. Spróbuj ponownie, gdy Manzil znów będzie online.',
   'files.linkNeedsConnection':
-    'Usunięcie tego powiązania wymaga połączenia. Spróbuj ponownie, gdy TREK znów będzie online.',
+    'Usunięcie tego powiązania wymaga połączenia. Spróbuj ponownie, gdy Manzil znów będzie online.',
   'files.placeFilesNeedConnection':
     'Pliki wymagają połączenia, aby je przesłać. Usuń nowe, aby zapisać miejsce offline, albo zapisz, gdy znów będziesz online.',
   'files.maxSize': 'Maks. {count} MB',

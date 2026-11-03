@@ -7,7 +7,7 @@ const help: TranslationStrings = {
   'help.contents': 'Daftar isi',
   'help.noResults': 'Tidak ada halaman yang cocok.',
   'help.errorTitle': 'Halaman ini gagal dimuat',
-  'help.errorBody': 'Konten bantuan diambil dari wiki TREK. Periksa koneksimu lalu coba lagi.',
+  'help.errorBody': 'Konten bantuan diambil dari wiki Manzil. Periksa koneksimu lalu coba lagi.',
 
   // center
   'help.center.button': 'Bantuan untuk layar ini',
@@ -71,14 +71,14 @@ const help: TranslationStrings = {
   'help.guide.create-trip.step.2':
     'Beri nama perjalanannya. Hanya kolom ini yang wajib; sisanya bisa ditambahkan nanti.',
   'help.guide.create-trip.step.3':
-    'Pilih tanggal mulai dan tanggal selesai. TREK membuat satu hari untuk setiap tanggal, jadi kamu bisa langsung mulai menyusun rencana perjalanan. Belum punya tanggal? Biarkan keduanya kosong dan isi “Jumlah Hari” saja.',
+    'Pilih tanggal mulai dan tanggal selesai. Manzil membuat satu hari untuk setiap tanggal, jadi kamu bisa langsung mulai menyusun rencana perjalanan. Belum punya tanggal? Biarkan keduanya kosong dan isi “Jumlah Hari” saja.',
   'help.guide.create-trip.step.4':
     'Opsional: tambahkan foto sampul. Unggah foto sendiri, seret atau tempel foto, atau cari foto tujuanmu di Unsplash.',
   'help.guide.create-trip.step.5': 'Klik “Buat Perjalanan Baru”.',
   'help.guide.create-trip.result':
     'Perjalanan muncul di dasbor. Kalau ini perjalanan terdekatmu, perjalanan ini tampil di boarding pass di bagian atas.',
   'help.guide.create-trip.tip.1':
-    'Tanggal bisa diubah nanti. Kalau sudah ada pemesanan, TREK akan menanyakan apakah pemesanan ikut dipindahkan bersama harinya.',
+    'Tanggal bisa diubah nanti. Kalau sudah ada pemesanan, Manzil akan menanyakan apakah pemesanan ikut dipindahkan bersama harinya.',
   'help.guide.create-trip.tip.2':
     'Semua biaya dikonversi ke mata uang perjalanan yang kamu pilih di sini. Pilih mata uang negara tujuan.',
 
@@ -91,7 +91,7 @@ const help: TranslationStrings = {
   'help.guide.edit-trip.step.3': 'Klik “Perbarui”.',
   'help.guide.edit-trip.result': 'Kartu langsung diperbarui, bagi semua anggota perjalanan.',
   'help.guide.edit-trip.tip.1':
-    'Jika kamu menggeser tanggal mulai perjalanan yang punya pemesanan, TREK bertanya apakah pemesanannya ikut digeser. Jika kamu memperpendek perjalanan, TREK mencantumkan hari-hari yang akan dihapus beserta rencananya. Perubahan baru tersimpan setelah kamu klik “Hapus hari dan simpan”.',
+    'Jika kamu menggeser tanggal mulai perjalanan yang punya pemesanan, Manzil bertanya apakah pemesanannya ikut digeser. Jika kamu memperpendek perjalanan, Manzil mencantumkan hari-hari yang akan dihapus beserta rencananya. Perubahan baru tersimpan setelah kamu klik “Hapus hari dan simpan”.',
 
   // cover-image
   'help.guide.cover-image.title': 'Atur foto sampul',
@@ -149,7 +149,7 @@ const help: TranslationStrings = {
   'help.guide.calendar-feed.goal':
     'Lihat hari dan pemesanan dari semua perjalanan aktif di aplikasi kalendermu, selalu tersinkron.',
   'help.guide.calendar-feed.step.1': 'Klik ikon kalender di samping pengalih tampilan.',
-  'help.guide.calendar-feed.step.2': 'Klik “Aktifkan langganan kalender”. TREK membuat tautan feed pribadi.',
+  'help.guide.calendar-feed.step.2': 'Klik “Aktifkan langganan kalender”. Manzil membuat tautan feed pribadi.',
   'help.guide.calendar-feed.step.3':
     'Klik “Tambahkan ke Google Kalender” atau “Tambahkan ke Kalender Apple / Outlook”. Untuk aplikasi kalender lain, buka “Atau salin tautan secara manual” dan salin tautannya dari sana.',
   'help.guide.calendar-feed.result':
@@ -339,7 +339,7 @@ const help: TranslationStrings = {
   // invite
   'help.guide.invite.title': 'Merencanakan bersama orang lain',
   'help.guide.invite.goal':
-    'Gabungkan rencanamu dengan rencana pengguna TREK lain agar kalian berdua melihat hari libur masing-masing dalam satu kisi.',
+    'Gabungkan rencanamu dengan rencana pengguna Manzil lain agar kalian berdua melihat hari libur masing-masing dalam satu kisi.',
   'help.guide.invite.step.1': 'Klik ikon orang di kartu “Orang”.',
   'help.guide.invite.step.2': 'Pilih penggunanya, lalu klik “Kirim Undangan”.',
   'help.guide.invite.step.3':
@@ -367,7 +367,7 @@ const help: TranslationStrings = {
   // ── Screen: atlas ─────────────────────────────────────────────────────────────────────
   'help.ctx.atlas.title': 'Atlas',
   'help.ctx.atlas.summary':
-    'Atlas menunjukkan tempat-tempat yang pernah kamu kunjungi di peta dunia: setiap negara yang kamu datangi lewat perjalanan diberi warna, dan kamu bisa menambahkan sendiri negara yang kamu kunjungi sebelum memakai TREK. Perbesar peta untuk melihat wilayah, simpan bucket list tempat yang masih ingin kamu kunjungi, dan lihat angka-angkamu di panel kaca di bagian bawah.',
+    'Atlas menunjukkan tempat-tempat yang pernah kamu kunjungi di peta dunia: setiap negara yang kamu datangi lewat perjalanan diberi warna, dan kamu bisa menambahkan sendiri negara yang kamu kunjungi sebelum memakai Manzil. Perbesar peta untuk melihat wilayah, simpan bucket list tempat yang masih ingin kamu kunjungi, dan lihat angka-angkamu di panel kaca di bagian bawah.',
   'help.ctx.atlas.bullet.1':
     'Peta: setiap negara yang sudah dikunjungi punya warna tetapnya sendiri, negara yang direncanakan bergaris tepi putus-putus, negara di daftar impian berarsir diagonal, dan negara lainnya abu-abu. Arahkan kursor ke sebuah negara untuk melihat perjalanan, tempat, serta kunjungan pertama dan terakhirnya.',
   'help.ctx.atlas.bullet.2':
@@ -383,7 +383,7 @@ const help: TranslationStrings = {
   // mark-country
   'help.guide.mark-country.title': 'Tandai negara sebagai sudah dikunjungi',
   'help.guide.mark-country.goal':
-    'Tambahkan negara yang kamu kunjungi sebelum memakai TREK, supaya ikut tampil di peta dan terhitung.',
+    'Tambahkan negara yang kamu kunjungi sebelum memakai Manzil, supaya ikut tampil di peta dan terhitung.',
   'help.guide.mark-country.step.1': 'Ketik nama negara di kotak pencarian di bagian atas peta.',
   'help.guide.mark-country.step.2': 'Pilih dari daftar. Peta bergeser ke negara itu dan popup-nya terbuka.',
   'help.guide.mark-country.step.3': 'Pilih “Tandai sudah dikunjungi”.',
@@ -452,7 +452,7 @@ const help: TranslationStrings = {
   'help.guide.search-place.result':
     'Wilayah itu ditandai, begitu juga negaranya. Untuk negara yang tidak punya data wilayah di paket peta, yang ditandai adalah negaranya.',
   'help.guide.search-place.tip.1':
-    'Tempat diambil dari pencarian yang sama seperti di bagian lain TREK, jadi memakai penyedia yang diatur admin.',
+    'Tempat diambil dari pencarian yang sama seperti di bagian lain Manzil, jadi memakai penyedia yang diatur admin.',
   // bucket-country
   'help.guide.bucket-country.title': 'Masukkan negara ke bucket list',
   'help.guide.bucket-country.goal':
@@ -500,7 +500,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.step.1':
     'Jika addon Dawarich terhubung, panel Dawarich dengan dua kotak muncul di bagian bawah peta, di kiri statistik. Klik “Negara”.',
   'help.guide.dawarich-countries.step.2':
-    'Dialog terbuka di tab “Negara”. Klik “Cari negara”: TREK membaca negara dan kota yang tercakup rekamanmu dalam 12 bulan terakhir, sebulan demi sebulan, jadi butuh waktu sebentar. Setiap negara yang belum ada di Atlas-mu tercantum dengan benderanya, jumlah kotanya, dan nama kota pertamanya. Semua negara sudah tercentang; klik sebuah baris untuk mengecualikannya.',
+    'Dialog terbuka di tab “Negara”. Klik “Cari negara”: Manzil membaca negara dan kota yang tercakup rekamanmu dalam 12 bulan terakhir, sebulan demi sebulan, jadi butuh waktu sebentar. Setiap negara yang belum ada di Atlas-mu tercantum dengan benderanya, jumlah kotanya, dan nama kota pertamanya. Semua negara sudah tercentang; klik sebuah baris untuk mengecualikannya.',
   'help.guide.dawarich-countries.step.3':
     'Konfirmasi dengan tombol di kanan bawah, yang bertuliskan “Tambah 5 negara” saat lima baris dicentang. Dialog menunjukkan berapa negara yang ditambahkan. Begitu dialog ditutup, peta sudah diperbarui.',
   'help.guide.dawarich-countries.result':
@@ -508,7 +508,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.tip.1':
     'Negara yang sudah tampil sebagai dikunjungi di Atlas, baik ditandai sendiri, dari perjalanan, maupun dari pemeriksaan sebelumnya, tidak diikutkan, jadi tanda buatanmu tidak pernah berubah. Negara yang sebelumnya kamu hapus dari Atlas akan ditambahkan lagi kalau kamu mengonfirmasinya di sini.',
   'help.guide.dawarich-countries.tip.2':
-    'Kalau TREK tidak bisa mencocokkan nama negara, nama itu tetap dicantumkan di bawah baris-baris, tidak dibuang. “Periksa lagi” meminta data dari Dawarich sekali lagi. Catatan di bawah daftar menyebutkan bahwa yang diperiksa adalah 12 bulan terakhir. Periode ini tidak bisa diubah.',
+    'Kalau Manzil tidak bisa mencocokkan nama negara, nama itu tetap dicantumkan di bawah baris-baris, tidak dibuang. “Periksa lagi” meminta data dari Dawarich sekali lagi. Catatan di bawah daftar menyebutkan bahwa yang diperiksa adalah 12 bulan terakhir. Periode ini tidak bisa diubah.',
   // dawarich-wishes
   'help.guide.dawarich-wishes.title': 'Mencoret keinginan berdasarkan rekamanmu',
   'help.guide.dawarich-wishes.goal':
@@ -516,7 +516,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.step.1':
     'Di panel Dawarich di bagian bawah peta, di kiri statistik, klik “Daftar keinginan”.',
   'help.guide.dawarich-wishes.step.2':
-    'Dialog terbuka di tab “Daftar keinginan”. Klik “Periksa daftar keinginan”: TREK memeriksa rekamanmu untuk setiap entri yang punya koordinat. Keinginan yang sudah kamu capai muncul di daftar beserta seberapa dekat kamu ke sana, berapa lama kamu di sana, dan harinya, serta sudah dicentang secara default. Yang sudah kamu coret bertuliskan “Sudah dicoret”. Di bawah daftar, ada catatan yang menghitung entri tanpa koordinat sekaligus menampilkan aturannya: “Sebuah keinginan dianggap tercapai dalam radius 250 m dan setelah 20 menit di lokasi.”',
+    'Dialog terbuka di tab “Daftar keinginan”. Klik “Periksa daftar keinginan”: Manzil memeriksa rekamanmu untuk setiap entri yang punya koordinat. Keinginan yang sudah kamu capai muncul di daftar beserta seberapa dekat kamu ke sana, berapa lama kamu di sana, dan harinya, serta sudah dicentang secara default. Yang sudah kamu coret bertuliskan “Sudah dicoret”. Di bawah daftar, ada catatan yang menghitung entri tanpa koordinat sekaligus menampilkan aturannya: “Sebuah keinginan dianggap tercapai dalam radius 250 m dan setelah 20 menit di lokasi.”',
   'help.guide.dawarich-wishes.step.3':
     'Konfirmasi dengan tombol di kanan bawah, yang bertuliskan “Coret 2” saat dua baris dicentang. Lalu tutup dialog dan buka tab “Daftar Impian” di panel sebelahnya.',
   'help.guide.dawarich-wishes.result':
@@ -524,7 +524,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.tip.1':
     'Sekadar lewat tidak dihitung: kamu harus berada dekat tempat itu dan tinggal di sana selama beberapa waktu. Kalau ada beberapa kunjungan yang memenuhi syarat, yang paling lama yang dipakai. Keinginan tanpa koordinat tidak bisa diperiksa, jadi tambahkan tempat lewat pencarian di “Tambah tempat”, bukan dengan nama saja.',
   'help.guide.dawarich-wishes.tip.2':
-    'Satu kali pemeriksaan melihat maksimal 50 entri, dimulai dari yang belum dicoret. Jika ada lebih banyak, TREK memberi tahu. Keinginan yang sudah dicoret sebelumnya tetap memakai tanggalnya sendiri.',
+    'Satu kali pemeriksaan melihat maksimal 50 entri, dimulai dari yang belum dicoret. Jika ada lebih banyak, Manzil memberi tahu. Keinginan yang sudah dicoret sebelumnya tetap memakai tanggalnya sendiri.',
 
   // ── Screen: collections ───────────────────────────────────────────────────────────────
   'help.ctx.collections.title': 'Koleksi',
@@ -581,7 +581,7 @@ const help: TranslationStrings = {
   'help.guide.import-from-trip.result':
     'Tempat-tempat disalin ke daftar beserta nama, alamat, koordinat, deskripsi, dan kategorinya. Perjalanannya tidak berubah.',
   'help.guide.import-from-trip.tip.1':
-    'TREK otomatis melewati tempat duplikat berdasarkan nama atau koordinat, jadi aman jika kamu mengimpor dua kali.',
+    'Manzil otomatis melewati tempat duplikat berdasarkan nama atau koordinat, jadi aman jika kamu mengimpor dua kali.',
   'help.guide.import-from-trip.tip.2':
     'Di daftar tempat sebuah perjalanan, mode pilih menawarkan “Simpan ke Koleksi” untuk menyimpan tempat-tempat pilihanmu sendiri.',
   // place-status
@@ -653,7 +653,7 @@ const help: TranslationStrings = {
     'Peninjau daftar yang dibagikan juga bisa melakukan ini. Tempat-tempatnya disalin dari daftar tanpa mengubah daftarnya.',
   // share-list
   'help.guide.share-list.title': 'Membagikan daftar kepada orang lain',
-  'help.guide.share-list.goal': 'Rencanakan daftar bersama orang lain di TREK ini, secara langsung.',
+  'help.guide.share-list.goal': 'Rencanakan daftar bersama orang lain di Manzil ini, secara langsung.',
   'help.guide.share-list.step.1': 'Klik “Bagikan” di bagian atas daftarmu.',
   'help.guide.share-list.step.2': 'Pilih pengguna dan perannya: “Peninjau”, “Editor”, atau “Admin”.',
   'help.guide.share-list.step.3':
@@ -666,22 +666,22 @@ const help: TranslationStrings = {
     'Hanya pemilik yang bisa mengundang dan mengeluarkan orang. Anggota bisa keluar sendiri dari daftar yang dibagikan.',
   // export-list
   'help.guide.export-list.title': 'Ekspor daftar sebagai file',
-  'help.guide.export-list.goal': 'Berikan daftar kepada pengguna di server TREK lain, atau buka di aplikasi peta.',
+  'help.guide.export-list.goal': 'Berikan daftar kepada pengguna di server Manzil lain, atau buka di aplikasi peta.',
   'help.guide.export-list.step.1': 'Klik “Ekspor” di bagian atas daftar.',
   'help.guide.export-list.step.2':
-    'Pilih “Daftar TREK” untuk memakai daftar itu di TREK lain, lengkap dengan label dan status, atau GPX untuk OsmAnd, Organic Maps, Garmin, dan aplikasi lain yang bisa membaca waypoint.',
+    'Pilih “Daftar Manzil” untuk memakai daftar itu di Manzil lain, lengkap dengan label dan status, atau GPX untuk OsmAnd, Organic Maps, Garmin, dan aplikasi lain yang bisa membaca waypoint.',
   'help.guide.export-list.result': 'File akan diunduh. Semua anggota daftar yang dibagikan boleh mengekspornya.',
   'help.guide.export-list.tip.1':
-    'Tempat tanpa koordinat tidak bisa dijadikan waypoint GPX. Tempat itu dilewati dan TREK memberi tahu berapa jumlahnya.',
+    'Tempat tanpa koordinat tidak bisa dijadikan waypoint GPX. Tempat itu dilewati dan Manzil memberi tahu berapa jumlahnya.',
   'help.guide.export-list.tip.2':
-    'Rating, anggota, dan foto yang diunggah memang sengaja tidak diekspor, karena semua itu milik TREK ini, bukan milik daftarnya.',
+    'Rating, anggota, dan foto yang diunggah memang sengaja tidak diekspor, karena semua itu milik Manzil ini, bukan milik daftarnya.',
   // import-file
   'help.guide.import-file.title': 'Impor daftar dari file',
   'help.guide.import-file.goal':
-    'Impor file daftar TREK atau file GPX, sebagai daftar baru atau ke daftar yang sudah ada.',
+    'Impor file daftar Manzil atau file GPX, sebagai daftar baru atau ke daftar yang sudah ada.',
   'help.guide.import-file.step.1': 'Klik tombol impor berikon panah unggah di samping “Daftar baru” di rel daftar.',
   'help.guide.import-file.step.2':
-    'Pilih filenya. Sebelum mengimpor apa pun, TREK menampilkan isi file itu: nama, jumlah tempat, dan jumlah label.',
+    'Pilih filenya. Sebelum mengimpor apa pun, Manzil menampilkan isi file itu: nama, jumlah tempat, dan jumlah label.',
   'help.guide.import-file.step.3':
     'Biarkan “Daftar baru” dan ganti namanya jika perlu, lalu klik “Impor”. Atau pilih “Tambahkan ke daftar” untuk memasukkan tempat ke daftar yang bisa kamu edit, lalu klik “Tambahkan ke daftar”.',
   'help.guide.import-file.result':
@@ -689,7 +689,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.tip.1':
     'Dari file GPX, setiap waypoint yang punya nama menjadi tempat. Track berupa garis sehingga dilewati, dan pratinjau menunjukkan berapa titik yang dilewati.',
   'help.guide.import-file.tip.2':
-    'File yang bukan daftar TREK maupun GPX akan ditolak, dan TREK menampilkan alasannya. Kalau ada satu tempat yang tidak bisa dibaca, hanya tempat itu yang dilewati, bukan seluruh file.',
+    'File yang bukan daftar Manzil maupun GPX akan ditolak, dan Manzil menampilkan alasannya. Kalau ada satu tempat yang tidak bisa dibaca, hanya tempat itu yang dilewati, bukan seluruh file.',
   // edit-list
   'help.guide.edit-list.title': 'Edit atau hapus daftar',
   'help.guide.edit-list.goal': 'Ubah nama, warna, sampul, deskripsi, atau tautan daftar, atau hapus daftarnya.',
@@ -881,7 +881,7 @@ const help: TranslationStrings = {
     'Entri di suatu hari hanya dihitung sekali, berapa pun banyaknya perjalanan yang mencakup hari itu.',
   // share-public
   'help.guide.share-public.title': 'Bagikan journey secara publik',
-  'help.guide.share-public.goal': 'Beri orang yang tidak punya akun TREK tautan yang hanya bisa dibaca.',
+  'help.guide.share-public.goal': 'Beri orang yang tidak punya akun Manzil tautan yang hanya bisa dibaca.',
   'help.guide.share-public.step.1': 'Buka “Pengaturan Journey” lewat ⋯ di header, lalu gulir ke “Berbagi Publik”.',
   'help.guide.share-public.step.2': 'Klik “Buat tautan berbagi”.',
   'help.guide.share-public.step.3':
@@ -900,7 +900,7 @@ const help: TranslationStrings = {
   'help.guide.contributors.result':
     'Journey itu muncul di daftar mereka, dan entri mereka menampilkan nama mereka. Untuk menghapus kontributor, klik × di sampingnya.',
   'help.guide.contributors.tip.1':
-    'Kontributor untuk orang-orang yang ada di TREK ini. Untuk orang lain, ada tautan publik.',
+    'Kontributor untuk orang-orang yang ada di Manzil ini. Untuk orang lain, ada tautan publik.',
   // studio
   'help.guide.studio.title': 'Menyusun journey sebagai buku foto',
   'help.guide.studio.goal': 'Ubah jurnal menjadi halaman yang siap dicetak.',
@@ -938,7 +938,7 @@ const help: TranslationStrings = {
   // ── Screen: journey-studio ────────────────────────────────────────────────────────────
   'help.ctx.journey-studio.title': 'Studio', // same-as-en
   'help.ctx.journey-studio.summary':
-    'TREK Studio menata journey sebagai buku foto yang bisa Anda cetak. Studio terbuka di atas jurnal: panel dan isinya ada di kiri, halaman ganda yang sedang Anda kerjakan di tengah, dan propertinya di kanan. Tata letak otomatis membuat draf pertama dari entri Anda, tema memberi buku warna dan jenis hurufnya, dan asisten bisa merancang halaman bersama Anda. Setelah itu, Anda bisa memindahkan, memangkas, dan mengubah gaya semuanya, dan Anda bisa mengurungkan setiap langkah.',
+    'Manzil Studio menata journey sebagai buku foto yang bisa Anda cetak. Studio terbuka di atas jurnal: panel dan isinya ada di kiri, halaman ganda yang sedang Anda kerjakan di tengah, dan propertinya di kanan. Tata letak otomatis membuat draf pertama dari entri Anda, tema memberi buku warna dan jenis hurufnya, dan asisten bisa merancang halaman bersama Anda. Setelah itu, Anda bisa memindahkan, memangkas, dan mengubah gaya semuanya, dan Anda bisa mengurungkan setiap langkah.',
   'help.ctx.journey-studio.bullet.1':
     'Bar atas: sampul dan nama journey di kiri. Di kanan ada siapa lagi yang ada di buku dan apakah buku sudah tersimpan, format halaman, urungkan, ulangi dan tempel, Tata letak otomatis, asisten, bantuan, Ekspor, dan tombol yang menutup Studio.',
   'help.ctx.journey-studio.bullet.2':
@@ -950,7 +950,7 @@ const help: TranslationStrings = {
   'help.ctx.journey-studio.bullet.5':
     'Buku ditata seperti buku cetak: sampul, satu halaman pertama di seberang bagian dalam sampul yang kosong, halaman ganda, satu halaman terakhir, dan sampul belakang. Nomor halaman dihitung dari halaman pertama dan dicetak seperti yang ditampilkan.',
   'help.ctx.journey-studio.bullet.6':
-    'Beberapa orang bisa mendesain bersamaan: semua orang melihat kursor orang lain beserta namanya. Jika kamu menyimpan versi yang sudah diubah orang lain, TREK menampilkan konflik dan tidak menimpa pekerjaan mereka.',
+    'Beberapa orang bisa mendesain bersamaan: semua orang melihat kursor orang lain beserta namanya. Jika kamu menyimpan versi yang sudah diubah orang lain, Manzil menampilkan konflik dan tidak menimpa pekerjaan mereka.',
   'help.ctx.journey-studio.bullet.7':
     'Tema: satu tampilan untuk seluruh buku, berupa kertas, tinta, dan tiga warna aksen, jenis huruf, serta motifnya. Elemen yang terhubung ke tema mengikutinya saat Anda mengubahnya.',
   'help.ctx.journey-studio.bullet.8':
@@ -1029,7 +1029,7 @@ const help: TranslationStrings = {
     'Setiap warna dan jenis huruf yang terhubung di buku berubah sekaligus, dan menerapkan tema adalah satu langkah urungkan.',
   'help.guide.studio-content.tip.1': 'Kotak pencarian di bagian atas Content menyaring kedua daftar.',
   'help.guide.studio-content.tip.2':
-    'Saat kamu menjatuhkan file dari desktop ke area kerja, TREK mengunggah dan menempatkannya sekaligus.',
+    'Saat kamu menjatuhkan file dari desktop ke area kerja, Manzil mengunggah dan menempatkannya sekaligus.',
   // studio-elements
   'help.guide.studio-elements.title': 'Tambahkan teks, bentuk, ikon, dan stiker',
   'help.guide.studio-elements.goal': 'Tambahkan hiasan ke halaman ganda selain foto dan cerita.',
@@ -1140,12 +1140,12 @@ const help: TranslationStrings = {
   'help.guide.studio-spread-file.result':
     'Halaman ganda diimpor beserta bingkai dan gaya teksnya. Jatuhkan foto-foto journey baru ke dalam bingkainya.',
   'help.guide.studio-spread-file.tip.1':
-    'Jika sebuah file bukan desain halaman ganda, TREK menolaknya dan menampilkan alasannya.',
+    'Jika sebuah file bukan desain halaman ganda, Manzil menolaknya dan menampilkan alasannya.',
 
   // ── Screen: settings (all tabs) ───────────────────────────────────────────────────────
   'help.ctx.settings.title': 'Pengaturan',
   'help.ctx.settings.summary':
-    'Pengaturan pribadimu, dengan satu tab untuk setiap topik di sidebar kiri. Sebagian besar sakelar langsung berlaku begitu diubah. Formulir yang punya tombol “Simpan” baru tersimpan setelah kamu mengklik “Simpan”. Tidak ada yang di sini mengubah TREK bagi orang lain.',
+    'Pengaturan pribadimu, dengan satu tab untuk setiap topik di sidebar kiri. Sebagian besar sakelar langsung berlaku begitu diubah. Formulir yang punya tombol “Simpan” baru tersimpan setelah kamu mengklik “Simpan”. Tidak ada yang di sini mengubah Manzil bagi orang lain.',
   'help.ctx.settings.bullet.1':
     'Sidebar di kiri: “Tampilan” (umum), “Tampilan” (visual), “Peta”, “Notifikasi”, “Integrasi”, Offline, dan “Akun”. Plugin muncul begitu ada plugin yang aktif. “Tentang” muncul kecuali operator menyembunyikannya. Versinya tampil di bagian bawah.',
   'help.ctx.settings.bullet.2':
@@ -1156,7 +1156,7 @@ const help: TranslationStrings = {
     '“Akun” berisi profil, kata sandi, autentikasi dua faktor, passkey, dan opsi untuk menghapus akunmu.',
   'help.ctx.settings-display.title': 'Tampilan',
   'help.ctx.settings-display.summary':
-    'Halaman pembuka TREK, bahasa dan satuan yang dipakai, serta cara kerja peta perjalanan dan pemesanan. Setiap perubahan langsung berlaku.',
+    'Halaman pembuka Manzil, bahasa dan satuan yang dipakai, serta cara kerja peta perjalanan dan pemesanan. Setiap perubahan langsung berlaku.',
   'help.ctx.settings-display.bullet.1':
     '“Mulai”: “Halaman awal” membuka “Dasbor” atau “Perjalanan aktif”; dengan “Perjalanan aktif”, “Tab awal” menentukan tab yang dibuka perjalanan itu.',
   'help.ctx.settings-display.bullet.2':
@@ -1165,7 +1165,7 @@ const help: TranslationStrings = {
     '“Perjalanan & peta”: “Buka tempat di”, “Tanggal di depan pada judul hari”, “Label rute pemesanan”, “Selalu tampilkan rute pemesanan”, “Penanda ringkas untuk tempat yang belum direncanakan”, “Jelajahi tempat di peta”, “Sembunyikan Kode Pemesanan”, dan “Optimalkan rute dari akomodasi”.',
   'help.ctx.settings-appearance.title': 'Tampilan',
   'help.ctx.settings-appearance.summary':
-    'Tampilan TREK di akun ini: terang atau gelap, warna aksen, efek kaca dan animasi, ukuran teks, serta widget yang tampil di dasbor. Semuanya langsung berlaku di setiap perangkat tempat kamu masuk.',
+    'Tampilan Manzil di akun ini: terang atau gelap, warna aksen, efek kaca dan animasi, ukuran teks, serta widget yang tampil di dasbor. Semuanya langsung berlaku di setiap perangkat tempat kamu masuk.',
   'help.ctx.settings-appearance.bullet.1':
     'Tema: “Mode Warna” (“Terang”, “Gelap”, atau “Otomatis”), skema warna, dan dengan “Kustom”, warna aksenmu sendiri untuk mode terang dan gelap beserta pemeriksaan kontrasnya.',
   'help.ctx.settings-appearance.bullet.2':
@@ -1185,7 +1185,7 @@ const help: TranslationStrings = {
     'Khusus Mapbox GL: “Bangunan 3D & medan” dan “Mode kualitas tinggi”. Pratinjau langsung tampil di atas “Simpan Peta”. “Simpan Peta” menyimpan pilihanmu.',
   'help.ctx.settings-notifications.title': 'Notifikasi',
   'help.ctx.settings-notifications.summary':
-    'Cara TREK menghubungimu di luar aplikasi. Di bagian atas, tabel dengan satu baris per peristiwa dan satu kolom per saluran menentukan apa yang dikirim ke mana. Di bawahnya ada kartu untuk webhook, ntfy, push di perangkat ini, dan saluran plugin jika ada.',
+    'Cara Manzil menghubungimu di luar aplikasi. Di bagian atas, tabel dengan satu baris per peristiwa dan satu kolom per saluran menentukan apa yang dikirim ke mana. Di bawahnya ada kartu untuk webhook, ntfy, push di perangkat ini, dan saluran plugin jika ada.',
   'help.ctx.settings-notifications.bullet.1':
     '“Notifikasi”: aktifkan atau matikan setiap peristiwa per saluran. Ikon gembok berarti admin mematikannya untuk semua orang.',
   'help.ctx.settings-notifications.bullet.2':
@@ -1196,7 +1196,7 @@ const help: TranslationStrings = {
     '“Notifikasi push di perangkat ini”: “Aktifkan untuk perangkat ini” hanya berlaku untuk browser ini; “Kirim tes” mengirim notifikasi uji. Saluran plugin menampilkan “Konfigurasi” sampai selesai diatur.',
   'help.ctx.settings-integrations.title': 'Integrasi',
   'help.ctx.settings-integrations.summary':
-    'Semua yang terhubung ke TREK dari luar: pustaka foto untuk jurnal, AirTrail untuk penerbangan, Dawarich untuk tempat yang benar-benar kamu kunjungi, wanderer untuk jalur, kunci API baca saja untuk aplikasi lain, dan MCP untuk klien AI. Koneksi ke layanan lain baru muncul setelah admin mengaktifkannya.',
+    'Semua yang terhubung ke Manzil dari luar: pustaka foto untuk jurnal, AirTrail untuk penerbangan, Dawarich untuk tempat yang benar-benar kamu kunjungi, wanderer untuk jalur, kunci API baca saja untuk aplikasi lain, dan MCP untuk klien AI. Koneksi ke layanan lain baru muncul setelah admin mengaktifkannya.',
   'help.ctx.settings-integrations.bullet.1':
     'Immich dan Synology Photos, AirTrail, Dawarich, dan wanderer: setiap kartu berisi alamat dan kuncinya, “Simpan” dan “Uji koneksi”, serta lencana “Terhubung” atau “Tidak terhubung”.',
   'help.ctx.settings-integrations.bullet.2':
@@ -1207,7 +1207,7 @@ const help: TranslationStrings = {
     '“Token API”: cara lama untuk terhubung ke MCP, ditandai “Usang”; pakai “Klien OAuth 2.1” sebagai gantinya.',
   'help.ctx.settings-offline.title': 'Offline', // same-as-en
   'help.ctx.settings-offline.summary':
-    'Apa saja yang disimpan TREK di perangkat ini supaya perjalanan tetap bisa dibuka tanpa koneksi, dan apa yang terjadi saat perubahan yang dibuat offline bentrok dengan perubahan dari tempat lain.',
+    'Apa saja yang disimpan Manzil di perangkat ini supaya perjalanan tetap bisa dibuka tanpa koneksi, dan apa yang terjadi saat perubahan yang dibuat offline bentrok dengan perubahan dari tempat lain.',
   'help.ctx.settings-offline.bullet.1':
     '“Mode offline”: “Paksa mode offline” mengunduh semuanya dulu, lalu hanya bekerja dari cache dan mengantrekan perubahanmu.',
   'help.ctx.settings-offline.bullet.2':
@@ -1218,20 +1218,20 @@ const help: TranslationStrings = {
     '“Konflik sinkronisasi” hanya muncul jika ada dua perubahan yang bentrok, dengan “Punya saya”, “Simpan punya server”, dan “Saat terjadi konflik”. “Cache offline” menghitung perjalanan dan perubahan yang tertunda atau gagal, dengan “Coba lagi”, “Buang”, dan “Hapus cache”.',
   'help.ctx.settings-account.title': 'Akun',
   'help.ctx.settings-account.summary':
-    'Akunmu di TREK ini dan cara kamu masuk: foto profil, nama pengguna dan email, kata sandi, autentikasi dua faktor, dan passkey. “Hapus akun” ada di bagian bawah kartu “Akun”.',
+    'Akunmu di Manzil ini dan cara kamu masuk: foto profil, nama pengguna dan email, kata sandi, autentikasi dua faktor, dan passkey. “Hapus akun” ada di bagian bawah kartu “Akun”.',
   'help.ctx.settings-account.bullet.1':
     '“Akun”: klik ikon kamera pada gambar untuk mengunggah foto, dan ikon tempat sampah merah untuk menghapusnya. “Nama pengguna” dan “Email” disimpan dengan “Simpan Profil”.',
   'help.ctx.settings-account.bullet.2':
-    '“Ganti Kata Sandi”: kata sandi saat ini, kata sandi baru dua kali dengan syarat-syarat yang tercentang sambil kamu mengetik, lalu “Perbarui kata sandi”. Jika TREK ini hanya bisa dimasuki lewat SSO, kartu ini tidak ditampilkan.',
+    '“Ganti Kata Sandi”: kata sandi saat ini, kata sandi baru dua kali dengan syarat-syarat yang tercentang sambil kamu mengetik, lalu “Perbarui kata sandi”. Jika Manzil ini hanya bisa dimasuki lewat SSO, kartu ini tidak ditampilkan.',
   'help.ctx.settings-account.bullet.3':
     '“Autentikasi dua faktor (2FA)” dengan aplikasi autentikator dan kode cadangan, serta “Passkey” untuk masuk tanpa kata sandi.',
   'help.ctx.settings-account.bullet.4':
     '“Hapus akun” ada di kiri bagian bawah kartu “Akun” dan meminta konfirmasi. Administrator satu-satunya tidak bisa menghapus akunnya sendiri.',
   // language-region
   'help.guide.language-region.title': 'Mengatur bahasa, satuan, dan mata uang',
-  'help.guide.language-region.goal': 'Pakai TREK dalam bahasamu dan dengan format wilayahmu.',
+  'help.guide.language-region.goal': 'Pakai Manzil dalam bahasamu dan dengan format wilayahmu.',
   'help.guide.language-region.step.1':
-    'Di bawah Bahasa & wilayah, pilih “Bahasa” dari deretan chip. TREK langsung beralih, di semua perangkat tempat kamu masuk.',
+    'Di bawah Bahasa & wilayah, pilih “Bahasa” dari deretan chip. Manzil langsung beralih, di semua perangkat tempat kamu masuk.',
   'help.guide.language-region.step.2':
     '“Nama tempat” menentukan bahasa yang dipakai pencarian tempat, saran, dan alamat; “Sama dengan aplikasi” mengikuti bahasa antarmuka.',
   'help.guide.language-region.result':
@@ -1254,17 +1254,17 @@ const help: TranslationStrings = {
   'help.guide.travel-map-prefs.tip.2':
     'Admin bisa mengatur default untuk semua orang; yang kamu ubah di sini hanya berlaku untukmu.',
   // startup
-  'help.guide.startup.title': 'Memilih halaman pembuka TREK',
-  'help.guide.startup.goal': 'Buka TREK di halaman yang paling sering kamu pakai, tidak selalu di dasbor.',
+  'help.guide.startup.title': 'Memilih halaman pembuka Manzil',
+  'help.guide.startup.goal': 'Buka Manzil di halaman yang paling sering kamu pakai, tidak selalu di dasbor.',
   'help.guide.startup.step.1':
     'Di bagian atas “Tampilan”, di bawah “Mulai”, atur “Halaman awal” ke “Dasbor” atau “Perjalanan aktif”.',
   'help.guide.startup.step.2': 'Dengan “Perjalanan aktif”, muncul “Tab awal”: pilih tab yang dibuka perjalanan itu.',
-  'help.guide.startup.result': 'Lain kali kamu membuka TREK, halaman itu langsung terbuka.',
+  'help.guide.startup.result': 'Lain kali kamu membuka Manzil, halaman itu langsung terbuka.',
   'help.guide.startup.tip.1':
     '“Perjalanan aktif” adalah perjalanan yang sedang berlangsung hari ini, atau perjalanan berikutnya. Ini perjalanan yang sama dengan yang tampil di bagian atas dasbor.',
   // theme-scheme
   'help.guide.theme-scheme.title': 'Mengatur tema dan warna aksen',
-  'help.guide.theme-scheme.goal': 'Buat TREK terang, gelap, atau mengikuti perangkatmu, dengan warna kesukaanmu.',
+  'help.guide.theme-scheme.goal': 'Buat Manzil terang, gelap, atau mengikuti perangkatmu, dengan warna kesukaanmu.',
   'help.guide.theme-scheme.step.1':
     'Di bawah Tema, atur “Mode Warna” ke “Terang”, “Gelap”, atau “Otomatis”. “Otomatis” mengikuti pengaturan perangkatmu.',
   'help.guide.theme-scheme.step.2':
@@ -1285,7 +1285,7 @@ const help: TranslationStrings = {
     '“Ukuran teks”: geser “Semua” untuk mengubah ukuran semua teks sekaligus, atau atur Besar, Sedang, Normal, dan Kecil satu per satu. Setiap ukuran menampilkan contoh, jadi kamu langsung melihat hasilnya saat menggeser.',
   'help.guide.readability.result': 'Perubahannya langsung berlaku di seluruh aplikasi, termasuk panel peta dan jurnal.',
   'help.guide.readability.tip.1':
-    'Sebagian bagian TREK sudah mengurangi animasi jika perangkatmu diatur untuk mengurangi gerakan. Kurangi gerakan mengurangi animasi di bagian lainnya.',
+    'Sebagian bagian Manzil sudah mengurangi animasi jika perangkatmu diatur untuk mengurangi gerakan. Kurangi gerakan mengurangi animasi di bagian lainnya.',
   'help.guide.readability.tip.2':
     'Ukuran teks diterapkan lewat tingkatan tipografi, jadi tidak ada yang terpotong. Teks yang tidak lagi muat akan pindah ke baris berikutnya.',
   // dashboard-widgets
@@ -1375,7 +1375,7 @@ const help: TranslationStrings = {
   'help.guide.offline-prepare.step.1':
     'Di bawah “Apa yang disimpan offline”, biarkan “Simpan tile peta offline” aktif, lalu aktifkan perjalanan yang ingin kamu simpan di perangkat ini. Perjalanan yang sudah selesai hanya disimpan jika kamu mengaktifkannya.',
   'help.guide.offline-prepare.step.2':
-    'Kembali ke bagian atas, di bawah “Persiapkan untuk offline”, klik “Unduh untuk penggunaan offline”. TREK mengambil data perjalanan, dokumen, dan tile peta, lalu memberi tahu berapa perjalanan yang tersimpan.',
+    'Kembali ke bagian atas, di bawah “Persiapkan untuk offline”, klik “Unduh untuk penggunaan offline”. Manzil mengambil data perjalanan, dokumen, dan tile peta, lalu memberi tahu berapa perjalanan yang tersimpan.',
   'help.guide.offline-prepare.step.3':
     '“Paksa mode offline” mengunduh sekali lagi, lalu bekerja hanya dari perangkat ini, jadi kamu bisa memastikan semuanya tersedia sebelum berangkat.',
   'help.guide.offline-prepare.result':
@@ -1383,17 +1383,17 @@ const help: TranslationStrings = {
   'help.guide.offline-prepare.tip.1':
     'Tile peta memakan ruang paling besar; matikan jika kamu hanya ingin menyimpan data perjalanan dan dokumen.',
   'help.guide.offline-prepare.tip.2':
-    'Pasang TREK sebagai aplikasi dari browser agar mode offline berjalan paling lancar.',
+    'Pasang Manzil sebagai aplikasi dari browser agar mode offline berjalan paling lancar.',
   // offline-conflicts
   'help.guide.offline-conflicts.title': 'Tentukan versi mana yang dipakai saat terjadi konflik sinkronisasi',
   'help.guide.offline-conflicts.goal':
-    'Pilih cara TREK menyelesaikan konflik antara perubahan yang dibuat offline dan perubahan dari tempat lain.',
+    'Pilih cara Manzil menyelesaikan konflik antara perubahan yang dibuat offline dan perubahan dari tempat lain.',
   'help.guide.offline-conflicts.step.1':
     'Jika perubahan yang kamu buat saat offline bentrok dengan perubahan yang lebih baru, “Konflik sinkronisasi” muncul di dekat bagian atas Offline. Untuk setiap perubahan, klik “Punya saya” atau “Simpan punya server”.',
   'help.guide.offline-conflicts.step.2':
     'Di kartu yang sama, “Saat terjadi konflik” menentukan apa yang terjadi lain kali: “Tanya aku setiap kali”, “Selalu simpan versiku”, atau “Selalu simpan versi server”.',
   'help.guide.offline-conflicts.result':
-    'Dengan “Tanya aku setiap kali”, konflik akan tetap ada di “Konflik sinkronisasi” sampai kamu memilih. Dengan dua opsi lainnya, TREK menyelesaikannya secara otomatis.',
+    'Dengan “Tanya aku setiap kali”, konflik akan tetap ada di “Konflik sinkronisasi” sampai kamu memilih. Dengan dua opsi lainnya, Manzil menyelesaikannya secara otomatis.',
   'help.guide.offline-conflicts.tip.1':
     '“Hapus cache” hanya menghapus salinan di perangkat ini. Tidak ada yang berubah di server.',
   // profile
@@ -1415,7 +1415,7 @@ const help: TranslationStrings = {
   'help.guide.password.result':
     'Kata sandi baru langsung berlaku. Semua perangkat lain dikeluarkan, token API MCP-mu dihapus, dan klien OAuth harus masuk lagi; perangkat ini tetap masuk.',
   'help.guide.password.tip.1':
-    'Jika TREK ini hanya bisa dimasuki lewat SSO, tidak ada kata sandi TREK dan tidak ada kartu “Ganti Kata Sandi”.',
+    'Jika Manzil ini hanya bisa dimasuki lewat SSO, tidak ada kata sandi Manzil dan tidak ada kartu “Ganti Kata Sandi”.',
   // mfa
   'help.guide.mfa.title': 'Aktifkan autentikasi dua faktor',
   'help.guide.mfa.goal': 'Lindungi akun dengan kode dari aplikasi autentikator.',
@@ -1448,16 +1448,16 @@ const help: TranslationStrings = {
   'help.guide.delete-account.result':
     'Akunmu dihapus, beserta perjalanan, tempat, dan file milikmu. Perjalanan milik orang lain tetap ada.',
   'help.guide.delete-account.tip.1':
-    'Jika kamu satu-satunya administrator, TREK menampilkan “Penghapusan tidak memungkinkan”: jadikan pengguna lain admin terlebih dulu.',
+    'Jika kamu satu-satunya administrator, Manzil menampilkan “Penghapusan tidak memungkinkan”: jadikan pengguna lain admin terlebih dulu.',
   'help.guide.delete-account.tip.2':
     'Tindakan ini tidak bisa dibatalkan. Ekspor dulu apa yang ingin kamu simpan sebelum mengonfirmasi.',
 
   // ── Screen: admin (all tabs) ──────────────────────────────────────────────────────────
   'help.ctx.admin.title': 'Admin', // same-as-en
   'help.ctx.admin.summary':
-    'Pengaturan untuk seluruh instans TREK, berlaku bagi semua pengguna: siapa yang boleh masuk dan caranya, fitur apa yang aktif, di mana file disimpan, bagaimana server menghubungi orang, dan bagaimana datanya dicadangkan. Hanya admin yang bisa melihat halaman ini. Sidebar mengelompokkan tab di bawah “Pengguna”, Konfigurasi, “Integrasi”, dan Pemeliharaan, dan setiap tab adalah layar tersendiri.',
+    'Pengaturan untuk seluruh instans Manzil, berlaku bagi semua pengguna: siapa yang boleh masuk dan caranya, fitur apa yang aktif, di mana file disimpan, bagaimana server menghubungi orang, dan bagaimana datanya dicadangkan. Hanya admin yang bisa melihat halaman ini. Sidebar mengelompokkan tab di bawah “Pengguna”, Konfigurasi, “Integrasi”, dan Pemeliharaan, dan setiap tab adalah layar tersendiri.',
   'help.ctx.admin.bullet.1':
-    'Header menampilkan jumlah pengguna, perjalanan, tempat, dan file di sebelah kanannya. Di bawahnya, banner “Pembaruan tersedia” muncul jika ada rilis TREK yang lebih baru.',
+    'Header menampilkan jumlah pengguna, perjalanan, tempat, dan file di sebelah kanannya. Di bawahnya, banner “Pembaruan tersedia” muncul jika ada rilis Manzil yang lebih baru.',
   'help.ctx.admin.bullet.2':
     '“Pengguna” dan “Pengaturan Default Pengguna”: akun, tautan undangan, dan izin, serta pengaturan dan peta awal untuk akun baru.',
   'help.ctx.admin.bullet.3':
@@ -1468,7 +1468,7 @@ const help: TranslationStrings = {
     '“Cadangan” dan “Audit”: pencadangan manual dan terjadwal, serta log peristiwa yang berkaitan dengan keamanan.',
   'help.ctx.admin-users.title': 'Pengguna',
   'help.ctx.admin-users.summary':
-    'Semua akun di TREK ini, dengan peran, email, dan kapan terakhir aktif, tautan undangan agar orang bisa mendaftar di instans tertutup, serta siapa yang boleh melakukan apa di perjalanan.',
+    'Semua akun di Manzil ini, dengan peran, email, dan kapan terakhir aktif, tautan undangan agar orang bisa mendaftar di instans tertutup, serta siapa yang boleh melakukan apa di perjalanan.',
   'help.ctx.admin-users.bullet.1':
     'Tabel: pengguna, email, peran, tanggal dibuat, dan “Terakhir Aktif”, dengan “Edit Pengguna” dan “Hapus pengguna” di setiap baris. Titik hijau di avatar berarti orang itu sedang online; barismu sendiri bertuliskan “(Kamu)”.',
   'help.ctx.admin-users.bullet.2':
@@ -1490,7 +1490,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-config.bullet.1':
     '“Template Packing”: daftar bernama berisi kategori dan barang yang bisa dipakai sebagai awal daftar packing sebuah perjalanan.',
   'help.ctx.admin-config.bullet.2':
-    '“Kategori”: nama, ikon, dan warna kategori yang dipakai di seluruh TREK, dari detail tempat sampai “Koleksi”, masing-masing diedit di dialog dengan pratinjau.',
+    '“Kategori”: nama, ikon, dan warna kategori yang dipakai di seluruh Manzil, dari detail tempat sampai “Koleksi”, masing-masing diedit di dialog dengan pratinjau.',
   'help.ctx.admin-config.bullet.3':
     '“Liburan sekolah”: katalog negara dan wilayah beserta periode liburannya, yang bisa dipilih semua orang di Vacay.',
   'help.ctx.admin-settings.title': 'Pengaturan',
@@ -1506,14 +1506,14 @@ const help: TranslationStrings = {
     '“Penyedia transportasi umum” dan “Penyedia pencarian tempat” menentukan layanan untuk pencarian transportasi umum dan tempat; “Log pencarian tempat” mencatat hasil mana yang dipilih; “Jenis File yang Diizinkan” membatasi unggahan.',
   'help.ctx.admin-addons.title': 'Addon',
   'help.ctx.admin-addons.summary':
-    'Modul fitur TREK, masing-masing dengan sakelar: “Perlengkapan”, “Anggaran”, “Dokumen”, Vacay, Atlas, Collab, Journey, “Koleksi”, “Perjalanan darat”, MCP, AirTrail, Dawarich, dan “Penguraian AI”. Kalau dimatikan, menu navigasi, rute, dan API-nya dihapus untuk semua orang.',
+    'Modul fitur Manzil, masing-masing dengan sakelar: “Perlengkapan”, “Anggaran”, “Dokumen”, Vacay, Atlas, Collab, Journey, “Koleksi”, “Perjalanan darat”, MCP, AirTrail, Dawarich, dan “Penguraian AI”. Kalau dimatikan, menu navigasi, rute, dan API-nya dihapus untuk semua orang.',
   'help.ctx.admin-addons.bullet.1': 'Satu kotak per addon dengan sakelarnya dan, jika ada, sub-baris untuk opsinya.',
   'help.ctx.admin-addons.bullet.2':
     'Penyedia foto dan penyedia dokumen juga tampil di sini sebagai kotak, agar Immich atau Synology bisa disediakan bagi pengguna.',
   'help.ctx.admin-addons.bullet.3': '“Pelacak Tas” punya sakelarnya sendiri di bawah kotak-kotak addon.',
   'help.ctx.admin-plugins.title': 'Plugin',
   'help.ctx.admin-plugins.summary':
-    'Plugin pihak ketiga yang berjalan di prosesnya sendiri di samping TREK, masing-masing dengan izin yang dimintanya saat dipasang. Pasang dari katalog, unggah paket, atau tautkan folder saat kamu sedang mengembangkan plugin.',
+    'Plugin pihak ketiga yang berjalan di prosesnya sendiri di samping Manzil, masing-masing dengan izin yang dimintanya saat dipasang. Pasang dari katalog, unggah paket, atau tautkan folder saat kamu sedang mengembangkan plugin.',
   'help.ctx.admin-plugins.bullet.1':
     '“Terpasang” dan “Jelajahi”, dengan “Cari plugin…” serta filter “Jenis”, Status, dan “Urutkan”. Setiap baris menampilkan versi, “Ditinjau”, “Ditandatangani” atau “Tanpa tanda tangan”, apa saja yang boleh diakses plugin, sebuah sakelar, dan menu ⋯.',
   'help.ctx.admin-plugins.bullet.2':
@@ -1540,14 +1540,14 @@ const help: TranslationStrings = {
     'Webhook Admin, Ntfy Admin, dan kartu “Notifikasi”: tujuan peristiwa admin (“Versi baru tersedia”, “Kegagalan replika penyimpanan”, “Wilayah dayung diminta”), masing-masing dengan tombol uji.',
   'help.ctx.admin-mcp-tokens.title': 'Akses MCP',
   'help.ctx.admin-mcp-tokens.summary':
-    'Semua token dan sesi OAuth yang dimiliki klien AI untuk TREK ini, dari semua pengguna. Kamu bisa mencabut yang mana saja.',
+    'Semua token dan sesi OAuth yang dimiliki klien AI untuk Manzil ini, dari semua pengguna. Kamu bisa mencabut yang mana saja.',
   'help.ctx.admin-mcp-tokens.bullet.1':
     '“Sesi OAuth”: klien, scope yang diberikan kepadanya, pemiliknya, dan tanggalnya, dengan ikon tempat sampah untuk mencabutnya.',
   'help.ctx.admin-mcp-tokens.bullet.2':
     '“Token API”: nama, pemilik, “Dibuat”, dan “Terakhir Digunakan”, dengan ikon tempat sampah untuk menghapusnya.',
   'help.ctx.admin-github.title': 'GitHub',
   'help.ctx.admin-github.summary':
-    'Apa yang baru di TREK: riwayat rilis dari GitHub, dan apakah ada versi yang lebih baru dari versimu. Pembaruannya sendiri dilakukan di luar aplikasi, di host.',
+    'Apa yang baru di Manzil: riwayat rilis dari GitHub, dan apakah ada versi yang lebih baru dari versimu. Pembaruannya sendiri dilakukan di luar aplikasi, di host.',
   'help.ctx.admin-github.bullet.1':
     '“Riwayat Rilis” mencantumkan rilis dalam bentuk linimasa beserta catatannya. Rilis terbaru diberi label “Terbaru”, pra-rilis bertuliskan “Pra-rilis”, dan GitHub membuka halaman rilis.',
   'help.ctx.admin-github.bullet.2':
@@ -1621,7 +1621,7 @@ const help: TranslationStrings = {
     'Ikon tempat sampah di barismu sendiri tidak berfungsi: kamu tidak bisa menghapus akunmu sendiri. Admin lain yang harus melakukannya.',
   // permissions
   'help.guide.permissions.title': 'Atur siapa boleh melakukan apa',
-  'help.guide.permissions.goal': 'Atur, per tindakan, peran mana yang boleh melakukannya di TREK ini.',
+  'help.guide.permissions.goal': 'Atur, per tindakan, peran mana yang boleh melakukannya di Manzil ini.',
   'help.guide.permissions.step.1':
     'Di bawah “Pengaturan Izin”, cari tindakannya di kelompoknya, misalnya “Hapus perjalanan” di bawah “Manajemen Perjalanan”, lalu pilih siapa yang boleh melakukannya: “Semua orang”, “Anggota perjalanan”, “Pemilik perjalanan”, atau “Hanya Admin”. Baris yang diubah ditandai “dikustomisasi”.',
   'help.guide.permissions.step.2':
@@ -1653,7 +1653,7 @@ const help: TranslationStrings = {
   'help.guide.packing-templates.step.2':
     'Klik nama template untuk membukanya, lalu “Tambah kategori”. Tanda + di bagian atas kategori menambahkan item, dan item cukup diberi nama.',
   'help.guide.packing-templates.step.3':
-    'Semuanya tersimpan otomatis sambil kamu bekerja. Ikon pensil mengganti nama template, kategori, atau item. Ikon tempat sampah langsung menghapus item. Untuk template atau kategori, TREK bertanya dulu, karena semua isinya ikut terhapus.',
+    'Semuanya tersimpan otomatis sambil kamu bekerja. Ikon pensil mengganti nama template, kategori, atau item. Ikon tempat sampah langsung menghapus item. Untuk template atau kategori, Manzil bertanya dulu, karena semua isinya ikut terhapus.',
   'help.guide.packing-templates.result':
     'Template itu tersedia di daftar bawaan setiap perjalanan; menerapkannya menyalin item-itemnya, jadi setiap perjalanan bebas mengubahnya.',
   'help.guide.packing-templates.tip.1':
@@ -1695,10 +1695,10 @@ const help: TranslationStrings = {
   'help.guide.auth-methods.step.2':
     '“Login SSO” dan “Penyediaan Otomatis SSO” butuh “Single Sign-On (OIDC)” yang dikonfigurasi di bawahnya. Penyediaan otomatis membuat akun saat seseorang pertama kali masuk lewat SSO.',
   'help.guide.auth-methods.step.3':
-    'Aktifkan “Wajibkan autentikasi dua faktor (2FA)” agar semua orang yang belum memakai 2FA harus mengaturnya dulu di “Pengaturan” sebelum bisa memakai TREK.',
+    'Aktifkan “Wajibkan autentikasi dua faktor (2FA)” agar semua orang yang belum memakai 2FA harus mengaturnya dulu di “Pengaturan” sebelum bisa memakai Manzil.',
   'help.guide.auth-methods.result': 'Halaman masuk hanya menawarkan metode yang kamu biarkan aktif.',
   'help.guide.auth-methods.tip.1':
-    'TREK tidak akan membiarkanmu mematikan metode login terakhir: sakelarnya menjadi abu-abu, dan tooltip-nya bertuliskan “Setidaknya satu metode login harus tetap aktif”.',
+    'Manzil tidak akan membiarkanmu mematikan metode login terakhir: sakelarnya menjadi abu-abu, dan tooltip-nya bertuliskan “Setidaknya satu metode login harus tetap aktif”.',
   'help.guide.auth-methods.tip.2':
     'Jika OIDC_ONLY diatur di server, sakelar kata sandi terkunci dan ada keterangan tentang hal itu.',
   // oidc
@@ -1726,11 +1726,11 @@ const help: TranslationStrings = {
   'help.guide.instance-keys.result':
     'Pengguna bisa memakai fitur-fiturnya tanpa kunci sendiri. Tanpa kunci Google, pencarian memakai TREK Places API dan OpenStreetMap.',
   'help.guide.instance-keys.tip.1':
-    'Jika pengguna punya kunci pribadi di “Pengaturan”, TREK memakai kunci itu untuk pengguna tersebut, bukan kunci instans.',
+    'Jika pengguna punya kunci pribadi di “Pengaturan”, Manzil memakai kunci itu untuk pengguna tersebut, bukan kunci instans.',
   'help.guide.instance-keys.tip.2':
     'Kunci juga bisa berasal dari variabel lingkungan; kunci seperti itu tampil sebagai baca saja di sini.',
   'help.guide.instance-keys.tip.3':
-    '“Batas harian panggilan Google” membatasi berapa banyak biaya yang boleh dipakai TREK untuk kunci itu per hari. Lencana di samping judul menghitung panggilan hari ini. Begitu batasnya tercapai, pencarian memakai OpenStreetMap sampai hari berikutnya (UTC).',
+    '“Batas harian panggilan Google” membatasi berapa banyak biaya yang boleh dipakai Manzil untuk kunci itu per hari. Lencana di samping judul menghitung panggilan hari ini. Begitu batasnya tercapai, pencarian memakai OpenStreetMap sampai hari berikutnya (UTC).',
   // places-transit
   'help.guide.places-transit.title': 'Pilih penyedia pencarian dan transportasi umum',
   'help.guide.places-transit.goal':
@@ -1738,10 +1738,10 @@ const help: TranslationStrings = {
   'help.guide.places-transit.step.1':
     'Di bawah “Penyedia transportasi umum”, pilih “Transitous (gratis)”, yang tidak perlu kunci dan paling lengkap di Eropa, atau Google, yang memakai kunci Google. Pilihan langsung tersimpan.',
   'help.guide.places-transit.step.2':
-    'Di bawah “Penyedia pencarian tempat”, pilih layanan yang dipakai TREK jika indeks TREK dan OpenStreetMap tidak menemukan apa pun: “Otomatis” (Google jika ada kuncinya, lalu Amap), Google Places, Amap (高德地图), atau OpenStreetMap.',
-  'help.guide.places-transit.result': 'Semua kotak pencarian dan rute transportasi umum di TREK memakai pilihan ini.',
+    'Di bawah “Penyedia pencarian tempat”, pilih layanan yang dipakai Manzil jika indeks Manzil dan OpenStreetMap tidak menemukan apa pun: “Otomatis” (Google jika ada kuncinya, lalu Amap), Google Places, Amap (高德地图), atau OpenStreetMap.',
+  'help.guide.places-transit.result': 'Semua kotak pencarian dan rute transportasi umum di Manzil memakai pilihan ini.',
   'help.guide.places-transit.tip.1':
-    'Pilihan yang kuncinya belum diisi menampilkan peringatan di sini. Pencarian tempat lalu hanya memakai indeks TREK dan OpenStreetMap, dan transportasi umum hanya memakai Transitous.',
+    'Pilihan yang kuncinya belum diisi menampilkan peringatan di sini. Pencarian tempat lalu hanya memakai indeks Manzil dan OpenStreetMap, dan transportasi umum hanya memakai Transitous.',
   'help.guide.places-transit.tip.2': 'Rute transportasi umum Google ditagih per permintaan; Transitous tidak.',
   // file-types
   'help.guide.file-types.title': 'Membatasi jenis file',
@@ -1788,7 +1788,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.2':
     'Di bawah “Kategori”, tetapkan setiap jenis unggahan, misalnya “Dokumen perjalanan”, “Foto Journey”, atau “Cadangan”, ke sebuah backend.',
   'help.guide.storage-backends.step.3':
-    'Klik “Simpan perubahan” di bagian bawah. Jika ada kategori yang sekarang mengarah ke tempat lain, TREK bertanya apakah akan “Pindahkan objek yang ada” atau “Hanya arahkan penulisan baru”.',
+    'Klik “Simpan perubahan” di bagian bawah. Jika ada kategori yang sekarang mengarah ke tempat lain, Manzil bertanya apakah akan “Pindahkan objek yang ada” atau “Hanya arahkan penulisan baru”.',
   'help.guide.storage-backends.result':
     'Unggahan baru masuk ke backend yang ditetapkan. File yang dipindahkan dilayani dari sana, dan yang kamu pilih untuk tidak dipindahkan tetap di tempatnya.',
   'help.guide.storage-backends.tip.1':
@@ -1899,7 +1899,7 @@ const help: TranslationStrings = {
   'help.guide.document-providers.step.2':
     'Aktifkan sakelar di baris Nextcloud. Muncul pesan “Addon diperbarui”, dan mulai saat itu pemilik perjalanan menemukan “Sinkronisasi dokumen” di tab “File” perjalanan mereka, dengan Nextcloud di bawah “Hubungkan penyedia”.',
   'help.guide.document-providers.result':
-    'Penyimpanan itu tersedia di semua perjalanan di TREK ini. Tidak ada yang terhubung sampai pemilik perjalanan menghubungkannya.',
+    'Penyimpanan itu tersedia di semua perjalanan di Manzil ini. Tidak ada yang terhubung sampai pemilik perjalanan menghubungkannya.',
   'help.guide.document-providers.tip.1':
     'Di sini hanya ditentukan apakah sebuah penyimpanan boleh ditawarkan. Alamat dan kredensialnya milik masing-masing perjalanan dan diisi oleh pemilik perjalanan di tab “File”, tidak pernah di panel admin.',
   'help.guide.document-providers.tip.2':
@@ -1923,7 +1923,7 @@ const help: TranslationStrings = {
     'Panah urungkan di toolbar hari membatalkan perubahan terbarumu pada rencana, satu per satu.',
   // add-member
   'help.guide.add-member.title': 'Tambah anggota',
-  'help.guide.add-member.goal': 'Beri akses perjalanan ini ke orang yang punya akun TREK.',
+  'help.guide.add-member.goal': 'Beri akses perjalanan ini ke orang yang punya akun Manzil.',
   'help.guide.add-member.step.1':
     'Klik “Pengaturan perjalanan”, pil di samping nama perjalanan di kiri atas. Halaman terbuka di “Orang”.',
   'help.guide.add-member.step.2':
@@ -1933,7 +1933,7 @@ const help: TranslationStrings = {
   'help.guide.add-member.result':
     'Anggota bisa melihat dan mengedit perjalanan seperti kamu, sesuai batas yang diatur admin di “Pengaturan Izin”.',
   'help.guide.add-member.tip.1':
-    'Orang yang tidak ada di daftar belum punya akun TREK. Tambahkan sebagai tamu, atau minta dia mendaftar lewat tautan undangan.',
+    'Orang yang tidak ada di daftar belum punya akun Manzil. Tambahkan sebagai tamu, atau minta dia mendaftar lewat tautan undangan.',
   'help.guide.add-member.tip.2':
     'Angka di samping “Akses” menunjukkan jumlah orang dalam perjalanan; tamu dicantumkan terpisah di bawahnya.',
   // trip-invite-link
@@ -1942,7 +1942,7 @@ const help: TranslationStrings = {
   'help.guide.trip-invite-link.step.1':
     'Klik “Pengaturan perjalanan” di samping nama perjalanan, lalu pilih “Berbagi” di kiri. Di bawah “Tautan undangan perjalanan”, klik “Buat tautan undangan”.',
   'help.guide.trip-invite-link.step.2':
-    'Klik “Salin” lalu kirim tautannya. Siapa pun yang punya akun TREK dan membukanya akan bergabung sebagai anggota.',
+    'Klik “Salin” lalu kirim tautannya. Siapa pun yang punya akun Manzil dan membukanya akan bergabung sebagai anggota.',
   'help.guide.trip-invite-link.step.3':
     '“Buat ulang” mengganti tautan sehingga tautan lama tidak berlaku lagi. “Nonaktifkan” mematikan tautannya.',
   'help.guide.trip-invite-link.result':
@@ -1953,7 +1953,7 @@ const help: TranslationStrings = {
     'Buat ulang tautannya jika kamu mengirimnya ke obrolan yang salah: tautan lama langsung tidak berfungsi.',
   // add-guest
   'help.guide.add-guest.title': 'Menambahkan tamu tanpa akun',
-  'help.guide.add-guest.goal': 'Tambahkan orang yang tidak memakai TREK ke perjalanan.',
+  'help.guide.add-guest.goal': 'Tambahkan orang yang tidak memakai Manzil ke perjalanan.',
   'help.guide.add-guest.step.1':
     'Klik “Pengaturan perjalanan” di samping nama perjalanan. Di “Orang”, “Tamu” adalah bagian terakhir, di bawah “Akses”.',
   'help.guide.add-guest.step.2': 'Ketik namanya di “Nama tamu”, lalu klik “Tambah tamu”.',
@@ -2011,7 +2011,7 @@ const help: TranslationStrings = {
   'help.guide.undo-change.tip.1':
     '“Urungkan” berlaku untuk rencana: menambah, menjadwalkan, menghapus, mengurutkan ulang, memindahkan, dan mengunci tempat, mengosongkan hari, mengoptimalkan rute, menghapus tempat, mengubah kategori, dan impor.',
   'help.guide.undo-change.tip.2':
-    'Klik lagi untuk mundur lebih jauh: TREK menyimpan 30 perubahan terakhirmu di perjalanan ini, mulai dari yang terbaru, sampai kamu keluar dari perjalanan itu.',
+    'Klik lagi untuk mundur lebih jauh: Manzil menyimpan 30 perubahan terakhirmu di perjalanan ini, mulai dari yang terbaru, sampai kamu keluar dari perjalanan itu.',
   'help.guide.clear-day.title': 'Kosongkan hari',
   'help.guide.clear-day.goal':
     'Hapus semua tempat dari suatu hari sekaligus, misalnya untuk merencanakan hari itu dari awal lagi.',
@@ -2044,19 +2044,19 @@ const help: TranslationStrings = {
   'help.guide.create-place.step.1':
     'Klik “Tambah Tempat/Aktivitas” di bagian atas kolom tempat (“Tempat baru” saat ada hari yang terbuka). Formulir terbuka dengan kursor di kolom pencarian.',
   'help.guide.create-place.step.2':
-    'Ketik tempatnya di “Cari tempat…”, lalu pilih hasilnya. Nama di bagian atas dialog, “Alamat”, “Lintang”, “Bujur”, dan Situs web terisi otomatis, dan “Detail tempat” di kiri menampilkan gambar, jam buka, dan deskripsi. Di TREK yang punya kunci Google, Bukan tempat yang tepat? Cari di Google di bawah hasil menjalankan pencarian yang sama lewat Google. Jika Koleksi aktif, “Tempat tersimpan” di kanan menawarkan tempat-tempat dari daftarmu dengan cara yang sama.',
+    'Ketik tempatnya di “Cari tempat…”, lalu pilih hasilnya. Nama di bagian atas dialog, “Alamat”, “Lintang”, “Bujur”, dan Situs web terisi otomatis, dan “Detail tempat” di kiri menampilkan gambar, jam buka, dan deskripsi. Di Manzil yang punya kunci Google, Bukan tempat yang tepat? Cari di Google di bawah hasil menjalankan pencarian yang sama lewat Google. Jika Koleksi aktif, “Tempat tersimpan” di kanan menawarkan tempat-tempat dari daftarmu dengan cara yang sama.',
   'help.guide.create-place.step.3':
     'Di “Detail tempat”, klik gambar di bawah “Pilih gambar” untuk menjadikannya gambar tempat itu. “Gunakan teks ini” menyalin deskripsinya ke formulir.',
   'help.guide.create-place.step.4':
     'Periksa isi formulirnya. Nama di bagian atas dialog adalah satu-satunya kolom wajib. Pil “Kategori” di bawahnya untuk memilih salah satu kategori perjalanan, dan tanda + di sampingnya untuk membuat kategori baru. “Alamat”, “Lintang”, dan “Bujur” diisi dari hasil pencarian atau kamu ketik sendiri. “Deskripsi” dan “Catatan” untuk tulisanmu sendiri. Situs web untuk tautannya, “Lampirkan” di bawah “File” untuk menambahkan dokumen, dan “Telepon”, “Email”, serta “Tambah jam buka” untuk detail yang tidak ditemukan pencarian.',
   'help.guide.create-place.step.5':
-    'Klik “Tambah”. Jika tempat dengan nama atau lokasi yang sama sudah ada di perjalanan, TREK menampilkan peringatan dan tombolnya berubah menjadi “Tetap tambahkan”.',
+    'Klik “Tambah”. Jika tempat dengan nama atau lokasi yang sama sudah ada di perjalanan, Manzil menampilkan peringatan dan tombolnya berubah menjadi “Tetap tambahkan”.',
   'help.guide.create-place.result':
     'Tempat itu ada di daftar dan di peta, di bawah “Belum direncanakan” sampai dimasukkan ke suatu hari.',
   'help.guide.create-place.tip.1':
     '“Biaya” di bagian bawah formulir, jika addon “Anggaran” aktif, langsung membuka editor “Biaya” untuk pengeluaran tempat itu setelah disimpan. Gambar atau PDF yang ditempel ke dialog dilampirkan seperti file di bawah “File”.',
   'help.guide.create-place.tip.2':
-    'Indeks TREK dan OpenStreetMap menyediakan hasil pencarian di setiap TREK, dan “Detail tempat” diisi otomatis dari Wikipedia, Wikivoyage, dan Wikimedia. TREK baru bertanya ke Google jika keduanya tidak menemukan apa pun, dan hanya Google yang menyediakan rating.',
+    'Indeks Manzil dan OpenStreetMap menyediakan hasil pencarian di setiap Manzil, dan “Detail tempat” diisi otomatis dari Wikipedia, Wikivoyage, dan Wikimedia. Manzil baru bertanya ke Google jika keduanya tidak menemukan apa pun, dan hanya Google yang menyediakan rating.',
   'help.guide.create-place.tip.3':
     'Kamu juga bisa membuat tempat dari peta: klik kanan di titik yang diinginkan, lalu formulir terbuka dengan koordinat dan alamat yang sudah terisi.',
   // place-to-open-day
@@ -2150,7 +2150,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-file.result':
     'Tempat-tempatnya sudah ada di daftar. Jejak punya garis berwarna di barisnya, digambar di peta, dan mendapat filter “Jejak” sendiri.',
   'help.guide.import-places-file.tip.1':
-    'File yang terlalu besar akan ditolak, dan TREK menampilkan batas ukurannya. Ekspor ulang tanpa foto, atau pecah menjadi beberapa file.',
+    'File yang terlalu besar akan ditolak, dan Manzil menampilkan batas ukurannya. Ekspor ulang tanpa foto, atau pecah menjadi beberapa file.',
   'help.guide.import-places-file.tip.2': 'Kamu bisa membatalkan seluruh impor dari bilah alat di atas daftar hari.',
   // import-places-list
   'help.guide.import-places-list.title': 'Impor daftar Google Maps atau Naver Maps yang dibagikan',
@@ -2260,7 +2260,7 @@ const help: TranslationStrings = {
   'help.guide.reorder-stops.step.3':
     'Seret perhentian ke kartu hari lain untuk memindahkannya ke sana; perhentian itu dihapus dari hari lamanya.',
   'help.guide.reorder-stops.step.4':
-    'Jika perhentian punya jam tetap dan pemindahan akan merusak urutan hari, TREK bertanya “Hapus waktu?”, karena jam itulah yang menentukan posisi perhentian. “Konfirmasi” menghapus jamnya agar perhentian bisa dipindahkan ke mana saja. “Batal” membiarkan hari tetap seperti semula.',
+    'Jika perhentian punya jam tetap dan pemindahan akan merusak urutan hari, Manzil bertanya “Hapus waktu?”, karena jam itulah yang menentukan posisi perhentian. “Konfirmasi” menghapus jamnya agar perhentian bisa dipindahkan ke mana saja. “Batal” membiarkan hari tetap seperti semula.',
   'help.guide.reorder-stops.result': 'Rute dan waktu tempuh langsung menyesuaikan urutan baru.',
   'help.guide.reorder-stops.tip.1':
     'Pemesanan dengan jam tetap selalu berada di posisi sesuai jamnya. Jika kamu menjatuhkannya di posisi lain pada hari yang sama, pemesanan itu kembali ke posisinya. Jika kamu menyeretnya ke kartu hari lain, pemesanan pindah ke hari itu.',
@@ -2280,7 +2280,7 @@ const help: TranslationStrings = {
   'help.guide.set-stop-times.tip.1':
     'Jam itu berlaku untuk perhentian di hari itu; tempat yang sama di hari lain bisa punya jam lain.',
   'help.guide.set-stop-times.tip.2':
-    'Untuk memindahkan perhentian berjam secara manual, seret saja. TREK bertanya “Hapus waktu?”, dan saat kamu klik “Konfirmasi”, jamnya dihapus.',
+    'Untuk memindahkan perhentian berjam secara manual, seret saja. Manzil bertanya “Hapus waktu?”, dan saat kamu klik “Konfirmasi”, jamnya dihapus.',
   'help.guide.set-stop-times.tip.3':
     '“Catatan untuk hari ini” di formulir yang sama untuk info yang hanya berlaku di hari itu, misalnya reservasi meja atau nomor tiket.',
   // remove-from-day
@@ -2324,7 +2324,7 @@ const help: TranslationStrings = {
   // day-route
   'help.guide.day-route.title': 'Menampilkan dan mengoptimalkan rute hari itu',
   'help.guide.day-route.goal':
-    'Lihat rute di antara perhentian, pilih cara bepergian, dan biarkan TREK mengatur urutannya.',
+    'Lihat rute di antara perhentian, pilih cara bepergian, dan biarkan Manzil mengatur urutannya.',
   'help.guide.day-route.step.1':
     'Buka harinya dan klik “Rute” di bar rute di bawah perhentiannya: rute di antara perhentian digambar di peta, dan penghubung di antara perhentian menunjukkan waktu dan jarak setiap ruas.',
   'help.guide.day-route.step.2':
@@ -2338,7 +2338,7 @@ const help: TranslationStrings = {
   'help.guide.day-route.result':
     'Hari itu menjadi rute lengkap dengan waktu. “Total Biaya” dan setiap ruas diperbarui saat urutannya berubah.',
   'help.guide.day-route.tip.1':
-    'Secara default, rute dihitung oleh OSRM. Admin bisa mengatur TREK agar memakai mesin rute lain di “Pengaturan Default Pengguna”.',
+    'Secara default, rute dihitung oleh OSRM. Admin bisa mengatur Manzil agar memakai mesin rute lain di “Pengaturan Default Pengguna”.',
   'help.guide.day-route.tip.2':
     'Ruas yang rutenya tidak bisa dihitung tidak menampilkan waktu. Pastikan kedua perhentiannya punya koordinat.',
   'help.guide.day-route.tip.3': 'Panah urungkan membatalkan optimasi.',
@@ -2413,7 +2413,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-place.bullet.5':
     'Baris di bagian bawah: “Tambah ke Hari” atau “Hapus dari Hari” saat ada hari yang terbuka, lalu “Navigasi” (atau nama aplikasi petamu, setelah kamu memilihnya di “Pengaturan”), “Buka Situs Web”, dan “Simpan ke Koleksi”. Di kanan, ikon tempat sampah merah menghapus tempat dan “Edit” membuka formulirnya.',
   'help.ctx.trip-place.bullet.6':
-    'Tempat yang kamu pilih dari pencarian menampilkan informasi yang diketahui indeks TREK atau OpenStreetMap tentangnya: “Buka” atau “Ditutup” di antara pil di bagian atas, dengan lingkaran hijau atau merah di sekeliling gambar, berdasarkan waktu setempat tempat itu; nomor teleponnya, juga sebagai pil; “Jam Buka” lebih ke bawah, dengan jam hari ini di barisnya dan jadwal seminggu penuh setelah diklik; serta situs webnya di bawah “Buka Situs Web”. Rating Google hanya tampil pada tempat yang ditemukan lewat Google, di TREK yang punya kunci Google. Jam buka, nomor telepon, dan email yang kamu ketik sendiri di formulir tempat menggantikan data hasil pencarian, dan juga menentukan warna lingkarannya.',
+    'Tempat yang kamu pilih dari pencarian menampilkan informasi yang diketahui indeks Manzil atau OpenStreetMap tentangnya: “Buka” atau “Ditutup” di antara pil di bagian atas, dengan lingkaran hijau atau merah di sekeliling gambar, berdasarkan waktu setempat tempat itu; nomor teleponnya, juga sebagai pil; “Jam Buka” lebih ke bawah, dengan jam hari ini di barisnya dan jadwal seminggu penuh setelah diklik; serta situs webnya di bawah “Buka Situs Web”. Rating Google hanya tampil pada tempat yang ditemukan lewat Google, di Manzil yang punya kunci Google. Jam buka, nomor telepon, dan email yang kamu ketik sendiri di formulir tempat menggantikan data hasil pencarian, dan juga menentukan warna lingkarannya.',
   // read-place
   'help.guide.read-place.title': 'Informasi tentang tempat di kartunya',
   'help.guide.read-place.goal': 'Lihat semua yang diketahui perjalanan tentang satu tempat, dalam satu kartu.',
@@ -2461,7 +2461,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.goal': 'Ganti thumbnail otomatis dengan fotomu sendiri.',
   'help.guide.place-image.step.1': 'Buka tempatnya dari kolom tempat.',
   'help.guide.place-image.step.2':
-    'Arahkan kursor ke gambar bulat di header: ikon kamera muncul dan tooltip-nya bertuliskan “Unggah gambar”. Klik lalu pilih filemu. Jika tempat itu sudah punya foto di file-nya, TREK bertanya dulu: “Unggah dari perangkat”, atau salah satu gambar di bawah “Dari berkas terlampir”.',
+    'Arahkan kursor ke gambar bulat di header: ikon kamera muncul dan tooltip-nya bertuliskan “Unggah gambar”. Klik lalu pilih filemu. Jika tempat itu sudah punya foto di file-nya, Manzil bertanya dulu: “Unggah dari perangkat”, atau salah satu gambar di bawah “Dari berkas terlampir”.',
   'help.guide.place-image.step.3': 'Bagian atas kartu sekarang menampilkan gambarmu, dengan X merah kecil di sudutnya.',
   'help.guide.place-image.step.4':
     'Gambar yang sama juga tampil di baris tempat itu di kolom tempat, dan di penandanya di peta.',
@@ -2472,7 +2472,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.tip.2':
     'Tanda X di pojok menghapus fotomu, dan foto otomatis tampil lagi. Tempatnya sendiri tidak berubah.',
   'help.guide.place-image.tip.3':
-    'Jika kamu belum menambahkan gambar, TREK mencarikannya berdasarkan koordinat tempat. Jika tidak ditemukan, yang tampil adalah ikon kategorinya. Hanya peserta perjalanan yang boleh mengubah tempat yang bisa mengatur gambarnya.',
+    'Jika kamu belum menambahkan gambar, Manzil mencarikannya berdasarkan koordinat tempat. Jika tidak ditemukan, yang tampil adalah ikon kategorinya. Hanya peserta perjalanan yang boleh mengubah tempat yang bisa mengatur gambarnya.',
   // place-day-assign
   'help.guide.place-day-assign.title': 'Tambahkan tempat ke hari yang dibuka, atau hapus dari hari itu',
   'help.guide.place-day-assign.goal': 'Pakai tombol di kartu, tidak perlu menyeret baris melintasi perencana.',
@@ -2559,11 +2559,11 @@ const help: TranslationStrings = {
   'help.guide.place-navigation.step.2':
     'Daftarnya berisi aplikasi peta yang cocok untuk tempat ini: Google Maps, Waze, Apple Maps, OpenStreetMap, dan CoMaps, ditambah “Aplikasi peta lain” di Android.',
   'help.guide.place-navigation.step.3':
-    'Klik aplikasi yang kamu pakai. Jika memungkinkan, TREK mengirim tempat itu sendiri ke aplikasinya, bukan hanya koordinatnya, jadi kamu tiba di pintu masuk yang tepat.',
+    'Klik aplikasi yang kamu pakai. Jika memungkinkan, Manzil mengirim tempat itu sendiri ke aplikasinya, bukan hanya koordinatnya, jadi kamu tiba di pintu masuk yang tepat.',
   'help.guide.place-navigation.step.4':
     '“Buka Situs Web” di sampingnya membuka situs resmi tempat itu, dengan jam buka dan tiketnya, di tab baru.',
   'help.guide.place-navigation.result':
-    'Aplikasi peta terbuka di tempat itu, situs web terbuka di tab baru, dan tidak ada yang berubah di perjalanan. Jika TREK dipasang sebagai aplikasi, aplikasi petanya yang terbuka, bukan tab baru.',
+    'Aplikasi peta terbuka di tempat itu, situs web terbuka di tab baru, dan tidak ada yang berubah di perjalanan. Jika Manzil dipasang sebagai aplikasi, aplikasi petanya yang terbuka, bukan tab baru.',
   'help.guide.place-navigation.tip.1':
     'Waze langsung memulai navigasi. Aplikasi lain membuka tempatnya, lalu kamu perlu mengetuk sekali lagi untuk mulai navigasi.',
   'help.guide.place-navigation.tip.2':
@@ -2602,7 +2602,7 @@ const help: TranslationStrings = {
   'help.guide.place-track.result':
     'Jalur digambar dengan warna pilihanmu, di kartu, di barisnya pada kolom tempat, dan di peta.',
   'help.guide.place-track.tip.1':
-    'Hanya tempat yang punya jalur yang memiliki dua bagian ini: tempat yang diimpor dari file GPX, KML, atau KMZ sebelum fitur Tur ada, atau di TREK yang fitur Tur-nya mati. Jika Tur aktif, file GPX baru menjadi tur, yang membuka kartu turnya sendiri.',
+    'Hanya tempat yang punya jalur yang memiliki dua bagian ini: tempat yang diimpor dari file GPX, KML, atau KMZ sebelum fitur Tur ada, atau di Manzil yang fitur Tur-nya mati. Jika Tur aktif, file GPX baru menjadi tur, yang membuka kartu turnya sendiri.',
   'help.guide.place-track.tip.2':
     'Jalur yang direkam dengan data ketinggian juga menampilkan titik tertinggi dan terendah, total meter naik dan turun, serta profil rutenya.',
   'help.guide.place-track.tip.3':
@@ -2616,13 +2616,13 @@ const help: TranslationStrings = {
   'help.ctx.trip-files.summary':
     'Semua dokumen perjalanan dalam satu daftar: tiket, konfirmasi, pass, dan gambar. Setiap dokumen punya catatan, tautan ke tempat atau pemesanan terkait, dan tempat sampah untuk memulihkannya.',
   'help.ctx.trip-files.bullet.1':
-    '“Jatuhkan file di sini”, kotak putus-putus di bawah bar, menerima file yang kamu jatuhkan ke sana. Klik kotak itu untuk membuka pemilih file. Kotak ini menampilkan jenis file yang diterima TREK ini dan batas per file (Maks. 50 MB, kecuali administrator menetapkan batas lain).',
+    '“Jatuhkan file di sini”, kotak putus-putus di bawah bar, menerima file yang kamu jatuhkan ke sana. Klik kotak itu untuk membuka pemilih file. Kotak ini menampilkan jenis file yang diterima Manzil ini dan batas per file (Maks. 50 MB, kecuali administrator menetapkan batas lain).',
   'help.ctx.trip-files.bullet.2':
     'Bar di bagian atas berisi “File” dan tab filter “Semua”, PDF, “Gambar”, dan “Dokumen”, masing-masing dengan jumlahnya. Tab bintang muncul setelah “Semua” begitu ada file yang diberi bintang, dan tab “Catatan Collab” muncul di ujung begitu ada catatan yang punya lampiran.',
   'help.ctx.trip-files.bullet.3':
     'Setiap baris menampilkan thumbnail atau jenis file, siapa yang mengunggahnya, nama, catatan di bawahnya, ukuran, dan tanggal, serta satu lencana per tautan: tempat, pemesanan, atau transportasi sesuai namanya (arahkan kursor untuk melihat “Rencana Harian”, “Pemesanan”, atau “Transportasi”), dan “Dari Catatan Collab”.',
   'help.ctx.trip-files.bullet.4':
-    'Di ujung baris ada hingga lima ikon, yang namanya muncul saat kursor diarahkan: “Bintang”, “Tugaskan” (ikon pensil), Buka, “Unduh”, dan “Hapus”. “Hapus” tidak meminta konfirmasi: file masuk ke tempat sampah, dan bisa dipulihkan dari sana. Saat offline, catatan, tautan, bintang, dan tempat sampah tetap berfungsi dan dikirim begitu TREK online lagi; hanya mengunggah dan melepas tautan lain yang memerlukan koneksi.',
+    'Di ujung baris ada hingga lima ikon, yang namanya muncul saat kursor diarahkan: “Bintang”, “Tugaskan” (ikon pensil), Buka, “Unduh”, dan “Hapus”. “Hapus” tidak meminta konfirmasi: file masuk ke tempat sampah, dan bisa dipulihkan dari sana. Saat offline, catatan, tautan, bintang, dan tempat sampah tetap berfungsi dan dikirim begitu Manzil online lagi; hanya mengunggah dan melepas tautan lain yang memerlukan koneksi.',
   'help.ctx.trip-files.bullet.5':
     'Gambar atau video terbuka dalam layar penuh, dengan tombol panah dan deretan thumbnail. Dokumen lain terbuka di dialog dengan namanya di atas, serta “Buka di tab baru” dan “Unduh” di bawahnya. Wallet pass langsung diunduh.',
   'help.ctx.trip-files.bullet.6':
@@ -2634,7 +2634,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.step.1':
     'Buka perjalanan dan klik “File” di bilah tab. Dokumen perjalanan tercantum di sana, dengan kotak unggah di atasnya.',
   'help.guide.files-upload.step.2':
-    'Klik “Jatuhkan file di sini”, lalu pilih satu atau beberapa file. File diunggah satu per satu, dan kotaknya bertuliskan “Mengunggah...” selama proses berjalan. Di dalam kotak, di bawah “atau klik untuk memilih”, tertera jenis file yang diterima TREK ini dan ukuran maksimal per file.',
+    'Klik “Jatuhkan file di sini”, lalu pilih satu atau beberapa file. File diunggah satu per satu, dan kotaknya bertuliskan “Mengunggah...” selama proses berjalan. Di dalam kotak, di bawah “atau klik untuk memilih”, tertera jenis file yang diterima Manzil ini dan ukuran maksimal per file.',
   'help.guide.files-upload.step.3':
     'Setelah file terakhir selesai diunggah, “Tugaskan File” otomatis terbuka untuknya (jika perjalanan punya tempat atau pemesanan), dengan nama file di bagian atas dialog. “Tambahkan catatan...” di bawah “Catatan” menambahkan catatan ke file itu, dan daftar di bawahnya menautkannya ke tempat atau pemesanan. Tutup dengan × di kanan atas; menutupnya tidak menghilangkan apa pun.',
   'help.guide.files-upload.step.4':
@@ -2646,7 +2646,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.tip.2':
     'Tekan Ctrl+V untuk menambahkan gambar dari clipboard ke daftar, jadi kamu tidak perlu menyimpan tangkapan layar pemesanan lebih dulu.',
   'help.guide.files-upload.tip.3':
-    'Mengunggah memerlukan hak untuk mengunggah file; tanpa hak itu, kotaknya sama sekali tidak ada. Jenis file yang tidak ada di daftar ditolak dengan pesan, dan tidak ada yang diunggah. File yang melebihi batas (50 MB, kecuali administrator menetapkan batas lain) ditolak sebelum apa pun dikirim, dan pesannya menyebutkan batas tersebut. Mengunggah juga memerlukan koneksi: saat offline, TREK memberi tahu hal itu dan tidak mengunggah apa pun.',
+    'Mengunggah memerlukan hak untuk mengunggah file; tanpa hak itu, kotaknya sama sekali tidak ada. Jenis file yang tidak ada di daftar ditolak dengan pesan, dan tidak ada yang diunggah. File yang melebihi batas (50 MB, kecuali administrator menetapkan batas lain) ditolak sebelum apa pun dikirim, dan pesannya menyebutkan batas tersebut. Mengunggah juga memerlukan koneksi: saat offline, Manzil memberi tahu hal itu dan tidak mengunggah apa pun.',
   // files-link
   'help.guide.files-link.title': 'Tautkan dokumen ke tempat atau pemesanan',
   'help.guide.files-link.goal': 'Buat tiket mudah ditemukan dari hari terkaitnya, bukan hanya dari daftar ini.',
@@ -2665,7 +2665,7 @@ const help: TranslationStrings = {
   'help.guide.files-link.tip.1':
     'Satu file bisa punya beberapa tautan sekaligus, jadi konfirmasi yang sama bisa tertaut ke pemesanan hotel dan ke tempat hotel itu sekaligus.',
   'help.guide.files-link.tip.2':
-    'Klik lagi entri yang sudah dicentang untuk melepas tautan itu; filenya sendiri tetap ada. Saat offline, catatan dan centang baru disimpan lalu dikirim begitu TREK online lagi; hanya melepas tautan lain yang memerlukan koneksi.',
+    'Klik lagi entri yang sudah dicentang untuk melepas tautan itu; filenya sendiri tetap ada. Saat offline, catatan dan centang baru disimpan lalu dikirim begitu Manzil online lagi; hanya melepas tautan lain yang memerlukan koneksi.',
   'help.guide.files-link.tip.3':
     'Ini juga berlaku sebaliknya: dokumen yang dilampirkan ke tempat atau pemesanan juga ada di daftar ini, dengan lencana yang sama di barisnya.',
   // files-star
@@ -2700,7 +2700,7 @@ const help: TranslationStrings = {
   'help.guide.files-filter.tip.2':
     'Daftar selalu diurutkan dengan file berbintang di atas, lalu dari yang terbaru, jadi dokumen yang diunggah hari ini tampil di atas dokumen bulan lalu.',
   // files-preview
-  'help.guide.files-preview.title': 'Baca dokumen tanpa keluar dari TREK',
+  'help.guide.files-preview.title': 'Baca dokumen tanpa keluar dari Manzil',
   'help.guide.files-preview.goal':
     'Lihat tiket atau gambar langsung, dan unduh ke perangkatmu saat kamu membutuhkannya di sana.',
   'help.guide.files-preview.step.1':
@@ -2737,7 +2737,7 @@ const help: TranslationStrings = {
     '“Kosongkan Sampah”, di bilah samping ikon tempat sampah, menghapus permanen semua yang masih ada di tempat sampah. Browser meminta konfirmasi sekali sebelum melakukannya. Ikon tempat sampah kembali menampilkan daftar file.',
   'help.guide.files-trash.result': 'File itu kembali ke posisi semula di daftar.',
   'help.guide.files-trash.tip.1':
-    '“Hapus” pada baris tidak meminta konfirmasi. Itulah sebabnya ada tempat sampah: tidak ada yang benar-benar dihapus dari TREK sampai kamu menghapusnya di sini. Semua ini juga bisa dilakukan saat offline, dan dikirim begitu TREK online lagi.',
+    '“Hapus” pada baris tidak meminta konfirmasi. Itulah sebabnya ada tempat sampah: tidak ada yang benar-benar dihapus dari Manzil sampai kamu menghapusnya di sini. Semua ini juga bisa dilakukan saat offline, dan dikirim begitu Manzil online lagi.',
   'help.guide.files-trash.tip.2':
     'Menghapus dan memulihkan file memerlukan hak menghapus file. Anggota tanpa hak itu tidak melihat “Hapus” di baris maupun tombol-tombol di tempat sampah.',
   'help.guide.files-trash.tip.3': 'File yang dihapus permanen dari tempat sampah tidak bisa dikembalikan.',
@@ -2750,21 +2750,21 @@ const help: TranslationStrings = {
   'help.guide.files-sync.step.2':
     'Klik penyimpananmu, dalam contoh ini Nextcloud. Dialog yang lebih kecil terbuka untuk koneksinya, dengan nama penyimpanan itu, dan meminta data login yang dibutuhkan penyimpanan tersebut.',
   'help.guide.files-sync.step.3':
-    'Isi “Alamat” dan data login penyimpanan itu: “Token API” untuk Paperless-ngx, “Kunci API” dan “ID organisasi” untuk Papra, “Nama pengguna” dan “Sandi aplikasi” untuk Nextcloud, “Nama pengguna” dan “Token aplikasi” untuk OpenCloud, serta untuk Synology Drive “Nama pengguna”, “Kata sandi”, dan, jika akunnya meminta, “Kode dua faktor”. Pakai sandi aplikasi atau token jika penyimpanan menyediakannya, jangan pernah kata sandi akunmu. Nextcloud dan Synology Drive juga menerima “Folder dasar” opsional, tempat TREK mencari folder perjalanan, di sini /Reisen. “Terima sertifikat yang ditandatangani sendiri” di bagian bawah hanya untuk penyimpanan di jaringanmu sendiri yang memakai sertifikat seperti itu.',
+    'Isi “Alamat” dan data login penyimpanan itu: “Token API” untuk Paperless-ngx, “Kunci API” dan “ID organisasi” untuk Papra, “Nama pengguna” dan “Sandi aplikasi” untuk Nextcloud, “Nama pengguna” dan “Token aplikasi” untuk OpenCloud, serta untuk Synology Drive “Nama pengguna”, “Kata sandi”, dan, jika akunnya meminta, “Kode dua faktor”. Pakai sandi aplikasi atau token jika penyimpanan menyediakannya, jangan pernah kata sandi akunmu. Nextcloud dan Synology Drive juga menerima “Folder dasar” opsional, tempat Manzil mencari folder perjalanan, di sini /Reisen. “Terima sertifikat yang ditandatangani sendiri” di bagian bawah hanya untuk penyimpanan di jaringanmu sendiri yang memakai sertifikat seperti itu.',
   'help.guide.files-sync.step.4':
-    'Klik “Uji koneksi”. TREK terhubung ke penyimpanan dengan data yang kamu ketik, dan bagian bawah menampilkan Terhubung, masuk sebagai diikuti nama akunnya. Jika data login ditolak atau alamatnya tidak bisa dijangkau, bagian bawah menampilkan hal itu. Dalam kedua kasus, tidak ada yang disimpan.',
+    'Klik “Uji koneksi”. Manzil terhubung ke penyimpanan dengan data yang kamu ketik, dan bagian bawah menampilkan Terhubung, masuk sebagai diikuti nama akunnya. Jika data login ditolak atau alamatnya tidak bisa dijangkau, bagian bawah menampilkan hal itu. Dalam kedua kasus, tidak ada yang disimpan.',
   'help.guide.files-sync.step.5':
-    'Klik “Hubungkan”. Koneksinya disimpan bersama perjalanan, dan TREK menanyakan di bagian mana penyimpanan dokumen perjalanan itu berada: tag, folder, atau ruang yang berisi dokumennya. Hanya isinya yang disinkronkan. “Buat yang baru” membuatnya saat kamu klik “Buat”, dengan nama dari judul perjalanan. Di bawah “Atau pakai yang sudah ada”, tercantum yang sudah ada. Klik salah satunya, di sini folder Autumn in Japan.',
+    'Klik “Hubungkan”. Koneksinya disimpan bersama perjalanan, dan Manzil menanyakan di bagian mana penyimpanan dokumen perjalanan itu berada: tag, folder, atau ruang yang berisi dokumennya. Hanya isinya yang disinkronkan. “Buat yang baru” membuatnya saat kamu klik “Buat”, dengan nama dari judul perjalanan. Di bawah “Atau pakai yang sudah ada”, tercantum yang sudah ada. Klik salah satunya, di sini folder Autumn in Japan.',
   'help.guide.files-sync.step.6':
-    'Dialog terbuka lagi: penyimpananmu tercantum di bawah “Perjalanan ini” di kiri, dan kartunya di kanan menunjukkan tujuan sinkronisasi, kapan terakhir dijalankan, serta “Sinkronkan sekarang”. Sinkronisasi pertama berjalan otomatis. Klik “Sinkronkan sekarang” untuk menyinkronkan kapan saja. Setelah sinkronisasi, lencana “Belum disinkronkan” di samping nama berubah menjadi titik hijau, yang menampilkan “Tersinkron” saat kursor diarahkan ke atasnya. Bilah alur menunjukkan jumlah dokumen di TREK dan di penyimpanan, dengan jalur “Keluar ke penyimpanan” dan “Masuk dari penyimpanan” di antaranya. Tutup dialog dengan tanda × di kanan atas.',
+    'Dialog terbuka lagi: penyimpananmu tercantum di bawah “Perjalanan ini” di kiri, dan kartunya di kanan menunjukkan tujuan sinkronisasi, kapan terakhir dijalankan, serta “Sinkronkan sekarang”. Sinkronisasi pertama berjalan otomatis. Klik “Sinkronkan sekarang” untuk menyinkronkan kapan saja. Setelah sinkronisasi, lencana “Belum disinkronkan” di samping nama berubah menjadi titik hijau, yang menampilkan “Tersinkron” saat kursor diarahkan ke atasnya. Bilah alur menunjukkan jumlah dokumen di Manzil dan di penyimpanan, dengan jalur “Keluar ke penyimpanan” dan “Masuk dari penyimpanan” di antaranya. Tutup dialog dengan tanda × di kanan atas.',
   'help.guide.files-sync.result':
-    'Dokumen yang sudah ada di penyimpanan muncul di bagian atas daftar, sebagai unggahan atas namamu, dan setiap dokumen perjalanan juga ada di penyimpanan, kecuali dokumen dari “Catatan Collab”. Mulai sekarang, TREK memeriksa penyimpanan di latar belakang, dan perubahan di daftar disalin ke penyimpanan.',
+    'Dokumen yang sudah ada di penyimpanan muncul di bagian atas daftar, sebagai unggahan atas namamu, dan setiap dokumen perjalanan juga ada di penyimpanan, kecuali dokumen dari “Catatan Collab”. Mulai sekarang, Manzil memeriksa penyimpanan di latar belakang, dan perubahan di daftar disalin ke penyimpanan.',
   'help.guide.files-sync.tip.1':
     'Hanya pemilik perjalanan atau administrator instans yang bisa menghubungkan perjalanan, karena kredensialnya memberi akses ke seluruh akun di penyimpanan itu. Setelah perjalanan terhubung, setiap anggota bisa melihat dan membuka “Sinkronisasi dokumen”, membaca kartunya, dan menekan “Sinkronkan sekarang”.',
   'help.guide.files-sync.tip.2':
-    'Penyimpanan di jaringanmu sendiri butuh ALLOW_INTERNAL_NETWORK=true di server TREK, dan alamatnya harus alamat perangkat itu di jaringan, bukan localhost. Tanpa itu, “Uji koneksi” membalas “Alamat itu tidak diizinkan.”',
+    'Penyimpanan di jaringanmu sendiri butuh ALLOW_INTERNAL_NETWORK=true di server Manzil, dan alamatnya harus alamat perangkat itu di jaringan, bukan localhost. Tanpa itu, “Uji koneksi” membalas “Alamat itu tidak diizinkan.”',
   'help.guide.files-sync.tip.3':
-    '“Putuskan”, ikon di samping “Sinkronkan sekarang”, meminta konfirmasi sekali. Setelah itu koneksinya diakhiri, dan semua dokumen tetap ada di kedua sisi. Jika kamu menghubungkan tag, folder, atau ruang yang sama untuk kedua kalinya, TREK menganggapnya baru dan mengimpor semua isinya lagi. Jadi setelah “Putuskan”, hubungkan yang kosong, bukan yang lama.',
+    '“Putuskan”, ikon di samping “Sinkronkan sekarang”, meminta konfirmasi sekali. Setelah itu koneksinya diakhiri, dan semua dokumen tetap ada di kedua sisi. Jika kamu menghubungkan tag, folder, atau ruang yang sama untuk kedua kalinya, Manzil menganggapnya baru dan mengimpor semua isinya lagi. Jadi setelah “Putuskan”, hubungkan yang kosong, bukan yang lama.',
 
   // ── Screen: trip-day-detail ───────────────────────────────────────────────────────────
   'help.ctx.trip-day-detail.title': 'Detail hari',
@@ -2950,7 +2950,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.1':
     'Deretan ikon di bagian atas peta adalah pencarian kategori: “Restoran”, “Kafe”, “Bar & hiburan malam”, “Akomodasi”, “Tempat wisata”, “Museum & budaya”, “Alam & taman”, dan “Aktivitas”. Kategori tambahan dari plugin menyusul setelah pembatas tipis; arahkan kursor ke ikon untuk melihat namanya.',
   'help.guide.map-nearby-places.step.2':
-    'Klik sebuah kategori. TREK mencari tempat jenis itu di area peta yang terlihat dan menaruh pin berwarna kategori untuk setiap hasil. Hanya satu kategori dalam satu waktu: mengklik kategori lain akan menggantinya, dan mengklik kategori yang sedang aktif akan mematikannya.',
+    'Klik sebuah kategori. Manzil mencari tempat jenis itu di area peta yang terlihat dan menaruh pin berwarna kategori untuk setiap hasil. Hanya satu kategori dalam satu waktu: mengklik kategori lain akan menggantinya, dan mengklik kategori yang sedang aktif akan mematikannya.',
   'help.guide.map-nearby-places.step.3':
     'Saat kamu menggeser peta, tombol kedua muncul di bawah baris itu: “Cari di area ini” menjalankan pencarian yang sama untuk tampilan baru. Menggeser peta tidak otomatis memulai pencarian baru, supaya jumlah permintaan tetap sedikit.',
   'help.guide.map-nearby-places.step.4':
@@ -2958,7 +2958,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.5':
     'Periksa apa yang sudah terisi dan tambahkan yang tidak bisa diketahui pencarian. Pil kategori di bawah nama sudah diatur jika perjalanan punya kategori yang cocok, misalnya restoran untuk restoran; jika tidak, tertulis “Tanpa Kategori” sampai kamu memilihnya. Tambahkan “Deskripsi” dan catatanmu sendiri.',
   'help.guide.map-nearby-places.step.6':
-    'Klik “Tambah”. Kalau tempat dengan nama yang sama atau di titik yang sama sudah ada di perjalanan, TREK memberi tahu, dan tombolnya berubah menjadi “Tetap tambahkan”.',
+    'Klik “Tambah”. Kalau tempat dengan nama yang sama atau di titik yang sama sudah ada di perjalanan, Manzil memberi tahu, dan tombolnya berubah menjadi “Tetap tambahkan”.',
   'help.guide.map-nearby-places.result':
     'Tempat itu sudah ada di daftar tempat dan di peta sebagai salah satu pin perjalanan, di bawah “Belum direncanakan” sampai kamu memasukkannya ke suatu hari. Pin hasil pencarian tetap tampil sampai kamu mematikan kategorinya.',
   'help.guide.map-nearby-places.tip.1':
@@ -2973,7 +2973,7 @@ const help: TranslationStrings = {
   'help.guide.map-add-place.step.1':
     'Klik kanan titik di peta. Formulir tempat terbuka dengan judul “Tambah Tempat/Aktivitas”.',
   'help.guide.map-add-place.step.2':
-    '“Lintang” dan “Bujur” sudah terisi sesuai titik itu. TREK mencari koordinat tersebut dan mengisi “Alamat” dengan hasil yang ditemukan. Kalau pencarian menemukan nama, TREK juga mengisi nama di bagian atas dialog. Belum ada yang tersimpan, jadi perbaiki yang keliru.',
+    '“Lintang” dan “Bujur” sudah terisi sesuai titik itu. Manzil mencari koordinat tersebut dan mengisi “Alamat” dengan hasil yang ditemukan. Kalau pencarian menemukan nama, Manzil juga mengisi nama di bagian atas dialog. Belum ada yang tersimpan, jadi perbaiki yang keliru.',
   'help.guide.map-add-place.step.3':
     'Ketik nama yang mudah kamu kenali di kolom bagian atas dialog. Pilih kategori dari pil di bawahnya, yang bertuliskan “Tanpa Kategori” sampai kamu memilih. Lalu tambahkan detail lain untuk rencana: “Deskripsi”, “Catatan”, Situs web.',
   'help.guide.map-add-place.step.4':
@@ -2990,7 +2990,7 @@ const help: TranslationStrings = {
   'help.guide.map-satellite.step.1':
     'Sakelar lapisan dasar adalah tombol bawah dari dua tombol bulat di kiri bawah peta, di bawah ikon gembok. Ikonnya selalu menunjukkan lapisan tujuan, dan tooltip-nya menyebutkannya: “Beralih ke tampilan satelit”. Klik tombol itu.',
   'help.guide.map-satellite.step.2':
-    'Peta sekarang menampilkan citra satelit. Detailnya cukup untuk melihat bangunan satu per satu, dan kamu tidak perlu kunci sendiri. Semua yang digambar TREK tetap tampil di atasnya: pin, rute hari itu, jejak, dan rute pemesanan.',
+    'Peta sekarang menampilkan citra satelit. Detailnya cukup untuk melihat bangunan satu per satu, dan kamu tidak perlu kunci sendiri. Semua yang digambar Manzil tetap tampil di atasnya: pin, rute hari itu, jejak, dan rute pemesanan.',
   'help.guide.map-satellite.step.3':
     'Tombolnya sekarang bertuliskan “Beralih ke tampilan peta”. Klik untuk kembali ke tampilan peta.',
   'help.guide.map-satellite.result': 'Peta digambar ulang, dan lapisan yang kamu pilih disimpan di akunmu.',
@@ -3045,7 +3045,7 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.goal':
     'Tampilkan rute yang direkam Dawarich di ponselmu pada peta, sebagai garis putus-putus di samping rute rencanamu, dan lihat hari demi hari bagaimana perjalanan sebenarnya berlangsung.',
   'help.guide.map-dawarich-trail.step.1':
-    'Tombol bulat Dawarich ada di kanan bawah peta, di bawah “Tampilkan seluruh perjalanan”. Saat kursor diarahkan ke sana, muncul “Tampilkan rute terekam”. Klik tombol itu. TREK meminta data untuk tanggal-tanggal perjalanan dari Dawarich-mu, dan sebuah lingkaran berputar di sekeliling tombol selama TREK menunggu jawaban.',
+    'Tombol bulat Dawarich ada di kanan bawah peta, di bawah “Tampilkan seluruh perjalanan”. Saat kursor diarahkan ke sana, muncul “Tampilkan rute terekam”. Klik tombol itu. Manzil meminta data untuk tanggal-tanggal perjalanan dari Dawarich-mu, dan sebuah lingkaran berputar di sekeliling tombol selama Manzil menunggu jawaban.',
   'help.guide.map-dawarich-trail.step.2':
     'Rute terekam tampil sebagai garis putus-putus, satu warna per hari, digambar di bawah rute rencana agar rencananya tetap terbaca. Tombolnya sekarang bertuliskan “Sembunyikan rute terekam”. Setiap hari berakhir pada tengah malam waktu setempat. Saat kamu melipat suatu hari di kolom hari, garis putus-putus dan perhentiannya disembunyikan dari peta.',
   'help.guide.map-dawarich-trail.step.3':
@@ -3053,9 +3053,9 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.result':
     'Rencanamu dan apa yang benar-benar kamu jalani tampil bersama di peta, sebagai garis putus-putus dan garis utuh. Kartu di atas tombol tetap menampilkan hari-hari yang direncanakan beserta jaraknya.',
   'help.guide.map-dawarich-trail.tip.1':
-    'Status aktif atau tidaknya disimpan per perjalanan di akunmu, jadi sama di semua browser dan perangkat. Selama rute aktif, TREK mengambil data dari Dawarich lagi setiap dua menit, sehingga perjalanan yang sedang berlangsung ikut diperbarui tanpa memuat ulang halaman. Rute itu sendiri tidak pernah disimpan, jadi tidak ada di database TREK, tidak ada di cadangan, dan tidak tersedia offline.',
+    'Status aktif atau tidaknya disimpan per perjalanan di akunmu, jadi sama di semua browser dan perangkat. Selama rute aktif, Manzil mengambil data dari Dawarich lagi setiap dua menit, sehingga perjalanan yang sedang berlangsung ikut diperbarui tanpa memuat ulang halaman. Rute itu sendiri tidak pernah disimpan, jadi tidak ada di database Manzil, tidak ada di cadangan, dan tidak tersedia offline.',
   'help.guide.map-dawarich-trail.tip.2':
-    'Label tombol menjelaskan kenapa peta kosong: “Memuat rute terekam…” selama sedang dimuat, “Tidak ada yang terekam pada tanggal ini”, “Rute terekam tidak dapat dimuat”, atau “Rute terekam memerlukan koneksi” saat TREK sedang offline.',
+    'Label tombol menjelaskan kenapa peta kosong: “Memuat rute terekam…” selama sedang dimuat, “Tidak ada yang terekam pada tanggal ini”, “Rute terekam tidak dapat dimuat”, atau “Rute terekam memerlukan koneksi” saat Manzil sedang offline.',
   // map-compass
   'help.guide.map-compass.title': 'Putar peta dan temukan arah utara lagi',
   'help.guide.map-compass.goal':
@@ -3271,7 +3271,7 @@ const help: TranslationStrings = {
   'help.guide.packing-categories.tip.2':
     'Saat kamu menugaskan seseorang ke sebuah daftar, orang itu menerima notifikasi packing. Ini tidak mengubah siapa yang bisa melihat barangnya. Hal itu diatur di “Berbagi”, pada menu titik tiga di setiap baris.',
   'help.guide.packing-categories.tip.3':
-    'Dua daftar boleh punya nama yang sama. TREK membedakannya secara internal, jadi namanya tetap seperti yang kamu ketik.',
+    'Dua daftar boleh punya nama yang sama. Manzil membedakannya secara internal, jadi namanya tetap seperti yang kamu ketik.',
   // check-off-packing
   'help.guide.check-off-packing.title': 'Mencentang barang sambil berkemas',
   'help.guide.check-off-packing.goal':
@@ -3321,13 +3321,13 @@ const help: TranslationStrings = {
   'help.guide.import-packing-list.step.3':
     'Atau muat barisnya dari file lewat “Muat CSV/TXT/MD”, di kiri bawah dialog. File .csv, .txt, atau .md diterima dan menggantikan isi kotak.',
   'help.guide.import-packing-list.step.4':
-    'Klik “Impor 3” di kanan bawah. Angka di tombol itu menunjukkan jumlah baris yang berhasil dibaca TREK.',
+    'Klik “Impor 3” di kanan bawah. Angka di tombol itu menunjukkan jumlah baris yang berhasil dibaca Manzil.',
   'help.guide.import-packing-list.result':
     'Setiap baris menjadi satu barang, di daftar yang namanya ada di kolom pertama. Barang yang sudah ada tidak berubah.',
   'help.guide.import-packing-list.tip.1':
     'Koma, titik koma, dan tab sama-sama memisahkan kolom, dan tanda kutip ganda menyatukan isi kolom, jadi "Shirt, blue" tetap jadi satu nama. Baris yang hanya berisi satu nilai dianggap sebagai nama. Baris tanpa nama daftar masuk ke “Lainnya”. "3x" di depan nama menentukan jumlahnya.',
   'help.guide.import-packing-list.tip.2':
-    'Jika perjalanan belum punya tas yang disebut di kolom keempat, TREK akan membuatnya. “Impor” dan “Terapkan template” adalah dua cara untuk menambahkan berat dan tas ke banyak item sekaligus.',
+    'Jika perjalanan belum punya tas yang disebut di kolom keempat, Manzil akan membuatnya. “Impor” dan “Terapkan template” adalah dua cara untuk menambahkan berat dan tas ke banyak item sekaligus.',
   // export-packing-list
   'help.guide.export-packing-list.title': 'Cetak atau ekspor daftar perlengkapan',
   'help.guide.export-packing-list.goal':
@@ -3434,7 +3434,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-bookings.bullet.1':
     '“Pemesanan Manual” di ujung kanan bar membuka “Reservasi Baru”. Di sana bisa dibuat enam jenis pemesanan: “Akomodasi”, “Restoran”, “Acara”, “Tur”, “Parkir”, dan “Lainnya”. Penerbangan, kereta, dan transportasi lainnya ada di tab “Transportasi” dan tidak pernah muncul di sini.',
   'help.ctx.trip-bookings.bullet.2':
-    'Ikon unduh sebelum “Pemesanan Manual”, “Impor konfirmasi pemesanan”, mengunggah konfirmasi agar TREK bisa membacanya secara otomatis: EML, PDF, PKPass, HTML, atau TXT, maksimal lima file masing-masing 10 MB, serta foto jika model AI bisa membaca gambar. Ikon ini hanya ada jika server bisa membacanya.',
+    'Ikon unduh sebelum “Pemesanan Manual”, “Impor konfirmasi pemesanan”, mengunggah konfirmasi agar Manzil bisa membacanya secara otomatis: EML, PDF, PKPass, HTML, atau TXT, maksimal lima file masing-masing 10 MB, serta foto jika model AI bisa membaca gambar. Ikon ini hanya ada jika server bisa membacanya.',
   'help.ctx.trip-bookings.bullet.3':
     '“Cari” menelusuri judul, jenis, tempat, catatan, kode pemesanan, dan peserta. “Filter”, ikon corong di sebelahnya, menyaring tab berdasarkan “Status”, berdasarkan “Jenis” beserta jumlahnya masing-masing, dan berdasarkan “Peserta” begitu ada pemesanan yang mencantumkan orang. Angka di ikon corong menunjukkan berapa filter yang aktif.',
   'help.ctx.trip-bookings.bullet.4':
@@ -3499,7 +3499,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.step.2':
     'Pilih hotelnya di bawah “Akomodasi”. Daftarnya berisi tempat-tempat perjalanan, tanpa jejak dan tur yang diimpor. Saat kamu memilih salah satunya, namanya masuk ke judul yang masih kosong dan alamatnya ke “Lokasi / Alamat”.',
   'help.guide.booking-hotel.step.3':
-    'Atur “Dari” dan “Sampai”: malam pertama dan pagi saat kamu pergi. Keduanya menawarkan hari-hari perjalanan beserta tanggalnya, dan TREK memastikan “Sampai” selalu setelah “Dari”.',
+    'Atur “Dari” dan “Sampai”: malam pertama dan pagi saat kamu pergi. Keduanya menawarkan hari-hari perjalanan beserta tanggalnya, dan Manzil memastikan “Sampai” selalu setelah “Dari”.',
   'help.guide.booking-hotel.step.4':
     'Isi “Check-in”, “Check-in sampai”, dan “Check-out”, serta “Kode Pemesanan” dari email konfirmasi.',
   'help.guide.booking-hotel.step.5': 'Klik “Tambah”.',
@@ -3548,7 +3548,7 @@ const help: TranslationStrings = {
   'help.guide.booking-files.title': 'Simpan voucher bersama pemesanannya',
   'help.guide.booking-files.goal': 'Lampirkan konfirmasi, tiket, atau pass ke pemesanan yang bersangkutan.',
   'help.guide.booking-files.step.1':
-    'Buka pemesanan lewat ikon pensil di kartunya. “File” ada di samping “Tautkan”; klik “Lampirkan file” di sana. Pada pemesanan yang sudah ada, dokumen langsung diunggah dan TREK menampilkan “File diunggah”.',
+    'Buka pemesanan lewat ikon pensil di kartunya. “File” ada di samping “Tautkan”; klik “Lampirkan file” di sana. Pada pemesanan yang sudah ada, dokumen langsung diunggah dan Manzil menampilkan “File diunggah”.',
   'help.guide.booking-files.step.2':
     'Dokumen tercantum dengan namanya, dengan tombol untuk membukanya dan X di sampingnya.',
   'help.guide.booking-files.step.3':
@@ -3605,7 +3605,7 @@ const help: TranslationStrings = {
   // import-booking-file
   'help.guide.import-booking-file.title': 'Impor pemesanan dari email konfirmasi',
   'help.guide.import-booking-file.goal':
-    'Biarkan TREK membaca pemesanan dari email atau PDF yang dikirim penyedianya, jadi kamu tidak perlu mengetiknya lagi.',
+    'Biarkan Manzil membaca pemesanan dari email atau PDF yang dikirim penyedianya, jadi kamu tidak perlu mengetiknya lagi.',
   'help.guide.import-booking-file.step.1':
     'Klik ikon unduh di bar, “Impor konfirmasi pemesanan”; namanya muncul saat kursor diarahkan ke sana. Dialog dengan nama yang sama terbuka.',
   'help.guide.import-booking-file.step.2':
@@ -3745,11 +3745,11 @@ const help: TranslationStrings = {
     'Pembagian kustom juga bisa diisi dalam persen: ubah “Masukkan bagian sebagai” ke %, dan jumlah semua bagian harus 100 % sebelum pengeluaran bisa disimpan.',
   // expense-currency
   'help.guide.expense-currency.title': 'Catat pengeluaran dalam mata uang lain',
-  'help.guide.expense-currency.goal': 'Masukkan nominal sesuai struk, dan TREK menyimpan kurs tukarnya.',
+  'help.guide.expense-currency.goal': 'Masukkan nominal sesuai struk, dan Manzil menyimpan kurs tukarnya.',
   'help.guide.expense-currency.step.1':
     'Buka “Tambah pengeluaran”. Ketik nama di bagian atas dialog, lalu isi “Jumlah total” persis seperti di struk, bukan nominal hasil konversi.',
   'help.guide.expense-currency.step.2':
-    'Buka “Mata uang” di samping nominal dan pilih mata uang sesuai struk. Daftarnya berisi semua kode yang dikenal TREK dan bisa dicari: ketik tiga hurufnya.',
+    'Buka “Mata uang” di samping nominal dan pilih mata uang sesuai struk. Daftarnya berisi semua kode yang dikenal Manzil dan bisa dicari: ketik tiga hurufnya.',
   'help.guide.expense-currency.step.3':
     'Deretan lencana muncul di bawah kolom-kolom itu: jumlah yang kamu ketik dan nilainya saat ini, ditandai “kurs langsung”. Ini hanya pratinjau, bukan nilai yang disimpan.',
   'help.guide.expense-currency.step.4':
@@ -3872,7 +3872,7 @@ const help: TranslationStrings = {
   // ── Screen: trip-transports ───────────────────────────────────────────────────────────
   'help.ctx.trip-transports.title': 'Transportasi',
   'help.ctx.trip-transports.summary':
-    'Semua cara kamu bepergian di antara perhentian: penerbangan, kereta, bus, mobil, taksi, sepeda, kapal pesiar, feri, kereta gantung, dan koneksi transportasi umum yang dicarikan TREK untukmu. Tab ini mencantumkan semuanya. Kamu juga bisa membuat dan melihatnya di rencana, dan semuanya digambar di peta.',
+    'Semua cara kamu bepergian di antara perhentian: penerbangan, kereta, bus, mobil, taksi, sepeda, kapal pesiar, feri, kereta gantung, dan koneksi transportasi umum yang dicarikan Manzil untukmu. Tab ini mencantumkan semuanya. Kamu juga bisa membuat dan melihatnya di rencana, dan semuanya digambar di peta.',
   'help.ctx.trip-transports.bullet.1':
     'Tab ini hanya menampilkan perjalanan. Akomodasi, restoran, acara, dan tiket ada di tab “Pemesanan”, jadi entri yang sama tidak pernah muncul dua kali.',
   'help.ctx.trip-transports.bullet.2':
@@ -3930,7 +3930,7 @@ const help: TranslationStrings = {
   // import-transport-file
   'help.guide.import-transport-file.title': 'Impor penerbangan dari e-tiket',
   'help.guide.import-transport-file.goal':
-    'Biarkan TREK membaca penerbangan, kereta, atau feri dari tiket yang dikirim operatornya, lalu periksa sebelum disimpan.',
+    'Biarkan Manzil membaca penerbangan, kereta, atau feri dari tiket yang dikirim operatornya, lalu periksa sebelum disimpan.',
   'help.guide.import-transport-file.step.1':
     'Di bar tab “Transportasi”, klik ikon unduh sebelum “Transportasi”, yang tooltip-nya bertuliskan “Impor konfirmasi pemesanan”. Dialog dengan nama itu terbuka, sama seperti di tab “Pemesanan”. Pada tab yang masih kosong, “Impor dari file” di tengah melakukan hal yang sama.',
   'help.guide.import-transport-file.step.2':
@@ -3950,11 +3950,11 @@ const help: TranslationStrings = {
   // plan-transit
   'help.guide.plan-transit.title': 'Merencanakan koneksi transportasi umum',
   'help.guide.plan-transit.goal':
-    'Biarkan TREK mencarikan kereta dan bus sungguhan di antara dua titik dalam satu hari, lalu masukkan pilihanmu ke rencana.',
+    'Biarkan Manzil mencarikan kereta dan bus sungguhan di antara dua titik dalam satu hari, lalu masukkan pilihanmu ke rencana.',
   'help.guide.plan-transit.step.1':
     'Klik tanda + di header hari, lalu pilih “Transportasi umum”. Pencarian terbuka untuk hari itu: harinya tampil sebagai pil di header, dan “Manual” serta “Otomatis” di sampingnya beralih antara pencarian ini dan formulir biasa.',
   'help.guide.plan-transit.step.2':
-    '“Dari” dan “Ke” bisa diisi perhentian atau stasiun. Selama kotaknya masih kosong, TREK menyarankan akomodasi hari itu, stasiun dan bandara dari pemesanan hari itu, serta perhentian hari itu sendiri. Begitu kamu mengetik dua huruf, TREK mencari stasiun dari jadwal sebagai gantinya. “Tukar” di antara kedua kotak menukar “Dari” dan “Ke”.',
+    '“Dari” dan “Ke” bisa diisi perhentian atau stasiun. Selama kotaknya masih kosong, Manzil menyarankan akomodasi hari itu, stasiun dan bandara dari pemesanan hari itu, serta perhentian hari itu sendiri. Begitu kamu mengetik dua huruf, Manzil mencari stasiun dari jadwal sebagai gantinya. “Tukar” di antara kedua kotak menukar “Dari” dan “Ke”.',
   'help.guide.plan-transit.step.3':
     '“Berangkat” atau “Tiba” beserta waktunya menentukan kapan kamu ingin bepergian, sedangkan “Rute terbaik”, “Lebih sedikit transit”, atau “Lebih sedikit jalan kaki” menentukan urutan hasilnya.',
   'help.guide.plan-transit.step.4':
@@ -4068,7 +4068,7 @@ const help: TranslationStrings = {
   'help.guide.airtrail-import.tip.1':
     'Penerbangan dengan nomor dan tanggal yang sama yang sudah ada di perjalanan akan dilewati, dan muncul pesan berapa yang dilewati. Panah urungkan di bilah alat di atas daftar hari membatalkan seluruh impor.',
   'help.guide.airtrail-import.tip.2':
-    'AirTrail tetap menjadi sumber utama data. TREK membaca perubahannya saat kamu membuka perjalanan dan setiap beberapa menit di latar belakang. Penerbangan yang dihapus di AirTrail tetap punya kartu di TREK, dan labelnya berubah menjadi “Tidak tersinkron”. Perubahan yang dibuat di TREK hanya dikirim balik ke AirTrail kalau “Tulis perubahan kembali ke AirTrail” diaktifkan di “Integrasi”.',
+    'AirTrail tetap menjadi sumber utama data. Manzil membaca perubahannya saat kamu membuka perjalanan dan setiap beberapa menit di latar belakang. Penerbangan yang dihapus di AirTrail tetap punya kartu di Manzil, dan labelnya berubah menjadi “Tidak tersinkron”. Perubahan yang dibuat di Manzil hanya dikirim balik ke AirTrail kalau “Tulis perubahan kembali ke AirTrail” diaktifkan di “Integrasi”.',
   'help.guide.airtrail-import.tip.3':
     'Koneksi gabungan bukan satu penerbangan AirTrail yang bisa disinkronkan, jadi impornya hanya sekali: label birunya tetap ada, dan saat kursor diarahkan ke label itu, muncul keterangan tentang hal ini. Hal yang sama terjadi pada penerbangan tersinkron kalau kamu menambahkan persinggahan secara manual.',
 
@@ -4191,13 +4191,13 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-alternatives.result':
     'Ruas itu sekarang melewati jalan yang kamu pilih, dan jarak di kolom samping serta jam tiba sesudahnya ikut berubah.',
   'help.guide.roadtrip-alternatives.tip.1':
-    'Saat kamu memilih jalan lain, TREK lebih dulu memeriksanya dengan router perjalanan darat. Lalu ruas itu dipertahankan di jalan tersebut dengan titik lewat sesedikit mungkin, dan titik lewat yang sudah ada di ruas itu diganti. Jalan yang tidak bisa diikuti router tidak disimpan. Memilih jalan usulan router akan menghapus titik lewat itu lagi.',
+    'Saat kamu memilih jalan lain, Manzil lebih dulu memeriksanya dengan router perjalanan darat. Lalu ruas itu dipertahankan di jalan tersebut dengan titik lewat sesedikit mungkin, dan titik lewat yang sudah ada di ruas itu diganti. Jalan yang tidak bisa diikuti router tidak disimpan. Memilih jalan usulan router akan menghapus titik lewat itu lagi.',
   'help.guide.roadtrip-alternatives.tip.2':
     '“Tanpa jalan tol cepat”, “Tanpa tol”, dan “Tanpa feri” berasal dari mesin kedua dengan model kecepatannya sendiri, jadi waktunya tidak bisa dibandingkan dengan rute lain.',
   // roadtrip-limits
   'help.guide.roadtrip-limits.title': 'Atur mobil dan batas berkendara',
   'help.guide.roadtrip-limits.goal':
-    'Beri tahu TREK kendaraan apa yang kamu pakai dan seberapa jauh kamu mau berkendara tanpa istirahat.',
+    'Beri tahu Manzil kendaraan apa yang kamu pakai dan seberapa jauh kamu mau berkendara tanpa istirahat.',
   'help.guide.roadtrip-limits.step.1':
     '“Pengaturan berkendara” ada di bawah pencarian di kolom kanan. Lencananya menunjukkan apa saja yang sudah diatur; klik untuk membukanya.',
   'help.guide.roadtrip-limits.step.2':
@@ -4268,7 +4268,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-track.step.2':
     'Pilih jalur. Setiap jalur menampilkan panjangnya dan apakah jalur itu mengikuti rute hari ini atau seberapa jauh letaknya. Jalur terdekat tampil paling atas.',
   'help.guide.roadtrip-track.step.3':
-    'Klik “Ikuti jalur ini”. TREK menambahkan titik via di bagian yang paling jauh dari jejak, lalu menghitung ulang rutenya, dan mengulanginya beberapa kali.',
+    'Klik “Ikuti jalur ini”. Manzil menambahkan titik via di bagian yang paling jauh dari jejak, lalu menghitung ulang rutenya, dan mengulanginya beberapa kali.',
   'help.guide.roadtrip-track.step.4':
     'Dialog menyebutkan berapa titik via yang ditempatkan dan seberapa dekat perjalanan darat kini mengikuti jejak, atau bahwa perjalanan darat sudah mengikuti jejak. “Buang titik via”, di kiri bawah, menghapus titik-titik itu, lalu router merencanakan ulang hari tersebut. Menutup dialog tetap mempertahankan jejaknya.',
   'help.guide.roadtrip-track.result':
@@ -4320,18 +4320,18 @@ const help: TranslationStrings = {
   'help.ctx.settings-plugins.summary':
     'Pengaturanmu sendiri untuk plugin yang dipasang admin: kunci dan preferensi yang diminta tiap plugin, serta log tentang apa saja yang dilakukan plugin atas namamu. Tab ini hanya muncul selama ada plugin yang aktif.',
   'help.ctx.settings-about.bullet.3':
-    'Lewat Ko-fi, Buy Me a Coffee, dan Discord, kamu bisa mendukung TREK atau mengobrol dengan orang-orang yang membuatnya.',
+    'Lewat Ko-fi, Buy Me a Coffee, dan Discord, kamu bisa mendukung Manzil atau mengobrol dengan orang-orang yang membuatnya.',
   'help.guide.language-region.step.3':
     'Atur “Mata uang tampilan”, atau biarkan “Mata uang perjalanan” agar setiap perjalanan tampil dalam mata uangnya sendiri. Lalu pilih “Satuan Suhu”, “Satuan Jarak”, “Format Waktu”, dan hari “Awal minggu”.',
   'help.guide.travel-map-prefs.step.3':
     '“Jelajahi tempat di peta” menampilkan pil kategori untuk mencari tempat di sekitar. “Sembunyikan Kode Pemesanan” menyamarkan nomor konfirmasi sampai kamu mengarahkan kursor ke atasnya atau mengetuknya. “Optimalkan rute dari akomodasi” membuat setiap hari dimulai dan diakhiri di hotelmu.',
   'help.guide.web-push-device.step.2':
     'Di kartu “Notifikasi” paling atas, kolom Push mengatur peristiwa mana yang dikirim ke perangkatmu.',
-  'help.guide.connect-airtrail.goal': 'Izinkan TREK mengimpor dan menyinkronkan penerbangan dari AirTrail milikmu.',
+  'help.guide.connect-airtrail.goal': 'Izinkan Manzil mengimpor dan menyinkronkan penerbangan dari AirTrail milikmu.',
   'help.guide.connect-dawarich.goal':
-    'Izinkan TREK membaca ke mana saja kamu benar-benar pergi, dari Dawarich milikmu.',
+    'Izinkan Manzil membaca ke mana saja kamu benar-benar pergi, dari Dawarich milikmu.',
   'help.guide.tour-connect-wanderer.goal':
-    'Izinkan TREK membaca jalur dari wanderer milikmu agar bisa kamu impor sebagai tur.',
+    'Izinkan Manzil membaca jalur dari wanderer milikmu agar bisa kamu impor sebagai tur.',
   'help.guide.tour-wanderer-watch.title': 'Dapatkan notifikasi saat jalur wanderer-mu berubah',
   'help.guide.plugin-settings.tip.2':
     'Saluran plugin di bawah “Notifikasi” punya tombol “Konfigurasi” yang membuka halaman ini.',
@@ -4340,11 +4340,11 @@ const help: TranslationStrings = {
   'help.guide.own-routing-engine.goal':
     'Hitung rute harian dan road trip lewat server OSRM atau Valhalla milikmu sendiri, bukan server publik.',
   'help.guide.admin-passkeys.tip.1':
-    'Jika TREK belum bisa menentukan domain, akan muncul peringatan, dan passkey tetap disembunyikan sampai kamu mengatur APP_URL atau Relying Party ID.',
+    'Jika Manzil belum bisa menentukan domain, akan muncul peringatan, dan passkey tetap disembunyikan sampai kamu mengatur APP_URL atau Relying Party ID.',
   'help.guide.rotate-jwt-secret.step.1':
     'Di bagian bawah tab “Pengaturan”, di bawah “Zona Berbahaya”, klik “Putar Ulang” di samping “Putar Secret JWT”.',
   'help.guide.storage-backends.tip.3':
-    'TREK bisa mengunduh ulang cache foto, jadi mencerminkannya biasanya hanya membuang ruang penyimpanan.',
+    'Manzil bisa mengunduh ulang cache foto, jadi mencerminkannya biasanya hanya membuang ruang penyimpanan.',
   'help.guide.admin-channels.step.3':
     'Di kartu “Notifikasi” di bawahnya, tentukan untuk setiap peristiwa saluran mana yang mengirimkannya: “Versi baru tersedia”, “Kegagalan replika penyimpanan”, dan “Wilayah dayung diminta”. Setiap sakelar langsung tersimpan.',
   'help.guide.notification-defaults.tip.1':
@@ -4391,7 +4391,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.result':
     'Browsermu mengunduh file yang dinamai sesuai perjalanan dan tabnya, misalnya autumn-in-japan-bookings.csv, dengan satu baris untuk setiap pemesanan yang tampil di tab itu.',
   'help.guide.arrange-packing-list.result':
-    'Daftar tersusun sesuai urutan yang kamu seret, dan item diurutkan dari A ke Z sampai kamu mematikannya. TREK tetap menyimpan urutan buatanmu sendiri.',
+    'Daftar tersusun sesuai urutan yang kamu seret, dan item diurutkan dari A ke Z sampai kamu mematikannya. Manzil tetap menyimpan urutan buatanmu sendiri.',
   'help.guide.count-packed-pieces.step.2':
     'Penghitung muncul sebelum jumlahnya: 0/5, dengan tombol minus dan plus. Klik plus untuk setiap barang yang masuk ke tas.',
   'help.guide.expense-receipts.step.4':
@@ -4399,7 +4399,7 @@ const help: TranslationStrings = {
   'help.guide.final-budget.tip.3':
     'Orang yang sudah keluar dari perjalanan tetap punya baris di “Saldo” dan “Anggaran akhir” selama masih ada uang yang harus dibayar kepadanya atau olehnya.',
   'help.guide.files-sync-settings.step.2':
-    'Bar alur menampilkan TREK dan penyimpananmu beserta dokumen yang ada di masing-masing, dan dua jalur di antaranya: “Keluar ke penyimpanan” dan “Masuk dari penyimpanan”. Klik “Keluar ke penyimpanan” untuk mematikannya. Jalurnya menjadi redup dan baris di bawah jalur bertuliskan “Hanya masuk”. Klik lagi untuk mengaktifkannya kembali.',
+    'Bar alur menampilkan Manzil dan penyimpananmu beserta dokumen yang ada di masing-masing, dan dua jalur di antaranya: “Keluar ke penyimpanan” dan “Masuk dari penyimpanan”. Klik “Keluar ke penyimpanan” untuk mematikannya. Jalurnya menjadi redup dan baris di bawah jalur bertuliskan “Hanya masuk”. Klik lagi untuk mengaktifkannya kembali.',
   'help.guide.files-sync-settings.tip.4':
     'Hanya pemilik perjalanan atau administrator yang bisa mengubah semua ini. Anggota lain melihat bar alur dengan keterangan seperti “Dokumen bergerak dua arah”, tapi tanpa “Pengaturan”.',
   'help.guide.manage-notes.step.2':
@@ -4410,7 +4410,7 @@ const help: TranslationStrings = {
     'Tempat sampah hanya bisa menghapus kategori yang tidak dipakai catatan mana pun. Kategori yang masih dipakai catatan tetap ada di daftar sampai catatan-catatan itu dipindahkan ke kategori lain.',
   'help.guide.roadtrip-reorder.title': 'Ubah urutan perhentian atau pindahkan ke hari lain',
   'help.guide.roadtrip-reorder.tip.3':
-    'TREK tidak bertanya soal jam yang sudah kamu sematkan: rel langsung menghitung ulang hari itu dan menandai perhentian yang tidak lagi bisa dicapai tepat waktu.',
+    'Manzil tidak bertanya soal jam yang sudah kamu sematkan: rel langsung menghitung ulang hari itu dan menandai perhentian yang tidak lagi bisa dicapai tepat waktu.',
   'help.guide.roadtrip-overnight.step.3':
     'Di bagian atas dialog, “Menginap” menambahkan penginapan semalam, dan “Istirahat” menjadikannya perhentian sementara. Hotel terbuka dengan “Menginap”, tempat berkemah dengan “Istirahat”. Untuk menginap, hanya Check-in yang diminta, dan boleh dikosongkan.',
   'help.guide.roadtrip-stop-fill.step.1':
@@ -4424,7 +4424,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tours.bullet.2':
     'Di bagian atas, “Impor GPX atau KML” memasukkan file sebagai tur. Tombol filter di bawahnya (awalnya bertuliskan “Semua”, dengan jumlah tur) menyaring daftar menurut status, sumber, batas rute, dan jenis.',
   'help.guide.tour-show-list.step.2':
-    'Setiap baris adalah satu tur. Bilah berwarna menunjukkan garisnya di peta, dan kotak bulat menampilkan batas rute (T1 sampai T6) untuk pendakian yang direncanakan di TREK, atau ikon jenisnya. Lencana di bawah nama menunjukkan hari-harinya, waktu, jarak, dan tanjakannya. Pada tur beberapa hari, ikon bulan dengan angka menunjukkan jumlah etapenya.',
+    'Setiap baris adalah satu tur. Bilah berwarna menunjukkan garisnya di peta, dan kotak bulat menampilkan batas rute (T1 sampai T6) untuk pendakian yang direncanakan di Manzil, atau ikon jenisnya. Lencana di bawah nama menunjukkan hari-harinya, waktu, jarak, dan tanjakannya. Pada tur beberapa hari, ikon bulan dengan angka menunjukkan jumlah etapenya.',
   'help.guide.tour-add-to-day.title': 'Masukkan tur ke suatu hari',
   'help.guide.tour-add-to-day.tip.2':
     'Jika perjalanan berakhir sebelum etape terakhir, pilihannya menunjukkan etape terakhir yang masih muat, dan etape sesudahnya tetap tanpa hari.',
@@ -4457,15 +4457,15 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.4':
     '“Ganti” di bawah jejak untuk memilih rekaman lain. “Lepas Tautan” melepaskannya dari tur, dan jejaknya tetap ada di perjalanan sebagai impor.',
   'help.guide.tour-origin-check.step.3':
-    'Tur yang kamu gambar di tab “Tur” bertuliskan “direncanakan di TREK”, beserta tanggal “Dibuat”-nya.',
+    'Tur yang kamu gambar di tab “Tur” bertuliskan “direncanakan di Manzil”, beserta tanggal “Dibuat”-nya.',
   'help.ctx.trip-tour-planner.bullet.2':
     'Rel kiri adalah editornya. Jika belum ada yang terbuka, tersedia “Rencanakan tur baru”. Tur yang terbuka menampilkan nama, jenis, titik jalan, kartu-kartu sesuai jenisnya, dan detailnya, dengan “Buang” dan “Simpan” di bagian bawah.',
   'help.guide.tour-open-workspace.step.2':
     'Rel kiri adalah editornya. Jika belum ada tur yang terbuka, tersedia “Rencanakan tur baru” untuk memulai tur di peta.',
   'help.guide.tour-open-workspace.tip.3':
-    'Jika kamu membuka tur lain saat editor masih punya perubahan yang belum disimpan, TREK akan bertanya dulu: “Buang perubahan”, atau lanjut mengedit.',
+    'Jika kamu membuka tur lain saat editor masih punya perubahan yang belum disimpan, Manzil akan bertanya dulu: “Buang perubahan”, atau lanjut mengedit.',
   'help.guide.tour-draw-route.step.5':
-    'Klik titik-titik berikutnya sesuai urutan kamu melewatinya. Setiap klik menambahkan titik itu sebagai ujung baru, dan begitu ada dua titik, TREK merencanakan rute menyusuri jalan setapak.',
+    'Klik titik-titik berikutnya sesuai urutan kamu melewatinya. Setiap klik menambahkan titik itu sebagai ujung baru, dan begitu ada dua titik, Manzil merencanakan rute menyusuri jalan setapak.',
   'help.guide.tour-type-profile.goal':
     'Pilih jenis tur, dan untuk tur sepeda juga profilnya, agar rute melewati jalan yang sesuai.',
   'help.guide.tour-edit-points.title': 'Pindahkan, urutkan ulang, dan hapus titik',
@@ -4589,11 +4589,11 @@ const help: TranslationStrings = {
     'Lihat lintasan ski, jalur ski lintas alam, dan lift di sekitar tur skimu, beserta arti warnanya.',
   'help.guide.tour-ski-import.title': 'Impor jejak ski dan tentukan jenisnya',
   'help.guide.tour-ski-import.tip.1':
-    'Jejak yang diimpor disimpan apa adanya sesuai rekaman: TREK tidak mencocokkannya dengan lintasan ski, dan kartunya menampilkan “Waktu ski” sebagai “Tidak dihitung”.',
+    'Jejak yang diimpor disimpan apa adanya sesuai rekaman: Manzil tidak mencocokkannya dengan lintasan ski, dan kartunya menampilkan “Waktu ski” sebagai “Tidak dihitung”.',
   'help.ctx.trip-tour-paddle.bullet.3':
     '“Tindakan lainnya” pada sebuah titik berisi alat-alat dayung: rencanakan ruas berikutnya di air atau gambar dengan tangan, “Angkut perahu dari sini”, dan “Pintu air di titik ini”.',
   'help.guide.tour-paddle-setup.step.3':
-    'Di bawah “Perahu”, pilih Kayak, “Kano”, SUP, atau “Lainnya”. Jenis perahu menentukan kecepatan yang disarankan TREK.',
+    'Di bawah “Perahu”, pilih Kayak, “Kano”, SUP, atau “Lainnya”. Jenis perahu menentukan kecepatan yang disarankan Manzil.',
   'help.guide.tour-paddle-setup.tip.4':
     '“Mendayung punya risiko”, baris di bagian bawah kolom, membuka “Keselamatan di air”. Baca sekali sebelum tur pertamamu.',
   'help.guide.tour-paddle-water-route.step.5':
@@ -4616,7 +4616,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-track-marks.tip.2':
     '“Buang” menghapus tanda yang belum kamu simpan. Jejak rekamannya sendiri tidak pernah digambar ulang.',
   'help.ctx.trip-tour-horse.bullet.4':
-    'TREK tidak menghitung waktu berkuda. Isi waktu di bawah “Direncanakan” di “Detail” jika kamu ingin waktunya tampil di hari itu.',
+    'Manzil tidak menghitung waktu berkuda. Isi waktu di bawah “Direncanakan” di “Detail” jika kamu ingin waktunya tampil di hari itu.',
   'help.guide.tour-horse-plan.step.5':
     'Pilih bagian di bawah “Bagian”. Periksa “Arah” yang kamu lalui dan keterangan “Akses berkuda” di sepanjangnya.',
   'help.guide.tour-horse-plan.tip.5':
@@ -4659,7 +4659,7 @@ const help: TranslationStrings = {
   'help.guide.journey-map-layers.tip.1':
     'Garis berwarna putus-putus adalah rute GPX perjalanan, bagian dari rencana; garis utuh adalah rute yang direkam pada hari itu.',
   'help.guide.journey-keep-route.tip.1':
-    'Di titik rekaman berhenti, garisnya juga berhenti. TREK hanya menggambar apa yang terekam.',
+    'Di titik rekaman berhenti, garisnya juga berhenti. Manzil hanya menggambar apa yang terekam.',
   'help.guide.journey-day-stays.tip.1':
     'Baris ini hanya muncul bagi orang yang boleh mengedit jurnal dan sudah menghubungkan Dawarich miliknya sendiri, dan hanya pada hari yang masih ada yang perlu diputuskan.',
   'help.guide.journey-take-over-day.step.4':
@@ -4672,7 +4672,7 @@ const help: TranslationStrings = {
   'help.guide.dashboard-widgets.step.3':
     '“Kembalikan ke default”, di bawah kartu, mengembalikan seluruh tab “Tampilan” ke pengaturan awalnya.',
   'help.guide.web-push-device.result':
-    'Kartu menampilkan “Aktif untuk perangkat ini”, dan peristiwa yang diaktifkan di kolom Push tetap sampai meskipun TREK sedang ditutup.',
+    'Kartu menampilkan “Aktif untuk perangkat ini”, dan peristiwa yang diaktifkan di kolom Push tetap sampai meskipun Manzil sedang ditutup.',
   'help.guide.connect-airtrail.step.1':
     'Di bawah “Integrasi”, cari AirTrail, lalu isi “URL Instans” dan kunci API-nya. Kunci itu kamu buat di AirTrail, di Settings, Security.',
   'help.guide.connect-dawarich.step.1':
@@ -4680,7 +4680,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.1':
     'Di bawah “Integrasi”, cari wanderer, lalu isi “URL Instans” dan token API-nya. Token itu kamu buat di wanderer, di Settings, Account, API tokens; awalannya wanderer_key_.',
   'help.guide.tour-wanderer-watch.goal':
-    'Biarkan TREK memantau perubahan pada jalur yang kamu impor di latar belakang.',
+    'Biarkan Manzil memantau perubahan pada jalur yang kamu impor di latar belakang.',
   'help.guide.mcp-oauth.tip.3': '“Token API” masih berfungsi tapi ditandai “Usang”; beralihlah ke klien OAuth.',
   'help.guide.offline-conflicts.tip.2': 'Pilihan ini hanya berlaku untuk perangkat ini.',
   'help.guide.default-user-settings.tip.1':
@@ -4707,7 +4707,7 @@ const help: TranslationStrings = {
   'help.guide.collapse-columns.tip.3':
     'Saat pembatas sedang difokuskan, kamu juga bisa menggesernya dengan tombol panah.',
   'help.guide.edit-place.tip.3':
-    'Jika kamu mengklik di luar dialog, perubahanmu tidak hilang: TREK akan bertanya “Buang perubahan?” dulu, dan “Lanjut mengedit” membawamu kembali ke formulir.',
+    'Jika kamu mengklik di luar dialog, perubahanmu tidak hilang: Manzil akan bertanya “Buang perubahan?” dulu, dan “Lanjut mengedit” membawamu kembali ke formulir.',
   'help.guide.dawarich-stays.goal':
     'Tambahkan tempat-tempat persinggahanmu yang terekam Dawarich selama perjalanan, setelah kamu memeriksanya satu per satu.',
   'help.guide.leave-stop-off-route.step.1':
@@ -4756,7 +4756,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.step.2':
     'Di rel, perjalanan itu tampil sebagai kartu berwarna sesuai jenisnya, dengan jadwal di kolom kedatangan serta titik awal dan akhirnya di bawah judul.',
   'help.guide.roadtrip-google-import.tip.1':
-    'TREK menghitung rutenya sendiri di antara perhentian; jalur dari Google tidak disalin.',
+    'Manzil menghitung rutenya sendiri di antara perhentian; jalur dari Google tidak disalin.',
   'help.guide.roadtrip-hazards.result':
     'Peta menampilkan peringatan terkini di sekitar perjalananmu, dan rutenya tidak berubah.',
   'help.ctx.trip-tours.bullet.3':
@@ -4765,7 +4765,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.goal':
     'Tentukan kapan kamu menjalani tur, agar tur itu muncul di harinya dengan garisnya di peta.',
   'help.guide.tour-add-to-day.tip.3':
-    'Satu tur hanya bisa dimasukkan sekali ke hari yang sama. Jika kamu menjatuhkannya ke hari yang sudah berisi tur itu, TREK hanya menampilkan “Tur ini sudah ada di hari tersebut.”',
+    'Satu tur hanya bisa dimasukkan sekali ke hari yang sama. Jika kamu menjatuhkannya ke hari yang sudah berisi tur itu, Manzil hanya menampilkan “Tur ini sudah ada di hari tersebut.”',
   'help.guide.tour-day-times.step.4':
     'Jika tur berakhir setelah agenda berikutnya di hari itu dimulai, keterangan di bawah baris memberitahumu, misalnya Berakhir pukul 13:30, setelah Makan siang di Gostner Schwaige dimulai pukul 12:30. Tidak ada yang dipindahkan.',
   'help.guide.tour-remove-from-day.step.1':
@@ -4804,7 +4804,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.result':
     'Tab “Tur”: editor di kiri, tur-tur perjalanan di kanan, dan peta di antaranya.',
   'help.guide.tour-draw-route.step.6':
-    'Di bawah “Titik jalan”, setiap titik mendapat baris bernomor, yang diberi nama tempat begitu namanya selesai dimuat. Selama TREK bekerja, titik kecil di samping “Tur baru” menunjukkan statusnya.',
+    'Di bawah “Titik jalan”, setiap titik mendapat baris bernomor, yang diberi nama tempat begitu namanya selesai dimuat. Selama Manzil bekerja, titik kecil di samping “Tur baru” menunjukkan statusnya.',
   'help.guide.tour-type-profile.step.1':
     'Klik “Jenis tur” di bawah “Nama tur”. Di sana tampil jenis saat ini beserta keterangan singkat tentang cara perencanaannya.',
   'help.guide.tour-edit-points.goal': 'Ubah arah tur dengan memindahkan titik-titiknya di peta atau di daftar.',
@@ -4828,7 +4828,7 @@ const help: TranslationStrings = {
     '“Ringkasan tur” di bagian atas “Tur dalam perjalanan ini” menampilkan “Jarak”, “Total kenaikan elevasi”, dan “Total penurunan elevasi” tur yang ada di editor, perkiraan waktunya, istirahat, dan total yang direncanakan.',
   'help.guide.tour-list-manage.title': 'Mengelola tur dalam perjalanan',
   'help.guide.tour-list-manage.tip.2':
-    'Hari yang sudah berisi tur itu tampil redup di menu hari. Untuk tur beberapa hari, TREK bertanya apakah etapenya dimulai di hari itu atau seluruh tur masuk ke hari itu.',
+    'Hari yang sudah berisi tur itu tampil redup di menu hari. Untuk tur beberapa hari, Manzil bertanya apakah etapenya dimulai di hari itu atau seluruh tur masuk ke hari itu.',
   'help.guide.tour-delete.tip.2':
     'Kalau hanya ingin mengeluarkannya dari satu hari, pakai “Hapus dari hari” di menu hari.',
   'help.guide.tour-saved-elsewhere.step.4':
@@ -4853,7 +4853,7 @@ const help: TranslationStrings = {
     '“Di sepanjang tur”, sebuah kartu di panel kiri, mencari titik pandang, sumber air, pondok, tempat makan, dan lainnya di dekat rute, lalu mencantumkan hasilnya. Tempat dari daftar itu bisa kamu tambahkan ke tur sebagai perhentian.',
   'help.guide.tour-map-layers.tip.1':
     'Peta yang kamu pilih tetap dipakai untuk setiap tur yang kamu buka sampai halaman dimuat ulang. Tur yang jenisnya tidak menyediakan peta itu terbuka di “Peta”, dan peta di tab “Rencana” serta pengaturan di “Pengaturan” tidak berubah.',
-  'help.guide.tour-along-search.step.4': 'Klik “Cari di sepanjang tur”. TREK hanya mencari: turnya tidak berubah.',
+  'help.guide.tour-along-search.step.4': 'Klik “Cari di sepanjang tur”. Manzil hanya mencari: turnya tidak berubah.',
   'help.guide.tour-along-add-stop.step.1':
     'Klik tempat di daftar “Di sepanjang tur”, atau pin-nya di peta. Kartunya terbuka di atas peta: apa tempat itu, seberapa jauh dari rute, dan di bagian mana sepanjang tur.',
   'help.guide.tour-3d-terrain.title': 'Melihat tur dalam 3D',
@@ -4879,7 +4879,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-round.tip.1':
     'Putaran selalu berada dalam “Tingkat kesulitan jalur maksimum” pendakian itu; pil T di kartu menunjukkan tingkatnya.',
   'help.guide.tour-hike-compare-ways.step.4':
-    'Klik “Pakai jalan ini”. TREK memeriksa lewat router bahwa rutenya benar-benar mengikuti jalan itu.',
+    'Klik “Pakai jalan ini”. Manzil memeriksa lewat router bahwa rutenya benar-benar mengikuti jalan itu.',
   'help.guide.tour-ferrata-add.step.2':
     'Klik via ferrata di peta, pada garis putus-putusnya atau tandanya. Kartunya menampilkan nama, tingkat kesulitan, dan panjangnya.',
   'help.guide.tour-ferrata-add.tip.4':
@@ -4936,7 +4936,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.result':
     'Tur dayung baru dengan perahu, perairan, dan kecepatannya, siap diberi titik pertama di peta.',
   'help.guide.tour-paddle-water-route.tip.1':
-    'Jika data perairannya belum ada, TREK akan mengunduhnya untuk wilayah itu secara otomatis atau memintanya ke admin, tergantung pengaturan instans. Ruasnya lalu menampilkan Memuat data perairan dan direncanakan otomatis begitu datanya tersedia, biasanya dalam satu sampai tiga menit.',
+    'Jika data perairannya belum ada, Manzil akan mengunduhnya untuk wilayah itu secara otomatis atau memintanya ke admin, tergantung pengaturan instans. Ruasnya lalu menampilkan Memuat data perairan dan direncanakan otomatis begitu datanya tersedia, biasanya dalam satu sampai tiga menit.',
   'help.guide.tour-paddle-portage.step.2':
     'Pilih “Angkut perahu dari sini”. Bagian sampai titik berikutnya menjadi angkut perahu, digambar di darat.',
   'help.guide.tour-paddle-lock.title': 'Menambahkan pintu air dan waktu tunggunya',
@@ -5011,9 +5011,9 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.tip.1':
     'Push berlaku per browser: ulangi langkah ini di setiap ponsel dan komputer yang ingin menerima notifikasi. “Nonaktifkan untuk perangkat ini” hanya menghentikannya di perangkat itu.',
   'help.guide.connect-airtrail.step.2':
-    '“Izinkan sertifikat yang ditandatangani sendiri” hanya untuk instans tepercaya di jaringanmu sendiri. “Tulis perubahan kembali ke AirTrail” mati secara default, jadi TREK hanya membaca; aktifkan untuk mengirim hasil editmu kembali.',
+    '“Izinkan sertifikat yang ditandatangani sendiri” hanya untuk instans tepercaya di jaringanmu sendiri. “Tulis perubahan kembali ke AirTrail” mati secara default, jadi Manzil hanya membaca; aktifkan untuk mengirim hasil editmu kembali.',
   'help.guide.connect-dawarich.step.2':
-    '“Periksa persinggahan baru secara otomatis” membuat TREK memeriksa sendiri. Jika dimatikan, TREK hanya membaca Dawarich saat kamu memintanya. “Izinkan sertifikat yang ditandatangani sendiri” hanya untuk instans yang tidak dipercaya servermu.',
+    '“Periksa persinggahan baru secara otomatis” membuat Manzil memeriksa sendiri. Jika dimatikan, Manzil hanya membaca Dawarich saat kamu memintanya. “Izinkan sertifikat yang ditandatangani sendiri” hanya untuk instans yang tidak dipercaya servermu.',
   'help.guide.tour-connect-wanderer.step.2':
     'Aktifkan “Izinkan sertifikat yang ditandatangani sendiri” hanya untuk instans di jaringanmu sendiri.',
   'help.guide.tour-wanderer-watch.step.1':
@@ -5022,7 +5022,7 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.tip.2':
     '“Mata uang tampilan” hanya mengonversi jumlah untuk tampilan. Jumlah yang dimasukkan di “Biaya” tetap seperti aslinya.',
   'help.guide.own-routing-engine.step.2':
-    'Untuk rute yang menghindari jalan tol, jalan bebas hambatan, atau feri, isi alamat Valhalla-mu di bawah “Instans Valhalla sendiri”. Setiap kolom tersimpan begitu kamu meninggalkannya; lalu mulai ulang server TREK dan muat ulang halaman.',
+    'Untuk rute yang menghindari jalan tol, jalan bebas hambatan, atau feri, isi alamat Valhalla-mu di bawah “Instans Valhalla sendiri”. Setiap kolom tersimpan begitu kamu meninggalkannya; lalu mulai ulang server Manzil dan muat ulang halaman.',
   'help.guide.admin-passkeys.tip.3':
     'Jika pengguna kehilangan perangkat yang menyimpan passkey-nya, hapus passkey itu dengan “Reset passkey” di “Edit Pengguna”.',
   'help.guide.rotate-jwt-secret.result':
@@ -5038,7 +5038,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.step.4':
     'Baca catatan kuningnya: di sana disebutkan siapa saja yang baru pertama kali mendapat akses ke jurnal. Lalu klik “Tautkan jurnal”.',
   'help.guide.dawarich-stays.step.1':
-    'Jika Dawarich terhubung di “Pengaturan”, “Integrasi”, “Dari Dawarich” tampil di atas daftar tempat. Header-nya menunjukkan kapan TREK terakhir memeriksa dan berapa persinggahan yang menunggu. Klik untuk membuka daftarnya.',
+    'Jika Dawarich terhubung di “Pengaturan”, “Integrasi”, “Dari Dawarich” tampil di atas daftar tempat. Header-nya menunjukkan kapan Manzil terakhir memeriksa dan berapa persinggahan yang menunggu. Klik untuk membuka daftarnya.',
   'help.guide.leave-stop-off-route.step.2':
     'Lencana “Di luar rute” muncul di samping nama. Perhentian tetap ada di hari itu dan di peta, tapi rute hari itu dan waktu tempuh ruasnya melewatkannya.',
   'help.guide.move-booking-day.result':
@@ -5048,7 +5048,7 @@ const help: TranslationStrings = {
     'Buka tempat yang punya foto di “File”-nya. Bagian “File” di dekat bawah kartu menunjukkan berapa file yang dimiliki tempat itu.',
   'help.guide.place-own-hours.title': 'Memperbaiki jam buka, telepon, atau email tempat',
   'help.guide.place-own-hours.tip.1':
-    'Jam yang kamu isi menggantikan jam hasil pencarian TREK, jadi kafe dengan jam buka musiman menampilkan jam yang kamu ketahui.',
+    'Jam yang kamu isi menggantikan jam hasil pencarian Manzil, jadi kafe dengan jam buka musiman menampilkan jam yang kamu ketahui.',
   'help.guide.day-panel.tip.3':
     'Lebih suka merencanakan berdasarkan kalender? Aktifkan “Tanggal di depan pada judul hari” di “Pengaturan”, di bawah “Tampilan”, maka header menampilkan tanggal lebih dulu, dengan Hari 1 atau nama hari di bawahnya.',
   'help.guide.confirm-stay-booking.result':
@@ -5068,15 +5068,15 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.tip.2':
     'Kolom-kolomnya dipisahkan titik koma, dan Excel membuka file ini dengan huruf beraksen tetap utuh.',
   'help.guide.arrange-packing-list.tip.2':
-    'TREK mengingat “A ke Z” di browser ini, jadi lain kali daftarnya juga terbuka dalam keadaan terurut. Ini hanya mengubah tampilanmu, tidak pernah mengubah urutan yang dilihat orang lain.',
+    'Manzil mengingat “A ke Z” di browser ini, jadi lain kali daftarnya juga terbuka dalam keadaan terurut. Ini hanya mengubah tampilanmu, tidak pernah mengubah urutan yang dilihat orang lain.',
   'help.guide.count-packed-pieces.step.4':
     'Begitu penghitung mencapai jumlahnya, item otomatis tercentang dan dihitung sudah dikemas.',
   'help.guide.expense-receipts.result':
     'Kuitansi tersimpan bersama pengeluarannya: chip di barisnya untuk membukanya, dan filenya juga ada di “File” perjalanan.',
   'help.guide.files-sync-settings.step.4':
-    'Di bawah “Saat sebuah dokumen dihapus”, pilih apa yang terjadi pada salinan di sisi lain. “Simpan kedua salinan” membiarkan salinan di penyimpanan tetap ada. “Pindahkan ke tempat sampah” memindahkannya ke tempat sampah penyimpanan saat dokumen dihapus di TREK.',
+    'Di bawah “Saat sebuah dokumen dihapus”, pilih apa yang terjadi pada salinan di sisi lain. “Simpan kedua salinan” membiarkan salinan di penyimpanan tetap ada. “Pindahkan ke tempat sampah” memindahkannya ke tempat sampah penyimpanan saat dokumen dihapus di Manzil.',
   'help.ctx.trip-collab.bullet.7':
-    'Semua yang ada di sini memerlukan koneksi. Saat offline, pesan, catatan, tautan, polling, atau suara tidak tersimpan, dan TREK menampilkan Ini memerlukan koneksi. Coba lagi setelah TREK online kembali. Anggota yang tidak boleh mengedit Kolab bisa membaca semuanya, tapi “Catatan Baru”, “Tambah tautan”, dan “Polling Baru” tidak tersedia bagi mereka dan kotak pesannya tampil redup.',
+    'Semua yang ada di sini memerlukan koneksi. Saat offline, pesan, catatan, tautan, polling, atau suara tidak tersimpan, dan Manzil menampilkan Ini memerlukan koneksi. Coba lagi setelah Manzil online kembali. Anggota yang tidak boleh mengedit Kolab bisa membaca semuanya, tapi “Catatan Baru”, “Tambah tautan”, dan “Polling Baru” tidak tersedia bagi mereka dan kotak pesannya tampil redup.',
   'help.guide.manage-notes.step.4':
     '“Edit” membuka dialog catatan dengan semua isinya. Ubah yang perlu, misalnya satu baris tambahan di bawah “Konten”, lalu klik “Simpan”.',
   'help.guide.note-categories.step.2':
@@ -5093,7 +5093,7 @@ const help: TranslationStrings = {
     'Pil Check-in atau Boarding menunjukkan paling lambat kapan perjalanan darat harus mengantarmu ke terminal: keberangkatan diatur lebih awal dari jadwal sebanyak waktu itu.',
   'help.guide.roadtrip-google-import.title': 'Mengimpor rute dari Google Maps',
   'help.guide.roadtrip-google-import.tip.2':
-    'Tautannya harus berisi minimal dua perhentian yang bisa ditempatkan TREK, dan maksimal 30.',
+    'Tautannya harus berisi minimal dua perhentian yang bisa ditempatkan Manzil, dan maksimal 30.',
   'help.guide.roadtrip-hazards.tip.1':
     'Peringatan bukan penutupan jalan: rute tidak pernah berubah karenanya, dan isinya adalah pemberitahuan terkini, bukan prakiraan untuk tanggal perjalananmu.',
   'help.ctx.trip-tours.bullet.4':
@@ -5164,7 +5164,7 @@ const help: TranslationStrings = {
   'help.guide.tour-save.tip.2':
     '“Kembali ke daftar tur” di bagian atas rel menutup editor, dan bertanya dulu jika ada perubahan yang belum disimpan.',
   'help.guide.tour-edit-saved.step.4':
-    'Klik “Kembali ke daftar tur” untuk menutupnya. Jika ada perubahan yang belum disimpan, TREK bertanya “Buang perubahan tur yang belum disimpan?” dulu.',
+    'Klik “Kembali ke daftar tur” untuk menutupnya. Jika ada perubahan yang belum disimpan, Manzil bertanya “Buang perubahan tur yang belum disimpan?” dulu.',
   'help.guide.tour-summary-profile.step.2': 'Titik info di samping perkiraan waktu menjelaskan cara menghitungnya.',
   'help.guide.tour-list-manage.goal':
     'Lihat total tur dalam perjalanan, masukkan tur ke suatu hari, dan saring daftarnya sesuai kebutuhan.',
@@ -5218,7 +5218,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-trail-details.step.3':
     'Lencana-lencananya merangkum semua itu: berapa bagian rute yang “Diketahui”, tingkat “Tertinggi diketahui”, dan, terpisah, “Batas rute” yang dipakai saat merencanakan pendakian.',
   'help.guide.tour-hike-round.goal':
-    'Biarkan TREK menyarankan rute melingkar dengan panjang yang kamu mau, mulai dari salah satu perhentian pendakian.',
+    'Biarkan Manzil menyarankan rute melingkar dengan panjang yang kamu mau, mulai dari salah satu perhentian pendakian.',
   'help.guide.tour-hike-round.tip.2':
     'Jarak dari 1 sampai 60 km bisa dipakai, dan yang ditawarkan adalah putaran yang selisihnya maksimal 20 % dari jarak pilihanmu.',
   'help.guide.tour-hike-compare-ways.result':
@@ -5246,7 +5246,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-check-off.result':
     'Perhentian yang sudah dikunjungi tercentang, yang dilewati dicoret, dan sisa waktu hanya menghitung yang belum dijalani.',
   'help.guide.tour-bike-profile.goal':
-    'Mulai tur sepeda dan biarkan TREK merutekannya untuk touring, sepeda jalan raya, gravel, atau MTB.',
+    'Mulai tur sepeda dan biarkan Manzil merutekannya untuk touring, sepeda jalan raya, gravel, atau MTB.',
   'help.guide.tour-bike-profile.tip.1':
     'Jika profilnya diubah nanti, seluruh rute direncanakan ulang sesuai profil baru.',
   'help.guide.tour-bike-surfaces.step.2':
@@ -5277,7 +5277,7 @@ const help: TranslationStrings = {
     'Di danau, “Melintasi danau” menentukan rutenya: “Lurus” adalah yang terpendek, “Dekat tepi” tetap dekat tepian untuk hari berangin.',
   'help.guide.tour-paddle-water-route.title': 'Merencanakan ruas di air',
   'help.guide.tour-paddle-water-route.tip.2':
-    'Di tempat rute mengangkut perahu memutari bendungan atau melewati pintu air, TREK menempatkan titiknya sendiri di sana, ditandai “Ditemukan”. Jika kamu memindahkan atau mengubahnya, titik itu menjadi titikmu sendiri.',
+    'Di tempat rute mengangkut perahu memutari bendungan atau melewati pintu air, Manzil menempatkan titiknya sendiri di sana, ditandai “Ditemukan”. Jika kamu memindahkan atau mengubahnya, titik itu menjadi titikmu sendiri.',
   'help.guide.tour-paddle-portage.step.3':
     'Kartu “Angkut perahu” muncul di bawah titik itu dengan panjang dan menit tambahannya. Klik untuk membukanya.',
   'help.guide.tour-paddle-lock.goal':
@@ -5285,7 +5285,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-lock.result':
     'Pintu air sudah ada di tur dengan menitnya, dan “Perkiraan waktu” ikut menjumlahkannya.',
   'help.guide.tour-paddle-time.tip.1':
-    'TREK memulai dengan 4 km/jam di air, 2 km/jam saat mengangkut, dan 10 menit di setiap angkut perahu. Ini nilai awal untuk disesuaikan, bukan hasil pengukuran.',
+    'Manzil memulai dengan 4 km/jam di air, 2 km/jam saat mengangkut, dan 10 menit di setiap angkut perahu. Ini nilai awal untuk disesuaikan, bukan hasil pengukuran.',
   'help.guide.tour-paddle-wind.step.3':
     'Bar menunjukkan jam-jam dalam sehari, dengan embusan di belakang angin rata-rata. Arahkan kursor ke bar untuk melihat angka dan arah angin pada jam itu.',
   'help.guide.tour-paddle-checklist.goal':
@@ -5345,7 +5345,7 @@ const help: TranslationStrings = {
     '“Aktivitas plugin” di bagian bawah mencantumkan setiap tindakan yang dilakukan plugin atas namamu, mulai dari yang terbaru, dengan tombol “Segarkan”.',
   'help.guide.language-region.tip.3':
     '“Awal minggu” menentukan kolom pertama di setiap pemilih tanggal; Vacay punya pengaturannya sendiri.',
-  'help.guide.web-push-device.tip.2': 'Di iPhone dan iPad, tambahkan TREK ke Layar Utama dulu, lalu buka dari sana.',
+  'help.guide.web-push-device.tip.2': 'Di iPhone dan iPad, tambahkan Manzil ke Layar Utama dulu, lalu buka dari sana.',
   'help.guide.connect-airtrail.step.3':
     'Klik “Simpan”, lalu “Uji koneksi”. Hasilnya menunjukkan berapa penerbangan yang ditemukan, dan lencananya berubah menjadi “Terhubung”.',
   'help.guide.connect-dawarich.step.3':
@@ -5353,7 +5353,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.3':
     'Klik “Simpan”, lalu “Uji koneksi”. Hasilnya menunjukkan berapa jalurmu yang bisa diimpor, dan lencananya berubah menjadi “Terhubung”.',
   'help.guide.tour-wanderer-watch.step.2':
-    'Maksimal sekali sehari, TREK membaca ringkasan setiap jalur yang kamu impor, dan barisnya menunjukkan kapan terakhir diperiksa. Jika ada jalur yang mungkin berubah, kamu mendapat notifikasi dan “Petunjuk” ikut menghitungnya: klik “Petunjuk” untuk melihat setiap tur dengan status “Mungkin berubah”, “Berubah”, atau “Tidak dapat diperiksa”, lalu buka dari sana.',
+    'Maksimal sekali sehari, Manzil membaca ringkasan setiap jalur yang kamu impor, dan barisnya menunjukkan kapan terakhir diperiksa. Jika ada jalur yang mungkin berubah, kamu mendapat notifikasi dan “Petunjuk” ikut menghitungnya: klik “Petunjuk” untuk melihat setiap tur dengan status “Mungkin berubah”, “Berubah”, atau “Tidak dapat diperiksa”, lalu buka dari sana.',
   'help.guide.plugin-settings.goal':
     'Isi kunci dan preferensimu sendiri untuk plugin, dan lihat apa saja yang dilakukannya atas namamu.',
   'help.guide.own-routing-engine.result': 'Rute di semua perjalanan dihitung di servermu.',
@@ -5362,7 +5362,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.title': 'Mengatur default notifikasi untuk pengguna',
   'help.ctx.notifications.title': 'Notifikasi',
   'help.guide.read-notifications.goal':
-    'Lihat apa yang terjadi di perjalananmu selama kamu tidak membuka TREK, lalu langsung buka.',
+    'Lihat apa yang terjadi di perjalananmu selama kamu tidak membuka Manzil, lalu langsung buka.',
   'help.guide.filter-notifications.goal': 'Lihat semua notifikasimu, atau yang belum kamu baca saja.',
   'help.guide.mark-notifications-read.step.1':
     'Klik “Tandai sudah dibaca”, ikon centang ganda di samping waktu notifikasi, untuk menandai notifikasi itu saja.',
@@ -5373,7 +5373,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.result':
     'Tab “Jurnal” muncul di bar tab perjalanan. Semua orang yang kamu beri akses “Baca” atau “Edit” bisa membuka jurnal di tab itu, dengan pembaruan langsung.',
   'help.guide.create-place.tip.4':
-    'Tautan yang disalin dari Google Maps juga bisa dipakai di pencarian: tempel, tekan Enter, dan TREK membaca tempatnya dari tautan itu. Setelah formulir punya posisi, “Tempat di dekat pin ini”, ikon bidik di samping pencarian, mencantumkan apa saja yang ada di sekitarnya.',
+    'Tautan yang disalin dari Google Maps juga bisa dipakai di pencarian: tempel, tekan Enter, dan Manzil membaca tempatnya dari tautan itu. Setelah formulir punya posisi, “Tempat di dekat pin ini”, ikon bidik di samping pencarian, mencantumkan apa saja yang ada di sekitarnya.',
   'help.guide.dawarich-stays.step.2':
     'Persinggahan dikelompokkan per hari, masing-masing dengan jam tiba dan jam pergi; ikon pengukur menandai persinggahan yang tidak diyakini Dawarich. Klik “Tambahkan sebagai tempat”, ikon pin di samping persinggahan.',
   'help.guide.leave-stop-off-route.step.3':
@@ -5397,7 +5397,7 @@ const help: TranslationStrings = {
   'help.guide.transport-details.step.4':
     'Klik judulnya untuk mengganti nama perjalanan tanpa membuka formulir. “Ganti nama” terbuka dengan nama yang sudah terisi: ketik nama baru, lalu klik “Simpan”.',
   'help.guide.export-transports-csv.goal':
-    'Ekspor semua perjalanan dalam trip dari TREK sebagai file CSV, untuk spreadsheet, agen perjalanan, atau dicetak.',
+    'Ekspor semua perjalanan dalam trip dari Manzil sebagai file CSV, untuk spreadsheet, agen perjalanan, atau dicetak.',
   'help.guide.group-sort-bookings.result':
     'Pemesanan tampil dalam bagian dan urutan yang kamu pilih, dan browser ini mengingat pilihan itu untuk kunjungan berikutnya.',
   'help.guide.booking-on-map.step.1':
@@ -5412,7 +5412,7 @@ const help: TranslationStrings = {
   'help.guide.expense-receipts.tip.1':
     'Di editor, klik nama file yang tercantum untuk membuka pratinjau yang sama. Esc lalu hanya menutup pratinjaunya, bukan pengeluarannya.',
   'help.guide.files-sync-settings.step.5':
-    '“Saat kedua sisi berubah” menentukan salinan mana yang dipertahankan jika dokumen diedit di kedua tempat: “Tanya saya”, “Simpan salinan TREK”, atau “Simpan salinan penyimpanan”. “Sinkronkan otomatis” membuat TREK memeriksa perubahan di latar belakang; jika dimatikan, kartu bertuliskan “Dijeda” dan sinkronisasi hanya berjalan lewat “Sinkronkan sekarang”. Setiap perubahan di sini langsung tersimpan.',
+    '“Saat kedua sisi berubah” menentukan salinan mana yang dipertahankan jika dokumen diedit di kedua tempat: “Tanya saya”, “Simpan salinan Manzil”, atau “Simpan salinan penyimpanan”. “Sinkronkan otomatis” membuat Manzil memeriksa perubahan di latar belakang; jika dimatikan, kartu bertuliskan “Dijeda” dan sinkronisasi hanya berjalan lewat “Sinkronkan sekarang”. Setiap perubahan di sini langsung tersimpan.',
   'help.guide.manage-notes.step.5':
     '“Hapus” bertanya dulu, “Hapus catatan?”, karena catatan akan terhapus bagi semua anggota beserta file-nya. Klik “Hapus” untuk mengonfirmasi.',
   'help.guide.note-categories.step.3':
@@ -5443,7 +5443,7 @@ const help: TranslationStrings = {
   'help.guide.tour-remove-from-day.step.3':
     'Atau klik header hari untuk membukanya, klik tur di daftar, lalu klik “Hapus dari Hari” di bagian bawah kartunya.',
   'help.guide.tour-filter-list.step.3':
-    'Jika daftarnya campuran, “Sumber” (TREK, “Impor GPX”, wanderer), “Batas rute” (T1 sampai T6), dan “Jenis” (“Pendakian”, “Tur sepeda”, dan seterusnya) bisa menyaringnya lebih jauh. Klik lagi nilai yang dicentang untuk menghapusnya.',
+    'Jika daftarnya campuran, “Sumber” (Manzil, “Impor GPX”, wanderer), “Batas rute” (T1 sampai T6), dan “Jenis” (“Pendakian”, “Tur sepeda”, dan seterusnya) bisa menyaringnya lebih jauh. Klik lagi nilai yang dicentang untuk menghapusnya.',
   'help.guide.tour-hide-on-map.step.1':
     'Arahkan kursor ke tur di daftar, lalu klik ikon mata yang muncul di kanan barisnya (“Sembunyikan di peta”).',
   'help.guide.tour-import-plan-tab.step.1': 'Di tab “Rencana”, klik “Tur” di sakelar bagian atas kolom kanan.',
@@ -5462,7 +5462,7 @@ const help: TranslationStrings = {
   'help.guide.tour-copy-keep.tip.4':
     '“Koleksi” hanya tersedia selama addon Koleksi aktif. Daftar yang hanya boleh kamu baca tidak bisa dipilih, dan jika belum ada daftar, dialog menawarkan “Buka koleksi”.',
   'help.guide.tour-packing-link.step.5':
-    'Klik “Buka daftar bawaan” untuk mencentang barang. TREK beralih ke tab “Daftar”, di daftar bawaan.',
+    'Klik “Buka daftar bawaan” untuk mencentang barang. Manzil beralih ke tab “Daftar”, di daftar bawaan.',
   'help.guide.tour-files.step.2': 'Baris di bawahnya sekarang menunjukkan jumlah file, dan daftarnya terbuka.',
   'help.guide.tour-activity-link.step.2':
     'Di bawah “Dilakukan pada”, periksa hari kamu menjalaninya. Pilih “Tanpa hari” jika tidak termasuk hari mana pun.',
@@ -5476,7 +5476,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.step.5':
     '“Cari tempat atau alamat” di bagian atas peta memindahkan peta ke suatu tempat, jadi kamu bisa mulai di lokasi tur itu.',
   'help.guide.tour-draw-route.goal':
-    'Tempatkan titik-titik tur baru di peta dan biarkan TREK menghitung rute di antaranya.',
+    'Tempatkan titik-titik tur baru di peta dan biarkan Manzil menghitung rute di antaranya.',
   'help.guide.tour-draw-route.tip.2':
     'Topo atau “Pendakian” di pil peta menampilkan jalan setapak, jadi lebih mudah mengklik salah satunya. Titik yang terlalu jauh dari jalan yang bisa dipakai jenis tur itu akan mendapat pemberitahuan, bukan rute.',
   'help.guide.tour-type-profile.step.3':
@@ -5551,7 +5551,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-plan.step.1':
     'Klik “Rencanakan tur baru” di bagian atas kolom kiri. Editor terbuka sebagai “Tur baru”.',
   'help.guide.tour-hike-plan.tip.2':
-    'Untuk T4 ke atas, TREK bertanya dulu “Aktifkan perhitungan rute alpin?”. Konfirmasi hanya jika rute boleh melewati medan yang terbuka atau tanpa penanda; pertanyaan ini muncul sekali setiap sesi pengeditan.',
+    'Untuk T4 ke atas, Manzil bertanya dulu “Aktifkan perhitungan rute alpin?”. Konfirmasi hanya jika rute boleh melewati medan yang terbuka atau tanpa penanda; pertanyaan ini muncul sekali setiap sesi pengeditan.',
   'help.guide.tour-hike-trail-details.step.4':
     'Klik salah satu tingkat di daftar agar hanya bagian itu yang tampil di peta. Klik lagi untuk menampilkan seluruh rute.',
   'help.guide.tour-hike-round.step.1':
@@ -5611,11 +5611,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.6':
     '“Kecepatan mendayung” menampilkan saran sesuai perahu dalam warna abu-abu. Ketik kecepatanmu sendiri, dan kolomnya bertuliskan “Kecepatan sendiri”; tautan di bawahnya, Pakai yang disarankan, mengembalikan kecepatan sesuai perahu.',
   'help.guide.tour-paddle-water-route.goal':
-    'Biarkan TREK merencanakan ruas menyusuri sungai atau danau, dan pahami keterangan pada ruas yang tidak bisa direncanakannya.',
+    'Biarkan Manzil merencanakan ruas menyusuri sungai atau danau, dan pahami keterangan pada ruas yang tidak bisa direncanakannya.',
   'help.guide.tour-paddle-water-route.tip.3':
     'Keterangan di bawah ruas yang direncanakan menandai arus deras (whitewater) beserta tingkatnya, “Jalur perahu”, atau “Celah di data peta” yang dijembatani dengan garis lurus.',
   'help.guide.tour-paddle-portage.step.4':
-    'Di bawah “Rute”, “Ikuti jalan setapak” memakai jalan yang ada di peta, dan “Garis lurus” langsung memotong. TREK mencari jalan setapaknya sendiri dan memberi tahu jika tidak ada jalan tanpa memutar jauh.',
+    'Di bawah “Rute”, “Ikuti jalan setapak” memakai jalan yang ada di peta, dan “Garis lurus” langsung memotong. Manzil mencari jalan setapaknya sendiri dan memberi tahu jika tidak ada jalan tanpa memutar jauh.',
   'help.guide.tour-paddle-lock.step.1':
     'Arahkan kursor ke perhentian di pintu air, lalu klik “Tindakan lainnya”, ikon tiga titik.',
   'help.guide.tour-paddle-time.title': 'Membaca dan menyesuaikan durasi tur dayung',
@@ -5625,7 +5625,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-checklist.step.1':
     'Simpan tur dayung, lalu cari “Daftar periksa” di kolom kiri. Lencana di header-nya merangkum status daftar itu.',
   'help.guide.tour-paddle-checklist.tip.4':
-    'Data rintangan berasal dari OpenStreetMap untuk wilayah yang dimiliki TREK. Jika datanya tidak ada, kartu memberi tahu hal itu, dan kamu perlu memeriksa sendiri bendungan, pintu air, dan angkut perahunya.',
+    'Data rintangan berasal dari OpenStreetMap untuk wilayah yang dimiliki Manzil. Jika datanya tidak ada, kartu memberi tahu hal itu, dan kamu perlu memeriksa sendiri bendungan, pintu air, dan angkut perahunya.',
   'help.guide.tour-paddle-track-marks.step.4':
     'Klik jejaknya di “Tur dalam perjalanan ini”. Kolom kiri menampilkannya persis seperti rekamannya, dengan kartu “Angkut perahu dan pintu air”.',
   'help.ctx.trip-tour-horse.title': 'Tur berkuda',
@@ -5679,7 +5679,7 @@ const help: TranslationStrings = {
     'Selama perjalanan yang ditautkan berlangsung, persinggahan setiap hari dicantumkan di hari itu, siap untuk “Ambil hari”.',
   'help.ctx.settings-about.title': 'Tentang',
   'help.guide.web-push-device.tip.3':
-    'Push hanya berfungsi jika TREK dibuka lewat HTTPS. Jika notifikasi diblokir, izinkan di pengaturan browser, lalu coba lagi.',
+    'Push hanya berfungsi jika Manzil dibuka lewat HTTPS. Jika notifikasi diblokir, izinkan di pengaturan browser, lalu coba lagi.',
   'help.guide.connect-airtrail.result':
     'Lencananya menampilkan “Terhubung”, dan tab “Transportasi” di perjalanan menawarkan “Impor dari AirTrail”.',
   'help.guide.connect-dawarich.result':
@@ -5687,7 +5687,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.result':
     'Lencananya menampilkan “Terhubung”, dan tab “Tur” di perjalanan bisa mencari di wanderer-mu dan mengimpor jalurnya.',
   'help.guide.tour-wanderer-watch.result':
-    'TREK memeriksa jalur yang kamu impor dan memberi tahu jika ada yang mungkin berubah. Tur hanya berubah jika kamu menerima perubahannya.',
+    'Manzil memeriksa jalur yang kamu impor dan memberi tahu jika ada yang mungkin berubah. Tur hanya berubah jika kamu menerima perubahannya.',
   'help.guide.plugin-settings.step.1':
     'Buka Plugin di sidebar pengaturan. Di bawah “Pengaturan plugin”, setiap plugin yang memerlukan isian darimu punya kartu dengan kolom-kolomnya: isi, lalu klik “Simpan”. “Tindakan” di kartu dijalankan setelah kamu konfirmasi.',
   'help.guide.profile.step.3': 'Klik “Simpan Profil” di kanan bawah kartu.',
@@ -5700,7 +5700,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.goal':
     'Tentukan pengaturan awal notifikasi untuk setiap pengguna, dan blokir saluran untuk suatu peristiwa sepenuhnya.',
   'help.ctx.notifications.summary':
-    'Semua notifikasi yang ditampilkan TREK di dalam aplikasi, mulai dari yang terbaru: pemesanan yang diubah seseorang, pesan baru di obrolan perjalanan, kalender yang dibagikan kepadamu. Ikon lonceng di kanan atas menampilkan sepuluh yang terbaru, halaman ini menampilkan semuanya.',
+    'Semua notifikasi yang ditampilkan Manzil di dalam aplikasi, mulai dari yang terbaru: pemesanan yang diubah seseorang, pesan baru di obrolan perjalanan, kalender yang dibagikan kepadamu. Ikon lonceng di kanan atas menampilkan sepuluh yang terbaru, halaman ini menampilkan semuanya.',
   'help.guide.read-notifications.step.1':
     'Klik ikon lonceng di kanan atas. Angka merah di atasnya menunjukkan jumlah notifikasi yang belum kamu baca.',
   'help.guide.filter-notifications.step.1': 'Klik ikon lonceng di kanan atas.',
@@ -5809,7 +5809,7 @@ const help: TranslationStrings = {
   'help.guide.tour-take-along.step.3':
     'Klik GPX untuk mengunduh tur yang tersimpan sebagai file GPX: seluruh rutenya beserta data ketinggiannya, siap dipakai di aplikasi navigasi atau perangkat GPS.',
   'help.guide.tour-copy-keep.step.1':
-    'Buka kartu tur dan klik “Salin” di bagian bawah. TREK membuat tur baru yang berdiri sendiri tanpa harinya, dan tur aslinya tetap seperti semula.',
+    'Buka kartu tur dan klik “Salin” di bagian bawah. Manzil membuat tur baru yang berdiri sendiri tanpa harinya, dan tur aslinya tetap seperti semula.',
   'help.guide.tour-copy-keep.result':
     'Perjalanan punya tur kedua yang bisa diubah sesukamu, dan koleksi menyimpan salinannya sendiri, siap ditambahkan ke perjalanan lain.',
   'help.guide.tour-packing-link.tip.1':
@@ -5919,7 +5919,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.3':
     'Jam buka berasal dari OpenStreetMap atau dari tempat perjalanan yang terkait dengan perhentian, dan pil di sampingnya menunjukkan sumbernya. Periksa dulu sebelum berangkat.',
   'help.guide.tour-walk-google-import.step.4':
-    'Klik “Muat sebagai rute jalan kaki”. TREK sendiri yang merencanakan jalan kaki di antara perhentian. Klik “Simpan” untuk menyimpan jalan-jalan.',
+    'Klik “Muat sebagai rute jalan kaki”. Manzil sendiri yang merencanakan jalan kaki di antara perhentian. Klik “Simpan” untuk menyimpan jalan-jalan.',
   'help.guide.tour-walk-check-off.step.2':
     'Gulir ke “Titik singgah rute”. Setiap perhentian menunjukkan lama singgahnya dan, jika jalan-jalan punya jam mulai, kapan kamu tiba.',
   'help.ctx.trip-tour-bike.summary':
@@ -5935,7 +5935,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-plan.goal':
     'Rencanakan sehari di lintasan ski, putaran ski lintas alam, tur ski, atau jalan-jalan dengan sepatu salju di sepanjang lintasan, lift, dan jalur yang terpetakan.',
   'help.guide.tour-ski-plan.tip.2':
-    'Titik info di samping “Disiplin” menjelaskan apa yang dilakukan TREK dengan tur ski. Tidak ada informasi di sana, atau di mana pun di sini, tentang salju, longsor salju, atau apakah lintasan, lift, dan jalur sedang buka.',
+    'Titik info di samping “Disiplin” menjelaskan apa yang dilakukan Manzil dengan tur ski. Tidak ada informasi di sana, atau di mana pun di sini, tentang salju, longsor salju, atau apakah lintasan, lift, dan jalur sedang buka.',
   'help.guide.tour-ski-options.step.3':
     'Di bawah “Utamakan”, pilih “Tercepat”, “Paling banyak ski”, atau “Termudah”. Di bawah “Kecepatan”, pilih “Santai”, Normal, atau “Sportif”: pilihan ini mengubah waktu yang diberikan router untuk setiap lintasan.',
   'help.guide.tour-ski-fix-leg.goal': 'Rencanakan ruas merah dengan sekali klik, atau gambar lurus.',
@@ -5952,11 +5952,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.7':
     'Pastikan “Tambah titik” aktif, lalu klik peta: titik awal mendayung dulu, lalu titik-titik di sepanjang jalan, dan titik akhirnya.',
   'help.guide.tour-paddle-water-route.step.1':
-    'Ruas yang digambar dengan tangan menampilkan “Digambar tangan, tidak dirutekan” di bawah titiknya, beserta panjangnya. TREK mempertahankan garisnya persis seperti yang kamu gambar.',
+    'Ruas yang digambar dengan tangan menampilkan “Digambar tangan, tidak dirutekan” di bawah titiknya, beserta panjangnya. Manzil mempertahankan garisnya persis seperti yang kamu gambar.',
   'help.guide.tour-paddle-water-route.tip.4':
     'Tur tidak bisa disimpan selama ada ruas yang belum direncanakan. Rencanakan ruas itu di air atau gambar dengan tangan dulu.',
   'help.guide.tour-paddle-portage.step.5':
-    'Di bawah “Keluar dan masuk”, ketik berapa menit yang kamu perlukan untuk turun, membongkar muatan, dan masuk lagi ke air. Jika dibiarkan kosong, TREK memakai 10 menit.',
+    'Di bawah “Keluar dan masuk”, ketik berapa menit yang kamu perlukan untuk turun, membongkar muatan, dan masuk lagi ke air. Jika dibiarkan kosong, Manzil memakai 10 menit.',
   'help.guide.tour-paddle-lock.step.2':
     'Pilih “Pintu air di titik ini”. Kartu pintu air muncul di bawah titik itu dengan tanda “Waktu belum diisi”.',
   'help.guide.tour-paddle-time.goal':
@@ -5966,7 +5966,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-wind.tip.1':
     'Prakiraan hanya tersedia untuk 16 hari ke depan. Untuk hari yang lebih jauh, tertulis mulai tanggal berapa prakiraannya tersedia. Untuk hari yang sudah lewat, tertulis bahwa hari itu sudah berlalu.',
   'help.guide.tour-paddle-checklist.step.2':
-    'Keterangan di bawahnya menunjukkan seberapa baru datanya: “OSM per” untuk data OpenStreetMap, “Diambil” untuk kapan TREK membacanya, dan “Data rintangan” jika datanya tidak mencakup seluruh rute.',
+    'Keterangan di bawahnya menunjukkan seberapa baru datanya: “OSM per” untuk data OpenStreetMap, “Diambil” untuk kapan Manzil membacanya, dan “Data rintangan” jika datanya tidak mencakup seluruh rute.',
   'help.guide.tour-paddle-checklist.tip.5':
     'Daftar periksa bukan izin keselamatan atau izin hukum. Keputusanmu tidak menghapus larangan atau lahan pribadi yang tercatat di OpenStreetMap.',
   'help.guide.tour-paddle-track-marks.step.5':
@@ -6007,7 +6007,7 @@ const help: TranslationStrings = {
     'Tur yang disimpan: tur yang kamu simpan dari perjalanan menjadi baris-baris pertama daftar, dengan tingkat kesulitan, jenis, perjalanan asal, dan ukurannya. “Tambahkan ke perjalanan” membuat tur baru dari tur itu, dan ikon tempat sampah menghapusnya dari daftar.',
   'help.guide.move-to-list.title': 'Memindahkan atau menduplikat tempat ke daftar lain',
   'help.guide.copy-to-trip.tip.2':
-    'Tempat yang sudah ada di perjalanan dilewati, dan TREK menunjukkan berapa yang dilewati.',
+    'Tempat yang sudah ada di perjalanan dilewati, dan Manzil menunjukkan berapa yang dilewati.',
   'help.guide.accept-list-invite.tip.2':
     'Klik “Dibagikan” di bagian atas daftar untuk melihat anggotanya. Klik “Tinggalkan daftar” di sana untuk keluar dari daftar itu.',
   'help.guide.tour-collection-add-to-trip.goal':
@@ -6025,15 +6025,15 @@ const help: TranslationStrings = {
   'help.guide.journey-day-stays.goal': 'Ubah persinggahan yang direkam Dawarich menjadi entri, satu per satu.',
   'help.guide.journey-take-over-day.goal':
     'Ubah persinggahan satu hari menjadi entri draf, atau satu laporan harian, sekaligus.',
-  'help.guide.journey-auto-prepare.title': 'Membiarkan TREK menyiapkan hari yang terekam',
+  'help.guide.journey-auto-prepare.title': 'Membiarkan Manzil menyiapkan hari yang terekam',
   'help.guide.photo-location.title': 'Menempatkan entri di lokasi fotonya diambil',
   'help.ctx.settings-about.summary':
-    'Apa itu TREK, versi yang dijalankan server ini, dan tempat menemukan proyeknya: dokumentasi, tempat melaporkan bug, dan cara mendukung proyek ini.',
+    'Apa itu Manzil, versi yang dijalankan server ini, dan tempat menemukan proyeknya: dokumentasi, tempat melaporkan bug, dan cara mendukung proyek ini.',
   'help.guide.startup.tip.2': 'Jika tab awal milik addon yang sudah kamu matikan, yang terbuka adalah rencana.',
   'help.guide.web-push-device.title': 'Menerima notifikasi push di perangkat ini',
   'help.guide.connect-airtrail.tip.1': 'Kartu ini hanya muncul selama admin mengaktifkan addon AirTrail.',
   'help.guide.connect-dawarich.tip.1':
-    'TREK hanya menyarankan entri, tempat, dan negara; tidak ada yang ditambahkan sampai kamu konfirmasi, dan tidak ada yang ditulis kembali ke Dawarich.',
+    'Manzil hanya menyarankan entri, tempat, dan negara; tidak ada yang ditambahkan sampai kamu konfirmasi, dan tidak ada yang ditulis kembali ke Dawarich.',
   'help.guide.tour-connect-wanderer.tip.1': 'Kartu ini hanya muncul selama admin mengizinkan wanderer di bawah “Tur”.',
   'help.guide.tour-wanderer-watch.tip.1':
     'Petunjuk tidak pernah mengubah tur; pemeriksaan sumber tur menunjukkan apa yang sebenarnya berubah.',
@@ -6046,7 +6046,7 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.goal':
     'Beri setiap akun satuan, mode warna, dan mata uang yang masuk akal tanpa ada yang perlu membuka “Pengaturan”.',
   'help.guide.default-map.step.3':
-    'Setiap kolom tersimpan begitu kamu meninggalkannya. Tautan “atur ulang” di samping nama kolom mengembalikan nilai default TREK.',
+    'Setiap kolom tersimpan begitu kamu meninggalkannya. Tautan “atur ulang” di samping nama kolom mengembalikan nilai default Manzil.',
   'help.guide.own-routing-engine.tip.2':
     'Jika hanya mesin rute milikmu yang diatur, Valhalla publik juga tidak dipakai. Tautan “atur ulang” di samping kolom mengosongkannya lagi.',
   'help.guide.admin-passkeys.step.1':
@@ -6054,7 +6054,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.4':
     '“Kesehatan” di bagian atas mencantumkan penulisan yang gagal ke target cermin. Jika tertulis “Tidak ada kegagalan replika yang tercatat.”, semuanya berjalan baik.',
   'help.guide.channels-instance.tip.3':
-    'Web Push memerlukan HTTPS. Di iPhone dan iPad, pengguna perlu menambahkan TREK ke Layar Utama dulu.',
+    'Web Push memerlukan HTTPS. Di iPhone dan iPad, pengguna perlu menambahkan Manzil ke Layar Utama dulu.',
   'help.guide.notification-defaults.step.1':
     'Di tab “Notifikasi”, gulir ke “Bawaan untuk pengguna” di bagian bawah. Setiap baris adalah peristiwa, setiap kolom adalah saluran.',
   'help.ctx.notifications.bullet.1':
@@ -6104,7 +6104,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.1':
     'Untuk mengekspor sebagian isi tab saja, saring dulu dengan “Cari” atau Filter. File berisi persis apa yang ditampilkan tab.',
   'help.guide.import-booking-file.tip.4':
-    'Membaca konfirmasi memerlukan koneksi. Saat offline, “Impor” memberi tahu hal itu, dan kamu bisa mencoba lagi setelah TREK online kembali.',
+    'Membaca konfirmasi memerlukan koneksi. Saat offline, “Impor” memberi tahu hal itu, dan kamu bisa mencoba lagi setelah Manzil online kembali.',
   'help.guide.arrange-packing-list.step.1':
     'Seret pegangan di ujung kiri header daftar, sebelum titik warnanya, lalu jatuhkan daftar ke kartu lain. Garis tepi berwarna aksenmu menandai kartu tujuan, dan daftar itu menempati posisi kartu tersebut bagi semua orang dalam perjalanan.',
   'help.guide.count-packed-pieces.title': 'Mengemas beberapa barang yang sama',
@@ -6177,11 +6177,11 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.1':
     'Buka kartu tur. “Rencana dan aktual” menampilkan “Jarak”, “Total kenaikan elevasi”, “Total penurunan elevasi”, dan “Waktu dengan istirahat” dari rencana di samping data jejaknya, beserta “Selisih”.',
   'help.guide.tour-origin-check.goal':
-    'Cari tahu apakah tur digambar di TREK atau diimpor, dari file mana, dan apakah sudah berubah sejak itu.',
+    'Cari tahu apakah tur digambar di Manzil atau diimpor, dari file mana, dan apakah sudah berubah sejak itu.',
   'help.ctx.trip-tour-planner.title': 'Tur',
   'help.guide.tour-open-workspace.title': 'Mengenal tab Tur',
   'help.guide.tour-open-workspace.step.7':
-    'Klik tur di rel kanan. Tur yang direncanakan di TREK terbuka di editor. Jejak hasil impor terbuka apa adanya, sebagai “Tur GPX”, untuk dilihat.',
+    'Klik tur di rel kanan. Tur yang direncanakan di Manzil terbuka di editor. Jejak hasil impor terbuka apa adanya, sebagai “Tur GPX”, untuk dilihat.',
   'help.guide.tour-draw-route.step.2':
     'Ketik titik awal tur di “Cari tempat atau alamat”, lalu pilih hasilnya. Peta berpindah ke sana.',
   'help.guide.tour-draw-route.tip.4':
@@ -6217,7 +6217,7 @@ const help: TranslationStrings = {
     'Jejak yang sudah ada di perjalanan tampil abu-abu dengan tanda “Sudah ada di perjalanan” dan dilewati.',
   'help.guide.tour-view-import.step.3': '“Kembali ke daftar tur”, panah di kiri atas, untuk menutupnya lagi.',
   'help.guide.tour-plan-from-import.step.2':
-    'TREK mengambil titik-titik kendali dari jejak dan merutekannya ulang. Peta menggambar hasil impor dengan garis titik-titik dan saran rutenya dengan garis utuh, dan kartu membandingkan panjangnya, porsi rute dalam 50 m dari jejak, dan “Penyimpangan terbesar”.',
+    'Manzil mengambil titik-titik kendali dari jejak dan merutekannya ulang. Peta menggambar hasil impor dengan garis titik-titik dan saran rutenya dengan garis utuh, dan kartu membandingkan panjangnya, porsi rute dalam 50 m dari jejak, dan “Penyimpangan terbesar”.',
   'help.guide.tour-restore-recorded.title': 'Kembali ke jejak rekaman',
   'help.guide.tour-take-over.title': 'Mengambil tur dari perjalanan lain',
   'help.guide.tour-take-over.tip.1':
@@ -6308,7 +6308,7 @@ const help: TranslationStrings = {
     'Jika lintasan ski berhenti dimuat, sakelarnya menampilkan tanda peringatan. Peta dan rutemu tetap berfungsi.',
   'help.guide.tour-ski-import.step.4': 'Klik Impor 1 tur.',
   'help.ctx.trip-tour-paddle.summary':
-    'Tur kayak, kano, atau SUP di sungai atau danau. Tur ini mencatat jenis perahu dan perairannya, mengikuti alur air di tempat TREK punya datanya, memasukkan angkut perahu dan pintu air ke dalam durasinya, serta menampilkan kondisi angin di hari kamu mendayung dan informasi tentang rintangan di sepanjang rute.',
+    'Tur kayak, kano, atau SUP di sungai atau danau. Tur ini mencatat jenis perahu dan perairannya, mengikuti alur air di tempat Manzil punya datanya, memasukkan angkut perahu dan pintu air ke dalam durasinya, serta menampilkan kondisi angin di hari kamu mendayung dan informasi tentang rintangan di sepanjang rute.',
   'help.guide.tour-paddle-setup.goal':
     'Mulai tur kayak, kano, atau SUP, lalu tentukan perahunya, perairannya, dan kecepatannya.',
   'help.guide.tour-paddle-setup.tip.1':
@@ -6316,7 +6316,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.step.2':
     'Agar satu ruas direncanakan di air, arahkan kursor ke perhentian sebelumnya dan klik “Tindakan lainnya”, ikon tiga titik.',
   'help.guide.tour-paddle-water-route.result':
-    'Setiap ruas mengikuti alur air atau sengaja digambar dengan tangan, dan ruas yang tidak bisa direncanakan TREK menjelaskan alasannya.',
+    'Setiap ruas mengikuti alur air atau sengaja digambar dengan tangan, dan ruas yang tidak bisa direncanakan Manzil menjelaskan alasannya.',
   'help.guide.tour-paddle-portage.tip.1':
     'Untuk tetap mendayung di bagian itu, buka lagi “Tindakan lainnya” pada titiknya dan pilih “Dayung lagi ruas ini”. Bagian itu kembali menjadi ruas yang digambar dengan tangan.',
   'help.guide.tour-paddle-lock.step.3': 'Klik kartu pintu air untuk membukanya.',
@@ -6335,7 +6335,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.2':
     'Klik kolom “Jenis tur” di bawah “Nama tur” dan pilih “Tur berkuda”. Kartu “Rute berkuda” muncul di bawah “Titik jalan”.',
   'help.guide.tour-horse-plan.tip.2':
-    'TREK tidak menghitung waktu berkuda. Isi waktu di bawah “Direncanakan” di “Detail” jika kamu ingin waktunya tampil di hari itu.',
+    'Manzil tidak menghitung waktu berkuda. Isi waktu di bawah “Direncanakan” di “Detail” jika kamu ingin waktunya tampil di hari itu.',
   'help.guide.tour-horse-gap.step.3': 'Klik “Ambil bagian”. Selama sakelarnya belum aktif, tombol ini tetap abu-abu.',
   'help.guide.tour-horse-recorded.step.1':
     'Di “Tur dalam perjalanan ini”, klik “Tambah tur” (tanda +), pilih “Impor GPX atau KML”, lalu pilih file tur berkudamu.',
@@ -6351,7 +6351,7 @@ const help: TranslationStrings = {
   'help.guide.log-for-partner.title': 'Mencatat hari untuk rekan perencanaanmu',
   'help.guide.dissolve-fusion.title': 'Berhenti merencanakan bersama',
   'help.guide.country-places.goal':
-    'Lihat daftar tempat yang dihitung TREK untuk suatu negara, untuk memeriksa apa saja yang kamu lakukan di sana atau menemukan tempat yang dimasukkan TREK ke negara yang salah.',
+    'Lihat daftar tempat yang dihitung Manzil untuk suatu negara, untuk memeriksa apa saja yang kamu lakukan di sana atau menemukan tempat yang dimasukkan Manzil ke negara yang salah.',
   'help.guide.regions.tip.3':
     '“Tambah ke bucket list” juga bisa dipakai untuk wilayah. Wilayah itu tampil dengan arsiran yang sama seperti negara di daftar impianmu.',
   'help.guide.tour-activity-stats.step.2':
@@ -6380,11 +6380,11 @@ const help: TranslationStrings = {
   'help.ctx.settings-about.bullet.1': 'Versi yang dijalankan server ini tampil di samping judul.',
   'help.guide.readability.tip.3':
     'Keterbacaan ditandai “Eksperimental”. Jika ada yang terlihat aneh, klik “Kembalikan ke default” di bagian bawah tab untuk mengembalikan pengaturan awalnya.',
-  'help.guide.web-push-device.goal': 'Terima notifikasi TREK di ponsel atau komputermu meskipun TREK sedang ditutup.',
+  'help.guide.web-push-device.goal': 'Terima notifikasi Manzil di ponsel atau komputermu meskipun Manzil sedang ditutup.',
   'help.guide.connect-airtrail.tip.2':
     'Kuncinya disimpan dalam bentuk terenkripsi dan tidak pernah ditampilkan lagi; titik-titik di kolom berarti sudah ada kunci yang tersimpan.',
   'help.guide.connect-dawarich.tip.2':
-    'Di bawah tombol, kartu menunjukkan kapan TREK terakhir memeriksa dan fitur apa yang tidak tersedia di versi Dawarich-mu.',
+    'Di bawah tombol, kartu menunjukkan kapan Manzil terakhir memeriksa dan fitur apa yang tidak tersedia di versi Dawarich-mu.',
   'help.guide.tour-connect-wanderer.tip.2':
     'Instans dengan alamat privat mungkin memerlukan izin admin untuk jaringan internal.',
   'help.guide.tour-wanderer-watch.tip.2':
@@ -6392,7 +6392,7 @@ const help: TranslationStrings = {
   'help.guide.plugin-settings.result':
     'Plugin bekerja dengan pengaturanmu, dan setiap tindakan yang dilakukannya untukmu tercantum di bawah “Aktivitas plugin”.',
   'help.ctx.admin-defaults.bullet.3':
-    'Tautan “atur ulang” di samping kolom yang sudah kamu atur mengembalikan nilai default TREK. Pengaturan pengguna sendiri selalu diutamakan di atas ini.',
+    'Tautan “atur ulang” di samping kolom yang sudah kamu atur mengembalikan nilai default Manzil. Pengaturan pengguna sendiri selalu diutamakan di atas ini.',
   'help.ctx.admin-settings.bullet.5':
     '“Zona Berbahaya”: “Putar Secret JWT” mengeluarkan semua pengguna, termasuk kamu.',
   'help.guide.default-user-settings.step.1':
@@ -6428,7 +6428,7 @@ const help: TranslationStrings = {
   'help.guide.place-image-from-file.result':
     'Foto itu menjadi gambar tempat di kartu, di kolom tempat, di hari, dan di peta.',
   'help.guide.place-own-hours.step.3':
-    '“Jam Buka” di bawahnya menampilkan satu minggu, satu baris per hari. Jika TREK menemukan jam buka tempat itu, jamnya sudah terisi; jika tidak, klik “Tambah jam buka” dulu. Ketik jam buka dan tutup setiap hari, dan klik “Ditutup” di hari tempat itu tidak buka.',
+    '“Jam Buka” di bawahnya menampilkan satu minggu, satu baris per hari. Jika Manzil menemukan jam buka tempat itu, jamnya sudah terisi; jika tidak, klik “Tambah jam buka” dulu. Ketik jam buka dan tutup setiap hari, dan klik “Ditutup” di hari tempat itu tidak buka.',
   'help.guide.add-accommodation.tip.5':
     'Jejak GPX dan tempat tur tidak pernah ditawarkan sebagai tempat menginap, hanya tempat biasa dalam perjalanan.',
   'help.guide.confirm-stay-booking.step.1':
@@ -6461,7 +6461,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.goal':
     'Tentukan apakah dokumen hanya diimpor dari penyimpananmu, hanya diekspor ke sana, atau keduanya, dan apa yang terjadi saat dokumen dihapus atau diubah di kedua tempat.',
   'help.guide.files-sync-settings.tip.2':
-    'Dengan “Tanya saya”, dokumen yang diedit di kedua tempat menunggu di “Perlu dilihat”, di bawah kartu. Klik Selesaikan dan pilih “Pertahankan versi TREK”, “Pertahankan versi penyedia”, atau “Pertahankan keduanya”.',
+    'Dengan “Tanya saya”, dokumen yang diedit di kedua tempat menunggu di “Perlu dilihat”, di bawah kartu. Klik Selesaikan dan pilih “Pertahankan versi Manzil”, “Pertahankan versi penyedia”, atau “Pertahankan keduanya”.',
   'help.guide.manage-notes.goal':
     'Buka catatan secara lengkap, sematkan yang penting di atas, dan perbaiki atau hapus yang sudah tidak berlaku.',
   'help.guide.manage-notes.tip.2':
@@ -6583,7 +6583,7 @@ const help: TranslationStrings = {
   'help.guide.tour-along-search.step.1':
     'Buka tur di tab “Tur” dan gulir panel kiri ke bawah sampai “Di sepanjang tur”, di bawah perhentian tur. Kartunya muncul begitu tur punya rute.',
   'help.guide.tour-along-search.tip.3':
-    'Hasilnya berasal dari OpenStreetMap dan indeks tempat TREK, jadi pencarian memerlukan koneksi. Jika tidak ada hasil, Perlebar ke mencoba jarak berikutnya; jika server sedang sibuk, “Coba lagi” menampilkan hitung mundur sampai kamu bisa mencoba lagi.',
+    'Hasilnya berasal dari OpenStreetMap dan indeks tempat Manzil, jadi pencarian memerlukan koneksi. Jika tidak ada hasil, Perlebar ke mencoba jarak berikutnya; jika server sedang sibuk, “Coba lagi” menampilkan hitung mundur sampai kamu bisa mencoba lagi.',
   'help.guide.tour-along-add-stop.tip.1':
     'Tempat itu menjadi perhentian tur, bukan tempat perjalanan, jadi tidak muncul di daftar tempat.',
   'help.guide.tour-3d-terrain.step.4':
@@ -6604,7 +6604,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-hike.bullet.4':
     '“Detail jalur”, di bawah titik jalan, menampilkan tingkat SAC, permukaan, dan jenis jalan setiap bagian dari OpenStreetMap, lalu mewarnai rute di peta sesuai data itu. Tidak ada yang di sini mengubah tur.',
   'help.guide.tour-hike-plan.step.4':
-    '“Tambah titik” aktif sejak awal: klik peta di titik awal dan titik akhir pendakian. “Tempat perjalanan” di sampingnya untuk memilih pondok atau hotel dalam perjalanan. Begitu ada dua titik, TREK menghitung rute jalan kakinya.',
+    '“Tambah titik” aktif sejak awal: klik peta di titik awal dan titik akhir pendakian. “Tempat perjalanan” di sampingnya untuk memilih pondok atau hotel dalam perjalanan. Begitu ada dua titik, Manzil menghitung rute jalan kakinya.',
   'help.guide.tour-hike-trail-details.title': 'Melihat tingkat, permukaan, dan jenis jalan di sepanjang pendakian',
   'help.guide.tour-hike-trail-details.tip.1':
     'Jalan yang tidak punya nilai di OpenStreetMap tercantum di bawah “Tidak diketahui”, dan tidak diketahui bukan berarti mudah. Jika ada yang bertuliskan “Tidak dapat ditanyakan kali ini”, klik “Coba lagi”.',
@@ -6635,7 +6635,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.2':
     '“Ringkasan tur” di kanan menampilkan “Waktu bersepeda (perkiraan)”, yaitu waktu dari router untuk profil itu, termasuk tanjakan. Istirahat tidak termasuk.',
   'help.guide.tour-bike-profile.step.4':
-    'Di bawah “Titik jalan”, klik “Tempat perjalanan” dan pilih titik awal dan akhirnya, di sini Hotel Alpenroyal lalu Hotel Greif. Kamu juga bisa memastikan “Tambah titik” aktif lalu mengklik peta. Begitu ada dua titik, TREK menghitung rutenya.',
+    'Di bawah “Titik jalan”, klik “Tempat perjalanan” dan pilih titik awal dan akhirnya, di sini Hotel Alpenroyal lalu Hotel Greif. Kamu juga bisa memastikan “Tambah titik” aktif lalu mengklik peta. Begitu ada dua titik, Manzil menghitung rutenya.',
   'help.guide.tour-bike-profile.tip.5':
     'Jika admin mengizinkan peta CyclOSM, deretan lapisan di peta juga menawarkan “Bersepeda” selama tur sepeda terbuka. Jika petanya berhenti dimuat, beralih ke “Peta”. Turnya tidak berubah.',
   'help.guide.tour-bike-surfaces.tip.1':
@@ -6664,7 +6664,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.2':
     'Peta tur dayung menyediakan “Peta” dan “Satelit”, serta “Rambu laut” dari OpenSeaMap sebagai lapisan tambahan.',
   'help.guide.tour-paddle-water-route.step.3':
-    'Pilih “Rencanakan bagian berikutnya di air”. TREK merencanakan ruas itu menyusuri sungai atau danau dari titik ini ke titik berikutnya.',
+    'Pilih “Rencanakan bagian berikutnya di air”. Manzil merencanakan ruas itu menyusuri sungai atau danau dari titik ini ke titik berikutnya.',
   'help.guide.tour-paddle-portage.title': 'Mengangkut perahu memutari rintangan',
   'help.guide.tour-paddle-portage.tip.2':
     'Pada titik terakhir, “Angkut perahu dari sini” baru berlaku setelah kamu menempatkan titik berikutnya. Barisnya bertuliskan “Pikul dari sini”, dan tanda silangnya, “Batal memikul”, membatalkannya.',
@@ -6747,7 +6747,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-notifications.bullet.4':
     '“Bawaan untuk pengguna”, di bagian bawah: per peristiwa dan saluran, “Aktif”, “Mati”, atau “Diblokir” bagi semua orang yang belum mengubahnya.',
   'help.guide.default-user-settings.step.2':
-    'Kolom yang sudah kamu atur mendapat tautan “atur ulang” di samping namanya; tautan itu mengembalikan nilai bawaan TREK.',
+    'Kolom yang sudah kamu atur mendapat tautan “atur ulang” di samping namanya; tautan itu mengembalikan nilai bawaan Manzil.',
   'help.guide.own-routing-engine.title': 'Memakai server rute milikmu sendiri',
   'help.guide.admin-passkeys.result':
     'Halaman masuk menawarkan “Masuk dengan passkey”, dan pengguna bisa menambahkan passkey di pengaturan mereka.',
@@ -6772,7 +6772,7 @@ const help: TranslationStrings = {
     'Arahkan kursor ke baris pemesanan di hari itu: pegangan di kirinya menunjukkan bahwa baris itu bisa diseret.',
   'help.guide.place-image-from-file.tip.1': 'Hanya file JPG, PNG, GIF, dan WebP yang ditawarkan; tiket PDF tidak.',
   'help.guide.place-own-hours.step.4':
-    'Tombol di kanan “Jam Buka”: tombol salin memberi semua hari jam yang sama dengan hari Senin, dan X menghapus jam buatanmu lagi. Jika TREK menemukan jam bukanya sendiri, “Ambil dari detail tempat” mengembalikannya.',
+    'Tombol di kanan “Jam Buka”: tombol salin memberi semua hari jam yang sama dengan hari Senin, dan X menghapus jam buatanmu lagi. Jika Manzil menemukan jam bukanya sendiri, “Ambil dari detail tempat” mengembalikannya.',
   'help.guide.confirm-stay-booking.step.2':
     'Pemesanan terbuka di atas rencana. Pil pertama di header-nya menunjukkan statusnya.',
   'help.ctx.trip-map.bullet.9':
@@ -6789,7 +6789,7 @@ const help: TranslationStrings = {
   'help.guide.group-sort-bookings.step.1':
     'Di “Kartu” atau “Daftar”, klik “Opsi tampilan”, ikon penggeser setelah tiga ikon tampilan.',
   'help.guide.create-booking.tip.4':
-    'Saat offline, pemesanan disimpan di perangkat ini dan disinkronkan begitu kamu online lagi. File baru memerlukan koneksi, jadi hapus dulu atau simpan nanti. Jika kamu tidak sengaja mengklik di luar formulir, atau menekan Escape, TREK bertanya “Buang perubahan?” sebelum isianmu hilang.',
+    'Saat offline, pemesanan disimpan di perangkat ini dan disinkronkan begitu kamu online lagi. File baru memerlukan koneksi, jadi hapus dulu atau simpan nanti. Jika kamu tidak sengaja mengklik di luar formulir, atau menekan Escape, Manzil bertanya “Buang perubahan?” sebelum isianmu hilang.',
   'help.guide.booking-on-map.tip.2': 'Penginapan terbuka di malam pertamanya.',
   'help.guide.export-bookings-csv.step.3':
     'Klik “Ekspor sebagai spreadsheet (CSV)”, ikon spreadsheet setelah “Opsi tampilan”.',
@@ -6802,7 +6802,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.1':
     'Klik “Sinkronisasi dokumen” di ujung kanan bar. Jika perjalanan sudah terhubung, kartu penyimpananmu terbuka di kanan; jika ada lebih dari satu penyimpanan, klik yang kamu mau di bawah “Perjalanan ini” di kiri.',
   'help.guide.files-sync-settings.tip.3':
-    '“Pembaruan seketika”, tautan dengan tombol “Salin” di sampingnya, hanya ada untuk penyimpanan yang perubahannya tidak bisa dipantau TREK secara otomatis. Tempel tautan itu di penyimpanan, dan perubahan langsung sampai, tidak menunggu pemeriksaan berikutnya.',
+    '“Pembaruan seketika”, tautan dengan tombol “Salin” di sampingnya, hanya ada untuk penyimpanan yang perubahannya tidak bisa dipantau Manzil secara otomatis. Tempel tautan itu di penyimpanan, dan perubahan langsung sampai, tidak menunggu pemeriksaan berikutnya.',
   'help.guide.manage-notes.step.1':
     'Klik tiga titik di header kartu catatan (“Opsi lainnya”). Menunya berisi “Perluas”, “Sematkan”, “Edit”, dan “Hapus”.',
   'help.guide.note-categories.title': 'Mengelompokkan catatan ke dalam kategori',
@@ -6833,7 +6833,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.tip.1':
     'Menyeret tur yang punya etape ke suatu hari juga menanyakan hal yang sama lewat dialog kecil. “Batal” membiarkan rencana tetap seperti semula.',
   'help.guide.tour-day-times.step.2':
-    'Isi “Mulai” dan biarkan “Selesai” kosong. Keterangan di bawah kolom menunjukkan jam selesai yang dihitung TREK: jam mulai ditambah durasi tur.',
+    'Isi “Mulai” dan biarkan “Selesai” kosong. Keterangan di bawah kolom menunjukkan jam selesai yang dihitung Manzil: jam mulai ditambah durasi tur.',
   'help.guide.tour-remove-from-day.title': 'Mengeluarkan tur dari suatu hari',
   'help.guide.tour-filter-list.title': 'Menyaring daftar tur',
   'help.guide.tour-filter-list.tip.3':
@@ -6845,7 +6845,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-detail.bullet.5':
     'Kartu ini untuk membaca dan untuk hal-hal pelengkap tur. Rutenya sendiri diubah di tab “Tur”: buka tab itu dan klik tur di bawah “Tur dalam perjalanan ini”. Tur juga dihapus di sana, bukan di sini.',
   'help.guide.tour-detail-read.step.6':
-    'Gulir terus untuk melihat “Deskripsi” dan “Catatan”, lalu “Asal”: “direncanakan di TREK”, file asal impornya, atau jalur wanderer asalnya, beserta tanggalnya.',
+    'Gulir terus untuk melihat “Deskripsi” dan “Catatan”, lalu “Asal”: “direncanakan di Manzil”, file asal impornya, atau jalur wanderer asalnya, beserta tanggalnya.',
   'help.guide.tour-rename-colour.title': 'Mengganti nama dan warna tur',
   'help.guide.tour-rename-colour.result':
     'Tur tampil dengan nama barunya di seluruh perjalanan, dan garisnya digambar dengan warna yang kamu pilih.',
@@ -6862,7 +6862,7 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.3':
     'Klik “Bandingkan di peta” untuk menggambar jejak aktual dengan garis titik-titik di samping rencana. “Akhiri perbandingan” menghapusnya lagi.',
   'help.guide.tour-origin-check.step.2':
-    '“Diimpor” menunjukkan tanggal impornya. “Di sini” menunjukkan kondisinya saat ini: “Seperti saat diimpor”, “Diedit di TREK”, atau “Direncanakan ulang, jejak rekaman disimpan”.',
+    '“Diimpor” menunjukkan tanggal impornya. “Di sini” menunjukkan kondisinya saat ini: “Seperti saat diimpor”, “Diedit di Manzil”, atau “Direncanakan ulang, jejak rekaman disimpan”.',
   'help.ctx.trip-tour-planner.bullet.1':
     '“Tur” ada di bar tab perjalanan tepat setelah “Rencana” selama addon Tur aktif. Tab ini tersedia di komputer dan tablet; di ponsel, tur bisa dilihat dan dimasukkan ke hari dari tab “Rencana”, tapi tidak bisa digambar.',
   'help.guide.tour-open-workspace.step.1':
@@ -7002,13 +7002,13 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.3':
     'Pada tur dayung, “Di sepanjang tur” mencari “Titik masuk air”, “Penyewaan perahu”, dan “Air minum” lebih dulu.',
   'help.guide.tour-paddle-water-route.step.4':
-    'Ruas yang tidak bisa direncanakan TREK berubah merah dan menjelaskan alasannya, misalnya belum ada data perairan untuk area itu. Klik “Gambar lurus” untuk menggambarnya dengan tangan untuk sementara.',
+    'Ruas yang tidak bisa direncanakan Manzil berubah merah dan menjelaskan alasannya, misalnya belum ada data perairan untuk area itu. Klik “Gambar lurus” untuk menggambarnya dengan tangan untuk sementara.',
   'help.guide.tour-paddle-portage.goal':
     'Tandai bagian yang kamu lalui sambil mengangkut perahu, agar dihitung sebagai jalan darat, dengan waktu untuk turun dan naik perahu lagi.',
   'help.guide.tour-paddle-portage.tip.3':
     'Mengangkut dihitung 2 km/jam sampai kamu mengatur “Kecepatan mengangkut” sendiri di kartu “Perkiraan waktu”.',
   'help.guide.tour-paddle-lock.tip.1':
-    'TREK tidak tahu jadwal pintu air. Waktunya hanya yang kamu isi, jadi periksa sendiri jam operasional pintu air.',
+    'Manzil tidak tahu jadwal pintu air. Waktunya hanya yang kamu isi, jadi periksa sendiri jam operasional pintu air.',
   'help.guide.tour-paddle-time.step.3':
     'Baris air adalah jarak di air dengan “Kecepatan mendayung”-mu. Ubah kecepatannya di kolom “Kecepatan mendayung” di bagian atas kolom.',
   'help.guide.tour-paddle-wind.goal': 'Lihat prakiraan angin di titik awal tur pada hari kamu mendayung.',

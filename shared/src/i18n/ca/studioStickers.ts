@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Colors',
   'journey.studio.stickerSlot': 'Color {index}',
   'journey.studio.stickerResetColours': 'Colors originals',
-  'journey.studio.stickerMissing': 'Aquest adhesiu no és a la biblioteca d’aquesta versió de TREK.',
+  'journey.studio.stickerMissing': 'Aquest adhesiu no és a la biblioteca d’aquesta versió de Manzil.',
   'journey.studio.stickerFlip': 'Emmiralla',
   'journey.studio.stickerTurnLeft': 'Gira a l’esquerra',
   'journey.studio.stickerTurnRight': 'Gira a la dreta',

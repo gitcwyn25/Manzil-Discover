@@ -47,7 +47,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'แผนที่ฐาน CARTO จะแสดงลายน้ำโดยไม่มีคีย์ ฟรี ไม่ต้องใช้บัญชี จาก',
   'settings.mapCartoKeyLink': 'คีย์ API แผนที่ฐาน carto.com',
   'settings.mapCartoKeyMissing':
-    'เทมเพลตนี้เป็นแผนที่ฐาน CARTO หากไม่มีคีย์ CARTO จะประทับตรา "API KEY REQUIRED" ลงบนทุกไทล์ จนกว่าคุณจะป้อน TREK จะแสดงแผนที่ฐานเริ่มต้นแทน',
+    'เทมเพลตนี้เป็นแผนที่ฐาน CARTO หากไม่มีคีย์ CARTO จะประทับตรา "API KEY REQUIRED" ลงบนทุกไทล์ จนกว่าคุณจะป้อน Manzil จะแสดงแผนที่ฐานเริ่มต้นแทน',
   'settings.mapStyle': 'รูปแบบแผนที่',
   'settings.mapStylePlaceholder': 'เลือกสไตล์ Mapbox',
   'settings.mapStyleHint': 'ที่ตั้งไว้ล่วงหน้าหรือ mapbox://styles/USER/ID URL ของคุณเอง',
@@ -125,15 +125,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'พุช',
   'settings.webPush.title': 'การแจ้งเตือนแบบพุชบนอุปกรณ์นี้',
   'settings.webPush.hint':
-    'แสดงการแจ้งเตือนของ TREK บนอุปกรณ์นี้แม้ในขณะที่ปิด TREK อยู่ เหตุการณ์ที่จะได้รับเป็นไปตามคอลัมน์ พุช',
+    'แสดงการแจ้งเตือนของ Manzil บนอุปกรณ์นี้แม้ในขณะที่ปิด Manzil อยู่ เหตุการณ์ที่จะได้รับเป็นไปตามคอลัมน์ พุช',
   'settings.webPush.enable': 'เปิดสำหรับอุปกรณ์นี้',
   'settings.webPush.disable': 'ปิดสำหรับอุปกรณ์นี้',
   'settings.webPush.enabled': 'เปิดอยู่สำหรับอุปกรณ์นี้',
   'settings.webPush.unsupported': 'เบราว์เซอร์นี้ไม่สามารถรับการแจ้งเตือนแบบพุชได้',
-  'settings.webPush.insecure': 'การแจ้งเตือนแบบพุชต้องเปิด TREK ผ่าน HTTPS',
-  'settings.webPush.iosInstall': 'บน iPhone และ iPad ให้เพิ่ม TREK ไปยังหน้าจอโฮมก่อน แล้วเปิดจากที่นั่น',
+  'settings.webPush.insecure': 'การแจ้งเตือนแบบพุชต้องเปิด Manzil ผ่าน HTTPS',
+  'settings.webPush.iosInstall': 'บน iPhone และ iPad ให้เพิ่ม Manzil ไปยังหน้าจอโฮมก่อน แล้วเปิดจากที่นั่น',
   'settings.webPush.denied':
-    'การแจ้งเตือนของ TREK ถูกบล็อกในเบราว์เซอร์นี้ อนุญาตในการตั้งค่าเบราว์เซอร์ แล้วลองอีกครั้ง',
+    'การแจ้งเตือนของ Manzil ถูกบล็อกในเบราว์เซอร์นี้ อนุญาตในการตั้งค่าเบราว์เซอร์ แล้วลองอีกครั้ง',
   'settings.webPush.failed': 'ไม่สามารถเปิดการแจ้งเตือนแบบพุชสำหรับอุปกรณ์นี้ได้',
   'settings.notificationPreferences.noChannels':
     'ไม่มีการกำหนดค่าช่องทางการแจ้งเตือน ขอให้ผู้ดูแลระบบตั้งค่าการแจ้งเตือนทางอีเมลหรือเว็บฮุค',
@@ -256,19 +256,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'ขอแนะนำฟีเจอร์ใหม่',
   'settings.about.wikiHint': 'เอกสารและคำแนะนำ',
   'settings.about.sponsor.eyebrow': 'โครงสร้างพื้นฐานที่ได้รับการสนับสนุน',
-  'settings.about.sponsor.title': 'เซิร์ฟเวอร์ของ TREK เองทำงานบน dataforest cloud',
+  'settings.about.sponsor.title': 'เซิร์ฟเวอร์ของ Manzil เองทำงานบน dataforest cloud',
   'settings.about.sponsor.body':
-    'การค้นหาสถานที่ การค้นหาที่อยู่ และการคำนวณเส้นทาง มาจากเซิร์ฟเวอร์ของ TREK เองแทน Google และรายอื่นๆ โดยมี dataforest cloud สนับสนุนเครื่องที่ใช้รันเซิร์ฟเวอร์เหล่านี้',
+    'การค้นหาสถานที่ การค้นหาที่อยู่ และการคำนวณเส้นทาง มาจากเซิร์ฟเวอร์ของ Manzil เองแทน Google และรายอื่นๆ โดยมี dataforest cloud สนับสนุนเครื่องที่ใช้รันเซิร์ฟเวอร์เหล่านี้',
   'settings.about.sponsor.cta': 'ไปที่ dataforest cloud',
   'settings.about.sponsor.search': 'ค้นหาสถานที่',
   'settings.about.sponsor.address': 'ค้นหาที่อยู่',
   'settings.about.sponsor.routing': 'คำนวณเส้นทาง',
   'settings.about.descriptionManaged':
-    'TREK ช่วยคุณจัดทริปตั้งแต่ไอเดียแรกไปจนถึงความทรงจำสุดท้าย การวางแผนวัน งบประมาณ รายการสิ่งของที่ต้องเตรียมไป รูปภาพ และอื่นๆ อีกมากมาย รวมอยู่ในที่เดียว',
+    'Manzil ช่วยคุณจัดทริปตั้งแต่ไอเดียแรกไปจนถึงความทรงจำสุดท้าย การวางแผนวัน งบประมาณ รายการสิ่งของที่ต้องเตรียมไป รูปภาพ และอื่นๆ อีกมากมาย รวมอยู่ในที่เดียว',
   'settings.about.sourceTitle': 'ซอร์สโค้ด',
   'settings.about.sourceHint': 'TREK เป็นโอเพ่นซอร์ส ได้รับใบอนุญาต AGPL-3.0',
   'settings.about.supporters.badge': 'ผู้สนับสนุนรายเดือน',
-  'settings.about.supporters.title': 'เพื่อนร่วมเดินทางสำหรับ TREK',
+  'settings.about.supporters.title': 'เพื่อนร่วมเดินทางสำหรับ Manzil',
   'settings.about.supporters.subtitle':
     'ขณะที่คุณกำลังวางแผนเส้นทางต่อไป คนเหล่านี้กำลังช่วยวางแผนอนาคตของ TREK การสนับสนุนรายเดือนของพวกเขามุ่งตรงไปสู่การพัฒนาและการใช้งานจริง — ดังนั้น TREK ยังคงเป็น Open Source',
   'settings.about.supporters.since': 'ผู้สนับสนุนตั้งแต่ {date}',
@@ -279,7 +279,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'นักเดินทางราคาประหยัด',
   'settings.about.supporter.tier.hostelBunkmate': 'โฮสเทล บังค์เมท',
   'settings.about.description':
-    'TREK เป็นผู้วางแผนการเดินทางที่โฮสต์เองซึ่งช่วยคุณจัดการเดินทางตั้งแต่แนวคิดแรกไปจนถึงความทรงจำสุดท้าย การวางแผนวัน งบประมาณ รายการสิ่งของที่ต้องเตรียมไป รูปภาพ และอื่นๆ อีกมากมาย ทั้งหมดในที่เดียวบนเซิร์ฟเวอร์ของคุณเอง',
+    'Manzil เป็นผู้วางแผนการเดินทางที่โฮสต์เองซึ่งช่วยคุณจัดการเดินทางตั้งแต่แนวคิดแรกไปจนถึงความทรงจำสุดท้าย การวางแผนวัน งบประมาณ รายการสิ่งของที่ต้องเตรียมไป รูปภาพ และอื่นๆ อีกมากมาย ทั้งหมดในที่เดียวบนเซิร์ฟเวอร์ของคุณเอง',
   'settings.about.madeWith': 'ทำด้วย',
   'settings.about.madeBy': 'โดยมอริซและชุมชนโอเพ่นซอร์สที่กำลังเติบโต',
   'settings.username': 'ชื่อผู้ใช้',
@@ -393,7 +393,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'เปิดใช้งานสำหรับอินสแตนซ์ที่เชื่อถือได้บนเครือข่ายของคุณเองเท่านั้น',
   'settings.airtrail.writeBack': 'เขียนการเปลี่ยนแปลงกลับไปที่ AirTrail',
   'settings.airtrail.writeBackHint':
-    'ปิดโดยค่าเริ่มต้น: AirTrail คือแหล่งที่มาของความจริง และ TREK จะอ่านจากข้อมูลนั้นเท่านั้น เปิดเพื่อส่งการแก้ไขที่ทำใน TREK กลับไปยัง AirTrail',
+    'ปิดโดยค่าเริ่มต้น: AirTrail คือแหล่งที่มาของความจริง และ Manzil จะอ่านจากข้อมูลนั้นเท่านั้น เปิดเพื่อส่งการแก้ไขที่ทำใน Manzil กลับไปยัง AirTrail',
   'settings.airtrail.connected': 'เชื่อมต่อแล้ว',
   'settings.airtrail.notConnected': 'ไม่ได้เชื่อมต่อ',
   'settings.airtrail.toast.saved': 'บันทึกการเชื่อมต่อ AirTrail แล้ว',
@@ -510,7 +510,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'แดชบอร์ด',
   'settings.startPageActiveTrip': 'การเดินทางที่ใช้งานอยู่',
   'settings.startPageHint':
-    'TREK เปิดตรงในทริปที่กำลังวิ่งวันนี้หรือทริปถัดไปที่กำลังจะมาถึง นั่นคือการเดินทางเดียวกันกับคุณสมบัติแดชบอร์ด',
+    'Manzil เปิดตรงในทริปที่กำลังวิ่งวันนี้หรือทริปถัดไปที่กำลังจะมาถึง นั่นคือการเดินทางเดียวกันกับคุณสมบัติแดชบอร์ด',
   'settings.startTripTab': 'แท็บเริ่มต้น',
   'settings.startTripTabHint': 'แท็บการเดินทางจะเปิดขึ้น หากเป็นของส่วนเสริมที่คุณปิดไป มุมมองแผนจะเปิดขึ้นแทน',
 
@@ -612,9 +612,9 @@ const settings: TranslationStrings = {
     'Valhalla ของคุณเอง จะถูกถามเมื่อบริการเส้นทางด้านบนตั้งเป็นตัวนี้หรือเป็นอัตโนมัติ หากตั้งค่าเฉพาะเซิร์ฟเวอร์เส้นทางของคุณเองและไม่ได้เลือกบริการเส้นทาง จะไม่ถาม Valhalla ใดเลย หลังป้อน URL ให้รีสตาร์ตเซิร์ฟเวอร์และโหลดหน้านี้ใหม่',
   'settings.valhallaProvider': 'บริการเส้นทาง',
   'settings.valhallaProviderHint':
-    'เมื่อใช้บริการ TREK หรือ Valhalla ของคุณเอง Valhalla จะคำนวณทุกเส้นทาง: เส้นทางรายวันและทริปขับรถทั้งการเดิน ปั่นจักรยาน และขับรถ เส้นทางที่เลี่ยงทางเก็บค่าผ่านทาง ทางด่วน หรือเรือเฟอร์รี่ รวมถึงเส้นทาง ระดับความสูง และทางเดินของทัวร์ หากตอบไม่ได้ OSRM จะคำนวณวันนั้นแทน บริการ TREK จะถูกถามผ่านเซิร์ฟเวอร์นี้ เมื่อใช้ Valhalla สาธารณะของ FOSSGIS OSRM จะคำนวณเส้นทาง และ Valhalla จะตอบเฉพาะสิ่งที่ OSRM ทำไม่ได้ โหมดอัตโนมัติจะถามบริการ TREK เว้นแต่ตั้งค่า Valhalla ของคุณเองหรือเฉพาะเซิร์ฟเวอร์เส้นทางของคุณเอง',
+    'เมื่อใช้บริการ Manzil หรือ Valhalla ของคุณเอง Valhalla จะคำนวณทุกเส้นทาง: เส้นทางรายวันและทริปขับรถทั้งการเดิน ปั่นจักรยาน และขับรถ เส้นทางที่เลี่ยงทางเก็บค่าผ่านทาง ทางด่วน หรือเรือเฟอร์รี่ รวมถึงเส้นทาง ระดับความสูง และทางเดินของทัวร์ หากตอบไม่ได้ OSRM จะคำนวณวันนั้นแทน บริการ Manzil จะถูกถามผ่านเซิร์ฟเวอร์นี้ เมื่อใช้ Valhalla สาธารณะของ FOSSGIS OSRM จะคำนวณเส้นทาง และ Valhalla จะตอบเฉพาะสิ่งที่ OSRM ทำไม่ได้ โหมดอัตโนมัติจะถามบริการ Manzil เว้นแต่ตั้งค่า Valhalla ของคุณเองหรือเฉพาะเซิร์ฟเวอร์เส้นทางของคุณเอง',
   'settings.valhallaProviderOption.auto': 'อัตโนมัติ',
-  'settings.valhallaProviderOption.trek': 'บริการ TREK',
+  'settings.valhallaProviderOption.trek': 'บริการ Manzil',
   'settings.valhallaProviderOption.fossgis': 'Valhalla สาธารณะ (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Valhalla ของคุณเอง',
   'settings.notifyCollectionInvite': 'คำเชิญเข้าคอลเลกชัน',

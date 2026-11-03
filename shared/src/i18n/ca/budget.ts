@@ -209,7 +209,7 @@ const budget: TranslationStrings = {
     "No s'ha pogut desar i encara hi ha {count} rebut pujat. Elimina'l a la pestanya Fitxers.",
   'costs.receiptsNeedConnection':
     'Els rebuts necessiten connexió per pujar-se. Treu els nous per desar la despesa sense connexió, o desa quan tornis a estar en línia.',
-  'costs.paymentQueued': "No tens connexió. El pagament s'ha desat i apareixerà quan TREK torni a estar en línia.",
+  'costs.paymentQueued': "No tens connexió. El pagament s'ha desat i apareixerà quan Manzil torni a estar en línia.",
   'costs.confirm.deleteBodyReceipts':
     '"{name}" se suprimirà definitivament. Els fitxers dels seus rebuts es queden a Fitxers.',
 };

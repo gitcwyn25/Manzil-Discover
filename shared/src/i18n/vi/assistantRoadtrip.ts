@@ -66,7 +66,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved': '{count} điểm dừng không đặt được',
   'assistant.card.roadtrip.dayRoute.after': 'Sau {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Theo {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'Tạm thời là đường thẳng; TREK sẽ tính đường khi thay đổi được áp dụng.',
+  'assistant.card.roadtrip.dayRoute.sketch': 'Tạm thời là đường thẳng; Manzil sẽ tính đường khi thay đổi được áp dụng.',
   'assistant.card.roadtrip.dayEnd.at': 'Ngày kết thúc tại {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Ngày kết thúc ở {percent} % quãng lái sau {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'Ngày lại kết thúc tự động',

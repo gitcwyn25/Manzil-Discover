@@ -395,7 +395,7 @@ describe('Auth e2e (real auth guard + real service + real cookie service + temp 
         .set('Cookie', sessionCookie(userId))
         .send({ password: userPassword });
       expect(bare.status).toBe(200);
-      expect(bare.body.rp).toEqual({ name: 'TREK', id: 'localhost' });
+      expect(bare.body.rp).toEqual({ name: 'Manzil', id: 'localhost' });
 
       const local = await request(server)
         .post('/api/auth/passkey/register/options')

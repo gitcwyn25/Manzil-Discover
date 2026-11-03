@@ -19,7 +19,7 @@ import { assistantKeepFileArgsSchema, type AssistantKeepFileArgs } from '@trek/s
 const BROKEN = 'This change can no longer be read.';
 const NOT_ALLOWED = 'You are not allowed to keep files on this trip.';
 const NOT_ALLOWED_LINK = 'You are not allowed to attach files to bookings, expenses or places on this trip.';
-const TYPE_NOT_ALLOWED = 'This file type is not allowed on this TREK instance.';
+const TYPE_NOT_ALLOWED = 'This file type is not allowed on this Manzil instance.';
 const GONE = 'The attached file is no longer kept, so it cannot be put into Files.';
 const NOT_KEPT = 'The file could not be kept.';
 

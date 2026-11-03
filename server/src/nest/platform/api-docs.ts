@@ -20,9 +20,9 @@ import { cleanupOpenApiDoc } from 'nestjs-zod';
 export function setupApiDocs(app: INestApplication): void {
   const version: string = readEnv().app.appVersion || (require('../../../package.json') as { version: string }).version;
   const config = new DocumentBuilder()
-    .setTitle('TREK API')
+    .setTitle('Manzil API')
     .setDescription(
-      'The REST API the TREK web app itself runs on. Authenticate with a session JWT — ' +
+      'The REST API the Manzil web app itself runs on. Authenticate with a session JWT — ' +
         'either the `trek_session` cookie (same browser) or an `Authorization: Bearer <jwt>` header.\n\n' +
         'Every session can be ended before it expires: `POST /api/auth/logout` ends the one it is called with, ' +
         '`GET /api/auth/sessions` lists the signed-in sessions, `DELETE /api/auth/sessions/{id}` ends one and ' +

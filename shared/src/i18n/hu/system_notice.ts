@@ -1,11 +1,11 @@
 import type { TranslationStrings } from '../types';
 
 const system_notice: TranslationStrings = {
-  'system_notice.welcome_v1.title': 'Üdvözöl a TREK',
+  'system_notice.welcome_v1.title': 'Üdvözöl a Manzil',
   'system_notice.welcome_v1.body':
     'Az összes az egyben utazástervező. Készítsen útvonalakat, ossza meg az utakat barátaival, és maradjon szervezett — online és offline.',
   'system_notice.welcome_v1.cta_label': 'Utazás tervezése',
-  'system_notice.welcome_v1.hero_alt': 'Festői úticél TREK tervező felülettel',
+  'system_notice.welcome_v1.hero_alt': 'Festői úticél Manzil tervező felülettel',
   'system_notice.welcome_v1.highlight_plan': 'Napi útvonalak minden utazáshoz',
   'system_notice.welcome_v1.highlight_share': 'Együttműködés utazótársakkal',
   'system_notice.welcome_v1.highlight_offline': 'Mobilon offline is működik',
@@ -13,7 +13,7 @@ const system_notice: TranslationStrings = {
   'system_notice.dev_test_modal.body': 'Ez egy csak fejlesztői teszt értesítés.',
   'system_notice.thank_you_support.title': 'Köszönöm, hogy a TREK-et használod',
   'system_notice.thank_you_support.body':
-    'Gyors köszönet, hogy telepítetted a TREK-et — őszintén sokat jelent.\n\nEgyedül fejlesztek, és a szabadidőmben építem a TREK-et. Egy kis eszközként indult, csak a saját utazásaimhoz, és azóta őszintén lenyűgöz a közösség támogatása és érdeklődése. A TREK sok szívvel készül a részemről — de annak a sok csodálatos külső közreműködőnek is köszönhetően, akik segítettek formálni.\n\n**A TREK nyílt forráskódú és teljesen ingyenes — és ez örökre így is marad. Nincsenek fizetős csomagok, nincsenek előfizetések, nincs semmi átverés. Ígérem.**\n\nHa a TREK hasznos számodra, és szeretnéd támogatni a fejlesztését, egy kis kávé őszintén segít, hogy tovább építhessem — semmi nyomás, de minden csésze átsegít a késő éjszakákon.\n\nKöszönöm, hogy itt vagy.\n\n— Maurice',
+    'Gyors köszönet, hogy telepítetted a TREK-et — őszintén sokat jelent.\n\nEgyedül fejlesztek, és a szabadidőmben építem a TREK-et. Egy kis eszközként indult, csak a saját utazásaimhoz, és azóta őszintén lenyűgöz a közösség támogatása és érdeklődése. A Manzil sok szívvel készül a részemről — de annak a sok csodálatos külső közreműködőnek is köszönhetően, akik segítettek formálni.\n\n**A Manzil nyílt forráskódú és teljesen ingyenes — és ez örökre így is marad. Nincsenek fizetős csomagok, nincsenek előfizetések, nincs semmi átverés. Ígérem.**\n\nHa a Manzil hasznos számodra, és szeretnéd támogatni a fejlesztését, egy kis kávé őszintén segít, hogy tovább építhessem — semmi nyomás, de minden csésze átsegít a késő éjszakákon.\n\nKöszönöm, hogy itt vagy.\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '100% nyílt forráskódú a GitHubon',
   'system_notice.thank_you_support.highlight_free': 'Örökre ingyenes — soha semmi fizetős csomag',
   'system_notice.thank_you_support.highlight_community': 'A közösséggel együtt épült',
@@ -26,7 +26,7 @@ const system_notice: TranslationStrings = {
   'system_notice.pager.position': '{current}/{total}. értesítés',
   'system_notice.v3_photos.title': 'A fotók helye megváltozott 3.0-ban',
   'system_notice.v3_photos.body':
-    'Az útiterv-tervező **Fényképek** lapja eltávolításra került. Fényképeid biztonságban vannak — TREK soha nem módosította Immich vagy Synology könyvtáradat.\n\nA fényképek mostantól a **Journey** bővítményben élnek. A Journey opcionális — ha még nem elérhető, kérd meg a rendszergazdát, hogy engedélyezze Admin → Bővítmények alatt.',
+    'Az útiterv-tervező **Fényképek** lapja eltávolításra került. Fényképeid biztonságban vannak — Manzil soha nem módosította Immich vagy Synology könyvtáradat.\n\nA fényképek mostantól a **Journey** bővítményben élnek. A Journey opcionális — ha még nem elérhető, kérd meg a rendszergazdát, hogy engedélyezze Admin → Bővítmények alatt.',
   'system_notice.v3_journey.title': 'Ismerje meg a Journey-t — útinnapló',
   'system_notice.v3_journey.body':
     'Dokumentáld utazazsaid gazdag történetekként idővonalakkal, fotgáriákkal és interaktív térképekkel.',
@@ -50,14 +50,14 @@ const system_notice: TranslationStrings = {
   'system_notice.v3_mcp.highlight_tools': 'Bővített eszközkészlet és promptok',
   'system_notice.v3_thankyou.title': 'Egy személyes gondolat tőlem',
   'system_notice.v3_thankyou.body':
-    'Mielőtt továbbmennél — szeretnék egy pillanatra megállni.\n\nA TREK egy hobbiprojektként indult, amit a saját utazásaimhoz építettem. Sosem gondoltam volna, hogy valami olyanná nő, amire 4000-en bízzátok a kalandjaitok tervezését. Minden csillagot, minden issue-t, minden funkciókérést — mindet elolvasom, és ezek tartanak életben a késő éjszakákon a teljes állás és az egyetem között.\n\nSzeretnétek, ha tudnátok: a TREK mindig nyílt forráskódú marad, mindig self-hosted, mindig a tiétek. Nincs nyomkövetés, nincs előfizetés, nincsenek rejtett feltételek. Csak egy eszköz, amit valaki épített, aki ugyanúgy szereti az utazást, mint ti.\n\nKülönleges köszönet [jubnl](https://github.com/jubnl)-nek — hihetetlen társsá váltál. A 3.0 nagyszerűségének nagy része a te kézjegyedet viseli. Köszönöm, hogy hittél ebben a projektben, amikor még nyers volt.\n\nÉs mindannyiótoknak, akik hibát jelentettetek, szöveget fordítottatok, megosztottátok a TREK-et egy baráttal, vagy egyszerűen csak egy utazást terveztetek vele — **köszönöm**. Ti vagytok az ok, amiért ez létezik.\n\nSok további közös kalandért.\n\n— Maurice\n\n---\n\n[Csatlakozz a közösséghez a Discordon](https://discord.gg/7Q6M6jDwzf)\n\nHa a TREK jobbá teszi az utazásaidat, egy [kis kávé](https://ko-fi.com/mauriceboe) mindig segít, hogy égve maradjanak a fények.',
+    'Mielőtt továbbmennél — szeretnék egy pillanatra megállni.\n\nA Manzil egy hobbiprojektként indult, amit a saját utazásaimhoz építettem. Sosem gondoltam volna, hogy valami olyanná nő, amire 4000-en bízzátok a kalandjaitok tervezését. Minden csillagot, minden issue-t, minden funkciókérést — mindet elolvasom, és ezek tartanak életben a késő éjszakákon a teljes állás és az egyetem között.\n\nSzeretnétek, ha tudnátok: a Manzil mindig nyílt forráskódú marad, mindig self-hosted, mindig a tiétek. Nincs nyomkövetés, nincs előfizetés, nincsenek rejtett feltételek. Csak egy eszköz, amit valaki épített, aki ugyanúgy szereti az utazást, mint ti.\n\nKülönleges köszönet [jubnl](https://github.com/jubnl)-nek — hihetetlen társsá váltál. A 3.0 nagyszerűségének nagy része a te kézjegyedet viseli. Köszönöm, hogy hittél ebben a projektben, amikor még nyers volt.\n\nÉs mindannyiótoknak, akik hibát jelentettetek, szöveget fordítottatok, megosztottátok a TREK-et egy baráttal, vagy egyszerűen csak egy utazást terveztetek vele — **köszönöm**. Ti vagytok az ok, amiért ez létezik.\n\nSok további közös kalandért.\n\n— Maurice\n\n---\n\n[Csatlakozz a közösséghez a Discordon](https://discord.gg/7Q6M6jDwzf)\n\nHa a Manzil jobbá teszi az utazásaidat, egy [kis kávé](https://ko-fi.com/mauriceboe) mindig segít, hogy égve maradjanak a fények.',
   'system_notice.v3014_whitespace_collision.title': 'Szükséges beavatkozás: felhasználói fiókütközés',
   'system_notice.v3014_whitespace_collision.body':
     'A 3.0.14-es frissítés egy vagy több felhasználónév- vagy e-mail-ütközést észlelt, amelyeket a tárolt értékek elején vagy végén lévő szóközök okoztak. Az érintett fiókok automatikusan át lettek nevezve. Ellenőrizze a szervernaplókat a **[migration] WHITESPACE COLLISION** kezdetű soroknál a felülvizsgálatot igénylő fiókok azonosításához.',
   'system_notice.release_notes.eyebrow': 'Frissítés telepítve',
   'system_notice.release_notes.headline': 'Elsőre a jó hely.',
   'system_notice.release_notes.intro':
-    'A helykeresés, a címkeresés és az útvonaltervezés mostantól a TREK saját szerverein fut, a dataforest cloud támogatásával, és minden TREK megoszthatja a helyekről szerzett tudását az összes többivel.',
+    'A helykeresés, a címkeresés és az útvonaltervezés mostantól a Manzil saját szerverein fut, a dataforest cloud támogatásával, és minden Manzil megoszthatja a helyekről szerzett tudását az összes többivel.',
   'system_notice.release_notes.features_label': 'A fő újdonságok',
   'system_notice.release_notes.features_aside': 'És ez még nem minden',
   'system_notice.release_notes.feature_search_title': 'Helykeresés, ami eltalálja',
@@ -69,14 +69,14 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.feature_routing_title': 'Gyorsabb útvonaltervezés',
   'system_notice.release_notes.feature_routing_body':
     'Egy egész nap egyszerre tervezhető, akár húsz megállóval, egy lassú útvonal már nem tartja fel a többit, a tömegközlekedés pedig egy második szolgáltatót is megkérdez, ha az első semmit sem talál.',
-  'system_notice.release_notes.footnote': 'Plusz rengeteg kisebb változás a TREK többi részében.',
+  'system_notice.release_notes.footnote': 'Plusz rengeteg kisebb változás a Manzil többi részében.',
   'system_notice.release_notes.notes_label': 'Kiadási jegyzetek',
   'system_notice.release_notes.note_eyebrow': 'Egy szó a fejlesztőtől',
   'system_notice.release_notes.note_title': 'Miattad építem tovább a TREK-et.',
   'system_notice.release_notes.note_body':
-    'A TREK egy kis eszközként indult a saját utazásaimhoz, munka után írtam, mert jobban szerettem volna megtervezni őket. Azóta igazából folyamatosan nő. Szinte mindent, amit használsz, késő éjjel, hétvégén, vonaton, egy teljes állás mellett építettem, és sok olyan este volt, amikor csendben azon tűnődtem, megnyitja-e egyáltalán valaki valaha.',
+    'A Manzil egy kis eszközként indult a saját utazásaimhoz, munka után írtam, mert jobban szerettem volna megtervezni őket. Azóta igazából folyamatosan nő. Szinte mindent, amit használsz, késő éjjel, hétvégén, vonaton, egy teljes állás mellett építettem, és sok olyan este volt, amikor csendben azon tűnődtem, megnyitja-e egyáltalán valaki valaha.',
   'system_notice.release_notes.promise_label': 'Az ígéret',
-  'system_notice.release_notes.promise_lead': 'A TREK ingyenes marad, örökre.',
+  'system_notice.release_notes.promise_lead': 'A Manzil ingyenes marad, örökre.',
   'system_notice.release_notes.promise_text':
     'Minden funkció, minden frissítés, mindenkinek. Nincsenek fizetős csomagok, nincsenek előfizetések, nincs átverés.',
   'system_notice.release_notes.note_body_after':
@@ -85,7 +85,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': 'A függetlenségért',
   'system_notice.release_notes.support_lead': 'Google és társai nélkül.',
   'system_notice.release_notes.support_text':
-    'A helykeresés, a címkeresés és az útvonaltervezés a TREK saját szerverein fut, ma a dataforest cloud támogatásával. Minden nap küzdök ezért, és hogy így is maradjon, szükségem van a támogatásodra.',
+    'A helykeresés, a címkeresés és az útvonaltervezés a Manzil saját szerverein fut, ma a dataforest cloud támogatásával. Minden nap küzdök ezért, és hogy így is maradjon, szükségem van a támogatásodra.',
   'system_notice.release_notes.cta_bmc': 'Vegyél nekem egy kávét',
   'system_notice.release_notes.cta_kofi': 'Támogass a Ko-fi-n',
 };

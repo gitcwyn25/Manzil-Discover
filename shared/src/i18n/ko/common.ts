@@ -75,8 +75,8 @@ const common: TranslationStrings = {
   'common.errorRetry': '다시 시도',
   'common.errorReload': '페이지 새로고침',
   'common.errorUpdateTitle': '새 버전이 있습니다',
-  'common.errorUpdateBody': '이 탭이 열려 있는 동안 TREK이 업데이트되었습니다. 새로고침하여 새 버전을 받으세요.',
+  'common.errorUpdateBody': '이 탭이 열려 있는 동안 Manzil이 업데이트되었습니다. 새로고침하여 새 버전을 받으세요.',
   'common.errorPluginTitle': '이 플러그인을 표시할 수 없습니다',
-  'common.needsConnection': '연결이 필요한 작업입니다. TREK가 다시 온라인이 되면 다시 시도하세요.',
+  'common.needsConnection': '연결이 필요한 작업입니다. Manzil가 다시 온라인이 되면 다시 시도하세요.',
 };
 export default common;

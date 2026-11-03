@@ -143,7 +143,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': '地図上の場所',
   'reservations.import.pinMissingTitle': 'まだ地図にありません',
   'reservations.import.pinMissingBody':
-    'TREK はこの宿泊先を地図上で見つけられませんでした。上の名前と住所を確認して再検索するか、ピンなしで保存してください。',
+    'Manzil はこの宿泊先を地図上で見つけられませんでした。上の名前と住所を確認して再検索するか、ピンなしで保存してください。',
   'reservations.import.pinRetry': '再検索',
   'reservations.import.savedWithoutPin':
     '地図のピンなしで保存しました。地図に表示するには、場所を編集して位置を設定してください。',
@@ -264,7 +264,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'ファイルで表示',
   'reservations.filesNeedConnection':
     'ファイルのアップロードには接続が必要です。オフラインで予約を保存するには新しいファイルを外すか、オンラインに戻ってから保存してください。',
-  'reservations.needsConnection': 'この操作には接続が必要です。TREK がオンラインに戻ってから、もう一度お試しください。',
+  'reservations.needsConnection': 'この操作には接続が必要です。Manzil がオンラインに戻ってから、もう一度お試しください。',
   'reservations.exportCsvFiltered': '表示中の {shown}/{total} 行をエクスポート (CSV)',
 };
 export default reservations;

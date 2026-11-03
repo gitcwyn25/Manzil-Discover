@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Live demo om te proberen',
-  'demo.welcome.title': 'Welkom bij TREK',
+  'demo.welcome.title': 'Welkom bij Manzil',
   'demo.welcome.tagline':
     'De reisplanner om te delen: plan samen live op de kaart, van het eerste idee tot het fotoboek na de reis.',
   'demo.welcome.resetTitle': 'Elk uur wordt alles teruggezet',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Dagen, plekken en routes op de kaart, met vluchten, hotels, restaurants, boekingen en gedeelde kosten.',
   'demo.feature.tours.title': 'Tochten en wandelingen',
   'demo.feature.tours.body': 'Plan een wandeling over het padennetwerk en volg die over 3D-terrein met hoogteprofiel.',
-  'demo.feature.studio.title': 'Fotoboeken met TREK Studio',
+  'demo.feature.studio.title': 'Fotoboeken met Manzil Studio',
   'demo.feature.studio.body': 'Maak van een reis pagina voor pagina een vormgegeven fotoboek.',
   'demo.feature.collab.title': 'Live samen plannen',
   'demo.feature.collab.body': 'Iedereen in de reis ziet elke wijziging meteen, met chat, notities en peilingen.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Bewaar plekken van verschillende reizen in eigen lijsten en kopieer ze naar elk plan.',
   'demo.feature.offline.title': 'Werkt offline',
-  'demo.feature.offline.body': 'Installeer TREK als app en houd plannen, kaarten en lijsten ook zonder verbinding.',
+  'demo.feature.offline.body': 'Installeer Manzil als app en houd plannen, kaarten en lijsten ook zonder verbinding.',
   'demo.welcome.limitsTitle': 'Niet in de demo',
   'demo.limit.uploads': 'Foto’s, documenten en omslagen uploaden',
   'demo.limit.account': 'Het account, het wachtwoord of 2FA wijzigen',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Fotoverantwoording',
   'demo.credits.intro':
-    'De foto’s in deze demo komen van Wikimedia Commons, elk onder de licentie die erbij staat. Die licentie geldt alleen voor de foto, niet voor TREK of de rest van de demo.',
+    'De foto’s in deze demo komen van Wikimedia Commons, elk onder de licentie die erbij staat. Die licentie geldt alleen voor de foto, niet voor Manzil of de rest van de demo.',
   'demo.credits.by': 'door {author}',
   'demo.credits.publicDomain': 'Publiek domein',
   'demo.credits.back': 'Terug',

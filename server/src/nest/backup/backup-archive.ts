@@ -113,7 +113,7 @@ export function checkBackupDatabase(extractDir: string): ArchiveRefusal | null {
     for (const table of requiredTables) {
       if (!tableNames.has(table)) {
         return {
-          error: `Uploaded database is missing required table: ${table}. This does not appear to be a TREK backup.`,
+          error: `Uploaded database is missing required table: ${table}. This does not appear to be a Manzil backup.`,
           status: 400,
         };
       }
@@ -125,7 +125,7 @@ export function checkBackupDatabase(extractDir: string): ArchiveRefusal | null {
       const executed = uploadedDb.prepare('SELECT name FROM mikro_orm_migrations').all() as { name: string }[];
       const unknown = unknownMigrations(executed.map((row) => row.name));
       if (unknown.length > 0) {
-        return { error: 'This backup was made by a newer TREK version. Update TREK before restoring it.', status: 400 };
+        return { error: 'This backup was made by a newer Manzil version. Update Manzil before restoring it.', status: 400 };
       }
     }
     return null;

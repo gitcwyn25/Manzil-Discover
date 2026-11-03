@@ -100,7 +100,7 @@ function toolsOf(request: AiChatRequest, kind: AiConnectionKind): Record<string,
     tools.push({
       type: 'namespace',
       name: TOOL_NAMESPACE,
-      description: 'TREK trip tools',
+      description: 'Manzil trip tools',
       tools: request.tools.map((tool) => ({
         type: 'function',
         name: tool.name,
@@ -218,7 +218,7 @@ export class OpenAiResponsesClient implements AiChatClient {
             authorization: `Bearer ${accessToken}`,
             'content-type': 'application/json',
             accept: 'text/event-stream',
-            'user-agent': `TREK/${runningVersion()}`,
+            'user-agent': `Manzil/${runningVersion()}`,
             ...(sessionId ? { 'session-id': sessionId } : {}),
           },
           body,

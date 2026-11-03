@@ -79,7 +79,7 @@ export function gpxOfLine(name: string, description: string | null, line: readon
   const desc = description ? `<desc>${escapeHtml(description)}</desc>` : '';
   return (
     '<?xml version="1.0" encoding="UTF-8"?>\n' +
-    '<gpx version="1.1" creator="TREK" xmlns="http://www.topografix.com/GPX/1/1">\n' +
+    '<gpx version="1.1" creator="Manzil" xmlns="http://www.topografix.com/GPX/1/1">\n' +
     `<trk><name>${escapeHtml(name)}</name>${desc}<trkseg>${points}</trkseg></trk>\n</gpx>\n`
   );
 }

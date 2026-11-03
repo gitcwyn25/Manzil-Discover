@@ -7,7 +7,7 @@ const help: TranslationStrings = {
   'help.contents': '目錄',
   'help.noResults': '沒有符合的頁面。',
   'help.errorTitle': '無法載入此頁面',
-  'help.errorBody': '說明內容取自 TREK Wiki。請檢查網路連線後再試一次。',
+  'help.errorBody': '說明內容取自 Manzil Wiki。請檢查網路連線後再試一次。',
 
   // center
   'help.center.button': '此畫面的說明',
@@ -67,12 +67,12 @@ const help: TranslationStrings = {
   'help.guide.create-trip.step.1': '點選「新建旅行」。旅行清單最後的那張卡片和右下角的按鈕，功能都一樣。',
   'help.guide.create-trip.step.2': '為旅行取個名字。這是唯一必填的欄位，其他內容之後再補就好。',
   'help.guide.create-trip.step.3':
-    '選擇開始和結束日期。TREK 會為每個日期建立一天，讓你的行程表可以直接開始填寫。還沒有日期嗎？兩個都留空，改為輸入「天數」。',
+    '選擇開始和結束日期。Manzil 會為每個日期建立一天，讓你的行程表可以直接開始填寫。還沒有日期嗎？兩個都留空，改為輸入「天數」。',
   'help.guide.create-trip.step.4':
     '選填：加入封面照片。你可以上傳自己的照片、拖曳或貼上一張，也可以搜尋 Unsplash 上目的地的照片。',
   'help.guide.create-trip.step.5': '點選「建立新旅行」。',
   'help.guide.create-trip.result': '旅行會出現在儀表板上。如果它是你的下一趟旅行，就會顯示在最上方的登機證中。',
-  'help.guide.create-trip.tip.1': '日期之後還能修改。如果已經有預訂，TREK 會問你要不要連同日程一起移動。',
+  'help.guide.create-trip.tip.1': '日期之後還能修改。如果已經有預訂，Manzil 會問你要不要連同日程一起移動。',
   'help.guide.create-trip.tip.2': '你在這裡選擇的旅行貨幣，就是所有費用換算的目標貨幣。請選擇目的地的貨幣。',
 
   // edit-trip
@@ -133,7 +133,7 @@ const help: TranslationStrings = {
   'help.guide.calendar-feed.title': '在行事曆中訂閱所有旅行',
   'help.guide.calendar-feed.goal': '在行事曆應用程式中查看每趟進行中旅行的日期與預訂，並保持同步。',
   'help.guide.calendar-feed.step.1': '點選檢視切換旁邊的行事曆圖示。',
-  'help.guide.calendar-feed.step.2': '點擊「啟用日曆訂閱」。TREK 會建立一個私人的訂閱連結。',
+  'help.guide.calendar-feed.step.2': '點擊「啟用日曆訂閱」。Manzil 會建立一個私人的訂閱連結。',
   'help.guide.calendar-feed.step.3':
     '點擊「加入 Google 日曆」或「加入 Apple 日曆 / Outlook」。如果你用的是其他日曆 App，請打開「或手動複製連結」，從那裡複製連結。',
   'help.guide.calendar-feed.result':
@@ -283,7 +283,7 @@ const help: TranslationStrings = {
   'help.guide.carry-over.tip.1': '關閉後，所有結轉的餘額都會歸零。',
   // invite
   'help.guide.invite.title': '與他人一起規劃',
-  'help.guide.invite.goal': '與另一位 TREK 使用者合併計畫，兩個人的休假就能在同一個格線上看到。',
+  'help.guide.invite.goal': '與另一位 Manzil 使用者合併計畫，兩個人的休假就能在同一個格線上看到。',
   'help.guide.invite.step.1': '點擊「人數」卡片中的人像圖示。',
   'help.guide.invite.step.2': '選擇使用者並點擊「傳送邀請」。',
   'help.guide.invite.step.3':
@@ -305,7 +305,7 @@ const help: TranslationStrings = {
   // ── Screen: atlas ─────────────────────────────────────────────────────────────────────
   'help.ctx.atlas.title': 'Atlas',
   'help.ctx.atlas.summary':
-    'Atlas 用世界地圖顯示你去過的地方：旅行帶你去過的每個國家都會上色，在使用 TREK 之前去過的國家則可以手動加入。放大可以看到各地區，也可以建立心願單，記下還想去的地方，並在底部的玻璃面板中查看你的統計數字。',
+    'Atlas 用世界地圖顯示你去過的地方：旅行帶你去過的每個國家都會上色，在使用 Manzil 之前去過的國家則可以手動加入。放大可以看到各地區，也可以建立心願單，記下還想去的地方，並在底部的玻璃面板中查看你的統計數字。',
   'help.ctx.atlas.bullet.1':
     '地圖：去過的國家各有固定的專屬顏色，計畫前往的國家以虛線框標示，口袋名單上的國家以斜線標示，其餘國家則是灰色。把游標移到國家上，就能看到該國的旅行、地點，以及第一次和最近一次造訪的時間。',
   'help.ctx.atlas.bullet.2':
@@ -319,7 +319,7 @@ const help: TranslationStrings = {
     'Dawarich：連接擴充套件後，統計資料左邊會出現一個面板，可以根據你的行蹤記錄勾掉願望並加入國家。這些動作都要等你確認後才會執行。',
   // mark-country
   'help.guide.mark-country.title': '將國家標記為已訪問',
-  'help.guide.mark-country.goal': '加入你在使用 TREK 之前去過的國家，讓地圖和統計數字也算進去。',
+  'help.guide.mark-country.goal': '加入你在使用 Manzil 之前去過的國家，讓地圖和統計數字也算進去。',
   'help.guide.mark-country.step.1': '在地圖頂部的搜尋框輸入國家名稱。',
   'help.guide.mark-country.step.2': '從清單中選擇該國家。地圖會移到那個國家，並開啟它的彈出視窗。',
   'help.guide.mark-country.step.3': '選擇「標記為已訪問」。',
@@ -376,7 +376,7 @@ const help: TranslationStrings = {
   'help.guide.search-place.step.3': '如果去過，就為該地區選擇「標記為已訪問」；如果還沒去過，就選擇「新增到心願單」。',
   'help.guide.search-place.result':
     '該地區會被標記，所屬國家也一樣。如果地圖資料包裡沒有某個國家的地區資料，則改為標記整個國家。',
-  'help.guide.search-place.tip.1': '地點搜尋和 TREK 其他地方使用的是同一套，所以會用管理員設定的提供商。',
+  'help.guide.search-place.tip.1': '地點搜尋和 Manzil 其他地方使用的是同一套，所以會用管理員設定的提供商。',
   // bucket-country
   'help.guide.bucket-country.title': '把國家加入心願單',
   'help.guide.bucket-country.goal': '在地圖上維護一份想去的國家口袋名單，與你已去過的國家分開。',
@@ -417,7 +417,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.step.1':
     '連接 Dawarich 擴充套件後，地圖底部、統計資料的左邊會出現 Dawarich 面板，裡面有兩個圖塊。點選「國家」。',
   'help.guide.dawarich-countries.step.2':
-    '對話框會開啟在「國家」分頁。點選「尋找國家」：TREK 會逐月讀取你的行蹤記錄在最近 12 個月內涵蓋的國家和城市，所以可能需要一點時間。你的 Atlas 中還沒有的國家都會列出，並附上國旗、城市數量和第一個城市的名稱，預設全部勾選。點選某一列即可排除該國家。',
+    '對話框會開啟在「國家」分頁。點選「尋找國家」：Manzil 會逐月讀取你的行蹤記錄在最近 12 個月內涵蓋的國家和城市，所以可能需要一點時間。你的 Atlas 中還沒有的國家都會列出，並附上國旗、城市數量和第一個城市的名稱，預設全部勾選。點選某一列即可排除該國家。',
   'help.guide.dawarich-countries.step.3':
     '點選右下角的按鈕確認，勾選五列時會顯示「新增 5 個國家」。對話框會告訴你新增了幾個國家，關閉後地圖就已經更新了。',
   'help.guide.dawarich-countries.result':
@@ -425,13 +425,13 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.tip.1':
     'Atlas 已經顯示為去過的國家，不論是手動標記、來自旅行，還是來自先前的檢查，都會被排除，所以你自己的標記絕不會被更動。你之前從 Atlas 移除的國家，在這裡確認後會重新加入。',
   'help.guide.dawarich-countries.tip.2':
-    '如果 TREK 比對不到某個國家名稱，該名稱會列在各列下方，不會被捨棄。「再查一次」會再向 Dawarich 查詢一次。清單下方的說明會寫明檢查的是最近 12 個月，這個期間無法更改。',
+    '如果 Manzil 比對不到某個國家名稱，該名稱會列在各列下方，不會被捨棄。「再查一次」會再向 Dawarich 查詢一次。清單下方的說明會寫明檢查的是最近 12 個月，這個期間無法更改。',
   // dawarich-wishes
   'help.guide.dawarich-wishes.title': '根據你的行蹤記錄勾掉願望',
   'help.guide.dawarich-wishes.goal': '找出口袋名單上你實際到過的地點，並以你到達的日期標記為已到達。',
   'help.guide.dawarich-wishes.step.1': '在地圖底部、統計資料左邊的 Dawarich 面板中，點選「心願清單」。',
   'help.guide.dawarich-wishes.step.2':
-    '對話框會開啟在「心願清單」分頁。點選「核對願望清單」：TREK 會在你的行蹤記錄中查找每一筆有座標的項目。已達成的願望會列出你離目標多近、停留多久，以及日期，並預設勾選。已經勾掉的則會顯示「已打勾」。清單下方有一則備註，會統計沒有座標的項目，並說明規則：「在 250 公尺內停留 20 分鐘以上，才算達成願望。」',
+    '對話框會開啟在「心願清單」分頁。點選「核對願望清單」：Manzil 會在你的行蹤記錄中查找每一筆有座標的項目。已達成的願望會列出你離目標多近、停留多久，以及日期，並預設勾選。已經勾掉的則會顯示「已打勾」。清單下方有一則備註，會統計沒有座標的項目，並說明規則：「在 250 公尺內停留 20 分鐘以上，才算達成願望。」',
   'help.guide.dawarich-wishes.step.3':
     '按右下角的按鈕確認，勾選兩列時按鈕會顯示「為 2 項打勾」。接著關閉對話框，開啟旁邊面板的「心願單」分頁。',
   'help.guide.dawarich-wishes.result':
@@ -439,7 +439,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.tip.1':
     '只是開車經過不算：你必須靠近該地點，並停留一段時間。如果有多次停留符合條件，會採用最長的那一次。沒有座標的心願無法核對，所以請透過「新增地點」中的搜尋來新增地點，不要只輸入名稱。',
   'help.guide.dawarich-wishes.tip.2':
-    '每次檢查最多看 50 筆，並優先檢查還沒勾掉的項目。如果還有更多，TREK 會告訴你。已經勾掉的願望會保留它原本的日期。',
+    '每次檢查最多看 50 筆，並優先檢查還沒勾掉的項目。如果還有更多，Manzil 會告訴你。已經勾掉的願望會保留它原本的日期。',
 
   // ── Screen: collections ───────────────────────────────────────────────────────────────
   'help.ctx.collections.title': '收藏',
@@ -487,7 +487,7 @@ const help: TranslationStrings = {
   'help.guide.import-from-trip.step.4': '點選「匯入」。按鈕上一定會寫明即將新增幾個地點。',
   'help.guide.import-from-trip.result':
     '地點會連同名稱、地址、座標、描述和分類一起複製到清單中，旅行本身不會有任何變動。',
-  'help.guide.import-from-trip.tip.1': 'TREK 會自動略過名稱或座標重複的地點，所以重複匯入也不用擔心。',
+  'help.guide.import-from-trip.tip.1': 'Manzil 會自動略過名稱或座標重複的地點，所以重複匯入也不用擔心。',
   'help.guide.import-from-trip.tip.2': '在旅行的地點清單中，選擇模式提供「儲存到收藏」，可改為儲存一組手動挑選的地點。',
   // place-status
   'help.guide.place-status.title': '設定地點的狀態',
@@ -545,7 +545,7 @@ const help: TranslationStrings = {
   'help.guide.copy-to-trip.tip.1': '共用清單的檢視者也可以這麼做。這只會把清單中的地點複製出去，不會更動清單。',
   // share-list
   'help.guide.share-list.title': '與他人分享清單',
-  'help.guide.share-list.goal': '與這個 TREK 上的其他人即時一起規劃一份清單。',
+  'help.guide.share-list.goal': '與這個 Manzil 上的其他人即時一起規劃一份清單。',
   'help.guide.share-list.step.1': '點選清單頂端區塊中的「分享」。',
   'help.guide.share-list.step.2': '選擇使用者和角色：「檢視者」、「編輯者」或「管理員」。',
   'help.guide.share-list.step.3': '點擊「傳送邀請」。在對方從清單欄或通知中接受邀請之前，此人會顯示為待處理。',
@@ -556,18 +556,18 @@ const help: TranslationStrings = {
   'help.guide.share-list.tip.2': '只有擁有者可以邀請和移除成員；成員則可以自行退出共用的清單。',
   // export-list
   'help.guide.export-list.title': '把清單匯出成檔案',
-  'help.guide.export-list.goal': '把清單交給另一台 TREK 伺服器上的人，或用地圖應用程式開啟。',
+  'help.guide.export-list.goal': '把清單交給另一台 Manzil 伺服器上的人，或用地圖應用程式開啟。',
   'help.guide.export-list.step.1': '點選清單頂端區塊中的「匯出」。',
   'help.guide.export-list.step.2':
-    '要在另一個 TREK 中使用，請選「TREK 清單」，會連同標籤和狀態一起匯出；要在 OsmAnd、Organic Maps、Garmin 和其他能讀取航點的應用程式中使用，請選 GPX。',
+    '要在另一個 Manzil 中使用，請選「Manzil 清單」，會連同標籤和狀態一起匯出；要在 OsmAnd、Organic Maps、Garmin 和其他能讀取航點的應用程式中使用，請選 GPX。',
   'help.guide.export-list.result': '檔案會開始下載。共用清單的任何成員都可以匯出。',
-  'help.guide.export-list.tip.1': '沒有座標的地點無法成為 GPX 航點，會被略過，TREK 也會告訴你略過了幾個。',
-  'help.guide.export-list.tip.2': '評分、成員和上傳的照片刻意不會匯出，因為它們屬於這個 TREK，而不是清單本身。',
+  'help.guide.export-list.tip.1': '沒有座標的地點無法成為 GPX 航點，會被略過，Manzil 也會告訴你略過了幾個。',
+  'help.guide.export-list.tip.2': '評分、成員和上傳的照片刻意不會匯出，因為它們屬於這個 Manzil，而不是清單本身。',
   // import-file
   'help.guide.import-file.title': '從檔案匯入清單',
-  'help.guide.import-file.goal': '匯入 TREK 清單檔案或 GPX 檔案，可以建成新清單，也可以放進現有的清單。',
+  'help.guide.import-file.goal': '匯入 Manzil 清單檔案或 GPX 檔案，可以建成新清單，也可以放進現有的清單。',
   'help.guide.import-file.step.1': '點選清單側欄中「新增清單」旁邊、帶有上傳箭頭的匯入按鈕。',
-  'help.guide.import-file.step.2': '選擇檔案。TREK 在匯入前會先顯示檔案內容：名稱、地點數量和標籤數量。',
+  'help.guide.import-file.step.2': '選擇檔案。Manzil 在匯入前會先顯示檔案內容：名稱、地點數量和標籤數量。',
   'help.guide.import-file.step.3':
     '保留「新增清單」，需要的話修改名稱，然後點擊「匯入」。也可以選擇「新增到清單」，把地點放進你可以編輯的清單，再點擊「加入清單」。',
   'help.guide.import-file.result':
@@ -575,7 +575,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.tip.1':
     '匯入 GPX 時，每個有名稱的航點都會成為地點。軌跡是線條，會被略過，預覽會告訴你有幾個點。',
   'help.guide.import-file.tip.2':
-    '如果檔案既不是 TREK 清單也不是 GPX，就會被拒絕，TREK 也會顯示原因。如果只有某個地點無法讀取，則只會略過該地點，不會影響整個檔案。',
+    '如果檔案既不是 Manzil 清單也不是 GPX，就會被拒絕，Manzil 也會顯示原因。如果只有某個地點無法讀取，則只會略過該地點，不會影響整個檔案。',
   // edit-list
   'help.guide.edit-list.title': '編輯或刪除清單',
   'help.guide.edit-list.goal': '更改清單的名稱、顏色、封面、描述或連結，或是刪除清單。',
@@ -738,7 +738,7 @@ const help: TranslationStrings = {
   'help.guide.link-trip.tip.2': '有日期的條目只會計算一次，不論有幾趟旅行涵蓋那一天。',
   // share-public
   'help.guide.share-public.title': '公開分享旅程',
-  'help.guide.share-public.goal': '提供沒有 TREK 帳號的人一個唯讀連結。',
+  'help.guide.share-public.goal': '提供沒有 Manzil 帳號的人一個唯讀連結。',
   'help.guide.share-public.step.1': '點擊標題區的 ⋯ 開啟「旅程設定」，再捲動到「公開分享」。',
   'help.guide.share-public.step.2': '點選「建立分享連結」。',
   'help.guide.share-public.step.3':
@@ -756,7 +756,7 @@ const help: TranslationStrings = {
   'help.guide.contributors.step.3': '選擇「檢視者」或「編輯者」，然後點擊「邀請」。',
   'help.guide.contributors.result':
     '旅程會出現在對方的清單中，他們寫的條目也會顯示他們的名字。要移除貢獻者，請點選他們旁邊的 ×。',
-  'help.guide.contributors.tip.1': '貢獻者是給這個 TREK 上的使用者。其他人請使用公開連結。',
+  'help.guide.contributors.tip.1': '貢獻者是給這個 Manzil 上的使用者。其他人請使用公開連結。',
   // studio
   'help.guide.studio.title': '把旅程排成相簿',
   'help.guide.studio.goal': '把日誌變成可以印刷的頁面。',
@@ -788,7 +788,7 @@ const help: TranslationStrings = {
   // ── Screen: journey-studio ────────────────────────────────────────────────────────────
   'help.ctx.journey-studio.title': 'Studio',
   'help.ctx.journey-studio.summary':
-    'TREK Studio 會把旅程排成可以印刷的相簿。它疊在日誌上方開啟：左側是側欄和面板，中間是你正在處理的跨頁，右側是它的屬性。自動排版會根據你的條目產生第一版草稿，主題為相簿配上顏色和字體，助理可以和你一起設計頁面。之後你可以移動、裁切、重新設定任何內容的樣式，每一步都能復原。',
+    'Manzil Studio 會把旅程排成可以印刷的相簿。它疊在日誌上方開啟：左側是側欄和面板，中間是你正在處理的跨頁，右側是它的屬性。自動排版會根據你的條目產生第一版草稿，主題為相簿配上顏色和字體，助理可以和你一起設計頁面。之後你可以移動、裁切、重新設定任何內容的樣式，每一步都能復原。',
   'help.ctx.journey-studio.bullet.1':
     '頂部列：左側是旅程的封面和名稱。右側依序是還有誰在這本相簿裡以及是否已儲存、頁面格式、復原、重做、貼上、自動排版、助理、說明、匯出，以及關閉 Studio 的按鈕。',
   'help.ctx.journey-studio.bullet.2':
@@ -800,7 +800,7 @@ const help: TranslationStrings = {
   'help.ctx.journey-studio.bullet.5':
     '相簿的編排和印刷的書一樣：封面、與封面內頁空白面相對的單獨第一頁、各個跨頁、單獨的最後一頁和封底。頁碼從第一頁開始計算，並依顯示的樣子印出。',
   'help.ctx.journey-studio.bullet.6':
-    '多人可以同時設計：每個人都能看到其他人的游標和名字。如果你儲存的版本已被別人修改過，TREK 會顯示衝突，而不會覆蓋對方的成果。',
+    '多人可以同時設計：每個人都能看到其他人的游標和名字。如果你儲存的版本已被別人修改過，Manzil 會顯示衝突，而不會覆蓋對方的成果。',
   'help.ctx.journey-studio.bullet.7':
     '主題：整本相簿統一的外觀，包括紙張、墨色、三種強調色、字體和裝飾圖案。與主題連結的元素會在你更換主題時跟著改變。',
   'help.ctx.journey-studio.bullet.8':
@@ -866,7 +866,7 @@ const help: TranslationStrings = {
   'help.guide.studio-theme.tip.2': '從照片取色會根據旅程的圖片產生一組配色。',
   'help.guide.studio-theme.result': '相簿中所有已連結的顏色和字體會同時改變，套用主題是一個可復原的步驟。',
   'help.guide.studio-content.tip.1': '「內容」頂端的搜尋框會同時篩選下面兩份清單。',
-  'help.guide.studio-content.tip.2': '把桌面上的檔案拖到工作區時，TREK 會一次完成上傳和放置。',
+  'help.guide.studio-content.tip.2': '把桌面上的檔案拖到工作區時，Manzil 會一次完成上傳和放置。',
   // studio-elements
   'help.guide.studio-elements.title': '加入文字、形狀、圖示和貼紙',
   'help.guide.studio-elements.goal': '除了照片和故事之外，再為跨頁加上裝飾。',
@@ -954,12 +954,12 @@ const help: TranslationStrings = {
     '將跨頁放在工作區後，點選縮放列右端的「下載這個跨頁」。檔案裡只有設計，不包含照片。',
   'help.guide.studio-spread-file.step.2': '在另一本書中開啟 Pages，點選「新增頁面」旁邊的「匯入」，然後選擇檔案。',
   'help.guide.studio-spread-file.result': '跨頁會連同其中的框和文字樣式一起匯入。再把新旅程的照片放進這些框裡即可。',
-  'help.guide.studio-spread-file.tip.1': '如果檔案不是跨頁設計，TREK 會拒絕匯入並說明原因。',
+  'help.guide.studio-spread-file.tip.1': '如果檔案不是跨頁設計，Manzil 會拒絕匯入並說明原因。',
 
   // ── Screen: settings (all tabs) ───────────────────────────────────────────────────────
   'help.ctx.settings.title': '設定',
   'help.ctx.settings.summary':
-    '你的個人設定，左側邊欄中每個主題各有一個分頁。大多數開關一切換就立即生效。有「儲存」按鈕的表單，則要點擊「儲存」才會儲存。這裡的任何設定都不會影響其他人的 TREK。',
+    '你的個人設定，左側邊欄中每個主題各有一個分頁。大多數開關一切換就立即生效。有「儲存」按鈕的表單，則要點擊「儲存」才會儲存。這裡的任何設定都不會影響其他人的 Manzil。',
   'help.ctx.settings.bullet.1':
     '左側邊欄有「顯示」、「外觀」、「地圖」、「通知」、「整合」、「離線」和「帳戶」。有外掛啟用後才會出現「外掛」，除非營運者隱藏了「關於」，否則它也會顯示。版本顯示在底部。',
   'help.ctx.settings.bullet.2':
@@ -969,7 +969,7 @@ const help: TranslationStrings = {
   'help.ctx.settings.bullet.4': '「帳戶」包含你的個人資料、密碼、雙因素認證、Passkey，以及刪除帳號的選項。',
   'help.ctx.settings-display.title': '顯示',
   'help.ctx.settings-display.summary':
-    'TREK 開啟時的狀態、使用的語言和單位，以及旅行地圖和預訂的行為。每次變更都會立即套用。',
+    'Manzil 開啟時的狀態、使用的語言和單位，以及旅行地圖和預訂的行為。每次變更都會立即套用。',
   'help.ctx.settings-display.bullet.1':
     '「啟動」：「啟動頁面」開啟時進入「儀表板」或「進行中的旅行」；選擇「進行中的旅行」時，「啟動分頁」可選擇該旅行開啟時顯示的分頁。',
   'help.ctx.settings-display.bullet.2':
@@ -978,7 +978,7 @@ const help: TranslationStrings = {
     '旅行與地圖：「開啟地點方式」、「每日標題中日期在前」、「預訂路線標籤」、「一律顯示訂票路線」、「未規劃地點使用精簡標記」、「在地圖上探索地點」、「模糊預訂程式碼」和「從住宿地點最佳化路線」。',
   'help.ctx.settings-appearance.title': '外觀',
   'help.ctx.settings-appearance.summary':
-    'TREK 在這個帳號上的外觀：淺色或深色、強調色、玻璃效果和動態效果、文字大小，以及儀表板要顯示哪些小工具。所有設定都會即時生效，並套用到你登入的每台裝置。',
+    'Manzil 在這個帳號上的外觀：淺色或深色、強調色、玻璃效果和動態效果、文字大小，以及儀表板要顯示哪些小工具。所有設定都會即時生效，並套用到你登入的每台裝置。',
   'help.ctx.settings-appearance.bullet.1':
     '主題：「顏色模式」的「淺色」、「深色」或「自動」，以及配色方案。選擇「自訂」後，可以分別為淺色和深色模式設定你自己的強調色，並附有對比度檢查。',
   'help.ctx.settings-appearance.bullet.2':
@@ -997,7 +997,7 @@ const help: TranslationStrings = {
     '僅限 Mapbox GL：「3D 建築和地形」和「高畫質模式」。「儲存地圖」上方有即時預覽，按下「儲存地圖」才會儲存你的選擇。',
   'help.ctx.settings-notifications.title': '通知',
   'help.ctx.settings-notifications.summary':
-    'TREK 在應用程式之外如何聯絡你。頂部的表格每個事件一列、每個管道一欄，用來決定什麼通知送到哪裡。表格下方是 Webhook、ntfy、此裝置上的推播，以及外掛管道的卡片。',
+    'Manzil 在應用程式之外如何聯絡你。頂部的表格每個事件一列、每個管道一欄，用來決定什麼通知送到哪裡。表格下方是 Webhook、ntfy、此裝置上的推播，以及外掛管道的卡片。',
   'help.ctx.settings-notifications.bullet.1':
     '通知：依管道開啟或關閉每個事件。出現鎖頭，表示管理員已對所有人關閉該項。',
   'help.ctx.settings-notifications.bullet.2':
@@ -1008,7 +1008,7 @@ const help: TranslationStrings = {
     '「此裝置上的推播通知」：「為此裝置開啟」只涵蓋這個瀏覽器；「傳送測試」可試用。外掛管道在設定完成之前會顯示「前往設定」。',
   'help.ctx.settings-integrations.title': '整合',
   'help.ctx.settings-integrations.summary':
-    '所有從外部連接到 TREK 的項目：日誌用的相簿服務、航班用的 AirTrail、記錄你實際去向的 Dawarich、路線用的 wanderer、供其他軟體使用的唯讀 API 金鑰，以及供 AI 客戶端使用的 MCP。與其他服務的連線，必須由管理員開啟後才會顯示。',
+    '所有從外部連接到 Manzil 的項目：日誌用的相簿服務、航班用的 AirTrail、記錄你實際去向的 Dawarich、路線用的 wanderer、供其他軟體使用的唯讀 API 金鑰，以及供 AI 客戶端使用的 MCP。與其他服務的連線，必須由管理員開啟後才會顯示。',
   'help.ctx.settings-integrations.bullet.1':
     'Immich 和 Synology Photos、AirTrail、Dawarich 和 wanderer：每張卡片都有位址和金鑰、「儲存」和「測試連線」，以及「已連線」或「未連線」徽章。',
   'help.ctx.settings-integrations.bullet.2':
@@ -1019,7 +1019,7 @@ const help: TranslationStrings = {
     '「API 令牌」：連接 MCP 的舊方式，標示為「已棄用」，請改用「OAuth 2.1 客戶端」。',
   'help.ctx.settings-offline.title': '離線',
   'help.ctx.settings-offline.summary':
-    'TREK 會在這台裝置上儲存哪些內容，讓旅行在沒有網路時也能開啟；以及離線時所做的變更與其他地方的變更衝突時，會發生什麼事。',
+    'Manzil 會在這台裝置上儲存哪些內容，讓旅行在沒有網路時也能開啟；以及離線時所做的變更與其他地方的變更衝突時，會發生什麼事。',
   'help.ctx.settings-offline.bullet.1':
     '「離線模式」：「強制離線模式」會先下載所有內容，之後只使用快取運作，並把你的變更排入佇列。',
   'help.ctx.settings-offline.bullet.2':
@@ -1030,19 +1030,19 @@ const help: TranslationStrings = {
     '「同步衝突」只在有變更發生衝突時才會出現，附有「用我的」、「保留對方的」和「發生衝突時」。「離線快取」會統計旅行以及待處理或失敗的變更，附有「重試」、「捨棄」和「清除快取」。',
   'help.ctx.settings-account.title': '帳戶',
   'help.ctx.settings-account.summary':
-    '你在這個 TREK 上的身份和登入方式：大頭貼、使用者名稱和電子郵件、密碼、雙因素身份驗證和 Passkey。「刪除賬戶」位於「帳戶」卡片的底部。',
+    '你在這個 Manzil 上的身份和登入方式：大頭貼、使用者名稱和電子郵件、密碼、雙因素身份驗證和 Passkey。「刪除賬戶」位於「帳戶」卡片的底部。',
   'help.ctx.settings-account.bullet.1':
     '帳戶：圖片上的相機圖示可上傳圖片，紅色垃圾桶可移除；「使用者名稱」和「郵箱」透過「儲存資料」儲存。',
   'help.ctx.settings-account.bullet.2':
-    '「修改密碼」：目前密碼、兩次輸入新密碼（輸入時會逐項勾選規則），然後點擊「更新密碼」。如果這個 TREK 僅透過 SSO 登入，就沒有這張卡片。',
+    '「修改密碼」：目前密碼、兩次輸入新密碼（輸入時會逐項勾選規則），然後點擊「更新密碼」。如果這個 Manzil 僅透過 SSO 登入，就沒有這張卡片。',
   'help.ctx.settings-account.bullet.3':
     '使用驗證器應用程式和備用代碼的「雙因素認證 (2FA)」，以及不用密碼就能登入的「Passkey」。',
   'help.ctx.settings-account.bullet.4': '「刪除賬戶」位於「帳戶」卡片底部的左側，需經確認。唯一的管理員無法刪除自己。',
   // language-region
   'help.guide.language-region.title': '設定語言、單位和貨幣',
-  'help.guide.language-region.goal': '用你的語言使用 TREK，並採用你所在地區的格式。',
+  'help.guide.language-region.goal': '用你的語言使用 Manzil，並採用你所在地區的格式。',
   'help.guide.language-region.step.1':
-    '在「語言與地區」下，從那一排標籤中選擇「語言」。TREK 會立刻切換，並套用到你登入的所有裝置。',
+    '在「語言與地區」下，從那一排標籤中選擇「語言」。Manzil 會立刻切換，並套用到你登入的所有裝置。',
   'help.guide.language-region.step.2':
     '「地點名稱」設定地點搜尋、建議和位址使用的語言，「與 App 相同」則跟隨介面語言。',
   'help.guide.language-region.result':
@@ -1060,16 +1060,16 @@ const help: TranslationStrings = {
   'help.guide.travel-map-prefs.tip.1': '這些設定是依帳號而不是依旅行。共用旅行的每位成員，看到的是各自的選擇。',
   'help.guide.travel-map-prefs.tip.2': '管理員可以為所有人設定預設值；你在這裡切換的設定只適用於你自己。',
   // startup
-  'help.guide.startup.title': '選擇 TREK 開啟時顯示的頁面',
-  'help.guide.startup.goal': '讓 TREK 開啟時直接進入你最常用的頁面，而不是每次都先進儀表板。',
+  'help.guide.startup.title': '選擇 Manzil 開啟時顯示的頁面',
+  'help.guide.startup.goal': '讓 Manzil 開啟時直接進入你最常用的頁面，而不是每次都先進儀表板。',
   'help.guide.startup.step.1': '在「顯示」頂部的「啟動」下，將「啟動頁面」設為「儀表板」或「進行中的旅行」。',
   'help.guide.startup.step.2': '選擇「進行中的旅行」後，會出現「啟動分頁」：選擇該旅行開啟時顯示的分頁。',
-  'help.guide.startup.result': '下次開啟 TREK 時，它會直接進入那裡。',
+  'help.guide.startup.result': '下次開啟 Manzil 時，它會直接進入那裡。',
   'help.guide.startup.tip.1':
     '「進行中的旅行」是指今天正在進行的旅行，或接下來最近的一趟，也就是儀表板最上方顯示的那一趟。',
   // theme-scheme
   'help.guide.theme-scheme.title': '設定主題和強調色',
-  'help.guide.theme-scheme.goal': '讓 TREK 使用淺色、深色或跟隨裝置的主題，並搭配你喜歡的顏色。',
+  'help.guide.theme-scheme.goal': '讓 Manzil 使用淺色、深色或跟隨裝置的主題，並搭配你喜歡的顏色。',
   'help.guide.theme-scheme.step.1':
     '在「主題」下，將「顏色模式」設為「淺色」、「深色」或「自動」。「自動」會跟隨你的裝置。',
   'help.guide.theme-scheme.step.2':
@@ -1088,7 +1088,7 @@ const help: TranslationStrings = {
     '「文字大小」：拖曳「全部」可一次縮放所有文字，也可以分別設定「大」、「中」、「普通」和「小」。每個大小都有範例，拖曳時就能看到效果。',
   'help.guide.readability.result': '整個應用程式會立即套用變更，包括地圖面板和日誌。',
   'help.guide.readability.tip.1':
-    '當你的裝置設為減少動態效果時，TREK 的部分區域已經會減少動畫。「減少動態效果」則會減少其餘區域的動畫。',
+    '當你的裝置設為減少動態效果時，Manzil 的部分區域已經會減少動畫。「減少動態效果」則會減少其餘區域的動畫。',
   'help.guide.readability.tip.2': '文字大小是透過排版層級套用的，所以內容不會被截掉；放不下的文字會自動換行。',
   // dashboard-widgets
   'help.guide.dashboard-widgets.title': '選擇儀表板小工具',
@@ -1167,10 +1167,10 @@ const help: TranslationStrings = {
     '「強制離線模式」會再下載一次，然後只使用這台裝置運作，讓你在出發前確認一切都在。',
   'help.guide.offline-prepare.result': '即使沒有網路，旅行也能開啟。你所做的變更會先存進佇列，等重新連線後再送出。',
   'help.guide.offline-prepare.tip.1': '地圖圖磚佔用的空間最大，關閉它們就只會保留旅行資料和文件。',
-  'help.guide.offline-prepare.tip.2': '從瀏覽器把 TREK 安裝成應用程式，離線啟動會最順暢。',
+  'help.guide.offline-prepare.tip.2': '從瀏覽器把 Manzil 安裝成應用程式，離線啟動會最順暢。',
   // offline-conflicts
   'help.guide.offline-conflicts.title': '同步衝突時決定保留哪個版本',
-  'help.guide.offline-conflicts.goal': '選擇 TREK 要如何處理離線變更與其他地方變更之間的衝突。',
+  'help.guide.offline-conflicts.goal': '選擇 Manzil 要如何處理離線變更與其他地方變更之間的衝突。',
   'help.guide.offline-conflicts.step.1':
     '如果你離線時做的變更與較新的變更衝突，「同步衝突」會出現在「離線」頁面靠近頂部的位置。針對每項變更，點擊「用我的」或「保留對方的」。',
   'help.guide.offline-conflicts.step.2':
@@ -1194,7 +1194,7 @@ const help: TranslationStrings = {
   'help.guide.password.step.2': '點選「更新密碼」。',
   'help.guide.password.result':
     '新密碼會立即生效。其他所有裝置都會登出，你的 MCP API 令牌會被刪除，OAuth 客戶端也必須重新登入，只有這台裝置維持登入狀態。',
-  'help.guide.password.tip.1': '如果這個 TREK 僅透過 SSO 登入，就沒有 TREK 密碼，也沒有「修改密碼」卡片。',
+  'help.guide.password.tip.1': '如果這個 Manzil 僅透過 SSO 登入，就沒有 Manzil 密碼，也沒有「修改密碼」卡片。',
   // mfa
   'help.guide.mfa.title': '開啟雙因素驗證',
   'help.guide.mfa.goal': '用驗證器應用程式產生的驗證碼來保護帳號。',
@@ -1222,15 +1222,15 @@ const help: TranslationStrings = {
   'help.guide.delete-account.goal': '刪除你的帳號，以及只屬於你的資料。',
   'help.guide.delete-account.step.1': '在「帳戶」卡片中，點擊底部左側的「刪除賬戶」，然後點擊「永久刪除」。',
   'help.guide.delete-account.result': '你的帳戶連同你擁有的旅行、地點和檔案都會被刪除。由其他人擁有的旅行則會保留。',
-  'help.guide.delete-account.tip.1': '如果你是唯一的管理員，TREK 會回應「無法刪除」：請先將另一位使用者升為管理員。',
+  'help.guide.delete-account.tip.1': '如果你是唯一的管理員，Manzil 會回應「無法刪除」：請先將另一位使用者升為管理員。',
   'help.guide.delete-account.tip.2': '刪除後無法復原。確認之前，請先匯出你想保留的內容。',
 
   // ── Screen: admin (all tabs) ──────────────────────────────────────────────────────────
   'help.ctx.admin.title': '管理員',
   'help.ctx.admin.summary':
-    '每個人的 TREK 背後的執行個體：誰可以登入以及如何登入、開啟了什麼、檔案存放在哪裡、伺服器如何聯繫使用者，以及如何備份。只有管理員看得到這個頁面。側邊欄把分頁分組在「使用者」、「設定」、「整合」和「維護」下，每個分頁都是獨立的畫面。',
+    '每個人的 Manzil 背後的執行個體：誰可以登入以及如何登入、開啟了什麼、檔案存放在哪裡、伺服器如何聯繫使用者，以及如何備份。只有管理員看得到這個頁面。側邊欄把分頁分組在「使用者」、「設定」、「整合」和「維護」下，每個分頁都是獨立的畫面。',
   'help.ctx.admin.bullet.1':
-    '標題右側會統計使用者、旅行、地點和檔案的數量。其下方，當有較新的 TREK 版本發布時，會出現「有可用更新」橫幅。',
+    '標題右側會統計使用者、旅行、地點和檔案的數量。其下方，當有較新的 Manzil 版本發布時，會出現「有可用更新」橫幅。',
   'help.ctx.admin.bullet.2': '「使用者」和「用戶預設設定」：帳戶、邀請連結和權限，以及新帳戶一開始使用的設定和地圖。',
   'help.ctx.admin.bullet.3':
     '「配置」、「設定」、「擴充套件」、「外掛」和「儲存」：行李範本、分類和學校假期；登入、Passkey、2FA、API 金鑰和搜尋服務；功能模組；第三方外掛；上傳檔案的存放位置。',
@@ -1239,7 +1239,7 @@ const help: TranslationStrings = {
   'help.ctx.admin.bullet.5': '「備份」和「審計日誌」：手動與排程備份，以及與安全相關的事件記錄。',
   'help.ctx.admin-users.title': '使用者',
   'help.ctx.admin-users.summary':
-    '這個 TREK 上的所有帳號及其角色、電子郵件和上次活動時間，讓人在封閉執行個體上註冊的邀請連結，以及誰可以在旅行中做什麼。',
+    '這個 Manzil 上的所有帳號及其角色、電子郵件和上次活動時間，讓人在封閉執行個體上註冊的邀請連結，以及誰可以在旅行中做什麼。',
   'help.ctx.admin-users.bullet.1':
     '表格欄位有使用者、郵箱、角色、建立時間和「最後活動」，每列附有「編輯使用者」和「刪除使用者」。頭像上的綠點代表此人目前在線，你自己那一列標有「（你）」。',
   'help.ctx.admin-users.bullet.2': '「使用者」卡片右上角的「建立使用者」可手動新增帳戶，並由你交付密碼。',
@@ -1259,7 +1259,7 @@ const help: TranslationStrings = {
     '實例上所有旅行共用的設定：行李模板、地點和收藏用的分類組合，以及 Vacay 使用的學校假期目錄。',
   'help.ctx.admin-config.bullet.1': '「打包模板」：有名稱的分類與物品清單，旅行的行李清單可以從這裡開始。',
   'help.ctx.admin-config.bullet.2':
-    '分類：TREK 各處使用的分類的名稱、圖示和顏色，從地點檢視器到「收藏」都會用到，每個分類都在附預覽的對話方塊中編輯。',
+    '分類：Manzil 各處使用的分類的名稱、圖示和顏色，從地點檢視器到「收藏」都會用到，每個分類都在附預覽的對話方塊中編輯。',
   'help.ctx.admin-config.bullet.3': '「學校假期」：各國家和地區及其假期期間的目錄，所有人都可以在 Vacay 中選用。',
   'help.ctx.admin-settings.title': '設定',
   'help.ctx.admin-settings.summary':
@@ -1274,14 +1274,14 @@ const help: TranslationStrings = {
     '「公共運輸資料來源」和「地點搜尋來源」決定由誰負責大眾運輸和地點搜尋。「地點搜尋紀錄」會記下最後選了哪個結果。「允許的檔案型別」則限制可上傳的檔案。',
   'help.ctx.admin-addons.title': '擴充套件',
   'help.ctx.admin-addons.summary':
-    'TREK 的功能模組，每個都有開關：行李、費用、文件、Vacay、Atlas、Collab、旅程、收藏、公路旅行、MCP、AirTrail、Dawarich 和 AI 解析。關閉後，導覽項目、路由和 API 會對所有人移除。',
+    'Manzil 的功能模組，每個都有開關：行李、費用、文件、Vacay、Atlas、Collab、旅程、收藏、公路旅行、MCP、AirTrail、Dawarich 和 AI 解析。關閉後，導覽項目、路由和 API 會對所有人移除。',
   'help.ctx.admin-addons.bullet.1': '每個擴充套件一個圖塊，附有開關；如果有選項，圖塊下方還有對應的子列。',
   'help.ctx.admin-addons.bullet.2':
     '相片提供者和文件提供者也會以圖塊的形式列在這裡，所以可以向使用者提供 Immich 或 Synology。',
   'help.ctx.admin-addons.bullet.3': '「行李追蹤」在圖塊下方有自己的開關。',
   'help.ctx.admin-plugins.title': '外掛',
   'help.ctx.admin-plugins.summary':
-    '第三方外掛會在 TREK 旁以獨立程序執行，每個外掛只擁有安裝時申請的權限。你可以從目錄安裝、上傳套件，或在開發外掛時連結資料夾。',
+    '第三方外掛會在 Manzil 旁以獨立程序執行，每個外掛只擁有安裝時申請的權限。你可以從目錄安裝、上傳套件，或在開發外掛時連結資料夾。',
   'help.ctx.admin-plugins.bullet.1':
     '「已安裝」和「探索」，附有「搜尋外掛…」以及「型別」、「狀態」和「排序」篩選器。每一列顯示版本、「已審核」、「已簽署」或「未簽署」、外掛可存取的內容、一個開關和一個 ⋯ 選單。',
   'help.ctx.admin-plugins.bullet.2':
@@ -1305,13 +1305,13 @@ const help: TranslationStrings = {
     '「管理員 Webhook」、「管理員 Ntfy」和「通知」卡片：決定管理員事件（「有新版本可用」、「儲存複本故障」、「划槳區域申請」）送到哪裡，每個都有測試按鈕。',
   'help.ctx.admin-mcp-tokens.title': 'MCP 存取',
   'help.ctx.admin-mcp-tokens.summary':
-    '所有使用者的 AI 用戶端在這個 TREK 上持有的每個權杖和 OAuth 工作階段。你可以撤銷其中任何一個。',
+    '所有使用者的 AI 用戶端在這個 Manzil 上持有的每個權杖和 OAuth 工作階段。你可以撤銷其中任何一個。',
   'help.ctx.admin-mcp-tokens.bullet.1':
     '「OAuth 工作階段」：客戶端、授予的權限範圍、擁有者和日期，垃圾桶圖示可撤銷它。',
   'help.ctx.admin-mcp-tokens.bullet.2': '「API 令牌」：名稱、擁有者、「建立時間」和「最後使用」，垃圾桶圖示可刪除它。',
   'help.ctx.admin-github.title': 'GitHub',
   'help.ctx.admin-github.summary':
-    'TREK 的最新動態：來自 GitHub 的發布歷史，以及是否有比你的版本更新的版本。更新本身在應用程式之外、在主機上進行。',
+    'Manzil 的最新動態：來自 GitHub 的發布歷史，以及是否有比你的版本更新的版本。更新本身在應用程式之外、在主機上進行。',
   'help.ctx.admin-github.bullet.1':
     '「版本歷史」以時間軸列出各版本及其說明；最新的標有「最新」，預發行版本標示「預釋出」，GitHub 會開啟發布頁面。',
   'help.ctx.admin-github.bullet.2':
@@ -1372,7 +1372,7 @@ const help: TranslationStrings = {
   'help.guide.delete-user.tip.2': '你自己的那一列垃圾桶無法使用：你不能刪除自己。必須由另一位管理員來做。',
   // permissions
   'help.guide.permissions.title': '決定誰可以做什麼',
-  'help.guide.permissions.goal': '依操作設定，在這個 TREK 上哪些角色可以執行。',
+  'help.guide.permissions.goal': '依操作設定，在這個 Manzil 上哪些角色可以執行。',
   'help.guide.permissions.step.1':
     '在「許可權設定」下，找到所屬群組中的操作，例如「旅行管理」下的「刪除行程」，並選擇誰可以執行：「所有人」、「旅行成員」、「旅行所有者」或「僅管理員」。被修改的列會標示為「已自定義」。',
   'help.guide.permissions.step.2':
@@ -1433,10 +1433,10 @@ const help: TranslationStrings = {
   'help.guide.auth-methods.step.2':
     '「SSO Login」和「SSO Auto-Provisioning」需要先在下方設定「單點登入 (OIDC)」。自動佈建會在有人第一次透過 SSO 登入時建立帳號。',
   'help.guide.auth-methods.step.3':
-    '開啟「要求雙因素身份驗證（2FA）」，讓所有尚未設定 2FA 的人必須先在「設定」中完成設定，才能使用 TREK。',
+    '開啟「要求雙因素身份驗證（2FA）」，讓所有尚未設定 2FA 的人必須先在「設定」中完成設定，才能使用 Manzil。',
   'help.guide.auth-methods.result': '登入頁面只會提供你保持開啟的登入方式。',
   'help.guide.auth-methods.tip.1':
-    'TREK 不會讓你關閉最後一種登入方式：它的開關會變灰，提示文字會顯示「至少要保留一種登入方式」。',
+    'Manzil 不會讓你關閉最後一種登入方式：它的開關會變灰，提示文字會顯示「至少要保留一種登入方式」。',
   'help.guide.auth-methods.tip.2': '伺服器設定了 OIDC_ONLY 時，密碼開關會被鎖定，並有說明提示。',
   // oidc
   'help.guide.oidc.title': '設定單一登入',
@@ -1446,7 +1446,7 @@ const help: TranslationStrings = {
   'help.guide.oidc.step.2': '在「Authentication Methods」下開啟「SSO Login」。',
   'help.guide.oidc.result':
     '登入頁面會顯示 SSO 按鈕；開啟「SSO Auto-Provisioning」後，首次登入的使用者會自動取得帳號。',
-  'help.guide.oidc.tip.1': '你的提供者需要的重新導向 URI，是你的 TREK 位址加上文件中的 OIDC 回呼路徑。',
+  'help.guide.oidc.tip.1': '你的提供者需要的重新導向 URI，是你的 Manzil 位址加上文件中的 OIDC 回呼路徑。',
   'help.guide.oidc.tip.2': '宣告對應會決定哪些 SSO 群組成為管理員，請參閱文件中的 OIDC 頁面。',
   // instance-keys
   'help.guide.instance-keys.title': '輸入 API 金鑰',
@@ -1460,20 +1460,20 @@ const help: TranslationStrings = {
   'help.guide.instance-keys.result':
     '使用者無需自己的金鑰就能使用這些功能。沒有 Google 金鑰時，搜尋會使用 TREK Places API 和 OpenStreetMap。',
   'help.guide.instance-keys.tip.1':
-    '如果使用者在「設定」中有自己的金鑰，TREK 對該使用者就會優先使用個人金鑰，而不是實例金鑰。',
+    '如果使用者在「設定」中有自己的金鑰，Manzil 對該使用者就會優先使用個人金鑰，而不是實例金鑰。',
   'help.guide.instance-keys.tip.2': '金鑰也可以來自環境變數，這類金鑰在這裡會顯示為唯讀。',
   'help.guide.instance-keys.tip.3':
-    '「Google 呼叫每日上限」限制 TREK 每天可以在這把金鑰上花多少額度，標題旁的徽章會顯示今天的呼叫次數。達到上限後，搜尋會改用 OpenStreetMap，直到隔天（UTC）。',
+    '「Google 呼叫每日上限」限制 Manzil 每天可以在這把金鑰上花多少額度，標題旁的徽章會顯示今天的呼叫次數。達到上限後，搜尋會改用 OpenStreetMap，直到隔天（UTC）。',
   // places-transit
   'help.guide.places-transit.title': '選擇搜尋與大眾運輸的提供商',
   'help.guide.places-transit.goal': '選擇由哪個服務來回應地點搜尋和大眾運輸路線的請求。',
   'help.guide.places-transit.step.1':
     '在「公共運輸資料來源」下，選擇「Transitous（免費）」（不需金鑰，在歐洲表現最佳），或使用 Google 金鑰的 Google。選擇會立即儲存。',
   'help.guide.places-transit.step.2':
-    '在「地點搜尋來源」下，選擇當 TREK 索引和 OpenStreetMap 都找不到時要詢問誰：「自動」（有金鑰時用 Google，其次是高德地圖）、Google Places、高德地圖或 OpenStreetMap。',
-  'help.guide.places-transit.result': 'TREK 中的每個搜尋框和每條大眾運輸路線，都會使用這個選擇。',
+    '在「地點搜尋來源」下，選擇當 Manzil 索引和 OpenStreetMap 都找不到時要詢問誰：「自動」（有金鑰時用 Google，其次是高德地圖）、Google Places、高德地圖或 OpenStreetMap。',
+  'help.guide.places-transit.result': 'Manzil 中的每個搜尋框和每條大眾運輸路線，都會使用這個選擇。',
   'help.guide.places-transit.tip.1':
-    '沒有對應金鑰的選項會在這裡顯示警告。此時地點搜尋只會使用 TREK 索引和 OpenStreetMap，大眾運輸則只會使用 Transitous。',
+    '沒有對應金鑰的選項會在這裡顯示警告。此時地點搜尋只會使用 Manzil 索引和 OpenStreetMap，大眾運輸則只會使用 Transitous。',
   'help.guide.places-transit.tip.2': 'Google 的大眾運輸路線依請求次數計費，Transitous 則不收費。',
   // file-types
   'help.guide.file-types.title': '限制檔案類型',
@@ -1513,7 +1513,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.2':
     '在「分類」下，將每種上傳類型指派給一個後端，例如「行程文件」、「旅程相片」或「備份」。',
   'help.guide.storage-backends.step.3':
-    '點擊底部的「儲存變更」。如果某個分類現在改指向別處，TREK 會詢問要「移動現有物件」還是「僅路由新寫入」。',
+    '點擊底部的「儲存變更」。如果某個分類現在改指向別處，Manzil 會詢問要「移動現有物件」還是「僅路由新寫入」。',
   'help.guide.storage-backends.result':
     '新的上傳會存到指派的後端。已移動的檔案從新位置提供，你選擇不移動的檔案則留在原處。',
   'help.guide.storage-backends.tip.1': '透過環境變數設定的後端會顯示出來，但無法在這裡編輯。',
@@ -1554,7 +1554,7 @@ const help: TranslationStrings = {
     '關閉 MCP 擴充套件會立刻停止所有客戶端並隱藏這個分頁，但不會刪除任何資料。重新開啟後，權杖就能再次使用。',
   // release-history
   'help.guide.release-history.title': '檢查是否有新版本',
-  'help.guide.release-history.goal': '了解你的 TREK 是否為最新版本，以及下一個版本有什麼新內容。',
+  'help.guide.release-history.goal': '了解你的 Manzil 是否為最新版本，以及下一個版本有什麼新內容。',
   'help.guide.release-history.step.1':
     '有較新的版本時，頁面標題下方會顯示「有可用更新」，並附上你目前執行的版本。「在 GitHub 檢視」會開啟該版本，「如何更新」則顯示 Docker 的指令，或其他安裝方式的更新指南。',
   'help.guide.release-history.step.2':
@@ -1601,7 +1601,7 @@ const help: TranslationStrings = {
   'help.guide.document-providers.step.2':
     '開啟 Nextcloud 那一列的開關。畫面會顯示「擴充套件已更新」，之後旅行所有者就能在旅行的「檔案」分頁看到「文件同步」，Nextcloud 則列在「連接提供者」之下。',
   'help.guide.document-providers.result':
-    '這個儲存服務可用於這個 TREK 的每一趟旅行。在旅行所有者連接之前，不會連上任何東西。',
+    '這個儲存服務可用於這個 Manzil 的每一趟旅行。在旅行所有者連接之前，不會連上任何東西。',
   'help.guide.document-providers.tip.1':
     '這裡只決定是否提供某個儲存服務。位址和憑證屬於個別旅行，由旅行所有者在該旅行的「檔案」分頁中輸入，絕不會在管理面板中輸入。',
   'help.guide.document-providers.tip.2':
@@ -1612,7 +1612,7 @@ const help: TranslationStrings = {
   'help.ctx.trip.summary':
     '一趟旅行的所有內容：有天數、地圖和地點的計畫，以及遊程、交通、預訂、行李、費用、檔案、協作和已連結日誌的分頁。每個分頁在這一頁下方都有各自的說明畫面。',
   'help.ctx.trip.bullet.1':
-    '頂部列下方的分頁列：計畫、遊程、交通、預訂、行李、費用、檔案、協作，以及連結日誌後出現的日誌。擴充套件和外掛決定你的 TREK 上有哪些分頁。',
+    '頂部列下方的分頁列：計畫、遊程、交通、預訂、行李、費用、檔案、協作，以及連結日誌後出現的日誌。擴充套件和外掛決定你的 Manzil 上有哪些分頁。',
   'help.ctx.trip.bullet.2':
     '「計畫」分為三欄：左邊是天數，中間是地圖，右邊是地點。啟用公路旅行擴充套件後，天數欄的開頭會有「天數」和「公路旅行」的切換；啟用遊程擴充套件後，地點欄的開頭會有「地點」和「遊程」。預訂和交通都在計畫裡面，位於停靠點上和停靠點之間；分頁則將它們列成清單。',
   'help.ctx.trip.bullet.3':
@@ -1624,20 +1624,20 @@ const help: TranslationStrings = {
   'help.ctx.trip.bullet.6': '天數工具列中的復原箭頭可以一步一步復原你最近對計畫所做的變更。',
   // add-member
   'help.guide.add-member.title': '新增成員',
-  'help.guide.add-member.goal': '讓有 TREK 帳號的人可以存取這趟旅行。',
+  'help.guide.add-member.goal': '讓有 Manzil 帳號的人可以存取這趟旅行。',
   'help.guide.add-member.step.1': '點擊「旅行設定」，也就是左上角旅行名稱旁邊的標籤。它會開啟到「成員」。',
   'help.guide.add-member.step.2': '在「邀請使用者」下，從「選擇使用者…」中選擇人，然後點擊「邀請」。',
   'help.guide.add-member.step.3':
     '這個人現在會出現在「訪問許可權」下。「所有者」徽章標示擁有者；該列末端的「移除訪問許可權」在你確認後會將此人移除。',
   'help.guide.add-member.result': '成員可以像你一樣查看和編輯這趟旅行，範圍在管理員於「許可權設定」中設定的層級之內。',
-  'help.guide.add-member.tip.1': '清單中找不到的人，表示還沒有 TREK 帳號：請把對方加為訪客，或讓他們透過邀請連結註冊。',
+  'help.guide.add-member.tip.1': '清單中找不到的人，表示還沒有 Manzil 帳號：請把對方加為訪客，或讓他們透過邀請連結註冊。',
   'help.guide.add-member.tip.2': '「訪問許可權」旁邊的數字是旅行中的人數；訪客另外列在下方。',
   // trip-invite-link
   'help.guide.trip-invite-link.title': '用連結邀請',
   'help.guide.trip-invite-link.goal': '讓別人自己加入旅行。',
   'help.guide.trip-invite-link.step.1':
     '點擊旅行名稱旁的「旅行設定」，並在左側選擇「分享中」。在「行程邀請連結」下，點擊「建立邀請連結」。',
-  'help.guide.trip-invite-link.step.2': '點選「複製」並傳送連結。任何有 TREK 帳號的人開啟連結，就會以成員身分加入。',
+  'help.guide.trip-invite-link.step.2': '點選「複製」並傳送連結。任何有 Manzil 帳號的人開啟連結，就會以成員身分加入。',
   'help.guide.trip-invite-link.step.3': '「重新產生」會換成新連結，舊連結隨即失效；「停用」則會關閉連結。',
   'help.guide.trip-invite-link.result': '任何人開啟連結就會加入旅行，並列在「訪問許可權」下。',
   'help.guide.trip-invite-link.tip.1':
@@ -1645,7 +1645,7 @@ const help: TranslationStrings = {
   'help.guide.trip-invite-link.tip.2': '如果連結傳錯了聊天室，請重新產生連結，舊連結會立刻失效。',
   // add-guest
   'help.guide.add-guest.title': '新增沒有帳號的訪客',
-  'help.guide.add-guest.goal': '把不使用 TREK 的人加入旅行。',
+  'help.guide.add-guest.goal': '把不使用 Manzil 的人加入旅行。',
   'help.guide.add-guest.step.1':
     '點擊旅行名稱旁的「旅行設定」。在「成員」中，「訪客」是最後一個部分，位於「訪問許可權」下方。',
   'help.guide.add-guest.step.2': '在「訪客姓名」中輸入名字，再點選「新增訪客」。',
@@ -1695,7 +1695,7 @@ const help: TranslationStrings = {
   'help.guide.undo-change.tip.1':
     '復原涵蓋計畫：新增、指派、移除、重新排序、移動和鎖定地點、清空一天、最佳化路線、刪除地點、分類變更和匯入。',
   'help.guide.undo-change.tip.2':
-    '再點一次可繼續往回復原：TREK 會保留你在這趟旅行最近的 30 次變更（最新的在前），直到你離開旅行為止。',
+    '再點一次可繼續往回復原：Manzil 會保留你在這趟旅行最近的 30 次變更（最新的在前），直到你離開旅行為止。',
   'help.guide.clear-day.title': '清空某一天',
   'help.guide.clear-day.goal': '一次移除某一天的所有地點，例如想從頭重新規劃那一天。',
   'help.guide.clear-day.step.1': '在計畫中，對當天的標題按右鍵。',
@@ -1726,18 +1726,18 @@ const help: TranslationStrings = {
   'help.guide.create-place.step.1':
     '點擊地點欄頂部的「新增地點/活動」（開啟某一天時則是「新地點」）。表單開啟後，游標會停在搜尋框。',
   'help.guide.create-place.step.2':
-    '在「搜尋地點…」中輸入地點並選擇結果。對話方塊頂部的名稱、「位址」、「緯度」、「經度」和「網站」會自動填入，左側的「地點詳細資料」會顯示圖片、營業時間和描述。如果 TREK 設有 Google 金鑰，結果下方的「不是正確的地點？改用 Google 搜尋」會改用 Google 執行同樣的搜尋。開啟收藏後，右側的「已儲存的地點」也會以同樣的方式提供你清單中的地點。',
+    '在「搜尋地點…」中輸入地點並選擇結果。對話方塊頂部的名稱、「位址」、「緯度」、「經度」和「網站」會自動填入，左側的「地點詳細資料」會顯示圖片、營業時間和描述。如果 Manzil 設有 Google 金鑰，結果下方的「不是正確的地點？改用 Google 搜尋」會改用 Google 執行同樣的搜尋。開啟收藏後，右側的「已儲存的地點」也會以同樣的方式提供你清單中的地點。',
   'help.guide.create-place.step.3':
     '在「地點詳細資料」中，點擊「選擇圖片」下的一張圖片，將它設為地點的圖片。「使用此文字」會把描述複製到表單中。',
   'help.guide.create-place.step.4':
     '檢查表單中的內容。對話方塊標題中的名稱是唯一必填的欄位。下方的「分類」標籤可選擇旅行的其中一個分類，旁邊的 + 可建立新分類。「位址」、「緯度」和「經度」來自搜尋，或手動輸入。「描述」和「筆記」由你自己填寫。「網站」填入連結，「檔案」下的「附加」可加入文件，「電話」、「電子郵件」和「新增營業時間」則填入搜尋沒有查到的資料。',
   'help.guide.create-place.step.5':
-    '點選「新增」。如果旅行中已經有同名或位置相同的地點，TREK 會顯示警告，按鈕也會變成「仍要新增」。',
+    '點選「新增」。如果旅行中已經有同名或位置相同的地點，Manzil 會顯示警告，按鈕也會變成「仍要新增」。',
   'help.guide.create-place.result': '地點會出現在清單和地圖上，在你把它排到某一天之前，會顯示在「未規劃」之下。',
   'help.guide.create-place.tip.1':
     '開啟預算擴充套件後，表單底部的「費用」會在儲存後立即開啟該地點支出的「費用」編輯器。貼到對話方塊中的圖片或 PDF，會像「檔案」下的檔案一樣被附加。',
   'help.guide.create-place.tip.2':
-    '每個 TREK 的搜尋結果都來自 TREK 索引和 OpenStreetMap，「地點詳細資料」則會自動從 Wikipedia、Wikivoyage 和 Wikimedia 補上內容。只有在這兩者都找不到時，TREK 才會去問 Google，而且只有 Google 會提供評分。',
+    '每個 Manzil 的搜尋結果都來自 Manzil 索引和 OpenStreetMap，「地點詳細資料」則會自動從 Wikipedia、Wikivoyage 和 Wikimedia 補上內容。只有在這兩者都找不到時，Manzil 才會去問 Google，而且只有 Google 會提供評分。',
   'help.guide.create-place.tip.3': '你也可以直接在地圖上建立地點：在該位置按右鍵，表單就會開啟，並已填好座標和地址。',
   // place-to-open-day
   'help.guide.place-to-open-day.title': '直接把地點加到目前開啟的日期',
@@ -1820,7 +1820,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-file.result':
     '地點已進入列表。軌跡在其列上帶有彩色線條，會繪製在地圖上，並有自己的「軌跡」篩選。',
   'help.guide.import-places-file.tip.1':
-    '檔案太大會被拒絕，TREK 也會顯示大小上限；請去掉照片後重新匯出，或把檔案拆開。',
+    '檔案太大會被拒絕，Manzil 也會顯示大小上限；請去掉照片後重新匯出，或把檔案拆開。',
   'help.guide.import-places-file.tip.2': '你可以從天數上方的工具列復原整次匯入。',
   // import-places-list
   'help.guide.import-places-list.title': '匯入共用的 Google Maps 或 Naver Maps 清單',
@@ -1832,7 +1832,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-list.result': '清單中的每個地點都會加入旅行，名稱與清單中一致；旅行中已有的地點則會略過。',
   'help.guide.import-places-list.tip.1': '清單必須公開分享；私人清單的連結無法匯入任何內容。',
   'help.guide.import-places-list.tip.2':
-    '如果你的 TREK 設有 Google 金鑰，對話框中會出現「透過 Google 豐富地點資訊」：它會逐一查詢匯入的地點，並補上照片、地址和詳細資料。',
+    '如果你的 Manzil 設有 Google 金鑰，對話框中會出現「透過 Google 豐富地點資訊」：它會逐一查詢匯入的地點，並補上照片、地址和詳細資料。',
   'help.guide.sort-places.title': '排序地點清單',
   'help.guide.sort-places.goal': '依名稱、評分，或最近新增或更改的順序排列清單。',
   'help.guide.sort-places.step.1':
@@ -1933,7 +1933,7 @@ const help: TranslationStrings = {
   'help.guide.set-stop-times.result': '有設定時間的停留點會維持在順序中的位置，沒有時間的停留點則排在它們前後。',
   'help.guide.set-stop-times.tip.1': '時間是屬於那一天的停留點；同一個地點在另一天可以設定不同的時間。',
   'help.guide.set-stop-times.tip.2':
-    '要手動移動有時間的停留點，請直接拖曳它。TREK 會詢問「移除時間？」，按下「確認」後，時間就會被移除。',
+    '要手動移動有時間的停留點，請直接拖曳它。Manzil 會詢問「移除時間？」，按下「確認」後，時間就會被移除。',
   'help.guide.set-stop-times.tip.3':
     '同一個表單中的「當天備註」，適合記錄只適用於這一天的資訊，例如餐廳訂位或票券編號。',
   // remove-from-day
@@ -1968,7 +1968,7 @@ const help: TranslationStrings = {
   'help.guide.day-note.tip.2': '備註是依天數記錄的。整趟旅行的備註請寫在 Collab。',
   // day-route
   'help.guide.day-route.title': '顯示並最佳化當天路線',
-  'help.guide.day-route.goal': '查看停留點之間的路線，選擇交通方式，並讓 TREK 幫你排出順序。',
+  'help.guide.day-route.goal': '查看停留點之間的路線，選擇交通方式，並讓 Manzil 幫你排出順序。',
   'help.guide.day-route.step.1':
     '開啟當天，並點擊停靠點下方路線列中的「路線」：停靠點之間的路線會繪製在地圖上，停靠點之間的連接線會顯示每一段的時間和距離。',
   'help.guide.day-route.step.2':
@@ -1980,7 +1980,7 @@ const help: TranslationStrings = {
   'help.guide.day-route.step.5':
     '「在 Google Maps 中開啟」或「在 CoMaps 中開啟」會在該 App 中把整天當作一條路線開啟，方便途中導航，CoMaps 也會沿用當天的交通方式。',
   'help.guide.day-route.result': '這一天成為一條附有時間的路線；順序一改變，「總費用」和各路段就會更新。',
-  'help.guide.day-route.tip.1': '路線預設由 OSRM 提供；管理員可以在「用戶預設設定」中，讓 TREK 改用其他路線引擎。',
+  'help.guide.day-route.tip.1': '路線預設由 OSRM 提供；管理員可以在「用戶預設設定」中，讓 Manzil 改用其他路線引擎。',
   'help.guide.day-route.tip.2': '無法規劃路線的路段不會顯示時間。請確認兩個停留點都有座標。',
   'help.guide.day-route.tip.3': '復原箭頭可以還原一次最佳化。',
   // manage-days
@@ -2050,7 +2050,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-place.bullet.5':
     '底部那一列：展開某一天時有「新增到當天」或「從當天移除」，接著是「導航」（在「設定」中選好地圖 App 後，會顯示該 App 的名稱）、「開啟網站」和「儲存到收藏」。右側的紅色垃圾桶用來刪除地點，「編輯」則開啟地點表單。',
   'help.ctx.trip-place.bullet.6':
-    '從搜尋中選取的地點會帶有 TREK 索引或 OpenStreetMap 所知的資訊：標題標籤中的「開啟」或「已關閉」，圖片周圍有綠色或紅色外圈，依該地點自己的時間判定；電話號碼同樣是標籤；下方是「營業時間」，該列顯示當天的時段，整週的時段點擊後展開；網站在「開啟網站」後面。Google 的評分只會在透過 Google 找到的地點上顯示，且需要這個 TREK 有 Google 金鑰。你在地點表單中親自輸入的營業時間、電話號碼和電子郵件，優先於查詢到的內容，也會決定外圈的顏色。',
+    '從搜尋中選取的地點會帶有 Manzil 索引或 OpenStreetMap 所知的資訊：標題標籤中的「開啟」或「已關閉」，圖片周圍有綠色或紅色外圈，依該地點自己的時間判定；電話號碼同樣是標籤；下方是「營業時間」，該列顯示當天的時段，整週的時段點擊後展開；網站在「開啟網站」後面。Google 的評分只會在透過 Google 找到的地點上顯示，且需要這個 Manzil 有 Google 金鑰。你在地點表單中親自輸入的營業時間、電話號碼和電子郵件，優先於查詢到的內容，也會決定外圈的顏色。',
   // read-place
   'help.guide.read-place.title': '從卡片了解一個地點',
   'help.guide.read-place.goal': '在一張卡片上看完旅行中關於某個地點的所有資訊。',
@@ -2091,7 +2091,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.goal': '用你自己的照片取代自動產生的縮圖。',
   'help.guide.place-image.step.1': '從地點欄開啟這個地點。',
   'help.guide.place-image.step.2':
-    '將游標移到標題中的圓形圖片上：會出現相機圖示，提示文字顯示「上傳圖片」。點擊它並選擇你的檔案。如果地點的檔案中已有照片，TREK 會先請你選擇：「從裝置上傳」，或「從附加檔案選擇」下的其中一張圖片。',
+    '將游標移到標題中的圓形圖片上：會出現相機圖示，提示文字顯示「上傳圖片」。點擊它並選擇你的檔案。如果地點的檔案中已有照片，Manzil 會先請你選擇：「從裝置上傳」，或「從附加檔案選擇」下的其中一張圖片。',
   'help.guide.place-image.step.3': '卡片頂端現在會顯示你的圖片，圖片角落有一個紅色的小 X。',
   'help.guide.place-image.step.4': '同一張圖片也會顯示在地點欄中該地點的那一列，以及它在地圖上的標記。',
   'help.guide.place-image.result':
@@ -2099,7 +2099,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.tip.1': '支援 JPG、PNG、GIF 和 WebP，iPhone 的 HEIC 檔案則會在上傳時自動轉換。',
   'help.guide.place-image.tip.2': '角落的 X 可以移除你的圖片，自動圖片就會重新顯示。地點本身不受影響。',
   'help.guide.place-image.tip.3':
-    '如果你沒有加入圖片，TREK 會依地點座標查找一張，找不到時就改用分類的圖示。只有有權修改地點的旅伴才能設定圖片。',
+    '如果你沒有加入圖片，Manzil 會依地點座標查找一張，找不到時就改用分類的圖示。只有有權修改地點的旅伴才能設定圖片。',
   // place-day-assign
   'help.guide.place-day-assign.title': '把地點加到目前開啟的日期，或從中移除',
   'help.guide.place-day-assign.goal': '使用卡片上的按鈕，不用把該列拖過整個規劃器。',
@@ -2170,10 +2170,10 @@ const help: TranslationStrings = {
   'help.guide.place-navigation.step.2':
     '列表中是適用於這個地點的地圖 App：Google Maps、Waze、Apple Maps、OpenStreetMap 和 CoMaps，在 Android 上還有「其他地圖 App」。',
   'help.guide.place-navigation.step.3':
-    '點選你常用的那一個。TREK 會盡可能把地點本身傳給該應用程式，而不只是座標，這樣你就能抵達正確的入口。',
+    '點選你常用的那一個。Manzil 會盡可能把地點本身傳給該應用程式，而不只是座標，這樣你就能抵達正確的入口。',
   'help.guide.place-navigation.step.4': '旁邊的「開啟網站」會在新分頁中開啟地點自己的網站，上面有營業時間和票券資訊。',
   'help.guide.place-navigation.result':
-    '地圖 App 會開啟該地點，網站則在新分頁中開啟，旅行中的任何內容都不會改變。如果 TREK 已安裝為 App，就會直接開啟地圖 App，而不是新分頁。',
+    '地圖 App 會開啟該地點，網站則在新分頁中開啟，旅行中的任何內容都不會改變。如果 Manzil 已安裝為 App，就會直接開啟地圖 App，而不是新分頁。',
   'help.guide.place-navigation.tip.1':
     'Waze 會直接開始導航。其他應用程式則是開啟該地點，你還需要再點一下才會開始導航。',
   'help.guide.place-navigation.tip.2':
@@ -2206,7 +2206,7 @@ const help: TranslationStrings = {
     '左邊的虛線格子「自動顏色」會讓軌跡恢復成預設顏色；右邊的滴管會開啟系統的顏色選擇器，讓你選其他任何顏色。',
   'help.guide.place-track.result': '軌跡會以你選的顏色繪製，不論是在卡片中、地點欄的那一列，還是地圖上。',
   'help.guide.place-track.tip.1':
-    '只有帶有路徑的地點才有這兩個區塊：在遊程功能推出前從 GPX、KML 或 KMZ 檔案匯入的地點，或是在關閉遊程的 TREK 上匯入的地點。開啟遊程後，新的 GPX 檔案會成為遊程，並開啟自己的遊程卡片。',
+    '只有帶有路徑的地點才有這兩個區塊：在遊程功能推出前從 GPX、KML 或 KMZ 檔案匯入的地點，或是在關閉遊程的 Manzil 上匯入的地點。開啟遊程後，新的 GPX 檔案會成為遊程，並開啟自己的遊程卡片。',
   'help.guide.place-track.tip.2':
     '記錄了高度的軌跡，還會顯示最高點和最低點、上升和下降的公尺數，以及這段路線的剖面圖。',
   'help.guide.place-track.tip.3': '匯入時，每條軌跡都會分到自己的顏色，所以兩段步行路線不會是同一個顏色。',
@@ -2219,13 +2219,13 @@ const help: TranslationStrings = {
   'help.ctx.trip-files.summary':
     '旅行的所有文件都在同一份清單中：車票、確認單、通行證和圖片。每份文件都有備註、連結到所屬地點或預訂的連結，以及可以還原它的回收站。',
   'help.ctx.trip-files.bullet.1':
-    '「將檔案拖放到此處」是列下方的虛線框，可以接收拖放進去的檔案，點擊它則會開啟檔案選擇器。方框內會列出這個 TREK 接受的檔案類型，以及每個檔案的大小上限（最大 50 MB，除非管理員另外設定）。',
+    '「將檔案拖放到此處」是列下方的虛線框，可以接收拖放進去的檔案，點擊它則會開啟檔案選擇器。方框內會列出這個 Manzil 接受的檔案類型，以及每個檔案的大小上限（最大 50 MB，除非管理員另外設定）。',
   'help.ctx.trip-files.bullet.2':
     '頂端的列包含「檔案」，以及篩選分頁「全部」、「PDF」、「圖片」和「文件」，每個分頁都附有數量。只要有檔案被加上星號，「全部」之後就會出現星號分頁；只要有筆記附有附件，最後就會出現「協作筆記」分頁。',
   'help.ctx.trip-files.bullet.3':
     '每一列會顯示縮圖或檔案類型、上傳者、名稱、名稱下方的備註、大小和日期，以及每個連結各一個徽章：地點、以名稱顯示的預訂或交通（把游標移上去會顯示「日程計劃」、「預訂」或「交通」），以及「來自協作筆記」。',
   'help.ctx.trip-files.bullet.4':
-    '每一列末端最多有五個圖示，將游標移上去會顯示名稱：「收藏」、「分配」（鉛筆）、開啟、「下載」和「刪除」。「刪除」不會先詢問：檔案會進入垃圾桶，之後可以復原。離線時，筆記、連結、星號和垃圾桶仍可使用，並會在 TREK 重新上線後送出，只有上傳和移除其他連結需要網路連線。',
+    '每一列末端最多有五個圖示，將游標移上去會顯示名稱：「收藏」、「分配」（鉛筆）、開啟、「下載」和「刪除」。「刪除」不會先詢問：檔案會進入垃圾桶，之後可以復原。離線時，筆記、連結、星號和垃圾桶仍可使用，並會在 Manzil 重新上線後送出，只有上傳和移除其他連結需要網路連線。',
   'help.ctx.trip-files.bullet.5':
     '圖片或影片會以全螢幕開啟，可用方向鍵切換，並附有一排縮圖。其他文件則在對話框中開啟，頂端是名稱，下方有「在新標籤頁中開啟」和「下載」。錢包票卡會直接下載。',
   'help.ctx.trip-files.bullet.6':
@@ -2235,7 +2235,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.goal': '把下載資料夾中的票券、確認單或照片上傳到旅行，讓旅行中的每個人都能開啟。',
   'help.guide.files-upload.step.1': '開啟旅行，點選分頁列中的「檔案」。旅行的文件會列在那裡，上方是上傳區。',
   'help.guide.files-upload.step.2':
-    '點擊「將檔案拖放到此處」，選擇一個或多個檔案。檔案會逐一上傳，上傳期間方框會顯示「上傳中...」。方框內「或點選瀏覽」下方，會列出這個 TREK 接受的檔案類型和單一檔案的大小上限。',
+    '點擊「將檔案拖放到此處」，選擇一個或多個檔案。檔案會逐一上傳，上傳期間方框會顯示「上傳中...」。方框內「或點選瀏覽」下方，會列出這個 Manzil 接受的檔案類型和單一檔案的大小上限。',
   'help.guide.files-upload.step.3':
     '最後一個檔案上傳完成後，如果旅行中有任何地點或預訂，「分配檔案」就會自動為它開啟，對話框頂端會顯示檔案名稱。在「備註」下的「新增備註...」可以為檔案加一則備註，下方的清單則可以把檔案連結到地點或預訂。點選右上角的 × 關閉；關閉也不會遺失任何內容。',
   'help.guide.files-upload.step.4':
@@ -2244,7 +2244,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.tip.1': '你也可以直接把檔案從桌面拖到方塊上。檔案拖到方塊上方時，方塊會醒目標示。',
   'help.guide.files-upload.tip.2': '按 Ctrl+V 就能把剪貼簿中的圖片加到清單，所以不必先把預訂的截圖另存成檔案。',
   'help.guide.files-upload.tip.3':
-    '上傳需要有上傳檔案的權限；沒有權限時，上傳方框根本不會出現。不在清單上的檔案類型會被拒絕並顯示訊息，且不會上傳任何東西。超過上限的檔案（除非管理員另外設定，否則為 50 MB）會在傳送前就被拒絕，訊息會指出上限。上傳也需要網路連線：離線時 TREK 會告知，且不會上傳任何東西。',
+    '上傳需要有上傳檔案的權限；沒有權限時，上傳方框根本不會出現。不在清單上的檔案類型會被拒絕並顯示訊息，且不會上傳任何東西。超過上限的檔案（除非管理員另外設定，否則為 50 MB）會在傳送前就被拒絕，訊息會指出上限。上傳也需要網路連線：離線時 Manzil 會告知，且不會上傳任何東西。',
   // files-link
   'help.guide.files-link.title': '把文件連結到地點或預訂',
   'help.guide.files-link.goal': '讓你不只能從這份清單找到票券，也能從它所屬的那一天找到。',
@@ -2259,7 +2259,7 @@ const help: TranslationStrings = {
     '該列會顯示備註，以及每個連結各一個徽章：一個是地點的名稱，一個是航班的名稱。將滑鼠移到徽章上會顯示「日程計劃」或「交通」。這份文件同時也會附加在該地點和該航班上。',
   'help.guide.files-link.tip.1': '一個檔案可以同時有多個連結，所以同一份確認單可以同時屬於飯店預訂和飯店地點。',
   'help.guide.files-link.tip.2':
-    '再次點擊已勾選的項目會取消那個連結；檔案本身仍會保留。離線時，備註和新的勾選會等待，並在 TREK 重新上線後傳送；只有取消其他連結才需要網路連線。',
+    '再次點擊已勾選的項目會取消那個連結；檔案本身仍會保留。離線時，備註和新的勾選會等待，並在 Manzil 重新上線後傳送；只有取消其他連結才需要網路連線。',
   'help.guide.files-link.tip.3': '反過來也行：附加在地點或預訂上的文件，同樣會出現在這份清單中，該列也會有相同的徽章。',
   // files-star
   'help.guide.files-star.title': '把重要文件固定在最上面',
@@ -2288,7 +2288,7 @@ const help: TranslationStrings = {
   'help.guide.files-filter.tip.2':
     '清單一律先排已加星號的檔案，再依最新的在前排序，所以今天上傳的文件會排在上個月的文件前面。',
   // files-preview
-  'help.guide.files-preview.title': '不離開 TREK 就能閱讀文件',
+  'help.guide.files-preview.title': '不離開 Manzil 就能閱讀文件',
   'help.guide.files-preview.goal': '立即查看票券或圖片，需要時再下載到自己的裝置。',
   'help.guide.files-preview.step.1':
     '點擊圖片的名稱或縮圖。它會全螢幕開啟，左上角顯示檔案名稱及其在圖片中的順序。影片以同樣方式開啟並在那裡播放。',
@@ -2319,7 +2319,7 @@ const help: TranslationStrings = {
     '工具列中垃圾桶圖示旁的「清空回收站」會永久刪除回收站裡的所有內容。執行前，瀏覽器會先詢問一次確認。再點一次垃圾桶圖示即可切換回檔案清單。',
   'help.guide.files-trash.result': '檔案會回到清單中原來的位置。',
   'help.guide.files-trash.tip.1':
-    '一列上的「刪除」不會先詢問，這正是垃圾桶的用途：在你到這裡確認之前，沒有任何東西會離開 TREK。這一切離線時也能運作，並在 TREK 重新上線後傳送。',
+    '一列上的「刪除」不會先詢問，這正是垃圾桶的用途：在你到這裡確認之前，沒有任何東西會離開 Manzil。這一切離線時也能運作，並在 Manzil 重新上線後傳送。',
   'help.guide.files-trash.tip.2':
     '刪除和還原檔案需要「刪除檔案」的權限。沒有這項權限的成員，在該列上看不到「刪除」，在垃圾桶裡也看不到那些按鈕。',
   'help.guide.files-trash.tip.3': '在回收站中永久刪除的檔案就無法再找回來。',
@@ -2332,21 +2332,21 @@ const help: TranslationStrings = {
   'help.guide.files-sync.step.2':
     '點選你的儲存庫，這裡以 Nextcloud 為例。會開啟一個較小的對話框來設定連線，顯示儲存庫名稱，並要求輸入該儲存庫所需的登入資料。',
   'help.guide.files-sync.step.3':
-    '填入「位址」，以及該儲存服務自己的登入資料：Paperless-ngx 需要「API 權杖」，Papra 需要「API 金鑰」和「組織 ID」，Nextcloud 需要「使用者名稱」和「應用程式密碼」，OpenCloud 需要「使用者名稱」和「應用程式權杖」，Synology Drive 需要「使用者名稱」、「密碼」，如果帳號有要求，還要填「雙因素驗證碼」。只要儲存服務提供應用程式密碼或權杖，就請使用它們，千萬不要用你的帳號密碼。Nextcloud 和 Synology Drive 還可以填選填的「基礎資料夾」，TREK 會在那裡尋找旅行資料夾，這裡填 /Reisen。底部的「接受自簽憑證」只適用於你自己網路內、使用這類憑證的儲存服務。',
+    '填入「位址」，以及該儲存服務自己的登入資料：Paperless-ngx 需要「API 權杖」，Papra 需要「API 金鑰」和「組織 ID」，Nextcloud 需要「使用者名稱」和「應用程式密碼」，OpenCloud 需要「使用者名稱」和「應用程式權杖」，Synology Drive 需要「使用者名稱」、「密碼」，如果帳號有要求，還要填「雙因素驗證碼」。只要儲存服務提供應用程式密碼或權杖，就請使用它們，千萬不要用你的帳號密碼。Nextcloud 和 Synology Drive 還可以填選填的「基礎資料夾」，Manzil 會在那裡尋找旅行資料夾，這裡填 /Reisen。底部的「接受自簽憑證」只適用於你自己網路內、使用這類憑證的儲存服務。',
   'help.guide.files-sync.step.4':
-    '點選「測試連線」。TREK 會用你輸入的資料連接儲存服務，頁尾會顯示「已連上，登入身分為」，後面接帳號名稱。如果憑證被拒絕，或連不到該位址，頁尾會改為顯示相關訊息。不論哪種情況，都不會儲存任何內容。',
+    '點選「測試連線」。Manzil 會用你輸入的資料連接儲存服務，頁尾會顯示「已連上，登入身分為」，後面接帳號名稱。如果憑證被拒絕，或連不到該位址，頁尾會改為顯示相關訊息。不論哪種情況，都不會儲存任何內容。',
   'help.guide.files-sync.step.5':
-    '點選「連接」。連線會隨旅行一起儲存，TREK 接著會詢問旅行的文件要放在儲存服務的哪裡：存放文件的標籤、資料夾或空間。只有裡面的內容會同步。點選「建立」時，「建立新的」會依旅行標題自動命名並建立。在「或使用你已經有的」下，可以看到現有的項目。點選其中一個，這裡以資料夾 Autumn in Japan 為例。',
+    '點選「連接」。連線會隨旅行一起儲存，Manzil 接著會詢問旅行的文件要放在儲存服務的哪裡：存放文件的標籤、資料夾或空間。只有裡面的內容會同步。點選「建立」時，「建立新的」會依旅行標題自動命名並建立。在「或使用你已經有的」下，可以看到現有的項目。點選其中一個，這裡以資料夾 Autumn in Japan 為例。',
   'help.guide.files-sync.step.6':
-    '對話框會再次開啟：你的儲存服務列在左邊的「這次旅行」下，右邊的卡片會顯示同步目標、上次執行時間，以及「立即同步」。第一次同步會自動開始，之後隨時可以點選「立即同步」手動執行。同步後，名稱旁的「尚未同步」徽章會變成綠點，游標移上去會顯示「已同步」。流程列會顯示 TREK 與儲存服務各有多少文件，中間是「送往儲存庫」和「來自儲存庫」兩條通道。點選右上角的 × 關閉對話框。',
+    '對話框會再次開啟：你的儲存服務列在左邊的「這次旅行」下，右邊的卡片會顯示同步目標、上次執行時間，以及「立即同步」。第一次同步會自動開始，之後隨時可以點選「立即同步」手動執行。同步後，名稱旁的「尚未同步」徽章會變成綠點，游標移上去會顯示「已同步」。流程列會顯示 Manzil 與儲存服務各有多少文件，中間是「送往儲存庫」和「來自儲存庫」兩條通道。點選右上角的 × 關閉對話框。',
   'help.guide.files-sync.result':
-    '儲存庫裡原本就有的文件會出現在清單頂部，並以你的名義上傳；旅行中的每份文件（來自協作筆記的除外）也都會存進儲存庫。從此 TREK 會在背景檢查儲存庫，清單中的變更也會同步到儲存庫。',
+    '儲存庫裡原本就有的文件會出現在清單頂部，並以你的名義上傳；旅行中的每份文件（來自協作筆記的除外）也都會存進儲存庫。從此 Manzil 會在背景檢查儲存庫，清單中的變更也會同步到儲存庫。',
   'help.guide.files-sync.tip.1':
     '只有旅行的擁有者或實例管理員可以連接旅行，因為這組憑證可以存取儲存庫中的整個帳號。旅行連接之後，每位成員都會看到「文件同步」，可以開啟它、查看卡片，並按「立即同步」。',
   'help.guide.files-sync.tip.2':
-    '位於你自己網路內的儲存庫，需要在 TREK 伺服器上設定 ALLOW_INTERNAL_NETWORK=true，而且它的位址必須是那台機器在網路中的位址，不能是 localhost。否則「測試連線」會回應「不允許這個位址。」',
+    '位於你自己網路內的儲存庫，需要在 Manzil 伺服器上設定 ALLOW_INTERNAL_NETWORK=true，而且它的位址必須是那台機器在網路中的位址，不能是 localhost。否則「測試連線」會回應「不允許這個位址。」',
   'help.guide.files-sync.tip.3':
-    '「立即同步」旁邊的「中斷連線」圖示只會詢問你確認一次，然後結束連線，兩邊的文件都會保留。如果你再次連接同一個標籤、資料夾或空間，TREK 會把它當成新的，並重新匯入裡面的所有內容。所以中斷連線後，請連接一個空的，不要連回舊的。',
+    '「立即同步」旁邊的「中斷連線」圖示只會詢問你確認一次，然後結束連線，兩邊的文件都會保留。如果你再次連接同一個標籤、資料夾或空間，Manzil 會把它當成新的，並重新匯入裡面的所有內容。所以中斷連線後，請連接一個空的，不要連回舊的。',
 
   // ── Screen: trip-day-detail ───────────────────────────────────────────────────────────
   'help.ctx.trip-day-detail.title': '日程詳情',
@@ -2513,7 +2513,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.1':
     '地圖頂部那一排圖示是分類搜尋：「餐廳」、「咖啡廳」、「酒吧與夜生活」、「住宿」、「景點」、「博物館與文化」、「自然與公園」和「活動」。外掛新增的分類會排在一條細分隔線之後。將游標移到圖示上可看到名稱。',
   'help.guide.map-nearby-places.step.2':
-    '點選一個分類。TREK 會在地圖目前可見的範圍內搜尋這類地點，並為每個結果放上該分類顏色的圖釘。一次只能選一個分類：點選另一個會取代目前的分類，再點選已啟用的分類則會關閉。',
+    '點選一個分類。Manzil 會在地圖目前可見的範圍內搜尋這類地點，並為每個結果放上該分類顏色的圖釘。一次只能選一個分類：點選另一個會取代目前的分類，再點選已啟用的分類則會關閉。',
   'help.guide.map-nearby-places.step.3':
     '移動地圖後，這一排下方會出現第二個按鈕：「搜尋此區域」會針對新的可見範圍執行相同的搜尋。光是移動地圖不會自動重新搜尋，這樣可以減少請求次數。',
   'help.guide.map-nearby-places.step.4':
@@ -2521,13 +2521,13 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.5':
     '檢查自動填入的內容，並補上搜尋無法得知的資料。如果旅行中有相符的分類（例如餐廳對應餐廳），名稱下方的分類標籤已經設好，否則會顯示「無分類」，直到你選擇一個。再加上你自己的描述和筆記。',
   'help.guide.map-nearby-places.step.6':
-    '點選「新增」。如果旅行中已有同名或位在相同位置的地點，TREK 會告訴你，按鈕也會變成「仍要新增」。',
+    '點選「新增」。如果旅行中已有同名或位在相同位置的地點，Manzil 會告訴你，按鈕也會變成「仍要新增」。',
   'help.guide.map-nearby-places.result':
     '這個地點會出現在地點清單和地圖上，成為旅行自己的圖釘，在你把它排進某一天之前，會放在「未規劃」下。搜尋出的圖釘會一直保留，直到你關閉該分類。',
   'help.guide.map-nearby-places.tip.1':
     '如果在「設定」的「顯示」> 旅行與地圖下關閉了「在地圖上探索地點」，這一排就會隱藏。',
   'help.guide.map-nearby-places.tip.2':
-    '結果來自 TREK 的地點索引和 OpenStreetMap，所以這是計畫中少數需要網路連線的功能之一。',
+    '結果來自 Manzil 的地點索引和 OpenStreetMap，所以這是計畫中少數需要網路連線的功能之一。',
   'help.guide.map-nearby-places.tip.3':
     '搜尋只涵蓋螢幕上顯示的範圍，所以請放大到你想查的那條街。如果搜尋整座城市，只會回傳前六十筆結果，而且順序沒有明確規則。',
   // map-add-place
@@ -2535,7 +2535,7 @@ const help: TranslationStrings = {
   'help.guide.map-add-place.goal': '把地點準確放在你想要的位置，不必先搜尋。',
   'help.guide.map-add-place.step.1': '在地圖上的目標位置按右鍵。地點表單會開啟，標題為「新增地點/活動」。',
   'help.guide.map-add-place.step.2':
-    '「緯度」和「經度」已經設為該點。TREK 會查詢座標，並用查到的內容填入「地址」。如果查到名稱，TREK 也會填入對話框頂部的名稱。目前還沒有儲存任何內容，所以如有錯誤請自行更正。',
+    '「緯度」和「經度」已經設為該點。Manzil 會查詢座標，並用查到的內容填入「地址」。如果查到名稱，Manzil 也會填入對話框頂部的名稱。目前還沒有儲存任何內容，所以如有錯誤請自行更正。',
   'help.guide.map-add-place.step.3':
     '在對話框頂端的欄位輸入一個你認得的名稱。從下方的標籤選一個分類，選取之前會顯示「無分類」。接著再補上其他想放進計畫的資訊：「描述」、「備註」和「網站」。',
   'help.guide.map-add-place.step.4':
@@ -2551,7 +2551,7 @@ const help: TranslationStrings = {
   'help.guide.map-satellite.step.1':
     '底圖切換是地圖左下角兩個圓形按鈕中較下面的那個，位於鎖頭下方。它的圖示一律顯示它將切換到的圖層，將游標移上去會說明是哪個：「切換到衛星檢視」。點擊它。',
   'help.guide.map-satellite.step.2':
-    '地圖現在會顯示空拍影像，清晰到能看出單一建築物，而且你不需要自備金鑰。TREK 繪製的內容都會疊在最上層：圖釘、當天的路線、軌跡和預訂路線。',
+    '地圖現在會顯示空拍影像，清晰到能看出單一建築物，而且你不需要自備金鑰。Manzil 繪製的內容都會疊在最上層：圖釘、當天的路線、軌跡和預訂路線。',
   'help.guide.map-satellite.step.3': '按鈕現在會顯示「切換到地圖檢視」。點選它就能回到一般地圖。',
   'help.guide.map-satellite.result': '地圖會重新繪製，你選的圖層也會記在你的帳號上。',
   'help.guide.map-satellite.tip.1':
@@ -2601,7 +2601,7 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.goal':
     '把 Dawarich 在你手機上記錄的路線顯示在地圖上，以虛線呈現在你規劃的路線旁邊，一天一天看這趟旅行實際是怎麼走的。',
   'help.guide.map-dawarich-trail.step.1':
-    '圓形的 Dawarich 按鈕位於地圖右下角，在「顯示整趟行程」下方。把游標移到上面，會顯示「顯示記錄的路線」。點選它，TREK 就會向你的 Dawarich 要求這趟旅行日期內的資料，等待回應期間，按鈕周圍會有一圈轉動的圓環。',
+    '圓形的 Dawarich 按鈕位於地圖右下角，在「顯示整趟行程」下方。把游標移到上面，會顯示「顯示記錄的路線」。點選它，Manzil 就會向你的 Dawarich 要求這趟旅行日期內的資料，等待回應期間，按鈕周圍會有一圈轉動的圓環。',
   'help.guide.map-dawarich-trail.step.2':
     '記錄的路線會以虛線顯示在地圖上，每天一種顏色，並畫在計畫路線的下方，讓計畫仍然清楚易讀。按鈕現在會顯示「隱藏記錄的路線」。每一天都以當地的午夜為界。在天數欄中收合某一天時，那一天的虛線和停留點也會從地圖上隱藏。',
   'help.guide.map-dawarich-trail.step.3':
@@ -2609,9 +2609,9 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.result':
     '計畫的路線和實際走的路線會一起顯示在地圖上，分別是實線和虛線。按鈕上方的卡片仍會列出計畫中的天數和距離。',
   'help.guide.map-dawarich-trail.tip.1':
-    '開啟或關閉會依旅行記錄在你的帳號中，因此在每個瀏覽器、每台裝置上都一樣。路線開啟時，TREK 每兩分鐘會再向 Dawarich 查詢一次，所以進行中的旅行不用重新載入頁面也會更新。路線本身不會被儲存，因此不在 TREK 的資料庫和備份中，離線時也無法使用。',
+    '開啟或關閉會依旅行記錄在你的帳號中，因此在每個瀏覽器、每台裝置上都一樣。路線開啟時，Manzil 每兩分鐘會再向 Dawarich 查詢一次，所以進行中的旅行不用重新載入頁面也會更新。路線本身不會被儲存，因此不在 Manzil 的資料庫和備份中，離線時也無法使用。',
   'help.guide.map-dawarich-trail.tip.2':
-    '按鈕上的文字會告訴你地圖為什麼是空的：載入中會顯示「正在載入記錄的路線…」，也可能是「這幾天沒有任何記錄」或「無法載入記錄的路線」，TREK 離線時則是「記錄的路線需要網路連線」。',
+    '按鈕上的文字會告訴你地圖為什麼是空的：載入中會顯示「正在載入記錄的路線…」，也可能是「這幾天沒有任何記錄」或「無法載入記錄的路線」，Manzil 離線時則是「記錄的路線需要網路連線」。',
   // map-compass
   'help.guide.map-compass.title': '旋轉地圖並重新找到北方',
   'help.guide.map-compass.goal': '把地圖轉到你前進的方向，需要時點一下就能轉回正北。',
@@ -2758,7 +2758,7 @@ const help: TranslationStrings = {
   'help.guide.trip-chat.tip.1': '按 Enter 傳送，按 Shift 加 Enter 換行。只有一到三個表情符號的訊息會放大顯示。',
   'help.guide.trip-chat.tip.2': '使用「附加圖片」，一則訊息最多可加入四張圖片。你也可以直接貼上，或拖曳到輸入框。',
   'help.guide.trip-chat.tip.3':
-    '含有連結的訊息下方會顯示預覽卡片，由你自己的 TREK 擷取，所以只有你能連到的網址，仍然只會顯示為一般連結。',
+    '含有連結的訊息下方會顯示預覽卡片，由你自己的 Manzil 擷取，所以只有你能連到的網址，仍然只會顯示為一般連結。',
   'help.guide.trip-chat.tip.4':
     '「聊天」在「擴充套件」中、位於 Collab 之下，有自己的開關：管理員可以關閉聊天，同時保留筆記、連結、投票和「下一項」。',
 
@@ -2796,7 +2796,7 @@ const help: TranslationStrings = {
     '清單是靠物品存在的。如果刪掉最後一個物品，那一列會變成佔位列，讓清單保留位置和顏色；把佔位列也刪掉，清單就會消失。',
   'help.guide.packing-categories.tip.2':
     '指派某人負責一份清單時，對方會收到打包通知。這不會改變誰能看到這些物品，那是在每一列三個點選單的「分享中」設定。',
-  'help.guide.packing-categories.tip.3': '兩份清單可以同名。TREK 會在內部區分它們，所以名稱會維持你輸入的樣子。',
+  'help.guide.packing-categories.tip.3': '兩份清單可以同名。Manzil 會在內部區分它們，所以名稱會維持你輸入的樣子。',
   // check-off-packing
   'help.guide.check-off-packing.title': '邊打包邊打勾',
   'help.guide.check-off-packing.goal': '標記已放進行李的物品，看著進度條前進，並移除已打包好的物品。',
@@ -2837,7 +2837,7 @@ const help: TranslationStrings = {
     '每行一個物品：分類, 名稱, 重量（公克，選填）, 行李（選填）, checked/unchecked（選填）。方塊中的灰色範例列出了這四種格式，左邊的數字則是你輸入的行號。也可以使用 Markdown 清單：標題會成為清單名稱，「- [ ]」和「- [x]」則會變成物品。',
   'help.guide.import-packing-list.step.3':
     '也可以用對話框左下角的「載入 CSV/TXT/MD」從檔案載入這些行。它接受 .csv、.txt 或 .md 檔案，並會取代方塊中原有的內容。',
-  'help.guide.import-packing-list.step.4': '點選右下角的「匯入 3」，按鈕上的數字是 TREK 讀懂的行數。',
+  'help.guide.import-packing-list.step.4': '點選右下角的「匯入 3」，按鈕上的數字是 Manzil 讀懂的行數。',
   'help.guide.import-packing-list.result':
     '每一行都會成為一個物品，放進第一個欄位所指定的清單。原本就有的物品不會變動。',
   'help.guide.import-packing-list.tip.1':
@@ -2997,14 +2997,14 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.step.2':
     '在「住宿」下選擇旅館。清單包含旅行的地點，但不含匯入的軌跡和遊程。選擇一個後，會把它的名稱寫入空白的標題，把它的地址寫入「地點 / 地址」。',
   'help.guide.booking-hotel.step.3':
-    '設定「從」和「到」：第一晚，以及退房的那天早上。兩者都會列出旅行的各天和日期，TREK 也會確保「到」不會早於「從」。',
+    '設定「從」和「到」：第一晚，以及退房的那天早上。兩者都會列出旅行的各天和日期，Manzil 也會確保「到」不會早於「從」。',
   'help.guide.booking-hotel.step.4': '填寫「入住」、「入住截止」和「退房」，以及確認信上的「預訂碼」。',
   'help.guide.booking-hotel.step.5': '點選「新增」。',
   'help.guide.booking-hotel.result':
     '卡片會在「日期」下顯示日期範圍，以及入住和退房時間和地址。這段住宿現在也會出現在行程中對應的日期上。',
   'help.guide.booking-hotel.tip.1':
     '「住宿」是唯一沒有「日期」和「開始時間」的類型。它的日期是「從」和「到」，而且選的是旅行中的日子，不是行事曆上的日期。',
-  'help.guide.booking-hotel.tip.2': '「住宿」欄位可以留空，改為輸入地址：TREK 會幫你查詢該地點、建立並釘在地圖上。',
+  'help.guide.booking-hotel.tip.2': '「住宿」欄位可以留空，改為輸入地址：Manzil 會幫你查詢該地點、建立並釘在地圖上。',
   'help.guide.booking-hotel.tip.3': '刪除這筆預訂時，每日計畫中的住宿夜數也會一併移除。',
   // link-booking
   'help.guide.link-booking.title': '把預訂連結到計畫',
@@ -3038,7 +3038,7 @@ const help: TranslationStrings = {
   'help.guide.booking-files.title': '把憑證和預訂放在一起',
   'help.guide.booking-files.goal': '把確認信、票券或通行證附加到它所屬的預訂。',
   'help.guide.booking-files.step.1':
-    '點選卡片上的鉛筆開啟預訂。「檔案」在「連結」旁邊，點選那裡的「附加檔案」。如果是已存在的預訂，文件會立即上傳，TREK 會顯示「檔案已上傳」。',
+    '點選卡片上的鉛筆開啟預訂。「檔案」在「連結」旁邊，點選那裡的「附加檔案」。如果是已存在的預訂，文件會立即上傳，Manzil 會顯示「檔案已上傳」。',
   'help.guide.booking-files.step.2': '文件會以名稱列出，旁邊有開啟它的按鈕和一個 X。',
   'help.guide.booking-files.step.3':
     '「關聯已有檔案」會列出旅行中尚未附加到這筆預訂的文件。選一個就會附上，不必重新上傳。',
@@ -3090,7 +3090,7 @@ const help: TranslationStrings = {
     '如果沒有任何項目符合篩選條件，分頁會顯示「沒有符合這些篩選條件的項目」，正下方就是「重設篩選」。',
   // import-booking-file
   'help.guide.import-booking-file.title': '從確認單匯入預訂',
-  'help.guide.import-booking-file.goal': '讓 TREK 從業者寄來的電子郵件或 PDF 讀取預訂資訊，你就不用再重新輸入。',
+  'help.guide.import-booking-file.goal': '讓 Manzil 從業者寄來的電子郵件或 PDF 讀取預訂資訊，你就不用再重新輸入。',
   'help.guide.import-booking-file.step.1':
     '點選工具列中的下載圖示「匯入訂位確認」，把游標移上去就會顯示這個名稱。同名的對話框隨即開啟。',
   'help.guide.import-booking-file.step.2':
@@ -3218,11 +3218,11 @@ const help: TranslationStrings = {
     '自訂分攤也可以用百分比輸入：把「份額輸入方式」切換成 %，各份額加起來必須是 100%，支出才能儲存。',
   // expense-currency
   'help.guide.expense-currency.title': '用其他貨幣輸入支出',
-  'help.guide.expense-currency.goal': '輸入收據上的金額，TREK 會幫你記下匯率。',
+  'help.guide.expense-currency.goal': '輸入收據上的金額，Manzil 會幫你記下匯率。',
   'help.guide.expense-currency.step.1':
     '開啟「新增支出」。在對話框頂部輸入名稱，並把收據上的金額原樣填入「總金額」，不要填換算後的金額。',
   'help.guide.expense-currency.step.2':
-    '開啟金額旁邊的「貨幣」，選擇收據上的貨幣。清單包含 TREK 認得的所有代碼，也可以搜尋：輸入三個字母即可。',
+    '開啟金額旁邊的「貨幣」，選擇收據上的貨幣。清單包含 Manzil 認得的所有代碼，也可以搜尋：輸入三個字母即可。',
   'help.guide.expense-currency.step.3':
     '欄位下方會出現一排徽章：你輸入的金額，以及它目前的價值，並標示「即時匯率」。這只是預覽，不是最後儲存的金額。',
   'help.guide.expense-currency.step.4':
@@ -3332,7 +3332,7 @@ const help: TranslationStrings = {
   // ── Screen: trip-transports ───────────────────────────────────────────────────────────
   'help.ctx.trip-transports.title': '交通',
   'help.ctx.trip-transports.summary':
-    '所有載你往返各停靠點的交通：航班、火車、公車、汽車、計程車、自行車、郵輪、渡輪、纜車，以及 TREK 為你查詢的大眾運輸接駁。這個分頁是它們的列表；它們同樣可在計畫中建立和閱讀，並繪製在地圖上。',
+    '所有載你往返各停靠點的交通：航班、火車、公車、汽車、計程車、自行車、郵輪、渡輪、纜車，以及 Manzil 為你查詢的大眾運輸接駁。這個分頁是它們的列表；它們同樣可在計畫中建立和閱讀，並繪製在地圖上。',
   'help.ctx.trip-transports.bullet.1':
     '這個分頁只放交通。住宿、餐廳、活動和票券都在「預訂」分頁，所以同一個項目不會重複出現。',
   'help.ctx.trip-transports.bullet.2':
@@ -3387,7 +3387,7 @@ const help: TranslationStrings = {
     '表單的第一個區塊「出行成員」用來設定誰搭乘這段交通。當旅行有超過一位成員，且有交通指定了某人之後，分頁上的「篩選」也會多出「出行成員」，讓你只看某個人的交通。',
   // import-transport-file
   'help.guide.import-transport-file.title': '從電子機票匯入航班',
-  'help.guide.import-transport-file.goal': '讓 TREK 從承運商寄來的票券中讀取航班、火車或渡輪資訊，並在儲存前讓你檢查。',
+  'help.guide.import-transport-file.goal': '讓 Manzil 從承運商寄來的票券中讀取航班、火車或渡輪資訊，並在儲存前讓你檢查。',
   'help.guide.import-transport-file.step.1':
     '在「交通」分頁的列中，點擊「交通」前面的下載圖示，提示文字為「匯入訂位確認」。同名的對話方塊隨即開啟，與「預訂」分頁的相同。分頁是空的時候，中間的「從檔案匯入」也有同樣的作用。',
   'help.guide.import-transport-file.step.2':
@@ -3405,7 +3405,7 @@ const help: TranslationStrings = {
     '機場是依代碼定位。如果車站或港口無法定位，名稱會以琥珀色顯示在右下角的匯入卡片上。請在點選「新增」之前，先在「路線」下手動選好，否則這筆交通不會顯示在地圖上。',
   // plan-transit
   'help.guide.plan-transit.title': '規劃大眾運輸路線',
-  'help.guide.plan-transit.goal': '讓 TREK 查出某一天兩個地點之間實際的火車和公車，並把你選的那一班加入計畫。',
+  'help.guide.plan-transit.goal': '讓 Manzil 查出某一天兩個地點之間實際的火車和公車，並把你選的那一班加入計畫。',
   'help.guide.plan-transit.step.1':
     '點選當天標題中的 +，選擇「大眾運輸」。搜尋會針對那一天開啟：當天會以標籤形式顯示在標題列，旁邊的「手動」和「自動」可以在這個搜尋與一般表單之間切換。',
   'help.guide.plan-transit.step.2':
@@ -3511,7 +3511,7 @@ const help: TranslationStrings = {
   'help.guide.airtrail-import.tip.1':
     '旅行中已有相同航班號碼和日期的航班時會被略過，並提示略過了幾趟。天數上方工具列的復原箭頭，可以復原整次匯入。',
   'help.guide.airtrail-import.tip.2':
-    'AirTrail 仍是資料的主要來源。TREK 會在你開啟旅行時，以及每隔幾分鐘在背景讀取它的變更。在 AirTrail 中刪除的航班，在 TREK 中仍會保留卡片，標籤會變成「未同步」。只有在「整合」下開啟「將變更寫回 AirTrail」時，你在 TREK 中的修改才會傳回 AirTrail。',
+    'AirTrail 仍是資料的主要來源。Manzil 會在你開啟旅行時，以及每隔幾分鐘在背景讀取它的變更。在 AirTrail 中刪除的航班，在 Manzil 中仍會保留卡片，標籤會變成「未同步」。只有在「整合」下開啟「將變更寫回 AirTrail」時，你在 Manzil 中的修改才會傳回 AirTrail。',
   'help.guide.airtrail-import.tip.3':
     '合併的轉乘行程不是單一的 AirTrail 航班，無法同步，所以只能一次性匯入：它會保留藍色標籤，將滑鼠移到標籤上時會有說明。你手動為已同步的航班加入中途停靠點時，也會發生同樣的情況。',
 
@@ -3623,12 +3623,12 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-alternatives.step.4': '點選一個項目就改走那條路線，點選「關閉」則維持目前的路線。',
   'help.guide.roadtrip-alternatives.result': '這一段現在會走你選的道路，側欄中的距離，以及之後的抵達時間也會跟著改變。',
   'help.guide.roadtrip-alternatives.tip.1':
-    '選擇另一條道路時，TREK 會先用公路旅行的路線規劃器檢查，再以盡可能少的途經點，把這一段固定在那條路上，並取代這一段原有的途經點。路線規劃器無法走的道路不會被儲存。選回路線規劃器自己的道路，就會再次移除這些途經點。',
+    '選擇另一條道路時，Manzil 會先用公路旅行的路線規劃器檢查，再以盡可能少的途經點，把這一段固定在那條路上，並取代這一段原有的途經點。路線規劃器無法走的道路不會被儲存。選回路線規劃器自己的道路，就會再次移除這些途經點。',
   'help.guide.roadtrip-alternatives.tip.2':
     '「不走高速」「免收費」和「不搭渡輪」來自另一個有自己速度模型的引擎，所以它們的時間無法和其他路線比較。',
   // roadtrip-limits
   'help.guide.roadtrip-limits.title': '設定車輛與行駛限制',
-  'help.guide.roadtrip-limits.goal': '告訴 TREK 你開的是什麼車，以及你希望不休息最多開多遠。',
+  'help.guide.roadtrip-limits.goal': '告訴 Manzil 你開的是什麼車，以及你希望不休息最多開多遠。',
   'help.guide.roadtrip-limits.step.1': '「駕駛設定」位於右欄的搜尋下方。上面的徽章會顯示已設定的內容，點選即可開啟。',
   'help.guide.roadtrip-limits.step.2':
     '在「駕駛」下，「單次最長駕駛」和「每天駕駛」的單位是分鐘。欄位留空代表關閉，不會標示任何提醒。',
@@ -3690,7 +3690,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-track.step.2':
     '選擇一條軌跡。每條軌跡都會顯示長度，以及它是否沿著這一天的路線，或離路線多遠。最近的軌跡排在最前面。',
   'help.guide.roadtrip-track.step.3':
-    '點選「沿此軌跡行駛」。TREK 會在行車路線與軌跡相距最遠的地方加入途經點，並重新計算路線，這個過程會重複數次。',
+    '點選「沿此軌跡行駛」。Manzil 會在行車路線與軌跡相距最遠的地方加入途經點，並重新計算路線，這個過程會重複數次。',
   'help.guide.roadtrip-track.step.4':
     '對話方塊會說明放置了多少個途經點、行車現在貼近軌跡到什麼程度，或行車本來就已經沿著軌跡行駛。左下角的「移除途經點」會將它們移除，並把當天交還給路線規劃器。關閉對話方塊會保留軌跡。',
   'help.guide.roadtrip-track.result':
@@ -3733,15 +3733,15 @@ const help: TranslationStrings = {
   'help.guide.link-trip.tip.3': '要在尚未關聯的旅行日期上寫條目嗎？編輯器會直接提供「關聯旅行」。',
   'help.ctx.settings-plugins.summary':
     '管理員安裝的外掛的個人設定：每個外掛向你要求的金鑰和偏好，以及外掛以你的名義執行的操作記錄。只有在有外掛啟用時才會出現這個分頁。',
-  'help.ctx.settings-about.bullet.3': 'Ko-fi、Buy Me a Coffee 和 Discord 是你支持 TREK 或認識幕後團隊的地方。',
+  'help.ctx.settings-about.bullet.3': 'Ko-fi、Buy Me a Coffee 和 Discord 是你支持 Manzil 或認識幕後團隊的地方。',
   'help.guide.language-region.step.3':
     '設定「顯示貨幣」，或保持「行程貨幣」，讓每趟旅行以自己的貨幣顯示。然後選擇「溫度單位」、「距離單位」、「時間格式」和「每週開始於」哪一天。',
   'help.guide.travel-map-prefs.step.3':
     '「在地圖上探索地點」會顯示用來尋找附近地點的分類標籤。「模糊預訂程式碼」會隱藏確認編號，直到你將游標移上去或點按。「從住宿地點最佳化路線」會讓每天的行程從旅館出發並回到旅館。',
   'help.guide.web-push-device.step.2': '在頂部的「通知」卡片中，「推播」欄決定哪些事件會傳送到你的裝置。',
-  'help.guide.connect-airtrail.goal': '讓 TREK 匯入並同步你自己的 AirTrail 中的航班。',
-  'help.guide.connect-dawarich.goal': '讓 TREK 從你自己的 Dawarich 讀取你實際去過的地方。',
-  'help.guide.tour-connect-wanderer.goal': '讓 TREK 讀取你自己的 wanderer 中的路線，這樣你就能把它們匯入為遊程。',
+  'help.guide.connect-airtrail.goal': '讓 Manzil 匯入並同步你自己的 AirTrail 中的航班。',
+  'help.guide.connect-dawarich.goal': '讓 Manzil 從你自己的 Dawarich 讀取你實際去過的地方。',
+  'help.guide.tour-connect-wanderer.goal': '讓 Manzil 讀取你自己的 wanderer 中的路線，這樣你就能把它們匯入為遊程。',
   'help.guide.tour-wanderer-watch.title': '在 wanderer 路線變更時收到通知',
   'help.guide.plugin-settings.tip.2': '「通知」下的外掛管道會透過「前往設定」帶你來到這裡。',
   'help.guide.default-user-settings.result': '新帳戶，以及所有從未更改這些設定的人，都會看到你的選擇。',
@@ -3796,7 +3796,7 @@ const help: TranslationStrings = {
   'help.guide.final-budget.tip.3':
     '已離開旅行的人，只要還有與他有關的款項需要結算，就會在「餘額」和「最終花費」中保留一列。',
   'help.guide.files-sync-settings.step.2':
-    '流程列顯示 TREK 和你的儲存空間，以及各自持有的文件，中間有兩條通道：「送往儲存庫」和「來自儲存庫」。點擊「送往儲存庫」可將它關閉。通道會變灰，通道下方的那行字會顯示「僅接收」。再點擊一次可重新開啟。',
+    '流程列顯示 Manzil 和你的儲存空間，以及各自持有的文件，中間有兩條通道：「送往儲存庫」和「來自儲存庫」。點擊「送往儲存庫」可將它關閉。通道會變灰，通道下方的那行字會顯示「僅接收」。再點擊一次可重新開啟。',
   'help.guide.files-sync-settings.tip.4':
     '只有旅行的所有者或管理員可以變更這些設定。其他成員會看到流程列，附帶像「文件雙向同步」這樣的說明，但沒有「設定」。',
   'help.guide.manage-notes.step.2':
@@ -3819,7 +3819,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tours.bullet.2':
     '頂部的「匯入 GPX 或 KML」會將檔案匯入為遊程。下方的篩選按鈕（起初是「全部」，附遊程數量）可依狀態、來源、路線限制和類型縮小列表範圍。',
   'help.guide.tour-show-list.step.2':
-    '每一列是一條遊程。彩色條是它在地圖上的線條，圓形方塊顯示在 TREK 中規劃的健行的路線限制（T1 到 T6），或其類型的圖示。名稱下方的徽章顯示它排在哪些天、時間、距離和爬升；多日遊程旁邊帶數字的月亮表示它的階段數。',
+    '每一列是一條遊程。彩色條是它在地圖上的線條，圓形方塊顯示在 Manzil 中規劃的健行的路線限制（T1 到 T6），或其類型的圖示。名稱下方的徽章顯示它排在哪些天、時間、距離和爬升；多日遊程旁邊帶數字的月亮表示它的階段數。',
   'help.guide.tour-add-to-day.title': '把遊程排到某一天',
   'help.guide.tour-add-to-day.tip.2':
     '當旅行在最後一個階段之前就結束時，選項會說明最多排到哪個階段，之後的階段則不會排入任何一天。',
@@ -3845,14 +3845,14 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.4':
     '軌跡底部的「更換」可選擇另一份記錄。「取消關聯」會將它從遊程上移除，軌跡則以匯入的形式留在旅行中。',
   'help.guide.tour-origin-check.step.3':
-    '在「遊程」分頁中自己繪製的遊程會標示「在 TREK 中規劃」，並顯示它的「建立時間」。',
+    '在「遊程」分頁中自己繪製的遊程會標示「在 Manzil 中規劃」，並顯示它的「建立時間」。',
   'help.ctx.trip-tour-planner.bullet.2':
     '左側欄是編輯器。沒有開啟任何遊程時，它提供「規劃新遊程」。其中的遊程會顯示名稱、類型、路點、其類型的卡片和詳細資訊，底部有「捨棄」和「儲存」。',
   'help.guide.tour-open-workspace.step.2':
     '左側欄是編輯器。沒有開啟遊程時，它提供「規劃新遊程」，可在地圖上開始一條遊程。',
   'help.guide.tour-open-workspace.tip.3': '編輯器有未儲存的變更時開啟另一條遊程，會先詢問：「捨棄變更」，或繼續編輯。',
   'help.guide.tour-draw-route.step.5':
-    '依照你走的順序點擊接下來的地點。每次點擊都會把該點加為新的終點，從兩個點開始，TREK 會沿著小徑規劃路線。',
+    '依照你走的順序點擊接下來的地點。每次點擊都會把該點加為新的終點，從兩個點開始，Manzil 會沿著小徑規劃路線。',
   'help.guide.tour-type-profile.goal': '選擇遊程類型，自行車遊程還要選擇它的設定檔，讓路線走對的道路。',
   'help.guide.tour-edit-points.title': '移動、重新排序和移除點',
   'help.guide.tour-edit-points.tip.1':
@@ -3958,11 +3958,11 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-pistes-layer.goal': '查看滑雪遊程周圍的雪道、越野滑雪道和纜車，以及它們的顏色代表什麼。',
   'help.guide.tour-ski-import.title': '匯入滑雪軌跡並說明它是什麼',
   'help.guide.tour-ski-import.tip.1':
-    '匯入的軌跡會依錄製時的樣子保留：TREK 不會把它貼合到雪道上，其卡片會將「滑雪時間」顯示為「未計算」。',
+    '匯入的軌跡會依錄製時的樣子保留：Manzil 不會把它貼合到雪道上，其卡片會將「滑雪時間」顯示為「未計算」。',
   'help.ctx.trip-tour-paddle.bullet.3':
     '點上的「更多操作」包含划槳工具：在水上規劃下一段或手動繪製、「從這裡開始搬運船隻」，以及「在此點標記船閘」。',
   'help.guide.tour-paddle-setup.step.3':
-    '在「船」下，選擇「獨木舟（Kayak）」、「加拿大式獨木舟」、SUP 或「其他」。船的種類決定 TREK 建議的速度。',
+    '在「船」下，選擇「獨木舟（Kayak）」、「加拿大式獨木舟」、SUP 或「其他」。船的種類決定 Manzil 建議的速度。',
   'help.guide.tour-paddle-setup.tip.4': '欄位底部的「划槳有風險」會開啟「水上安全」。第一次出發前請先讀一遍。',
   'help.guide.tour-paddle-water-route.step.5':
     '若要一次規劃所有手動繪製的路段，點擊「路點」標題中的波浪圖示「沿水路規劃手繪的路段」。',
@@ -3980,7 +3980,7 @@ const help: TranslationStrings = {
     '在「遊程」分頁中，點擊右欄的「新增行程」，選擇「匯入 GPX 或 KML」並選取檔案。',
   'help.guide.tour-paddle-track-marks.tip.2': '「捨棄」會放棄你尚未儲存的標記。錄製的軌跡本身永遠不會被重新繪製。',
   'help.ctx.trip-tour-horse.bullet.4':
-    'TREK 不會計算騎乘時間。如果你想在當天顯示時間，請在「詳細資訊」的「計劃於」下輸入。',
+    'Manzil 不會計算騎乘時間。如果你想在當天顯示時間，請在「詳細資訊」的「計劃於」下輸入。',
   'help.guide.tour-horse-plan.step.5': '在「區段」下選擇一個區段。查看你騎乘它的「方向」，以及沿途的「馬匹通行」說明。',
   'help.guide.tour-horse-plan.tip.5':
     '騎馬行程中沒有任何內容是規劃出來的：點擊繪製的線條不會新增塑形點，區段兩端的點也會停留在路線原有的位置。',
@@ -4024,14 +4024,14 @@ const help: TranslationStrings = {
   'help.ctx.settings-plugins.bullet.1':
     '「外掛設定」：下方是每個向你要求資料的外掛各一張卡片，附其欄位和「儲存」。機密欄位一旦儲存就不會再顯示。',
   'help.guide.dashboard-widgets.step.3': '卡片下方的「恢復預設」會讓整個「外觀」分頁恢復為出廠狀態。',
-  'help.guide.web-push-device.result': '卡片會顯示「已為此裝置開啟」，在「推播」下開啟的事件即使 TREK 已關閉也會送達。',
+  'help.guide.web-push-device.result': '卡片會顯示「已為此裝置開啟」，在「推播」下開啟的事件即使 Manzil 已關閉也會送達。',
   'help.guide.connect-airtrail.step.1':
     '在「整合」下找到 AirTrail，輸入它的「執行個體網址」和 API 金鑰。金鑰需要在 AirTrail 的「設定」、「安全性」中建立。',
   'help.guide.connect-dawarich.step.1':
     '在「整合」下找到 Dawarich，輸入它的「執行個體位址」，以及 Dawarich 中「帳戶」、「API 金鑰」裡的 API 金鑰。',
   'help.guide.tour-connect-wanderer.step.1':
     '在「整合」下找到 wanderer，輸入它的「執行個體網址」和 API 權杖。權杖需要在 wanderer 的「設定」、「帳戶」、「API 權杖」中建立，開頭為 wanderer_key_。',
-  'help.guide.tour-wanderer-watch.goal': '讓 TREK 在背景檢查你匯入的路線是否有變更。',
+  'help.guide.tour-wanderer-watch.goal': '讓 Manzil 在背景檢查你匯入的路線是否有變更。',
   'help.guide.mcp-oauth.tip.3': '「API 令牌」仍可使用，但被標示為「已棄用」；請改用 OAuth 客戶端。',
   'help.guide.offline-conflicts.tip.2': '這個選擇只適用於這台裝置。',
   'help.guide.default-user-settings.tip.1':
@@ -4053,7 +4053,7 @@ const help: TranslationStrings = {
     '為旅行的每個人選擇「無權限」、「閱讀」或「編輯」。「全部可讀」和「無人」可一次全部設定。',
   'help.guide.collapse-columns.tip.3': '分隔線取得焦點後，也可以用方向鍵移動。',
   'help.guide.edit-place.tip.3':
-    '點擊對話方塊旁邊不會丟掉你的變更：TREK 會先詢問「放棄變更？」，「繼續編輯」則帶你回到表單。',
+    '點擊對話方塊旁邊不會丟掉你的變更：Manzil 會先詢問「放棄變更？」，「繼續編輯」則帶你回到表單。',
   'help.guide.dawarich-stays.goal': '逐一檢查後，引入 Dawarich 在旅行期間看到你停留過的地點。',
   'help.guide.leave-stop-off-route.step.1': '在停靠點上按右鍵，或點擊它的三個點，然後選擇「從路線中排除」。',
   'help.guide.move-booking-day.step.3': '該列現在位於新的一天，時間保持不變；如果時間也要改，請開啟預訂修改。',
@@ -4092,7 +4092,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-stop-fill.step.2': '在「加到」下選擇 50 到 100。按鈕下方的那行字會說明從這裡可以開多遠。',
   'help.guide.roadtrip-bookings.step.2':
     '在側欄中，這段行程是一張依類型著色的卡片，時刻表在到達欄中，兩端位於標題下方。',
-  'help.guide.roadtrip-google-import.tip.1': 'TREK 會自行計算停靠點之間的路線；不會複製 Google 的道路。',
+  'help.guide.roadtrip-google-import.tip.1': 'Manzil 會自行計算停靠點之間的路線；不會複製 Google 的道路。',
   'help.guide.roadtrip-hazards.result': '地圖會顯示旅行周圍目前的警告，路線保持原樣。',
   'help.ctx.trip-tours.bullet.3':
     '一列：彩色條是遊程在地圖上的線條，圓形方塊顯示路線限制（T1 到 T6）或類型，小的 GPX 或 wanderer 徽章標示匯入，其他徽章顯示天數、時間、距離和爬升。帶數字的月亮表示多日遊程的階段數。',
@@ -4129,7 +4129,7 @@ const help: TranslationStrings = {
     '右側欄的「這趟旅行的遊程」列出旅行的每條遊程，列表上方有篩選器和「行程總覽」。',
   'help.guide.tour-open-workspace.result': '「遊程」分頁：編輯器在左邊，旅行的遊程在右邊，地圖在它們之間。',
   'help.guide.tour-draw-route.step.6':
-    '在「路點」下，每個點都有一列帶編號，名稱載入後會以地點命名。TREK 工作時，「新遊程」旁的小圓點會顯示它在做什麼。',
+    '在「路點」下，每個點都有一列帶編號，名稱載入後會以地點命名。Manzil 工作時，「新遊程」旁的小圓點會顯示它在做什麼。',
   'help.guide.tour-type-profile.step.1': '點擊「遊程名稱」下的「路線類型」。它會顯示目前的類型，並附一行說明如何規劃。',
   'help.guide.tour-edit-points.goal': '透過在地圖上或列表中移動點，改變遊程的走向。',
   'help.guide.tour-edit-points.tip.2': '地點名稱載入之前，一列會顯示座標。「復原」和「重做」沒有鍵盤快速鍵。',
@@ -4167,7 +4167,7 @@ const help: TranslationStrings = {
     '「沿途」是左側面板中的一張卡片，會在路線附近尋找觀景點、水源、山屋、餐飲等，並列出找到的結果。列表中的地點可以作為停靠點加入遊程。',
   'help.guide.tour-map-layers.tip.1':
     '你選擇的地圖會對你開啟的每條遊程保持，直到你重新載入頁面為止。類型不提供該地圖的遊程會以「地圖」開啟，「計畫」分頁中的地圖和「設定」中的設定都保持不變。',
-  'help.guide.tour-along-search.step.4': '點擊「沿途搜尋」。TREK 只是查看：遊程不會有任何改變。',
+  'help.guide.tour-along-search.step.4': '點擊「沿途搜尋」。Manzil 只是查看：遊程不會有任何改變。',
   'help.guide.tour-along-add-stop.step.1':
     '點擊「沿途」列表中的地點，或它在地圖上的圖釘。它的卡片會在地圖上方開啟：它是什麼、離路線多遠，以及位於遊程的哪個位置。',
   'help.guide.tour-3d-terrain.title': '以 3D 查看遊程',
@@ -4186,7 +4186,7 @@ const help: TranslationStrings = {
     '選擇要顯示的內容：SAC 表示健行等級，「路面」，或「道路類型」。地圖上的路線採用與列表相同的顏色。',
   'help.guide.tour-hike-round.title': '尋找大約指定長度的環線健行',
   'help.guide.tour-hike-round.tip.1': '環線會遵守健行的「步道最高難度」；卡片中的 T 標籤會顯示是哪一級。',
-  'help.guide.tour-hike-compare-ways.step.4': '點擊「採用這條道路」。TREK 會向路線規劃器確認路線確實沿著它走。',
+  'help.guide.tour-hike-compare-ways.step.4': '點擊「採用這條道路」。Manzil 會向路線規劃器確認路線確實沿著它走。',
   'help.guide.tour-ferrata-add.step.2': '在地圖上點擊一條飛拉達，點它的虛線或標誌。它的卡片會顯示名稱、等級和長度。',
   'help.guide.tour-ferrata-add.tip.4':
     '卡片上的「在 OpenStreetMap 中檢視」會開啟該飛拉達本身的資料。無法載入任何資料時，徽章會變成琥珀色，原因顯示在提示文字中。',
@@ -4232,7 +4232,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.4': '在「水域」下選擇「河流」或「湖泊」。在船和水域都選定之前，遊程無法儲存。',
   'help.guide.tour-paddle-setup.result': '一條新的划槳遊程，附有船、水域和速度，可以在地圖上放置第一個點了。',
   'help.guide.tour-paddle-water-route.tip.1':
-    '缺少水域資料時，TREK 會依實例的設定自行取得該地區的資料，或向管理員索取。該路段會顯示「正在載入水域資料」，資料到位後會自行規劃，通常在一到三分鐘內完成。',
+    '缺少水域資料時，Manzil 會依實例的設定自行取得該地區的資料，或向管理員索取。該路段會顯示「正在載入水域資料」，資料到位後會自行規劃，通常在一到三分鐘內完成。',
   'help.guide.tour-paddle-portage.step.2': '選擇「從這裡開始搬運船隻」。到下一個點的路段會成為搬運路段，繪製在陸地上。',
   'help.guide.tour-paddle-lock.title': '加入船閘及其等待時間',
   'help.guide.tour-paddle-lock.tip.3': '「移除船閘」位於開啟的卡片底部，也在「更多操作」中。',
@@ -4290,15 +4290,15 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.tip.1':
     '推播是依瀏覽器運作的：想讓哪支手機或電腦收到，就在上面重複一次。「為此裝置關閉」只會在該裝置上停止。',
   'help.guide.connect-airtrail.step.2':
-    '「允許自簽憑證」只適用於你自己網路中受信任的執行個體。「將變更寫回 AirTrail」預設為關閉，所以 TREK 只讀取；開啟後才會把你的編輯傳回去。',
+    '「允許自簽憑證」只適用於你自己網路中受信任的執行個體。「將變更寫回 AirTrail」預設為關閉，所以 Manzil 只讀取；開啟後才會把你的編輯傳回去。',
   'help.guide.connect-dawarich.step.2':
-    '「自動檢查新的停留點」讓 TREK 自行查看；關閉時，只有你要求時它才會讀取 Dawarich。「允許自簽憑證」只適用於你的伺服器不信任的執行個體。',
+    '「自動檢查新的停留點」讓 Manzil 自行查看；關閉時，只有你要求時它才會讀取 Dawarich。「允許自簽憑證」只適用於你的伺服器不信任的執行個體。',
   'help.guide.tour-connect-wanderer.step.2': '只有在你自己網路中的執行個體，才需要開啟「允許自我簽署憑證」。',
   'help.guide.tour-wanderer-watch.step.1': '在 wanderer 卡片中，開啟「檢查我的路線是否有變更」。這需要先儲存連線設定。',
   'help.guide.plugin-settings.title': '為自己設定外掛',
   'help.guide.default-user-settings.tip.2': '「顯示貨幣」只會換算顯示的金額。在「費用」中輸入的金額保持不變。',
   'help.guide.own-routing-engine.step.2':
-    '若要避開收費站、高速公路或渡輪的路線，請在「自建 Valhalla 執行個體」下輸入你的 Valhalla 位址。每個欄位在你離開時儲存；然後重新啟動 TREK 伺服器並重新載入頁面。',
+    '若要避開收費站、高速公路或渡輪的路線，請在「自建 Valhalla 執行個體」下輸入你的 Valhalla 位址。每個欄位在你離開時儲存；然後重新啟動 Manzil 伺服器並重新載入頁面。',
   'help.guide.admin-passkeys.tip.3':
     '弄丟了存放 Passkey 的裝置的人，可以在「編輯使用者」中用「重設 Passkey」將它們移除。',
   'help.guide.rotate-jwt-secret.result': '新的簽署密鑰已就位，包括你在內的所有使用者都必須重新登入。',
@@ -4310,7 +4310,7 @@ const help: TranslationStrings = {
   'help.guide.public-link.tip.3': '將指標移到選項上，可以看到它省略了什麼。',
   'help.guide.link-journal.step.4': '閱讀黃色的提示：它會說明誰將首次獲得這本日誌。然後點擊「連結日誌」。',
   'help.guide.dawarich-stays.step.1':
-    '在「設定」的「整合」中連接 Dawarich 後，「來自 Dawarich」會出現在地點列表頂部。它的標題會顯示 TREK 上次檢查的時間以及有多少停留點在等待處理。點擊它即可開啟列表。',
+    '在「設定」的「整合」中連接 Dawarich 後，「來自 Dawarich」會出現在地點列表頂部。它的標題會顯示 Manzil 上次檢查的時間以及有多少停留點在等待處理。點擊它即可開啟列表。',
   'help.guide.leave-stop-off-route.step.2':
     '名稱旁會出現「不在路線內」徽章。停靠點仍保留在當天和地圖上，但當天的路線及其各段時間會略過它。',
   'help.guide.move-booking-day.result': '預訂在計畫中屬於新的一天，時間保持不變。',
@@ -4336,13 +4336,13 @@ const help: TranslationStrings = {
   'help.guide.booking-on-map.goal': '從預訂直接跳到它在計畫和地圖上的地點。',
   'help.guide.export-bookings-csv.tip.2': '各欄以分號分隔，Excel 開啟檔案時重音符號會完整保留。',
   'help.guide.arrange-packing-list.tip.2':
-    'TREK 會在這個瀏覽器中記住「依名稱」，所以下次列表開啟時也是排序好的。它只改變你看到的內容，不會改變其他人看到的順序。',
+    'Manzil 會在這個瀏覽器中記住「依名稱」，所以下次列表開啟時也是排序好的。它只改變你看到的內容，不會改變其他人看到的順序。',
   'help.guide.count-packed-pieces.step.4': '計數器達到數量後，物品會自動勾選，並算作已打包。',
   'help.guide.expense-receipts.result': '收據會與支出放在一起：其列上的標籤可開啟它，檔案也同時在旅行的「檔案」中。',
   'help.guide.files-sync-settings.step.4':
-    '在「當文件被刪除時」下，選擇另一端的副本會怎麼處理。「兩份都保留」會讓儲存庫中的副本留在原處。「移到回收桶」會在文件於 TREK 中被刪除時，把它送到儲存庫的回收桶。',
+    '在「當文件被刪除時」下，選擇另一端的副本會怎麼處理。「兩份都保留」會讓儲存庫中的副本留在原處。「移到回收桶」會在文件於 Manzil 中被刪除時，把它送到儲存庫的回收桶。',
   'help.ctx.trip-collab.bullet.7':
-    '這裡的一切都需要網路連線。離線時，訊息、筆記、連結、投票或投的票不會被儲存，TREK 會顯示「此操作需要連線」。待 TREK 重新上線後再試一次。無權編輯協作的成員可以閱讀所有內容，但看不到「新建筆記」、「新增連結」和「新建投票」，訊息框也呈灰色。',
+    '這裡的一切都需要網路連線。離線時，訊息、筆記、連結、投票或投的票不會被儲存，Manzil 會顯示「此操作需要連線」。待 Manzil 重新上線後再試一次。無權編輯協作的成員可以閱讀所有內容，但看不到「新建筆記」、「新增連結」和「新建投票」，訊息框也呈灰色。',
   'help.guide.manage-notes.step.4':
     '「編輯」會開啟已填好所有內容的筆記對話方塊。修改你需要的部分，這裡是在「內容」下多加一行，然後點擊「儲存」。',
   'help.guide.note-categories.step.2':
@@ -4356,7 +4356,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.step.3':
     '「入住」或「上車」標籤說明行車必須在何時把你送到站點：出發時間會比時刻表提前固定在那麼早。',
   'help.guide.roadtrip-google-import.title': '從 Google Maps 匯入路線',
-  'help.guide.roadtrip-google-import.tip.2': '連結至少需要兩個 TREK 能定位的停靠點，最多 30 個。',
+  'help.guide.roadtrip-google-import.tip.2': '連結至少需要兩個 Manzil 能定位的停靠點，最多 30 個。',
   'help.guide.roadtrip-hazards.tip.1':
     '警告不是封路：路線不會因為它們而改變，而且它們是目前的通知，不是針對你日期的預報。',
   'help.ctx.trip-tours.bullet.4':
@@ -4458,7 +4458,7 @@ const help: TranslationStrings = {
     '新的健行從 T2（「山區健行」）開始。T3 會加上警告，說明這類小徑可能暴露在險境中，需要腳步穩健且不懼高。',
   'help.guide.tour-hike-trail-details.step.3':
     '徽章會總結：路線有多少是「已知」、「已知最高」等級，以及另外列出的、健行規劃時採用的「路線上限」。',
-  'help.guide.tour-hike-round.goal': '讓 TREK 從健行的某個停靠點出發，建議你想要長度的環線。',
+  'help.guide.tour-hike-round.goal': '讓 Manzil 從健行的某個停靠點出發，建議你想要長度的環線。',
   'help.guide.tour-hike-round.tip.2': '接受 1 到 60 公里的距離，並會提供與你的距離相差 20% 以內的環線。',
   'help.guide.tour-hike-compare-ways.result':
     '那一段會沿著你選的路走，健行的其餘部分保持原樣。地圖底部的「已採用道路」有「復原」。',
@@ -4477,7 +4477,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-google-import.step.2': '將連結貼到「步行路線的連結」下，並點擊「讀取連結」。',
   'help.guide.tour-walk-check-off.goal': '在當天將停靠點標記為已造訪或已略過，並查看還剩多少路要走。',
   'help.guide.tour-walk-check-off.result': '已造訪的停靠點會被勾選，略過的會加上刪除線，剩餘時間只計算尚未走的部分。',
-  'help.guide.tour-bike-profile.goal': '開始一次單車遊程，讓 TREK 依旅遊、公路、碎石或登山模式規劃路線。',
+  'help.guide.tour-bike-profile.goal': '開始一次單車遊程，讓 Manzil 依旅遊、公路、碎石或登山模式規劃路線。',
   'help.guide.tour-bike-profile.tip.1': '之後更改設定檔，會為新的設定檔重新規劃整條路線。',
   'help.guide.tour-bike-surfaces.step.2': '卡片標題中的徽章顯示已知為未鋪面的路線比例。',
   'help.guide.tour-bike-mtb-grades.title': '查看登山自行車遊程的步道等級',
@@ -4500,13 +4500,13 @@ const help: TranslationStrings = {
     '在湖上，「穿越湖泊」決定路線：「直線穿越」最短，「沿岸」則在有風的日子貼近湖岸。',
   'help.guide.tour-paddle-water-route.title': '沿水路規劃路段',
   'help.guide.tour-paddle-water-route.tip.2':
-    '路線規劃器繞過堰或穿過船閘的地方，TREK 會自行設一個點並標示為「已偵測」。移動或修改它之後，它就屬於你了。',
+    '路線規劃器繞過堰或穿過船閘的地方，Manzil 會自行設一個點並標示為「已偵測」。移動或修改它之後，它就屬於你了。',
   'help.guide.tour-paddle-portage.step.3':
     '點的下方會出現「陸上搬運」卡片，顯示它的長度和額外的分鐘數。點擊它即可開啟。',
   'help.guide.tour-paddle-lock.goal': '在遊程中加入船閘，並計入等待和通過的時間。',
   'help.guide.tour-paddle-lock.result': '船閘已加入遊程並帶有它的分鐘數，「時間估算」會將它們加總。',
   'help.guide.tour-paddle-time.tip.1':
-    'TREK 的起始值為水上 4 公里/小時、搬運 2 公里/小時，每個搬運路段 10 分鐘。這些是供你調整的起始值，不是實測值。',
+    'Manzil 的起始值為水上 4 公里/小時、搬運 2 公里/小時，每個搬運路段 10 分鐘。這些是供你調整的起始值，不是實測值。',
   'help.guide.tour-paddle-wind.step.3':
     '長條顯示一天中的各小時，陣風疊在平均值之後。將指標指向某個長條，可看到那個小時的數值和風向。',
   'help.guide.tour-paddle-checklist.goal': '查看已儲存路線上關於堰、船閘和通行規則的已知資訊，並決定在每一處怎麼做。',
@@ -4552,7 +4552,7 @@ const help: TranslationStrings = {
   'help.ctx.settings-plugins.bullet.3':
     '底部的「外掛活動」按時間由新到舊列出外掛代你執行的每個操作，並附「重新整理」。',
   'help.guide.language-region.tip.3': '「每週開始於」設定每個日期選擇器的第一欄；Vacay 有自己的設定。',
-  'help.guide.web-push-device.tip.2': '在 iPhone 和 iPad 上，請先將 TREK 加入主畫面，再從那裡開啟。',
+  'help.guide.web-push-device.tip.2': '在 iPhone 和 iPad 上，請先將 Manzil 加入主畫面，再從那裡開啟。',
   'help.guide.connect-airtrail.step.3':
     '點擊「儲存」，然後點擊「測試連線」。它會說明找到多少趟航班，徽章會變成「已連線」。',
   'help.guide.connect-dawarich.step.3':
@@ -4560,7 +4560,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.3':
     '點擊「儲存」，然後點擊「測試連線」。它會說明你可以匯入多少條路線，徽章會變成「已連線」。',
   'help.guide.tour-wanderer-watch.step.2':
-    'TREK 最多每天一次讀取你匯入的每條路線的簡短記錄，該列會顯示上次查看的時間。當路線可能有變更時，你會收到通知，「提示」也會計入：點擊「提示」可看到每條遊程標示為「可能已變更」、「已變更」或「無法檢查」，並可從那裡開啟。',
+    'Manzil 最多每天一次讀取你匯入的每條路線的簡短記錄，該列會顯示上次查看的時間。當路線可能有變更時，你會收到通知，「提示」也會計入：點擊「提示」可看到每條遊程標示為「可能已變更」、「已變更」或「無法檢查」，並可從那裡開啟。',
   'help.guide.plugin-settings.goal': '為外掛設定你自己的金鑰和偏好，並查看它以你的名義做了什麼。',
   'help.guide.own-routing-engine.result': '每趟旅行中的路線都在你的伺服器上計算。',
   'help.guide.admin-passkeys.title': '提供 Passkey 登入',
@@ -4568,7 +4568,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.title': '為使用者設定通知預設值',
   'help.ctx.notifications.title': '通知',
   'help.guide.read-notifications.goal': '查看你不在時旅行中發生了什麼，並直接前往處理。',
-  'help.guide.filter-notifications.goal': '瀏覽 TREK 告訴你的所有事，或只看你還沒讀的。',
+  'help.guide.filter-notifications.goal': '瀏覽 Manzil 告訴你的所有事，或只看你還沒讀的。',
   'help.guide.mark-notifications-read.step.1': '點擊通知時間旁的雙勾號「標為已讀」，只標記那一則。',
   'help.guide.delete-notifications.step.2': '頂部的「全部刪除」會在視窗詢問你是否確定之後，一次清空整個清單。',
   'help.guide.notification-settings.step.3':
@@ -4576,7 +4576,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.result':
     '旅行的分頁列會出現「日誌」分頁，所有你給予「閱讀」或「編輯」權限的人都能在那裡即時開啟日誌。',
   'help.guide.create-place.tip.4':
-    '從 Google 地圖複製的連結在搜尋中也有效：貼上、按 Enter，TREK 就會從中讀取地點。表單有了位置之後，搜尋旁邊的十字準線「這個圖釘附近的地點」會列出周圍的地點。',
+    '從 Google 地圖複製的連結在搜尋中也有效：貼上、按 Enter，Manzil 就會從中讀取地點。表單有了位置之後，搜尋旁邊的十字準線「這個圖釘附近的地點」會列出周圍的地點。',
   'help.guide.dawarich-stays.step.2':
     '停留點依日期分組，每個都附到達和離開的時間；量表標記表示 Dawarich 不確定的停留點。點擊停留點旁的圖釘「新增為地點」。',
   'help.guide.leave-stop-off-route.step.3': '若要再次納入路線，開啟同一個選單並選擇「重新加入路線」。',
@@ -4607,7 +4607,7 @@ const help: TranslationStrings = {
   'help.guide.expense-receipts.tip.1':
     '在編輯器中，點擊列出的檔案名稱會開啟同樣的預覽。這時按 Esc 只會關閉預覽，而不是支出。',
   'help.guide.files-sync-settings.step.5':
-    '「當兩邊都有變更時」決定一份在兩處都被編輯的文件保留哪份副本：「詢問我」、「保留 TREK 的副本」或「保留儲存端的副本」。「自動同步」讓 TREK 在背景檢查變更；關閉時，卡片顯示「已暫停」，只有「立即同步」會執行同步。這裡的每項變更在你操作時就已儲存。',
+    '「當兩邊都有變更時」決定一份在兩處都被編輯的文件保留哪份副本：「詢問我」、「保留 Manzil 的副本」或「保留儲存端的副本」。「自動同步」讓 Manzil 在背景檢查變更；關閉時，卡片顯示「已暫停」，只有「立即同步」會執行同步。這裡的每項變更在你操作時就已儲存。',
   'help.guide.manage-notes.step.5':
     '「刪除」會先詢問「刪除筆記？」，因為筆記對每位成員都會消失，它的檔案也一併刪除。點擊「刪除」確認。',
   'help.guide.note-categories.step.3': '點擊分類的名稱可重新命名。輸入新名稱並按 Enter；按 Esc 則保留舊名稱。',
@@ -4633,7 +4633,7 @@ const help: TranslationStrings = {
   'help.guide.tour-remove-from-day.step.3':
     '或者點擊該天的標題開啟當天，點擊列表中的遊程，並點擊其卡片底部的「從當天移除」。',
   'help.guide.tour-filter-list.step.3':
-    '當列表混合了多種項目時，「來源」（TREK、GPX 匯入、wanderer）、「路線上限」（T1 到 T6）和「類型」（「健行」、「單車遊程」等）可進一步縮小範圍。再次點擊已勾選的值即可清除。',
+    '當列表混合了多種項目時，「來源」（Manzil、GPX 匯入、wanderer）、「路線上限」（T1 到 T6）和「類型」（「健行」、「單車遊程」等）可進一步縮小範圍。再次點擊已勾選的值即可清除。',
   'help.guide.tour-hide-on-map.step.1': '將指標指向列表中的遊程，並點擊該列右側出現的眼睛（「在地圖上隱藏」）。',
   'help.guide.tour-import-plan-tab.step.1': '在「計畫」分頁中，點擊右欄頂部切換開關中的「遊程」。',
   'help.ctx.trip-tour-detail.bullet.1':
@@ -4649,7 +4649,7 @@ const help: TranslationStrings = {
   'help.guide.tour-copy-keep.goal': '在這趟旅行中製作遊程的變體，或把它保存到你的某個收藏中，供之後的旅行使用。',
   'help.guide.tour-copy-keep.tip.4':
     '「收藏」只在收藏擴充套件開啟時才有。你只能閱讀的清單無法選擇，還沒有任何清單時，對話方塊會提供「開啟收藏」。',
-  'help.guide.tour-packing-link.step.5': '點擊「開啟行李清單」來勾選物品。TREK 會切換到「行李」分頁，停在行李清單上。',
+  'help.guide.tour-packing-link.step.5': '點擊「開啟行李清單」來勾選物品。Manzil 會切換到「行李」分頁，停在行李清單上。',
   'help.guide.tour-files.step.2': '下方的一列現在會統計它們的數量，列表也隨之展開。',
   'help.guide.tour-activity-link.step.2': '在「完成於」下，勾選你進行的那一天。若不屬於任何一天，請選擇「無日期」。',
   'help.guide.tour-activity-compare.title': '比較計畫與你實際做的',
@@ -4659,7 +4659,7 @@ const help: TranslationStrings = {
     '地圖頂部的「搜尋地點或地址」會移動地圖。左下角的標籤可在遊程類型提供的地圖之間切換，例如「地形圖」或「衛星影像」，並包含開啟中遊程的開關，例如「放置點」和 3D。',
   'help.guide.tour-open-workspace.step.5':
     '地圖頂部的「搜尋地點或地址」會將地圖移到某個地方，這樣你就能從遊程所在處開始。',
-  'help.guide.tour-draw-route.goal': '在地圖上設定新遊程的點，讓 TREK 計算它們之間的路線。',
+  'help.guide.tour-draw-route.goal': '在地圖上設定新遊程的點，讓 Manzil 計算它們之間的路線。',
   'help.guide.tour-draw-route.tip.2':
     '地圖標籤中的「地形圖」或「健行」會顯示小徑，讓你更容易點擊其中一條。離該類型可用的任何道路太遠的點，會收到通知而不是路線。',
   'help.guide.tour-type-profile.step.3':
@@ -4763,11 +4763,11 @@ const help: TranslationStrings = {
     '欄位底部的那一列「划槳有風險」會開啟「水上安全」。地圖提供「地圖」和「衛星影像」，並有「航標」疊加圖層。',
   'help.guide.tour-paddle-setup.step.6':
     '「划槳速度」會以灰色顯示船的建議值。輸入你自己的速度後，欄位會顯示「自訂速度」；其下方的連結「使用建議值」會再次採用船的速度。',
-  'help.guide.tour-paddle-water-route.goal': '讓 TREK 沿著河流或湖泊規劃路段，並看懂它無法規劃的路段告訴你什麼。',
+  'help.guide.tour-paddle-water-route.goal': '讓 Manzil 沿著河流或湖泊規劃路段，並看懂它無法規劃的路段告訴你什麼。',
   'help.guide.tour-paddle-water-route.tip.3':
     '已規劃路段下方的備註會標示「急流」及其等級、「獨木舟通道」，或以直線銜接的「地圖資料缺口」。',
   'help.guide.tour-paddle-portage.step.4':
-    '在「路線」下，「沿道路」會沿著已標示的道路搬運，「直線」則直接穿越。TREK 會自行尋找路徑，若沒有不必繞遠路的路徑，也會說明。',
+    '在「路線」下，「沿道路」會沿著已標示的道路搬運，「直線」則直接穿越。Manzil 會自行尋找路徑，若沒有不必繞遠路的路徑，也會說明。',
   'help.guide.tour-paddle-lock.step.1': '將指標指向船閘處的停靠點，並點擊「更多操作」，就是那三個點。',
   'help.guide.tour-paddle-time.title': '閱讀並調整划槳遊程的時間',
   'help.guide.tour-paddle-time.tip.2': '水流和風不計入估算。',
@@ -4775,7 +4775,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-checklist.step.1':
     '儲存划槳遊程，然後在左欄找到「檢查清單」。它標題中的徽章總結了清單的進度。',
   'help.guide.tour-paddle-checklist.tip.4':
-    '障礙來自 TREK 所持有地區的 OpenStreetMap 資料。沒有資料的地方，卡片會說明，你需要自己檢查堰、船閘和搬運路段。',
+    '障礙來自 Manzil 所持有地區的 OpenStreetMap 資料。沒有資料的地方，卡片會說明，你需要自己檢查堰、船閘和搬運路段。',
   'help.guide.tour-paddle-track-marks.step.4':
     '在「這趟旅行的遊程」中點擊該軌跡。左欄會顯示錄製時的樣子，並附有「陸上搬運與船閘」卡片。',
   'help.ctx.trip-tour-horse.title': '騎馬行程',
@@ -4819,13 +4819,13 @@ const help: TranslationStrings = {
   'help.guide.journey-auto-prepare.result': '已連結的旅行進行期間，每天的停留點會列在該天底下，隨時可以「匯入當天」。',
   'help.ctx.settings-about.title': '關於',
   'help.guide.web-push-device.tip.3':
-    '推播需要透過 HTTPS 開啟 TREK。如果通知被封鎖，請到瀏覽器設定中允許，然後再試一次。',
+    '推播需要透過 HTTPS 開啟 Manzil。如果通知被封鎖，請到瀏覽器設定中允許，然後再試一次。',
   'help.guide.connect-airtrail.result': '徽章顯示「已連線」，旅行的「交通」分頁也會出現「從 AirTrail 匯入」。',
   'help.guide.connect-dawarich.result': '徽章顯示「已連線」，旅行規劃器、日誌和 Atlas 都能使用 Dawarich 記錄的內容。',
   'help.guide.tour-connect-wanderer.result':
     '徽章顯示「已連線」，旅行的「遊程」分頁就能搜尋你的 wanderer 並匯入其中的路線。',
   'help.guide.tour-wanderer-watch.result':
-    'TREK 會留意你匯入的路線，其中一條可能有變動時會通知你。你接受變更之後，遊程才會跟著改變。',
+    'Manzil 會留意你匯入的路線，其中一條可能有變動時會通知你。你接受變更之後，遊程才會跟著改變。',
   'help.guide.plugin-settings.step.1':
     '在設定側邊欄中開啟「外掛」。「外掛設定」下方，每個需要你提供設定的外掛都有一張卡片，上面有各項欄位：填寫後點擊「儲存」。卡片上的操作會在你確認後執行。',
   'help.guide.profile.step.3': '點擊卡片底部右側的「儲存資料」。',
@@ -4837,7 +4837,7 @@ const help: TranslationStrings = {
     '如果只想讓某一個人登出，請在「編輯使用者」中給他「新密碼」。這只會結束他的工作階段。',
   'help.guide.notification-defaults.goal': '決定每位使用者的通知一開始如何設定，並可針對某個事件完全封鎖某個管道。',
   'help.ctx.notifications.summary':
-    'TREK 在應用程式內通知你的所有內容，最新的在前：有人更改的預訂、旅行聊天室的新訊息、與你分享的日曆。右上角的鈴鐺顯示最新的十則，這個頁面則顯示全部。',
+    'Manzil 在應用程式內通知你的所有內容，最新的在前：有人更改的預訂、旅行聊天室的新訊息、與你分享的日曆。右上角的鈴鐺顯示最新的十則，這個頁面則顯示全部。',
   'help.guide.read-notifications.step.1': '點擊右上角的鈴鐺。鈴鐺上的紅色數字是你尚未閱讀的通知數量。',
   'help.guide.filter-notifications.step.1': '點擊右上角的鈴鐺。',
   'help.guide.mark-notifications-read.step.2': '點擊頂部的「全部標為已讀」，一次把所有通知標為已讀。',
@@ -4929,7 +4929,7 @@ const help: TranslationStrings = {
   'help.guide.tour-take-along.step.3':
     '點擊 GPX，就能把已儲存的遊程下載成 GPX 檔：內含完整路線和高度資料，可直接用於導航 App 或 GPS 裝置。',
   'help.guide.tour-copy-keep.step.1':
-    '開啟遊程的卡片，點擊底部的「複製」。TREK 會建立一個全新、獨立且不含日期的遊程，原本的遊程維持不變。',
+    '開啟遊程的卡片，點擊底部的「複製」。Manzil 會建立一個全新、獨立且不含日期的遊程，原本的遊程維持不變。',
   'help.guide.tour-copy-keep.result':
     '旅行裡多了第二個可以隨意修改的遊程，收藏中也有它自己的副本，隨時可以加入另一趟旅行。',
   'help.guide.tour-packing-link.tip.1':
@@ -5024,7 +5024,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.3':
     '營業時間來自 OpenStreetMap，或來自該停靠點對應的行程地點，旁邊的標籤會說明是哪一個。出發前請再確認一次。',
   'help.guide.tour-walk-google-import.step.4':
-    '點擊「作為漫步載入」。TREK 會自行規劃停靠點之間的步行路線。點擊「儲存」即可保存這次散步。',
+    '點擊「作為漫步載入」。Manzil 會自行規劃停靠點之間的步行路線。點擊「儲存」即可保存這次散步。',
   'help.guide.tour-walk-check-off.step.2':
     '捲動到「漫步站點」。每個停靠點都會顯示停留多久，如果這次散步有設定開始時間，也會顯示你幾點抵達。',
   'help.ctx.trip-tour-bike.summary':
@@ -5040,7 +5040,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-plan.goal':
     '沿著地圖上標示的雪道、纜車和步道，規劃一天的雪道滑雪、越野滑雪環線、滑雪遊程或雪鞋健行。',
   'help.guide.tour-ski-plan.tip.2':
-    '「項目」旁的資訊圓點會說明 TREK 如何處理滑雪遊程。這裡和其他地方都不提供雪況、雪崩，或雪道、纜車、步道是否開放的資訊。',
+    '「項目」旁的資訊圓點會說明 Manzil 如何處理滑雪遊程。這裡和其他地方都不提供雪況、雪崩，或雪道、纜車、步道是否開放的資訊。',
   'help.guide.tour-ski-options.step.3':
     '在「優先」下選擇「最快」、「滑得最多」或「最輕鬆」。在「節奏」下選擇「悠閒」、「普通」或「運動」，這會改變路線規劃器為每條雪道估算的時間。',
   'help.guide.tour-ski-fix-leg.goal': '一鍵完成紅色路段的規劃，或直接畫成直線。',
@@ -5055,10 +5055,10 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.7':
     '確認「新增地點」已開啟，然後點擊地圖：先點下水處，接著是途中的各個點，最後是上岸處。',
   'help.guide.tour-paddle-water-route.step.1':
-    '手動繪製的路段會在其點下方顯示「手動繪製，未規劃」及其長度。TREK 會保留你畫的線條。',
+    '手動繪製的路段會在其點下方顯示「手動繪製，未規劃」及其長度。Manzil 會保留你畫的線條。',
   'help.guide.tour-paddle-water-route.tip.4': '只要有路段尚未規劃就無法儲存。請先在水上規劃，或手動繪製。',
   'help.guide.tour-paddle-portage.step.5':
-    '在「上岸與下水」下，輸入你上岸、卸貨並重新下水所需的分鐘數。留空的話，TREK 會以 10 分鐘計算。',
+    '在「上岸與下水」下，輸入你上岸、卸貨並重新下水所需的分鐘數。留空的話，Manzil 會以 10 分鐘計算。',
   'help.guide.tour-paddle-lock.step.2': '選擇「在此點標記船閘」。該點下方會出現「船閘」卡片，並標示「缺少時間」。',
   'help.guide.tour-paddle-time.goal': '查看水上、搬運、船閘和休息的時間如何加總，並設定你自己的數值。',
   'help.guide.tour-paddle-time.tip.3':
@@ -5066,7 +5066,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-wind.tip.1':
     '預報只涵蓋未來 16 天。更遠的日期會說明從哪一天起才有預報，過去的日期則會說明該日已經過去。',
   'help.guide.tour-paddle-checklist.step.2':
-    '下方的一行會說明資料有多新：「OSM 資料截至」表示 OpenStreetMap 的資料日期，「取得時間」表示 TREK 讀取的時間，「障礙物資料」則在資料未涵蓋整條路線時顯示。',
+    '下方的一行會說明資料有多新：「OSM 資料截至」表示 OpenStreetMap 的資料日期，「取得時間」表示 Manzil 讀取的時間，「障礙物資料」則在資料未涵蓋整條路線時顯示。',
   'help.guide.tour-paddle-checklist.tip.5':
     '檢查清單不等於安全或法律上的許可。你的決定無法解除 OpenStreetMap 中記錄的禁令或「私人」土地。',
   'help.guide.tour-paddle-track-marks.step.5': '點擊「陸上搬運」，再點擊線條上你上岸和重新下水的位置。',
@@ -5094,7 +5094,7 @@ const help: TranslationStrings = {
   'help.ctx.collections.bullet.7':
     '保存的遊程：從旅行保存下來的遊程會排在清單最前面，附有難度、類型、來源旅行和各項數據。「加入行程」會依其中一個遊程建立新遊程，垃圾桶則會把它從清單中移除。',
   'help.guide.move-to-list.title': '把地點移動或複製到另一個清單',
-  'help.guide.copy-to-trip.tip.2': '旅行中已經有的地點會被略過，TREK 會告訴你略過了幾個。',
+  'help.guide.copy-to-trip.tip.2': '旅行中已經有的地點會被略過，Manzil 會告訴你略過了幾個。',
   'help.guide.accept-list-invite.tip.2': '點擊清單頂部的「已分享」可查看成員，在那裡點擊「退出清單」就能離開這個清單。',
   'help.guide.tour-collection-add-to-trip.goal':
     '根據清單中保存的遊程，在你的某趟旅行中建立新遊程，可以連同路點一起帶入，也可以不帶。',
@@ -5106,15 +5106,15 @@ const help: TranslationStrings = {
   'help.guide.journey-keep-route.goal': '把 Dawarich 記錄的某一天實際路線加到旅程地圖上，並保留在那裡。',
   'help.guide.journey-day-stays.goal': '把 Dawarich 記錄的停留點逐一變成條目。',
   'help.guide.journey-take-over-day.goal': '一步就把某一天的停留點變成草稿條目，或一則當日記述。',
-  'help.guide.journey-auto-prepare.title': '讓 TREK 自動準備你記錄的日子',
+  'help.guide.journey-auto-prepare.title': '讓 Manzil 自動準備你記錄的日子',
   'help.guide.photo-location.title': '把條目放在照片的拍攝地點',
   'help.ctx.settings-about.summary':
-    '介紹 TREK 是什麼、這台伺服器執行的版本，以及專案的相關資源：文件、回報錯誤的管道，和支持專案的方式。',
+    '介紹 Manzil 是什麼、這台伺服器執行的版本，以及專案的相關資源：文件、回報錯誤的管道，和支持專案的方式。',
   'help.guide.startup.tip.2': '如果啟動分頁屬於你已關閉的擴充套件，就會改為開啟計畫。',
   'help.guide.web-push-device.title': '在這台裝置上接收推播通知',
   'help.guide.connect-airtrail.tip.1': '只有管理員開啟 AirTrail 擴充套件時，才會看到這張卡片。',
   'help.guide.connect-dawarich.tip.1':
-    'TREK 只會建議條目、地點和國家。在你確認之前不會新增任何內容，也不會寫回 Dawarich。',
+    'Manzil 只會建議條目、地點和國家。在你確認之前不會新增任何內容，也不會寫回 Dawarich。',
   'help.guide.tour-connect-wanderer.tip.1': '只有管理員在「遊程」下允許 wanderer 時，才會看到這張卡片。',
   'help.guide.tour-wanderer-watch.tip.1': '提示不會改動任何遊程。遊程的來源檢查會顯示實際變更了什麼。',
   'help.guide.api-keys.tip.3':
@@ -5123,13 +5123,13 @@ const help: TranslationStrings = {
     '「外掛活動」會依時間由新到舊列出外掛代你執行的每個操作，點擊「重新整理」可載入最新內容。',
   'help.ctx.admin-github.bullet.3': '「關於」：Ko-fi、Buy Me a Coffee、Discord、「回報錯誤」、「功能建議」和 Wiki。',
   'help.guide.default-user-settings.goal': '為每個帳號預設合適的單位、顏色模式和貨幣，不用每個人自己開啟「設定」。',
-  'help.guide.default-map.step.3': '每個欄位在你離開時就會儲存。欄位名稱旁的重設連結可恢復 TREK 的預設值。',
+  'help.guide.default-map.step.3': '每個欄位在你離開時就會儲存。欄位名稱旁的重設連結可恢復 Manzil 的預設值。',
   'help.guide.own-routing-engine.tip.2':
     '如果只設定了你自己的路徑規劃服務，也不會使用公用的 Valhalla。欄位旁的重設連結可再次清空它。',
   'help.guide.admin-passkeys.step.1': '在「設定」分頁的「Passkey 登入」下，開啟「啟用 Passkey 登入」。',
   'help.guide.storage-backends.step.4':
     '頂部的「健康」會列出寫入鏡像目標失敗的紀錄。如果顯示「未記錄任何複本失敗。」，就表示一切正常。',
-  'help.guide.channels-instance.tip.3': '「Web 推播」需要 HTTPS。在 iPhone 和 iPad 上，使用者要先把 TREK 加入主畫面。',
+  'help.guide.channels-instance.tip.3': '「Web 推播」需要 HTTPS。在 iPhone 和 iPad 上，使用者要先把 Manzil 加入主畫面。',
   'help.guide.notification-defaults.step.1':
     '在「通知」分頁中，捲動到底部的「使用者預設值」。每一列是一個事件，每一欄是一個管道。',
   'help.ctx.notifications.bullet.1':
@@ -5171,7 +5171,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.1':
     '如果只想匯出分頁的一部分，請先用「搜尋」或「篩選」縮小範圍。檔案內容會與分頁上顯示的完全一致。',
   'help.guide.import-booking-file.tip.4':
-    '讀取確認信需要網路連線。離線時「匯入」會提示這一點，等 TREK 重新上線後再試一次即可。',
+    '讀取確認信需要網路連線。離線時「匯入」會提示這一點，等 Manzil 重新上線後再試一次即可。',
   'help.guide.arrange-packing-list.step.1':
     '抓住清單標題列左端、色點前面的握把，把清單拖放到另一張卡片上。目標卡片會出現強調色外框，清單會取代那張卡片的位置，旅行中的所有人看到的都是這個順序。',
   'help.guide.count-packed-pieces.title': '同一項物品打包多件',
@@ -5231,11 +5231,11 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-link.step.4': '在「實際」下查看它量測到的數值，然後點擊「連結」。',
   'help.guide.tour-activity-compare.step.1':
     '開啟遊程的卡片。「計畫與實際」會把計畫的「距離」、「累計爬升」、「累計下降」和「含休息時間」與軌跡的數值並排顯示，並附上「差異」。',
-  'help.guide.tour-origin-check.goal': '查明遊程是在 TREK 中繪製的還是匯入的、來自哪個檔案，以及之後有沒有被更改過。',
+  'help.guide.tour-origin-check.goal': '查明遊程是在 Manzil 中繪製的還是匯入的、來自哪個檔案，以及之後有沒有被更改過。',
   'help.ctx.trip-tour-planner.title': '遊程',
   'help.guide.tour-open-workspace.title': '熟悉「遊程」分頁',
   'help.guide.tour-open-workspace.step.7':
-    '點擊右側欄中的遊程。在 TREK 中規劃的遊程會在編輯器中開啟；匯入的軌跡則維持匯入時的樣子，以「GPX 遊程」開啟，僅供查看。',
+    '點擊右側欄中的遊程。在 Manzil 中規劃的遊程會在編輯器中開啟；匯入的軌跡則維持匯入時的樣子，以「GPX 遊程」開啟，僅供查看。',
   'help.guide.tour-draw-route.step.2': '在「搜尋地點或地址」中輸入遊程的起點，並選擇搜尋結果，地圖就會移到那裡。',
   'help.guide.tour-draw-route.tip.4':
     '未儲存的草稿會被保留。再次開啟旅行的「遊程」分頁時會自動還原，並標示「已還原尚未儲存的草稿」。',
@@ -5263,7 +5263,7 @@ const help: TranslationStrings = {
   'help.guide.tour-import-gpx.tip.3': '旅行中已經有的軌跡會呈灰色並標示「已在旅程中」，匯入時會被略過。',
   'help.guide.tour-view-import.step.3': '左上角的箭頭「返回遊程清單」可再次關閉它。',
   'help.guide.tour-plan-from-import.step.2':
-    'TREK 會從軌跡中取出控制點並重新規劃路線。地圖上，匯入的軌跡以點線繪製，建議的路線以實線繪製，卡片則會比較兩者的長度、「與軌跡相距 50 公尺以內」的比例，以及「最大偏差」。',
+    'Manzil 會從軌跡中取出控制點並重新規劃路線。地圖上，匯入的軌跡以點線繪製，建議的路線以實線繪製，卡片則會比較兩者的長度、「與軌跡相距 50 公尺以內」的比例，以及「最大偏差」。',
   'help.guide.tour-restore-recorded.title': '回到錄製的軌跡',
   'help.guide.tour-take-over.title': '從其他旅行引入遊程',
   'help.guide.tour-take-over.tip.1':
@@ -5341,7 +5341,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-pistes-layer.tip.2': '如果雪道載入失敗，開關上會出現警告標誌。地圖和你的路線仍可正常使用。',
   'help.guide.tour-ski-import.step.4': '點擊「匯入 1 條遊程」。',
   'help.ctx.trip-tour-paddle.summary':
-    '在河流或湖泊上的皮艇、獨木舟或直立式划槳（SUP）遊程。它會註明船隻和水域，在 TREK 有資料的地方沿著水路規劃，把陸上搬運與船閘計入時間，並顯示你划槳當天的風況，以及沿途已知的障礙資訊。',
+    '在河流或湖泊上的皮艇、獨木舟或直立式划槳（SUP）遊程。它會註明船隻和水域，在 Manzil 有資料的地方沿著水路規劃，把陸上搬運與船閘計入時間，並顯示你划槳當天的風況，以及沿途已知的障礙資訊。',
   'help.guide.tour-paddle-setup.goal':
     '開始規劃皮艇、獨木舟或直立式划槳（SUP）遊程，並設定你划什麼船、在什麼水域、速度多快。',
   'help.guide.tour-paddle-setup.tip.1':
@@ -5349,7 +5349,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.step.2':
     '若要讓某一段在水上規劃，請將游標移到它前一個停靠點，然後點擊「更多操作」，也就是那三個點。',
   'help.guide.tour-paddle-water-route.result':
-    '每一段不是沿著水路，就是你刻意手動繪製的，TREK 無法規劃的路段則會說明原因。',
+    '每一段不是沿著水路，就是你刻意手動繪製的，Manzil 無法規劃的路段則會說明原因。',
   'help.guide.tour-paddle-portage.tip.1':
     '如果之後想改成直接划過這一段，請再次開啟該點的「更多操作」，選擇「這一段恢復划槳」。這一段會變回手動繪製的路段。',
   'help.guide.tour-paddle-lock.step.3': '點擊「船閘」卡片即可開啟。',
@@ -5366,7 +5366,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.2':
     '點擊「遊程名稱」下的「路線類型」欄位，選擇「騎馬遊」。「騎馬路線」卡片會出現在「路點」下方。',
   'help.guide.tour-horse-plan.tip.2':
-    'TREK 不會為騎馬行程估算騎乘時間。如果你想在當天顯示時間，請在「詳細資訊」的「計劃中」下自行輸入。',
+    'Manzil 不會為騎馬行程估算騎乘時間。如果你想在當天顯示時間，請在「詳細資訊」的「計劃中」下自行輸入。',
   'help.guide.tour-horse-gap.step.3': '點擊「採用路段」。在開關開啟之前，這個按鈕會維持灰色。',
   'help.guide.tour-horse-recorded.step.1':
     '在「這趟旅行的遊程」中，點擊「新增行程」（+），選擇「匯入 GPX 或 KML」，然後選取你的騎馬行程檔案。',
@@ -5381,7 +5381,7 @@ const help: TranslationStrings = {
   'help.guide.log-for-partner.title': '替一起規劃的人登記休假日',
   'help.guide.dissolve-fusion.title': '停止共同規劃',
   'help.guide.country-places.goal':
-    '列出 TREK 為某個國家計入的地點，方便你回顧在那裡去過哪些地方，或找出被歸到錯誤國家的地點。',
+    '列出 Manzil 為某個國家計入的地點，方便你回顧在那裡去過哪些地方，或找出被歸到錯誤國家的地點。',
   'help.guide.regions.tip.3': '「新增到心願單」對地區也適用。地區會以和心願單上的國家相同的斜線圖樣顯示。',
   'help.guide.tour-activity-stats.step.2':
     '用左側的兩個標籤選擇「時間範圍」和類型。「時間範圍」提供「全部時間」、「今年」、「最近 12 個月」，以及你有遊程的每個更早年份。「型別」可把數字縮小到某一種遊程，或選「所有型別」。',
@@ -5407,21 +5407,21 @@ const help: TranslationStrings = {
   'help.ctx.settings-about.bullet.1': '這台伺服器執行的版本顯示在標題旁邊。',
   'help.guide.readability.tip.3':
     '易讀性標示為「實驗性」。如果畫面看起來不對勁，請點擊分頁底部的「恢復預設」，恢復預設設定。',
-  'help.guide.web-push-device.goal': '即使 TREK 已關閉，也能在手機或電腦上收到 TREK 的通知。',
+  'help.guide.web-push-device.goal': '即使 Manzil 已關閉，也能在手機或電腦上收到 Manzil 的通知。',
   'help.guide.connect-airtrail.tip.2': '金鑰會加密儲存，之後不會再顯示。欄位中出現圓點，表示已儲存了一把金鑰。',
   'help.guide.connect-dawarich.tip.2':
-    '按鈕下方，卡片會說明 TREK 上次檢查的時間，以及你的 Dawarich 版本不支援哪些功能。',
+    '按鈕下方，卡片會說明 Manzil 上次檢查的時間，以及你的 Dawarich 版本不支援哪些功能。',
   'help.guide.tour-connect-wanderer.tip.2': '如果執行個體位於私有位址，可能需要管理員允許內部網路。',
   'help.guide.tour-wanderer-watch.tip.2':
     '「暫停至」表示 wanderer 沒有回應，「權杖遭拒」表示權杖需要通過連線測試，或需要換一個新權杖。',
   'help.guide.plugin-settings.result': '外掛會依你的設定運作，它代你執行的每個操作都會列在「外掛活動」下。',
   'help.ctx.admin-defaults.bullet.3':
-    '你設定過的欄位旁邊有重設連結，可恢復 TREK 自己的預設值。使用者自己的設定一律優先於這裡的預設值。',
+    '你設定過的欄位旁邊有重設連結，可恢復 Manzil 自己的預設值。使用者自己的設定一律優先於這裡的預設值。',
   'help.ctx.admin-settings.bullet.5': '「危險區域」：「輪替 JWT 密鑰」會讓所有使用者登出，包括你自己。',
   'help.guide.default-user-settings.step.1':
     '在「用戶預設設定」下，選擇「顏色模式」（「淺色」、「深色」或「自動」）、「溫度單位」、「距離單位」、「時間格式」、「每週開始於」、「顯示貨幣」，以及「模糊預訂程式碼」要開啟還是關閉。每個選擇都會立即儲存。',
   'help.guide.admin-passkeys.step.2':
-    '輸入「Relying Party ID（網域）」（例如 trek.example.org），以及你的 TREK 對外使用的「允許的來源」，然後點擊「儲存」。兩者都留空的話，會使用 APP_URL。',
+    '輸入「Relying Party ID（網域）」（例如 trek.example.org），以及你的 Manzil 對外使用的「允許的來源」，然後點擊「儲存」。兩者都留空的話，會使用 APP_URL。',
   'help.guide.rotate-jwt-secret.title': '一次讓所有人登出',
   'help.guide.notification-defaults.step.2':
     '點擊格子可切換到下一個狀態：開啟、「關閉」、「封鎖」。提示文字會顯示下一個狀態，每次點擊都會立即儲存。',
@@ -5443,7 +5443,7 @@ const help: TranslationStrings = {
   'help.guide.move-booking-day.goal': '直接在計畫中把交通或預訂移到另一天，不必開啟表單。',
   'help.guide.place-image-from-file.result': '這張照片就是地點的圖片，會顯示在卡片上、地點欄、當天的行程和地圖上。',
   'help.guide.place-own-hours.step.3':
-    '它們下方的「營業時間」以每天一列顯示整週。如果 TREK 找到了地點的營業時間，就會已經填好，否則請先點擊「新增營業時間」。輸入每天的開門和關門時間，不營業的日子則點擊「已關閉」。',
+    '它們下方的「營業時間」以每天一列顯示整週。如果 Manzil 找到了地點的營業時間，就會已經填好，否則請先點擊「新增營業時間」。輸入每天的開門和關門時間，不營業的日子則點擊「已關閉」。',
   'help.guide.add-accommodation.tip.5': 'GPX 軌跡和遊程地點不會被當作住宿地點，只有旅行中一般的地點才可以。',
   'help.guide.confirm-stay-booking.step.1':
     '開啟入住的那一天。在住宿的卡片上，「預訂」下方是這一晚的旅館預訂，顯示「待確認」或「已確認」。點擊那個方塊。',
@@ -5471,7 +5471,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.goal':
     '決定文件只從你的儲存空間匯入、只匯出到儲存空間，還是雙向同步，以及文件在兩邊被刪除或修改時如何處理。',
   'help.guide.files-sync-settings.tip.2':
-    '選擇「詢問我」後，在兩邊都被編輯過的文件，會等在卡片下方的「需要查看」。點擊「解決」，再選擇「保留 TREK 版本」、「保留提供者版本」或「兩份都保留」。',
+    '選擇「詢問我」後，在兩邊都被編輯過的文件，會等在卡片下方的「需要查看」。點擊「解決」，再選擇「保留 Manzil 版本」、「保留提供者版本」或「兩份都保留」。',
   'help.guide.manage-notes.goal': '完整開啟一則筆記、把重要的筆記置頂，並更正或移除過時的內容。',
   'help.guide.manage-notes.tip.2':
     '編輯時，已附加檔案上的紅色叉號會在你點擊「儲存」之前就立即刪除檔案，而且檔案不會進入垃圾桶。筆記的每個檔案也都會出現在旅行的「檔案」分頁中。',
@@ -5569,7 +5569,7 @@ const help: TranslationStrings = {
   'help.guide.tour-along-search.step.1':
     '在「遊程」分頁中開啟遊程，將左側面板向下捲動到遊程停靠點下方的「沿途」。遊程有了路線之後，才會出現這張卡片。',
   'help.guide.tour-along-search.tip.3':
-    '搜尋結果來自 OpenStreetMap 和 TREK 的地點索引，所以搜尋需要網路連線。什麼都沒找到時，「擴大範圍至」會改用下一個距離再找。伺服器忙碌時，「重試」會顯示倒數，倒數結束就能再試一次。',
+    '搜尋結果來自 OpenStreetMap 和 Manzil 的地點索引，所以搜尋需要網路連線。什麼都沒找到時，「擴大範圍至」會改用下一個距離再找。伺服器忙碌時，「重試」會顯示倒數，倒數結束就能再試一次。',
   'help.guide.tour-along-add-stop.tip.1': '該地點會成為遊程的停靠點，而不是旅行的地點，所以不會出現在地點列表中。',
   'help.guide.tour-3d-terrain.step.4': '拖曳「地形暈渲」滑桿，可把山丘放大到最高三倍，在地勢平緩的地方特別有用。',
   'help.guide.tour-3d-flyover.step.1':
@@ -5587,7 +5587,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-hike.bullet.4':
     '路點下方的「路徑詳情」會從 OpenStreetMap 讀取每個路段的 SAC 等級、路面和道路類型，並依此為地圖上的路線著色。這裡的任何內容都不會更改遊程。',
   'help.guide.tour-hike-plan.step.4':
-    '「新增地點」一開始就是開啟的：在地圖上點擊健行的起點和終點。旁邊的「行程地點」則可改為選擇旅行中的山屋或旅館。有兩個點之後，TREK 就會計算步行路線。',
+    '「新增地點」一開始就是開啟的：在地圖上點擊健行的起點和終點。旁邊的「行程地點」則可改為選擇旅行中的山屋或旅館。有兩個點之後，Manzil 就會計算步行路線。',
   'help.guide.tour-hike-trail-details.title': '查看健行沿途的等級、路面和道路類型',
   'help.guide.tour-hike-trail-details.tip.1':
     'OpenStreetMap 上沒有數值的道路會列在「未知」下，而未知不代表好走。如果有些項目顯示「本次無法查詢」，請點擊「重試」。',
@@ -5614,7 +5614,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.2':
     '右側的「遊程摘要」會顯示「騎乘時間（估算）」，也就是路線規劃器依設定檔算出的時間，並已計入爬升。不含休息時間。',
   'help.guide.tour-bike-profile.step.4':
-    '在「路點」下，點擊「行程地點」並選擇起點和終點，這裡是 Hotel Alpenroyal，接著是 Hotel Greif。你也可以確認「新增地點」已開啟，然後直接點擊地圖。有兩個點之後，TREK 就會計算路線。',
+    '在「路點」下，點擊「行程地點」並選擇起點和終點，這裡是 Hotel Alpenroyal，接著是 Hotel Greif。你也可以確認「新增地點」已開啟，然後直接點擊地圖。有兩個點之後，Manzil 就會計算路線。',
   'help.guide.tour-bike-profile.tip.5':
     '如果管理員允許使用 CyclOSM 地圖，開啟單車遊程時，地圖上的圖層列也會提供「騎單車」。如果它載入失敗，請切換到「地圖」。遊程不會改變。',
   'help.guide.tour-bike-surfaces.tip.1':
@@ -5641,7 +5641,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.2':
     '划槳遊程的地圖提供「地圖」和「衛星影像」，另有來自 OpenSeaMap 的「航標」可作為疊加圖層。',
   'help.guide.tour-paddle-water-route.step.3':
-    '選擇「沿水路規劃下一段」。TREK 會沿著河流或湖泊，規劃從這個點到下一個點的路段。',
+    '選擇「沿水路規劃下一段」。Manzil 會沿著河流或湖泊，規劃從這個點到下一個點的路段。',
   'help.guide.tour-paddle-portage.title': '搬運船隻繞過障礙',
   'help.guide.tour-paddle-portage.tip.2':
     '在最後一個點上，「從這裡開始搬運船隻」要等你設好下一個點才會生效。該列會顯示「從這裡開始搬運」，點擊旁邊的叉號「不再搬運」即可撤銷。',
@@ -5708,7 +5708,7 @@ const help: TranslationStrings = {
     '伺服器一再拒絕的變更會顯示在「離線快取」下的「失敗的變更」：「重試」會再送出一次，「捨棄」則保留伺服器的版本。',
   'help.ctx.admin-notifications.bullet.4':
     '底部的「使用者預設值」：針對還沒自行更改設定的所有人，依事件和管道設為開啟、「關閉」或「封鎖」。',
-  'help.guide.default-user-settings.step.2': '你設定過的欄位，名稱旁會出現重設連結，點擊可恢復 TREK 內建的預設值。',
+  'help.guide.default-user-settings.step.2': '你設定過的欄位，名稱旁會出現重設連結，點擊可恢復 Manzil 內建的預設值。',
   'help.guide.own-routing-engine.title': '使用你自己的路線規劃伺服器',
   'help.guide.admin-passkeys.result': '登入頁面會出現「使用 Passkey 登入」，使用者也可以在自己的設定中新增 Passkey。',
   'help.guide.rotate-jwt-secret.goal': '在懷疑金鑰外洩後，結束所有工作階段。',
@@ -5727,7 +5727,7 @@ const help: TranslationStrings = {
   'help.guide.move-booking-day.step.1': '將游標移到當天預訂的那一列：左側出現握把，表示可以拖曳。',
   'help.guide.place-image-from-file.tip.1': '只會列出 JPG、PNG、GIF 和 WebP 檔案，PDF 票券不在其中。',
   'help.guide.place-own-hours.step.4':
-    '「營業時間」右側的按鈕：複製按鈕會把週一的時間套用到每一天，X 則再次移除你設定的時間。如果 TREK 原本找到了這個地點的營業時間，點擊「從地點詳情帶入」可把那些時間放回來。',
+    '「營業時間」右側的按鈕：複製按鈕會把週一的時間套用到每一天，X 則再次移除你設定的時間。如果 Manzil 原本找到了這個地點的營業時間，點擊「從地點詳情帶入」可把那些時間放回來。',
   'help.guide.confirm-stay-booking.step.2': '預訂會在計畫上方開啟，標題中的第一個標籤顯示它的狀態。',
   'help.ctx.trip-map.bullet.9':
     '旅行的每個遊程都以其顏色的線條顯示，起點有一枚圖釘。點擊線條可開啟遊程的卡片。在有遊程的那一天，當天路線會通往遊程的起點，並從終點繼續。點擊「遊程」列表中遊程旁的眼睛「在地圖上隱藏」，可把它的線條從你的地圖上移開。',
@@ -5741,7 +5741,7 @@ const help: TranslationStrings = {
   'help.guide.export-transports-csv.tip.1': '分頁中至少有一段行程時，工具列才會出現這個圖示。',
   'help.guide.group-sort-bookings.step.1': '在「卡片」或「清單」中，點擊三個檢視圖示後面的滑桿圖示「檢視選項」。',
   'help.guide.create-booking.tip.4':
-    '離線時，預訂會先儲存在這台裝置上，等重新上線後再同步。新增檔案需要網路連線，所以請先移除檔案，或晚點再儲存。如果不小心點到表單外面或按了 Escape，TREK 會先詢問「放棄變更？」，不會讓你輸入的內容直接消失。',
+    '離線時，預訂會先儲存在這台裝置上，等重新上線後再同步。新增檔案需要網路連線，所以請先移除檔案，或晚點再儲存。如果不小心點到表單外面或按了 Escape，Manzil 會先詢問「放棄變更？」，不會讓你輸入的內容直接消失。',
   'help.guide.booking-on-map.tip.2': '住宿會開啟到入住的第一晚。',
   'help.guide.export-bookings-csv.step.3': '點擊「檢視選項」後面的試算表圖示「匯出為試算表 (CSV)」。',
   'help.guide.arrange-packing-list.step.3':
@@ -5753,7 +5753,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.1':
     '點擊列最右端的「文件同步」。如果旅行已綁定儲存空間，該儲存空間的卡片會在右側開啟；如果有多個儲存空間，請在左側「這次旅行」下點擊你要的那一個。',
   'help.guide.files-sync-settings.tip.3':
-    '「即時更新」是帶有「複製」的連結，只有 TREK 無法自動訂閱變更的儲存空間才會有。把連結貼到儲存空間中，變更就會立即送達，不必等到下次檢查。',
+    '「即時更新」是帶有「複製」的連結，只有 Manzil 無法自動訂閱變更的儲存空間才會有。把連結貼到儲存空間中，變更就會立即送達，不必等到下次檢查。',
   'help.guide.manage-notes.step.1':
     '點擊筆記卡片標題中的三個點（「更多選項」）。選單裡有「展開」、「置頂」、「編輯」和「刪除」。',
   'help.guide.note-categories.title': '把筆記分類整理',
@@ -5778,7 +5778,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.tip.1':
     '把有階段的遊程拖到某一天，會用小對話方塊詢問同樣的問題。點擊「取消」則計畫維持原樣。',
   'help.guide.tour-day-times.step.2':
-    '設定「開始」，「結束」留空。欄位下方的那行字會顯示 TREK 算出的結束時間，也就是開始時間加上遊程所需的時間。',
+    '設定「開始」，「結束」留空。欄位下方的那行字會顯示 Manzil 算出的結束時間，也就是開始時間加上遊程所需的時間。',
   'help.guide.tour-remove-from-day.title': '把遊程從某一天移除',
   'help.guide.tour-filter-list.title': '篩選遊程列表',
   'help.guide.tour-filter-list.tip.3':
@@ -5790,7 +5790,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-detail.bullet.5':
     '這張卡片用來閱讀，以及處理與遊程相關的事項。路線本身要到「遊程」分頁修改：開啟該分頁，點擊「這趟旅行的遊程」下的遊程。刪除遊程也是在那裡，不是在這裡。',
   'help.guide.tour-detail-read.step.6':
-    '繼續往下捲動，可看到「描述」和「筆記」，接著是「來源」：在 TREK 中規劃、匯入來源的檔案，或它所來自的 wanderer 路線，並附日期。',
+    '繼續往下捲動，可看到「描述」和「筆記」，接著是「來源」：在 Manzil 中規劃、匯入來源的檔案，或它所來自的 wanderer 路線，並附日期。',
   'help.guide.tour-rename-colour.title': '重新命名遊程並更改顏色',
   'help.guide.tour-rename-colour.result': '遊程在旅行各處都會顯示新名稱，它的線條也會改用你選的顏色。',
   'help.guide.tour-take-along.tip.3': '檔案由伺服器提供，所以需要網路連線。離線建立的遊程，要等同步後才能下載。',
@@ -5802,7 +5802,7 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.3':
     '點擊「在地圖上比較」，實際軌跡會以點線畫在計畫旁邊。點擊「結束比較」即可移除。',
   'help.guide.tour-origin-check.step.2':
-    '「已匯入」顯示匯入的日期。「這裡」說明目前的狀態：「與匯入時相同」、「已在 TREK 中編輯」，或「已重新規劃，記錄的軌跡已保留」。',
+    '「已匯入」顯示匯入的日期。「這裡」說明目前的狀態：「與匯入時相同」、「已在 Manzil 中編輯」，或「已重新規劃，記錄的軌跡已保留」。',
   'help.ctx.trip-tour-planner.bullet.1':
     '開啟遊程擴充套件後，「遊程」會出現在旅行分頁列中「計畫」的後面。這個分頁只在電腦和平板上提供，在手機上則可從「計畫」分頁查看遊程並排到各天，但不能繪製。',
   'help.guide.tour-open-workspace.step.1': '點擊旅行分頁列中「計畫」後面的「遊程」。地圖會佔滿畫面，兩側各有一個側欄。',
@@ -5918,12 +5918,12 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.2': '開啟「路線類型」並選擇「划槳行程」，也就是「水上，獨木舟、加拿大艇或立槳」。',
   'help.guide.tour-paddle-setup.tip.3': '在划槳遊程中，「沿途」會優先尋找「下水點」、「租船」和「飲用水」。',
   'help.guide.tour-paddle-water-route.step.4':
-    'TREK 無法規劃的路段會變紅並說明原因，例如該區域還沒有水域資料。你可以先點擊「畫直線」手動繪製。',
+    'Manzil 無法規劃的路段會變紅並說明原因，例如該區域還沒有水域資料。你可以先點擊「畫直線」手動繪製。',
   'help.guide.tour-paddle-portage.goal': '標記你需要搬運船隻的路段，讓它算作陸地，並計入上岸和重新下水的時間。',
   'help.guide.tour-paddle-portage.tip.3':
     '在你於「時間估算」卡片中設定自己的「搬運速度」之前，搬運一律以每小時 2 公里計算。',
   'help.guide.tour-paddle-lock.tip.1':
-    'TREK 不知道船閘的運作時間表，這些時間完全是你輸入的內容，所以請自己確認船閘的開放時間。',
+    'Manzil 不知道船閘的運作時間表，這些時間完全是你輸入的內容，所以請自己確認船閘的開放時間。',
   'help.guide.tour-paddle-time.step.3':
     '「水域」列是以你的「划槳速度」在水上划行的距離。要更改速度，請使用欄位頂部的「划槳速度」欄位。',
   'help.guide.tour-paddle-wind.goal': '查看你划槳當天，遊程起點的預報風力。',

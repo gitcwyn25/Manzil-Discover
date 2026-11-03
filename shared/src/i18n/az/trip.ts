@@ -43,7 +43,7 @@ const trip: TranslationStrings = {
 
   'trip.invite.linkTitle': 'Səyahət dəvət linki',
   'trip.invite.linkHint':
-    'Bu linki açan istənilən TREK istifadəçisi səyahətə üzv kimi qoşulacaq. Köhnə linki etibarsız etmək üçün yenisini yaradın.',
+    'Bu linki açan istənilən Manzil istifadəçisi səyahətə üzv kimi qoşulacaq. Köhnə linki etibarsız etmək üçün yenisini yaradın.',
   'trip.invite.create': 'Dəvət linki yarat',
   'trip.invite.regenerate': 'Yenidən yarat',
   'trip.invite.disable': 'Deaktiv et',

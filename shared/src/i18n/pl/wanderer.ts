@@ -23,12 +23,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Usunięto połączenie z wanderer',
   'wanderer.loadFailed': 'Nie udało się wczytać połączenia z wanderer',
   'wanderer.privateIp':
-    'Ten adres należy do sieci prywatnej. Jeśli TREK nie może się z nim połączyć, administrator musi zezwolić na sieci wewnętrzne.',
+    'Ten adres należy do sieci prywatnej. Jeśli Manzil nie może się z nim połączyć, administrator musi zezwolić na sieci wewnętrzne.',
   'wanderer.error.disabled': 'Administrator nie włączył wanderer dla wycieczek.',
   'wanderer.error.not_connected': 'wanderer nie jest jeszcze połączony.',
   'wanderer.error.invalid_url': 'Ten adres nie jest prawidłowym adresem URL wanderer.',
   'wanderer.error.blocked_address':
-    'TREK nie może łączyć się z tym adresem. Dla instancji we własnej sieci administrator musi ustawić ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil nie może łączyć się z tym adresem. Dla instancji we własnej sieci administrator musi ustawić ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'Nie udało się połączyć z wanderer. Sprawdź adres i czy instancja działa.',
   'wanderer.error.tls':
     'Nie udało się zweryfikować certyfikatu instancji. Jeśli ma podpis własny, zezwól na niego poniżej.',
@@ -39,7 +39,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Odpowiedź nie pochodzi z wanderer. Sprawdź, czy adres wskazuje bezpośrednio na wanderer.',
   'wanderer.error.no_author':
-    'wanderer odpowiedział, ale nie podaje autora szlaków dla konta tego tokenu API, więc TREK nie może ustalić, które szlaki są Twoje.',
+    'wanderer odpowiedział, ale nie podaje autora szlaków dla konta tego tokenu API, więc Manzil nie może ustalić, które szlaki są Twoje.',
   'wanderer.error.too_large': 'Plik szlaku jest większy niż 10 MB.',
   'wanderer.error.server_error': 'wanderer odpowiedział błędem. Spróbuj ponownie później.',
   'wanderer.error.offline': 'Jesteś offline. wanderer można przeszukiwać tylko online.',

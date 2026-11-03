@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Di peta',
   'reservations.import.pinMissingTitle': 'Belum ada di peta',
   'reservations.import.pinMissingBody':
-    'TREK tidak menemukan penginapan ini di peta. Periksa nama dan alamat di atas lalu cari lagi, atau simpan tanpa pin.',
+    'Manzil tidak menemukan penginapan ini di peta. Periksa nama dan alamat di atas lalu cari lagi, atau simpan tanpa pin.',
   'reservations.import.pinRetry': 'Cari lagi',
   'reservations.import.savedWithoutPin':
     'Disimpan tanpa pin peta. Edit tempatnya dan atur lokasinya agar muncul di peta.',
@@ -264,7 +264,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Tampilkan di File',
   'reservations.filesNeedConnection':
     'File perlu koneksi untuk diunggah. Hapus file baru untuk menyimpan pemesanan secara offline, atau simpan saat kamu kembali online.',
-  'reservations.needsConnection': 'Ini memerlukan koneksi. Coba lagi begitu TREK kembali online.',
+  'reservations.needsConnection': 'Ini memerlukan koneksi. Coba lagi begitu Manzil kembali online.',
   'reservations.exportCsvFiltered': 'Ekspor {shown} dari {total} baris yang ditampilkan (CSV)',
 };
 export default reservations;

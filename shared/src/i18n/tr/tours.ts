@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Güne ekle',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX içe aktarımı',
-  'tours.badge.planned': 'TREK ile planlandı',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'Manzil ile planlandı',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'dikkatli kullanın',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Bu tur o günde zaten var.',
   'tours.conversion.title': 'Düzenlenebilir sürüm',
   'tours.conversion.intro':
-    'Bir içe aktarım kaydedilmiş bir izdir. Düzenlenebilir bir sürüm planlayın: TREK ondan kontrol noktaları alır, bunları yeniden rotalar ve sonucun ne kadar yakın olduğunu gösterir. Siz seçene kadar hiçbir şey değişmez.',
+    'Bir içe aktarım kaydedilmiş bir izdir. Düzenlenebilir bir sürüm planlayın: Manzil ondan kontrol noktaları alır, bunları yeniden rotalar ve sonucun ne kadar yakın olduğunu gösterir. Siz seçene kadar hiçbir şey değişmez.',
   'tours.conversion.replace': 'İçe aktarımı değiştir',
   'tours.conversion.replaceHint':
     'Bu turu yerinde yeniden planlar: günleri ve notları kalır, kaydedilmiş iz ise ona geri dönebilmeniz için saklanır.',
@@ -123,7 +123,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Güvenlik hakkında',
   'tours.planner.addPoint': 'Nokta ekle',
   'tours.planner.addPointActive': 'Haritaya tıklayın',
-  'tours.planner.emptyHint': '“Nokta ekle”yi açın ve haritaya tıklayın. İki noktadan itibaren TREK rotayı hesaplar.',
+  'tours.planner.emptyHint': '“Nokta ekle”yi açın ve haritaya tıklayın. İki noktadan itibaren Manzil rotayı hesaplar.',
   'tours.planner.walkingEstimated': 'Tahmini yürüyüş süresi',
   'tours.planner.walkingEstimatedShort': 'Tahm. süre',
   'tours.planner.walkingEstimatedInfoLabel': 'Yürüyüş süresi nasıl tahmin edilir',
@@ -239,7 +239,7 @@ const tours: TranslationStrings = {
     'wanderer’ın içe aktarma sırasında verdiği değişiklik tarihi. Bir ipucu, sürüm kanıtı değil.',
   'tours.provenance.localState': 'Burada',
   'tours.provenance.plannedOver': 'Yeniden planlandı, kayıtlı iz korundu',
-  'tours.provenance.editedLocally': 'TREK’te düzenlendi',
+  'tours.provenance.editedLocally': 'Manzil’te düzenlendi',
   'tours.provenance.asImported': 'İçe aktarıldığı gibi',
   'tours.provenance.openSource': 'wanderer’da aç',
   'tours.provenance.check': 'Kaynağı denetle',
@@ -312,7 +312,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': "Google Maps'ten yürüyüş içe aktar",
   'tours.walkImport.title': 'Google Maps bağlantısından yürüyüş',
   'tours.walkImport.intro':
-    "Google Maps'te bir yürüyüş rotası paylaş ve bağlantısını buraya yapıştır. TREK durakları okur ve aralarındaki yürüme yolunu kendisi planlar.",
+    "Google Maps'te bir yürüyüş rotası paylaş ve bağlantısını buraya yapıştır. Manzil durakları okur ve aralarındaki yürüme yolunu kendisi planlar.",
   'tours.walkImport.urlLabel': 'Yürüyüş rotasının bağlantısı',
   'tours.walkImport.urlHint': 'Bir maps.app.goo.gl kısa bağlantısı ya da rotanın google.com/maps adresi.',
   'tours.walkImport.read': 'Bağlantıyı oku',
@@ -322,14 +322,14 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': "Google Maps'ten",
   'tours.walkImport.openSource': "Google Maps'te aç",
   'tours.walkImport.recalculated':
-    "TREK duraklar arasındaki yolu yeniden planlar; Google Maps'te çizilen çizgi alınmaz.",
+    "Manzil duraklar arasındaki yolu yeniden planlar; Google Maps'te çizilen çizgi alınmaz.",
   'tours.walkImport.noPosition': 'Bağlantıda konum yok',
   'tours.walkImport.unresolved': '{count} durağın bağlantıda konumu yok ve dışarıda bırakılıyor.',
   'tours.walkImport.unresolved.one': '{count} durağın bağlantıda konumu yok ve dışarıda bırakılıyor.',
   'tours.walkImport.tooFewPositions': 'Bir yürüyüş için konumu olan en az iki durak gerekir.',
   'tours.walkImport.replacesDraft': 'Yürüyüşü yüklemek planlayıcıdaki kaydedilmemiş değişikliklerin yerini alır.',
   'tours.walkImport.defaultName': "Google Maps'ten yürüyüş",
-  'tours.walkImport.draftNotice': 'Bir Google Maps yürüyüş rotasından. Duraklar arasındaki yolu TREK kendisi planladı.',
+  'tours.walkImport.draftNotice': 'Bir Google Maps yürüyüş rotasından. Duraklar arasındaki yolu Manzil kendisi planladı.',
   'tours.walkImport.offline': 'Bir bağlantıyı okumak için bağlantı gerekir.',
   'tours.walkImport.failed': 'Bağlantı şu anda okunamadı. Birazdan yeniden dene.',
   'tours.walkImport.refusal.not_google_maps':
@@ -370,7 +370,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': 'rotaya {distance}',
   'tours.poi.along': '{distance} noktasında',
   'tours.poi.source.osm': "OpenStreetMap'ten",
-  'tours.poi.source.trek': "TREK'in yer dizininden",
+  'tours.poi.source.trek': "Manzil'in yer dizininden",
   'tours.poi.hoursHint': 'Kaynakta yazdığı gibi; gitmeden önce kontrol et.',
   'tours.poi.website': 'Web sitesi',
   'tours.poi.slot.label': 'Nereye girer',
@@ -502,7 +502,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.saved':
     'Kaydedildiği gibi gösteriliyor. Yeniden planlamak için bir noktayı taşı ya da bir seçeneği değiştir.',
   'tours.ski.chooseTechnique': 'Tekniği ya da Bilinmiyor seçeneğini seç.',
-  'tours.ski.infoLabel': 'TREK kayak turları ve izleriyle ne yapar',
+  'tours.ski.infoLabel': 'Manzil kayak turları ve izleriyle ne yapar',
   'tours.ski.info':
     'Planlanan tur, pist verilerinin ulaştığı yerde OpenStreetMap pistlerini, teleferiklerini ve parkurlarını izler, ulaşmadığı yerde noktalarını düz bağlar. İçe aktarılan iz kaydedildiği gibi kalır. Yükseklikler pist verilerinden, araziden veya dosyadan gelir. Buradaki hiçbir şey, 3D eğim renkleri dahil, kar, çığ ya da pistlerin, teleferiklerin ve parkurların açık olup olmadığı hakkında bir şey söylemez.',
   'tours.ski.time': 'Kayak süresi',
@@ -915,7 +915,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Sonraki bölümü yeniden rotala',
   'tours.planner.freeLegBadge': 'Elle çizildi, rotalanmadı',
   'tours.planner.freeLegInfo':
-    'TREK bu iki noktayı düz bir çizgiyle birleştirir. Hiçbir rota planlayıcı bu bölümü planlamadı veya kontrol etmedi.',
+    'Manzil bu iki noktayı düz bir çizgiyle birleştirir. Hiçbir rota planlayıcı bu bölümü planlamadı veya kontrol etmedi.',
   'tours.map.seamarks': 'Deniz işaretleri',
   'tours.map.seamarksDown': 'Deniz işaretleri yüklenmiyor. Harita ve rotan çalışmaya devam ediyor.',
   'tours.map.pistes': 'Pistler, kayaklı koşu parkurları ve teleferikler',
@@ -964,9 +964,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': '{count} turu içe aktar',
   'tours.import.previewConfirm.one': '{count} turu içe aktar',
   'tours.conversion.introPaddle':
-    'İçe aktarma kaydedilmiş bir izdir. Düzenlenebilir bir kürek turu planla: TREK ondan kontrol noktaları alır, kürek turu nasıl çiziliyorsa onları düz çizgilerle birleştirir ve ne kadar yaklaştığını gösterir. Sen seçene kadar hiçbir şey değişmez.',
+    'İçe aktarma kaydedilmiş bir izdir. Düzenlenebilir bir kürek turu planla: Manzil ondan kontrol noktaları alır, kürek turu nasıl çiziliyorsa onları düz çizgilerle birleştirir ve ne kadar yaklaştığını gösterir. Sen seçene kadar hiçbir şey değişmez.',
   'tours.conversion.introSki':
-    'İçe aktarma kaydedilmiş bir izdir. Düzenlenebilir bir kayak turu planla: TREK ondan kontrol noktaları alır, kayak turu nasıl çiziliyorsa onları düz çizgilerle birleştirir ve ne kadar yaklaştığını gösterir. Sen seçene kadar hiçbir şey değişmez.',
+    'İçe aktarma kaydedilmiş bir izdir. Düzenlenebilir bir kayak turu planla: Manzil ondan kontrol noktaları alır, kayak turu nasıl çiziliyorsa onları düz çizgilerle birleştirir ve ne kadar yaklaştığını gösterir. Sen seçene kadar hiçbir şey değişmez.',
   'tours.conversion.closePaddle':
     'Öneri izi yakından takip ediyor. Noktaları düz çizgilerle birleştirildiği için aynı çizgi değil.',
   'tours.planner.moreActions': 'Diğer işlemler',
@@ -998,7 +998,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Etrafından taşınıyor, taşıma sayılır',
   'tours.paddle.time.title': 'Süre tahmini',
   'tours.paddle.time.assumptionInfo':
-    'TREK suda 4 km/sa, taşırken 2 km/sa ve her taşımada sudan çıkıp yeniden girmek için 10 dakika ile başlar. Bunlar ayarlanacak başlangıç değerleridir, norm ya da ölçüm değildir. Kilit süreleri yalnızca senin girdiğin değerlerdir.',
+    'Manzil suda 4 km/sa, taşırken 2 km/sa ve her taşımada sudan çıkıp yeniden girmek için 10 dakika ile başlar. Bunlar ayarlanacak başlangıç değerleridir, norm ya da ölçüm değildir. Kilit süreleri yalnızca senin girdiğin değerlerdir.',
   'tours.paddle.time.water': 'Suda',
   'tours.paddle.time.carry': 'Taşırken',
   'tours.paddle.time.carrySpeed': 'Taşıma hızı',
@@ -1078,7 +1078,7 @@ const tours: TranslationStrings = {
     'Engel verileri rotanın yalnızca bir kısmını kapsıyor ({date} itibarıyla). Geri kalanını kendin kontrol et.',
   'tours.paddle.obstacles.none':
     'Bu bölge için engel verisi yok. Buradaki savakları, kilitleri ve taşımaları kendin kontrol et.',
-  'tours.paddle.obstacles.offline': 'Bağlantı olmadan TREK engel verisi yüklemez. Suyu kendin kontrol et.',
+  'tours.paddle.obstacles.offline': 'Bağlantı olmadan Manzil engel verisi yüklemez. Suyu kendin kontrol et.',
   'tours.paddle.obstacles.error': 'Engel verileri yüklenemedi. Suyu kendin kontrol et.',
   'tours.paddle.obstacle.kind.weir': 'Savak',
   'tours.paddle.obstacle.kind.dam': 'Baraj',
@@ -1093,7 +1093,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Taşıma yeri',
   'tours.paddle.obstacle.kind.access': 'Erişim kuralı',
   'tours.paddle.obstacles.truncated':
-    'TREK burada nesnelerin yalnızca bir kısmını gösteriyor; bölgede daha fazlası var. Suyu kendin kontrol et.',
+    'Manzil burada nesnelerin yalnızca bir kısmını gösteriyor; bölgede daha fazlası var. Suyu kendin kontrol et.',
   'tours.paddle.obstacles.dateUnknown': 'bilinmeyen bir tarih',
   'tours.paddle.obstacleCard.onRoute': 'Rotadaki konumu',
   'tours.paddle.obstacleCard.near': 'Rotaya yakın',
@@ -1179,7 +1179,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Suda güvenlik',
   'tours.paddle.safety.short': 'Kürek çekmenin riskleri vardır. Suyu, kuralları ve havayı kendin kontrol et.',
   'tours.paddle.safety.text':
-    'Kürek çekmek risk taşır. Haritalar, rota önerileri ve notlar eksik ya da güncelliğini yitirmiş olabilir. Turdan önce güncel yerel koşulları, suyun kullanım kurallarını ve hava durumunu kontrol et. Uygun güvenlik önlemlerini al. TREK planlamanı destekler; kendi kontrolünün ve sorumlu kararının yerini tutmaz.',
+    'Kürek çekmek risk taşır. Haritalar, rota önerileri ve notlar eksik ya da güncelliğini yitirmiş olabilir. Turdan önce güncel yerel koşulları, suyun kullanım kurallarını ve hava durumunu kontrol et. Uygun güvenlik önlemlerini al. Manzil planlamanı destekler; kendi kontrolünün ve sorumlu kararının yerini tutmaz.',
   'tours.planner.shapingPoint': 'Şekil noktası',
   'tours.planner.shapingHint': 'Durak olmadan rotayı yönlendirir. Rotanın geçmesi gereken yere sürükle.',
   'tours.planner.makeStop': 'Durak yap',
@@ -1231,7 +1231,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Elle çizilen bölümleri suda planla',
   'tours.paddle.auto': 'Bulundu',
   'tours.paddle.autoHint':
-    'TREK bu noktayı yolda bulduğu bir taşıma yerine ya da kanal kilidine koydu. Taşır ya da değiştirirsen senin olur.',
+    'Manzil bu noktayı yolda bulduğu bir taşıma yerine ya da kanal kilidine koydu. Taşır ya da değiştirirsen senin olur.',
   'tours.paddle.note.rapids': 'Hızlı su {grade}',
   'tours.paddle.note.pass': 'Kano geçidi',
   'tours.paddle.note.gap': 'Harita verilerinde boşluk',
@@ -1239,10 +1239,10 @@ const tours: TranslationStrings = {
   'tours.paddle.note.gapHint':
     'Su verilerinde burada bir boşluk var, düz bir çizgiyle birleştirildi. Yerinde kontrol et.',
   'tours.paddle.failed.not_on_water':
-    'Bu bölümün bir ucu TREK’in bildiği bir suyun üzerinde değil. Nehre ya da göle taşı.',
+    'Bu bölümün bir ucu Manzil’in bildiği bir suyun üzerinde değil. Nehre ya da göle taşı.',
   'tours.paddle.failed.no_region': 'Bu bölge için henüz su verisi yok. Bir yönetici bölgeyi ekleyebilir.',
   'tours.paddle.failed.building': 'Bu bölgenin su verileri hâlâ hazırlanıyor. Birkaç dakika sonra yeniden dene.',
-  'tours.paddle.failed.no_water_path': 'TREK bu noktalar arasında su üzerinden bir yol bulamadı.',
+  'tours.paddle.failed.no_water_path': 'Manzil bu noktalar arasında su üzerinden bir yol bulamadı.',
   'tours.paddle.failed.cross_region': 'Bu noktalar ortak su verisi olmayan iki bölgede.',
   'tours.paddle.failed.busy': 'Rota planlayıcı meşgul. Birazdan yeniden dene.',
   'tours.paddle.failed.timeout': 'Bu bölümü planlamak çok uzun sürdü. Araya bir nokta ekle ve yeniden dene.',
@@ -1257,8 +1257,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Okunuyor',
   'tours.paddle.load.phase.build': 'Su ağı oluşturuluyor',
   'tours.paddle.load.hint': 'Genellikle bir ila üç dakika. Planlamaya devam et, bölüm sonra kendiliğinden planlanır.',
-  'tours.paddle.load.reason.tooLarge': "Bölge, TREK'in kendiliğinden yüklediğinden büyük.",
-  'tours.paddle.load.reason.limit': 'TREK bugün kendiliğinden yeterince bölge yükledi.',
+  'tours.paddle.load.reason.tooLarge': "Bölge, Manzil'in kendiliğinden yüklediğinden büyük.",
+  'tours.paddle.load.reason.limit': 'Manzil bugün kendiliğinden yeterince bölge yükledi.',
   'tours.paddle.load.declined': 'Bir yönetici {region} için su verisini reddetti.',
   'tours.paddle.load.failed': '{region} için su verisi yüklenemedi.',
   'tours.paddle.load.noWater': '{region} için su verisinde burada su yok. Noktayı nehre veya göle koy.',
@@ -1282,7 +1282,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Sürüş süresi',
   'tours.horse.timeInfoLabel': 'Neden sürüş süresi yok',
   'tours.horse.timeInfo':
-    'TREK sürüş süresi hesaplamaz: tempoyu at ve binici belirler. İstersen planlanan toplam süreyi kendin gir.',
+    'Manzil sürüş süresi hesaplamaz: tempoyu at ve binici belirler. İstersen planlanan toplam süreyi kendin gir.',
   'tours.horse.routes.title': 'Binicilik rotaları',
   'tours.horse.routes.infoLabel': 'Binicilik rotaları hakkında',
   'tours.horse.routes.info':
@@ -1338,7 +1338,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecorded': 'Kaydedildiği gibi',
   'tours.horse.recorded.asRecordedInfo': 'Çizgi, dosyanın kaydettiği gibi kalır. Hiçbir şey yeniden rotalanmaz.',
   'tours.horse.recorded.noTime': 'Sürüş süresi yok',
-  'tours.horse.recorded.noTimeInfo': 'TREK at gezisi için sürüş süresi hesaplamaz: tempoyu at ve binici belirler.',
+  'tours.horse.recorded.noTimeInfo': 'Manzil at gezisi için sürüş süresi hesaplamaz: tempoyu at ve binici belirler.',
   'tours.horse.recorded.accessUnchecked': 'Erişim denetlenmedi',
   'tours.horse.recorded.accessUncheckedInfo':
     'İçe aktarma, yollarda ata binilip binilemeyeceğini denetlemez. Yerindeki tabelalar geçerlidir.',
@@ -1494,7 +1494,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Henüz kaydedilecek bir şey yok. Önce turu değiştirin.',
   'tours.detail.openInTours': 'Turlar sekmesinde aç',
   'tours.planner.status.routingGeneric': 'Rota hesaplanıyor…',
-  'tours.planner.emptyHintPlacing': 'Nokta koymak için haritaya tıklayın. İki noktadan itibaren TREK rotayı hesaplar.',
+  'tours.planner.emptyHintPlacing': 'Nokta koymak için haritaya tıklayın. İki noktadan itibaren Manzil rotayı hesaplar.',
   'tours.ski.drawStraight': 'Düz çiz',
   'tours.horse.routes.stale': 'Liste, aradığınız görünümü gösteriyor. Bu görünüm için yeniden arayın.',
   'tours.horse.dialog.adoptGapHint':

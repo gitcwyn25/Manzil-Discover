@@ -231,7 +231,7 @@ const budget: TranslationStrings = {
     'Yadda saxlamaq mümkün olmadı və yüklənmiş {count} qəbz hələ də qalır. Onu Fayllar bölməsindən silin.',
   'costs.receiptsNeedConnection':
     'Qəbzlərin yüklənməsi üçün bağlantı lazımdır. Xərci oflayn saxlamaq üçün yeni qəbzləri silin və ya yenidən onlayn olduqda saxlayın.',
-  'costs.paymentQueued': 'Siz oflaynsınız. Ödəniş saxlanıldı və TREK yenidən onlayn olduqda görünəcək.',
+  'costs.paymentQueued': 'Siz oflaynsınız. Ödəniş saxlanıldı və Manzil yenidən onlayn olduqda görünəcək.',
   'costs.confirm.deleteBodyReceipts': '"{name}" həmişəlik silinəcək. Qəbz faylları Fayllarda qalır.',
 };
 

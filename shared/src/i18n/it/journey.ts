@@ -249,7 +249,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Condiviso tramite',
   'journey.public.madeWith': 'Creato con',
   'journey.pdf.journeyBook': 'Diario di viaggio',
-  'journey.pdf.madeWith': 'Creato con TREK',
+  'journey.pdf.madeWith': 'Creato con Manzil',
   'journey.pdf.day': 'Giorno',
   'journey.pdf.theEnd': 'Fine',
   'journey.pdf.saveAsPdf': 'Salva come PDF',
@@ -283,7 +283,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosUnavailable': 'Nessun provider di foto collegato è disponibile.',
   'journey.editor.externalPhotosPartialFailed': '{failed} gruppi di foto non riusciti: salva di nuovo per riprovare',
   'journey.picker.day': 'Questo giorno',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Apri lo studio del libro fotografico',
   'journey.studio.backToJourney': 'Torna al diario',
@@ -328,7 +328,7 @@ const journey: TranslationStrings = {
     'Salva il progetto di questa doppia pagina come file, senza le foto, per condividerlo o riutilizzarlo',
   'journey.studio.importSpread': 'Importa',
   'journey.studio.importSpreadHint': 'Aggiunge una doppia pagina da un file di progetto scaricato',
-  'journey.studio.importSpreadFailed': 'Quel file non è una doppia pagina di TREK Studio',
+  'journey.studio.importSpreadFailed': 'Quel file non è una doppia pagina di Manzil Studio',
   'journey.studio.desktopOnly': 'Studio richiede uno schermo più grande',
   'journey.studio.desktopOnlyHint':
     'Impaginare un libro chiede spazio, perciò Studio è solo da computer, e così anche il PDF. Tutto il resto del tuo diario funziona qui come sempre.',
@@ -853,7 +853,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Conserva di nuovo il percorso',
   'journey.dayImport.stale':
     'Dawarich non ha risposto: {reason} Vengono mostrate le soste dell’ultima sincronizzazione del {date}.',
-  'journey.dayImport.staleNever': 'Dawarich non ha risposto: {reason} Vengono mostrate le soste che TREK conosce già.',
+  'journey.dayImport.staleNever': 'Dawarich non ha risposto: {reason} Vengono mostrate le soste che Manzil conosce già.',
   'journey.dayImport.truncated':
     'Dawarich ha inviato solo una parte di questa giornata. Alcune soste potrebbero mancare.',
   'journey.dayImport.empty': 'Dawarich non ha trovato soste in questa giornata.',

@@ -28,7 +28,7 @@ const notif: TranslationStrings = {
   'notif.packing_tagged.title': 'שיוך באריזה',
   'notif.packing_tagged.text': '{actor} שייך/ה אתכם ל-{category} ב-{trip}',
   'notif.version_available.title': 'גרסה חדשה זמינה',
-  'notif.version_available.text': 'TREK {version} זמין עכשיו',
+  'notif.version_available.text': 'Manzil {version} זמין עכשיו',
   'notif.replica_failure.title': 'כשל בעותק אחסון',
   'notif.replica_failure.text': "כתיבה לעותק נכשלה ב-'{backend}': ‏{op} של {key} — {error}",
   'notif.replica_failure.textSuppressed':

@@ -59,6 +59,8 @@ export default function LoginPage(): React.ReactElement {
     setShowPassword,
     isLoading,
     error,
+    notice,
+    nativeLogin,
     setError,
     insecureCookie,
     appConfig,
@@ -1003,7 +1005,7 @@ export default function LoginPage(): React.ReactElement {
                           </div>
                           <button
                             type="button"
-                            onClick={() => navigate('/forgot-password')}
+                            onClick={() => navigate(nativeLogin ? '/forgot-password?auth=local' : '/forgot-password')}
                             style={{
                               background: 'none',
                               border: 'none',
@@ -1277,6 +1279,12 @@ export default function LoginPage(): React.ReactElement {
               {t('login.demoHint')}
             </button>
           )}
+          {notice && <p role="status" style={{ padding: 14, borderRadius: 10, background: '#eff6ff', color: '#112844' }}>{notice}</p>}
+          {appConfig?.supabase && <p style={{ margin: '16px 0 0', textAlign: 'center', fontSize: 13 }}>
+            <a href={nativeLogin ? '/login' : '/login?auth=local'} style={{ color: '#4b5563' }}>
+              {nativeLogin ? 'Use your Manzil account' : 'Administrator or existing local account'}
+            </a>
+          </p>}
           <p style={{ margin: '20px 0 0', textAlign: 'center', fontSize: 13 }}>
             <a href="/source.html" style={{ color: '#4b5563' }}>Source &amp; credits</a>
           </p>

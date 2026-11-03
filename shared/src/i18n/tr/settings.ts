@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     'Kendi Valhalla sunucunuz; yukarıdaki rota hizmeti ona ya da Otomatik’e ayarlıyken sorulur. Yalnızca kendi rota sunucunuz yapılandırılmışsa ve rota hizmeti seçilmemişse hiçbir Valhalla’ya sorulmaz. URL girdikten sonra sunucuyu yeniden başlatın ve sayfayı yenileyin.',
   'settings.valhallaProvider': 'Rota hizmeti',
   'settings.valhallaProviderHint':
-    'TREK hizmetleri veya kendi Valhalla’nızla tüm rotaları Valhalla hesaplar: yürüyerek, bisikletle ve arabayla günler ve yol gezileri, ücretli yollar, otoyollar veya feribotlar olmadan rotalar ile turların rotaları, yükseklikleri ve yolları. Yanıt veremediğinde o günü OSRM hesaplar. TREK hizmetlerine bu sunucu üzerinden sorulur. FOSSGIS’in herkese açık Valhalla’sıyla rotaları OSRM hesaplar ve Valhalla yalnızca OSRM’nin yapamadığını yanıtlar. Otomatik, kendi Valhalla’nız ya da yalnızca kendi rota sunucunuz ayarlanmadıkça TREK hizmetlerine sorar.',
+    'Manzil hizmetleri veya kendi Valhalla’nızla tüm rotaları Valhalla hesaplar: yürüyerek, bisikletle ve arabayla günler ve yol gezileri, ücretli yollar, otoyollar veya feribotlar olmadan rotalar ile turların rotaları, yükseklikleri ve yolları. Yanıt veremediğinde o günü OSRM hesaplar. Manzil hizmetlerine bu sunucu üzerinden sorulur. FOSSGIS’in herkese açık Valhalla’sıyla rotaları OSRM hesaplar ve Valhalla yalnızca OSRM’nin yapamadığını yanıtlar. Otomatik, kendi Valhalla’nız ya da yalnızca kendi rota sunucunuz ayarlanmadıkça Manzil hizmetlerine sorar.',
   'settings.valhallaProviderOption.auto': 'Otomatik',
-  'settings.valhallaProviderOption.trek': 'TREK hizmetleri',
+  'settings.valhallaProviderOption.trek': 'Manzil hizmetleri',
   'settings.valhallaProviderOption.fossgis': 'Herkese açık Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Kendi Valhalla sunucunuz',
   'settings.mapHint': 'Harita kutucukları için URL şablonu',
@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
     'CARTO temel haritaları anahtar olmadan filigran gösterir. Ücretsiz, hesap gerekmez, kaynağı:',
   'settings.mapCartoKeyLink': 'carto.com temel harita API anahtarı',
   'settings.mapCartoKeyMissing':
-    'Bu şablon bir CARTO temel haritası. Anahtar olmadan CARTO her karoya "API KEY REQUIRED" damgası basar. Anahtar girilene kadar TREK varsayılan temel haritayı gösterir.',
+    'Bu şablon bir CARTO temel haritası. Anahtar olmadan CARTO her karoya "API KEY REQUIRED" damgası basar. Anahtar girilene kadar Manzil varsayılan temel haritayı gösterir.',
   'settings.mapStyle': 'Harita Stili',
   'settings.mapStylePlaceholder': 'Bir Mapbox stili seçin',
   'settings.mapStyleHint': 'Ön ayar veya kendi mapbox://styles/KULLANICI/ID adresiniz',
@@ -135,15 +135,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Anlık bildirim',
   'settings.webPush.title': 'Bu cihazda anlık bildirimler',
   'settings.webPush.hint':
-    'TREK kapalıyken bile TREK bildirimlerini bu cihazda gösterir. Hangi olayların geleceğini Anlık bildirim sütunu belirler.',
+    'Manzil kapalıyken bile Manzil bildirimlerini bu cihazda gösterir. Hangi olayların geleceğini Anlık bildirim sütunu belirler.',
   'settings.webPush.enable': 'Bu cihaz için aç',
   'settings.webPush.disable': 'Bu cihaz için kapat',
   'settings.webPush.enabled': 'Bu cihaz için açık',
   'settings.webPush.unsupported': 'Bu tarayıcı anlık bildirim alamıyor.',
-  'settings.webPush.insecure': "Anlık bildirimler için TREK'in HTTPS üzerinden açılması gerekir.",
-  'settings.webPush.iosInstall': "iPhone ve iPad'de önce TREK'i Ana Ekran'a ekleyin ve oradan açın.",
+  'settings.webPush.insecure': "Anlık bildirimler için Manzil'in HTTPS üzerinden açılması gerekir.",
+  'settings.webPush.iosInstall': "iPhone ve iPad'de önce Manzil'i Ana Ekran'a ekleyin ve oradan açın.",
   'settings.webPush.denied':
-    'TREK bildirimleri bu tarayıcıda engellendi. Tarayıcı ayarlarından izin verin, ardından yeniden deneyin.',
+    'Manzil bildirimleri bu tarayıcıda engellendi. Tarayıcı ayarlarından izin verin, ardından yeniden deneyin.',
   'settings.webPush.failed': 'Anlık bildirimler bu cihaz için açılamadı.',
   'settings.notificationPreferences.noChannels':
     'Bildirim kanalı yapılandırılmadı. Yöneticiden e-posta veya webhook kurmasını isteyin.',
@@ -259,21 +259,21 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Yeni bir özellik önerin',
   'settings.about.wikiHint': 'Belgeler ve kılavuzlar',
   'settings.about.sponsor.eyebrow': 'Sponsorlu altyapı',
-  'settings.about.sponsor.title': "TREK'in kendi sunucuları dataforest cloud üzerinde çalışır",
+  'settings.about.sponsor.title': "Manzil'in kendi sunucuları dataforest cloud üzerinde çalışır",
   'settings.about.sponsor.body':
-    "Yer arama, adres arama ve rota hesaplama Google ve benzerleri yerine TREK'in kendi sunucularından gelir; bu sunucuların çalıştığı makinelerin sponsoru da dataforest cloud.",
+    "Yer arama, adres arama ve rota hesaplama Google ve benzerleri yerine Manzil'in kendi sunucularından gelir; bu sunucuların çalıştığı makinelerin sponsoru da dataforest cloud.",
   'settings.about.sponsor.cta': "dataforest cloud'u ziyaret edin",
   'settings.about.sponsor.search': 'Yer arama',
   'settings.about.sponsor.address': 'Adres arama',
   'settings.about.sponsor.routing': 'Rota hesaplama',
   'settings.about.descriptionManaged':
-    'TREK, gezilerini ilk fikirden son anıya kadar düzenlemene yardım eder. Gün planı, bütçe, bavul listeleri, fotoğraflar ve çok daha fazlası: hepsi tek yerde.',
+    'Manzil, gezilerini ilk fikirden son anıya kadar düzenlemene yardım eder. Gün planı, bütçe, bavul listeleri, fotoğraflar ve çok daha fazlası: hepsi tek yerde.',
   'settings.about.sourceTitle': 'Kaynak kodu',
   'settings.about.sourceHint': 'TREK açık kaynaklıdır, AGPL-3.0 lisanslıdır',
   'settings.about.supporters.badge': 'Aylık Destekçiler',
-  'settings.about.supporters.title': 'TREK için seyahat Arkadaşları',
+  'settings.about.supporters.title': 'Manzil için seyahat Arkadaşları',
   'settings.about.supporters.subtitle':
-    "Sen bir sonraki rotanı planlarken bu insanlar TREK'in geleceğini planlamaya yardım ediyor. Aylık katkıları doğrudan geliştirmeye ve harcanan gerçek saatlere gidiyor, böylece TREK açık kaynak kalıyor.",
+    "Sen bir sonraki rotanı planlarken bu insanlar Manzil'in geleceğini planlamaya yardım ediyor. Aylık katkıları doğrudan geliştirmeye ve harcanan gerçek saatlere gidiyor, böylece Manzil açık kaynak kalıyor.",
   'settings.about.supporters.since': '{date} tarihinden beri destekçimiz',
   'settings.about.supporters.tierEmpty': 'İlk olun',
   'settings.about.supporter.tier.noReturnTicket': 'Dönüş Bileti Yok',
@@ -282,7 +282,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Bütçe Gezgini',
   'settings.about.supporter.tier.hostelBunkmate': 'Hostel Yatakhane Arkadaşı',
   'settings.about.description':
-    'TREK, seyahatlerinizi ilk fikirden son anıya kadar organize etmenize yardımcı olan, kendi kendine barındırılan bir seyahat planlayıcıdır. Gün planlaması, bütçe, paketleme listeleri, fotoğraflar ve çok daha fazlası; hepsi tek bir yerde, kendi sunucunuzda.',
+    'Manzil, seyahatlerinizi ilk fikirden son anıya kadar organize etmenize yardımcı olan, kendi kendine barındırılan bir seyahat planlayıcıdır. Gün planlaması, bütçe, paketleme listeleri, fotoğraflar ve çok daha fazlası; hepsi tek bir yerde, kendi sunucunuzda.',
   'settings.about.madeWith': 'İle yapıldı',
   'settings.about.madeBy': 'Maurice ve büyüyen bir açık kaynak topluluğu tarafından.',
   'settings.username': 'Kullanıcı adı',
@@ -408,7 +408,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Yalnızca kendi ağınızdaki güvenilir bir örnek için etkinleştirin.',
   'settings.airtrail.writeBack': 'Değişiklikleri AirTrail’e geri yaz',
   'settings.airtrail.writeBackHint':
-    'Varsayılan olarak kapalı: AirTrail asıl kaynaktır ve TREK yalnızca okur. TREK’te yapılan değişiklikleri AirTrail’e geri göndermek için açın.',
+    'Varsayılan olarak kapalı: AirTrail asıl kaynaktır ve Manzil yalnızca okur. Manzil’te yapılan değişiklikleri AirTrail’e geri göndermek için açın.',
   'settings.airtrail.connected': 'Bağlandı',
   'settings.airtrail.notConnected': 'Bağlı değil',
   'settings.airtrail.toast.saved': 'AirTrail bağlantısı kaydedildi',
@@ -527,7 +527,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Pano',
   'settings.startPageActiveTrip': 'Aktif seyahat',
   'settings.startPageHint':
-    'TREK doğrudan devam eden seyahati, yoksa sıradaki seyahati açar. Panonun öne çıkardığı seyahatin aynısı.',
+    'Manzil doğrudan devam eden seyahati, yoksa sıradaki seyahati açar. Panonun öne çıkardığı seyahatin aynısı.',
   'settings.startTripTab': 'Başlangıç sekmesi',
   'settings.startTripTabHint':
     'Seyahatin açılacağı sekme. Kapalı bir eklentiye aitse onun yerine plan görünümü açılır.',

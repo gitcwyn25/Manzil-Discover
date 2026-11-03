@@ -1,18 +1,18 @@
 import type { TranslationStrings } from '../types';
 
 const system_notice: TranslationStrings = {
-  'system_notice.welcome_v1.title': '欢迎使用 TREK',
+  'system_notice.welcome_v1.title': '欢迎使用 Manzil',
   'system_notice.welcome_v1.body': '您的全能旅行规划器。制定行程、与朋友分享旅行，随时保持井然有序——在线或离线均可。',
   'system_notice.welcome_v1.cta_label': '规划行程',
-  'system_notice.welcome_v1.hero_alt': '风景优美的旅游目的地与 TREK 界面',
+  'system_notice.welcome_v1.hero_alt': '风景优美的旅游目的地与 Manzil 界面',
   'system_notice.welcome_v1.highlight_plan': '逐日行程规划',
   'system_notice.welcome_v1.highlight_share': '与旅行伙伴协作',
   'system_notice.welcome_v1.highlight_offline': '移动端支持离线使用',
   'system_notice.dev_test_modal.title': '[开发] 测试通知',
   'system_notice.dev_test_modal.body': '这是一条仅用于开发环境的测试通知。',
-  'system_notice.thank_you_support.title': '感谢你使用 TREK',
+  'system_notice.thank_you_support.title': '感谢你使用 Manzil',
   'system_notice.thank_you_support.body':
-    '想跟你说声谢谢——谢谢你安装了 TREK，这对我来说真的意义非凡。\n\n我是一名独立开发者，TREK 是我利用业余时间打造的。它最初只是我为自己的旅行做的一个小工具，而社区一路以来给予的支持和关注，老实说让我感到无比惊喜。TREK 是我用满满的热爱做出来的——但也离不开许多了不起的外部贡献者，是他们一起塑造了今天的它。\n\n**TREK 是开源的，完全免费——而且永远都会如此。没有付费档位，没有订阅，没有任何套路。我保证。**\n\n如果 TREK 对你有帮助，并且你愿意支持它的开发，请我喝一杯小小的咖啡，真的能帮我把它继续做下去——完全没有任何压力，但每一杯都让那些挑灯夜战的夜晚有了坚持的动力。\n\n谢谢你来到这里。\n\n— Maurice',
+    '想跟你说声谢谢——谢谢你安装了 Manzil，这对我来说真的意义非凡。\n\n我是一名独立开发者，Manzil 是我利用业余时间打造的。它最初只是我为自己的旅行做的一个小工具，而社区一路以来给予的支持和关注，老实说让我感到无比惊喜。Manzil 是我用满满的热爱做出来的——但也离不开许多了不起的外部贡献者，是他们一起塑造了今天的它。\n\n**Manzil 是开源的，完全免费——而且永远都会如此。没有付费档位，没有订阅，没有任何套路。我保证。**\n\n如果 Manzil 对你有帮助，并且你愿意支持它的开发，请我喝一杯小小的咖啡，真的能帮我把它继续做下去——完全没有任何压力，但每一杯都让那些挑灯夜战的夜晚有了坚持的动力。\n\n谢谢你来到这里。\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '在 GitHub 上 100% 开源',
   'system_notice.thank_you_support.highlight_free': '永久免费——绝无付费档位',
   'system_notice.thank_you_support.highlight_community': '与社区一起共建',
@@ -25,7 +25,7 @@ const system_notice: TranslationStrings = {
   'system_notice.pager.position': '通知 {current}/{total}',
   'system_notice.v3_photos.title': '3.0 版照片已迁移',
   'system_notice.v3_photos.body':
-    '旅行规划器中的​**照片**标签已被移除。您的照片安全无虑 — TREK 从未修改您的 Immich 或 Synology 相册。\n\n照片现在位于 **旅程** 插件中。旅程是可选的 — 如果尚未启用，请联系管理员在 Admin → 插件 中开启。',
+    '旅行规划器中的​**照片**标签已被移除。您的照片安全无虑 — Manzil 从未修改您的 Immich 或 Synology 相册。\n\n照片现在位于 **旅程** 插件中。旅程是可选的 — 如果尚未启用，请联系管理员在 Admin → 插件 中开启。',
   'system_notice.v3_journey.title': '认识旅程 — 旅行日记',
   'system_notice.v3_journey.body': '将您的旅程记录为展示时间线、照片画廊和互动地图的丰富旅行故事。',
   'system_notice.v3_journey.cta_label': '打开旅程',
@@ -48,7 +48,7 @@ const system_notice: TranslationStrings = {
   'system_notice.v3_mcp.highlight_tools': '扩展工具集与提示词',
   'system_notice.v3_thankyou.title': '来自我的一封私人信',
   'system_notice.v3_thankyou.body':
-    '在你继续之前——我想停下来说几句。\n\nTREK 最初只是我为自己的旅行而做的一个业余项目。我从未想过它会成长为 4,000 人信赖的冒险规划工具。每一颗星标、每一个 issue、每一个功能请求——我都会读，它们在全职工作和大学学业之间的深夜里支撑着我继续前行。\n\n我想让你们知道：TREK 将永远开源，永远可自托管，永远属于你们。没有追踪，没有订阅，没有任何附加条件。只是一个热爱旅行的人为同样热爱旅行的你们打造的工具。\n\n特别感谢 [jubnl](https://github.com/jubnl)——你已经成为一位不可思议的合作者。3.0 版本中许多精彩之处都留下了你的印记。感谢你在这个项目还很粗糙的时候就选择了相信它。\n\n也感谢你们每一位——报告了 bug、翻译了文本、向朋友分享了 TREK，或者只是用它规划了一次旅行——**谢谢你们**。你们是这一切存在的原因。\n\n愿我们一起踏上更多的冒险旅程。\n\n— Maurice\n\n---\n\n[加入 Discord 社区](https://discord.gg/7Q6M6jDwzf)\n\n如果 TREK 让你的旅行更美好，一杯[小小的咖啡](https://ko-fi.com/mauriceboe)能让这盏灯一直亮着。',
+    '在你继续之前——我想停下来说几句。\n\nTREK 最初只是我为自己的旅行而做的一个业余项目。我从未想过它会成长为 4,000 人信赖的冒险规划工具。每一颗星标、每一个 issue、每一个功能请求——我都会读，它们在全职工作和大学学业之间的深夜里支撑着我继续前行。\n\n我想让你们知道：Manzil 将永远开源，永远可自托管，永远属于你们。没有追踪，没有订阅，没有任何附加条件。只是一个热爱旅行的人为同样热爱旅行的你们打造的工具。\n\n特别感谢 [jubnl](https://github.com/jubnl)——你已经成为一位不可思议的合作者。3.0 版本中许多精彩之处都留下了你的印记。感谢你在这个项目还很粗糙的时候就选择了相信它。\n\n也感谢你们每一位——报告了 bug、翻译了文本、向朋友分享了 Manzil，或者只是用它规划了一次旅行——**谢谢你们**。你们是这一切存在的原因。\n\n愿我们一起踏上更多的冒险旅程。\n\n— Maurice\n\n---\n\n[加入 Discord 社区](https://discord.gg/7Q6M6jDwzf)\n\n如果 Manzil 让你的旅行更美好，一杯[小小的咖啡](https://ko-fi.com/mauriceboe)能让这盏灯一直亮着。',
   'system_notice.v3014_whitespace_collision.title': '需要操作：用户账户冲突',
   'system_notice.v3014_whitespace_collision.body':
     '3.0.14 版本升级检测到一个或多个由存储账户中首尾空白字符引发的用户名或邮箱冲突。受影响的账户已自动重命名。请检查服务器日志中以 **[migration] WHITESPACE COLLISION** 开头的行，以确认哪些账户需要审查。',
@@ -56,7 +56,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': '更新已安装',
   'system_notice.release_notes.headline': '对的地方，排在最前。',
   'system_notice.release_notes.intro':
-    '地点搜索、地址搜索和路线规划现在运行在 TREK 自己的服务器上，由 dataforest cloud 赞助。而且每个 TREK 都能把它对地点的了解分享给所有其他 TREK。',
+    '地点搜索、地址搜索和路线规划现在运行在 Manzil 自己的服务器上，由 dataforest cloud 赞助。而且每个 Manzil 都能把它对地点的了解分享给所有其他 Manzil。',
   'system_notice.release_notes.features_label': '本次重头戏',
   'system_notice.release_notes.features_aside': '远不止这些',
   'system_notice.release_notes.feature_search_title': '一搜就准的地点搜索',
@@ -64,18 +64,18 @@ const system_notice: TranslationStrings = {
     '城市、岛屿、地标，以及按代码搜索的机场排在最前，咖啡馆则从你身边找起，边输入边出建议。',
   'system_notice.release_notes.feature_share_title': '地点详情，大家共享',
   'system_notice.release_notes.feature_share_body':
-    '把网站、营业时间和照片逐项分享给每一个 TREK，你保存的地点也会自动补上别人添加的信息。',
+    '把网站、营业时间和照片逐项分享给每一个 Manzil，你保存的地点也会自动补上别人添加的信息。',
   'system_notice.release_notes.feature_routing_title': '更快的路线规划',
   'system_notice.release_notes.feature_routing_body':
     '一整天最多二十个停靠点，一次就能规划完。一条慢路线不再拖累其他路线，公共交通在第一个服务商找不到结果时，会再问第二个。',
-  'system_notice.release_notes.footnote': '除此之外，TREK 的其他部分还有一长串小改动。',
+  'system_notice.release_notes.footnote': '除此之外，Manzil 的其他部分还有一长串小改动。',
   'system_notice.release_notes.notes_label': '更新说明',
   'system_notice.release_notes.note_eyebrow': '来自维护者的话',
-  'system_notice.release_notes.note_title': '是你们让我一直坚持做 TREK。',
+  'system_notice.release_notes.note_title': '是你们让我一直坚持做 Manzil。',
   'system_notice.release_notes.note_body':
-    'TREK 最初只是我为自己的旅行做的小工具，下班后一点点写出来，只因为我想更好地规划旅行。后来它就再没停止过成长。你用到的几乎每一样功能，都是在全职工作之外，在深夜、周末和火车上做出来的。也有很多个晚上，我会默默地想，这世上究竟会不会有人打开它。',
+    'Manzil 最初只是我为自己的旅行做的小工具，下班后一点点写出来，只因为我想更好地规划旅行。后来它就再没停止过成长。你用到的几乎每一样功能，都是在全职工作之外，在深夜、周末和火车上做出来的。也有很多个晚上，我会默默地想，这世上究竟会不会有人打开它。',
   'system_notice.release_notes.promise_label': '承诺',
-  'system_notice.release_notes.promise_lead': 'TREK 永远免费。',
+  'system_notice.release_notes.promise_lead': 'Manzil 永远免费。',
   'system_notice.release_notes.promise_text': '每个功能、每次更新，都属于每一个人。没有付费档位，没有订阅，没有套路。',
   'system_notice.release_notes.note_body_after':
     '后来，你们真的来了。短短几个月，就来了成千上万的你们：有人点星标、报 bug，有人把它翻译成我不会说的语言，还有素未谋面的人提交 pull request。直到今天，我每天早上第一件事仍是打开仓库看看，而这一切还是有点不像真的。',
@@ -83,7 +83,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': '保持独立',
   'system_notice.release_notes.support_lead': '不靠 Google 之流。',
   'system_notice.release_notes.support_text':
-    '地点搜索、地址搜索和路线规划都运行在 TREK 自己的服务器上，目前由 dataforest cloud 赞助。我每天都在为此努力，而要一直保持下去，需要你的支持。',
+    '地点搜索、地址搜索和路线规划都运行在 Manzil 自己的服务器上，目前由 dataforest cloud 赞助。我每天都在为此努力，而要一直保持下去，需要你的支持。',
   'system_notice.release_notes.cta_bmc': '请我喝杯咖啡',
   'system_notice.release_notes.cta_kofi': '在 Ko-fi 上支持',
 };

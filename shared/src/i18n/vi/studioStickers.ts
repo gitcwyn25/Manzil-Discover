@@ -10,7 +10,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Màu sắc',
   'journey.studio.stickerSlot': 'Màu {index}',
   'journey.studio.stickerResetColours': 'Màu gốc',
-  'journey.studio.stickerMissing': 'Nhãn dán này không có trong thư viện của phiên bản TREK này.',
+  'journey.studio.stickerMissing': 'Nhãn dán này không có trong thư viện của phiên bản Manzil này.',
   'journey.studio.stickerFlip': 'Lật ngang',
   'journey.studio.stickerTurnLeft': 'Xoay trái',
   'journey.studio.stickerTurnRight': 'Xoay phải',

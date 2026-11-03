@@ -61,8 +61,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'ลบไฟล์ในถังขยะทั้งหมดอย่างถาวรใช่ไหม สิ่งนี้ไม่สามารถยกเลิกได้',
   'files.noteLabel': 'หมายเหตุ',
   'files.notePlaceholder': 'เพิ่มบันทึก...',
-  'files.uploadNeedsConnection': 'การอัปโหลดต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ TREK กลับมาออนไลน์',
-  'files.linkNeedsConnection': 'การนำลิงก์นี้ออกต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ TREK กลับมาออนไลน์',
+  'files.uploadNeedsConnection': 'การอัปโหลดต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ Manzil กลับมาออนไลน์',
+  'files.linkNeedsConnection': 'การนำลิงก์นี้ออกต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ Manzil กลับมาออนไลน์',
   'files.placeFilesNeedConnection':
     'ไฟล์ต้องใช้การเชื่อมต่อเพื่ออัปโหลด นำไฟล์ใหม่ออกเพื่อบันทึกสถานที่แบบออฟไลน์ หรือบันทึกเมื่อกลับมาออนไลน์',
   'files.maxSize': 'สูงสุด {count} MB',

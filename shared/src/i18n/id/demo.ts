@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Demo langsung',
-  'demo.welcome.title': 'Selamat datang di TREK',
+  'demo.welcome.title': 'Selamat datang di Manzil',
   'demo.welcome.tagline':
     'Perencana perjalanan untuk dibagikan: rencanakan bersama di peta secara langsung, dari ide pertama sampai buku foto setelah perjalanan.',
   'demo.welcome.resetTitle': 'Semuanya diatur ulang setiap jam',
@@ -17,7 +17,7 @@ const demo: TranslationStrings = {
   'demo.feature.tours.title': 'Tur dan pendakian',
   'demo.feature.tours.body':
     'Rencanakan pendakian di jaringan jalur dan ikuti di atas medan 3D dengan profil ketinggiannya.',
-  'demo.feature.studio.title': 'Buku foto dengan TREK Studio',
+  'demo.feature.studio.title': 'Buku foto dengan Manzil Studio',
   'demo.feature.studio.body': 'Ubah perjalanan menjadi buku foto yang tertata, halaman demi halaman.',
   'demo.feature.collab.title': 'Merencanakan bersama secara langsung',
   'demo.feature.collab.body':
@@ -32,7 +32,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Simpan tempat dari berbagai perjalanan di daftar Anda sendiri dan salin ke rencana mana pun.',
   'demo.feature.offline.title': 'Bisa luring',
-  'demo.feature.offline.body': 'Pasang TREK sebagai aplikasi dan simpan rencana, peta, dan daftar tanpa koneksi.',
+  'demo.feature.offline.body': 'Pasang Manzil sebagai aplikasi dan simpan rencana, peta, dan daftar tanpa koneksi.',
   'demo.welcome.limitsTitle': 'Tidak termasuk demo',
   'demo.limit.uploads': 'Mengunggah foto, dokumen, dan sampul',
   'demo.limit.account': 'Mengubah akun, kata sandinya, atau 2FA',
@@ -51,7 +51,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Kredit foto',
   'demo.credits.intro':
-    'Foto dalam demo ini berasal dari Wikimedia Commons, masing-masing dengan lisensi yang tertera di sampingnya. Lisensi itu hanya berlaku untuk fotonya, bukan untuk TREK atau bagian lain demo ini.',
+    'Foto dalam demo ini berasal dari Wikimedia Commons, masing-masing dengan lisensi yang tertera di sampingnya. Lisensi itu hanya berlaku untuk fotonya, bukan untuk Manzil atau bagian lain demo ini.',
   'demo.credits.by': 'oleh {author}',
   'demo.credits.publicDomain': 'Domain publik',
   'demo.credits.back': 'Kembali',

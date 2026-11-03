@@ -133,22 +133,22 @@ function takenProposalOutcome(part: ToolCallPart): string {
 
 /** Why a booking file held no booking, as the model is told it; a reason this build does not know adds nothing. */
 const EMPTY_REASONS: Readonly<Record<string, string>> = {
-  ai_not_configured: "AI reading for imports is not set up on this server, so only TREK's own reader looked at it",
+  ai_not_configured: "AI reading for imports is not set up on this server, so only Manzil's own reader looked at it",
   ai_failed: 'the AI reader for imports could not read it',
   no_text: 'it holds no readable text, most likely a scan',
-  nothing_found: "neither TREK's reader nor the AI reader found one",
+  nothing_found: "neither Manzil's reader nor the AI reader found one",
 };
 
 /** What reading an attached booking file found, as its stored step says. */
 function bookingReadNote(part: ToolCallPart): string {
   const file = quoted(part.args.name);
-  if (part.isError) return `TREK could not read the attached file ${file}.`;
+  if (part.isError) return `Manzil could not read the attached file ${file}.`;
   const result = (part.result ?? {}) as { bookings?: unknown; reason?: unknown };
   const titles = Array.isArray(result.bookings) ? result.bookings.map(quoted) : [];
   if (titles.length > 0)
-    return `TREK read the attached file ${file} and found ${titles.length} booking(s): ${titles.join(', ')}.`;
+    return `Manzil read the attached file ${file} and found ${titles.length} booking(s): ${titles.join(', ')}.`;
   const why = typeof result.reason === 'string' ? EMPTY_REASONS[result.reason] : undefined;
-  return `TREK read the attached file ${file} and found no booking in it${why ? `: ${why}` : ''}.`;
+  return `Manzil read the attached file ${file} and found no booking in it${why ? `: ${why}` : ''}.`;
 }
 
 /** The note of a server step about tours (P6, P7), null for any other. */

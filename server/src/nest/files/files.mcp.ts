@@ -42,7 +42,7 @@ function isTextual(mimetype: string): boolean {
 /** The MCP wording for a refused content read; the plugin RPC has its own for the same reasons. */
 function contentRefusal(err: FileContentError): string {
   if (err.reason === 'too-large') {
-    return `File is too large to read here (over ${CONTENT_MAX_MB} MB). Ask the user to open it in TREK instead.`;
+    return `File is too large to read here (over ${CONTENT_MAX_MB} MB). Ask the user to open it in Manzil instead.`;
   }
   if (err.reason === 'not-accessible') return 'File contents are not available.';
   return 'File not found.';
@@ -90,7 +90,7 @@ export class FilesMcp {
 
   @Tool({
     name: 'read_trip_file',
-    description: `Read what is inside one uploaded document, e.g. a booking confirmation or a ticket. Text files come back as readable text, anything else base64-encoded, with "encoding" saying which. Files over ${CONTENT_MAX_MB} MB are refused outright, so point the user at the file in TREK rather than retrying. Reading contents is a separate permission from listing files, so this can be refused on a trip where list_trip_files works.`,
+    description: `Read what is inside one uploaded document, e.g. a booking confirmation or a ticket. Text files come back as readable text, anything else base64-encoded, with "encoding" saying which. Files over ${CONTENT_MAX_MB} MB are refused outright, so point the user at the file in Manzil rather than retrying. Reading contents is a separate permission from listing files, so this can be refused on a trip where list_trip_files works.`,
     inputSchema: {
       tripId: idSchema,
       fileId: idSchema.describe('File ID from list_trip_files'),
@@ -169,14 +169,14 @@ export class FilesMcp {
     const originalname = filename.split(/[\\/]/).pop()!.trim();
     const mimetype = contentTypeFor(originalname);
     if (!originalname || !isUploadTypeAllowed(originalname, mimetype, await this.allowedTypes.get())) {
-      return errorResult('This file type is not allowed on this TREK instance.');
+      return errorResult('This file type is not allowed on this Manzil instance.');
     }
     const clean = content.replace(/\s+/g, '');
     if (!BASE64.test(clean)) return errorResult('content is not valid base64.');
     const bytes = Buffer.from(clean, 'base64');
     if (bytes.length === 0) return errorResult('The file is empty.');
     if (bytes.length > UPLOAD_MAX)
-      return errorResult(`File is too large (over ${UPLOAD_MAX_MB} MB). Ask the user to upload it in TREK instead.`);
+      return errorResult(`File is too large (over ${UPLOAD_MAX_MB} MB). Ask the user to upload it in Manzil instead.`);
     const foreign = await this.files.findForeignLinkTarget(tripId, { reservation_id, place_id });
     if (foreign) return errorResult(`Linked item does not belong to this trip (${foreign}).`);
     const file = await this.files.createFileFromBytes(tripId, { originalname, mimetype, bytes }, ctx.userId, {

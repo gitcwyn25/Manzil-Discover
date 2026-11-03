@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Tambahkan ke hari',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Impor GPX',
-  'tours.badge.planned': 'direncanakan di TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'direncanakan di Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'gunakan dengan hati-hati',
@@ -36,7 +36,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Tur ini sudah ada di hari tersebut.',
   'tours.conversion.title': 'Versi yang dapat diedit',
   'tours.conversion.intro':
-    'Impor adalah jejak yang direkam. Rencanakan versi yang dapat diedit: TREK mengambil titik kontrol darinya, merutekannya ulang, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai Anda memilih.',
+    'Impor adalah jejak yang direkam. Rencanakan versi yang dapat diedit: Manzil mengambil titik kontrol darinya, merutekannya ulang, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai Anda memilih.',
   'tours.conversion.replace': 'Ganti impor',
   'tours.conversion.replaceHint':
     'Merencanakan ulang tur ini di tempat: hari dan catatannya tetap ada, dan jejak yang direkam disimpan agar Anda dapat kembali ke sana.',
@@ -122,7 +122,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Tentang keselamatan',
   'tours.planner.addPoint': 'Tambah titik',
   'tours.planner.addPointActive': 'Klik peta',
-  'tours.planner.emptyHint': 'Aktifkan Tambah titik lalu klik peta. Mulai dari dua titik, TREK menghitung rutenya.',
+  'tours.planner.emptyHint': 'Aktifkan Tambah titik lalu klik peta. Mulai dari dua titik, Manzil menghitung rutenya.',
   'tours.planner.walkingEstimated': 'Perkiraan waktu jalan',
   'tours.planner.walkingEstimatedShort': 'Perk. waktu jalan',
   'tours.planner.walkingEstimatedInfoLabel': 'Cara waktu jalan diperkirakan',
@@ -238,7 +238,7 @@ const tours: TranslationStrings = {
     'Tanggal perubahan yang diberikan wanderer saat impor. Sebuah petunjuk, bukan bukti versi.',
   'tours.provenance.localState': 'Di sini',
   'tours.provenance.plannedOver': 'Direncanakan ulang, jejak rekaman disimpan',
-  'tours.provenance.editedLocally': 'Diedit di TREK',
+  'tours.provenance.editedLocally': 'Diedit di Manzil',
   'tours.provenance.asImported': 'Seperti saat diimpor',
   'tours.provenance.openSource': 'Buka di wanderer',
   'tours.provenance.check': 'Periksa sumber',
@@ -311,7 +311,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Impor rute jalan kaki dari Google Maps',
   'tours.walkImport.title': 'Rute jalan kaki dari tautan Google Maps',
   'tours.walkImport.intro':
-    'Bagikan rute jalan kaki di Google Maps lalu tempel tautannya di sini. TREK membaca titik singgahnya dan merencanakan sendiri jalan kaki di antaranya.',
+    'Bagikan rute jalan kaki di Google Maps lalu tempel tautannya di sini. Manzil membaca titik singgahnya dan merencanakan sendiri jalan kaki di antaranya.',
   'tours.walkImport.urlLabel': 'Tautan ke rute jalan kaki',
   'tours.walkImport.urlHint': 'Tautan pendek maps.app.goo.gl, atau alamat rute di google.com/maps.',
   'tours.walkImport.read': 'Baca tautan',
@@ -321,7 +321,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Dari Google Maps',
   'tours.walkImport.openSource': 'Buka di Google Maps',
   'tours.walkImport.recalculated':
-    'TREK merencanakan ulang jalan di antara titik singgah; garis yang digambar di Google Maps tidak diambil.',
+    'Manzil merencanakan ulang jalan di antara titik singgah; garis yang digambar di Google Maps tidak diambil.',
   'tours.walkImport.noPosition': 'Tidak ada posisi dalam tautan',
   'tours.walkImport.unresolved': '{count} titik singgah tidak punya posisi dalam tautan dan dilewati.',
   'tours.walkImport.tooFewPositions': 'Rute jalan kaki memerlukan setidaknya dua titik singgah yang punya posisi.',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
     'Memuat rute jalan kaki akan menggantikan perubahan yang belum disimpan di perencana.',
   'tours.walkImport.defaultName': 'Rute jalan kaki dari Google Maps',
   'tours.walkImport.draftNotice':
-    'Dari rute jalan kaki Google Maps. Jalan di antara titik singgah direncanakan sendiri oleh TREK.',
+    'Dari rute jalan kaki Google Maps. Jalan di antara titik singgah direncanakan sendiri oleh Manzil.',
   'tours.walkImport.offline': 'Membaca tautan memerlukan koneksi.',
   'tours.walkImport.failed': 'Tautan belum bisa dibaca saat ini. Coba lagi sebentar lagi.',
   'tours.walkImport.refusal.not_google_maps':
@@ -372,7 +372,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} dari rute',
   'tours.poi.along': 'di {distance}',
   'tours.poi.source.osm': 'Dari OpenStreetMap',
-  'tours.poi.source.trek': 'Dari indeks tempat TREK',
+  'tours.poi.source.trek': 'Dari indeks tempat Manzil',
   'tours.poi.hoursHint': 'Sesuai sumbernya; periksa sebelum berangkat.',
   'tours.poi.website': 'Situs web',
   'tours.poi.slot.label': 'Masuk di mana',
@@ -507,7 +507,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.saved':
     'Ditampilkan seperti saat disimpan. Pindahkan titik atau ubah opsi untuk merencanakan ulang.',
   'tours.ski.chooseTechnique': 'Pilih teknik, atau Tidak diketahui.',
-  'tours.ski.infoLabel': 'Apa yang TREK lakukan dengan tur dan jalur ski',
+  'tours.ski.infoLabel': 'Apa yang Manzil lakukan dengan tur dan jalur ski',
   'tours.ski.info':
     'Tur yang direncanakan mengikuti lintasan, lift, dan jalur dari OpenStreetMap sejauh data lintasan menjangkau, dan menghubungkan titiknya secara lurus di tempat lain. Trek yang diimpor tetap seperti saat direkam. Ketinggian berasal dari data lintasan, medan, atau file. Tidak ada di sini, termasuk warna kemiringan dalam 3D, yang menyatakan apa pun tentang salju, longsoran, atau apakah lintasan, lift, dan jalur buka.',
   'tours.ski.time': 'Waktu ski',
@@ -919,7 +919,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Rutekan lagi ruas berikutnya',
   'tours.planner.freeLegBadge': 'Digambar tangan, tidak dirutekan',
   'tours.planner.freeLegInfo':
-    'TREK menghubungkan dua titik ini dengan garis lurus. Tidak ada perute yang merencanakan atau memeriksa ruas ini.',
+    'Manzil menghubungkan dua titik ini dengan garis lurus. Tidak ada perute yang merencanakan atau memeriksa ruas ini.',
   'tours.map.seamarks': 'Rambu laut',
   'tours.map.seamarksDown': 'Rambu laut tidak termuat. Peta dan rutemu tetap berfungsi.',
   'tours.map.pistes': 'Lintasan ski, jalur ski lintas alam, dan lift',
@@ -961,9 +961,9 @@ const tours: TranslationStrings = {
   'tours.import.previewAs': 'Impor sebagai',
   'tours.import.previewConfirm': 'Impor {count} tur',
   'tours.conversion.introPaddle':
-    'Impor adalah jejak yang direkam. Rencanakan tur dayung yang bisa diedit: TREK mengambil titik kontrol darinya, menghubungkannya dengan garis lurus seperti tur dayung digambar, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai kamu memilih.',
+    'Impor adalah jejak yang direkam. Rencanakan tur dayung yang bisa diedit: Manzil mengambil titik kontrol darinya, menghubungkannya dengan garis lurus seperti tur dayung digambar, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai kamu memilih.',
   'tours.conversion.introSki':
-    'Impor adalah jejak yang direkam. Rencanakan tur ski dan musim dingin yang bisa diedit: TREK mengambil titik kontrol darinya, menghubungkannya dengan garis lurus seperti tur ski dan musim dingin digambar, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai kamu memilih.',
+    'Impor adalah jejak yang direkam. Rencanakan tur ski dan musim dingin yang bisa diedit: Manzil mengambil titik kontrol darinya, menghubungkannya dengan garis lurus seperti tur ski dan musim dingin digambar, dan menunjukkan seberapa dekat hasilnya. Tidak ada yang berubah sampai kamu memilih.',
   'tours.conversion.closePaddle':
     'Usulan mengikuti jejak dengan dekat. Titik-titiknya dihubungkan garis lurus, jadi bukan garis yang sama.',
   'tours.planner.moreActions': 'Tindakan lainnya',
@@ -996,7 +996,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Diangkut memutar, dihitung sebagai angkut perahu',
   'tours.paddle.time.title': 'Perkiraan waktu',
   'tours.paddle.time.assumptionInfo':
-    'TREK memulai dengan 4 km/h di air, 2 km/h saat mengangkut, dan 10 menit untuk keluar dan masuk kembali di setiap angkut perahu. Ini nilai awal untuk disesuaikan, bukan patokan dan bukan hasil pengukuran. Waktu pintu air hanya yang kamu masukkan.',
+    'Manzil memulai dengan 4 km/h di air, 2 km/h saat mengangkut, dan 10 menit untuk keluar dan masuk kembali di setiap angkut perahu. Ini nilai awal untuk disesuaikan, bukan patokan dan bukan hasil pengukuran. Waktu pintu air hanya yang kamu masukkan.',
   'tours.paddle.time.water': 'Di air',
   'tours.paddle.time.carry': 'Mengangkut',
   'tours.paddle.time.carrySpeed': 'Kecepatan mengangkut',
@@ -1073,7 +1073,7 @@ const tours: TranslationStrings = {
     'Data rintangan hanya mencakup sebagian rute (per {date}). Periksa sendiri sisanya.',
   'tours.paddle.obstacles.none':
     'Tidak ada data rintangan untuk area ini. Periksa sendiri bendung, pintu air, dan tempat angkut perahu di sini.',
-  'tours.paddle.obstacles.offline': 'Tanpa koneksi, TREK tidak memuat data rintangan. Periksa sendiri perairannya.',
+  'tours.paddle.obstacles.offline': 'Tanpa koneksi, Manzil tidak memuat data rintangan. Periksa sendiri perairannya.',
   'tours.paddle.obstacles.error': 'Data rintangan tidak dapat dimuat. Periksa sendiri perairannya.',
   'tours.paddle.obstacle.kind.weir': 'Bendung',
   'tours.paddle.obstacle.kind.dam': 'Bendungan',
@@ -1088,7 +1088,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Tempat angkut perahu',
   'tours.paddle.obstacle.kind.access': 'Aturan akses',
   'tours.paddle.obstacles.truncated':
-    'TREK hanya menampilkan sebagian objek di sini; area ini memuat lebih banyak. Periksa sendiri perairannya.',
+    'Manzil hanya menampilkan sebagian objek di sini; area ini memuat lebih banyak. Periksa sendiri perairannya.',
   'tours.paddle.obstacles.dateUnknown': 'tanggal tak diketahui',
   'tours.paddle.obstacleCard.onRoute': 'Di rute pada',
   'tours.paddle.obstacleCard.near': 'Dekat rute',
@@ -1172,7 +1172,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Keselamatan di air',
   'tours.paddle.safety.short': 'Mendayung punya risiko. Periksa sendiri perairan, aturan, dan cuaca.',
   'tours.paddle.safety.text':
-    'Mendayung memiliki risiko. Peta, saran rute, dan catatan bisa tidak lengkap atau sudah usang. Sebelum tur, periksa kondisi setempat terkini, aturan penggunaan perairan, dan cuaca. Ambil langkah keselamatan yang sesuai. TREK mendukung perencanaanmu dan tidak menggantikan pemeriksaanmu sendiri serta keputusanmu yang bertanggung jawab.',
+    'Mendayung memiliki risiko. Peta, saran rute, dan catatan bisa tidak lengkap atau sudah usang. Sebelum tur, periksa kondisi setempat terkini, aturan penggunaan perairan, dan cuaca. Ambil langkah keselamatan yang sesuai. Manzil mendukung perencanaanmu dan tidak menggantikan pemeriksaanmu sendiri serta keputusanmu yang bertanggung jawab.',
   'tours.planner.shapingPoint': 'Titik bentuk',
   'tours.planner.shapingHint': 'Mengarahkan rute tanpa menjadi perhentian. Seret ke tempat rute harus lewat.',
   'tours.planner.makeStop': 'Jadikan perhentian',
@@ -1226,18 +1226,18 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Rencanakan di air bagian yang digambar tangan',
   'tours.paddle.auto': 'Ditemukan',
   'tours.paddle.autoHint':
-    'TREK menaruh titik ini di tempat angkut perahu atau pintu air yang ditemukan di jalan. Jika kamu memindahkan atau mengubahnya, titik ini jadi milikmu.',
+    'Manzil menaruh titik ini di tempat angkut perahu atau pintu air yang ditemukan di jalan. Jika kamu memindahkan atau mengubahnya, titik ini jadi milikmu.',
   'tours.paddle.note.rapids': 'Jeram {grade}',
   'tours.paddle.note.pass': 'Jalur perahu',
   'tours.paddle.note.gap': 'Celah di data peta',
   'tours.paddle.note.rapidsHint': 'Rute melewati air deras di sini. Periksa dulu dan angkut perahu jika ragu.',
   'tours.paddle.note.gapHint': 'Data perairan punya celah di sini, dijembatani garis lurus. Periksa di lokasi.',
   'tours.paddle.failed.not_on_water':
-    'Salah satu ujung bagian ini tidak berada di perairan yang dikenal TREK. Pindahkan ke sungai atau danau.',
+    'Salah satu ujung bagian ini tidak berada di perairan yang dikenal Manzil. Pindahkan ke sungai atau danau.',
   'tours.paddle.failed.no_region':
     'Belum ada data perairan untuk area ini. Administrator dapat menambahkan wilayahnya.',
   'tours.paddle.failed.building': 'Data perairan wilayah ini masih disiapkan. Coba lagi dalam beberapa menit.',
-  'tours.paddle.failed.no_water_path': 'TREK tidak menemukan jalan di air antara titik-titik ini.',
+  'tours.paddle.failed.no_water_path': 'Manzil tidak menemukan jalan di air antara titik-titik ini.',
   'tours.paddle.failed.cross_region': 'Titik-titik ini berada di dua wilayah tanpa data perairan bersama.',
   'tours.paddle.failed.busy': 'Perencana rute sedang sibuk. Coba lagi sebentar lagi.',
   'tours.paddle.failed.timeout': 'Merencanakan bagian ini terlalu lama. Tambahkan titik di antaranya dan coba lagi.',
@@ -1254,8 +1254,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.build': 'Membangun jaringan air',
   'tours.paddle.load.hint':
     'Biasanya satu sampai tiga menit. Lanjutkan merencanakan, ruas akan direncanakan sendiri setelahnya.',
-  'tours.paddle.load.reason.tooLarge': 'Wilayah ini lebih besar dari yang dimuat TREK sendiri.',
-  'tours.paddle.load.reason.limit': 'TREK sudah memuat cukup banyak wilayah sendiri hari ini.',
+  'tours.paddle.load.reason.tooLarge': 'Wilayah ini lebih besar dari yang dimuat Manzil sendiri.',
+  'tours.paddle.load.reason.limit': 'Manzil sudah memuat cukup banyak wilayah sendiri hari ini.',
   'tours.paddle.load.declined': 'Admin menolak data air untuk {region}.',
   'tours.paddle.load.failed': 'Data air untuk {region} tidak dapat dimuat.',
   'tours.paddle.load.noWater':
@@ -1280,7 +1280,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Waktu berkuda',
   'tours.horse.timeInfoLabel': 'Mengapa tidak ada waktu berkuda',
   'tours.horse.timeInfo':
-    'TREK tidak menghitung waktu berkuda: lajunya ditentukan kuda dan penunggangnya. Jika mau, isi sendiri total waktu yang direncanakan.',
+    'Manzil tidak menghitung waktu berkuda: lajunya ditentukan kuda dan penunggangnya. Jika mau, isi sendiri total waktu yang direncanakan.',
   'tours.horse.routes.title': 'Rute berkuda',
   'tours.horse.routes.infoLabel': 'Tentang rute berkuda',
   'tours.horse.routes.info':
@@ -1338,7 +1338,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'Garis tetap seperti yang direkam berkas. Tidak ada yang dirutekan ulang.',
   'tours.horse.recorded.noTime': 'Tanpa waktu berkuda',
   'tours.horse.recorded.noTimeInfo':
-    'TREK tidak menghitung waktu berkuda untuk tur berkuda: lajunya milik kuda dan penunggangnya.',
+    'Manzil tidak menghitung waktu berkuda untuk tur berkuda: lajunya milik kuda dan penunggangnya.',
   'tours.horse.recorded.accessUnchecked': 'Akses belum diperiksa',
   'tours.horse.recorded.accessUncheckedInfo':
     'Impor tidak memeriksa apakah jalan boleh dilalui dengan berkuda. Rambu di lokasi yang berlaku.',
@@ -1490,7 +1490,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Belum ada yang disimpan. Ubah tur terlebih dahulu.',
   'tours.detail.openInTours': 'Buka di tab Tur',
   'tours.planner.status.routingGeneric': 'Menghitung rute…',
-  'tours.planner.emptyHintPlacing': 'Klik peta untuk menempatkan titik. Mulai dari dua titik, TREK menghitung rutenya.',
+  'tours.planner.emptyHintPlacing': 'Klik peta untuk menempatkan titik. Mulai dari dua titik, Manzil menghitung rutenya.',
   'tours.ski.drawStraight': 'Gambar lurus',
   'tours.horse.routes.stale': 'Daftar menampilkan tampilan yang Anda cari. Cari lagi untuk tampilan ini.',
   'tours.horse.dialog.adoptGapHint':

@@ -15,8 +15,9 @@ feature implementation and AGPL-3.0 license. The source base is commit
 - Shareable signup URL: `/login?mode=register`.
 - `/source.html` links to the fork, upstream source, license and notices.
 
-Build from a **full source checkout** with `docker build -f Dockerfile.manzil .`.
-Do not upload a sparse development checkout as the complete build context.
+Build with `docker build -f Dockerfile.manzil .`. All application source must
+be present. The pinned public-file manifest also allows the build to seed
+unchanged large public assets from the pinned upstream runtime.
 The build applies branding before compiling the frontend/shared/backend, then
 keeps the upstream runtime's document tools and supporting data assets.
 
@@ -38,12 +39,26 @@ integration paths. This release of TREK uses a persistent SQLite application
 database; its experimental PostgreSQL probe is not a production migration and
 must never be run against this Supabase project.
 
-Supabase authentication code/configuration has **not** been enabled yet. Use
-server-verified Supabase identity and preserve the existing local numeric users,
-roles, MFA, sessions, trip permissions, WebSockets, MCP and offline behavior.
-Do not give Supabase metadata administrative authority or merge an existing
-administrator by an unverified email match. No service-role key belongs in a
-browser bundle. Native administrator login must remain available during rollout.
+Set `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` to enable public accounts.
+The server verifies the provider identity before issuing its own HttpOnly
+session, keeps local roles and MFA, requires confirmed email, and refuses
+automatic email-based linking to an existing account. Provider metadata never
+grants administrator access. Native account creation is disabled in this mode;
+existing local users sign in at `/login?auth=local`.
 
-Connection access, implementation, full build/security tests, and deployment
-are still required before this work can be described as Supabase-connected.
+Confirmation returns to `/login?auth_callback=1`; recovery returns to
+`/reset-password?auth=supabase`. Add the Discover origin to Supabase redirect
+URLs and configure custom SMTP. The owner confirmed both settings. Actual
+inbox delivery still needs a user to complete an email round trip.
+
+Private uploads use the native S3 driver and the private `manzil-discover`
+bucket. Set `SUPABASE_S3_REGION` (Singapore: `ap-southeast-1`),
+`SUPABASE_S3_ACCESS_KEY_ID`, `SUPABASE_S3_SECRET_ACCESS_KEY` and
+`SUPABASE_S3_BUCKET` in Railway only. The driver handles repeated edge headers
+and Supabase path-style requests. No storage credentials are sent to browsers.
+
+For a one-time rollout set `MANZIL_PROVISION_SUPABASE_STORAGE=1`. Startup probes
+the destination and uses the existing copy-before-flip migration for uploads;
+it preserves source files and deliberate custom routes. Backups stay on the
+persistent volume. Remove the rollout flag after verification. The same
+`/persist` volume, numeric users, trip database and authorization model remain.

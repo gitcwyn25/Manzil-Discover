@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Veebihaak',
   'admin.notifications.webPushPanel.title': 'Veebitõuketeavitused',
   'admin.notifications.webPushPanel.hint':
-    "Võimaldab kasutajatel saada brauseri kaudu teavitusi oma telefonides ja arvutites ka siis, kui TREK on suletud. Vajab HTTPS-i; iPhone'is ja iPadis tuleb TREK lisada avakuvale.",
+    "Võimaldab kasutajatel saada brauseri kaudu teavitusi oma telefonides ja arvutites ka siis, kui Manzil on suletud. Vajab HTTPS-i; iPhone'is ja iPadis tuleb Manzil lisada avakuvale.",
   'admin.notifications.inappPanel.title': 'Rakenduses',
   'admin.notifications.inappPanel.hint':
     'Rakendusesisesed teavitused on alati aktiivsed ja neid ei saa kõigi jaoks välja lülitada.',
@@ -150,7 +150,7 @@ const admin: TranslationStrings = {
   'admin.trekApi.badgeDefault': 'Soovitatav vaikevalik',
   'admin.googleCaveat.badge': 'Ei ole soovitatav',
   'admin.googleCaveat.body':
-    "TREK on avatud lähtekoodiga ja me ei ole selles küsimuses neutraalsed. Tavaliste ettevõtete hinnanguid ja fotosid leidub sellises mahus ainult Google'il ning see ongi monopol. See väli on siin alternatiivi puudumise tõttu, mitte meie soovitusel. Sel juhul läheb iga päring Google'ile.",
+    "Manzil on avatud lähtekoodiga ja me ei ole selles küsimuses neutraalsed. Tavaliste ettevõtete hinnanguid ja fotosid leidub sellises mahus ainult Google'il ning see ongi monopol. See väli on siin alternatiivi puudumise tõttu, mitte meie soovitusel. Sel juhul läheb iga päring Google'ile.",
   'admin.trekApi.tagline':
     "TREKi enda teenused: kohtade otsing, aadresside otsing ja marsruutimine, ilma Google'i võtmeta ja ilma ühtegi võtit sisestamata. Iga paigaldus saab õiglase päevakvoodi ning loetakse ainult päringute arvu.",
   'admin.trekApi.factPlaces': '73,6 miljonit kohta üle maailma',
@@ -280,7 +280,7 @@ const admin: TranslationStrings = {
     "Vajab kohtade teenusepakkujana Google'it. Kui valitud on Amap või OpenStreetMap, ei lähe otsing kunagi Google'isse, olenemata selle lüliti asendist.",
   'admin.googleQuota.title': "Google'i päringute päevapiirang",
   'admin.googleQuota.subtitle':
-    "Kui piir täis saab, ei pöördu TREK Google'i poole järgmise päevani (UTC) ja otsib OpenStreetMapiga. Tühi tähendab piiranguta.",
+    "Kui piir täis saab, ei pöördu Manzil Google'i poole järgmise päevani (UTC) ja otsib OpenStreetMapiga. Tühi tähendab piiranguta.",
   'admin.googleQuota.placeholder': 'Piiranguta',
   'admin.googleQuota.usedToday': 'Täna: {used}',
   'admin.googleQuota.usedOfLimit': 'Täna: {used} / {limit}',
@@ -531,7 +531,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Avaldada tööriistu, mida tehisintellekti assistent saab sinu nimel käivitada (see tegutseb siin pluginale antud õigustega, mitte assistendi enda omadega)',
   'admin.plugins.perm.geolocation:read':
-    'Küsida sinu hetkeasukohta, kui mõni plugina vaade on avatud (TREK loeb seda selle saidi asukohaõigusega, mitte plugina enda omaga)',
+    'Küsida sinu hetkeasukohta, kui mõni plugina vaade on avatud (Manzil loeb seda selle saidi asukohaõigusega, mitte plugina enda omaga)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Lisada reisi PDF-eksporti tekstijaotisi',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Tõsta riike Atlase maailmakaardil esile (nt soovinimekirjad või reisisoovitused)',
@@ -567,10 +567,10 @@ const admin: TranslationStrings = {
     'Plugin töötab omaette piiratud õigustega protsessina, mis saab lugeda ainult oma faile. See ei saa lugeda sinu andmebaasi, sisselogimissaladust ega krüpteerimisvõtit, käivitada teisi programme ega kirjutada faile kuhugi. Selle kasutajaliides töötab eraldatud brauseriraamis, mis ei saa lugeda sinu seansiküpsist ega mõjutada ümbritsevat TREKi lehte.',
   'admin.plugins.security.permsTitle': 'Mida õigused tähendavad',
   'admin.plugins.security.permsBody':
-    'Enne paigaldamist näidatud õigused on range piir, mida TREK plugina töötamise ajal jõustab — plugin ei saa teha midagi, mida loendis pole. Need ütlevad aga, mida plugin saab teha, mitte mida see tegelikult teeb. Plugin, millel on lubatud lugeda sinu reise ja ühenduda serveriga, võib sinu reisid sellesse serverisse saata. Seega loe nii õigusi kui ka väljaminevate ühenduste hoste, mitte ainult kirjeldust.',
+    'Enne paigaldamist näidatud õigused on range piir, mida Manzil plugina töötamise ajal jõustab — plugin ei saa teha midagi, mida loendis pole. Need ütlevad aga, mida plugin saab teha, mitte mida see tegelikult teeb. Plugin, millel on lubatud lugeda sinu reise ja ühenduda serveriga, võib sinu reisid sellesse serverisse saata. Seega loe nii õigusi kui ka väljaminevate ühenduste hoste, mitte ainult kirjeldust.',
   'admin.plugins.security.limitsTitle': 'Mida me ei saa lubada',
   'admin.plugins.security.limitsBody':
-    'Eraldatus on tugev tarkvaraline piir, mitte absoluutne. Plugin tegutseb täpselt nende õigustega, mille heaks kiidad. Nende piires võib see käituda teisiti, kui kirjeldus lubab, ja saata õiguspäraselt saadud andmeid deklareeritud hostidele. TREK ei loe ega hinda, mida plugina kood tegelikult teeb.',
+    'Eraldatus on tugev tarkvaraline piir, mitte absoluutne. Plugin tegutseb täpselt nende õigustega, mille heaks kiidad. Nende piires võib see käituda teisiti, kui kirjeldus lubab, ja saata õiguspäraselt saadud andmeid deklareeritud hostidele. Manzil ei loe ega hinda, mida plugina kood tegelikult teeb.',
   'admin.plugins.security.worstTitle': 'Halvim juhtum',
   'admin.plugins.security.worstBody':
     'Pahatahtlik plugin, mille sisse lülitad, võib kuritarvitada antud andmeid ja ühendusi — näiteks lekitada reise, mida tal on lubatud lugeda. See ei saa varastada paroole, võltsida administraatori sisselogimist, käivitada käske sinu serveris ega pääseda ligi andmetele, millele sa õigust ei andnud. Kahju jääb sinu heakskiidetud õiguste piiridesse ning plugina väljalülitamine peatab selle.',
@@ -579,7 +579,7 @@ const admin: TranslationStrings = {
     'Üle vaadatud plugina iga versiooni kontrollis TREKi hooldaja käsitsi pahavara suhtes — otsiti pahatahtlikku koodi, mitte ei hinnatud töö kvaliteeti. See ei ole lubadus, et plugin on ohutu.',
   'admin.plugins.security.signedTitle': 'Mida tähendab „Allkirjastatud”',
   'admin.plugins.security.signedBody':
-    'Kontrollsumma, mida TREK igal paigaldamisel kontrollib, tõendab, et failid on täpselt need, mille eest register kinnitab. Allkiri tõendab midagi muud: need pärinevad autorilt ja on allkirjastatud võtmega, mis on ainult tema valduses. Allkirjastatud pluginal on mõlemad. Allkirjastamata plugin ei ole ebaturvaline — sellel on lihtsalt üks tagatis vähem ning enamik registri pluginaid on praegu allkirjastamata.',
+    'Kontrollsumma, mida Manzil igal paigaldamisel kontrollib, tõendab, et failid on täpselt need, mille eest register kinnitab. Allkiri tõendab midagi muud: need pärinevad autorilt ja on allkirjastatud võtmega, mis on ainult tema valduses. Allkirjastatud pluginal on mõlemad. Allkirjastamata plugin ei ole ebaturvaline — sellel on lihtsalt üks tagatis vähem ning enamik registri pluginaid on praegu allkirjastamata.',
   'admin.plugins.signed': 'Allkirjastatud',
   'admin.plugins.signedHint': 'Paigaldamisel kontrollitud autori allkirjastamisvõtmega',
   'admin.plugins.unsigned': 'Allkirjastamata',
@@ -594,20 +594,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Failid ei vasta autori allkirjale. Need ei ole need failid, mille autor allkirjastas — need on kas rikutud või neid on muudetud. Sellest kontrollist ei saa mööda minna.',
   'admin.plugins.sig.missingBody':
-    'See plugin oli paigaldamisel allkirjastatud, kuid uus versioon on allkirjata. TREK ei aktsepteeri kaitsetaseme langetamist vaikimisi. Sellest kontrollist ei saa mööda minna.',
+    'See plugin oli paigaldamisel allkirjastatud, kuid uus versioon on allkirjata. Manzil ei aktsepteeri kaitsetaseme langetamist vaikimisi. Sellest kontrollist ei saa mööda minna.',
   'admin.plugins.sig.incompleteBody':
     'Registrikirje on osaliselt allkirjastatud: see deklareerib autori võtme, kuid versioonil puudub allkiri (või vastupidi). See on plugina poole viga. Sellest kontrollist ei saa mööda minna.',
   'admin.plugins.sig.pinnedKey': 'Paigaldamisel kasutatud võti',
   'admin.plugins.sig.newKey': 'Praegu pakutav võti',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK ei suuda eristada õiguspärast võtmevahetust ülevõtmisest — mõlemad paistavad siit samasugused. Enne uue võtme aktsepteerimist kinnita see autoriga juba usaldatud kanali kaudu. Pärast kinnitamist uuendatakse plugin ja uus võti jäetakse meelde.',
+    'Manzil ei suuda eristada õiguspärast võtmevahetust ülevõtmisest — mõlemad paistavad siit samasugused. Enne uue võtme aktsepteerimist kinnita see autoriga juba usaldatud kanali kaudu. Pärast kinnitamist uuendatakse plugin ja uus võti jäetakse meelde.',
   'admin.plugins.sig.retrustConfirm': 'Usalda uut võtit ja uuenda',
   'admin.plugins.sig.cancel': 'Ära usalda',
   'admin.plugins.sig.consentUnsigned':
     'Miski ei seo seda versiooni autoriga — failid vastavad registrile, kuid neil puudub autori allkiri.',
   'admin.plugins.security.trustTitle': 'Kokkuvõte',
   'admin.plugins.security.trustBody':
-    'Plugina paigaldamine on nagu mis tahes kolmanda osapoole rakenduse paigaldamine: lisa ainult usaldatud autorite koodi ja kahtluse korral vaata see esmalt ise üle. TREK ei vastuta kolmandate osapoolte pluginate eest.',
+    'Plugina paigaldamine on nagu mis tahes kolmanda osapoole rakenduse paigaldamine: lisa ainult usaldatud autorite koodi ja kahtluse korral vaata see esmalt ise üle. Manzil ei vastuta kolmandate osapoolte pluginate eest.',
   'admin.plugins.runtimeOn': 'Käituskeskkond sees',
   'admin.plugins.tabDiscover': 'Avasta',
   'admin.plugins.searchPlaceholder': 'Otsi pluginaid…',
@@ -705,20 +705,20 @@ const admin: TranslationStrings = {
   'admin.plugins.rangeBypass.title': 'Väljaspool toetatud TREKi versioone',
   'admin.plugins.rangeBypass.noticeTitle': 'Paigaldatud väljaspool toetatud TREKi versioone',
   'admin.plugins.rangeBypass.body':
-    '„{name}” deklareerib TREKi versioonide {range} toe, kuid selles serveris töötab {host}. TREK lubab selle ainult seetõttu, et TREK_PLUGINS_IGNORE_TREK_RANGE on määratud. Autor ei ole plugina versioonivahemikku selle TREKi jaoks uuendanud, seega pole toimivus tagatud — harvadel juhtudel võib ühildumatu plugin TREKi andmeid rikkuda. Jätka ainult siis, kui nõustud selle riskiga.',
+    '„{name}” deklareerib TREKi versioonide {range} toe, kuid selles serveris töötab {host}. Manzil lubab selle ainult seetõttu, et TREK_PLUGINS_IGNORE_TREK_RANGE on määratud. Autor ei ole plugina versioonivahemikku selle TREKi jaoks uuendanud, seega pole toimivus tagatud — harvadel juhtudel võib ühildumatu plugin TREKi andmeid rikkuda. Jätka ainult siis, kui nõustud selle riskiga.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '„{name}” ei deklareeri, milliseid TREKi versioone see toetab; selles serveris töötab {host}. TREK lubab selle ainult seetõttu, et TREK_PLUGINS_IGNORE_TREK_RANGE on määratud. Miski ei kinnita, et autor oleks seda selle TREKiga testinud, seega pole toimivus tagatud — harvadel juhtudel võib ühildumatu plugin TREKi andmeid rikkuda. Jätka ainult siis, kui nõustud selle riskiga.',
+    '„{name}” ei deklareeri, milliseid TREKi versioone see toetab; selles serveris töötab {host}. Manzil lubab selle ainult seetõttu, et TREK_PLUGINS_IGNORE_TREK_RANGE on määratud. Miski ei kinnita, et autor oleks seda selle TREKiga testinud, seega pole toimivus tagatud — harvadel juhtudel võib ühildumatu plugin TREKi andmeid rikkuda. Jätka ainult siis, kui nõustud selle riskiga.',
   'admin.plugins.dep.trekBypassed': 'Väljaspool TREKi versioonivahemikku ({range}) — versioonikontrollid väljas',
   'admin.plugins.dep.trekBypassedUnknown': 'TREKi versioonivahemik deklareerimata — versioonikontrollid väljas',
   'admin.plugins.rangeBypass.titleAdmin': 'Selles TREK-is testimata',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Autori sõnul toetab „{name}“ TREK-i {range}, see server töötab aga versioonil {host}. Autor pole seda selle TREK-i jaoks veel kinnitanud, nii et see ei pruugi töötada ja harvadel juhtudel võib sobimatu plugin TREK-i andmeid kahjustada. Võid seda siiski kasutada: sinu valik kehtib ainult selle plugina selle versiooni kohta ja pärast uuendust küsib TREK uuesti.',
+    'Autori sõnul toetab „{name}“ TREK-i {range}, see server töötab aga versioonil {host}. Autor pole seda selle TREK-i jaoks veel kinnitanud, nii et see ei pruugi töötada ja harvadel juhtudel võib sobimatu plugin TREK-i andmeid kahjustada. Võid seda siiski kasutada: sinu valik kehtib ainult selle plugina selle versiooni kohta ja pärast uuendust küsib Manzil uuesti.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '„{name}“ ei ütle, milliseid TREK-i versioone see toetab, see server töötab aga versioonil {host}. Miski ei viita, et seda oleks selles TREK-is testitud, nii et see ei pruugi töötada ja harvadel juhtudel võib sobimatu plugin TREK-i andmeid kahjustada. Võid seda siiski kasutada: sinu valik kehtib ainult selle plugina selle versiooni kohta ja pärast uuendust küsib TREK uuesti.',
+    '„{name}“ ei ütle, milliseid TREK-i versioone see toetab, see server töötab aga versioonil {host}. Miski ei viita, et seda oleks selles TREK-is testitud, nii et see ei pruugi töötada ja harvadel juhtudel võib sobimatu plugin TREK-i andmeid kahjustada. Võid seda siiski kasutada: sinu valik kehtib ainult selle plugina selle versiooni kohta ja pärast uuendust küsib Manzil uuesti.',
   'admin.plugins.dep.trekAccepted': 'Tehtud TREK-i {range} jaoks, töötab omal vastutusel',
   'admin.plugins.dep.trekAcceptedUnknown': 'TREK-i versioon puudub, töötab omal vastutusel',
   'admin.plugins.activateAnyway': 'Aktiveeri siiski',
-  'admin.plugins.untestedChip': 'TREK {host} jaoks veel kinnitamata',
+  'admin.plugins.untestedChip': 'Manzil {host} jaoks veel kinnitamata',
   'admin.plugins.filters': 'Filtreeri',
   'admin.plugins.security.short': 'Nii on pluginad kaitstud',
   'admin.plugins.accessTitle': 'Millele see ligi pääseb',
@@ -811,7 +811,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Ilmaandmed',
   'admin.weather.badge': 'Alates 24. märtsist 2026',
   'admin.weather.description':
-    'TREK kasutab ilmaandmete allikana Open-Meteot. Open-Meteo on tasuta avatud lähtekoodiga ilmateenus — API-võtit pole vaja.',
+    'Manzil kasutab ilmaandmete allikana Open-Meteot. Open-Meteo on tasuta avatud lähtekoodiga ilmateenus — API-võtit pole vaja.',
   'admin.weather.forecast': '16 päeva prognoos',
   'admin.weather.forecastDesc': 'Varem 5 päeva (OpenWeatherMap)',
   'admin.weather.climate': 'Ajaloolised kliimaandmed',
@@ -873,12 +873,12 @@ const admin: TranslationStrings = {
   'admin.github.by': 'autor',
   'admin.github.support': 'Aitab mul TREKi edasi arendada',
   'admin.update.available': 'Uuendus saadaval',
-  'admin.update.text': 'TREK {version} on saadaval. Kasutad versiooni {current}.',
+  'admin.update.text': 'Manzil {version} on saadaval. Kasutad versiooni {current}.',
   'admin.update.button': 'Vaata GitHubis',
   'admin.update.install': 'Paigalda uuendus',
   'admin.update.confirmTitle': 'Kas paigaldada uuendus?',
   'admin.update.confirmText':
-    'TREK uuendatakse versioonilt {current} versioonile {version}. Seejärel taaskäivitub server automaatselt.',
+    'Manzil uuendatakse versioonilt {current} versioonile {version}. Seejärel taaskäivitub server automaatselt.',
   'admin.update.dataInfo':
     'Kõik sinu andmed (reisid, kasutajad, API-võtmed, üleslaaditud failid, Vacay, Atlas ja eelarved) säilivad.',
   'admin.update.warning': 'Rakendus pole taaskäivitamise ajal lühikest aega kättesaadav.',
@@ -960,7 +960,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik pole praegu kättesaadav. Proovi hiljem uuesti.',
   'admin.paddleRegions.attribution':
     'Andmed © OpenStreetMapi kaastöötajad (ODbL), piirkondlikud väljavõtted Geofabrikult. Loetakse uuesti iga kuu 3. kuupäeval.',
-  'admin.paddleRegions.toast.added': 'Piirkond lisatud. TREK loeb selle taustal sisse.',
+  'admin.paddleRegions.toast.added': 'Piirkond lisatud. Manzil loeb selle taustal sisse.',
   'admin.paddleRegions.toast.removed': 'Piirkond eemaldatud',
   'admin.paddleRegions.phase.build': 'Veevõrgu ehitamine',
   'admin.paddleRegions.network.km': '{km} km vett',
@@ -982,10 +982,10 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'Taotluse peale',
   'admin.paddleRegions.auto.mode.off': 'Väljas',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Kui keegi kavandab aerutamismatka kohta, kus veeandmeid veel pole, laadib TREK kohe väikseima sobiva piirkonna, suuruspiirini ja ainult mõne päevas. Suuremad ootavad siin taotlusena. Geofabrikule läheb ainult piirkonna nimi, mitte kunagi koht.',
+    'Kui keegi kavandab aerutamismatka kohta, kus veeandmeid veel pole, laadib Manzil kohe väikseima sobiva piirkonna, suuruspiirini ja ainult mõne päevas. Suuremad ootavad siin taotlusena. Geofabrikule läheb ainult piirkonna nimi, mitte kunagi koht.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Iga uus piirkond ootab siin, kuni admin selle lubab. Kui admin ise kavandab, laaditakse see kohe.',
-  'admin.paddleRegions.auto.modeHint.off': 'TREK ei laadi ise midagi ega küsi midagi. Lisa piirkonnad siin käsitsi.',
+  'admin.paddleRegions.auto.modeHint.off': 'Manzil ei laadi ise midagi ega küsi midagi. Lisa piirkonnad siin käsitsi.',
   'admin.paddleRegions.auto.maxSize': 'Suurim automaatselt laaditav piirkond',
   'admin.paddleRegions.auto.maxSizeHint':
     'Suuremad piirkonnad ootavad siin taotlusena. Piirkonna lugemine võtab mõne minuti ja selle ajal mälu.',
@@ -998,7 +998,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Laadi',
   'admin.paddleRegions.requests.decline': 'Lükka tagasi',
   'admin.paddleRegions.origin.auto': 'Automaatne',
-  'admin.paddleRegions.origin.autoHint': 'TREK laadis selle piirkonna ise seal kavandatava aerutamismatka jaoks.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil laadis selle piirkonna ise seal kavandatava aerutamismatka jaoks.',
   'admin.mfa.reset': 'Lähtesta 2FA',
   'admin.mfa.resetHint':
     'Lülitab selle kasutaja kaheastmelise autentimise välja, näiteks pärast telefoni kaotamist. Kasutaja logitakse kõikjalt välja ja ta saab selle pärast parooliga sisselogimist uuesti seadistada.',
@@ -1069,10 +1069,10 @@ const admin: TranslationStrings = {
   'admin.contribute.ineligible.env_off': 'Selle paigalduse jaoks välja lülitatud muutujaga TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Kohtade andmeid saab jagada ainult tootmispaigaldus.',
   'admin.contribute.ineligible.demo': 'Demopaigaldus kohtade andmeid ei jaga.',
-  'admin.contribute.ineligible.index_off': 'Jagamiseks on vaja TREK indeksit kohtade allikana.',
+  'admin.contribute.ineligible.index_off': 'Jagamiseks on vaja Manzil indeksit kohtade allikana.',
   'admin.contribute.ineligible.custom_places_url':
     'See paigaldus kasutab oma Places API-t, seega pole kellegagi jagada.',
-  'admin.contribute.ineligible.services_off': 'TREK teenused on selle paigalduse jaoks välja lülitatud.',
+  'admin.contribute.ineligible.services_off': 'Manzil teenused on selle paigalduse jaoks välja lülitatud.',
   'admin.contribute.ineligible.no_key': 'Sellel paigaldusel pole veel teenuste võtit. Seda küsitakse automaatselt.',
   'admin.contribute.pause.key_invalid': 'Peatatud: teenus ei võtnud selle paigalduse võtit vastu.',
   'admin.contribute.pause.key_refused': 'Peatatud: teenus keeldus selle paigalduse võtmest. Uus võti jätkab jagamist.',
@@ -1117,7 +1117,7 @@ const admin: TranslationStrings = {
   'admin.contribute.refused.no_field': 'Vali jagamiseks vähemalt üks väli.',
   'admin.contribute.prompt.title': 'Aita igal TREKil kohti paremini tunda',
   'admin.contribute.prompt.lead':
-    'Kui keegi lisab siin kohale veebilehe, telefoninumbri, lahtiolekuajad või kirjelduse, võib TREK selle edasi anda. Pärast kontrolli näitab seda iga TREKi paigaldus ning sinu oma saab vastu selle, mida teised on lisanud.',
+    'Kui keegi lisab siin kohale veebilehe, telefoninumbri, lahtiolekuajad või kirjelduse, võib Manzil selle edasi anda. Pärast kontrolli näitab seda iga TREKi paigaldus ning sinu oma saab vastu selle, mida teised on lisanud.',
   'admin.contribute.prompt.why':
     "TREK Places API on tasuta ega vaja Google'i võtit, sest see on ehitatud avaandmetest. Iga detail, mida jagad, teeb selle paremaks tuhandetele reisijatele. Aitäh, et oled osa sellest.",
   'admin.contribute.prompt.whatLabel': 'Mida jagatakse',

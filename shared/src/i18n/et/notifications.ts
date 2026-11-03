@@ -16,7 +16,7 @@ const notifications: TranslationStrings = {
   'notifications.synologySessionCleared.title': 'Synology Photosi ühendus katkes',
   'notifications.synologySessionCleared.text': 'Sinu server või konto muutus — ava seaded ja testi ühendust uuesti.',
   'notifications.versionAvailable.title': 'Uuendus saadaval',
-  'notifications.versionAvailable.text': 'TREK {version} on nüüd saadaval.',
+  'notifications.versionAvailable.text': 'Manzil {version} on nüüd saadaval.',
   'notifications.versionAvailable.button': 'Vaata üksikasju',
   'notifications.test.title': 'Testteavitus kasutajalt {actor}',
   'notifications.test.text': 'See on lihtne testteavitus.',

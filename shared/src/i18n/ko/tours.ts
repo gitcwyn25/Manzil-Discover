@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': '일정에 추가',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX 가져오기',
-  'tours.badge.planned': 'TREK에서 계획됨',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'Manzil에서 계획됨',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': '이용 시 주의',
@@ -36,7 +36,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': '이 투어는 이미 해당 날짜에 있습니다.',
   'tours.conversion.title': '편집 가능한 버전',
   'tours.conversion.intro':
-    '가져온 항목은 기록된 트랙입니다. 편집 가능한 버전을 계획하면 TREK이 트랙에서 제어 지점을 가져와 경로를 새로 계산하고, 얼마나 가깝게 맞는지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
+    '가져온 항목은 기록된 트랙입니다. 편집 가능한 버전을 계획하면 Manzil이 트랙에서 제어 지점을 가져와 경로를 새로 계산하고, 얼마나 가깝게 맞는지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
   'tours.conversion.replace': '가져온 항목 바꾸기',
   'tours.conversion.replaceHint':
     '이 투어를 그 자리에서 다시 계획합니다. 일정과 메모는 그대로 유지되고, 기록된 트랙도 보관되어 나중에 되돌릴 수 있습니다.',
@@ -117,7 +117,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': '안전 안내',
   'tours.planner.addPoint': '지점 추가',
   'tours.planner.addPointActive': '지도를 클릭',
-  'tours.planner.emptyHint': '“지점 추가”를 켜고 지도를 클릭하세요. 지점이 두 개가 되면 TREK이 경로를 계산합니다.',
+  'tours.planner.emptyHint': '“지점 추가”를 켜고 지도를 클릭하세요. 지점이 두 개가 되면 Manzil이 경로를 계산합니다.',
   'tours.planner.walkingEstimated': '예상 보행 시간',
   'tours.planner.walkingEstimatedShort': '예상 시간',
   'tours.planner.walkingEstimatedInfoLabel': '보행 시간을 추정하는 방법',
@@ -230,7 +230,7 @@ const tours: TranslationStrings = {
     '가져올 때 wanderer가 알려 준 변경 날짜입니다. 참고일 뿐 버전의 증거는 아닙니다.',
   'tours.provenance.localState': '여기',
   'tours.provenance.plannedOver': '다시 계획함, 기록된 트랙 보관',
-  'tours.provenance.editedLocally': 'TREK에서 편집함',
+  'tours.provenance.editedLocally': 'Manzil에서 편집함',
   'tours.provenance.asImported': '가져온 그대로',
   'tours.provenance.openSource': 'wanderer에서 열기',
   'tours.provenance.check': '소스 확인',
@@ -302,7 +302,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Google Maps에서 산책 가져오기',
   'tours.walkImport.title': 'Google Maps 링크로 만드는 산책',
   'tours.walkImport.intro':
-    'Google Maps에서 도보 경로를 공유하고 그 링크를 여기에 붙여 넣으세요. TREK이 정류지를 읽고 그 사이의 도보 길을 직접 계획합니다.',
+    'Google Maps에서 도보 경로를 공유하고 그 링크를 여기에 붙여 넣으세요. Manzil이 정류지를 읽고 그 사이의 도보 길을 직접 계획합니다.',
   'tours.walkImport.urlLabel': '도보 경로 링크',
   'tours.walkImport.urlHint': 'maps.app.goo.gl 단축 링크 또는 google.com/maps의 경로 주소.',
   'tours.walkImport.read': '링크 읽기',
@@ -312,14 +312,14 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Google Maps에서',
   'tours.walkImport.openSource': 'Google Maps에서 열기',
   'tours.walkImport.recalculated':
-    '정류지 사이의 길은 TREK이 다시 계획합니다. Google Maps에 그려진 선은 가져오지 않습니다.',
+    '정류지 사이의 길은 Manzil이 다시 계획합니다. Google Maps에 그려진 선은 가져오지 않습니다.',
   'tours.walkImport.noPosition': '링크에 위치가 없음',
   'tours.walkImport.unresolved': '정류지 {count}곳은 링크에 위치가 없어 제외됩니다.',
   'tours.walkImport.tooFewPositions': '산책에는 위치가 있는 정류지가 두 곳 이상 필요합니다.',
   'tours.walkImport.replacesDraft': '산책을 불러오면 플래너의 저장하지 않은 변경 사항이 바뀝니다.',
   'tours.walkImport.defaultName': 'Google Maps에서 가져온 산책',
   'tours.walkImport.draftNotice':
-    'Google Maps 도보 경로에서 가져왔습니다. 정류지 사이의 길은 TREK이 직접 계획했습니다.',
+    'Google Maps 도보 경로에서 가져왔습니다. 정류지 사이의 길은 Manzil이 직접 계획했습니다.',
   'tours.walkImport.offline': '링크를 읽으려면 연결이 필요합니다.',
   'tours.walkImport.failed': '지금은 링크를 읽지 못했습니다. 잠시 후 다시 시도하세요.',
   'tours.walkImport.refusal.not_google_maps':
@@ -359,7 +359,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '경로에서 {distance}',
   'tours.poi.along': '{distance} 지점',
   'tours.poi.source.osm': 'OpenStreetMap 제공',
-  'tours.poi.source.trek': 'TREK 장소 색인 제공',
+  'tours.poi.source.trek': 'Manzil 장소 색인 제공',
   'tours.poi.hoursHint': '출처에 나온 그대로입니다. 출발 전에 확인하세요.',
   'tours.poi.website': '웹사이트',
   'tours.poi.slot.label': '추가할 위치',
@@ -488,7 +488,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': '지도 데이터 기준: {build}',
   'tours.ski.summary.saved': '저장된 그대로 표시합니다. 지점을 옮기거나 옵션을 바꾸면 다시 계획합니다.',
   'tours.ski.chooseTechnique': '주법을 선택하거나 알 수 없음을 선택하세요.',
-  'tours.ski.infoLabel': 'TREK이 스키 투어와 트랙으로 하는 일',
+  'tours.ski.infoLabel': 'Manzil이 스키 투어와 트랙으로 하는 일',
   'tours.ski.info':
     '계획한 투어는 슬로프 데이터가 닿는 곳에서는 OpenStreetMap의 슬로프, 리프트, 트레일을 따르고, 그 밖에서는 지점 사이를 직선으로 잇습니다. 가져온 트랙은 기록된 그대로 유지됩니다. 고도는 슬로프 데이터, 지형 또는 파일에서 가져옵니다. 3D 경사 색상을 포함해 여기의 어떤 정보도 눈, 눈사태, 슬로프와 리프트, 트레일의 운영 여부에 대해 말하지 않습니다.',
   'tours.ski.time': '스키 시간',
@@ -887,7 +887,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': '다음 구간을 다시 경로 계산',
   'tours.planner.freeLegBadge': '손으로 그림, 경로 계산 안 됨',
   'tours.planner.freeLegInfo':
-    'TREK은 이 두 지점을 직선으로 잇습니다. 어떤 경로 계산도 이 구간을 계획하거나 확인하지 않았습니다.',
+    'Manzil은 이 두 지점을 직선으로 잇습니다. 어떤 경로 계산도 이 구간을 계획하거나 확인하지 않았습니다.',
   'tours.map.seamarks': '항로 표지',
   'tours.map.seamarksDown': '항로 표지를 불러오지 못했습니다. 지도와 경로는 계속 사용할 수 있습니다.',
   'tours.map.pistes': '슬로프, 크로스컨트리 코스, 리프트',
@@ -929,9 +929,9 @@ const tours: TranslationStrings = {
   'tours.import.previewAs': '가져올 유형',
   'tours.import.previewConfirm': '투어 {count}개 가져오기',
   'tours.conversion.introPaddle':
-    '가져온 항목은 기록된 트랙입니다. 편집 가능한 패들 투어를 계획하면 TREK이 트랙에서 제어 지점을 뽑아 패들 투어를 그리듯 직선으로 잇고, 얼마나 가까운지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
+    '가져온 항목은 기록된 트랙입니다. 편집 가능한 패들 투어를 계획하면 Manzil이 트랙에서 제어 지점을 뽑아 패들 투어를 그리듯 직선으로 잇고, 얼마나 가까운지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
   'tours.conversion.introSki':
-    '가져온 항목은 기록된 트랙입니다. 편집 가능한 스키 투어를 계획하면 TREK이 트랙에서 제어 지점을 뽑아 스키 투어를 그리듯 직선으로 잇고, 얼마나 가까운지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
+    '가져온 항목은 기록된 트랙입니다. 편집 가능한 스키 투어를 계획하면 Manzil이 트랙에서 제어 지점을 뽑아 스키 투어를 그리듯 직선으로 잇고, 얼마나 가까운지 보여 줍니다. 선택하기 전까지는 아무것도 바뀌지 않습니다.',
   'tours.conversion.closePaddle': '제안이 트랙을 가깝게 따릅니다. 지점들이 직선으로 이어져 있어 같은 선은 아닙니다.',
   'tours.planner.moreActions': '작업 더 보기',
   'tours.paddle.role.put_in': '입수 지점',
@@ -962,7 +962,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': '보트를 들고 우회, 육상 운반으로 계산',
   'tours.paddle.time.title': '시간 추정',
   'tours.paddle.time.assumptionInfo':
-    'TREK은 물 위에서 4 km/h, 운반할 때 2 km/h, 육상 운반마다 출수와 재입수에 10분으로 시작합니다. 조정하라고 둔 시작값일 뿐 기준이나 측정값이 아닙니다. 갑문 시간은 직접 입력한 값만 반영됩니다.',
+    'Manzil은 물 위에서 4 km/h, 운반할 때 2 km/h, 육상 운반마다 출수와 재입수에 10분으로 시작합니다. 조정하라고 둔 시작값일 뿐 기준이나 측정값이 아닙니다. 갑문 시간은 직접 입력한 값만 반영됩니다.',
   'tours.paddle.time.water': '물 위',
   'tours.paddle.time.carry': '운반',
   'tours.paddle.time.carrySpeed': '운반 속도',
@@ -1037,7 +1037,7 @@ const tours: TranslationStrings = {
     '경로를 따라 알려진 장애물이 없습니다(OpenStreetMap, {date} 기준). 그래도 물길을 직접 확인하세요.',
   'tours.paddle.obstacles.partial': '장애물 데이터가 경로의 일부만 다룹니다({date} 기준). 나머지는 직접 확인하세요.',
   'tours.paddle.obstacles.none': '이 지역에는 장애물 데이터가 없습니다. 보, 갑문, 육상 운반 지점은 직접 확인하세요.',
-  'tours.paddle.obstacles.offline': '연결이 없으면 TREK이 장애물 데이터를 불러오지 않습니다. 물길을 직접 확인하세요.',
+  'tours.paddle.obstacles.offline': '연결이 없으면 Manzil이 장애물 데이터를 불러오지 않습니다. 물길을 직접 확인하세요.',
   'tours.paddle.obstacles.error': '장애물 데이터를 불러오지 못했습니다. 물길을 직접 확인하세요.',
   'tours.paddle.obstacle.kind.weir': '보',
   'tours.paddle.obstacle.kind.dam': '댐',
@@ -1052,7 +1052,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': '육상 운반 지점',
   'tours.paddle.obstacle.kind.access': '통행 규칙',
   'tours.paddle.obstacles.truncated':
-    'TREK은 여기서 항목의 일부만 표시하며, 이 지역에는 더 많이 있습니다. 물길을 직접 확인하세요.',
+    'Manzil은 여기서 항목의 일부만 표시하며, 이 지역에는 더 많이 있습니다. 물길을 직접 확인하세요.',
   'tours.paddle.obstacles.dateUnknown': '알 수 없는 날짜',
   'tours.paddle.obstacleCard.onRoute': '경로상 위치',
   'tours.paddle.obstacleCard.near': '경로 근처',
@@ -1136,7 +1136,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': '수상 안전',
   'tours.paddle.safety.short': '패들링에는 위험이 따릅니다. 물길, 규칙, 날씨를 직접 확인하세요.',
   'tours.paddle.safety.text':
-    '패들링에는 위험이 따릅니다. 지도, 경로 제안, 안내 사항은 불완전하거나 오래되었을 수 있습니다. 투어 전에 현재 현지 상황, 수역 이용 규칙, 날씨를 확인하세요. 적절한 안전 조치를 취하세요. TREK은 계획을 돕지만, 직접 확인하고 책임 있게 판단하는 일을 대신하지 않습니다.',
+    '패들링에는 위험이 따릅니다. 지도, 경로 제안, 안내 사항은 불완전하거나 오래되었을 수 있습니다. 투어 전에 현재 현지 상황, 수역 이용 규칙, 날씨를 확인하세요. 적절한 안전 조치를 취하세요. Manzil은 계획을 돕지만, 직접 확인하고 책임 있게 판단하는 일을 대신하지 않습니다.',
   'tours.planner.shapingPoint': '형태 지점',
   'tours.planner.shapingHint': '정류 지점이 아니면서 경로를 이끕니다. 경로가 지나야 할 곳으로 끌어 놓으세요.',
   'tours.planner.makeStop': '정류 지점으로 바꾸기',
@@ -1188,7 +1188,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': '손으로 그린 구간을 물 위로 계획',
   'tours.paddle.auto': '감지됨',
   'tours.paddle.autoHint':
-    'TREK이 가는 길에 찾은 육로 운반 지점이나 갑문에 이 지점을 두었습니다. 옮기거나 바꾸면 내 지점이 됩니다.',
+    'Manzil이 가는 길에 찾은 육로 운반 지점이나 갑문에 이 지점을 두었습니다. 옮기거나 바꾸면 내 지점이 됩니다.',
   'tours.paddle.note.rapids': '급류 {grade}급',
   'tours.paddle.note.pass': '카누 수로',
   'tours.paddle.note.gap': '지도 데이터 공백',
@@ -1196,10 +1196,10 @@ const tours: TranslationStrings = {
     '여기서 경로가 흐르는 물을 지납니다. 먼저 살펴보고 확신이 없으면 배를 들고 우회하세요.',
   'tours.paddle.note.gapHint': '여기는 수역 데이터에 공백이 있어 직선으로 이었습니다. 현장에서 확인하세요.',
   'tours.paddle.failed.not_on_water':
-    '이 구간의 한쪽 끝이 TREK이 아는 수역 위에 있지 않습니다. 강이나 호수 위로 옮기세요.',
+    '이 구간의 한쪽 끝이 Manzil이 아는 수역 위에 있지 않습니다. 강이나 호수 위로 옮기세요.',
   'tours.paddle.failed.no_region': '이 지역의 수역 데이터가 아직 없습니다. 관리자가 지역을 추가할 수 있습니다.',
   'tours.paddle.failed.building': '이 지역의 수역 데이터를 아직 준비 중입니다. 몇 분 후 다시 시도하세요.',
-  'tours.paddle.failed.no_water_path': 'TREK이 이 지점들 사이에서 물길을 찾지 못했습니다.',
+  'tours.paddle.failed.no_water_path': 'Manzil이 이 지점들 사이에서 물길을 찾지 못했습니다.',
   'tours.paddle.failed.cross_region': '이 지점들은 수역 데이터를 공유하지 않는 두 지역에 있습니다.',
   'tours.paddle.failed.busy': '경로 계획기가 바쁩니다. 잠시 후 다시 시도하세요.',
   'tours.paddle.failed.timeout': '이 구간 계획에 시간이 너무 오래 걸렸습니다. 사이에 지점을 추가하고 다시 시도하세요.',
@@ -1214,8 +1214,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': '읽는 중',
   'tours.paddle.load.phase.build': '수역 네트워크 구성 중',
   'tours.paddle.load.hint': '보통 1~3분 걸립니다. 계속 계획하세요. 구간은 그 후 자동으로 계획됩니다.',
-  'tours.paddle.load.reason.tooLarge': '이 지역은 TREK이 스스로 불러오는 크기보다 큽니다.',
-  'tours.paddle.load.reason.limit': 'TREK이 오늘 이미 충분한 지역을 스스로 불러왔습니다.',
+  'tours.paddle.load.reason.tooLarge': '이 지역은 Manzil이 스스로 불러오는 크기보다 큽니다.',
+  'tours.paddle.load.reason.limit': 'Manzil이 오늘 이미 충분한 지역을 스스로 불러왔습니다.',
   'tours.paddle.load.declined': '관리자가 {region}의 수역 데이터를 거절했습니다.',
   'tours.paddle.load.failed': '{region}의 수역 데이터를 불러올 수 없습니다.',
   'tours.paddle.load.noWater': '{region}의 수역 데이터에는 이곳에 물이 없습니다. 지점을 강이나 호수 위에 두세요.',
@@ -1238,7 +1238,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': '승마 시간',
   'tours.horse.timeInfoLabel': '승마 시간이 없는 이유',
   'tours.horse.timeInfo':
-    'TREK은 승마 시간을 계산하지 않습니다. 속도는 말과 기수에 달려 있습니다. 원하면 예정 총 시간을 직접 입력하세요.',
+    'Manzil은 승마 시간을 계산하지 않습니다. 속도는 말과 기수에 달려 있습니다. 원하면 예정 총 시간을 직접 입력하세요.',
   'tours.horse.routes.title': '승마 루트',
   'tours.horse.routes.infoLabel': '승마 루트 안내',
   'tours.horse.routes.info':
@@ -1295,7 +1295,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': '선은 파일에 기록된 그대로 유지됩니다. 경로를 다시 계산하지 않습니다.',
   'tours.horse.recorded.noTime': '승마 시간 없음',
   'tours.horse.recorded.noTimeInfo':
-    'TREK은 승마 투어의 승마 시간을 계산하지 않습니다. 속도는 말과 기수에게 달려 있습니다.',
+    'Manzil은 승마 투어의 승마 시간을 계산하지 않습니다. 속도는 말과 기수에게 달려 있습니다.',
   'tours.horse.recorded.accessUnchecked': '통행 여부 미확인',
   'tours.horse.recorded.accessUncheckedInfo':
     '가져오기는 길을 말로 지나가도 되는지 확인하지 않습니다. 현장 표지판을 따르세요.',
@@ -1443,7 +1443,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': '아직 저장할 내용이 없습니다. 먼저 투어를 변경하세요.',
   'tours.detail.openInTours': '투어 탭에서 열기',
   'tours.planner.status.routingGeneric': '경로 계산 중…',
-  'tours.planner.emptyHintPlacing': '지도를 클릭해 지점을 찍으세요. 지점이 두 개가 되면 TREK이 경로를 계산합니다.',
+  'tours.planner.emptyHintPlacing': '지도를 클릭해 지점을 찍으세요. 지점이 두 개가 되면 Manzil이 경로를 계산합니다.',
   'tours.ski.drawStraight': '직선으로 그리기',
   'tours.horse.routes.stale': '목록은 검색했던 화면 기준입니다. 현재 화면에서 다시 검색하세요.',
   'tours.horse.dialog.adoptGapHint':

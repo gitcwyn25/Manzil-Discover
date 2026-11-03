@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Sprawdzaj zmiany moich szlaków',
   'wanderer.watch.hint': 'Powiadomienie, gdy zaimportowany szlak mógł się zmienić.',
   'wanderer.watch.info':
-    'Najwyżej raz dziennie TREK czyta krótki wpis każdego zaimportowanego szlaku, nigdy jego pliku GPX. Tylko powiadamia: czy przejąć zmianę, decydujesz sam przez sprawdzenie źródła trasy.',
+    'Najwyżej raz dziennie Manzil czyta krótki wpis każdego zaimportowanego szlaku, nigdy jego pliku GPX. Tylko powiadamia: czy przejąć zmianę, decydujesz sam przez sprawdzenie źródła trasy.',
   'wanderer.watch.notConnected': 'Najpierw połącz wanderer',
   'wanderer.watch.on': 'Sprawdzanie w tle włączone',
   'wanderer.watch.off': 'Sprawdzanie w tle wyłączone',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Jeszcze nie sprawdzono',
   'wanderer.watch.paused': 'Wstrzymane do {time}',
   'wanderer.watch.pausedHint':
-    'wanderer nie odpowiedział. Po każdym niepowodzeniu TREK czeka dłużej, zanim zapyta ponownie.',
+    'wanderer nie odpowiedział. Po każdym niepowodzeniu Manzil czeka dłużej, zanim zapyta ponownie.',
   'wanderer.watch.blocked': 'Token odrzucony',
   'wanderer.watch.blockedHint':
     'wanderer odrzucił token API. Sprawdzanie wznowi się, gdy test połączenia się powiedzie lub zostanie zapisany nowy token.',
@@ -34,7 +34,7 @@ const wandererWatch: TranslationStrings = {
     'wanderer zmienił znacznik czasu szlaku. Dopiero sprawdzenie źródła pokaże, czy treść się różni.',
   'wanderer.watch.stateHint.changed':
     'Wpis w wanderer ma inną nazwę lub inny opis. Sprawdzenie źródła pokaże wszystko, co się zmieniło.',
-  'wanderer.watch.stateHint.unverifiable': 'TREK nie mógł ocenić tego szlaku, więc nic nie wiadomo o zmianie.',
+  'wanderer.watch.stateHint.unverifiable': 'Manzil nie mógł ocenić tego szlaku, więc nic nie wiadomo o zmianie.',
   'wanderer.watch.reason.unavailable': 'Szlak niedostępny',
   'wanderer.watch.reason.no_change_time': 'Brak znacznika czasu',
 };

@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Couleurs',
   'journey.studio.stickerSlot': 'Couleur {index}',
   'journey.studio.stickerResetColours': 'Couleurs d’origine',
-  'journey.studio.stickerMissing': 'Cet autocollant ne fait pas partie de la bibliothèque de cette version de TREK.',
+  'journey.studio.stickerMissing': 'Cet autocollant ne fait pas partie de la bibliothèque de cette version de Manzil.',
   'journey.studio.stickerFlip': 'Miroir',
   'journey.studio.stickerTurnLeft': 'Tourner à gauche',
   'journey.studio.stickerTurnRight': 'Tourner à droite',

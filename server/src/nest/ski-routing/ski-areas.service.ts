@@ -251,7 +251,7 @@ export class SkiAreasService implements OnApplicationBootstrap {
     const meta = await this.winter.meta();
     if (this.current?.indexSha === meta.indexSha) return 'unchanged';
     if (meta.format !== SGR_FORMAT) {
-      logWarn(`[Ski] the Places host serves winter format ${meta.format}; this TREK reads ${SGR_FORMAT}`);
+      logWarn(`[Ski] the Places host serves winter format ${meta.format}; this Manzil reads ${SGR_FORMAT}`);
       return 'refused';
     }
     const answer = await this.winter.index(this.current?.indexSha ?? null);

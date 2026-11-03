@@ -178,7 +178,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nieuwe plaatsgegevens',
   'places.refresh.title': 'Plaatsgegevens bijwerken',
   'places.refresh.intro':
-    'TREK kent nieuwere gegevens voor deze plaats. Kies wat je overneemt; de rest blijft zoals het is. Sla de plaats daarna op.',
+    'Manzil kent nieuwere gegevens voor deze plaats. Kies wat je overneemt; de rest blijft zoals het is. Sla de plaats daarna op.',
   'places.refresh.apply': 'Overnemen',
   'places.refresh.replaces': 'Vervangt wat nu is opgeslagen',
   'places.refresh.empty': 'leeg',

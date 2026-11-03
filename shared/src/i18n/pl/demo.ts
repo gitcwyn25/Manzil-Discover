@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Demo na żywo',
-  'demo.welcome.title': 'Witaj w TREK',
+  'demo.welcome.title': 'Witaj w Manzil',
   'demo.welcome.tagline':
     'Planer podróży do dzielenia się: planujcie razem na mapie w czasie rzeczywistym, od pierwszego pomysłu po fotoksiążkę po podróży.',
   'demo.welcome.resetTitle': 'Co godzinę wszystko wraca do początku',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Dni, miejsca i trasy na mapie, z lotami, hotelami, restauracjami, rezerwacjami i wspólnymi kosztami.',
   'demo.feature.tours.title': 'Wycieczki i wędrówki',
   'demo.feature.tours.body': 'Zaplanuj wędrówkę po sieci szlaków i śledź ją na terenie 3D z profilem wysokości.',
-  'demo.feature.studio.title': 'Fotoksiążki w TREK Studio',
+  'demo.feature.studio.title': 'Fotoksiążki w Manzil Studio',
   'demo.feature.studio.body': 'Zamień podróż w zaprojektowaną fotoksiążkę, strona po stronie.',
   'demo.feature.collab.title': 'Wspólne planowanie na żywo',
   'demo.feature.collab.body': 'Każdy w podróży widzi każdą zmianę od razu, z czatem, notatkami i ankietami.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Zapisuj miejsca z różnych podróży na własnych listach i kopiuj je do dowolnego planu.',
   'demo.feature.offline.title': 'Działa offline',
-  'demo.feature.offline.body': 'Zainstaluj TREK jako aplikację i miej plany, mapy i listy bez połączenia.',
+  'demo.feature.offline.body': 'Zainstaluj Manzil jako aplikację i miej plany, mapy i listy bez połączenia.',
   'demo.welcome.limitsTitle': 'Poza demem',
   'demo.limit.uploads': 'Przesyłanie zdjęć, dokumentów i okładek',
   'demo.limit.account': 'Zmiana konta, hasła lub 2FA',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Autorzy zdjęć',
   'demo.credits.intro':
-    'Zdjęcia w tym demo pochodzą z Wikimedia Commons, każde na licencji podanej przy nim. Ta licencja dotyczy tylko zdjęcia, a nie TREK ani reszty demo.',
+    'Zdjęcia w tym demo pochodzą z Wikimedia Commons, każde na licencji podanej przy nim. Ta licencja dotyczy tylko zdjęcia, a nie Manzil ani reszty demo.',
   'demo.credits.by': 'fot. {author}',
   'demo.credits.publicDomain': 'Domena publiczna',
   'demo.credits.back': 'Wstecz',

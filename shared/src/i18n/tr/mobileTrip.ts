@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Bu değerler masaüstünde ayarlanır; orada başka yolları karşılaştırabilir ve bir günü içe aktarılmış bir izi takip ettirebilirsiniz.',
   'mobileTrip.planOnDesktop': 'Planlama bilgisayarda',
-  'mobileTrip.rtDriveOnTwoPlaces': 'Bir günde iki yer olduğunda TREK sürüşü hesaplar.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Bir günde iki yer olduğunda Manzil sürüşü hesaplar.',
   'mobileTrip.toursEmptyBody': 'Kaydedilen turlar burada görünür ve bir güne eklenebilir.',
   'mobileTrip.toursCount': '{count} tur',
   'mobileTrip.toursCount.one': '{count} tur',

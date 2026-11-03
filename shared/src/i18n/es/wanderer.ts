@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Conexión con wanderer eliminada',
   'wanderer.loadFailed': 'No se ha podido cargar la conexión con wanderer',
   'wanderer.privateIp':
-    'Esta dirección está en una red privada. Si TREK no puede alcanzarla, el administrador tiene que permitir las redes internas.',
+    'Esta dirección está en una red privada. Si Manzil no puede alcanzarla, el administrador tiene que permitir las redes internas.',
   'wanderer.error.disabled': 'Tu administrador no ha activado wanderer para las excursiones.',
   'wanderer.error.not_connected': 'wanderer aún no está conectado.',
   'wanderer.error.invalid_url': 'Esa dirección no es una URL de wanderer válida.',
   'wanderer.error.blocked_address':
-    'TREK no puede acceder a esa dirección. Para una instancia en tu propia red, el administrador tiene que establecer ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil no puede acceder a esa dirección. Para una instancia en tu propia red, el administrador tiene que establecer ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable':
     'No se ha podido contactar con wanderer. Comprueba la dirección y que la instancia esté en marcha.',
   'wanderer.error.tls': 'No se ha podido verificar el certificado de la instancia. Si es autofirmado, permítelo abajo.',
@@ -38,7 +38,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'La respuesta no viene de wanderer. Comprueba que la dirección apunta al propio wanderer.',
   'wanderer.error.no_author':
-    'wanderer ha respondido, pero no indica ningún autor de senderos para la cuenta de este token de API, así que TREK no puede saber qué senderos son tuyos.',
+    'wanderer ha respondido, pero no indica ningún autor de senderos para la cuenta de este token de API, así que Manzil no puede saber qué senderos son tuyos.',
   'wanderer.error.too_large': 'El archivo del sendero ocupa más de 10 MB.',
   'wanderer.error.server_error': 'wanderer ha respondido con un error. Inténtalo de nuevo más tarde.',
   'wanderer.error.offline': 'Estás sin conexión. Solo se puede buscar en wanderer con conexión.',

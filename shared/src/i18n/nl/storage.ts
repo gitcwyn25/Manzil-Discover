@@ -19,7 +19,7 @@ const storage: TranslationStrings = {
   'storage.field.replicas': "Replica's",
   'storage.title': 'Opslag',
   'storage.description':
-    "Waar TREK geüploade bestanden, foto's en back-ups bewaart. Er verandert niets totdat je opslaat.",
+    "Waar Manzil geüploade bestanden, foto's en back-ups bewaart. Er verandert niets totdat je opslaat.",
   'storage.loading': 'Laden…',
   'storage.saved': 'Opslagconfiguratie opgeslagen',
   'storage.save': 'Wijzigingen opslaan',

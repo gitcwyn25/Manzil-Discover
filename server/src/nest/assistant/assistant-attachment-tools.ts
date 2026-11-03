@@ -20,7 +20,7 @@ type ToolArgs = Record<string, unknown>;
 export const NO_SUCH_ATTACHMENT = 'No such attachment in this conversation.';
 
 /** What a file TREK read no text out of is answered with. */
-export const NO_TEXT = 'TREK could not read any text out of this file, so there is nothing to read.';
+export const NO_TEXT = 'Manzil could not read any text out of this file, so there is nothing to read.';
 
 export const READ_ATTACHED_FILE_SPEC: AiToolSpec = {
   name: READ_ATTACHED_FILE_TOOL,

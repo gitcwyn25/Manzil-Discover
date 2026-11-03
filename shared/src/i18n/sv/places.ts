@@ -177,7 +177,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Nya platsuppgifter',
   'places.refresh.title': 'Uppdatera platsuppgifter',
   'places.refresh.intro':
-    'TREK känner till nyare uppgifter för den här platsen. Välj vad du vill ta över, resten förblir som det är. Spara platsen efteråt.',
+    'Manzil känner till nyare uppgifter för den här platsen. Välj vad du vill ta över, resten förblir som det är. Spara platsen efteråt.',
   'places.refresh.apply': 'Ta över',
   'places.refresh.replaces': 'Ersätter det som är sparat nu',
   'places.refresh.empty': 'tomt',

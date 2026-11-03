@@ -288,7 +288,7 @@ const journey: TranslationStrings = {
   'journey.public.madeWith': 'Hazırlanıb:',
 
   'journey.pdf.journeyBook': 'Səyahət kitabı',
-  'journey.pdf.madeWith': 'TREK ilə hazırlanıb',
+  'journey.pdf.madeWith': 'Manzil ilə hazırlanıb',
   'journey.pdf.day': 'Gün',
   'journey.pdf.theEnd': 'Son',
   'journey.pdf.saveAsPdf': 'PDF kimi yadda saxla',
@@ -308,7 +308,7 @@ const journey: TranslationStrings = {
   'journey.picker.selectDate': 'Tarix seç',
   'journey.picker.search': 'Axtar',
 
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Foto kitab studiyasını aç',
   'journey.studio.backToJourney': 'Səyahət gündəliyinə qayıt',
@@ -356,7 +356,7 @@ const journey: TranslationStrings = {
     'Bu açılımın dizaynını fotolarsız fayl kimi yadda saxlayır; paylaşmaq və ya yenidən istifadə etmək mümkündür',
   'journey.studio.importSpread': 'İdxal et',
   'journey.studio.importSpreadHint': 'Endirilmiş dizayn faylından açılım əlavə edin',
-  'journey.studio.importSpreadFailed': 'Bu fayl TREK Studio açılımı deyil',
+  'journey.studio.importSpreadFailed': 'Bu fayl Manzil Studio açılımı deyil',
 
   'journey.studio.desktopOnly': 'Studio daha böyük ekran tələb edir',
   'journey.studio.desktopOnlyHint':

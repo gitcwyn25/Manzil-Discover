@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Warna',
   'journey.studio.stickerSlot': 'Warna {index}',
   'journey.studio.stickerResetColours': 'Warna asli',
-  'journey.studio.stickerMissing': 'Stiker ini tidak ada di pustaka versi TREK ini.',
+  'journey.studio.stickerMissing': 'Stiker ini tidak ada di pustaka versi Manzil ini.',
   'journey.studio.stickerFlip': 'Cerminkan',
   'journey.studio.stickerTurnLeft': 'Putar ke kiri',
   'journey.studio.stickerTurnRight': 'Putar ke kanan',

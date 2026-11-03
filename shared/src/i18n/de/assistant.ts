@@ -256,7 +256,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} Tage',
   'assistant.admin.retentionDays.one': '{count} Tag',
   'assistant.admin.retentionForever': 'Für immer',
-  'assistant.mobile.tile': 'Frag TREK',
+  'assistant.mobile.tile': 'Frag Manzil',
   'assistant.mobile.tileHint': 'Plane mit dem Assistenten',
   'assistant.mobile.backToChat': 'Zurück zum Chat',
   'assistant.step.nearbyAt': 'Sucht in der Nähe von {place}',

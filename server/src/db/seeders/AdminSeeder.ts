@@ -58,7 +58,7 @@ export class AdminSeeder extends Seeder {
       if (isOidcOnlyConfigured()) {
         console.log('');
         console.log('╔══════════════════════════════════════════════╗');
-        console.log('║  TREK — OIDC-Only Mode                       ║');
+        console.log('║  Manzil — OIDC-Only Mode                       ║');
         console.log('║  First SSO login will become admin.           ║');
         console.log('╚══════════════════════════════════════════════╝');
         console.log('');
@@ -91,7 +91,7 @@ export class AdminSeeder extends Seeder {
 
       console.log('');
       console.log('╔══════════════════════════════════════════════╗');
-      console.log('║  TREK — First Run: Admin Account Created     ║');
+      console.log('║  Manzil — First Run: Admin Account Created     ║');
       console.log('╠══════════════════════════════════════════════╣');
       console.log(`║  Email:    ${email.padEnd(33)}║`);
       console.log(`║  Password: ${password.padEnd(33)}║`);

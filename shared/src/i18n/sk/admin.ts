@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'Umožňuje používateľom prijímať oznámenia na telefónoch a počítačoch cez prehliadač, aj keď je TREK zatvorený. Vyžaduje HTTPS; na iPhone a iPade musí byť TREK pridaný na plochu.',
+    'Umožňuje používateľom prijímať oznámenia na telefónoch a počítačoch cez prehliadač, aj keď je Manzil zatvorený. Vyžaduje HTTPS; na iPhone a iPade musí byť Manzil pridaný na plochu.',
   'admin.notifications.inappPanel.title': 'V aplikácii',
   'admin.notifications.inappPanel.hint': 'Oznámenia v aplikácii sú vždy aktívne a nedajú sa globálne vypnúť.',
   'admin.notifications.adminWebhookPanel.title': 'Admin webhook',
@@ -147,13 +147,13 @@ const admin: TranslationStrings = {
   'admin.requireMfaHint': 'Používatelia bez 2FA musia pred použitím aplikácie dokončiť nastavenie v Nastaveniach.',
   'admin.apiKeys': 'API kľúče',
   'admin.apiKeysHint':
-    'Odkiaľ pochádzajú dáta miest. Index TREK nepotrebuje kľúč; dvaja poskytovatelia nižšie sú voliteľní.',
+    'Odkiaľ pochádzajú dáta miest. Index Manzil nepotrebuje kľúč; dvaja poskytovatelia nižšie sú voliteľní.',
   'admin.trekApi.badgeDefault': 'Odporúčaný predvolený zdroj',
   'admin.googleCaveat.badge': 'Neodporúčané',
   'admin.googleCaveat.body':
-    'TREK je otvorený softvér a nie sme v tomto neutrálni. V takomto rozsahu existujú hodnotenia a fotografie bežných podnikov len u Googlu, a to je monopol. Toto pole tu je preto, že nie je alternatíva, nie preto, že by sme ho odporúčali. Každý dotaz potom ide do Googlu.',
+    'Manzil je otvorený softvér a nie sme v tomto neutrálni. V takomto rozsahu existujú hodnotenia a fotografie bežných podnikov len u Googlu, a to je monopol. Toto pole tu je preto, že nie je alternatíva, nie preto, že by sme ho odporúčali. Každý dotaz potom ide do Googlu.',
   'admin.trekApi.tagline':
-    'Vlastné služby TREK: hľadanie miest, hľadanie adries a trasy, bez kľúča Google a bez zadávania akéhokoľvek kľúča. Každá inštalácia dostane férový denný limit a počíta sa len počet požiadaviek.',
+    'Vlastné služby Manzil: hľadanie miest, hľadanie adries a trasy, bez kľúča Google a bez zadávania akéhokoľvek kľúča. Každá inštalácia dostane férový denný limit a počíta sa len počet požiadaviek.',
   'admin.trekApi.factPlaces': '73,6 milióna miest na celom svete',
   'admin.trekApi.factNoKey': 'Žiadny kľúč na zadanie, férový denný limit',
   'admin.trekApi.factOffline': 'Balíčky krajín fungujú offline',
@@ -221,7 +221,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Google Maps API kľúč',
   'admin.mapsKeyHint': 'Potrebné na vyhľadávanie miest. Získate na console.cloud.google.com',
   'admin.mapsKeyHintLong':
-    'Bez kľúča Google API sa používa odporúčané API TREK. S kľúčom možno navyše načítať fotografie, hodnotenia a otváracie hodiny. Kľúč vytvoríte na console.cloud.google.com.',
+    'Bez kľúča Google API sa používa odporúčané API Manzil. S kľúčom možno navyše načítať fotografie, hodnotenia a otváracie hodiny. Kľúč vytvoríte na console.cloud.google.com.',
   'admin.recommended': 'Odporúčané',
   'admin.weatherKey': 'OpenWeatherMap API kľúč',
   'admin.weatherKeyHint': 'Pre dáta o počasí. Zdarma na openweathermap.org',
@@ -239,7 +239,7 @@ const admin: TranslationStrings = {
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Zvolený poskytovateľ nemá nastavený API kľúč, takže na vyhľadávanie miest odpovedá len index TREK a OpenStreetMap.',
+    'Zvolený poskytovateľ nemá nastavený API kľúč, takže na vyhľadávanie miest odpovedá len index Manzil a OpenStreetMap.',
   'admin.placesProvider.saved': 'Poskytovateľ vyhľadávania miest uložený',
   'admin.validateKey': 'Testovať',
   'admin.keyValid': 'Pripojené',
@@ -273,14 +273,14 @@ const admin: TranslationStrings = {
     'Zobraziť obrázky a popis pri pridávaní miesta. Wikipédia a OpenStreetMap sa používajú vždy; Google sa pridá navyše, keď sú zapnuté Fotografie miest alebo Podrobnosti o mieste.',
   'admin.placesGoogleOnly.title': 'Hľadať len cez Google',
   'admin.placesGoogleOnly.subtitle':
-    'Každé vyhľadávanie a každý návrh ide do Google Places. Po vypnutí odpovedá najprv vlastný index TREK a OpenStreetMap a Google sa opýta, len keď nič nenájdu.',
+    'Každé vyhľadávanie a každý návrh ide do Google Places. Po vypnutí odpovedá najprv vlastný index Manzil a OpenStreetMap a Google sa opýta, len keď nič nenájdu.',
   'admin.placesGoogleOnly.missingKey':
-    'Vyžaduje API kľúč Google Maps. Bez neho vyhľadávanie beží na vlastnom indexe TREK a OpenStreetMap bez ohľadu na tento prepínač.',
+    'Vyžaduje API kľúč Google Maps. Bez neho vyhľadávanie beží na vlastnom indexe Manzil a OpenStreetMap bez ohľadu na tento prepínač.',
   'admin.placesGoogleOnly.otherProvider':
     'Vyžaduje Google ako poskytovateľa miest. Ak je zvolený Amap alebo OpenStreetMap, vyhľadávanie nikdy nejde do Google bez ohľadu na tento prepínač.',
   'admin.googleQuota.title': 'Denný limit volaní Google',
   'admin.googleQuota.subtitle':
-    'Po dosiahnutí TREK prestane volať Google do ďalšieho dňa (UTC) a hľadá cez OpenStreetMap. Prázdne znamená bez limitu.',
+    'Po dosiahnutí Manzil prestane volať Google do ďalšieho dňa (UTC) a hľadá cez OpenStreetMap. Prázdne znamená bez limitu.',
   'admin.googleQuota.placeholder': 'Bez limitu',
   'admin.googleQuota.usedToday': 'Dnes: {used}',
   'admin.googleQuota.usedOfLimit': 'Dnes: {used} z {limit}',
@@ -444,7 +444,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Zdrojový repozitár',
   'admin.plugins.reportIssue': 'Nahlásiť problém',
   'admin.plugins.homepage': 'Domovská stránka',
-  'admin.plugins.requiresTrek': 'Vyžaduje TREK {version}+',
+  'admin.plugins.requiresTrek': 'Vyžaduje Manzil {version}+',
   'admin.plugins.reviewedOn': 'Skontrolované {date}',
   'admin.plugins.perm.db:own': 'Ukladať vlastné dáta v izolovanej databáze',
   'admin.plugins.perm.db:read:trips': 'Čítať cesty, ku ktorým má aktuálny používateľ prístup',
@@ -513,7 +513,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:place-detail-provider':
     'Prispievať ďalšími podrobnosťami (recenzie, hodnotenia, odkazy) k miestu',
   'admin.plugins.perm.hook:search-provider':
-    'Odpovedať na vyhľadávania miest z vlastného indexu, popri vlastných výsledkoch TREK',
+    'Odpovedať na vyhľadávania miest z vlastného indexu, popri vlastných výsledkoch Manzil',
   'admin.plugins.perm.hook:poi-category-provider':
     'Pridávať vlastné kategórie miest do „Objavovať miesta na mape“; výberom niektorej z nich plugin dostane oblasť mapy, ktorú si práve prezeráte',
   'admin.plugins.perm.hook:trip-warning-provider': 'Vyvolávať overovacie upozornenia na ceste (zobrazené v plánovači)',
@@ -533,7 +533,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Zverejňovať nástroje, ktoré môže AI asistent spustiť vo vašom mene (koná s prístupom, ktorý tu pluginu udelíte, nie s vlastným prístupom asistenta)',
   'admin.plugins.perm.geolocation:read':
-    'Žiadať o vašu aktuálnu polohu, kým je otvorené niektoré z jeho zobrazení (TREK ju číta pod oprávnením na polohu pre túto stránku, nie pod vlastným oprávnením pluginu)',
+    'Žiadať o vašu aktuálnu polohu, kým je otvorené niektoré z jeho zobrazení (Manzil ju číta pod oprávnením na polohu pre túto stránku, nie pod vlastným oprávnením pluginu)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Pripájať textové sekcie k PDF exportu cesty',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Zvýrazňovať krajiny na mape sveta v Atlase (napr. zoznamy prianí alebo cestovné upozornenia)',
@@ -563,26 +563,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Zatiaľ ponechať vypnuté',
   'admin.plugins.updateKeptOff': 'Aktualizácia nainštalovaná — ponechaná vypnutá, kým neschválite nové oprávnenia',
   'admin.plugins.reviewedMeaning':
-    '„Skontrolované“ znamená, že správca TREK preveril tento plugin na malvér pri každej verzii — nie jeho kvalitu ani to, či funguje. Nie je to záruka, že je plugin neškodný.',
+    '„Skontrolované“ znamená, že správca Manzil preveril tento plugin na malvér pri každej verzii — nie jeho kvalitu ani to, či funguje. Nie je to záruka, že je plugin neškodný.',
   'admin.plugins.security.title': 'Ako sú pluginy izolované — a kde sú hranice',
   'admin.plugins.security.isolationTitle': 'Každý plugin beží v izolácii',
   'admin.plugins.security.isolationBody':
-    'Plugin beží ako vlastný uzamknutý proces, ktorý môže čítať iba svoje vlastné súbory. Nemôže čítať vašu databázu, váš prihlasovací tajný kľúč ani váš šifrovací kľúč, nemôže spúšťať iné programy a nemôže nikam zapisovať súbory. Jeho rozhranie beží v uzavretom rámci prehliadača, ktorý nemôže čítať vašu session cookie ani zasahovať do okolitej stránky TREK.',
+    'Plugin beží ako vlastný uzamknutý proces, ktorý môže čítať iba svoje vlastné súbory. Nemôže čítať vašu databázu, váš prihlasovací tajný kľúč ani váš šifrovací kľúč, nemôže spúšťať iné programy a nemôže nikam zapisovať súbory. Jeho rozhranie beží v uzavretom rámci prehliadača, ktorý nemôže čítať vašu session cookie ani zasahovať do okolitej stránky Manzil.',
   'admin.plugins.security.permsTitle': 'Čo oprávnenia znamenajú',
   'admin.plugins.security.permsBody':
-    'Oprávnenia zobrazené pred inštaláciou sú pevný limit, ktorý TREK vynucuje po celý čas behu pluginu — plugin doslova nemôže urobiť nič, čo nie je na zozname. Hovoria vám však, čo plugin môže robiť, nie čo skutočne robí. Plugin, ktorý smie čítať vaše cesty a spojiť sa so serverom, môže vaše cesty tomuto serveru odoslať, preto si prečítajte oprávnenia aj odchádzajúcich hostiteľov, nielen popis.',
+    'Oprávnenia zobrazené pred inštaláciou sú pevný limit, ktorý Manzil vynucuje po celý čas behu pluginu — plugin doslova nemôže urobiť nič, čo nie je na zozname. Hovoria vám však, čo plugin môže robiť, nie čo skutočne robí. Plugin, ktorý smie čítať vaše cesty a spojiť sa so serverom, môže vaše cesty tomuto serveru odoslať, preto si prečítajte oprávnenia aj odchádzajúcich hostiteľov, nielen popis.',
   'admin.plugins.security.limitsTitle': 'Čo nemôžeme sľúbiť',
   'admin.plugins.security.limitsBody':
-    'Izolácia je silná softvérová hranica, nie absolútna. Plugin koná presne s tými právami, ktoré schválite, takže v ich rámci sa môže správať inak, než naznačuje jeho popis, a môže odoslať dáta, ktoré oprávnene drží, hostiteľom, ktorých deklaroval. TREK nečíta ani neposudzuje, čo kód pluginu v skutočnosti robí.',
+    'Izolácia je silná softvérová hranica, nie absolútna. Plugin koná presne s tými právami, ktoré schválite, takže v ich rámci sa môže správať inak, než naznačuje jeho popis, a môže odoslať dáta, ktoré oprávnene drží, hostiteľom, ktorých deklaroval. Manzil nečíta ani neposudzuje, čo kód pluginu v skutočnosti robí.',
   'admin.plugins.security.worstTitle': 'Najhorší prípad',
   'admin.plugins.security.worstBody':
     'Škodlivý plugin, ktorý zapnete, môže zneužiť dáta a pripojenia, ktoré ste mu udelili — napríklad vyniesť cesty, ktoré smie čítať. Nemôže kradnúť heslá, sfalšovať prihlásenie administrátora, spúšťať príkazy na vašom serveri ani sa dostať k dátam, ktoré ste neudelili. Škoda zostáva v rámci toho, čo ste schválili, a vypnutie pluginu ju zastaví.',
   'admin.plugins.security.reviewedTitle': 'Čo znamená „Skontrolované“',
   'admin.plugins.security.reviewedBody':
-    'Skontrolovaný plugin správca TREK ručne preveril na malvér pri každej verzii — kontroloval nepriateľský kód, nie to, či dobre funguje. Nie je to sľub, že je plugin neškodný.',
+    'Skontrolovaný plugin správca Manzil ručne preveril na malvér pri každej verzii — kontroloval nepriateľský kód, nie to, či dobre funguje. Nie je to sľub, že je plugin neškodný.',
   'admin.plugins.security.signedTitle': 'Čo znamená „Podpísané“',
   'admin.plugins.security.signedBody':
-    'Kontrolný súčet, ktorý TREK overuje pri každej inštalácii, dokazuje, že súbory sú presne tým, za čo sa register zaručuje. Podpis dokazuje niečo iné: že pochádzajú od autora a sú podpísané kľúčom, ktorý drží len on. Podpísaný plugin má oboje. Nepodpísaný nie je nebezpečný — nesie len o jednu záruku menej a väčšina pluginov v registri dnes podpísaná nie je.',
+    'Kontrolný súčet, ktorý Manzil overuje pri každej inštalácii, dokazuje, že súbory sú presne tým, za čo sa register zaručuje. Podpis dokazuje niečo iné: že pochádzajú od autora a sú podpísané kľúčom, ktorý drží len on. Podpísaný plugin má oboje. Nepodpísaný nie je nebezpečný — nesie len o jednu záruku menej a väčšina pluginov v registri dnes podpísaná nie je.',
   'admin.plugins.signed': 'Podpísané',
   'admin.plugins.signedHint': 'Pri inštalácii overené voči podpisovému kľúču autora',
   'admin.plugins.unsigned': 'Nepodpísané',
@@ -597,20 +597,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Súbory nezodpovedajú podpisu autora. Nie sú tým, čo autor podpísal — buď sa poškodili, alebo do nich niekto zasiahol. Toto nie je možné obísť.',
   'admin.plugins.sig.missingBody':
-    'Tento plugin bol pri inštalácii podpísaný, ale nová verzia neprináša žiadny podpis. TREK takéto zhoršenie ticho neprijme. Toto nie je možné obísť.',
+    'Tento plugin bol pri inštalácii podpísaný, ale nová verzia neprináša žiadny podpis. Manzil takéto zhoršenie ticho neprijme. Toto nie je možné obísť.',
   'admin.plugins.sig.incompleteBody':
     'Záznam v registri je podpísaný len napoly: uvádza kľúč autora, ale verzia nenesie žiadny podpis (alebo naopak). To je chyba na strane pluginu. Toto nie je možné obísť.',
   'admin.plugins.sig.pinnedKey': 'Kľúč, s ktorým bol nainštalovaný',
   'admin.plugins.sig.newKey': 'Kľúč, ktorý ponúka teraz',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK nedokáže odlíšiť legitímnu výmenu kľúča od prevzatia — obe odtiaľto vyzerajú rovnako. Skôr než nový kľúč prijmete, overte si ho u autora kanálom, ktorému už dôverujete. Keď to urobíte, plugin sa aktualizuje a nový kľúč si TREK zapamätá.',
+    'Manzil nedokáže odlíšiť legitímnu výmenu kľúča od prevzatia — obe odtiaľto vyzerajú rovnako. Skôr než nový kľúč prijmete, overte si ho u autora kanálom, ktorému už dôverujete. Keď to urobíte, plugin sa aktualizuje a nový kľúč si Manzil zapamätá.',
   'admin.plugins.sig.retrustConfirm': 'Dôverovať novému kľúču a aktualizovať',
   'admin.plugins.sig.cancel': 'Nedôverovať',
   'admin.plugins.sig.consentUnsigned':
     'Túto verziu nič nespája s jej autorom — súbory zodpovedajú registru, ale nenesú podpis autora.',
   'admin.plugins.security.trustTitle': 'Záverom',
   'admin.plugins.security.trustBody':
-    'Inštalácia pluginu je ako inštalácia akejkoľvek aplikácie tretej strany: pridávajte len kód od autorov, ktorým dôverujete, a v prípade pochybností si ho najprv sami prezrite. TREK nenesie žiadnu zodpovednosť za pluginy tretích strán.',
+    'Inštalácia pluginu je ako inštalácia akejkoľvek aplikácie tretej strany: pridávajte len kód od autorov, ktorým dôverujete, a v prípade pochybností si ho najprv sami prezrite. Manzil nenesie žiadnu zodpovednosť za pluginy tretích strán.',
   'admin.plugins.runtimeOn': 'Behové prostredie beží',
   'admin.plugins.tabDiscover': 'Objaviť',
   'admin.plugins.searchPlaceholder': 'Hľadať pluginy…',
@@ -628,12 +628,12 @@ const admin: TranslationStrings = {
   'admin.plugins.updatesAvailable': 'Pre vaše pluginy je dostupných {count} aktualizácií.',
   'admin.plugins.updatesAvailable.one': 'Pre vaše pluginy je dostupná {count} aktualizácia.',
   'admin.plugins.updatesAvailable.few': 'Pre vaše pluginy sú dostupné {count} aktualizácie.',
-  'admin.plugins.newerNeedsTrek': 'v{version} dostupné — vyžaduje TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'v{version} dostupné — vyžaduje Manzil {range}',
   'admin.plugins.updateAll': 'Aktualizovať všetko',
   'admin.plugins.versionsTitle': 'Verzie',
   'admin.plugins.versionPickerTitle': 'Zmeniť verziu — {name}',
   'admin.plugins.versionSwitch': 'Prepnúť na {version}',
-  'admin.plugins.versionNeedsTrek': 'vyžaduje TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'vyžaduje Manzil {range}',
   'admin.plugins.changeVersion': 'Zmeniť verziu…',
   'admin.plugins.noVersions': 'V registri sa nenašli žiadne publikované verzie.',
   'admin.plugins.downgradeTitle': 'Vrátiť tento plugin na staršiu verziu?',
@@ -701,8 +701,8 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Stiahnuť',
   'admin.plugins.dep.update': 'Aktualizovať',
   'admin.plugins.dep.resolveHint': 'Stiahne najnovšiu kompatibilnú verziu vrátane jej vlastných závislostí.',
-  'admin.plugins.dep.trekIncompatible': 'Vyžaduje TREK {range} — tento server beží na {host}',
-  'admin.plugins.dep.trekUnknown': 'Neuvádza, ktoré verzie TREK podporuje',
+  'admin.plugins.dep.trekIncompatible': 'Vyžaduje Manzil {range} — tento server beží na {host}',
+  'admin.plugins.dep.trekUnknown': 'Neuvádza, ktoré verzie Manzil podporuje',
   'admin.plugins.installCompatible': 'Nainštalovať {version}',
   'admin.plugins.installAnyway': 'Napriek tomu nainštalovať',
   'admin.plugins.rangeBypass.pill': 'Kontroly verzií vypnuté',
@@ -711,20 +711,20 @@ const admin: TranslationStrings = {
   'admin.plugins.rangeBypass.title': 'Mimo podporovaných verzií TREKu',
   'admin.plugins.rangeBypass.noticeTitle': 'Nainštalované mimo podporovaných verzií TREKu',
   'admin.plugins.rangeBypass.body':
-    '„{name}“ deklaruje podporu TREKu {range} a tento server beží na {host}. TREK ho prepúšťa len preto, že je nastavené TREK_PLUGINS_IGNORE_TREK_RANGE. Jeho autor neaktualizoval rozsah verzií pluginu pre tento TREK, takže nie je zaručené, že bude fungovať — a v zriedkavých prípadoch môže nekompatibilný plugin poškodiť dáta TREKu. Pokračujte len vtedy, ak toto riziko prijímate.',
+    '„{name}“ deklaruje podporu TREKu {range} a tento server beží na {host}. Manzil ho prepúšťa len preto, že je nastavené TREK_PLUGINS_IGNORE_TREK_RANGE. Jeho autor neaktualizoval rozsah verzií pluginu pre tento Manzil, takže nie je zaručené, že bude fungovať — a v zriedkavých prípadoch môže nekompatibilný plugin poškodiť dáta TREKu. Pokračujte len vtedy, ak toto riziko prijímate.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '„{name}“ neuvádza, ktoré verzie TREKu podporuje; tento server beží na {host}. TREK ho prepúšťa len preto, že je nastavené TREK_PLUGINS_IGNORE_TREK_RANGE. Nič nenasvedčuje tomu, že ho autor na tomto TREKu testoval, takže nie je zaručené, že bude fungovať — a v zriedkavých prípadoch môže nekompatibilný plugin poškodiť dáta TREKu. Pokračujte len vtedy, ak toto riziko prijímate.',
+    '„{name}“ neuvádza, ktoré verzie TREKu podporuje; tento server beží na {host}. Manzil ho prepúšťa len preto, že je nastavené TREK_PLUGINS_IGNORE_TREK_RANGE. Nič nenasvedčuje tomu, že ho autor na tomto TREKu testoval, takže nie je zaručené, že bude fungovať — a v zriedkavých prípadoch môže nekompatibilný plugin poškodiť dáta TREKu. Pokračujte len vtedy, ak toto riziko prijímate.',
   'admin.plugins.dep.trekBypassed': 'Mimo svojho rozsahu TREKu ({range}) — kontroly verzií vypnuté',
   'admin.plugins.dep.trekBypassedUnknown': 'Neuvádza žiadny rozsah TREKu — kontroly verzií vypnuté',
-  'admin.plugins.rangeBypass.titleAdmin': 'Na tomto TREK netestované',
+  'admin.plugins.rangeBypass.titleAdmin': 'Na tomto Manzil netestované',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Podľa autora „{name}“ podporuje TREK {range} a tento server beží na {host}. Autor ho pre tento TREK zatiaľ nepotvrdil, takže nemusí fungovať a v zriedkavých prípadoch môže nevhodný plugin poškodiť dáta TREK. Napriek tomu ho môžete používať: vaše rozhodnutie platí len pre tento plugin v tejto verzii a po aktualizácii sa TREK opýta znova.',
+    'Podľa autora „{name}“ podporuje Manzil {range} a tento server beží na {host}. Autor ho pre tento Manzil zatiaľ nepotvrdil, takže nemusí fungovať a v zriedkavých prípadoch môže nevhodný plugin poškodiť dáta Manzil. Napriek tomu ho môžete používať: vaše rozhodnutie platí len pre tento plugin v tejto verzii a po aktualizácii sa Manzil opýta znova.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '„{name}“ neuvádza, ktoré verzie TREK podporuje, a tento server beží na {host}. Nič nenasvedčuje tomu, že bol na tomto TREK testovaný, takže nemusí fungovať a v zriedkavých prípadoch môže nevhodný plugin poškodiť dáta TREK. Napriek tomu ho môžete používať: vaše rozhodnutie platí len pre tento plugin v tejto verzii a po aktualizácii sa TREK opýta znova.',
-  'admin.plugins.dep.trekAccepted': 'Vytvorené pre TREK {range}, beží na vlastné riziko',
-  'admin.plugins.dep.trekAcceptedUnknown': 'Bez uvedenej verzie TREK, beží na vlastné riziko',
+    '„{name}“ neuvádza, ktoré verzie Manzil podporuje, a tento server beží na {host}. Nič nenasvedčuje tomu, že bol na tomto Manzil testovaný, takže nemusí fungovať a v zriedkavých prípadoch môže nevhodný plugin poškodiť dáta Manzil. Napriek tomu ho môžete používať: vaše rozhodnutie platí len pre tento plugin v tejto verzii a po aktualizácii sa Manzil opýta znova.',
+  'admin.plugins.dep.trekAccepted': 'Vytvorené pre Manzil {range}, beží na vlastné riziko',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Bez uvedenej verzie Manzil, beží na vlastné riziko',
   'admin.plugins.activateAnyway': 'Napriek tomu aktivovať',
-  'admin.plugins.untestedChip': 'Pre TREK {host} zatiaľ nepotvrdené',
+  'admin.plugins.untestedChip': 'Pre Manzil {host} zatiaľ nepotvrdené',
   'admin.plugins.filters': 'Filtrovať',
   'admin.plugins.security.short': 'Ako sú pluginy zabezpečené',
   'admin.plugins.accessTitle': 'K čomu má prístup',
@@ -879,14 +879,14 @@ const admin: TranslationStrings = {
   'admin.github.loading': 'Načítava sa...',
   'admin.github.error': 'Nepodarilo sa načítať verzie',
   'admin.github.by': 'od',
-  'admin.github.support': 'Pomáha mi ďalej rozvíjať TREK',
+  'admin.github.support': 'Pomáha mi ďalej rozvíjať Manzil',
   'admin.update.available': 'Dostupná aktualizácia',
-  'admin.update.text': 'TREK {version} je k dispozícii. Aktuálne používate {current}.',
+  'admin.update.text': 'Manzil {version} je k dispozícii. Aktuálne používate {current}.',
   'admin.update.button': 'Zobraziť na GitHube',
   'admin.update.install': 'Inštalovať aktualizáciu',
   'admin.update.confirmTitle': 'Inštalovať aktualizáciu?',
   'admin.update.confirmText':
-    'TREK bude aktualizovaný z {current} na {version}. Server sa potom automaticky reštartuje.',
+    'Manzil bude aktualizovaný z {current} na {version}. Server sa potom automaticky reštartuje.',
   'admin.update.dataInfo':
     'Všetky vaše dáta (cesty, používatelia, API kľúče, súbory, Vacay, Atlas, rozpočty) budú zachované.',
   'admin.update.warning': 'Aplikácia bude počas reštartu krátko nedostupná.',
@@ -898,9 +898,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Prejsť na zálohovanie',
   'admin.update.howTo': 'Ako aktualizovať',
   'admin.update.dockerText':
-    'Vaša inštancia TREK beží v Dockeri. Na aktualizáciu na {version} spustite na svojom serveri tieto príkazy:',
+    'Vaša inštancia Manzil beží v Dockeri. Na aktualizáciu na {version} spustite na svojom serveri tieto príkazy:',
   'admin.update.nonDockerText':
-    'Táto inštancia TREK nebeží v Dockeri. Na aktualizáciu na {version} znovu spustite inštalačnú alebo aktualizačnú metódu, ktorú ste použili — napríklad pri Proxmox Community Scripts spustite aktualizáciu z konzoly LXC:',
+    'Táto inštancia Manzil nebeží v Dockeri. Na aktualizáciu na {version} znovu spustite inštalačnú alebo aktualizačnú metódu, ktorú ste použili — napríklad pri Proxmox Community Scripts spustite aktualizáciu z konzoly LXC:',
   'admin.update.wikiLink': 'Otvoriť sprievodcu aktualizáciou',
   'admin.update.reloadHint': 'Prosím obnovte stránku o niekoľko sekúnd.',
   'admin.tabs.permissions': 'Oprávnenia',
@@ -972,7 +972,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik je teraz nedostupný. Skúste to neskôr.',
   'admin.paddleRegions.attribution':
     'Údaje © prispievatelia OpenStreetMap (ODbL), regionálne výrezy od Geofabrik. Znova sa načítavajú 3. dňa každého mesiaca.',
-  'admin.paddleRegions.toast.added': 'Región pridaný. TREK ho načíta na pozadí.',
+  'admin.paddleRegions.toast.added': 'Región pridaný. Manzil ho načíta na pozadí.',
   'admin.paddleRegions.toast.removed': 'Región odstránený',
   'admin.paddleRegions.objects.few': '{count} objekty',
   'admin.paddleRegions.phase.build': 'Vytváranie vodnej siete',
@@ -1000,10 +1000,10 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'Na žiadosť',
   'admin.paddleRegions.auto.mode.off': 'Vypnuté',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Keď niekto plánuje vodácku trasu tam, kde ešte nie sú vodné dáta, TREK hneď načíta najmenší vhodný región, do limitu veľkosti a len niekoľko za deň. Väčšie čakajú tu ako žiadosť. Geofabrik dostane len názov regiónu, nikdy miesto.',
+    'Keď niekto plánuje vodácku trasu tam, kde ešte nie sú vodné dáta, Manzil hneď načíta najmenší vhodný región, do limitu veľkosti a len niekoľko za deň. Väčšie čakajú tu ako žiadosť. Geofabrik dostane len názov regiónu, nikdy miesto.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Každý nový región čaká tu, kým ho správca nepustí. Keď plánuje správca sám, načíta sa hneď.',
-  'admin.paddleRegions.auto.modeHint.off': 'TREK nič nenačítava sám a o nič nežiada. Regióny pridávaj tu ručne.',
+  'admin.paddleRegions.auto.modeHint.off': 'Manzil nič nenačítava sám a o nič nežiada. Regióny pridávaj tu ručne.',
   'admin.paddleRegions.auto.maxSize': 'Najväčší región načítavaný automaticky',
   'admin.paddleRegions.auto.maxSizeHint':
     'Väčšie regióny čakajú tu ako žiadosť. Načítanie regiónu trvá pár minút a medzitým zaberá pamäť.',
@@ -1016,7 +1016,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Načítať',
   'admin.paddleRegions.requests.decline': 'Zamietnuť',
   'admin.paddleRegions.origin.auto': 'Automaticky',
-  'admin.paddleRegions.origin.autoHint': 'TREK načítal tento región sám pre vodácku trasu, ktorá sa tam plánuje.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil načítal tento región sám pre vodácku trasu, ktorá sa tam plánuje.',
   'admin.mfa.reset': 'Resetovať 2FA',
   'admin.mfa.resetHint':
     'Vypne pre tohto používateľa dvojfaktorové overenie, napríklad po strate telefónu. Bude odhlásený všade a po prihlásení heslom si ho môže nastaviť znova.',
@@ -1051,7 +1051,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Obnoviť',
   'admin.addons.ai.name': 'AI', // same-as-en
   'admin.addons.ai.description':
-    'Jedno pripojenie pre asistenta a import rezervácií. MCP umožní iným AI aplikáciám používať TREK.',
+    'Jedno pripojenie pre asistenta a import rezervácií. MCP umožní iným AI aplikáciám používať Manzil.',
   'admin.addons.ai.setup': 'Nastaviť AI',
   'admin.addons.ai.dialogSub': 'Pripojenie, ktoré zdieľa asistent a AI spracovanie, a čo smie každý z nich.',
   'admin.addons.ai.tab.connection': 'Pripojenie',
@@ -1082,15 +1082,15 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Vypnuté',
   'admin.contribute.status.unavailable': 'Nedostupné',
   'admin.contribute.noteActive':
-    'To, čo vaši používatelia zadajú o miestach, sa po kontrole dostane do každého TREK. Ďakujeme za pomoc.',
+    'To, čo vaši používatelia zadajú o miestach, sa po kontrole dostane do každého Manzil. Ďakujeme za pomoc.',
   'admin.contribute.noteOff': 'Nech to, čo vaši používatelia zadajú o miestach, zlepší TREK Places API pre všetkých.',
   'admin.contribute.ineligible.env_off': 'Pre túto inštaláciu vypnuté cez TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Údaje o miestach môže zdieľať iba produkčná inštalácia.',
   'admin.contribute.ineligible.demo': 'Demo inštalácia údaje o miestach nezdieľa.',
-  'admin.contribute.ineligible.index_off': 'Zdieľanie potrebuje index TREK ako zdroj miest.',
+  'admin.contribute.ineligible.index_off': 'Zdieľanie potrebuje index Manzil ako zdroj miest.',
   'admin.contribute.ineligible.custom_places_url':
     'Táto inštalácia používa vlastné Places API, takže nie je s kým zdieľať.',
-  'admin.contribute.ineligible.services_off': 'Služby TREK sú pre túto inštaláciu vypnuté.',
+  'admin.contribute.ineligible.services_off': 'Služby Manzil sú pre túto inštaláciu vypnuté.',
   'admin.contribute.ineligible.no_key': 'Táto inštalácia zatiaľ nemá kľúč služieb. Vyžiada sa automaticky.',
   'admin.contribute.pause.key_invalid': 'Pozastavené: služba neprijala kľúč tejto inštalácie.',
   'admin.contribute.pause.key_refused':
@@ -1134,9 +1134,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Ukončiť zdieľanie',
   'admin.contribute.refused.terms_outdated': 'Podmienky sa medzitým zmenili. Pozrite si ich, prosím, znova.',
   'admin.contribute.refused.no_field': 'Vyberte aspoň jedno pole na zdieľanie.',
-  'admin.contribute.prompt.title': 'Pomôžte každému TREK lepšie poznať miesta',
+  'admin.contribute.prompt.title': 'Pomôžte každému Manzil lepšie poznať miesta',
   'admin.contribute.prompt.lead':
-    'Keď tu niekto pridá k miestu webovú stránku, telefónne číslo, otváracie hodiny alebo popis, TREK to môže odovzdať ďalej. Po kontrole to zobrazí každá inštalácia TREK a vy dostanete naopak to, čo pridali iní.',
+    'Keď tu niekto pridá k miestu webovú stránku, telefónne číslo, otváracie hodiny alebo popis, Manzil to môže odovzdať ďalej. Po kontrole to zobrazí každá inštalácia Manzil a vy dostanete naopak to, čo pridali iní.',
   'admin.contribute.prompt.why':
     'TREK Places API je zadarmo a nepotrebuje kľúč Google, pretože je postavené na otvorených dátach. Každý detail, ktorý zdieľate, ho zlepšuje pre tisíce cestovateľov. Ďakujeme, že ste súčasťou toho.',
   'admin.contribute.prompt.whatLabel': 'Čo sa zdieľa',
@@ -1159,6 +1159,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Ďakujeme. Údaje o miestach sa teraz zdieľajú.',
   'admin.servicesCard.title': 'Vyhľadávanie miest a trasovanie',
   'admin.servicesCard.hint':
-    'Vlastné služby TREK, ktorý poskytovateľ odpovedá na vyhľadávanie a verejnú dopravu, a protokol vyhľadávania.',
+    'Vlastné služby Manzil, ktorý poskytovateľ odpovedá na vyhľadávanie a verejnú dopravu, a protokol vyhľadávania.',
 };
 export default admin;

@@ -248,7 +248,7 @@ const assistant: TranslationStrings = {
     'Trợ lý có thể tra cứu trên web (đánh giá, giờ mở cửa, sự kiện) qua công cụ tìm kiếm của nhà cung cấp AI mà nó dùng. Hoạt động với ChatGPT, Anthropic và OpenRouter; các lượt tìm chỉ gửi đến nhà cung cấp đó.',
   'assistant.admin.retentionDays': '{count} ngày',
   'assistant.admin.retentionForever': 'Mãi mãi',
-  'assistant.mobile.tile': 'Hỏi TREK',
+  'assistant.mobile.tile': 'Hỏi Manzil',
   'assistant.mobile.tileHint': 'Lên kế hoạch cùng trợ lý',
   'assistant.mobile.backToChat': 'Quay lại trò chuyện',
   'assistant.step.nearbyAt': 'Đang tìm gần {place}',
@@ -457,7 +457,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found': 'Tôi tìm thấy {count} đặt chỗ trong {name}. Hãy thêm những đặt chỗ bạn muốn ở bên dưới.',
   'assistant.attach.none': 'Tôi không tìm thấy đặt chỗ nào trong {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Việc đọc bằng AI cho nhập dữ liệu chưa được thiết lập ở đây, nên chỉ trình đọc riêng của TREK đã xem tệp.',
+    'Việc đọc bằng AI cho nhập dữ liệu chưa được thiết lập ở đây, nên chỉ trình đọc riêng của Manzil đã xem tệp.',
   'assistant.attach.why.aiFailed': 'Trình đọc AI không đọc được tệp.',
   'assistant.attach.why.noText': 'Tệp không có văn bản đọc được, nhiều khả năng là bản quét.',
   'assistant.attach.why.nothingFound': 'Không có gì trong tệp trông giống một đặt chỗ.',

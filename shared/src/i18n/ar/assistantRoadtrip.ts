@@ -129,7 +129,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved.many': 'تعذّر تحديد موقع {count} محطة توقف',
   'assistant.card.roadtrip.dayRoute.after': 'بعد {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'يتبع {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'خطوط مستقيمة حاليًا؛ يحسب TREK الطريق بعد تطبيق التغيير.',
+  'assistant.card.roadtrip.dayRoute.sketch': 'خطوط مستقيمة حاليًا؛ يحسب Manzil الطريق بعد تطبيق التغيير.',
   'assistant.card.roadtrip.dayEnd.at': 'ينتهي اليوم عند {name}',
   'assistant.card.roadtrip.dayEnd.along': 'ينتهي اليوم عند {percent} % من القيادة بعد {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'ينتهي اليوم تلقائيًا من جديد',

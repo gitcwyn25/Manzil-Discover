@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Web kancası',
   'admin.notifications.webPushPanel.title': 'Web anlık bildirimleri',
   'admin.notifications.webPushPanel.hint':
-    "Kullanıcıların, TREK kapalıyken bile tarayıcı üzerinden telefon ve bilgisayarlarında bildirim almasını sağlar. HTTPS gerekir; iPhone ve iPad'de TREK'in Ana Ekran'a eklenmesi gerekir.",
+    "Kullanıcıların, Manzil kapalıyken bile tarayıcı üzerinden telefon ve bilgisayarlarında bildirim almasını sağlar. HTTPS gerekir; iPhone ve iPad'de Manzil'in Ana Ekran'a eklenmesi gerekir.",
   'admin.notifications.inappPanel.title': 'Uygulama içi',
   'admin.notifications.inappPanel.hint': 'Uygulama içi bildirimler her zaman açıktır ve genel olarak kapatılamaz.',
   'admin.notifications.adminWebhookPanel.title': 'Yönetici Webhook',
@@ -146,13 +146,13 @@ const admin: TranslationStrings = {
     "2FA'sı olmayan kullanıcıların uygulamayı kullanmadan önce Ayarlar'da kurulumu tamamlaması gerekir.",
   'admin.apiKeys': 'API Anahtarları',
   'admin.apiKeysHint':
-    'Yer verilerinin nereden geldiği. TREK dizini anahtar istemez; aşağıdaki iki sağlayıcı isteğe bağlıdır.',
+    'Yer verilerinin nereden geldiği. Manzil dizini anahtar istemez; aşağıdaki iki sağlayıcı isteğe bağlıdır.',
   'admin.trekApi.badgeDefault': 'Önerilen varsayılan',
   'admin.googleCaveat.badge': 'Önerilmez',
   'admin.googleCaveat.body':
-    "TREK açık kaynaklıdır ve burada tarafsız değiliz. Bu ölçekte değerlendirmeler ve sıradan işletme fotoğrafları yalnızca Google'da vardır; tekel budur. Alan, başka seçenek olmadığı için burada; önerdiğimiz için değil. O zaman her sorgu Google'a gider.",
+    "Manzil açık kaynaklıdır ve burada tarafsız değiliz. Bu ölçekte değerlendirmeler ve sıradan işletme fotoğrafları yalnızca Google'da vardır; tekel budur. Alan, başka seçenek olmadığı için burada; önerdiğimiz için değil. O zaman her sorgu Google'a gider.",
   'admin.trekApi.tagline':
-    "TREK'in kendi hizmetleri: yer arama, adres arama ve rota oluşturma; Google anahtarı olmadan ve hiçbir anahtar girmeden. Her kurulum adil bir günlük kota alır ve yalnızca istek sayısı sayılır.",
+    "Manzil'in kendi hizmetleri: yer arama, adres arama ve rota oluşturma; Google anahtarı olmadan ve hiçbir anahtar girmeden. Her kurulum adil bir günlük kota alır ve yalnızca istek sayısı sayılır.",
   'admin.trekApi.factPlaces': 'Dünya genelinde 73,6 milyon yer',
   'admin.trekApi.factNoKey': 'Girilecek anahtar yok, adil günlük kota',
   'admin.trekApi.factOffline': 'Ülke paketleri çevrimdışı da çalışır',
@@ -220,7 +220,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Google Haritalar API Anahtarı',
   'admin.mapsKeyHint': 'Yer arama için gereklidir. console.cloud.google.com adresinden erişin',
   'admin.mapsKeyHintLong':
-    'Google API anahtarı olmadan önerilen TREK API kullanılır. Anahtarla ek olarak fotoğraflar, değerlendirmeler ve çalışma saatleri yüklenebilir. Anahtarı console.cloud.google.com adresinde oluşturabilirsiniz.',
+    'Google API anahtarı olmadan önerilen Manzil API kullanılır. Anahtarla ek olarak fotoğraflar, değerlendirmeler ve çalışma saatleri yüklenebilir. Anahtarı console.cloud.google.com adresinde oluşturabilirsiniz.',
   'admin.recommended': 'Tavsiye edilen',
   'admin.weatherKey': 'OpenWeatherMap API Anahtarı',
   'admin.weatherKeyHint': "Hava durumu verileri için. openweathermap.org'da ücretsiz",
@@ -232,13 +232,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': '{name} ile ayarlandı',
   'admin.placesProvider.title': 'Yer arama sağlayıcısı',
   'admin.placesProvider.subtitle':
-    "TREK'in kendi dizini ve OpenStreetMap her aramayı yanıtlar. Burada, onlar bir şey bulamadığında başka kime sorulacağı seçilir: Otomatik, anahtar varsa Google'ı, sonra Amap'i tercih eder.",
+    "Manzil'in kendi dizini ve OpenStreetMap her aramayı yanıtlar. Burada, onlar bir şey bulamadığında başka kime sorulacağı seçilir: Otomatik, anahtar varsa Google'ı, sonra Amap'i tercih eder.",
   'admin.placesProvider.auto': 'Otomatik',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Seçilen sağlayıcı için API anahtarı tanımlı değil; yer aramasını yalnızca TREK dizini ve OpenStreetMap yanıtlar.',
+    'Seçilen sağlayıcı için API anahtarı tanımlı değil; yer aramasını yalnızca Manzil dizini ve OpenStreetMap yanıtlar.',
   'admin.placesProvider.saved': 'Yer arama sağlayıcısı kaydedildi',
   'admin.validateKey': 'Test et',
   'admin.keyValid': 'Bağlı',
@@ -275,14 +275,14 @@ const admin: TranslationStrings = {
     'Bir yer eklerken görseller ve açıklama gösterir. Wikipedia ve OpenStreetMap her zaman kullanılır; Yer Fotoğrafları veya Yer Ayrıntıları açıkken Google da eklenir.',
   'admin.placesGoogleOnly.title': 'Yalnızca Google ile ara',
   'admin.placesGoogleOnly.subtitle':
-    "Her arama ve her öneri Google Places'e gider. Kapalıyken önce TREK dizini ve OpenStreetMap yanıtlar, Google yalnızca hiçbir şey bulamadıklarında sorulur.",
+    "Her arama ve her öneri Google Places'e gider. Kapalıyken önce Manzil dizini ve OpenStreetMap yanıtlar, Google yalnızca hiçbir şey bulamadıklarında sorulur.",
   'admin.placesGoogleOnly.missingKey':
-    'Google Maps API anahtarı gerektirir. Anahtar yoksa arama, bu anahtar ne olursa olsun TREK dizini ve OpenStreetMap üzerinden çalışır.',
+    'Google Maps API anahtarı gerektirir. Anahtar yoksa arama, bu anahtar ne olursa olsun Manzil dizini ve OpenStreetMap üzerinden çalışır.',
   'admin.placesGoogleOnly.otherProvider':
     "Yer sağlayıcısı olarak Google gerekir. Amap veya OpenStreetMap seçiliyken bu anahtar ne derse desin hiçbir arama Google'a gitmez.",
   'admin.googleQuota.title': 'Google çağrıları için günlük sınır',
   'admin.googleQuota.subtitle':
-    "Sınıra ulaşıldığında TREK ertesi güne (UTC) kadar Google'ı çağırmaz ve OpenStreetMap ile arar. Boş bırakılırsa sınır yoktur.",
+    "Sınıra ulaşıldığında Manzil ertesi güne (UTC) kadar Google'ı çağırmaz ve OpenStreetMap ile arar. Boş bırakılırsa sınır yoktur.",
   'admin.googleQuota.placeholder': 'Sınırsız',
   'admin.googleQuota.usedToday': 'Bugün: {used}',
   'admin.googleQuota.usedOfLimit': 'Bugün: {used} / {limit}',
@@ -427,7 +427,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Kaynak deposu',
   'admin.plugins.reportIssue': 'Sorun bildir',
   'admin.plugins.homepage': 'Ana sayfa',
-  'admin.plugins.requiresTrek': 'TREK {version}+ gerektirir',
+  'admin.plugins.requiresTrek': 'Manzil {version}+ gerektirir',
   'admin.plugins.reviewedOn': '{date} tarihinde incelendi',
   'admin.plugins.perm.db:own': 'Kendi verilerini yalıtılmış bir veritabanında saklar',
   'admin.plugins.perm.db:read:trips': 'İşlemi yapan kullanıcının erişebildiği seyahatleri okur',
@@ -499,7 +499,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:place-detail-provider':
     'Bir yere ek ayrıntılar (yorumlar, puanlar, bağlantılar) katkıda bulunur',
   'admin.plugins.perm.hook:search-provider':
-    "Yer aramalarını kendi dizininden yanıtlama, TREK'in kendi sonuçlarının yanında",
+    "Yer aramalarını kendi dizininden yanıtlama, Manzil'in kendi sonuçlarının yanında",
   'admin.plugins.perm.hook:poi-category-provider':
     'Kendi yer kategorilerini “Haritada yerleri keşfet” alanına ekler; birini seçtiğinde eklentiye görüntülediğin harita alanı gönderilir',
   'admin.plugins.perm.hook:trip-warning-provider': 'Bir gezide doğrulama uyarıları oluşturur (planlayıcıda gösterilir)',
@@ -522,7 +522,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Bir yapay zekâ asistanının sizin adınıza çalıştırabileceği araçlar yayımlamak (burada eklentiye verdiğiniz yetkilerle çalışır, asistanın kendi yetkileriyle değil)',
   'admin.plugins.perm.geolocation:read':
-    'Görünümlerinden biri açıkken canlı konumunu sorar (TREK konumu bu sitenin konum izniyle okur, eklenti için ayrıca izin sorulmaz)',
+    'Görünümlerinden biri açıkken canlı konumunu sorar (Manzil konumu bu sitenin konum izniyle okur, eklenti için ayrıca izin sorulmaz)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Seyahat PDF dışa aktarımına metin bölümleri ekler',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Atlas dünya haritasında ülkeleri vurgular (ör. istek listeleri veya seyahat uyarıları)',
@@ -550,26 +550,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Şimdilik kapalı tut',
   'admin.plugins.updateKeptOff': 'Güncelleme yüklendi — yeni izinleri onaylayana kadar kapalı bırakıldı',
   'admin.plugins.reviewedMeaning':
-    '„İncelendi", bir TREK sorumlusunun bu eklentiyi her sürümde kötü amaçlı yazılıma karşı taradığı anlamına gelir — kalite ya da çalışıp çalışmadığı için değil. Bir eklentinin zararsız olduğunun garantisi değildir.',
+    '„İncelendi", bir Manzil sorumlusunun bu eklentiyi her sürümde kötü amaçlı yazılıma karşı taradığı anlamına gelir — kalite ya da çalışıp çalışmadığı için değil. Bir eklentinin zararsız olduğunun garantisi değildir.',
   'admin.plugins.security.title': 'Eklentiler nasıl sınırlandırılır — ve bunun sınırları',
   'admin.plugins.security.isolationTitle': 'Her eklenti izole şekilde çalışır',
   'admin.plugins.security.isolationBody':
-    'Bir eklenti, yalnızca kendi dosyalarını okuyabilen, kilitlenmiş kendi süreci olarak çalışır. Veritabanınızı, oturum açma gizli anahtarınızı veya şifreleme anahtarınızı okuyamaz, başka programlar başlatamaz ve hiçbir yere dosya yazamaz. Arayüzü, oturum çerezinizi okuyamayan veya çevresindeki TREK sayfasına dokunamayan, yalıtılmış bir tarayıcı çerçevesinde çalışır.',
+    'Bir eklenti, yalnızca kendi dosyalarını okuyabilen, kilitlenmiş kendi süreci olarak çalışır. Veritabanınızı, oturum açma gizli anahtarınızı veya şifreleme anahtarınızı okuyamaz, başka programlar başlatamaz ve hiçbir yere dosya yazamaz. Arayüzü, oturum çerezinizi okuyamayan veya çevresindeki Manzil sayfasına dokunamayan, yalıtılmış bir tarayıcı çerçevesinde çalışır.',
   'admin.plugins.security.permsTitle': 'İzinler ne anlama gelir',
   'admin.plugins.security.permsBody':
-    "Yüklemeden önce gösterilen izinler, eklenti çalışırken TREK'in uyguladığı kesin bir sınırdır — eklenti, listede olmayan hiçbir şeyi kelimenin tam anlamıyla yapamaz. Ancak bunlar bir eklentinin ne yapabileceğini söyler, gerçekte ne yaptığını değil. Seyahatlerinizi okumasına ve bir sunucuya erişmesine izin verilen bir eklenti, seyahatlerinizi o sunucuya gönderebilir; bu yüzden yalnızca açıklamayı değil, izinleri ve giden ana bilgisayarları da okuyun.",
+    "Yüklemeden önce gösterilen izinler, eklenti çalışırken Manzil'in uyguladığı kesin bir sınırdır — eklenti, listede olmayan hiçbir şeyi kelimenin tam anlamıyla yapamaz. Ancak bunlar bir eklentinin ne yapabileceğini söyler, gerçekte ne yaptığını değil. Seyahatlerinizi okumasına ve bir sunucuya erişmesine izin verilen bir eklenti, seyahatlerinizi o sunucuya gönderebilir; bu yüzden yalnızca açıklamayı değil, izinleri ve giden ana bilgisayarları da okuyun.",
   'admin.plugins.security.limitsTitle': 'Söz veremeyeceğimiz şeyler',
   'admin.plugins.security.limitsBody':
-    'Yalıtım güçlü bir yazılım sınırıdır, mutlak bir sınır değil. Bir eklenti tam olarak onayladığınız haklarla hareket eder; bu nedenle bu hakların sınırları içinde açıklamasının ima ettiğinden farklı davranabilir ve meşru olarak elinde tuttuğu verileri bildirdiği ana bilgisayarlara gönderebilir. TREK, bir eklentinin kodunun gerçekte ne yaptığını okumaz ya da değerlendirmez.',
+    'Yalıtım güçlü bir yazılım sınırıdır, mutlak bir sınır değil. Bir eklenti tam olarak onayladığınız haklarla hareket eder; bu nedenle bu hakların sınırları içinde açıklamasının ima ettiğinden farklı davranabilir ve meşru olarak elinde tuttuğu verileri bildirdiği ana bilgisayarlara gönderebilir. Manzil, bir eklentinin kodunun gerçekte ne yaptığını okumaz ya da değerlendirmez.',
   'admin.plugins.security.worstTitle': 'En kötü durum',
   'admin.plugins.security.worstBody':
     'Açtığınız kötü niyetli bir eklenti, ona verdiğiniz verileri ve bağlantıları kötüye kullanabilir — örneğin okumasına izin verilen seyahatleri sızdırabilir. Şifreleri çalamaz, sahte bir yönetici girişi oluşturamaz, sunucunuzda komut çalıştıramaz veya vermediğiniz verilere erişemez. Zarar, onayladığınız sınırların içinde kalır ve eklentiyi kapatmak onu durdurur.',
   'admin.plugins.security.reviewedTitle': '„İncelendi" ne anlama gelir',
   'admin.plugins.security.reviewedBody':
-    'İncelenmiş bir eklenti, her sürümde bir TREK sorumlusu tarafından kötü amaçlı yazılıma karşı elle taranmıştır — düşmanca koda karşı kontrol edilmiştir, iyi çalışıp çalışmadığına göre değil. Bu, eklentinin zararsız olduğunun bir garantisi değildir.',
+    'İncelenmiş bir eklenti, her sürümde bir Manzil sorumlusu tarafından kötü amaçlı yazılıma karşı elle taranmıştır — düşmanca koda karşı kontrol edilmiştir, iyi çalışıp çalışmadığına göre değil. Bu, eklentinin zararsız olduğunun bir garantisi değildir.',
   'admin.plugins.security.signedTitle': '„İmzalı" ne anlama gelir',
   'admin.plugins.security.signedBody':
-    "TREK'in her kurulumda doğruladığı sağlama toplamı, dosyaların tam olarak dizinin kefil olduğu dosyalar olduğunu kanıtlar. Bir imza ise başka bir şeyi kanıtlar: dosyaların yazardan geldiğini ve yalnızca onun elindeki bir anahtarla imzalandığını. İmzalı bir eklentide her ikisi de vardır. İmzasız olan güvensiz değildir — yalnızca bir güvence eksiği taşır ve bugün dizindeki eklentilerin çoğu imzasızdır.",
+    "Manzil'in her kurulumda doğruladığı sağlama toplamı, dosyaların tam olarak dizinin kefil olduğu dosyalar olduğunu kanıtlar. Bir imza ise başka bir şeyi kanıtlar: dosyaların yazardan geldiğini ve yalnızca onun elindeki bir anahtarla imzalandığını. İmzalı bir eklentide her ikisi de vardır. İmzasız olan güvensiz değildir — yalnızca bir güvence eksiği taşır ve bugün dizindeki eklentilerin çoğu imzasızdır.",
   'admin.plugins.signed': 'İmzalı',
   'admin.plugins.signedHint': 'Kurulduğunda yazarın imzalama anahtarıyla doğrulandı',
   'admin.plugins.unsigned': 'İmzasız',
@@ -584,20 +584,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Dosyalar yazarın imzasıyla eşleşmiyor. Yazarın imzaladığı dosyalar bunlar değil — ya bozulmuşlar ya da kurcalanmışlar. Bu durum geçersiz kılınamaz.',
   'admin.plugins.sig.missingBody':
-    'Bu eklenti siz kurduğunuzda imzalıydı, ancak yeni sürüm hiçbir imza içermiyor. TREK bu geriye gidişi sessizce kabul etmez. Bu durum geçersiz kılınamaz.',
+    'Bu eklenti siz kurduğunuzda imzalıydı, ancak yeni sürüm hiçbir imza içermiyor. Manzil bu geriye gidişi sessizce kabul etmez. Bu durum geçersiz kılınamaz.',
   'admin.plugins.sig.incompleteBody':
     'Dizin kaydı yarım imzalı: bir yazar anahtarı bildiriyor ama sürüm imza taşımıyor (ya da tersi). Bu, eklenti tarafındaki bir hatadır. Bu durum geçersiz kılınamaz.',
   'admin.plugins.sig.pinnedKey': 'Kurulduğu anahtar',
   'admin.plugins.sig.newKey': 'Şimdi sunduğu anahtar',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK, meşru bir anahtar değişimini bir ele geçirmeden ayırt edemez — buradan bakıldığında ikisi birebir aynı görünür. Kabul etmeden önce yeni anahtarı, zaten güvendiğiniz bir kanaldan yazara doğrulatın. Doğruladığınızda eklenti güncellenir ve yeni anahtar hatırlanır.',
+    'Manzil, meşru bir anahtar değişimini bir ele geçirmeden ayırt edemez — buradan bakıldığında ikisi birebir aynı görünür. Kabul etmeden önce yeni anahtarı, zaten güvendiğiniz bir kanaldan yazara doğrulatın. Doğruladığınızda eklenti güncellenir ve yeni anahtar hatırlanır.',
   'admin.plugins.sig.retrustConfirm': 'Yeni anahtara güven ve güncelle',
   'admin.plugins.sig.cancel': 'Güvenme',
   'admin.plugins.sig.consentUnsigned':
     'Bu sürümü yazarına bağlayan hiçbir şey yok — dosyalar dizinle eşleşiyor, ama yazar imzası taşımıyorlar.',
   'admin.plugins.security.trustTitle': 'Özetle',
   'admin.plugins.security.trustBody':
-    'Bir eklenti yüklemek, herhangi bir üçüncü taraf uygulamasını yüklemek gibidir: yalnızca güvendiğiniz geliştiricilerin kodunu ekleyin ve şüpheye düştüğünüzde önce kendiniz inceleyin. TREK, üçüncü taraf eklentiler için hiçbir sorumluluk kabul etmez.',
+    'Bir eklenti yüklemek, herhangi bir üçüncü taraf uygulamasını yüklemek gibidir: yalnızca güvendiğiniz geliştiricilerin kodunu ekleyin ve şüpheye düştüğünüzde önce kendiniz inceleyin. Manzil, üçüncü taraf eklentiler için hiçbir sorumluluk kabul etmez.',
   'admin.plugins.runtimeOn': 'Çalışma zamanı açık',
   'admin.plugins.tabDiscover': 'Keşfet',
   'admin.plugins.searchPlaceholder': 'Eklenti ara…',
@@ -614,11 +614,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortDownloads': 'En çok indirilen',
   'admin.plugins.updatesAvailable': 'Eklentileriniz için {count} güncelleme mevcut.',
   'admin.plugins.updatesAvailable.one': 'Eklentileriniz için {count} güncelleme mevcut.',
-  'admin.plugins.newerNeedsTrek': 'v{version} mevcut — TREK {range} gerektirir',
+  'admin.plugins.newerNeedsTrek': 'v{version} mevcut — Manzil {range} gerektirir',
   'admin.plugins.versionsTitle': 'Sürümler',
   'admin.plugins.versionPickerTitle': 'Sürüm değiştir — {name}',
   'admin.plugins.versionSwitch': '{version} sürümüne geç',
-  'admin.plugins.versionNeedsTrek': 'TREK {range} gerektirir',
+  'admin.plugins.versionNeedsTrek': 'Manzil {range} gerektirir',
   'admin.plugins.changeVersion': 'Sürüm değiştir…',
   'admin.plugins.noVersions': 'Kayıt defterinde yayımlanmış sürüm bulunamadı.',
   'admin.plugins.downgradeTitle': 'Bu eklenti geri alınsın mı?',
@@ -685,30 +685,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'İndir',
   'admin.plugins.dep.update': 'Güncelle',
   'admin.plugins.dep.resolveHint': 'Kendi bağımlılıkları dahil, en son uyumlu sürümü indirir.',
-  'admin.plugins.dep.trekIncompatible': 'TREK {range} gerektiriyor — bu sunucu {host} çalıştırıyor',
-  'admin.plugins.dep.trekUnknown': 'Hangi TREK sürümlerini desteklediğini belirtmiyor',
+  'admin.plugins.dep.trekIncompatible': 'Manzil {range} gerektiriyor — bu sunucu {host} çalıştırıyor',
+  'admin.plugins.dep.trekUnknown': 'Hangi Manzil sürümlerini desteklediğini belirtmiyor',
   'admin.plugins.installCompatible': '{version} sürümünü yükle',
   'admin.plugins.installAnyway': 'Yine de yükle',
   'admin.plugins.rangeBypass.pill': 'Sürüm denetimleri kapalı',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı — eklentiler, yazarlarının belirttiği TREK sürümlerinin dışında yüklenip çalıştırılabilir',
-  'admin.plugins.rangeBypass.title': 'Desteklenen TREK sürümlerinin dışında',
-  'admin.plugins.rangeBypass.noticeTitle': 'Desteklenen TREK sürümlerinin dışında yüklendi',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı — eklentiler, yazarlarının belirttiği Manzil sürümlerinin dışında yüklenip çalıştırılabilir',
+  'admin.plugins.rangeBypass.title': 'Desteklenen Manzil sürümlerinin dışında',
+  'admin.plugins.rangeBypass.noticeTitle': 'Desteklenen Manzil sürümlerinin dışında yüklendi',
   'admin.plugins.rangeBypass.body':
-    '“{name}” TREK {range} desteği bildiriyor, bu sunucu ise {host} çalıştırıyor. TREK yalnızca TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı olduğu için izin veriyor. Yazarı eklentinin sürüm aralığını bu TREK için güncellemedi, dolayısıyla çalışacağının garantisi yok — ve nadir durumlarda uyumsuz bir eklenti TREK verilerini bozabilir. Yalnızca bu riski kabul ediyorsanız devam edin.',
+    '“{name}” Manzil {range} desteği bildiriyor, bu sunucu ise {host} çalıştırıyor. Manzil yalnızca TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı olduğu için izin veriyor. Yazarı eklentinin sürüm aralığını bu Manzil için güncellemedi, dolayısıyla çalışacağının garantisi yok — ve nadir durumlarda uyumsuz bir eklenti Manzil verilerini bozabilir. Yalnızca bu riski kabul ediyorsanız devam edin.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '“{name}” hangi TREK sürümlerini desteklediğini bildirmiyor; bu sunucu {host} çalıştırıyor. TREK yalnızca TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı olduğu için izin veriyor. Yazarının bu TREK üzerinde test ettiğine dair bir işaret yok, dolayısıyla çalışacağının garantisi yok — ve nadir durumlarda uyumsuz bir eklenti TREK verilerini bozabilir. Yalnızca bu riski kabul ediyorsanız devam edin.',
-  'admin.plugins.dep.trekBypassed': 'TREK aralığının dışında ({range}) — sürüm denetimleri kapalı',
-  'admin.plugins.dep.trekBypassedUnknown': 'TREK aralığı bildirmiyor — sürüm denetimleri kapalı',
-  'admin.plugins.rangeBypass.titleAdmin': "Bu TREK'te test edilmedi",
+    '“{name}” hangi Manzil sürümlerini desteklediğini bildirmiyor; bu sunucu {host} çalıştırıyor. Manzil yalnızca TREK_PLUGINS_IGNORE_TREK_RANGE ayarlı olduğu için izin veriyor. Yazarının bu Manzil üzerinde test ettiğine dair bir işaret yok, dolayısıyla çalışacağının garantisi yok — ve nadir durumlarda uyumsuz bir eklenti Manzil verilerini bozabilir. Yalnızca bu riski kabul ediyorsanız devam edin.',
+  'admin.plugins.dep.trekBypassed': 'Manzil aralığının dışında ({range}) — sürüm denetimleri kapalı',
+  'admin.plugins.dep.trekBypassedUnknown': 'Manzil aralığı bildirmiyor — sürüm denetimleri kapalı',
+  'admin.plugins.rangeBypass.titleAdmin': "Bu Manzil'te test edilmedi",
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Geliştiricisine göre “{name}” TREK {range} sürümlerini destekliyor, bu sunucu ise {host} çalıştırıyor. Geliştirici onu bu TREK için henüz onaylamadı; çalışmayabilir ve nadiren uyumsuz bir eklenti TREK verilerine zarar verebilir. Yine de kullanabilirsin: seçimin yalnızca bu sürümdeki bu eklenti için geçerli, bir güncellemeden sonra TREK yeniden sorar.',
+    'Geliştiricisine göre “{name}” Manzil {range} sürümlerini destekliyor, bu sunucu ise {host} çalıştırıyor. Geliştirici onu bu Manzil için henüz onaylamadı; çalışmayabilir ve nadiren uyumsuz bir eklenti Manzil verilerine zarar verebilir. Yine de kullanabilirsin: seçimin yalnızca bu sürümdeki bu eklenti için geçerli, bir güncellemeden sonra Manzil yeniden sorar.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    "“{name}” hangi TREK sürümlerini desteklediğini belirtmiyor, bu sunucu ise {host} çalıştırıyor. Bu TREK'te test edildiğine dair bir işaret yok; çalışmayabilir ve nadiren uyumsuz bir eklenti TREK verilerine zarar verebilir. Yine de kullanabilirsin: seçimin yalnızca bu sürümdeki bu eklenti için geçerli, bir güncellemeden sonra TREK yeniden sorar.",
-  'admin.plugins.dep.trekAccepted': 'TREK {range} için yapıldı, sorumluluk sende',
-  'admin.plugins.dep.trekAcceptedUnknown': 'TREK sürümü belirtilmemiş, sorumluluk sende',
+    "“{name}” hangi Manzil sürümlerini desteklediğini belirtmiyor, bu sunucu ise {host} çalıştırıyor. Bu Manzil'te test edildiğine dair bir işaret yok; çalışmayabilir ve nadiren uyumsuz bir eklenti Manzil verilerine zarar verebilir. Yine de kullanabilirsin: seçimin yalnızca bu sürümdeki bu eklenti için geçerli, bir güncellemeden sonra Manzil yeniden sorar.",
+  'admin.plugins.dep.trekAccepted': 'Manzil {range} için yapıldı, sorumluluk sende',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Manzil sürümü belirtilmemiş, sorumluluk sende',
   'admin.plugins.activateAnyway': 'Yine de etkinleştir',
-  'admin.plugins.untestedChip': 'TREK {host} için henüz onaylanmadı',
+  'admin.plugins.untestedChip': 'Manzil {host} için henüz onaylanmadı',
   'admin.plugins.filters': 'Filtre',
   'admin.plugins.security.short': 'Eklentiler nasıl korunuyor',
   'admin.plugins.accessTitle': 'Neye erişebilir',
@@ -721,7 +721,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'İncelenme tarihi',
   'admin.plugins.downloads': 'İndirmeler',
   'admin.addons.title': 'Eklentiler',
-  'admin.addons.subtitle': 'TREK deneyiminizi özelleştirmek için özellikleri etkinleştirin veya devre dışı bırakın.',
+  'admin.addons.subtitle': 'Manzil deneyiminizi özelleştirmek için özellikleri etkinleştirin veya devre dışı bırakın.',
   'admin.addons.catalog.packing.name': 'Listeler',
   'admin.addons.catalog.packing.description': 'Seyahatleriniz için paket listeleri ve yapılacak işler',
   'admin.addons.catalog.budget.name': 'Maliyetler',
@@ -803,7 +803,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Hava Durumu Verileri',
   'admin.weather.badge': "24 Mart 2026'dan beri",
   'admin.weather.description':
-    "TREK, hava durumu veri kaynağı olarak Open-Meteo'yu kullanıyor. Open-Meteo ücretsiz, açık kaynaklı bir hava durumu hizmetidir; API anahtarı gerekmez.",
+    "Manzil, hava durumu veri kaynağı olarak Open-Meteo'yu kullanıyor. Open-Meteo ücretsiz, açık kaynaklı bir hava durumu hizmetidir; API anahtarı gerekmez.",
   'admin.weather.forecast': '16 günlük tahmin',
   'admin.weather.forecastDesc': 'Daha önce 5 gün (OpenWeatherMap)',
   'admin.weather.climate': 'Geçmiş iklim verileri',
@@ -863,14 +863,14 @@ const admin: TranslationStrings = {
   'admin.github.loading': 'Yükleniyor...',
   'admin.github.error': 'Sürümler yüklenemedi',
   'admin.github.by': 'ile',
-  'admin.github.support': "TREK'i geliştirmeye devam etmeme yardımcı oluyor",
+  'admin.github.support': "Manzil'i geliştirmeye devam etmeme yardımcı oluyor",
   'admin.update.available': 'Güncelleme mevcut',
-  'admin.update.text': 'TREK {version} mevcut. {current} çalıştırıyorsunuz.',
+  'admin.update.text': 'Manzil {version} mevcut. {current} çalıştırıyorsunuz.',
   'admin.update.button': "GitHub'da görüntüle",
   'admin.update.install': 'Güncellemeyi Yükle',
   'admin.update.confirmTitle': 'Güncelleme Yüklensin mi?',
   'admin.update.confirmText':
-    'TREK, {current} sürümünden {version} sürümüne güncellenecek. Sunucu daha sonra otomatik olarak yeniden başlatılacaktır.',
+    'Manzil, {current} sürümünden {version} sürümüne güncellenecek. Sunucu daha sonra otomatik olarak yeniden başlatılacaktır.',
   'admin.update.dataInfo':
     'Tüm verileriniz (seyahatler, kullanıcılar, API anahtarları, yüklemeler, Vacay, Atlas, bütçeler) korunacaktır.',
   'admin.update.warning': 'Yeniden başlatma sırasında uygulama kısa süreliğine kullanılamayacaktır.',
@@ -882,9 +882,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Yedeklemeye Git',
   'admin.update.howTo': 'Nasıl Güncellenir?',
   'admin.update.dockerText':
-    "TREK örneğiniz Docker'da çalışır. {version} sürümüne güncellemek için sunucunuzda aşağıdaki komutları çalıştırın:",
+    "Manzil örneğiniz Docker'da çalışır. {version} sürümüne güncellemek için sunucunuzda aşağıdaki komutları çalıştırın:",
   'admin.update.nonDockerText':
-    'Bu TREK örneği Docker üzerinde çalışmıyor. {version} sürümüne güncellemek için kullandığınız kurulum veya güncelleme yöntemini yeniden çalıştırın — örneğin Proxmox Community Scripts kullanıyorsanız güncellemeyi LXC konsolundan çalıştırın:',
+    'Bu Manzil örneği Docker üzerinde çalışmıyor. {version} sürümüne güncellemek için kullandığınız kurulum veya güncelleme yöntemini yeniden çalıştırın — örneğin Proxmox Community Scripts kullanıyorsanız güncellemeyi LXC konsolundan çalıştırın:',
   'admin.update.wikiLink': 'Güncelleme kılavuzunu aç',
   'admin.update.reloadHint': 'Lütfen birkaç saniye içinde sayfayı yeniden yükleyin.',
   'admin.tabs.permissions': 'İzinler',
@@ -969,7 +969,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik’e şu anda ulaşılamıyor. Daha sonra yeniden deneyin.',
   'admin.paddleRegions.attribution':
     'Veriler © OpenStreetMap katkıda bulunanlar (ODbL), bölgesel kesitler Geofabrik’ten. Her ayın 3’ünde yeniden okunur.',
-  'admin.paddleRegions.toast.added': 'Bölge eklendi. TREK onu arka planda okuyor.',
+  'admin.paddleRegions.toast.added': 'Bölge eklendi. Manzil onu arka planda okuyor.',
   'admin.paddleRegions.toast.removed': 'Bölge kaldırıldı',
   'admin.paddleRegions.phase.build': 'Su ağı oluşturuluyor',
   'admin.paddleRegions.network.km': '{km} km su',
@@ -990,11 +990,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'İstek üzerine',
   'admin.paddleRegions.auto.mode.off': 'Kapalı',
   'admin.paddleRegions.auto.modeHint.auto':
-    "Biri henüz su verisi olmayan bir yerde kürek turu planladığında TREK uygun en küçük bölgeyi hemen yükler, boyut sınırına kadar ve günde yalnızca birkaç tane. Daha büyükler burada istek olarak bekler. Geofabrik'e yalnızca bölgenin adı gider, konum asla gitmez.",
+    "Biri henüz su verisi olmayan bir yerde kürek turu planladığında Manzil uygun en küçük bölgeyi hemen yükler, boyut sınırına kadar ve günde yalnızca birkaç tane. Daha büyükler burada istek olarak bekler. Geofabrik'e yalnızca bölgenin adı gider, konum asla gitmez.",
   'admin.paddleRegions.auto.modeHint.ask':
     'Her yeni bölge bir yönetici izin verene kadar burada bekler. Yönetici kendisi planlarsa hemen yüklenir.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK kendiliğinden hiçbir şey yüklemez ve hiçbir şey istemez. Bölgeleri buradan elle ekle.',
+    'Manzil kendiliğinden hiçbir şey yüklemez ve hiçbir şey istemez. Bölgeleri buradan elle ekle.',
   'admin.paddleRegions.auto.maxSize': 'Otomatik yüklenen en büyük bölge',
   'admin.paddleRegions.auto.maxSizeHint':
     'Daha büyük bölgeler burada istek olarak bekler. Bir bölgeyi okumak birkaç dakika sürer ve bu sırada bellek kullanır.',
@@ -1007,7 +1007,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Yükle',
   'admin.paddleRegions.requests.decline': 'Reddet',
   'admin.paddleRegions.origin.auto': 'Otomatik',
-  'admin.paddleRegions.origin.autoHint': 'TREK bu bölgeyi orada planlanan bir kürek turu için kendiliğinden yükledi.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil bu bölgeyi orada planlanan bir kürek turu için kendiliğinden yükledi.',
   'admin.mfa.reset': '2FA’yı sıfırla',
   'admin.mfa.resetHint':
     'Bu kullanıcının iki faktörlü kimlik doğrulamasını kapatır, örneğin telefon kaybedildiğinde. Kullanıcının tüm oturumları kapatılır ve parolasıyla giriş yaptıktan sonra yeniden kurabilir.',
@@ -1042,7 +1042,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Döndür',
   'admin.addons.ai.name': 'Yapay zekâ',
   'admin.addons.ai.description':
-    'Asistan ve rezervasyon içe aktarma için tek bağlantı. MCP, diğer yapay zekâ uygulamalarının TREK kullanmasını sağlar.',
+    'Asistan ve rezervasyon içe aktarma için tek bağlantı. MCP, diğer yapay zekâ uygulamalarının Manzil kullanmasını sağlar.',
   'admin.addons.ai.setup': 'Yapay zekâyı ayarla',
   'admin.addons.ai.dialogSub':
     'Asistanın ve yapay zekâ ayrıştırmanın paylaştığı bağlantı ve her birinin neler yapabileceği.',
@@ -1074,16 +1074,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Kapalı',
   'admin.contribute.status.unavailable': 'Kullanılamıyor',
   'admin.contribute.noteActive':
-    "Kullanıcılarınızın yerler hakkında yazdıkları, bir kontrolden sonra her TREK'e ulaşır. Yardımınız için teşekkürler.",
+    "Kullanıcılarınızın yerler hakkında yazdıkları, bir kontrolden sonra her Manzil'e ulaşır. Yardımınız için teşekkürler.",
   'admin.contribute.noteOff':
     "Kullanıcılarınızın yerler hakkında yazdıkları, TREK Places API'yi herkes için daha iyi hale getirsin.",
   'admin.contribute.ineligible.env_off': 'Bu kurulum için TREK_PLACES_CONTRIBUTE ile kapatıldı.',
   'admin.contribute.ineligible.not_production': 'Yer ayrıntılarını yalnızca bir üretim kurulumu paylaşabilir.',
   'admin.contribute.ineligible.demo': 'Demo kurulumu yer ayrıntılarını paylaşmaz.',
-  'admin.contribute.ineligible.index_off': 'Paylaşım için yer kaynağı olarak TREK dizini gerekir.',
+  'admin.contribute.ineligible.index_off': 'Paylaşım için yer kaynağı olarak Manzil dizini gerekir.',
   'admin.contribute.ineligible.custom_places_url':
     "Bu kurulum kendi Places API'sini kullanıyor, bu yüzden paylaşılacak bir yer yok.",
-  'admin.contribute.ineligible.services_off': 'TREK hizmetleri bu kurulum için kapalı.',
+  'admin.contribute.ineligible.services_off': 'Manzil hizmetleri bu kurulum için kapalı.',
   'admin.contribute.ineligible.no_key': 'Bu kurulumun henüz bir hizmet anahtarı yok. Otomatik olarak istenir.',
   'admin.contribute.pause.key_invalid': 'Duraklatıldı: hizmet bu kurulumun anahtarını kabul etmedi.',
   'admin.contribute.pause.key_refused':
@@ -1127,9 +1127,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Paylaşımı durdur',
   'admin.contribute.refused.terms_outdated': 'Koşullar bu arada değişti. Lütfen tekrar göz atın.',
   'admin.contribute.refused.no_field': 'Paylaşmak için en az bir alan seçin.',
-  'admin.contribute.prompt.title': "Her TREK'in yerleri daha iyi tanımasına yardım edin",
+  'admin.contribute.prompt.title': "Her Manzil'in yerleri daha iyi tanımasına yardım edin",
   'admin.contribute.prompt.lead':
-    'Burada biri bir yere web sitesi, telefon numarası, çalışma saatleri veya açıklama eklediğinde TREK bunu iletebilir. Bir kontrolden sonra her TREK kurulumu bunu gösterir, sizinki de karşılığında başkalarının eklediklerini alır.',
+    'Burada biri bir yere web sitesi, telefon numarası, çalışma saatleri veya açıklama eklediğinde Manzil bunu iletebilir. Bir kontrolden sonra her Manzil kurulumu bunu gösterir, sizinki de karşılığında başkalarının eklediklerini alır.',
   'admin.contribute.prompt.why':
     'TREK Places API ücretsizdir ve açık verilerden oluşturulduğu için Google anahtarı gerektirmez. Paylaştığınız her ayrıntı onu binlerce gezgin için daha iyi yapar. Bir parçası olduğunuz için teşekkürler.',
   'admin.contribute.prompt.whatLabel': 'Neler paylaşılır',
@@ -1152,6 +1152,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Teşekkürler. Yer ayrıntıları artık paylaşılıyor.',
   'admin.servicesCard.title': 'Yer arama ve rota',
   'admin.servicesCard.hint':
-    "TREK'in kendi hizmetleri, aramaya ve toplu taşımaya hangi sağlayıcının yanıt verdiği ve arama kaydı.",
+    "Manzil'in kendi hizmetleri, aramaya ve toplu taşımaya hangi sağlayıcının yanıt verdiği ve arama kaydı.",
 };
 export default admin;

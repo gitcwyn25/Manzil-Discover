@@ -267,7 +267,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays.few': '{count} дні',
   'assistant.admin.retentionDays.many': '{count} днів',
   'assistant.admin.retentionForever': 'Назавжди',
-  'assistant.mobile.tile': 'Запитати TREK',
+  'assistant.mobile.tile': 'Запитати Manzil',
   'assistant.mobile.tileHint': 'Плануйте з асистентом',
   'assistant.mobile.backToChat': 'Назад до чату',
   'assistant.step.nearbyAt': 'Шукає поруч: {place}',
@@ -527,7 +527,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.many': 'Я знайшов у файлі {name} {count} бронювань. Додайте нижче ті, що потрібні.',
   'assistant.attach.none': 'Я не знайшов у файлі {name} жодного бронювання.',
   'assistant.attach.why.aiNotConfigured':
-    'Читання за допомогою ШІ для імпорту тут не налаштовано, тому файл переглянув лише власний модуль читання TREK.',
+    'Читання за допомогою ШІ для імпорту тут не налаштовано, тому файл переглянув лише власний модуль читання Manzil.',
   'assistant.attach.why.aiFailed': 'Модулю читання ШІ не вдалося його прочитати.',
   'assistant.attach.why.noText': 'У ньому немає тексту, який можна прочитати, найімовірніше це скан.',
   'assistant.attach.why.nothingFound': 'Ніщо в ньому не схоже на бронювання.',

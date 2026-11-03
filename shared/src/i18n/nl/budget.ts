@@ -210,7 +210,7 @@ const budget: TranslationStrings = {
     'Opslaan mislukt en er staat nog {count} geüploade bon. Verwijder hem op het tabblad Bestanden.',
   'costs.receiptsNeedConnection':
     'Bonnetjes hebben een verbinding nodig om te uploaden. Verwijder de nieuwe om de uitgave offline op te slaan, of sla op zodra je weer online bent.',
-  'costs.paymentQueued': 'Je bent offline. De betaling is opgeslagen en verschijnt zodra TREK weer online is.',
+  'costs.paymentQueued': 'Je bent offline. De betaling is opgeslagen en verschijnt zodra Manzil weer online is.',
   'costs.confirm.deleteBodyReceipts':
     '"{name}" wordt definitief verwijderd. De bonbestanden blijven in Bestanden staan.',
 };

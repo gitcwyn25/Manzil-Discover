@@ -69,7 +69,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'تُضبط هذه الأرقام على سطح المكتب، حيث يمكنك أيضًا مقارنة المسارات البديلة، وجعل يوم يتبع مسارًا مستوردًا.',
   'mobileTrip.planOnDesktop': 'التخطيط على الحاسوب',
-  'mobileTrip.rtDriveOnTwoPlaces': 'يحسب TREK القيادة بمجرد أن يضم اليوم مكانين.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'يحسب Manzil القيادة بمجرد أن يضم اليوم مكانين.',
   'mobileTrip.toursEmptyBody': 'تظهر الجولات المحفوظة هنا ويمكن إضافتها إلى يوم.',
   'mobileTrip.toursCount': '{count} جولة',
   'mobileTrip.toursCount.zero': 'لا توجد جولات',
