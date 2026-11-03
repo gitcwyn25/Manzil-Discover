@@ -28,6 +28,13 @@ the persistent volume, and records client hashes and source commit in
 `release.json`. Set Railway's `RAILWAY_DOCKERFILE_PATH=Dockerfile` for this
 release. The full backend build continues to use `Dockerfile.manzil`.
 
+For a runtime package, run the workspace type checks and build shared, server
+and client first, commit the reviewed source, then run
+`node manzil-branding/package-runtime.mjs`. This records the source commit and
+SHA-256 hashes of all three build outputs. Deploy that immutable release
+directory with `RAILWAY_DOCKERFILE_PATH=Dockerfile`; native dependencies and
+supporting data still come from the pinned upstream image.
+
 Focused local tests:
 
 ```sh
@@ -64,8 +71,12 @@ bucket. The owner chose to keep its 4 MB limit. Set `SUPABASE_S3_REGION` (Singap
 `SUPABASE_S3_BUCKET` in Railway only. The driver handles repeated edge headers
 and Supabase path-style requests. No storage credentials are sent to browsers.
 
-For a one-time rollout set `MANZIL_PROVISION_SUPABASE_STORAGE=1`. Startup probes
-the destination and uses the existing copy-before-flip migration for uploads;
-it preserves source files and deliberate custom routes. Backups stay on the
-persistent volume. Remove the rollout flag after verification. The same
-`/persist` volume, numeric users, trip database and authorization model remain.
+For a one-time rollout set `MANZIL_PROVISION_SUPABASE_STORAGE=1`. After local
+health is ready, the detached job probes the destination and preflights user
+uploads against 4 MB. It uses existing copy-before-flip migration, preserves
+source files and custom routes, and leaves oversized categories local. Caches
+and backups stay on the persistent volume. Storage errors do not block startup.
+Remove the rollout flag after verification. The same `/persist` volume, numeric
+users, trip database and authorization model remain. After any storage route
+has moved, use the patched S3-compatible runtime for rollback; the original
+upstream driver does not handle this Supabase endpoint correctly.

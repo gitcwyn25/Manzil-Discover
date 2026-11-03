@@ -1,4 +1,5 @@
 import { TrekExceptionFilter } from '../../../src/nest/common/trek-exception.filter';
+import { StorageUploadLimitError } from '../../../src/nest/storage/storage.types';
 import { HttpException } from '@nestjs/common';
 
 import { MulterError } from 'multer';
@@ -18,6 +19,13 @@ function mockHost(extra: Record<string, unknown> = {}) {
 
 describe('TrekExceptionFilter', () => {
   const filter = new TrekExceptionFilter();
+
+  it('returns the private upload limit as a clear 413 instead of an internal storage error', () => {
+    const { res, host } = mockHost();
+    filter.catch(new StorageUploadLimitError(), host);
+    expect(res.status).toHaveBeenCalledWith(413);
+    expect(res.json).toHaveBeenCalledWith({ error: 'File exceeds the 4 MB upload limit.' });
+  });
 
   // A storage stream (or any other in-flight write) can reject after
   // sendToResponse()/pipeline() already flushed headers — e.g. a client

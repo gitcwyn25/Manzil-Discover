@@ -926,12 +926,21 @@ export class AuthService {
       throw new DomainError(400, 'Verification token and code are required');
     }
     try {
-      const decoded = jwt.verify(mfa_token, JWT_SECRET, { algorithms: ['HS256'] }) as { id: number; purpose?: string };
+      const decoded = jwt.verify(mfa_token, JWT_SECRET, { algorithms: ['HS256'] }) as {
+        id: number;
+        purpose?: string;
+        pv?: number;
+      };
       if (decoded.purpose !== 'mfa_login') {
         throw new DomainError(401, 'Invalid verification token');
       }
       const user = await this.usersRepo.findById(decoded.id);
-      if (!user || user.mfa_enabled !== 1 || !user.mfa_secret) {
+      // Fresh challenges always carry pv. Recovery also invalidates pending
+      // first-factor proofs before any TOTP or backup code can be consumed.
+      if (
+        !user || user.mfa_enabled !== 1 || !user.mfa_secret ||
+        typeof decoded.pv !== 'number' || decoded.pv !== (user.password_version ?? 0)
+      ) {
         throw new DomainError(401, 'Invalid session');
       }
       const secret = decryptMfaSecret(user.mfa_secret);
