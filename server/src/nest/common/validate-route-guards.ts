@@ -156,6 +156,9 @@ export const PUBLIC_ROUTE_ALLOW_LIST: string[] = [
   // Share-token validated.
   'SharedController.placePhotoBytes',
   'SharedController.read',
+  // Supabase's project verifies the bearer identity; no local session exists yet.
+  'SupabaseAuthController.exchange',
+  'SupabaseAuthController.revoke',
 ];
 
 /**

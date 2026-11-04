@@ -5,7 +5,7 @@ import { DomainError } from './domain-error';
 
 /** The exact 403 body the upload endpoints answer the demo account with. */
 export const DEMO_WRITE_ERROR = {
-  error: 'Uploads are disabled in demo mode. Self-host TREK for full functionality.',
+  error: 'Uploads are disabled in demo mode. Self-host Manzil for full functionality.',
 } as const;
 
 /**

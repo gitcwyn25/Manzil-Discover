@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'במפה',
   'reservations.import.pinMissingTitle': 'עדיין לא במפה',
   'reservations.import.pinMissingBody':
-    'TREK לא הצליח למצוא את הלינה הזו במפה. בדקו את השם והכתובת למעלה וחפשו שוב, או שמרו בלי סיכה.',
+    'Manzil לא הצליח למצוא את הלינה הזו במפה. בדקו את השם והכתובת למעלה וחפשו שוב, או שמרו בלי סיכה.',
   'reservations.import.pinRetry': 'חיפוש חוזר',
   'reservations.import.savedWithoutPin': 'נשמר בלי סיכה במפה. ערכו את המקום וקבעו את המיקום שלו כדי לראות אותו במפה.',
   'reservations.import.acceptedFormats': 'נתמכים: EML, PDF, PKPass, HTML, TXT (עד 10 MB לקובץ, עד 5 קבצים)',
@@ -275,7 +275,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'הצגה בקבצים',
   'reservations.filesNeedConnection':
     'העלאת קבצים דורשת חיבור. הסירו את הקבצים החדשים כדי לשמור את ההזמנה במצב לא מקוון, או שמרו כשתחזרו לרשת.',
-  'reservations.needsConnection': 'הפעולה הזו דורשת חיבור. נסו שוב כש-TREK יחזור לרשת.',
+  'reservations.needsConnection': 'הפעולה הזו דורשת חיבור. נסו שוב כש-Manzil יחזור לרשת.',
   'reservations.exportCsvFiltered': 'ייצוא {shown} מתוך {total} השורות המוצגות (CSV)',
 };
 

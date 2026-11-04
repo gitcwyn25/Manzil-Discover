@@ -61,9 +61,9 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': '휴지통의 모든 파일을 영구 삭제할까요? 이 작업은 취소할 수 없습니다.',
   'files.noteLabel': '메모',
   'files.notePlaceholder': '메모 추가...',
-  'files.uploadNeedsConnection': '업로드하려면 연결이 필요합니다. TREK이 다시 온라인이 되면 다시 시도하세요.',
+  'files.uploadNeedsConnection': '업로드하려면 연결이 필요합니다. Manzil이 다시 온라인이 되면 다시 시도하세요.',
   'files.linkNeedsConnection':
-    '이 연결을 해제하려면 인터넷 연결이 필요합니다. TREK이 다시 온라인이 되면 다시 시도하세요.',
+    '이 연결을 해제하려면 인터넷 연결이 필요합니다. Manzil이 다시 온라인이 되면 다시 시도하세요.',
   'files.placeFilesNeedConnection':
     '파일을 업로드하려면 연결이 필요합니다. 새 파일을 빼고 장소를 오프라인으로 저장하거나, 다시 온라인이 되면 저장하세요.',
   'files.maxSize': '최대 {count} MB',

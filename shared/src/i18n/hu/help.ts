@@ -7,7 +7,7 @@ const help: TranslationStrings = {
   'help.contents': 'Tartalom',
   'help.noResults': 'Nincs találat.',
   'help.errorTitle': 'Az oldal nem tölthető be',
-  'help.errorBody': 'A súgó tartalmát a TREK wikiből töltjük be. Ellenőrizd a kapcsolatot, és próbáld újra.',
+  'help.errorBody': 'A súgó tartalmát a Manzil wikiből töltjük be. Ellenőrizd a kapcsolatot, és próbáld újra.',
 
   // center
   'help.center.button': 'Súgó ehhez a képernyőhöz',
@@ -74,14 +74,14 @@ const help: TranslationStrings = {
   'help.guide.create-trip.step.2':
     'Adj nevet az utazásnak. Csak ezt a mezőt kötelező kitölteni, minden mást később is megadhatsz.',
   'help.guide.create-trip.step.3':
-    'Válassz kezdő és záró dátumot. A TREK minden dátumhoz létrehoz egy napot, így máris elkezdheted az útiterv összeállítását. Még nincsenek dátumaid? Hagyd mindkettőt üresen, és helyette add meg a „Napok száma” értékét.',
+    'Válassz kezdő és záró dátumot. A Manzil minden dátumhoz létrehoz egy napot, így máris elkezdheted az útiterv összeállítását. Még nincsenek dátumaid? Hagyd mindkettőt üresen, és helyette add meg a „Napok száma” értékét.',
   'help.guide.create-trip.step.4':
     'Ha szeretnéd, adj hozzá borítófotót: tölts fel sajátot, húzd be vagy illeszd be, vagy keress képet az úti célhoz az Unsplashen.',
   'help.guide.create-trip.step.5': 'Kattints az „Új utazás létrehozása” gombra.',
   'help.guide.create-trip.result':
     'Az utazás megjelenik az irányítópulton. Ha ez a következő utazásod, a felső beszállókártyán látszik.',
   'help.guide.create-trip.tip.1':
-    'A dátumok később is módosíthatók. Ha már vannak foglalások, a TREK megkérdezi, hogy a napokkal együtt azokat is áthelyezze-e.',
+    'A dátumok később is módosíthatók. Ha már vannak foglalások, a Manzil megkérdezi, hogy a napokkal együtt azokat is áthelyezze-e.',
   'help.guide.create-trip.tip.2':
     'Az itt megadott pénznemre váltódik át az utazás összes költsége. Válaszd az úti cél pénznemét.',
 
@@ -94,7 +94,7 @@ const help: TranslationStrings = {
   'help.guide.edit-trip.step.3': 'Kattints a „Frissítés” gombra.',
   'help.guide.edit-trip.result': 'A kártya azonnal frissül az utazás minden tagjánál.',
   'help.guide.edit-trip.tip.1':
-    'Ha egy foglalásokkal rendelkező utazás kezdetét áthelyezed, a TREK megkérdezi, hogy a foglalások is kerüljenek-e át. Ha lerövidíted az utazást, felsorolja a kieső napokat és az azokra tervezett programokat. A mentés csak a „Napok eltávolítása és mentés” gombra kattintva történik meg.',
+    'Ha egy foglalásokkal rendelkező utazás kezdetét áthelyezed, a Manzil megkérdezi, hogy a foglalások is kerüljenek-e át. Ha lerövidíted az utazást, felsorolja a kieső napokat és az azokra tervezett programokat. A mentés csak a „Napok eltávolítása és mentés” gombra kattintva történik meg.',
 
   // cover-image
   'help.guide.cover-image.title': 'Borítókép beállítása',
@@ -105,7 +105,7 @@ const help: TranslationStrings = {
   'help.guide.cover-image.step.3': 'Válassz egy fotót, és kattints a „Frissítés” gombra.',
   'help.guide.cover-image.result': 'A fotót az utazáshoz mentjük, és mindenhol megjelenik, ahol az utazás szerepel.',
   'help.guide.cover-image.tip.1':
-    'Az Unsplash-keresésből származó fotóknál a TREK automatikusan feltünteti a szerzőt; a saját feltöltéseid a szervereden maradnak.',
+    'Az Unsplash-keresésből származó fotóknál a Manzil automatikusan feltünteti a szerzőt; a saját feltöltéseid a szervereden maradnak.',
 
   // duplicate-trip
   'help.guide.duplicate-trip.title': 'Utazás duplikálása',
@@ -153,7 +153,7 @@ const help: TranslationStrings = {
     'Lásd minden aktív utazás napjait és foglalásait a naptáralkalmazásodban, folyamatosan szinkronban.',
   'help.guide.calendar-feed.step.1': 'Kattints a nézetváltó melletti naptár ikonra.',
   'help.guide.calendar-feed.step.2':
-    'Kattints a „Naptár-feliratkozás bekapcsolása” gombra. A TREK létrehoz egy privát feedlinket.',
+    'Kattints a „Naptár-feliratkozás bekapcsolása” gombra. A Manzil létrehoz egy privát feedlinket.',
   'help.guide.calendar-feed.step.3':
     'Kattints a „Hozzáadás a Google Naptárhoz” vagy a „Hozzáadás az Apple Naptárhoz / Outlookhoz” gombra. Más naptáralkalmazásnál nyisd meg a „Vagy másold ki kézzel a hivatkozást” részt, és onnan másold ki a linket.',
   'help.guide.calendar-feed.result':
@@ -374,7 +374,7 @@ const help: TranslationStrings = {
   // ── Screen: atlas ─────────────────────────────────────────────────────────────────────
   'help.ctx.atlas.title': 'Atlasz',
   'help.ctx.atlas.summary':
-    'Az Atlasz egy világtérképen mutatja meg, merre jártál: minden ország, ahová egy utazásod vitt, színes, a TREK használata előtt meglátogatott országokat pedig kézzel is hozzáadhatod. Nagyíts rá a régiókhoz, vezess bakancslistát a még meglátogatni kívánt helyekről, a számaidat pedig az alsó üvegpanelen látod.',
+    'Az Atlasz egy világtérképen mutatja meg, merre jártál: minden ország, ahová egy utazásod vitt, színes, a Manzil használata előtt meglátogatott országokat pedig kézzel is hozzáadhatod. Nagyíts rá a régiókhoz, vezess bakancslistát a még meglátogatni kívánt helyekről, a számaidat pedig az alsó üvegpanelen látod.',
   'help.ctx.atlas.bullet.1':
     'A térkép: minden meglátogatott ország saját, állandó színt kap, a tervezett országok szaggatott körvonalat, a bakancslistás országok átlós vonalkázást, minden más ország szürke. Ha egy ország fölé viszed az egeret, látod az utazásait, a helyeit, valamint az első és az utolsó látogatás idejét.',
   'help.ctx.atlas.bullet.2':
@@ -390,7 +390,7 @@ const help: TranslationStrings = {
   // mark-country
   'help.guide.mark-country.title': 'Ország megjelölése meglátogatottként',
   'help.guide.mark-country.goal':
-    'Vegyél fel egy országot, ahol még a TREK használata előtt jártál, hogy a térkép és a számlálód is tartalmazza.',
+    'Vegyél fel egy országot, ahol még a Manzil használata előtt jártál, hogy a térkép és a számlálód is tartalmazza.',
   'help.guide.mark-country.step.1': 'Írd be az ország nevét a térkép tetején lévő keresőmezőbe.',
   'help.guide.mark-country.step.2':
     'Válaszd ki a listából. A térkép az országra ugrik, és megnyílik hozzá egy felugró ablak.',
@@ -497,7 +497,7 @@ const help: TranslationStrings = {
   'help.guide.stats.result':
     'A számok automatikusan frissülnek, ahogy az utazásaidat tervezed. Itt semmit sem kell karbantartanod.',
   'help.guide.stats.tip.1':
-    'A városokat a TREK a cím szövegéből veszi, nem keresi ki. Ezért egy rövid cím, például „Osteria Francescana, Italy”, vagy egy prefektúrára végződő cím város helyett régióként is beszámíthat.',
+    'A városokat a Manzil a cím szövegéből veszi, nem keresi ki. Ezért egy rövid cím, például „Osteria Francescana, Italy”, vagy egy prefektúrára végződő cím város helyett régióként is beszámíthat.',
   'help.guide.stats.tip.2':
     'A kézzel megjelölt országok beleszámítanak az „Ország” értékbe és a kontinensekbe, de utazást, helyet vagy napot nem adnak hozzá.',
   // dawarich-countries
@@ -507,7 +507,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.step.1':
     'Ha a Dawarich bővítmény csatlakoztatva van, a térkép alján, a statisztikától balra megjelenik egy Dawarich panel két csempével. Kattints az „Ország” csempére.',
   'help.guide.dawarich-countries.step.2':
-    'Az ablak az „Ország” fülön nyílik meg. Kattints az „Országok keresése” gombra: a TREK hónapról hónapra beolvassa, mely országokat és városokat fednek le a felvételeid az elmúlt 12 hónapban, ezért ez eltarthat egy ideig. Minden ország, amely még nincs az Atlaszodban, megjelenik a zászlajával, a városok számával és az első város nevével. Alapból minden ország ki van pipálva. Ha egyet ki akarsz hagyni, kattints a sorára.',
+    'Az ablak az „Ország” fülön nyílik meg. Kattints az „Országok keresése” gombra: a Manzil hónapról hónapra beolvassa, mely országokat és városokat fednek le a felvételeid az elmúlt 12 hónapban, ezért ez eltarthat egy ideig. Minden ország, amely még nincs az Atlaszodban, megjelenik a zászlajával, a városok számával és az első város nevével. Alapból minden ország ki van pipálva. Ha egyet ki akarsz hagyni, kattints a sorára.',
   'help.guide.dawarich-countries.step.3':
     'Erősítsd meg a jobb alsó gombbal, amelyen öt kipipált sor esetén „5 ország hozzáadása” áll. Az ablak jelzi, hány ország került be. Mire bezárod, a térkép már frissült.',
   'help.guide.dawarich-countries.result':
@@ -515,7 +515,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.tip.1':
     'Azokat az országokat, amelyeket az Atlasz már meglátogatottként mutat, akár kézi jelölés, akár egy utazás, akár egy korábbi ellenőrzés alapján, kihagyjuk, így a saját jelöléseid sosem változnak. Ha egy országot korábban eltávolítottál az Atlaszból, és itt megerősíted, újra bekerül.',
   'help.guide.dawarich-countries.tip.2':
-    'Ha a TREK nem tud párosítani egy országnevet, a nevet a sorok alatt felsorolja, nem hagyja ki. Az „Ellenőrzés újra” ismét lekérdezi a Dawarichot. A lista alatti megjegyzés jelzi, hogy az elmúlt 12 hónapot ellenőriztük. Ez az időszak nem módosítható.',
+    'Ha a Manzil nem tud párosítani egy országnevet, a nevet a sorok alatt felsorolja, nem hagyja ki. Az „Ellenőrzés újra” ismét lekérdezi a Dawarichot. A lista alatti megjegyzés jelzi, hogy az elmúlt 12 hónapot ellenőriztük. Ez az időszak nem módosítható.',
   // dawarich-wishes
   'help.guide.dawarich-wishes.title': 'Kívánságok kipipálása a felvételeid alapján',
   'help.guide.dawarich-wishes.goal':
@@ -523,7 +523,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.step.1':
     'A térkép alján, a statisztikától balra lévő Dawarich panelen kattints a „Kívánságlista” csempére.',
   'help.guide.dawarich-wishes.step.2':
-    'Az ablak a „Kívánságlista” fülön nyílik meg. Kattints a „Kívánságlista ellenőrzése” gombra: a TREK a felvételeid alapján minden olyan bejegyzést ellenőriz, amelynek vannak koordinátái. Az elért kívánságoknál látszik, milyen közel jutottál, mennyi ideig maradtál, és melyik napon jártál ott; alapból ki vannak pipálva. Amit már korábban kipipáltál, azon a „Már kipipálva” felirat áll. A lista alatti megjegyzés megadja a koordináták nélküli bejegyzések számát, és a szabályt is: „Egy kívánság 250 méteren belül és 20 perc helyszíni tartózkodás után számít teljesítettnek.”',
+    'Az ablak a „Kívánságlista” fülön nyílik meg. Kattints a „Kívánságlista ellenőrzése” gombra: a Manzil a felvételeid alapján minden olyan bejegyzést ellenőriz, amelynek vannak koordinátái. Az elért kívánságoknál látszik, milyen közel jutottál, mennyi ideig maradtál, és melyik napon jártál ott; alapból ki vannak pipálva. Amit már korábban kipipáltál, azon a „Már kipipálva” felirat áll. A lista alatti megjegyzés megadja a koordináták nélküli bejegyzések számát, és a szabályt is: „Egy kívánság 250 méteren belül és 20 perc helyszíni tartózkodás után számít teljesítettnek.”',
   'help.guide.dawarich-wishes.step.3':
     'Erősítsd meg a jobb alsó gombbal, amelyen két kipipált sor esetén „2 kipipálása” áll. Ezután zárd be az ablakot, és nyisd meg a mellette lévő panel „Bakancslista” fülét.',
   'help.guide.dawarich-wishes.result':
@@ -531,7 +531,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.tip.1':
     'Az elhaladás nem számít: a hely közelében kell lenned, és ott is kell töltened egy kis időt. Ha több tartózkodás is megfelel, a leghosszabbat vesszük alapul. Koordináták nélküli kívánságot nem lehet ellenőrizni, ezért a helyeket a „Hely hozzáadása” keresőjével add hozzá, ne csak név alapján.',
   'help.guide.dawarich-wishes.tip.2':
-    'Egy ellenőrzés legfeljebb 50 bejegyzést vizsgál meg, a még ki nem pipáltakkal kezdve. Ha több van, a TREK jelzi. A már kipipált kívánság megtartja a saját dátumát.',
+    'Egy ellenőrzés legfeljebb 50 bejegyzést vizsgál meg, a még ki nem pipáltakkal kezdve. Ha több van, a Manzil jelzi. A már kipipált kívánság megtartja a saját dátumát.',
 
   // ── Screen: collections ───────────────────────────────────────────────────────────────
   'help.ctx.collections.title': 'Gyűjtemények',
@@ -590,7 +590,7 @@ const help: TranslationStrings = {
   'help.guide.import-from-trip.result':
     'A helyek a nevükkel, címükkel, koordinátáikkal, leírásukkal és kategóriájukkal együtt átmásolódnak a listába. Az utazás nem változik.',
   'help.guide.import-from-trip.tip.1':
-    'A TREK automatikusan kihagyja a név vagy koordináták szerinti ismétlődéseket, így nyugodtan importálhatsz kétszer is.',
+    'A Manzil automatikusan kihagyja a név vagy koordináták szerinti ismétlődéseket, így nyugodtan importálhatsz kétszer is.',
   'help.guide.import-from-trip.tip.2':
     'Egy utazás helylistájában a jelölési mód a „Mentés gyűjteménybe” lehetőséget kínálja, ha csak kézzel válogatott helyeket szeretnél menteni.',
   // place-status
@@ -617,7 +617,7 @@ const help: TranslationStrings = {
   'help.guide.place-detail.result':
     'A „Szerkesztés” gombbal közvetlenül az adatlapon módosíthatod a nevet, a kategóriát, a címkéket, a címet, a koordinátákat, a leírást és a linkeket.',
   'help.guide.place-detail.tip.1':
-    'Ha a helynek nincs saját képe, a borítót a TREK automatikusan letölti. Saját képként JPG, PNG, GIF, WebP vagy HEIC fájlt tölthetsz fel, legfeljebb 20 MB-ig. A kamera melletti kuka visszaállítja az automatikus fotót.',
+    'Ha a helynek nincs saját képe, a borítót a Manzil automatikusan letölti. Saját képként JPG, PNG, GIF, WebP vagy HEIC fájlt tölthetsz fel, legfeljebb 20 MB-ig. A kamera melletti kuka visszaállítja az automatikus fotót.',
   'help.guide.place-detail.tip.2':
     'Minden tag, te is, adhat csillagos értékelést az állapot alatt; a szűrősor „Értékelés” szűrője az átlagot használja.',
   // labels
@@ -684,7 +684,7 @@ const help: TranslationStrings = {
     'Válaszd a „TREK-lista” formátumot, ha egy másik TREK-ben használnád a listát címkékkel és állapotokkal együtt, vagy a GPX-et az OsmAndhoz, az Organic Mapshez, Garmin eszközhöz és más, útpontokat kezelő alkalmazásokhoz.',
   'help.guide.export-list.result': 'A fájl letöltődik. Megosztott listát bármelyik tagja exportálhat.',
   'help.guide.export-list.tip.1':
-    'Koordináták nélküli hely nem lehet GPX-útpont; ezek kimaradnak, és a TREK jelzi, hány ilyen volt.',
+    'Koordináták nélküli hely nem lehet GPX-útpont; ezek kimaradnak, és a Manzil jelzi, hány ilyen volt.',
   'help.guide.export-list.tip.2':
     'Az értékelések, a tagok és a feltöltött fotók szándékosan nem kerülnek az exportba; ezek ehhez a TREK-példányhoz tartoznak, nem a listához.',
   // import-file
@@ -692,7 +692,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.goal': 'Importálj egy TREK-listafájlt vagy GPX-fájlt új listaként vagy egy meglévő listába.',
   'help.guide.import-file.step.1': 'A listasávban kattints az „Új lista” melletti, feltöltés nyilas importálás gombra.',
   'help.guide.import-file.step.2':
-    'Válaszd ki a fájlt. Mielőtt bármit importálna, a TREK megmutatja, mi van a fájlban: a nevét, a helyek és a címkék számát.',
+    'Válaszd ki a fájlt. Mielőtt bármit importálna, a Manzil megmutatja, mi van a fájlban: a nevét, a helyek és a címkék számát.',
   'help.guide.import-file.step.3':
     'Hagyd az „Új lista” lehetőséget, ha szeretnéd, módosítsd a nevet, majd kattints az „Importálás” gombra. Vagy válaszd a „Hozzáadás listához” lehetőséget, hogy a helyek egy általad szerkeszthető listára kerüljenek, és kattints a „Hozzáadás a listához” gombra.',
   'help.guide.import-file.result':
@@ -700,7 +700,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.tip.1':
     'GPX-fájlból minden névvel ellátott útpont hely lesz; a nyomvonalak vonalak, ezért kimaradnak, és az előnézet jelzi, hány pontról van szó.',
   'help.guide.import-file.tip.2':
-    'A TREK elutasítja azt a fájlt, amely se nem TREK-lista, se nem GPX, és megmutatja az okát. Ha csak egy hely nem olvasható, csak az az egy marad ki, nem az egész fájl.',
+    'A Manzil elutasítja azt a fájlt, amely se nem TREK-lista, se nem GPX, és megmutatja az okát. Ha csak egy hely nem olvasható, csak az az egy marad ki, nem az egész fájl.',
   // edit-list
   'help.guide.edit-list.title': 'Lista szerkesztése vagy törlése',
   'help.guide.edit-list.goal':
@@ -961,7 +961,7 @@ const help: TranslationStrings = {
   // ── Screen: journey-studio ────────────────────────────────────────────────────────────
   'help.ctx.journey-studio.title': 'Studio', // same-as-en
   'help.ctx.journey-studio.summary':
-    'A TREK Studio nyomtatható fotókönyvvé tördeli az útinaplót. A napló fölött nyílik meg: balra a sáv a paneleivel, középen az éppen szerkesztett oldalpár, jobbra a tulajdonságai. Az Automatikus elrendezés a bejegyzéseidből elkészíti az első vázlatot, egy téma színeket és betűtípusokat ad a könyvnek, az asszisztens pedig veled együtt tervezhet oldalakat. Ezután mindent áthelyezhetsz, körbevághatsz és átformázhatsz, és minden lépés visszavonható.',
+    'A Manzil Studio nyomtatható fotókönyvvé tördeli az útinaplót. A napló fölött nyílik meg: balra a sáv a paneleivel, középen az éppen szerkesztett oldalpár, jobbra a tulajdonságai. Az Automatikus elrendezés a bejegyzéseidből elkészíti az első vázlatot, egy téma színeket és betűtípusokat ad a könyvnek, az asszisztens pedig veled együtt tervezhet oldalakat. Ezután mindent áthelyezhetsz, körbevághatsz és átformázhatsz, és minden lépés visszavonható.',
   'help.ctx.journey-studio.bullet.1':
     'Felső sáv: balra az útinapló borítója és neve. Jobbra: ki van még a könyvben és el van-e mentve, az oldalformátum, a visszavonás, az újra és a beillesztés, az Automatikus elrendezés, az asszisztens, a súgó, az Exportálás és a Studiót bezáró gomb.',
   'help.ctx.journey-studio.bullet.2':
@@ -973,7 +973,7 @@ const help: TranslationStrings = {
   'help.ctx.journey-studio.bullet.5':
     'A könyv felépítése egy nyomtatott könyvét követi: borító, egy különálló első oldal a borító üres belső oldalával szemben, az oldalpárok, egy különálló utolsó oldal és a hátsó borító. Az oldalszámozás az első oldallal kezdődik, és nyomtatásban is úgy jelenik meg, ahogy látod.',
   'help.ctx.journey-studio.bullet.6':
-    'Egyszerre többen is dolgozhattok a terven: mindenki látja a többiek mutatóját a nevükkel. Ha olyan verziót mentesz, amelyet közben más módosított, a TREK ütközést jelez, és nem írja felül a munkáját.',
+    'Egyszerre többen is dolgozhattok a terven: mindenki látja a többiek mutatóját a nevükkel. Ha olyan verziót mentesz, amelyet közben más módosított, a Manzil ütközést jelez, és nem írja felül a munkáját.',
   'help.ctx.journey-studio.bullet.7':
     'Téma: egyetlen megjelenés az egész könyvnek, a papírja, a tintája és három kiemelőszíne, a betűtípusai és a motívumai. A témához kapcsolt elemek követik, ha módosítod.',
   'help.ctx.journey-studio.bullet.8':
@@ -1054,7 +1054,7 @@ const help: TranslationStrings = {
     'A könyv minden kapcsolt színe és betűtípusa egyszerre változik, a téma alkalmazása pedig egyetlen visszavonási lépés.',
   'help.guide.studio-content.tip.1': 'A „Content” tetején lévő keresőmező mindkét listát szűri.',
   'help.guide.studio-content.tip.2':
-    'Ha az asztalodról ráhúzol egy fájlt a munkaterületre, a TREK egy lépésben feltölti és el is helyezi.',
+    'Ha az asztalodról ráhúzol egy fájlt a munkaterületre, a Manzil egy lépésben feltölti és el is helyezi.',
   // studio-elements
   'help.guide.studio-elements.title': 'Szöveg, alakzatok, ikonok és matricák hozzáadása',
   'help.guide.studio-elements.goal': 'Díszítsd az oldalpárt a fotókon és a történeteken túl.',
@@ -1168,7 +1168,7 @@ const help: TranslationStrings = {
   'help.guide.studio-spread-file.result':
     'Az oldalpár a kereteivel és szövegstílusaival együtt importálódik. Húzd a keretekbe az új útinapló fotóit.',
   'help.guide.studio-spread-file.tip.1':
-    'Ha egy fájl nem kétoldalas tervfájl, a TREK elutasítja, és megmutatja az okát.',
+    'Ha egy fájl nem kétoldalas tervfájl, a Manzil elutasítja, és megmutatja az okát.',
 
   // ── Screen: settings (all tabs) ───────────────────────────────────────────────────────
   'help.ctx.settings.title': 'Beállítások',
@@ -1184,7 +1184,7 @@ const help: TranslationStrings = {
     'A „Fiók” részben a profilod, a jelszavad, a kétlépcsős azonosítás, a jelkulcsok és a fiók törlésének lehetősége található.',
   'help.ctx.settings-display.title': 'Megjelenés',
   'help.ctx.settings-display.summary':
-    'Itt állíthatod be, mivel induljon a TREK, milyen nyelvet és mértékegységeket használjon, és hogyan működjön az utazástérkép és a foglalások. Minden módosítás azonnal érvénybe lép.',
+    'Itt állíthatod be, mivel induljon a Manzil, milyen nyelvet és mértékegységeket használjon, és hogyan működjön az utazástérkép és a foglalások. Minden módosítás azonnal érvénybe lép.',
   'help.ctx.settings-display.bullet.1':
     '„Indítás”: a „Kezdőoldal” az „Irányítópult” vagy az „Aktív utazás” lehet; az „Aktív utazás” választásakor a „Kezdő fül” határozza meg, melyik fülön nyíljon meg az utazás.',
   'help.ctx.settings-display.bullet.2':
@@ -1193,7 +1193,7 @@ const help: TranslationStrings = {
     'Utazás és térkép: „Helyek megnyitása itt”, „Dátum elöl a napok fejlécében”, „Útvonal-címkék a foglalásokhoz”, „Mindig jelenjenek meg a foglalási útvonalak”, „Kompakt jelölők a nem tervezett helyekhez”, „Helyek felfedezése a térképen”, „Foglalási kódok elrejtése” és „Útvonal optimalizálása a szállástól”.',
   'help.ctx.settings-appearance.title': 'Megjelenés',
   'help.ctx.settings-appearance.summary':
-    'Így néz ki a TREK ennél a fióknál: világos vagy sötét téma, kiemelőszín, üveghatás és animációk, betűméret, és hogy mely widgetek jelenjenek meg az irányítópulton. Minden azonnal érvénybe lép, minden eszközön, ahol bejelentkezel.',
+    'Így néz ki a Manzil ennél a fióknál: világos vagy sötét téma, kiemelőszín, üveghatás és animációk, betűméret, és hogy mely widgetek jelenjenek meg az irányítópulton. Minden azonnal érvénybe lép, minden eszközön, ahol bejelentkezel.',
   'help.ctx.settings-appearance.bullet.1':
     'Téma: „Színmód” („Világos”, „Sötét” vagy „Automatikus”), a „Színséma”, és az „Egyéni” lehetőséggel saját kiemelőszín világos és sötét módhoz, kontrasztellenőrzéssel.',
   'help.ctx.settings-appearance.bullet.2':
@@ -1213,7 +1213,7 @@ const help: TranslationStrings = {
     'Csak Mapbox GL-nél: „3D épületek és terep” és „Magas minőség mód”. A „Térkép mentése” gomb fölött élő előnézet látható. A „Térkép mentése” elmenti a választásodat.',
   'help.ctx.settings-notifications.title': 'Értesítések',
   'help.ctx.settings-notifications.summary':
-    'Itt állíthatod be, hogyan ér el a TREK az alkalmazáson kívül. Felül egy táblázat dönti el, mi hová menjen: eseményenként egy sor, csatornánként egy oszlop. Alatta a webhook, az ntfy, az ezen az eszközön használt push és az esetleges plugincsatornák kártyái találhatók.',
+    'Itt állíthatod be, hogyan ér el a Manzil az alkalmazáson kívül. Felül egy táblázat dönti el, mi hová menjen: eseményenként egy sor, csatornánként egy oszlop. Alatta a webhook, az ntfy, az ezen az eszközön használt push és az esetleges plugincsatornák kártyái találhatók.',
   'help.ctx.settings-notifications.bullet.1':
     '„Értesítések”: csatornánként kapcsold be vagy ki az egyes eseményeket. A lakat azt jelzi, hogy a rendszergazda mindenkinél kikapcsolta az adott eseményt.',
   'help.ctx.settings-notifications.bullet.2':
@@ -1235,7 +1235,7 @@ const help: TranslationStrings = {
     'API tokenek: az MCP-hez való csatlakozás régi módja, „Elavult” jelöléssel; helyette használd az „OAuth 2.1 kliensek” lehetőséget.',
   'help.ctx.settings-offline.title': 'Offline', // same-as-en
   'help.ctx.settings-offline.summary':
-    'Mit tárol a TREK ezen az eszközön, hogy egy utazás kapcsolat nélkül is megnyíljon, és mi történik, ha egy offline végzett módosítás ütközik egy máshol végzett módosítással.',
+    'Mit tárol a Manzil ezen az eszközön, hogy egy utazás kapcsolat nélkül is megnyíljon, és mi történik, ha egy offline végzett módosítás ütközik egy máshol végzett módosítással.',
   'help.ctx.settings-offline.bullet.1':
     '„Offline mód”: az „Offline mód kényszerítése” előbb mindent letölt, utána csak a gyorsítótárból dolgozik, a módosításaidat pedig sorba állítja.',
   'help.ctx.settings-offline.bullet.2':
@@ -1259,7 +1259,7 @@ const help: TranslationStrings = {
   'help.guide.language-region.title': 'Nyelv, mértékegységek és pénznem beállítása',
   'help.guide.language-region.goal': 'Használd a TREK-et a saját nyelveden, a régiódban szokásos formátumokkal.',
   'help.guide.language-region.step.1':
-    'A „Nyelv és régió” részben válassz nyelvet a gombsorból („Nyelv”). A TREK azonnal átvált, minden eszközön, amelyen bejelentkezel.',
+    'A „Nyelv és régió” részben válassz nyelvet a gombsorból („Nyelv”). A Manzil azonnal átvált, minden eszközön, amelyen bejelentkezel.',
   'help.guide.language-region.step.2':
     'A „Helynevek” határozza meg, milyen nyelven jelenjenek meg a helykeresés eredményei, a javaslatok és a címek; az „Ugyanaz, mint az alkalmazás” a felület nyelvét követi.',
   'help.guide.language-region.result':
@@ -1282,9 +1282,9 @@ const help: TranslationStrings = {
   'help.guide.travel-map-prefs.tip.2':
     'A rendszergazda mindenkinek megadhatja az alapértelmezéseket; amit itt módosítasz, az csak rád vonatkozik.',
   // startup
-  'help.guide.startup.title': 'Mivel induljon a TREK',
+  'help.guide.startup.title': 'Mivel induljon a Manzil',
   'help.guide.startup.goal':
-    'A TREK azzal az oldallal nyíljon meg, amelyet a legtöbbet használsz, ne mindig az irányítópulttal.',
+    'A Manzil azzal az oldallal nyíljon meg, amelyet a legtöbbet használsz, ne mindig az irányítópulttal.',
   'help.guide.startup.step.1':
     'A „Megjelenés” fül tetején, az „Indítás” részben állítsd a „Kezdőoldal” értékét „Irányítópult” vagy „Aktív utazás” lehetőségre.',
   'help.guide.startup.step.2':
@@ -1295,7 +1295,7 @@ const help: TranslationStrings = {
   // theme-scheme
   'help.guide.theme-scheme.title': 'Téma és kiemelőszín beállítása',
   'help.guide.theme-scheme.goal':
-    'Legyen a TREK világos, sötét, vagy kövesse az eszközöd beállítását, a neked tetsző színben.',
+    'Legyen a Manzil világos, sötét, vagy kövesse az eszközöd beállítását, a neked tetsző színben.',
   'help.guide.theme-scheme.step.1':
     'A „Téma” részben állítsd a „Színmód” értékét „Világos”, „Sötét” vagy „Automatikus” lehetőségre. Az „Automatikus” az eszközöd beállítását követi.',
   'help.guide.theme-scheme.step.2':
@@ -1317,7 +1317,7 @@ const help: TranslationStrings = {
   'help.guide.readability.result':
     'A módosítás egyszerre az egész alkalmazásra érvényes, a térképpanelekre és az útinaplóra is.',
   'help.guide.readability.tip.1':
-    'A TREK egyes részei már most is kevesebb animációt használnak, ha az eszközödön be van kapcsolva a mozgáscsökkentés. A „Mozgás csökkentése” a többi részen is csökkenti az animációt.',
+    'A Manzil egyes részei már most is kevesebb animációt használnak, ha az eszközödön be van kapcsolva a mozgáscsökkentés. A „Mozgás csökkentése” a többi részen is csökkenti az animációt.',
   'help.guide.readability.tip.2':
     'A szövegméret a tipográfiai szinteken keresztül érvényesül, így semmi sem vágódik le; ami már nem fér el, új sorba tördelődik.',
   // dashboard-widgets
@@ -1424,13 +1424,13 @@ const help: TranslationStrings = {
   // offline-conflicts
   'help.guide.offline-conflicts.title': 'Melyik verzió maradjon meg szinkronizálási ütközéskor',
   'help.guide.offline-conflicts.goal':
-    'Válaszd ki, hogyan oldja fel a TREK az offline végzett és a máshol végzett módosítás közötti ütközést.',
+    'Válaszd ki, hogyan oldja fel a Manzil az offline végzett és a máshol végzett módosítás közötti ütközést.',
   'help.guide.offline-conflicts.step.1':
     'Ha egy offline végzett módosításod ütközik egy újabbal, az „Offline” fül tetején megjelenik a „Szinkronizálási ütközések” rész. Minden módosításnál kattints „Az enyém” vagy „A szerveré megtartása” gombra.',
   'help.guide.offline-conflicts.step.2':
     'Ugyanezen a kártyán az „Ütközés esetén” határozza meg, mi történjen legközelebb: „Kérdezz rá minden alkalommal”, „Mindig az én verzióm megtartása” vagy „Mindig a szerver verziójának megtartása”.',
   'help.guide.offline-conflicts.result':
-    'A „Kérdezz rá minden alkalommal” beállításnál az ütközés a „Szinkronizálási ütközések” között marad, amíg nem döntesz. A másik két beállításnál a TREK magától feloldja.',
+    'A „Kérdezz rá minden alkalommal” beállításnál az ütközés a „Szinkronizálási ütközések” között marad, amíg nem döntesz. A másik két beállításnál a Manzil magától feloldja.',
   'help.guide.offline-conflicts.tip.1':
     'A „Gyorsítótár törlése” csak az ezen az eszközön tárolt másolatot törli. A szerveren semmi sem változik.',
   // profile
@@ -1486,7 +1486,7 @@ const help: TranslationStrings = {
   'help.guide.delete-account.result':
     'A fiókod törlődött, a saját utazásaiddal, helyeiddel és fájljaiddal együtt. A mások által birtokolt utazások megmaradnak.',
   'help.guide.delete-account.tip.1':
-    'Ha te vagy az egyetlen rendszergazda, a TREK a „Törlés nem lehetséges” üzenetet jeleníti meg: előbb nevezz ki egy másik felhasználót rendszergazdának.',
+    'Ha te vagy az egyetlen rendszergazda, a Manzil a „Törlés nem lehetséges” üzenetet jeleníti meg: előbb nevezz ki egy másik felhasználót rendszergazdának.',
   'help.guide.delete-account.tip.2': 'Ez nem vonható vissza. Megerősítés előtt exportáld, amit meg szeretnél tartani.',
 
   // ── Screen: admin (all tabs) ──────────────────────────────────────────────────────────
@@ -1505,7 +1505,7 @@ const help: TranslationStrings = {
     'Biztonsági mentés és audit: azonnali és ütemezett mentések, valamint a biztonsági szempontból fontos események naplója.',
   'help.ctx.admin-users.title': 'Felhasználók',
   'help.ctx.admin-users.summary':
-    'A TREK összes fiókja a szerepkörrel, az e-mail-címmel és az utolsó aktivitás idejével, a meghívó linkek, amelyekkel zárt példányon is lehet regisztrálni, valamint az, hogy ki mit tehet az utazásokban.',
+    'A Manzil összes fiókja a szerepkörrel, az e-mail-címmel és az utolsó aktivitás idejével, a meghívó linkek, amelyekkel zárt példányon is lehet regisztrálni, valamint az, hogy ki mit tehet az utazásokban.',
   'help.ctx.admin-users.bullet.1':
     'A táblázat: felhasználó, e-mail, szerepkör, létrehozás dátuma és „Utoljára aktív”, soronként „Felhasználó szerkesztése” és „Felhasználó törlése” gombbal. Az avatáron lévő zöld pont azt jelzi, hogy a felhasználó éppen online; a saját sorodban a (Te) jelölés látszik.',
   'help.ctx.admin-users.bullet.2':
@@ -1543,7 +1543,7 @@ const help: TranslationStrings = {
     'A „Tömegközlekedési szolgáltató” és a „Helykeresési szolgáltató” határozza meg, ki válaszol a tömegközlekedési és a helykeresésekre; a „Helykeresési napló” rögzíti, melyik találatot választották; az „Engedélyezett fájltípusok” korlátozza a feltöltéseket.',
   'help.ctx.admin-addons.title': 'Bővítmények',
   'help.ctx.admin-addons.summary':
-    'A TREK funkciómoduljai, mindegyik saját kapcsolóval: Csomagolás, Költségvetés, Dokumentumok, Vacay, Atlasz, Együttműködés, Útinaplók, Gyűjtemények, Autós út, MCP, AirTrail, Dawarich és az MI-elemzés. Kikapcsolt állapotban a menüpont, az útvonalak és az API mindenki számára eltűnik.',
+    'A Manzil funkciómoduljai, mindegyik saját kapcsolóval: Csomagolás, Költségvetés, Dokumentumok, Vacay, Atlasz, Együttműködés, Útinaplók, Gyűjtemények, Autós út, MCP, AirTrail, Dawarich és az MI-elemzés. Kikapcsolt állapotban a menüpont, az útvonalak és az API mindenki számára eltűnik.',
   'help.ctx.admin-addons.bullet.1':
     'Minden bővítménynek saját csempéje van a kapcsolójával, és ha vannak beállításai, alsorokkal ezekhez.',
   'help.ctx.admin-addons.bullet.2':
@@ -1551,7 +1551,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-addons.bullet.3': 'A „Poggyászkövetés” saját kapcsolót kapott a csempék alatt.',
   'help.ctx.admin-plugins.title': 'Pluginok',
   'help.ctx.admin-plugins.summary':
-    'Külső fejlesztésű pluginok, amelyek saját folyamatban futnak a TREK mellett, mindegyik a telepítéskor kért jogosultságokkal. Telepíthetsz a katalógusból, feltölthetsz egy csomagot, vagy plugin fejlesztése közben belinkelhetsz egy mappát.',
+    'Külső fejlesztésű pluginok, amelyek saját folyamatban futnak a Manzil mellett, mindegyik a telepítéskor kért jogosultságokkal. Telepíthetsz a katalógusból, feltölthetsz egy csomagot, vagy plugin fejlesztése közben belinkelhetsz egy mappát.',
   'help.ctx.admin-plugins.bullet.1':
     '„Telepítve” és „Felfedezés”, a „Pluginok keresése…” mezővel, valamint a „Típus”, az „Állapot” és a „Rendezés” szűrővel. Minden sorban látszik a verzió, az „Ellenőrizve”, „Aláírva” vagy aláíratlan jelzés, az, hogy mihez férhet hozzá a plugin, egy kapcsoló és egy ⋯ menü.',
   'help.ctx.admin-plugins.bullet.2':
@@ -1585,7 +1585,7 @@ const help: TranslationStrings = {
     'API tokenek: név, tulajdonos, „Létrehozva” és „Utoljára használva”, egy kuka ikonnal, amellyel törölheted.',
   'help.ctx.admin-github.title': 'GitHub',
   'help.ctx.admin-github.summary':
-    'A TREK újdonságai: a kiadások története a GitHubról, és az, hogy van-e a tiédnél újabb verzió. Maga a frissítés nem az alkalmazásban, hanem a gazdagépen történik.',
+    'A Manzil újdonságai: a kiadások története a GitHubról, és az, hogy van-e a tiédnél újabb verzió. Maga a frissítés nem az alkalmazásban, hanem a gazdagépen történik.',
   'help.ctx.admin-github.bullet.1':
     'A „Frissítési előzmények” idővonalon sorolja fel a kiadásokat a kiadási megjegyzésekkel. A legújabbon „Legújabb” címke látszik, az előzetes kiadásokon „Előzetes kiadás”, a GitHub gomb pedig megnyitja a kiadások oldalát.',
   'help.ctx.admin-github.bullet.2':
@@ -1743,7 +1743,7 @@ const help: TranslationStrings = {
   'help.guide.auth-methods.result':
     'A bejelentkezési oldal pontosan azokat a módokat kínálja, amelyeket bekapcsolva hagytál.',
   'help.guide.auth-methods.tip.1':
-    'A TREK nem engedi kikapcsolni az utolsó bejelentkezési módot: a kapcsolója kiszürkül, az elemleírásban pedig ez áll: „Legalább egy bejelentkezési módnak engedélyezettnek kell maradnia.”',
+    'A Manzil nem engedi kikapcsolni az utolsó bejelentkezési módot: a kapcsolója kiszürkül, az elemleírásban pedig ez áll: „Legalább egy bejelentkezési módnak engedélyezettnek kell maradnia.”',
   'help.guide.auth-methods.tip.2':
     'Ha a szerveren be van állítva az OIDC_ONLY, a jelszavas kapcsolók zárolva vannak, és egy megjegyzés jelzi ezt.',
   // oidc
@@ -1771,11 +1771,11 @@ const help: TranslationStrings = {
   'help.guide.instance-keys.result':
     'A felhasználók saját kulcs nélkül is használhatják a funkciókat. Google-kulcs nélkül a keresés a TREK Places API-t és az OpenStreetMapet használja.',
   'help.guide.instance-keys.tip.1':
-    'Ha egy felhasználónak saját kulcsa van a Beállítások alatt, a TREK nála ezt használja a példány kulcsa helyett.',
+    'Ha egy felhasználónak saját kulcsa van a Beállítások alatt, a Manzil nála ezt használja a példány kulcsa helyett.',
   'help.guide.instance-keys.tip.2':
     'A kulcsok környezeti változókból is származhatnak; ezek itt csak olvashatóként jelennek meg.',
   'help.guide.instance-keys.tip.3':
-    'A „Napi korlát a Google-hívásokra” meghatározza, mennyit költhet a TREK naponta a kulcsra; a cím melletti jelvény a mai hívásokat számolja. A korlát elérése után a keresések másnapig (UTC) az OpenStreetMapet használják.',
+    'A „Napi korlát a Google-hívásokra” meghatározza, mennyit költhet a Manzil naponta a kulcsra; a cím melletti jelvény a mai hívásokat számolja. A korlát elérése után a keresések másnapig (UTC) az OpenStreetMapet használják.',
   // places-transit
   'help.guide.places-transit.title': 'A kereső- és a tömegközlekedési szolgáltató kiválasztása',
   'help.guide.places-transit.goal':
@@ -1783,11 +1783,11 @@ const help: TranslationStrings = {
   'help.guide.places-transit.step.1':
     'A „Tömegközlekedési szolgáltató” alatt választhatsz: „Transitous (ingyenes)”, amely kulcs nélkül működik, és Európában a legerősebb, vagy Google, amely a Google-kulcsot használja. A választás azonnal mentődik.',
   'help.guide.places-transit.step.2':
-    'A „Helykeresési szolgáltató” alatt választhatod ki, melyik szolgáltatást kérdezze a TREK, ha a TREK indexe és az OpenStreetMap nem talál semmit: „Automatikus” (Google, ha van kulcs, utána Amap), Google Places, Amap (高德地图) vagy OpenStreetMap.',
+    'A „Helykeresési szolgáltató” alatt választhatod ki, melyik szolgáltatást kérdezze a Manzil, ha a Manzil indexe és az OpenStreetMap nem talál semmit: „Automatikus” (Google, ha van kulcs, utána Amap), Google Places, Amap (高德地图) vagy OpenStreetMap.',
   'help.guide.places-transit.result':
-    'A TREK minden keresőmezője és minden tömegközlekedési útvonaltervezése ezt a beállítást használja.',
+    'A Manzil minden keresőmezője és minden tömegközlekedési útvonaltervezése ezt a beállítást használja.',
   'help.guide.places-transit.tip.1':
-    'Ha egy választott szolgáltatóhoz nincs kulcs, itt figyelmeztetés jelenik meg. A helykeresés ilyenkor csak a TREK indexét és az OpenStreetMapet, a tömegközlekedés csak a Transitoust használja.',
+    'Ha egy választott szolgáltatóhoz nincs kulcs, itt figyelmeztetés jelenik meg. A helykeresés ilyenkor csak a Manzil indexét és az OpenStreetMapet, a tömegközlekedés csak a Transitoust használja.',
   'help.guide.places-transit.tip.2': 'A Google tömegközlekedési útvonalait kérésenként számlázzák, a Transitoust nem.',
   // file-types
   'help.guide.file-types.title': 'Fájltípusok korlátozása',
@@ -1795,7 +1795,7 @@ const help: TranslationStrings = {
   'help.guide.file-types.step.1':
     'Az „Engedélyezett fájltípusok” részben szerkeszd a vesszővel elválasztott kiterjesztéslistát, vagy írj be * jelet, ha minden típust engedélyeznél, majd kattints a „Mentés” gombra.',
   'help.guide.file-types.result':
-    'Minden más típusú feltöltést a TREK egyértelmű üzenettel elutasít, a dokumentumoknál, az útinaplóban és a borítóknál is.',
+    'Minden más típusú feltöltést a Manzil egyértelmű üzenettel elutasít, a dokumentumoknál, az útinaplóban és a borítóknál is.',
   'help.guide.file-types.tip.1':
     'A képtípusokat hagyd a listában; a borítókat és az útinapló fotóit is ugyanez a lista alapján ellenőrzi a rendszer.',
   // toggle-addon
@@ -1825,7 +1825,7 @@ const help: TranslationStrings = {
   'help.guide.install-plugin.tip.1':
     'Az „Újraszkennelés” csomag nélkül is megtalálja a fejlesztéshez belinkelt pluginmappát.',
   'help.guide.install-plugin.tip.2':
-    'Az aláíratlan plugint a TREK ennek megfelelően jelöli; csak akkor telepítsd, ha megbízol a forrásában.',
+    'Az aláíratlan plugint a Manzil ennek megfelelően jelöli; csak akkor telepítsd, ha megbízol a forrásában.',
   // storage-backends
   'help.guide.storage-backends.title': 'Feltöltések áthelyezése S3-ra vagy tükrözésük',
   'help.guide.storage-backends.goal':
@@ -1835,9 +1835,9 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.2':
     'A „Kategóriák” részben rendeld hozzá a feltöltések egyes típusait, például az „Útidokumentumok”, az „Útinapló-fotók” vagy a „Biztonsági mentések” kategóriát, egy-egy backendhez.',
   'help.guide.storage-backends.step.3':
-    'Kattints alul a „Módosítások mentése” gombra. Ha egy kategória mostantól máshová mutat, a TREK megkérdezi, hogy a „Meglévő objektumok áthelyezése” vagy a „Csak az új írások irányítása” legyen.',
+    'Kattints alul a „Módosítások mentése” gombra. Ha egy kategória mostantól máshová mutat, a Manzil megkérdezi, hogy a „Meglévő objektumok áthelyezése” vagy a „Csak az új írások irányítása” legyen.',
   'help.guide.storage-backends.result':
-    'Az új feltöltések a hozzárendelt backendre kerülnek. Az áthelyezett fájlokat a TREK onnan szolgálja ki, ami pedig nem került áthelyezésre, az a régi helyén marad.',
+    'Az új feltöltések a hozzárendelt backendre kerülnek. Az áthelyezett fájlokat a Manzil onnan szolgálja ki, ami pedig nem került áthelyezésre, az a régi helyén marad.',
   'help.guide.storage-backends.tip.1':
     'A környezeti változókkal beállított háttértár itt látszik, de nem szerkeszthető.',
   'help.guide.storage-backends.tip.2':
@@ -1922,7 +1922,7 @@ const help: TranslationStrings = {
   'help.guide.auto-backup.step.2':
     'A „Régi mentések törlése ennyi idő után” részben add meg, meddig maradjon meg egy mentés, „1 nap” és „Örökre megőrzés” között, majd kattints a „Mentés” gombra.',
   'help.guide.auto-backup.result':
-    'A mentések az ütemezés szerint megjelennek a listában. A választott időnél régebbi mentéseket a TREK törli.',
+    'A mentések az ütemezés szerint megjelennek a listában. A választott időnél régebbi mentéseket a Manzil törli.',
   'help.guide.auto-backup.tip.1':
     'A „Futtatás időpontja” a szerver idejét használja; az alatta lévő tipp megmutatja a szerver időzónáját.',
   'help.guide.auto-backup.tip.2':
@@ -2008,7 +2008,7 @@ const help: TranslationStrings = {
   'help.guide.add-guest.result':
     'A vendég hozzárendelhető költségekhez, csomagolási tételekhez és feladatokhoz, de bejelentkezni nem tud.',
   'help.guide.add-guest.tip.1':
-    'Az „Átnevezés” (ceruza) módosítja a vendég nevét. A „Hozzáférés eltávolítása” (kuka) megerősítés után eltávolítja a vendéget: a hozzárendelései törlődnek, a kiadásokból rá eső részt pedig a felosztásban szereplő többiek között osztja szét a TREK.',
+    'Az „Átnevezés” (ceruza) módosítja a vendég nevét. A „Hozzáférés eltávolítása” (kuka) megerősítés után eltávolítja a vendéget: a hozzárendelései törlődnek, a kiadásokból rá eső részt pedig a felosztásban szereplő többiek között osztja szét a Manzil.',
   'help.guide.add-guest.tip.2': 'Ha a vendég később fiókot kap, hívd meg tagként, a vendéget pedig távolítsd el.',
   // public-link
   'help.guide.public-link.title': 'Csak olvasható link közzététele',
@@ -2062,7 +2062,7 @@ const help: TranslationStrings = {
   'help.guide.undo-change.tip.1':
     'A visszavonás a tervre vonatkozik: helyek hozzáadása, hozzárendelése, eltávolítása, átrendezése, áthelyezése és rögzítése, nap kiürítése, útvonal-optimalizálás, helyek törlése, kategóriamódosítások és importálások.',
   'help.guide.undo-change.tip.2':
-    'Újabb kattintással tovább léphetsz vissza: a TREK ezen az utazáson az utolsó 30 módosításodat tartja meg, a legújabbal kezdve, amíg el nem hagyod az utazást.',
+    'Újabb kattintással tovább léphetsz vissza: a Manzil ezen az utazáson az utolsó 30 módosításodat tartja meg, a legújabbal kezdve, amíg el nem hagyod az utazást.',
   'help.guide.clear-day.title': 'Nap kiürítése',
   'help.guide.clear-day.goal': 'Vedd le egyszerre az összes helyet egy napról, például ha elölről tervezed újra.',
   'help.guide.clear-day.step.1': 'Kattints jobb gombbal a nap fejlécére a tervben.',
@@ -2100,13 +2100,13 @@ const help: TranslationStrings = {
   'help.guide.create-place.step.4':
     'Ellenőrizd az űrlap mezőit. Csak az ablak tetején lévő név kötelező. Az alatta lévő „Kategória” gombbal az utazás egyik kategóriáját választhatod ki, a mellette lévő + gombbal újat hozhatsz létre. A „Cím”, a „Szélességi fok” és a „Hosszúsági fok” a keresésből jön, vagy te írod be. A „Leírás” és a „Jegyzetek” a saját szövegeidnek való. A „Weboldal” mezőbe a linket írhatod, a „Fájl” alatti „Csatolás” dokumentumot ad hozzá, a „Telefon”, az „E-mail” és a „Nyitvatartás hozzáadása” pedig azokhoz az adatokhoz való, amelyeket a keresés nem talált meg.',
   'help.guide.create-place.step.5':
-    'Kattints a „Hozzáadás” gombra. Ha az utazásban már van azonos nevű vagy azonos helyen lévő hely, a TREK figyelmeztet, és a gomb felirata „Hozzáadás mindenképp” lesz.',
+    'Kattints a „Hozzáadás” gombra. Ha az utazásban már van azonos nevű vagy azonos helyen lévő hely, a Manzil figyelmeztet, és a gomb felirata „Hozzáadás mindenképp” lesz.',
   'help.guide.create-place.result':
     'A hely bekerül a listába és a térképre, a „Nem tervezett” csoportba, amíg egy napra nem teszed.',
   'help.guide.create-place.tip.1':
     'Ha a Költségvetés bővítmény be van kapcsolva, az űrlap alján lévő „Költség” mentés után azonnal megnyitja a „Költségek” szerkesztőt a hely kiadásához. Az ablakba beillesztett kép vagy PDF fájlként csatolódik a „Fájl” részhez.',
   'help.guide.create-place.tip.2':
-    'A keresési találatokat minden TREK-példányon a TREK indexe és az OpenStreetMap adja, a „Hely részletei” pedig automatikusan kitöltődik a Wikipedia, a Wikivoyage és a Wikimedia adataiból. A TREK csak akkor fordul a Google-höz, ha egyik sem talál semmit, és értékeléseket csak a Google ad.',
+    'A keresési találatokat minden TREK-példányon a Manzil indexe és az OpenStreetMap adja, a „Hely részletei” pedig automatikusan kitöltődik a Wikipedia, a Wikivoyage és a Wikimedia adataiból. A Manzil csak akkor fordul a Google-höz, ha egyik sem talál semmit, és értékeléseket csak a Google ad.',
   'help.guide.create-place.tip.3':
     'Helyet a térképen is létrehozhatsz: kattints jobb gombbal a kívánt pontra, és az űrlap a koordinátákkal és a címmel kitöltve nyílik meg.',
   // place-to-open-day
@@ -2200,7 +2200,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-file.result':
     'A helyek bekerültek a listába. A nyomvonalak sorában színes vonal látszik, a térképen megjelennek, és saját „Nyomvonalak” szűrőt kapnak.',
   'help.guide.import-places-file.tip.1':
-    'A túl nagy fájlt a TREK elutasítja, és megmutatja a méretkorlátot; exportáld újra fotók nélkül, vagy oszd fel.',
+    'A túl nagy fájlt a Manzil elutasítja, és megmutatja a méretkorlátot; exportáld újra fotók nélkül, vagy oszd fel.',
   'help.guide.import-places-file.tip.2': 'A teljes importálást visszavonhatod a napok fölötti eszköztárból.',
   // import-places-list
   'help.guide.import-places-list.title': 'Megosztott Google Maps- vagy Naver Maps-lista importálása',
@@ -2211,7 +2211,7 @@ const help: TranslationStrings = {
     'A „Szolgáltató” alatt válaszd a „Google Lista” vagy a „Naver Lista” lehetőséget, majd illeszd be a lista megosztott linkjét a „Link” mezőbe. Google Maps-útvonaltervező link is működik: a megállói helyek lesznek, az autós útvonal sorrendjében.',
   'help.guide.import-places-list.step.3': 'Kattints az „Importálás” gombra.',
   'help.guide.import-places-list.result':
-    'A lista összes helye bekerült az utazásba, a listában szereplő néven; az utazásban már meglévő helyeket a TREK kihagyja.',
+    'A lista összes helye bekerült az utazásba, a listában szereplő néven; az utazásban már meglévő helyeket a Manzil kihagyja.',
   'help.guide.import-places-list.tip.1':
     'A listának nyilvánosan megosztottnak kell lennie; egy privát lista linkjéből semmi sem importálódik.',
   'help.guide.import-places-list.tip.2':
@@ -2309,7 +2309,7 @@ const help: TranslationStrings = {
   'help.guide.reorder-stops.step.3':
     'Ha egy megállót másik napkártyára húzol, átkerül arra a napra, és lekerül a régiről.',
   'help.guide.reorder-stops.step.4':
-    'Ha egy megállónak rögzített időpontja van, és az áthelyezés felborítaná a nap sorrendjét, a TREK megkérdezi: „Időpont eltávolítása?”, mert az időpont határozza meg a megálló helyét. A „Megerősítés” törli az időpontot, így a megálló bárhová kerülhet. A „Mégse” változatlanul hagyja a napot.',
+    'Ha egy megállónak rögzített időpontja van, és az áthelyezés felborítaná a nap sorrendjét, a Manzil megkérdezi: „Időpont eltávolítása?”, mert az időpont határozza meg a megálló helyét. A „Megerősítés” törli az időpontot, így a megálló bárhová kerülhet. A „Mégse” változatlanul hagyja a napot.',
   'help.guide.reorder-stops.result': 'Az útvonal és a menetidők azonnal az új sorrendhez igazodnak.',
   'help.guide.reorder-stops.tip.1':
     'A rögzített időpontú foglalás az időpontjának megfelelő helyen marad. Ha a napján belül máshová ejted, visszaugrik. Ha egy másik napkártyára húzod, átkerül arra a napra.',
@@ -2330,7 +2330,7 @@ const help: TranslationStrings = {
   'help.guide.set-stop-times.tip.1':
     'Az időpont az adott napi megállóhoz tartozik; ugyanannak a helynek egy másik napon más időpontja lehet.',
   'help.guide.set-stop-times.tip.2':
-    'Időponthoz kötött megállót úgy mozgathatsz kézzel, hogy áthúzod. A TREK ekkor megkérdezi: „Időpont eltávolítása?”, és ha a „Megerősítés” gombra kattintasz, az időpont törlődik.',
+    'Időponthoz kötött megállót úgy mozgathatsz kézzel, hogy áthúzod. A Manzil ekkor megkérdezi: „Időpont eltávolítása?”, és ha a „Megerősítés” gombra kattintasz, az időpont törlődik.',
   'help.guide.set-stop-times.tip.3':
     'Ugyanebben az űrlapban a „Jegyzetek erre a napra” mező olyan információkra való, amelyek csak erre a napra érvényesek, például egy asztalfoglalás vagy egy jegyszám.',
   // remove-from-day
@@ -2465,7 +2465,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-place.bullet.5':
     'Az alsó sor: „Hozzáadás a naphoz” vagy „Eltávolítás a napról”, ha egy nap meg van nyitva, majd „Navigáció” (vagy a térképalkalmazásod neve, ha a Beállításokban már választottál egyet), „Weboldal megnyitása” és „Mentés gyűjteménybe”. Jobb oldalon a piros kuka törli a helyet, a „Szerkesztés” pedig megnyitja az űrlapját.',
   'help.ctx.trip-place.bullet.6':
-    'A keresésből kiválasztott helynél azt látod, amit a TREK indexe vagy az OpenStreetMap tud róla: a felső gombok között „Nyitott” vagy „Lezárva” állapotot, zöld vagy piros gyűrűvel a kép körül, a hely helyi ideje szerint; a telefonszámát, szintén gombként; lejjebb a „Nyitvatartás” részt, a sorban a mai nyitvatartással, kattintásra pedig az egész héttel; a weboldalát pedig a „Weboldal megnyitása” alatt. A Google-értékelés csak a Google-on keresztül talált helyeknél jelenik meg, Google-kulccsal rendelkező TREK-en. A hely űrlapján általad megadott nyitvatartás, telefonszám és e-mail felülírja a lekérdezett adatokat, és ezek határozzák meg a gyűrű színét is.',
+    'A keresésből kiválasztott helynél azt látod, amit a Manzil indexe vagy az OpenStreetMap tud róla: a felső gombok között „Nyitott” vagy „Lezárva” állapotot, zöld vagy piros gyűrűvel a kép körül, a hely helyi ideje szerint; a telefonszámát, szintén gombként; lejjebb a „Nyitvatartás” részt, a sorban a mai nyitvatartással, kattintásra pedig az egész héttel; a weboldalát pedig a „Weboldal megnyitása” alatt. A Google-értékelés csak a Google-on keresztül talált helyeknél jelenik meg, Google-kulccsal rendelkező TREK-en. A hely űrlapján általad megadott nyitvatartás, telefonszám és e-mail felülírja a lekérdezett adatokat, és ezek határozzák meg a gyűrű színét is.',
   // read-place
   'help.guide.read-place.title': 'Mit mutat a kártya egy helyről',
   'help.guide.read-place.goal': 'Nézd meg egyetlen kártyán mindazt, amit az utazás egy helyről tud.',
@@ -2488,7 +2488,7 @@ const help: TranslationStrings = {
   'help.guide.read-place.tip.2':
     'Ha szerkesztheted a helyeket, a névre duplán kattintva az űrlap megnyitása nélkül átnevezheted a helyet. Az Enter ment, az Esc elveti a módosítást.',
   'help.guide.read-place.tip.3':
-    'A kézzel beírt helynél csak az űrlapon megadott adatok látszanak. Kattints a „Szerkesztés” gombra, és töltsd ki magad a „Telefon”, az „E-mail” mezőt és a nyitvatartást, vagy válaszd ki a helyet a „Helyek keresése…” alatti javaslatok közül, és kattints a „Frissítés” gombra, hogy a TREK lekérdezze őket. A Google-értékeléshez Google-kulcs kell.',
+    'A kézzel beírt helynél csak az űrlapon megadott adatok látszanak. Kattints a „Szerkesztés” gombra, és töltsd ki magad a „Telefon”, az „E-mail” mezőt és a nyitvatartást, vagy válaszd ki a helyet a „Helyek keresése…” alatti javaslatok közül, és kattints a „Frissítés” gombra, hogy a Manzil lekérdezze őket. A Google-értékeléshez Google-kulcs kell.',
   // rate-place
   'help.guide.rate-place.title': 'Hely értékelése',
   'help.guide.rate-place.goal': 'Értékeld a helyet saját csillagokkal, és nézd meg, mások hogyan értékelték.',
@@ -2513,7 +2513,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.goal': 'Cseréld le az automatikus bélyegképet egy saját fotóra.',
   'help.guide.place-image.step.1': 'Nyisd meg a helyet a helyek oszlopából.',
   'help.guide.place-image.step.2':
-    'Vidd az egeret a fejlécben lévő kerek kép fölé: megjelenik egy kamera, az elemleírásban pedig ez áll: „Kép feltöltése”. Kattints rá, és válaszd ki a fájlt. Ha a helynek már vannak fotói a fájljai között, a TREK előbb megkérdezi, melyiket választod: „Feltöltés eszközről”, vagy az egyik kép a „Csatolt fájlokból” alatt.',
+    'Vidd az egeret a fejlécben lévő kerek kép fölé: megjelenik egy kamera, az elemleírásban pedig ez áll: „Kép feltöltése”. Kattints rá, és válaszd ki a fájlt. Ha a helynek már vannak fotói a fájljai között, a Manzil előbb megkérdezi, melyiket választod: „Feltöltés eszközről”, vagy az egyik kép a „Csatolt fájlokból” alatt.',
   'help.guide.place-image.step.3': 'A kártya tetején most a te képed látszik, a sarkában egy kis piros X-szel.',
   'help.guide.place-image.step.4':
     'Ugyanez a kép jelenik meg a hely sorában a helyek oszlopában, és a jelölőjén a térképen.',
@@ -2524,7 +2524,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.tip.2':
     'A sarokban lévő X eltávolítja a képedet, és újra az automatikus kép jelenik meg. Maga a hely nem változik.',
   'help.guide.place-image.tip.3':
-    'Ha nem adtál meg képet, a TREK a hely koordinátái alapján keres egyet. Ha nem talál, a kategória ikonját mutatja. Képet csak azok az utazók állíthatnak be, akik szerkeszthetik a helyeket.',
+    'Ha nem adtál meg képet, a Manzil a hely koordinátái alapján keres egyet. Ha nem talál, a kategória ikonját mutatja. Képet csak azok az utazók állíthatnak be, akik szerkeszthetik a helyeket.',
   // place-day-assign
   'help.guide.place-day-assign.title': 'A hely hozzáadása a megnyitott naphoz vagy eltávolítása róla',
   'help.guide.place-day-assign.goal': 'Használd a kártyán lévő gombot ahelyett, hogy a sort áthúznád a tervezőn.',
@@ -2608,11 +2608,11 @@ const help: TranslationStrings = {
   'help.guide.place-navigation.step.2':
     'A lista az ehhez a helyhez illő térképalkalmazásokat mutatja: Google Maps, Waze, Apple Maps, OpenStreetMap és CoMaps, Androidon pedig a „Másik térképalkalmazás” lehetőséget is.',
   'help.guide.place-navigation.step.3':
-    'Kattints arra, amelyiket használod. Ahol lehet, a TREK magát a helyet küldi át az alkalmazásnak, nem csak a koordinátáit, így a megfelelő bejárathoz jutsz.',
+    'Kattints arra, amelyiket használod. Ahol lehet, a Manzil magát a helyet küldi át az alkalmazásnak, nem csak a koordinátáit, így a megfelelő bejárathoz jutsz.',
   'help.guide.place-navigation.step.4':
     'A mellette lévő „Weboldal megnyitása” új lapon nyitja meg a hely saját weboldalát a nyitvatartással és a jegyekkel.',
   'help.guide.place-navigation.result':
-    'A térképalkalmazás a helynél nyílik meg, a weboldal új lapon, az utazásban pedig semmi sem változik. Ha a TREK alkalmazásként van telepítve, új lap helyett a térképalkalmazás nyílik meg.',
+    'A térképalkalmazás a helynél nyílik meg, a weboldal új lapon, az utazásban pedig semmi sem változik. Ha a Manzil alkalmazásként van telepítve, új lap helyett a térképalkalmazás nyílik meg.',
   'help.guide.place-navigation.tip.1':
     'A Waze azonnal elindítja a navigációt. A többi alkalmazás megnyitja a helyet, és a navigáció indításához még egyszer koppintanod kell.',
   'help.guide.place-navigation.tip.2':
@@ -2668,13 +2668,13 @@ const help: TranslationStrings = {
   'help.ctx.trip-files.summary':
     'Az utazás összes dokumentuma egy listában: jegyek, visszaigazolások, Wallet-kártyák és képek. Mindegyikhez tartozik egy megjegyzés, egy kapcsolat ahhoz a helyhez vagy foglaláshoz, amelyhez tartozik, valamint egy kuka, ahonnan visszaállíthatod.',
   'help.ctx.trip-files.bullet.1':
-    'A sáv alatti szaggatott keretes mező („Húzd ide a fájlokat”) fogadja a ráejtett fájlokat. Rákattintva megnyílik a fájlválasztó. A mezőben látod, milyen fájltípusokat fogad ez a TREK, és mekkora a fájlonkénti korlát (max. 50 MB, hacsak a rendszergazda mást nem állított be).',
+    'A sáv alatti szaggatott keretes mező („Húzd ide a fájlokat”) fogadja a ráejtett fájlokat. Rákattintva megnyílik a fájlválasztó. A mezőben látod, milyen fájltípusokat fogad ez a Manzil, és mekkora a fájlonkénti korlát (max. 50 MB, hacsak a rendszergazda mást nem állított be).',
   'help.ctx.trip-files.bullet.2':
     'A felső sávban a „Fájl” felirat és a szűrőfülek láthatók: „Mind”, „PDF-ek”, „Képek” és „Dokumentumok”, mindegyik a darabszámával. Amint egy fájl csillagot kap, a „Mind” után megjelenik egy csillag fül, és amint egy jegyzethez melléklet tartozik, a sor végén megjelenik a „Közös jegyzetek” fül.',
   'help.ctx.trip-files.bullet.3':
     'Egy sorban látszik a bélyegkép vagy a fájl típusa, a feltöltő, a név, alatta a megjegyzés, a méret és a dátum, valamint minden kapcsolathoz egy jelvény: a hely, a foglalás vagy a közlekedés a nevével (ha fölé viszed az egeret, megjelenik a „Napi terv”, a „Foglalás” vagy a „Közlekedés” felirat), illetve a „Közös jegyzetekből” jelvény.',
   'help.ctx.trip-files.bullet.4':
-    'A sor végén legfeljebb öt ikon van, mindegyik neve megjelenik, ha fölé viszed az egeret: „Csillag”, „Hozzárendelés” (a ceruza), „Megnyitás”, „Letöltés” és „Törlés”. A „Törlés” nem kérdez rá: a fájl a kukába kerül, ahonnan visszaállíthatod. Offline állapotban a jegyzet, a kapcsolat, a csillag és a kuka is működik, és a TREK akkor küldi el őket, amikor újra van kapcsolat; csak a feltöltéshez és egy további kapcsolat megszüntetéséhez kell internet.',
+    'A sor végén legfeljebb öt ikon van, mindegyik neve megjelenik, ha fölé viszed az egeret: „Csillag”, „Hozzárendelés” (a ceruza), „Megnyitás”, „Letöltés” és „Törlés”. A „Törlés” nem kérdez rá: a fájl a kukába kerül, ahonnan visszaállíthatod. Offline állapotban a jegyzet, a kapcsolat, a csillag és a kuka is működik, és a Manzil akkor küldi el őket, amikor újra van kapcsolat; csak a feltöltéshez és egy további kapcsolat megszüntetéséhez kell internet.',
   'help.ctx.trip-files.bullet.5':
     'A képek és videók teljes képernyőn nyílnak meg, a nyílbillentyűkkel lapozhatók, és bélyegképsor is tartozik hozzájuk. Minden más dokumentum egy ablakban nyílik meg, felül a nevével, alatta a „Megnyitás új lapon” és a „Letöltés” gombbal. A Wallet-kártyák azonnal letöltődnek.',
   'help.ctx.trip-files.bullet.6':
@@ -2686,7 +2686,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.step.1':
     'Nyisd meg az utazást, és a fülsávon kattints a „Fájl” fülre. Itt látod az utazás dokumentumait, fölöttük a feltöltési mezővel.',
   'help.guide.files-upload.step.2':
-    'Kattints a „Húzd ide a fájlokat” mezőre, és válassz ki egy vagy több fájlt. Egymás után töltődnek fel, közben a mezőben a „Feltöltés...” felirat látszik. A mezőben, a „vagy kattints a böngészéshez” alatt látod, milyen fájltípusokat fogad ez a TREK, és mekkora lehet egy fájl.',
+    'Kattints a „Húzd ide a fájlokat” mezőre, és válassz ki egy vagy több fájlt. Egymás után töltődnek fel, közben a mezőben a „Feltöltés...” felirat látszik. A mezőben, a „vagy kattints a böngészéshez” alatt látod, milyen fájltípusokat fogad ez a Manzil, és mekkora lehet egy fájl.',
   'help.guide.files-upload.step.3':
     'Amikor az utolsó fájl feltöltése befejeződik, automatikusan megnyílik hozzá a „Fájl hozzárendelése” ablak (ha az utazásnak vannak helyei vagy foglalásai), a tetején a fájl nevével. A „Megjegyzés” alatti „Megjegyzés hozzáadása...” mezővel megjegyzést fűzhetsz a fájlhoz, az alatta lévő listákkal pedig egy helyhez vagy foglaláshoz kapcsolhatod. A jobb felső × gombbal zárd be; a bezárással semmi sem vész el.',
   'help.guide.files-upload.step.4':
@@ -2698,7 +2698,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.tip.2':
     'A Ctrl+V billentyűkkel a vágólapon lévő képet közvetlenül a listába illesztheted, így egy foglalásról készült képernyőképet nem kell előbb elmentened.',
   'help.guide.files-upload.tip.3':
-    'A feltöltéshez fájlfeltöltési jogosultság kell; enélkül a feltöltőmező meg sem jelenik. A listán nem szereplő típust a TREK üzenettel elutasítja, és semmit sem tölt fel. A méretkorlátot (50 MB, hacsak a rendszergazda mást nem állított be) meghaladó fájlt még a küldés előtt elutasítja, és az üzenet megadja a korlátot. A feltöltéshez internetkapcsolat is kell: offline állapotban a TREK jelzi ezt, és nem tölt fel semmit.',
+    'A feltöltéshez fájlfeltöltési jogosultság kell; enélkül a feltöltőmező meg sem jelenik. A listán nem szereplő típust a Manzil üzenettel elutasítja, és semmit sem tölt fel. A méretkorlátot (50 MB, hacsak a rendszergazda mást nem állított be) meghaladó fájlt még a küldés előtt elutasítja, és az üzenet megadja a korlátot. A feltöltéshez internetkapcsolat is kell: offline állapotban a Manzil jelzi ezt, és nem tölt fel semmit.',
   // files-link
   'help.guide.files-link.title': 'Dokumentum csatolása helyhez vagy foglaláshoz',
   'help.guide.files-link.goal':
@@ -2718,7 +2718,7 @@ const help: TranslationStrings = {
   'help.guide.files-link.tip.1':
     'Egy fájlnak egyszerre több kapcsolata is lehet, így ugyanaz a visszaigazolás tartozhat egyszerre a szálloda foglalásához és a szálloda helyéhez.',
   'help.guide.files-link.tip.2':
-    'Egy bejelölt tételre újra kattintva megszünteted a kapcsolatot; maga a fájl megmarad. Offline állapotban a jegyzet és az új jelölések mentődnek, és a TREK akkor küldi el őket, amikor újra van kapcsolat; csak egy másik kapcsolat megszüntetéséhez kell internet.',
+    'Egy bejelölt tételre újra kattintva megszünteted a kapcsolatot; maga a fájl megmarad. Offline állapotban a jegyzet és az új jelölések mentődnek, és a Manzil akkor küldi el őket, amikor újra van kapcsolat; csak egy másik kapcsolat megszüntetéséhez kell internet.',
   'help.guide.files-link.tip.3':
     'Fordítva is működik: a helyhez vagy foglaláshoz csatolt dokumentum is szerepel ebben a listában, ugyanazzal a jelvénnyel a sorában.',
   // files-star
@@ -2753,7 +2753,7 @@ const help: TranslationStrings = {
   'help.guide.files-filter.tip.2':
     'A lista mindig úgy van rendezve, hogy elöl a csillagozott fájlok állnak, utána a legújabbak, így a ma feltöltött dokumentum a múlt havi fölött látszik.',
   // files-preview
-  'help.guide.files-preview.title': 'Dokumentum megtekintése a TREK elhagyása nélkül',
+  'help.guide.files-preview.title': 'Dokumentum megtekintése a Manzil elhagyása nélkül',
   'help.guide.files-preview.goal':
     'Nézz meg azonnal egy jegyet vagy képet, és töltsd le az eszközödre, ha ott van rá szükséged.',
   'help.guide.files-preview.step.1':
@@ -2789,7 +2789,7 @@ const help: TranslationStrings = {
     'A sávban a kuka ikon melletti „Kuka ürítése” véglegesen töröl mindent, ami még a kukában van. A böngésző előtte egyszer megerősítést kér. A kuka ikon visszavált a fájlokra.',
   'help.guide.files-trash.result': 'A fájl visszakerült a listába, oda, ahol korábban volt.',
   'help.guide.files-trash.tip.1':
-    'A sorban lévő „Törlés” nem kérdez rá előbb. Ezért van kuka: a TREK-ből semmi sem tűnik el, amíg itt nem törlöd. Mindez offline is működik, és a TREK akkor küldi el, amikor újra van kapcsolat.',
+    'A sorban lévő „Törlés” nem kérdez rá előbb. Ezért van kuka: a TREK-ből semmi sem tűnik el, amíg itt nem törlöd. Mindez offline is működik, és a Manzil akkor küldi el, amikor újra van kapcsolat.',
   'help.guide.files-trash.tip.2':
     'A fájlok törléséhez és visszaállításához fájltörlési jog kell. Akinek ez nincs meg, nem látja sem a sorban a „Törlés” gombot, sem a kuka gombjait.',
   'help.guide.files-trash.tip.3': 'A kukából véglegesen törölt fájl már nem állítható vissza.',
@@ -2802,21 +2802,21 @@ const help: TranslationStrings = {
   'help.guide.files-sync.step.2':
     'Kattints a tárolódra, például a Nextcloudra. Megnyílik egy kisebb ablak a csatlakozáshoz. Ennek címe a tároló neve, és azokat a bejelentkezési adatokat kéri, amelyekre ennek a tárolónak szüksége van.',
   'help.guide.files-sync.step.3':
-    'Töltsd ki a „Cím” mezőt és a tároló saját bejelentkezési adatait: Paperless-ngx-nél API-tokent, Papránál API-kulcsot és szervezetazonosítót, Nextcloudnál felhasználónevet és alkalmazásjelszót, OpenCloudnál felhasználónevet és alkalmazástokent, Synology Drive-nál pedig felhasználónevet, jelszót és, ha a fiók kéri, kétlépcsős kódot. Ahol a tároló lehetővé teszi, mindig alkalmazásjelszót vagy tokent használj, soha ne a fiókod jelszavát. A Nextcloud és a Synology Drive emellett egy opcionális alapmappát is elfogad, ahol a TREK az utazások mappáit keresi, itt a /Reisen mappát. Az alul lévő „Saját aláírású tanúsítvány elfogadása” csak a saját hálózatodon lévő, ilyen tanúsítványt használó tárolóhoz való.',
+    'Töltsd ki a „Cím” mezőt és a tároló saját bejelentkezési adatait: Paperless-ngx-nél API-tokent, Papránál API-kulcsot és szervezetazonosítót, Nextcloudnál felhasználónevet és alkalmazásjelszót, OpenCloudnál felhasználónevet és alkalmazástokent, Synology Drive-nál pedig felhasználónevet, jelszót és, ha a fiók kéri, kétlépcsős kódot. Ahol a tároló lehetővé teszi, mindig alkalmazásjelszót vagy tokent használj, soha ne a fiókod jelszavát. A Nextcloud és a Synology Drive emellett egy opcionális alapmappát is elfogad, ahol a Manzil az utazások mappáit keresi, itt a /Reisen mappát. Az alul lévő „Saját aláírású tanúsítvány elfogadása” csak a saját hálózatodon lévő, ilyen tanúsítványt használó tárolóhoz való.',
   'help.guide.files-sync.step.4':
-    'Kattints a „Kapcsolat tesztelése” gombra. A TREK a megadott adatokkal csatlakozik a tárhelyhez, és a láblécben megjelenik a „Sikeres kapcsolat, bejelentkezve:” felirat a fiók nevével. Ha a hitelesítő adatokat elutasítja a tárhely, vagy a cím nem érhető el, a lábléc ezt jelzi. Egyik esetben sem mentődik el semmi.',
+    'Kattints a „Kapcsolat tesztelése” gombra. A Manzil a megadott adatokkal csatlakozik a tárhelyhez, és a láblécben megjelenik a „Sikeres kapcsolat, bejelentkezve:” felirat a fiók nevével. Ha a hitelesítő adatokat elutasítja a tárhely, vagy a cím nem érhető el, a lábléc ezt jelzi. Egyik esetben sem mentődik el semmi.',
   'help.guide.files-sync.step.5':
-    'Kattints a „Csatlakozás” gombra. A kapcsolat az utazással együtt mentődik, és a TREK megkérdezi, hol legyenek a tárhelyen az utazás dokumentumai: melyik címke, mappa vagy tér tartalmazza őket. Csak az szinkronizálódik, ami ott van. Az „Új létrehozása” a „Létrehozás” gombra kattintva létrehozza ezt az utazás címéből képzett névvel. A „Vagy használj egy meglévőt” alatt a már létezők látszanak. Kattints egyre, itt az Autumn in Japan mappára.',
+    'Kattints a „Csatlakozás” gombra. A kapcsolat az utazással együtt mentődik, és a Manzil megkérdezi, hol legyenek a tárhelyen az utazás dokumentumai: melyik címke, mappa vagy tér tartalmazza őket. Csak az szinkronizálódik, ami ott van. Az „Új létrehozása” a „Létrehozás” gombra kattintva létrehozza ezt az utazás címéből képzett névvel. A „Vagy használj egy meglévőt” alatt a már létezők látszanak. Kattints egyre, itt az Autumn in Japan mappára.',
   'help.guide.files-sync.step.6':
     'Az ablak újra megnyílik: a tárhelyed bal oldalon az „Ez az utazás” alatt látszik, a jobb oldali kártyáján pedig az, hová szinkronizál, mikor futott utoljára, és a „Szinkronizálás most” gomb. Az első szinkronizálás automatikusan elindul; a „Szinkronizálás most” gombbal bármikor elindíthatsz egyet. Szinkronizálás után a név melletti „Még nincs szinkronizálva” jelvény zöld pontra vált, amely fölé víve az egeret a „Naprakész” felirat látszik. A folyamatsáv mutatja, hány dokumentum van a TREK-ben és a tárhelyen, köztük a „Ki a tárolóba” és a „Be a tárolóból” sávval. Az ablakot a jobb felső × jellel zárhatod be.',
   'help.guide.files-sync.result':
-    'A tárhelyen már meglévő dokumentumok a lista tetején jelennek meg, a te nevedben feltöltve, és az utazás minden dokumentuma a tárhelyen is megvan, kivéve a „Közös jegyzetek” dokumentumait. Mostantól a TREK a háttérben figyeli a tárhelyet, és a listában végzett módosításokat átmásolja oda.',
+    'A tárhelyen már meglévő dokumentumok a lista tetején jelennek meg, a te nevedben feltöltve, és az utazás minden dokumentuma a tárhelyen is megvan, kivéve a „Közös jegyzetek” dokumentumait. Mostantól a Manzil a háttérben figyeli a tárhelyet, és a listában végzett módosításokat átmásolja oda.',
   'help.guide.files-sync.tip.1':
     'Az utazást csak a tulajdonosa vagy a példány adminisztrátora csatlakoztathatja, mert a hitelesítő adatok a tárolóban a teljes fiókhoz hozzáférést adnak. Ha az utazás már csatlakoztatva van, minden tag látja a „Dokumentumok szinkronizálása” gombot, megnyithatja, elolvashatja a kártyát, és megnyomhatja a „Szinkronizálás most” gombot.',
   'help.guide.files-sync.tip.2':
     'A saját hálózatodon lévő tárolóhoz a TREK-szerveren ALLOW_INTERNAL_NETWORK=true beállítás kell, a címének pedig a gép hálózati címének kell lennie, sosem localhost. Enélkül a „Kapcsolat tesztelése” ezt válaszolja: „Ez a cím nem engedélyezett.”',
   'help.guide.files-sync.tip.3':
-    'A „Szinkronizálás most” melletti ikon, a „Leválasztás”, egyszer megerősítést kér. Ezután megszünteti a kapcsolatot, és mindkét oldalon megtart minden dokumentumot. Ha egy címkét, mappát vagy teret másodszor is csatlakoztatsz, a TREK újként kezeli, és mindent újra importál belőle. Ezért leválasztás után üreset csatlakoztass, ne a régit.',
+    'A „Szinkronizálás most” melletti ikon, a „Leválasztás”, egyszer megerősítést kér. Ezután megszünteti a kapcsolatot, és mindkét oldalon megtart minden dokumentumot. Ha egy címkét, mappát vagy teret másodszor is csatlakoztatsz, a Manzil újként kezeli, és mindent újra importál belőle. Ezért leválasztás után üreset csatlakoztass, ne a régit.',
 
   // ── Screen: trip-day-detail ───────────────────────────────────────────────────────────
   'help.ctx.trip-day-detail.title': 'Nap részletei',
@@ -3002,7 +3002,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.1':
     'A térkép tetején lévő ikonsor a kategóriakeresés: „Éttermek”, „Kávézók”, „Bárok és éjszakai élet”, „Szállás”, „Látnivalók”, „Múzeumok és kultúra”, „Természet és parkok” és „Programok”. A pluginek által hozzáadott kategóriák egy vékony elválasztó után következnek; ha egy ikon fölé viszed az egeret, megjelenik a neve.',
   'help.guide.map-nearby-places.step.2':
-    'Kattints egy kategóriára. A TREK ilyen típusú helyeket keres a térkép látható részén, és minden találathoz a kategória színével jelölt gombostűt tesz le. Egyszerre csak egy kategória lehet aktív: egy másikra kattintva lecseréled, az aktívra kattintva kikapcsolod.',
+    'Kattints egy kategóriára. A Manzil ilyen típusú helyeket keres a térkép látható részén, és minden találathoz a kategória színével jelölt gombostűt tesz le. Egyszerre csak egy kategória lehet aktív: egy másikra kattintva lecseréled, az aktívra kattintva kikapcsolod.',
   'help.guide.map-nearby-places.step.3':
     'Ha elmozdítod a térképet, a sor alatt megjelenik egy második gomb: a „Keresés ezen a területen” ugyanazt a keresést futtatja le az új nézetre. A térkép mozgatása magától nem indít új keresést, így kevesebb kérés megy ki.',
   'help.guide.map-nearby-places.step.4':
@@ -3010,7 +3010,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.5':
     'Ellenőrizd a kitöltött adatokat, és egészítsd ki azzal, amit a keresés nem tudhatott. A név alatti kategóriagomb már be van állítva, ha az utazásnak van megfelelő kategóriája, például étteremnél az étterem; ha nincs, „Nincs kategória” látszik rajta, amíg nem választasz. Adj hozzá leírást („Leírás”) és saját jegyzeteket.',
   'help.guide.map-nearby-places.step.6':
-    'Kattints a „Hozzáadás” gombra. Ha már van az utazásban azonos nevű vagy ugyanazon a ponton lévő hely, a TREK jelzi ezt, és a gomb felirata „Hozzáadás mindenképp” lesz.',
+    'Kattints a „Hozzáadás” gombra. Ha már van az utazásban azonos nevű vagy ugyanazon a ponton lévő hely, a Manzil jelzi ezt, és a gomb felirata „Hozzáadás mindenképp” lesz.',
   'help.guide.map-nearby-places.result':
     'A hely bekerült a helylistába, és a térképen az utazás saját gombostűjeként látszik, a „Nem tervezett” helyek között, amíg egy naphoz nem rendeled. A keresés gombostűi addig maradnak, amíg ki nem kapcsolod a kategóriát.',
   'help.guide.map-nearby-places.tip.1':
@@ -3025,7 +3025,7 @@ const help: TranslationStrings = {
   'help.guide.map-add-place.step.1':
     'Kattints jobb gombbal a térkép kívánt pontjára. Megnyílik a hely űrlapja „Hely/Tevékenység hozzáadása” címmel.',
   'help.guide.map-add-place.step.2':
-    'A „Szélességi fok” és a „Hosszúsági fok” már erre a pontra van beállítva. A TREK lekérdezi a koordinátákat, és a „Cím” mezőt az ott talált adattal tölti ki. Ha a lekérdezés nevet is talál, a TREK az ablak tetején a nevet is kitölti. Még semmi sincs elmentve, így javítsd ki, ami nem stimmel.',
+    'A „Szélességi fok” és a „Hosszúsági fok” már erre a pontra van beállítva. A Manzil lekérdezi a koordinátákat, és a „Cím” mezőt az ott talált adattal tölti ki. Ha a lekérdezés nevet is talál, a Manzil az ablak tetején a nevet is kitölti. Még semmi sincs elmentve, így javítsd ki, ami nem stimmel.',
   'help.guide.map-add-place.step.3':
     'Az ablak tetején lévő mezőbe írj egy olyan nevet, amelyről felismered a helyet. Az alatta lévő gombbal válassz kategóriát; amíg nem választasz, „Nincs kategória” látszik rajta. Ezután add meg a tervhez szükséges további adatokat: „Leírás”, „Jegyzetek”, „Weboldal”.',
   'help.guide.map-add-place.step.4':
@@ -3042,7 +3042,7 @@ const help: TranslationStrings = {
   'help.guide.map-satellite.step.1':
     'Az alapréteg-kapcsoló a térkép bal alsó sarkában lévő két kerek gomb közül az alsó, a lakat alatt. Az ikonja mindig azt a réteget mutatja, amelyre vált, az elemleírása pedig meg is nevezi: „Váltás műholdas nézetre”. Kattints rá.',
   'help.guide.map-satellite.step.2':
-    'A térkép most légifotókat mutat. Ezek elég részletesek ahhoz, hogy egyes épületeket is láss, és nincs szükséged saját kulcsra. Minden, amit a TREK rajzol, fölöttük marad: a gombostűk, a nap útvonala, a nyomvonalak és a foglalási útvonalak.',
+    'A térkép most légifotókat mutat. Ezek elég részletesek ahhoz, hogy egyes épületeket is láss, és nincs szükséged saját kulcsra. Minden, amit a Manzil rajzol, fölöttük marad: a gombostűk, a nap útvonala, a nyomvonalak és a foglalási útvonalak.',
   'help.guide.map-satellite.step.3':
     'A gombon most a „Váltás térkép nézetre” felirat áll. Kattints rá, hogy visszatérj a térképnézethez.',
   'help.guide.map-satellite.result': 'A térkép újrarajzolódik, és a fiókod megjegyzi a választott réteget.',
@@ -3097,7 +3097,7 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.goal':
     'Jelenítsd meg a térképen a Dawarich által a telefonodon rögzített útvonalat szaggatott vonalként a tervezett útvonal mellett, és nézd meg napról napra, hogyan alakult valójában az utazás.',
   'help.guide.map-dawarich-trail.step.1':
-    'A kerek Dawarich gomb a térkép jobb alsó sarkában, a „Teljes utazás megjelenítése” alatt található. Ha fölé viszed az egeret, ez látszik: „Rögzített útvonal megjelenítése”. Kattints rá. A TREK lekéri a Dawarichodtól az utazás dátumaira vonatkozó adatokat, és amíg a válaszra vár, egy gyűrű forog a gomb körül.',
+    'A kerek Dawarich gomb a térkép jobb alsó sarkában, a „Teljes utazás megjelenítése” alatt található. Ha fölé viszed az egeret, ez látszik: „Rögzített útvonal megjelenítése”. Kattints rá. A Manzil lekéri a Dawarichodtól az utazás dátumaira vonatkozó adatokat, és amíg a válaszra vár, egy gyűrű forog a gomb körül.',
   'help.guide.map-dawarich-trail.step.2':
     'A rögzített útvonal szaggatott vonalként jelenik meg, naponként más színnel, a tervezett útvonal alá rajzolva, hogy a terv olvasható maradjon. A gombon most a „Rögzített útvonal elrejtése” felirat áll. Minden nap helyi idő szerint éjfélkor ér véget. Ha a napok oszlopában összecsukasz egy napot, a szaggatott vonala és a megállói eltűnnek a térképről.',
   'help.guide.map-dawarich-trail.step.3':
@@ -3105,9 +3105,9 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.result':
     'A térképen együtt látod, mit terveztél és mit csináltál valójában, szaggatott és folytonos vonalként. A gombok fölötti kártya továbbra is a tervezett napokat és azok távolságait sorolja fel.',
   'help.guide.map-dawarich-trail.tip.1':
-    'A be- vagy kikapcsolt állapotot a fiókod utazásonként menti, így minden böngészőben és minden eszközön ugyanaz. Amíg az útvonal be van kapcsolva, a TREK kétpercenként újra lekérdezi a Dawarichot, így egy zajló utazás az oldal újratöltése nélkül is frissül. Magát az útvonalat a TREK sosem tárolja, így nincs benne az adatbázisában, a biztonsági mentésekben, és offline sem érhető el.',
+    'A be- vagy kikapcsolt állapotot a fiókod utazásonként menti, így minden böngészőben és minden eszközön ugyanaz. Amíg az útvonal be van kapcsolva, a Manzil kétpercenként újra lekérdezi a Dawarichot, így egy zajló utazás az oldal újratöltése nélkül is frissül. Magát az útvonalat a Manzil sosem tárolja, így nincs benne az adatbázisában, a biztonsági mentésekben, és offline sem érhető el.',
   'help.guide.map-dawarich-trail.tip.2':
-    'A gomb felirata elárulja, miért üres a térkép: betöltés közben „Rögzített útvonal betöltése…”, egyébként „Ezeken a napokon nem készült rögzítés”, „A rögzített útvonalat nem sikerült betölteni”, vagy ha a TREK offline, „A rögzített útvonalhoz kapcsolat kell”.',
+    'A gomb felirata elárulja, miért üres a térkép: betöltés közben „Rögzített útvonal betöltése…”, egyébként „Ezeken a napokon nem készült rögzítés”, „A rögzített útvonalat nem sikerült betölteni”, vagy ha a Manzil offline, „A rögzített útvonalhoz kapcsolat kell”.',
   // map-compass
   'help.guide.map-compass.title': 'A térkép elforgatása és visszaállítása északra',
   'help.guide.map-compass.goal':
@@ -3323,7 +3323,7 @@ const help: TranslationStrings = {
   'help.guide.packing-categories.tip.2':
     'Ha valakit hozzárendelsz egy listához, csomagolási értesítést kap. Ez nem befolyásolja, ki látja a tételeket: ezt a sor hárompontos menüjében, a „Megosztás” alatt állíthatod be.',
   'help.guide.packing-categories.tip.3':
-    'Két listának lehet ugyanaz a neve. A TREK a háttérben megkülönbözteti őket, így a nevek pontosan úgy maradnak, ahogy beírtad.',
+    'Két listának lehet ugyanaz a neve. A Manzil a háttérben megkülönbözteti őket, így a nevek pontosan úgy maradnak, ahogy beírtad.',
   // check-off-packing
   'help.guide.check-off-packing.title': 'Kipipálás csomagolás közben',
   'help.guide.check-off-packing.goal':
@@ -3374,13 +3374,13 @@ const help: TranslationStrings = {
   'help.guide.import-packing-list.step.3':
     'Vagy töltsd be a sorokat fájlból az ablak bal alsó sarkában lévő „CSV/TXT/MD betöltése” gombbal. Egy .csv, .txt vagy .md fájlt választhatsz, és a tartalma felülírja a mezőben lévő szöveget.',
   'help.guide.import-packing-list.step.4':
-    'Kattints a jobb alsó „3 importálása” gombra; a rajta lévő szám azt mutatja, hány sort értelmezett a TREK.',
+    'Kattints a jobb alsó „3 importálása” gombra; a rajta lévő szám azt mutatja, hány sort értelmezett a Manzil.',
   'help.guide.import-packing-list.result':
     'Minden sorból egy tétel lesz abban a listában, amelyet az első mezője megnevez. A már meglévő tételek nem változnak.',
   'help.guide.import-packing-list.tip.1':
     'A mezőket vessző, pontosvessző vagy tabulátor is elválaszthatja, az idézőjelek pedig egyben tartják a mezőt, így a "Shirt, blue" egyetlen név marad. Az egyetlen értéket tartalmazó sor csak egy név. A saját lista nélküli sor az „Egyéb” listába kerül. A név előtti "3x" a mennyiséget adja meg.',
   'help.guide.import-packing-list.tip.2':
-    'Ha a negyedik mezőben megadott táska még nem létezik az utazásban, a TREK létrehozja. Az „Importálás” és a „Sablon alkalmazása” a két módja annak, hogy egyszerre sok tételhez adj súlyt és táskát.',
+    'Ha a negyedik mezőben megadott táska még nem létezik az utazásban, a Manzil létrehozja. Az „Importálás” és a „Sablon alkalmazása” a két módja annak, hogy egyszerre sok tételhez adj súlyt és táskát.',
   // export-packing-list
   'help.guide.export-packing-list.title': 'A csomagolási lista nyomtatása vagy exportálása',
   'help.guide.export-packing-list.goal':
@@ -3486,7 +3486,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-bookings.bullet.1':
     'A sáv jobb végén lévő „Kézi foglalás” megnyitja az „Új foglalás” ablakot. Hatféle foglalást hozhatsz létre: „Szállás”, „Étterem”, „Esemény”, „Túra”, „Parkolás” és „Egyéb”. A repülőjáratok, vonatok és egyéb közlekedési eszközök a „Közlekedés” fülön vannak, és itt sosem jelennek meg.',
   'help.ctx.trip-bookings.bullet.2':
-    'A „Kézi foglalás” előtti letöltés ikonnal („Foglalási visszaigazolások importálása”) visszaigazolásokat tölthetsz fel, amelyeket a TREK automatikusan feldolgoz: EML, PDF, PKPass, HTML vagy TXT, legfeljebb öt fájl, egyenként 10 MB-ig, valamint fotók, ha az AI-modell képeket is tud olvasni. Az ikon csak akkor jelenik meg, ha a szerver képes feldolgozni őket.',
+    'A „Kézi foglalás” előtti letöltés ikonnal („Foglalási visszaigazolások importálása”) visszaigazolásokat tölthetsz fel, amelyeket a Manzil automatikusan feldolgoz: EML, PDF, PKPass, HTML vagy TXT, legfeljebb öt fájl, egyenként 10 MB-ig, valamint fotók, ha az AI-modell képeket is tud olvasni. Az ikon csak akkor jelenik meg, ha a szerver képes feldolgozni őket.',
   'help.ctx.trip-bookings.bullet.3':
     'A „Keresés” a címekben, típusokban, helyekben, jegyzetekben, foglalási kódokban és utazókban keres. A mellette lévő tölcsér, a „Szűrő” „Állapot” és „Típus” szerint (típusonként darabszámmal), valamint „Utasok” szerint szűkíti a fület, ha egy foglaláshoz személyek is tartoznak. A tölcséren lévő szám mutatja, hány szűrő aktív.',
   'help.ctx.trip-bookings.bullet.4':
@@ -3551,7 +3551,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.step.2':
     'A „Szállás” alatt válaszd ki a szállodát. A listában az utazás helyei szerepelnek, az importált nyomvonalak és túrák nélkül. Ha kiválasztasz egyet, a neve bekerül az üres címmezőbe, a címe pedig a „Helyszín / Cím” mezőbe.',
   'help.guide.booking-hotel.step.3':
-    'Állítsd be a „Kitől” és az „Eddig” mezőt: az első éjszakát és az elutazás reggelét. Mindkettőben az utazás napjai közül választhatsz a dátumukkal együtt, és a TREK gondoskodik róla, hogy az „Eddig” a „Kitől” után legyen.',
+    'Állítsd be a „Kitől” és az „Eddig” mezőt: az első éjszakát és az elutazás reggelét. Mindkettőben az utazás napjai közül választhatsz a dátumukkal együtt, és a Manzil gondoskodik róla, hogy az „Eddig” a „Kitől” után legyen.',
   'help.guide.booking-hotel.step.4':
     'Töltsd ki a „Bejelentkezés”, a „Bejelentkezés eddig” és a „Kijelentkezés” mezőt, valamint a visszaigazolásból a „Foglalási kód” mezőt.',
   'help.guide.booking-hotel.step.5': 'Kattints a „Hozzáadás” gombra.',
@@ -3560,7 +3560,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.tip.1':
     'A „Szállás” az egyetlen típus „Dátum” és „Kezdési idő” nélkül. A dátumait az „Ettől” és az „Eddig” mezőben adod meg, és nem naptári dátumokat, hanem az utazás napjait választod ki.',
   'help.guide.booking-hotel.tip.2':
-    'Ha a „Szállás” mezőt üresen hagyod, és helyette beírod a címet, a TREK megkeresi a helyet, létrehozza, és felteszi a térképre.',
+    'Ha a „Szállás” mezőt üresen hagyod, és helyette beírod a címet, a Manzil megkeresi a helyet, létrehozza, és felteszi a térképre.',
   'help.guide.booking-hotel.tip.3': 'Ha törlöd a foglalást, az éjszakái is eltűnnek a napi tervből.',
   // link-booking
   'help.guide.link-booking.title': 'Foglalás összekapcsolása a tervvel',
@@ -3578,7 +3578,7 @@ const help: TranslationStrings = {
   'help.guide.link-booking.tip.1':
     'A lista tetején lévő „Nincs összekapcsolás (önálló)” megszünteti a kapcsolatot. A szállásnál nincs megállóválasztó: az éjszakáin keresztül kapcsolódik a tervhez.',
   'help.guide.link-booking.tip.2':
-    'Ha dátummal rendelkező napon választasz megállót, a TREK kitölti az üres „Dátum” mezőt. A már beállított dátumot nem módosítja.',
+    'Ha dátummal rendelkező napon választasz megállót, a Manzil kitölti az üres „Dátum” mezőt. A már beállított dátumot nem módosítja.',
   // booking-travelers
   'help.guide.booking-travelers.title': 'Kinek szól a foglalás',
   'help.guide.booking-travelers.goal':
@@ -3658,7 +3658,7 @@ const help: TranslationStrings = {
   // import-booking-file
   'help.guide.import-booking-file.title': 'Foglalás importálása a visszaigazolásból',
   'help.guide.import-booking-file.goal':
-    'A TREK olvassa ki a foglalást a szolgáltatótól kapott e-mailből vagy PDF-ből, hogy ne kelljen újra begépelned.',
+    'A Manzil olvassa ki a foglalást a szolgáltatótól kapott e-mailből vagy PDF-ből, hogy ne kelljen újra begépelned.',
   'help.guide.import-booking-file.step.1':
     'Kattints a sávban a letöltés ikonra, a „Foglalási visszaigazolások importálása” gombra; a neve akkor jelenik meg, ha fölé viszed az egeret. Megnyílik az azonos nevű ablak.',
   'help.guide.import-booking-file.step.2':
@@ -3792,16 +3792,16 @@ const help: TranslationStrings = {
   'help.guide.split-expense.tip.2':
     'Az „Equally” centre pontosan oszt: a maradék cent kiadásonként más-más személyhez kerül, így nem mindig ugyanaz fizeti.',
   'help.guide.split-expense.tip.3':
-    '„Blokk” módban a „Teljes összeg” mezőt a TREK maga számolja ki, ezért a mező kiszürkül: a végösszeg a blokk tételeinek összege.',
+    '„Blokk” módban a „Teljes összeg” mezőt a Manzil maga számolja ki, ezért a mező kiszürkül: a végösszeg a blokk tételeinek összege.',
   'help.guide.split-expense.tip.4':
     'Egyéni felosztást százalékban is megadhatsz: állítsd a „Részek megadása mint” kapcsolót %-ra. A részek összegének 100 %-nak kell lennie, különben a kiadás nem menthető.',
   // expense-currency
   'help.guide.expense-currency.title': 'Kiadás rögzítése más pénznemben',
-  'help.guide.expense-currency.goal': 'Add meg a nyugtán szereplő összeget, az árfolyamot pedig a TREK elmenti.',
+  'help.guide.expense-currency.goal': 'Add meg a nyugtán szereplő összeget, az árfolyamot pedig a Manzil elmenti.',
   'help.guide.expense-currency.step.1':
     'Nyisd meg a „Költség hozzáadása” ablakot. Írd be a nevet az ablak tetejére, az összeget pedig a „Teljes összeg” mezőbe pontosan úgy, ahogy a nyugtán szerepel, ne átváltva.',
   'help.guide.expense-currency.step.2':
-    'Nyisd meg az összeg melletti „Pénznem” listát, és válaszd ki a nyugta pénznemét. A lista a TREK által ismert összes kódot tartalmazza, és kereshető: írd be a háromjegyű kódot.',
+    'Nyisd meg az összeg melletti „Pénznem” listát, és válaszd ki a nyugta pénznemét. A lista a Manzil által ismert összes kódot tartalmazza, és kereshető: írd be a háromjegyű kódot.',
   'help.guide.expense-currency.step.3':
     'A mezők alatt jelvények jelennek meg: a beírt összeg és a jelenlegi értéke, „élő árfolyam” jelöléssel. Ez csak előnézet, nem ez az érték kerül mentésre.',
   'help.guide.expense-currency.step.4':
@@ -3925,7 +3925,7 @@ const help: TranslationStrings = {
   // ── Screen: trip-transports ───────────────────────────────────────────────────────────
   'help.ctx.trip-transports.title': 'Közlekedés',
   'help.ctx.trip-transports.summary':
-    'Minden mód, amellyel a megállók között utazol: repülők, vonatok, buszok, autók, taxik, kerékpárok, hajóutak, kompok, kötélpályák és azok a tömegközlekedési kapcsolatok, amelyeket a TREK kikeres neked. A fül felsorolja őket. A terven is létrehozhatod és megtekintheted őket, és a térképen is megjelennek.',
+    'Minden mód, amellyel a megállók között utazol: repülők, vonatok, buszok, autók, taxik, kerékpárok, hajóutak, kompok, kötélpályák és azok a tömegközlekedési kapcsolatok, amelyeket a Manzil kikeres neked. A fül felsorolja őket. A terven is létrehozhatod és megtekintheted őket, és a térképen is megjelennek.',
   'help.ctx.trip-transports.bullet.1':
     'Ez a fül csak az utakat mutatja. A szállások, éttermek, események és jegyek a „Foglalások” fülön vannak, így ugyanaz a bejegyzés soha nem jelenik meg kétszer.',
   'help.ctx.trip-transports.bullet.2':
@@ -3983,7 +3983,7 @@ const help: TranslationStrings = {
   // import-transport-file
   'help.guide.import-transport-file.title': 'Járat importálása az e-jegyből',
   'help.guide.import-transport-file.goal':
-    'A TREK olvassa ki a repülést, a vonatot vagy a kompot a szolgáltatótól kapott jegyből, te pedig mentés előtt ellenőrizd.',
+    'A Manzil olvassa ki a repülést, a vonatot vagy a kompot a szolgáltatótól kapott jegyből, te pedig mentés előtt ellenőrizd.',
   'help.guide.import-transport-file.step.1':
     'A „Közlekedés” fül sávjában kattints a „Közlekedés” előtti letöltés ikonra („Foglalási visszaigazolások importálása”). Megnyílik az ilyen nevű ablak, ugyanaz, mint a „Foglalások” fülön. Üres fülön a középen lévő „Importálás fájlból” ugyanezt teszi.',
   'help.guide.import-transport-file.step.2':
@@ -4007,7 +4007,7 @@ const help: TranslationStrings = {
   'help.guide.plan-transit.step.1':
     'Kattints a nap fejlécében a + jelre, és válaszd a „Tömegközlekedés” lehetőséget. A kereső az adott napra nyílik meg: a nap címkeként látszik a fejlécben, a mellette lévő „Kézzel” és „Automatikus” pedig a kereső és a szokásos űrlap között vált.',
   'help.guide.plan-transit.step.2':
-    'A „Kitől” és a „Ki” mezőbe megállót vagy állomást adhatsz meg. Amíg a mező üres, a TREK a nap szállását, a nap foglalásainak állomásait és repülőtereit, valamint a nap saját megállóit javasolja. Ha beírsz két betűt, helyette a menetrend állomásai között keres. A két mező közötti „Csere” gomb felcseréli a „Kitől” és a „Ki” értékét.',
+    'A „Kitől” és a „Ki” mezőbe megállót vagy állomást adhatsz meg. Amíg a mező üres, a Manzil a nap szállását, a nap foglalásainak állomásait és repülőtereit, valamint a nap saját megállóit javasolja. Ha beírsz két betűt, helyette a menetrend állomásai között keres. A két mező közötti „Csere” gomb felcseréli a „Kitől” és a „Ki” értékét.',
   'help.guide.plan-transit.step.3':
     'Az „Indulás” vagy az „Érkezés” egy időponttal együtt megadja, mikor szeretnél utazni, a „Legjobb útvonal”, a „Kevesebb átszállás” vagy a „Kevesebb gyaloglás” pedig azt, milyen sorrendben jelenjenek meg a találatok.',
   'help.guide.plan-transit.step.4':
@@ -4048,7 +4048,7 @@ const help: TranslationStrings = {
   'help.guide.leg-travel-mode.step.1':
     'A megállók közötti összekötők csak akkor jelennek meg, ha a nap útvonala be van kapcsolva. Kattints a nap fejlécére a megnyitásához, majd a megállók alatti sávban az „Útvonal” gombra.',
   'help.guide.leg-travel-mode.step.2':
-    'Minden összekötő mutatja az adott szakasz menetidejét és távolságát, annak a közlekedési módnak az ikonjával, amellyel a TREK tervezte: autó ikon az autózáshoz, láb a gyalogláshoz, kerékpár a kerékpározáshoz.',
+    'Minden összekötő mutatja az adott szakasz menetidejét és távolságát, annak a közlekedési módnak az ikonjával, amellyel a Manzil tervezte: autó ikon az autózáshoz, láb a gyalogláshoz, kerékpár a kerékpározáshoz.',
   'help.guide.leg-travel-mode.step.3':
     'Kattints az összekötőre. A menüben az „Autó”, a „Gyalog” és a „Kerékpár”, erre az egy szakaszra a „Tömegközlekedés”, valamint a „Napi alapértelmezett” lehetőség közül választhatsz.',
   'help.guide.leg-travel-mode.step.4':
@@ -4121,7 +4121,7 @@ const help: TranslationStrings = {
   'help.guide.airtrail-import.tip.1':
     'Az a járat, amely ugyanazzal a számmal és dátummal már szerepel az utazásban, kimarad, és egy üzenet jelzi, hány ilyen volt. A napok fölötti eszköztár visszavonás nyila a teljes importálást visszavonja.',
   'help.guide.airtrail-import.tip.2':
-    'Az adatok elsődleges forrása továbbra is az AirTrail. A TREK az utazás megnyitásakor és a háttérben néhány percenként lekéri a módosításokat. Az AirTrailben törölt járat kártyája a TREK-ben megmarad, a címkéje pedig „Nincs szinkronizálva” lesz. A TREK-ben végzett módosítások csak akkor kerülnek vissza az AirTrailbe, ha az Integrációk alatt be van kapcsolva a „Módosítások visszaírása az AirTrailbe”.',
+    'Az adatok elsődleges forrása továbbra is az AirTrail. A Manzil az utazás megnyitásakor és a háttérben néhány percenként lekéri a módosításokat. Az AirTrailben törölt járat kártyája a TREK-ben megmarad, a címkéje pedig „Nincs szinkronizálva” lesz. A TREK-ben végzett módosítások csak akkor kerülnek vissza az AirTrailbe, ha az Integrációk alatt be van kapcsolva a „Módosítások visszaírása az AirTrailbe”.',
   'help.guide.airtrail-import.tip.3':
     'Az összevont csatlakozás nem egyetlen AirTrail-járat, amelyet szinkronizálni lehetne, ezért egyszeri importálásként kerül be: megtartja a kék címkét, és ha fölé viszed az egeret, ezt jelzi is. Ugyanez történik egy szinkronizált járattal, ha kézzel megállót adsz hozzá.',
 
@@ -4201,7 +4201,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-corridor.step.5':
     'Kattints a találaton lévő pluszra („Hozzáadás”). A „Hozzáadás megállóként” megmutatja, melyik napra és hányadik helyre kerül, és megkérdezi a „Megálló típusa” és az „Idő ezen a megállón” értékét; töltőnél az „Elérhetőség és díjak” is megjelenik. A „Hozzáadás” felveszi az útra, a „További részletek” pedig helyette a teljes helyűrlapot nyitja meg.',
   'help.guide.roadtrip-corridor.result':
-    'A hozzáadott megálló a típusa ikonjával azon a ponton jelenik meg az útvonalon, ahol elhaladsz mellette. A TREK a napot a megállón keresztül újratervezi, és ez kiüríti a listát: a következő megállóhoz keress újra.',
+    'A hozzáadott megálló a típusa ikonjával azon a ponton jelenik meg az útvonalon, ahol elhaladsz mellette. A Manzil a napot a megállón keresztül újratervezi, és ez kiüríti a listát: a következő megállóhoz keress újra.',
   'help.guide.roadtrip-corridor.tip.1':
     'A keresés csak a „Keresés” gomb megnyomásakor indul el: egyetlen keresés is sok kérést küld egy közös szolgáltatásnak.',
   'help.guide.roadtrip-corridor.tip.2':
@@ -4214,7 +4214,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-via.step.1':
     'Jelenítsd meg a térképen a kívánt szakaszt: kattints egy megállóra a sávban, majd zárd be a térkép fölött megnyíló kártyát.',
   'help.guide.roadtrip-via.step.2':
-    'Kattints a kirajzolt útvonalra. A kattintott szakaszra egy köztes pont kerül, és a TREK a szakaszt ezen keresztül újratervezi.',
+    'Kattints a kirajzolt útvonalra. A kattintott szakaszra egy köztes pont kerül, és a Manzil a szakaszt ezen keresztül újratervezi.',
   'help.guide.roadtrip-via.step.3':
     'A sáv frissül: a nap fejlécében megjelenik az új távolság és vezetési idő, és a köztes pont utáni összes érkezési idő is ennek megfelelően változik.',
   'help.guide.roadtrip-via.step.4':
@@ -4244,7 +4244,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-alternatives.result':
     'A szakasz mostantól a választott utat használja, és vele együtt változik az oldalsó oszlopban a távolság és az utána következő érkezési idők is.',
   'help.guide.roadtrip-alternatives.tip.1':
-    'Ha másik utat választasz, a TREK előbb ellenőrzi azt az autós út útvonaltervezőjével. Ezután a lehető legkevesebb köztes ponttal tartja rajta a szakaszt, és lecseréli a szakasz korábbi köztes pontjait. Az olyan út, amelyet az útvonaltervező nem tud követni, nem mentődik el. Ha az útvonaltervező saját útját választod, a köztes pontok ismét eltűnnek.',
+    'Ha másik utat választasz, a Manzil előbb ellenőrzi azt az autós út útvonaltervezőjével. Ezután a lehető legkevesebb köztes ponttal tartja rajta a szakaszt, és lecseréli a szakasz korábbi köztes pontjait. Az olyan út, amelyet az útvonaltervező nem tud követni, nem mentődik el. Ha az útvonaltervező saját útját választod, a köztes pontok ismét eltűnnek.',
   'help.guide.roadtrip-alternatives.tip.2':
     'Az „Autópálya nélkül”, az „Útdíj nélkül” és a „Komp nélkül” egy másik, saját sebességmodellt használó motorból származik, ezért az idejük nem hasonlítható össze a többiekével.',
   // roadtrip-limits
@@ -4308,7 +4308,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-refuel.result':
     'A megálló a saját ikonjával a megfelelő szakaszon jelenik meg, és a hatótávot ettől a megállótól számoljuk újra. A sáv arra a pontra kerül, ahol a tank most kiürül, vagy eltűnik, ha újabb megálló nélkül is eljutsz az út végéig.',
   'help.guide.roadtrip-refuel.tip.1':
-    'A hatótávot a TREK az utolsó tankoló- vagy töltőmegállótól számolja, napokon átívelően. A jármű típusa határozza meg, mely megállók számítanak: „Üzemanyag” esetén csak a tankolóhelyek, „Elektromos” esetén csak a töltőállomások.',
+    'A hatótávot a Manzil az utolsó tankoló- vagy töltőmegállótól számolja, napokon átívelően. A jármű típusa határozza meg, mely megállók számítanak: „Üzemanyag” esetén csak a tankolóhelyek, „Elektromos” esetén csak a töltőállomások.',
   'help.guide.roadtrip-refuel.tip.2':
     'A keresés az út azon szakaszát nézi, amely a tank kiürülése előtt van, tartalékot is számol, és a kitérőt kétszer veszi figyelembe, így minden felkínált hely valóban elérhető.',
   'help.guide.roadtrip-refuel.tip.3':
@@ -4322,7 +4322,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-track.step.2':
     'Válassz egy nyomvonalat. Mindegyiknél látszik a hossza, és hogy követi-e a nap útvonalát, vagy milyen messze van tőle. A legközelebbi nyomvonal áll elöl.',
   'help.guide.roadtrip-track.step.3':
-    'Kattints a „Kövesse ezt a nyomvonalat” gombra. A TREK köztes pontokat tesz oda, ahol az autós útvonal a legtávolabb esik a nyomvonaltól, újraszámolja az útvonalat, és ezt többször megismétli.',
+    'Kattints a „Kövesse ezt a nyomvonalat” gombra. A Manzil köztes pontokat tesz oda, ahol az autós útvonal a legtávolabb esik a nyomvonaltól, újraszámolja az útvonalat, és ezt többször megismétli.',
   'help.guide.roadtrip-track.step.4':
     'Az ablak megmutatja, hány köztes pontot helyezett el, és mennyire közel halad most az útvonal a nyomvonalhoz, vagy azt, hogy az útvonal már eddig is követte a nyomvonalat. A bal alsó „Köztes pontok elvetése” eltávolítja őket, és az útvonaltervező újratervezi a napot. Az ablak bezárásakor a nyomvonal megmarad.',
   'help.guide.roadtrip-track.result':
@@ -4382,10 +4382,10 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.step.2':
     'A felső „Értesítések” kártya „Push” oszlopában állíthatod be, mely eseményekről kapjanak értesítést az eszközeid.',
   'help.guide.connect-airtrail.goal':
-    'A TREK importálja és szinkronizálja a repüléseidet a saját AirTrail-példányodból.',
-  'help.guide.connect-dawarich.goal': 'A TREK a saját Dawarich-példányodból olvassa ki, hol jártál valójában.',
+    'A Manzil importálja és szinkronizálja a repüléseidet a saját AirTrail-példányodból.',
+  'help.guide.connect-dawarich.goal': 'A Manzil a saját Dawarich-példányodból olvassa ki, hol jártál valójában.',
   'help.guide.tour-connect-wanderer.goal':
-    'A TREK beolvassa a saját wanderer-példányod útvonalait, így túraként importálhatod őket.',
+    'A Manzil beolvassa a saját wanderer-példányod útvonalait, így túraként importálhatod őket.',
   'help.guide.tour-wanderer-watch.title': 'Értesítés a wanderer-útvonalaid változásairól',
   'help.guide.plugin-settings.tip.2':
     'Az „Értesítések” alatt egy plugincsatorna „Beállítás” gombja erre az oldalra visz.',
@@ -4394,11 +4394,11 @@ const help: TranslationStrings = {
   'help.guide.own-routing-engine.goal':
     'A napok és az autós utak útvonalát a saját OSRM- vagy Valhalla-szervered tervezze a nyilvánosak helyett.',
   'help.guide.admin-passkeys.tip.1':
-    'Ha a TREK még nem tudja megállapítani a domaint, egy figyelmeztetés jelzi ezt, és a passkey-k rejtve maradnak, amíg be nem állítod az APP_URL-t vagy a Relying Party ID-t.',
+    'Ha a Manzil még nem tudja megállapítani a domaint, egy figyelmeztetés jelzi ezt, és a passkey-k rejtve maradnak, amíg be nem állítod az APP_URL-t vagy a Relying Party ID-t.',
   'help.guide.rotate-jwt-secret.step.1':
     'A „Beállítások” fül alján, a „Veszélyzóna” részben kattints a „JWT-titok cseréje” melletti „Megújítás” gombra.',
   'help.guide.storage-backends.tip.3':
-    'A TREK a fotógyorsítótárakat újra le tudja tölteni, ezért a tükrözésük általában csak pazarolja a tárhelyet.',
+    'A Manzil a fotógyorsítótárakat újra le tudja tölteni, ezért a tükrözésük általában csak pazarolja a tárhelyet.',
   'help.guide.admin-channels.step.3':
     'Az alatta lévő „Értesítések” kártyán eseményenként válaszd ki, mely csatornákon menjen ki az értesítés: „Új verzió elérhető”, „Tárhely-replika hiba” és „Evezős régiót kértek”. Minden kapcsoló azonnal mentődik.',
   'help.guide.notification-defaults.tip.1':
@@ -4444,7 +4444,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.result':
     'A böngésződ letölt egy fájlt, amelynek neve az utazásból és a fülből áll, például autumn-in-japan-bookings.csv, és a fülön látott minden foglalás egy sort kap benne.',
   'help.guide.arrange-packing-list.result':
-    'A listák abban a sorrendben állnak, ahogy elrendezted őket, a tételek pedig A-tól Z-ig rendezve jelennek meg, amíg ezt ki nem kapcsolod. A saját sorrendedet a TREK ettől még megőrzi.',
+    'A listák abban a sorrendben állnak, ahogy elrendezted őket, a tételek pedig A-tól Z-ig rendezve jelennek meg, amíg ezt ki nem kapcsolod. A saját sorrendedet a Manzil ettől még megőrzi.',
   'help.guide.count-packed-pieces.step.2':
     'A mennyiség előtt megjelenik egy számláló, például 0/5, mínusz és plusz gombbal. Minden darabnál, amely bekerül a táskába, kattints a pluszra.',
   'help.guide.expense-receipts.step.4':
@@ -4452,7 +4452,7 @@ const help: TranslationStrings = {
   'help.guide.final-budget.tip.3':
     'Aki kilépett az utazásból, az „Egyenlegek” és a „Végső költségvetés” alatt addig megtartja a sorát, amíg neki tartoznak, vagy ő tartozik valakinek.',
   'help.guide.files-sync-settings.step.2':
-    'A folyamatsávon a TREK és a tárolód látszik a bennük lévő dokumentumokkal, köztük pedig két sáv: „Ki a tárolóba” és „Be a tárolóból”. Kattints a „Ki a tárolóba” sávra a kikapcsolásához. A sáv kiszürkül, alatta pedig ez olvasható: „Csak befelé”. Újabb kattintással visszakapcsolhatod.',
+    'A folyamatsávon a Manzil és a tárolód látszik a bennük lévő dokumentumokkal, köztük pedig két sáv: „Ki a tárolóba” és „Be a tárolóból”. Kattints a „Ki a tárolóba” sávra a kikapcsolásához. A sáv kiszürkül, alatta pedig ez olvasható: „Csak befelé”. Újabb kattintással visszakapcsolhatod.',
   'help.guide.files-sync-settings.tip.4':
     'Ezeket csak az utazás tulajdonosa vagy egy rendszergazda módosíthatja. A többi tag a folyamatsávot látja egy olyan sorral, mint például „A dokumentumok mindkét irányba mozognak”, de „Beállítások” nélkül.',
   'help.guide.manage-notes.step.2':
@@ -4463,7 +4463,7 @@ const help: TranslationStrings = {
     'A kukával csak olyan kategóriát törölhetsz, amelyet egyik jegyzet sem használ. A még használt kategória addig a listán marad, amíg az érintett jegyzeteket át nem teszed egy másik kategóriába.',
   'help.guide.roadtrip-reorder.title': 'Megálló átrendezése vagy áthelyezése másik napra',
   'help.guide.roadtrip-reorder.tip.3':
-    'A rögzített időpontnál a TREK nem kérdez rá semmire: a sáv azonnal újraszámolja a napot, és megjelöli azokat a megállókat, amelyek már nem érhetők el időben.',
+    'A rögzített időpontnál a Manzil nem kérdez rá semmire: a sáv azonnal újraszámolja a napot, és megjelöli azokat a megállókat, amelyek már nem érhetők el időben.',
   'help.guide.roadtrip-overnight.step.3':
     'Az ablak tetején az „Éjszakázás” szállást ad hozzá, a „Szünet” pedig rövidebb megállóvá teszi. Szállodánál az „Éjszakázás”, kempingnél a „Szünet” van kiválasztva. Éjszakázásnál csak a „Bejelentkezés” időpontja kell, ezt üresen is hagyhatod.',
   'help.guide.roadtrip-stop-fill.step.1':
@@ -4482,7 +4482,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.tip.2':
     'Ha az utazás az utolsó szakasz előtt véget ér, a lehetőség az utolsó még beférő szakaszt mutatja, az utána következő szakaszok pedig nap nélkül maradnak.',
   'help.guide.tour-day-times.step.3':
-    'Kattints a „Frissítés” gombra. A sorban most kezdés → befejezés látszik. A kiszámolt befejezési idő halványabb: a ≈ becslést jelez, a ≥ azt, hogy egy tartózkodásnak még nincs időtartama, a +1 pedig éjfél utánit. Ha fölé viszed az egeret, látod, hogyan számolta ki a TREK.',
+    'Kattints a „Frissítés” gombra. A sorban most kezdés → befejezés látszik. A kiszámolt befejezési idő halványabb: a ≈ becslést jelez, a ≥ azt, hogy egy tartózkodásnak még nincs időtartama, a +1 pedig éjfél utánit. Ha fölé viszed az egeret, látod, hogyan számolta ki a Manzil.',
   'help.guide.tour-remove-from-day.goal': 'Túra levétele a tervből törlés nélkül.',
   'help.guide.tour-filter-list.goal':
     'Szűkítsd a hosszú listát a keresett túrákra: a még nem tervezettekre, a fájlból származókra vagy egy adott típusúakra.',
@@ -4516,9 +4516,9 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.step.2':
     'A bal oldali sáv a szerkesztő. Ha nincs megnyitva túra, az „Új túra tervezése” lehetőséget kínálja, amellyel a térképen kezdhetsz új túrát.',
   'help.guide.tour-open-workspace.tip.3':
-    'Ha másik túrát nyitsz meg, miközben a szerkesztőben mentetlen módosítások vannak, a TREK előbb rákérdez: „Módosítások elvetése”, vagy folytatod a szerkesztést.',
+    'Ha másik túrát nyitsz meg, miközben a szerkesztőben mentetlen módosítások vannak, a Manzil előbb rákérdez: „Módosítások elvetése”, vagy folytatod a szerkesztést.',
   'help.guide.tour-draw-route.step.5':
-    'Kattints a következő pontokra abban a sorrendben, ahogy bejárod őket. Minden kattintás új végpontként adja hozzá a pontot, és két ponttól a TREK az ösvények mentén tervezi meg az útvonalat.',
+    'Kattints a következő pontokra abban a sorrendben, ahogy bejárod őket. Minden kattintás új végpontként adja hozzá a pontot, és két ponttól a Manzil az ösvények mentén tervezi meg az útvonalat.',
   'help.guide.tour-type-profile.goal':
     'Válaszd ki a túra típusát, kerékpártúránál a profilját is, hogy az útvonal a megfelelő utakon haladjon.',
   'help.guide.tour-edit-points.title': 'Pontok mozgatása, átrendezése és törlése',
@@ -4596,7 +4596,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-compare-ways.step.3':
     'A sorok jelvényei mutatják, mennyivel hosszabb, magasabb vagy lassabb az adott út a jelenleginél. Kattints arra, amelyiket választod.',
   'help.guide.tour-ferrata-add.step.1':
-    'Megnyitott gyalogtúránál kattints a bal alsó térképgombok közül a „Vasalt utak” gombra. A jelvény a látható területen lévő vasalt utakat számolja; ha a TREK kéri, nagyíts rá.',
+    'Megnyitott gyalogtúránál kattints a bal alsó térképgombok közül a „Vasalt utak” gombra. A jelvény a látható területen lévő vasalt utakat számolja; ha a Manzil kéri, nagyíts rá.',
   'help.guide.tour-ferrata-add.tip.3':
     'A vasalt úti szakasz ki van emelve a magassági profilon, így látod, a nap melyik pontján érsz oda.',
   'help.guide.tour-run-plan.step.5': 'A „Túra neve” mezőben adj nevet a futásnak, és kattints a „Mentés” gombra.',
@@ -4641,11 +4641,11 @@ const help: TranslationStrings = {
     'Nézd meg a sítúrád körüli pályákat, sífutópályákat és felvonókat, és azt, mit jelentenek a színeik.',
   'help.guide.tour-ski-import.title': 'Sínyomvonal importálása és típusának megadása',
   'help.guide.tour-ski-import.tip.1':
-    'Az importált nyomvonal a rögzített formájában marad: a TREK nem illeszti a pályákhoz, és a kártyáján a „Síidő” értéke „Nincs kiszámolva”.',
+    'Az importált nyomvonal a rögzített formájában marad: a Manzil nem illeszti a pályákhoz, és a kártyáján a „Síidő” értéke „Nincs kiszámolva”.',
   'help.ctx.trip-tour-paddle.bullet.3':
     'Egy pont „További műveletek” menüjében találod az evezős eszközöket: a következő szakasz megtervezése a vízen vagy kézi rajzolása, „Átemelés innentől” és „Zsilip ezen a ponton”.',
   'help.guide.tour-paddle-setup.step.3':
-    'A „Hajó” alatt válaszd a „Kajak”, „Kenu”, SUP vagy „Egyéb” lehetőséget. A hajótól függ, milyen sebességet javasol a TREK.',
+    'A „Hajó” alatt válaszd a „Kajak”, „Kenu”, SUP vagy „Egyéb” lehetőséget. A hajótól függ, milyen sebességet javasol a Manzil.',
   'help.guide.tour-paddle-setup.tip.4':
     'Az oszlop alján lévő „Az evezés kockázatos” sor megnyitja a „Biztonság a vízen” részt. Az első túrád előtt egyszer olvasd el.',
   'help.guide.tour-paddle-water-route.step.5':
@@ -4655,7 +4655,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-portage.result':
     'A szakasz átemelésként jelenik meg a térképen és az útpontok között, az „Időbecslés” pedig hordozásként számolja.',
   'help.guide.tour-paddle-lock.tip.2':
-    'Ha egy átemelés megkerüli a zsilipet, a zsilip halványítva, „Megkerülve, az átemelés számít” jelöléssel látszik. Ilyenkor az átemelés ideje számít, a zsilip perceit nem számolja bele a TREK.',
+    'Ha egy átemelés megkerüli a zsilipet, a zsilip halványítva, „Megkerülve, az átemelés számít” jelöléssel látszik. Ilyenkor az átemelés ideje számít, a zsilip perceit nem számolja bele a Manzil.',
   'help.guide.tour-paddle-time.step.4':
     'Ha a túrán van átemelés, a „Hordozás” sor számolja a cipelést. Kattints a sebességére, és add meg, milyen gyorsan viszed a hajót. A „Ki- és visszaszállás” minden átemelésnél hozzáadja a perceket.',
   'help.guide.tour-paddle-wind.step.1':
@@ -4666,9 +4666,9 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-track-marks.step.1':
     'A „Túrák” fülön kattints a jobb oldali oszlopban a „Túra hozzáadása” gombra, válaszd a „GPX vagy KML importálása” lehetőséget, és válaszd ki a fájlt.',
   'help.guide.tour-paddle-track-marks.tip.2':
-    'Az „Elveti” gombbal eldobod a nem mentett jelöléseket. A rögzített nyomvonalat a TREK sosem rajzolja újra.',
+    'Az „Elveti” gombbal eldobod a nem mentett jelöléseket. A rögzített nyomvonalat a Manzil sosem rajzolja újra.',
   'help.ctx.trip-tour-horse.bullet.4':
-    'A TREK nem számol lovaglási időt. Ha szeretnéd, hogy a napon szerepeljen idő, add meg a „Részletek” között a „Tervezett” mezőben.',
+    'A Manzil nem számol lovaglási időt. Ha szeretnéd, hogy a napon szerepeljen idő, add meg a „Részletek” között a „Tervezett” mezőben.',
   'help.guide.tour-horse-plan.step.5':
     'Válassz egy szakaszt a „Szakaszok” alatt. Ellenőrizd, milyen irányban lovagolsz rajta („Irány”), és mit mutat mentén a „Lovas hozzáférés”.',
   'help.guide.tour-horse-plan.tip.5':
@@ -4710,27 +4710,27 @@ const help: TranslationStrings = {
   'help.guide.journey-map-layers.tip.1':
     'A szaggatott színes vonal az utazás GPX-útvonala, a terv része; a folytonos vonal az adott napon rögzített útvonal.',
   'help.guide.journey-keep-route.tip.1':
-    'Ahol a felvétel megszakad, ott a vonal is véget ér. A TREK csak azt rajzolja meg, amit rögzítettek.',
+    'Ahol a felvétel megszakad, ott a vonal is véget ér. A Manzil csak azt rajzolja meg, amit rögzítettek.',
   'help.guide.journey-day-stays.tip.1':
     'A sor csak azoknak jelenik meg, akik szerkeszthetik a naplót, és saját Dawarich-fiókjuk van csatlakoztatva, és csak azokon a napokon, ahol még van mit eldönteni.',
   'help.guide.journey-take-over-day.step.4':
     'Ha az útvonalat is meg szeretnéd tartani, hagyd bekapcsolva „A nap útvonalának mentése is” lehetőséget, majd kattints az „Átvétel” gombra. A gombon látszik, hány vázlat jön létre.',
   'help.guide.journey-auto-prepare.step.3':
-    'Az alatta lévő sorból kiderül, mikor kérte le utoljára a TREK a tartózkodásaidat, vagy hogy miért nem sikerült. A „Lekérés most” gombbal azonnal lekérheted őket a Dawarichtól.',
-  'help.guide.photo-location.tip.1': 'Az általad megadott helyeket a TREK soha nem helyezi át.',
+    'Az alatta lévő sorból kiderül, mikor kérte le utoljára a Manzil a tartózkodásaidat, vagy hogy miért nem sikerült. A „Lekérés most” gombbal azonnal lekérheted őket a Dawarichtól.',
+  'help.guide.photo-location.tip.1': 'Az általad megadott helyeket a Manzil soha nem helyezi át.',
   'help.ctx.settings-plugins.bullet.1':
     '„Bővítménybeállítások”: alatta minden olyan pluginnek saját kártyája van, amely adatot kér tőled, a mezőivel és „Mentés” gombbal. A titkos mezők tartalma mentés után soha többé nem jelenik meg.',
   'help.guide.dashboard-widgets.step.3':
     'A kártyák alatti „Alapértelmezések visszaállítása” az egész „Megjelenés” fület visszaállítja az eredeti beállításokra.',
   'help.guide.web-push-device.result':
-    'A kártyán a „Bekapcsolva ezen az eszközön” felirat látszik, és a „Push” alatt bekapcsolt eseményekről akkor is kapsz értesítést, ha a TREK be van zárva.',
+    'A kártyán a „Bekapcsolva ezen az eszközön” felirat látszik, és a „Push” alatt bekapcsolt eseményekről akkor is kapsz értesítést, ha a Manzil be van zárva.',
   'help.guide.connect-airtrail.step.1':
     'Az „Integráció” részben keresd meg az AirTrailt, és add meg a „Példány URL-címe” mezőt és egy API-kulcsot. A kulcsot az AirTrailben hozhatod létre a Settings, Security menüpontban.',
   'help.guide.connect-dawarich.step.1':
     'Az „Integráció” részben keresd meg a Dawarichot, és add meg „A példány címe” mezőt, valamint az API-kulcsot, amelyet a Dawarichban az Account, API key menüpontban találsz.',
   'help.guide.tour-connect-wanderer.step.1':
     'Az „Integráció” részben keresd meg a wanderert, és add meg a „Példány URL-címe” mezőt és egy API-tokent. A tokent a wandererben hozhatod létre a Settings, Account, API tokens menüpontban; wanderer_key_ előtaggal kezdődik.',
-  'help.guide.tour-wanderer-watch.goal': 'A TREK a háttérben figyelje az importált útvonalaid változásait.',
+  'help.guide.tour-wanderer-watch.goal': 'A Manzil a háttérben figyelje az importált útvonalaid változásait.',
   'help.guide.mcp-oauth.tip.3': 'Az API tokenek még működnek, de „Elavult” jelölést kaptak; válts OAuth kliensre.',
   'help.guide.offline-conflicts.tip.2': 'A beállítás csak erre az eszközre vonatkozik.',
   'help.guide.default-user-settings.tip.1':
@@ -4757,7 +4757,7 @@ const help: TranslationStrings = {
     'Az utazás minden résztvevőjénél válaszd a „Nincs hozzáférés”, az „Olvasás” vagy a „Szerkesztés” lehetőséget. A „Mindenki olvashatja” és a „Senki” egyszerre mindenkire beállítja.',
   'help.guide.collapse-columns.tip.3': 'Ha az elválasztó fókuszban van, a nyílbillentyűkkel is mozgathatod.',
   'help.guide.edit-place.tip.3':
-    'Ha az ablakon kívülre kattintasz, a módosításaid nem vesznek el: a TREK előbb megkérdezi: „Elveted a módosításokat?”, és a „Szerkesztés folytatása” gombbal visszatérhetsz az űrlaphoz.',
+    'Ha az ablakon kívülre kattintasz, a módosításaid nem vesznek el: a Manzil előbb megkérdezi: „Elveted a módosításokat?”, és a „Szerkesztés folytatása” gombbal visszatérhetsz az űrlaphoz.',
   'help.guide.dawarich-stays.goal':
     'Vedd fel azokat a helyeket, ahol a Dawarich az utazás során tartózkodást rögzített, miután mindegyiket ellenőrizted.',
   'help.guide.leave-stop-off-route.step.1':
@@ -4776,7 +4776,7 @@ const help: TranslationStrings = {
   'help.guide.tour-map-lines.tip.2':
     'Egy túra elrejtése csak rád vonatkozik, és ebben a böngészőben, ehhez az utazáshoz tárolódik: a túra, a napjai és a színe mindenki más számára változatlan. A „Túrák” lista fölötti „Összes megjelenítése” minden elrejtett túrát újra megjelenít, a telefonos térkép pedig mindig minden túrát mutat.',
   'help.guide.car-stops.step.4':
-    'A „Megállók útközben” alatt minden helyhez, amelyen az út keresztülvezet, kattints a „Megálló hozzáadása” gombra, és válaszd ki, ha szeretnéd, egy időponttal együtt. A kiválasztott hely nélküli megállót a TREK mentéskor eltávolítja.',
+    'A „Megállók útközben” alatt minden helyhez, amelyen az út keresztülvezet, kattints a „Megálló hozzáadása” gombra, és válaszd ki, ha szeretnéd, egy időponttal együtt. A kiválasztott hely nélküli megállót a Manzil mentéskor eltávolítja.',
   'help.guide.transport-details.step.2':
     'A fejlécben lévő gombok az állapotot, a típust, a napot és a „Foglalási kód” értékét mutatják. Az állapotra kattintva „Függőben” és „Megerősítve” között válthatsz. A kód melletti kis másolás ikon („Foglalási kód másolása”) a vágólapra másolja a kódot.',
   'help.guide.group-sort-bookings.step.3':
@@ -4807,7 +4807,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.step.2':
     'A sávon az út egy kártya a típusa színében, az érkezési oszlopban a menetrenddel, a cím alatt pedig a kiinduló- és végponttal.',
   'help.guide.roadtrip-google-import.tip.1':
-    'A TREK maga számolja ki az útvonalat a megállók között; nem a Google útvonalát másolja.',
+    'A Manzil maga számolja ki az útvonalat a megállók között; nem a Google útvonalát másolja.',
   'help.guide.roadtrip-hazards.result':
     'A térkép az utazásod környékén érvényes aktuális figyelmeztetéseket mutatja, az útvonal pedig nem változik.',
   'help.ctx.trip-tours.bullet.3':
@@ -4816,7 +4816,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.goal':
     'Tervezd meg, mikor teljesíted a túrát, hogy a vonalával együtt megjelenjen a napon és a térképen.',
   'help.guide.tour-add-to-day.tip.3':
-    'Egy túrát egy naphoz csak egyszer adhatsz hozzá. Ha olyan napra húzod, amelyen már szerepel, a TREK csak ezt jelzi: „Ez a túra már szerepel ezen a napon.”',
+    'Egy túrát egy naphoz csak egyszer adhatsz hozzá. Ha olyan napra húzod, amelyen már szerepel, a Manzil csak ezt jelzi: „Ez a túra már szerepel ezen a napon.”',
   'help.guide.tour-day-times.step.4':
     'Ha a túra később ér véget, mint ahogy a nap következő eleme kezdődik, a sor alatt megjegyzés jelzi, például: 13:30-kor ér véget, a Gostner Schwaige-i ebéd 12:30-as kezdése után. Semmi sem mozdul el.',
   'help.guide.tour-remove-from-day.step.1':
@@ -4856,7 +4856,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.result':
     'A „Túrák” fül: balra a szerkesztő, jobbra az utazás túrái, középen a térkép.',
   'help.guide.tour-draw-route.step.6':
-    'Az „Útpontok” alatt minden pont saját sort kap a számával, és amint betöltődik a hely neve, arról kapja a nevét. Amíg a TREK dolgozik, az „Új túra” melletti kis pont jelzi, mit csinál éppen.',
+    'Az „Útpontok” alatt minden pont saját sort kap a számával, és amint betöltődik a hely neve, arról kapja a nevét. Amíg a Manzil dolgozik, az „Új túra” melletti kis pont jelzi, mit csinál éppen.',
   'help.guide.tour-type-profile.step.1':
     'Kattints a „Túra neve” alatti „Túratípus” gombra. Megmutatja a jelenlegi típust, egy sorban azzal együtt, hogyan tervezi az útvonalat.',
   'help.guide.tour-edit-points.goal': 'Módosítsd a túra útvonalát a pontok mozgatásával a térképen vagy a listában.',
@@ -4880,7 +4880,7 @@ const help: TranslationStrings = {
     '„Az utazás túrái” tetején a „Túra összefoglalója” mutatja a szerkesztőben lévő túra „Távolság”, „Szintemelkedés” és „Szintcsökkenés” értékét, a becsült időt, a szüneteket és a tervezett teljes időt.',
   'help.guide.tour-list-manage.title': 'Az utazás túráinak kezelése',
   'help.guide.tour-list-manage.tip.2':
-    'A napmenüben azok a napok, amelyeken a túra már szerepel, szürkén jelennek meg. Többnapos túránál a TREK megkérdezi, hogy a szakaszok azon a napon kezdődjenek-e, vagy az egész túra arra a napra kerüljön.',
+    'A napmenüben azok a napok, amelyeken a túra már szerepel, szürkén jelennek meg. Többnapos túránál a Manzil megkérdezi, hogy a szakaszok azon a napon kezdődjenek-e, vagy az egész túra arra a napra kerüljön.',
   'help.guide.tour-delete.tip.2':
     'Ha csak egy napról szeretnéd levenni, inkább a nap menüjében válaszd az „Eltávolítás a napról” lehetőséget.',
   'help.guide.tour-saved-elsewhere.step.4':
@@ -4891,7 +4891,7 @@ const help: TranslationStrings = {
     'Az „Importálás mint” alatt ellenőrizd, milyen nyomvonalakról van szó. A „Gyalogtúra” van előre kiválasztva. A „Kerékpártúra” és a „Futás” a profilt, az „Evezős túra” a hajót és a víz típusát, a „Sí és tél” a szakágat kéri.',
   'help.guide.tour-view-import.title': 'Importált nyomvonal megtekintése',
   'help.guide.tour-view-import.result':
-    'A rögzített nyomvonalat pontosan úgy látod, ahogy importálták, semmit sem számol újra a TREK.',
+    'A rögzített nyomvonalat pontosan úgy látod, ahogy importálták, semmit sem számol újra a Manzil.',
   'help.guide.tour-plan-from-import.tip.2':
     'Ha a kártya szerint a javaslat hosszabb szakaszokon messze esik a nyomvonaltól, ellenőrizd ezeket a részeket a térképen, mielőtt erre alapozva tervezel.',
   'help.guide.tour-restore-recorded.step.3':
@@ -4906,7 +4906,7 @@ const help: TranslationStrings = {
   'help.guide.tour-map-layers.tip.1':
     'A kiválasztott térkép minden megnyitott túránál megmarad, amíg újra nem töltöd az oldalt. Az a túra, amelynek típusánál ez a térkép nem érhető el, a „Térkép” nézetben nyílik meg; a „Terv” fül térképe és a Beállításokban megadott érték nem változik.',
   'help.guide.tour-along-search.step.4':
-    'Kattints a „Keresés a túra mentén” gombra. A TREK csak keres, a túra nem változik.',
+    'Kattints a „Keresés a túra mentén” gombra. A Manzil csak keres, a túra nem változik.',
   'help.guide.tour-along-add-stop.step.1':
     'Kattints egy helyre „A túra mentén” listában, vagy a gombostűjére a térképen. A térkép fölött megnyílik a kártyája: mi az, milyen messze van az útvonaltól, és a túra mekkora részénél található.',
   'help.guide.tour-3d-terrain.title': 'Túra megtekintése 3D-ben',
@@ -4932,7 +4932,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-round.tip.1':
     'A körök a gyalogtúra „Ösvény legnagyobb nehézsége” beállításán belül maradnak; a kártyán lévő T jelvény mutatja, melyik ez.',
   'help.guide.tour-hike-compare-ways.step.4':
-    'Kattints az „Ezt az utat választom” gombra. A TREK az útvonaltervezővel ellenőrzi, hogy az útvonal valóban ezt követi-e.',
+    'Kattints az „Ezt az utat választom” gombra. A Manzil az útvonaltervezővel ellenőrzi, hogy az útvonal valóban ezt követi-e.',
   'help.guide.tour-ferrata-add.step.2':
     'Kattints egy vasalt útra a térképen: a szaggatott vonalára vagy a jelére. A kártyáján látod a nevét, a nehézségi fokát és a hosszát.',
   'help.guide.tour-ferrata-add.tip.4':
@@ -4975,7 +4975,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-fix-leg.tip.2':
     'Amíg egy terület pályaadatai letöltés alatt állnak, a tervező vár, és automatikusan újrapróbálkozik.',
   'help.guide.tour-ski-summary.step.3':
-    'A jobb oldali „Túra összefoglalója” részben a „Síidő” mindezt összeadja. Az információs pont elmagyarázza, hogyan számolja a TREK.',
+    'A jobb oldali „Túra összefoglalója” részben a „Síidő” mindezt összeadja. Az információs pont elmagyarázza, hogyan számolja a Manzil.',
   'help.guide.tour-ski-pistes-layer.step.1':
     'Ha egy „Sí és tél” túra meg van nyitva, a térkép automatikusan megjeleníti a pályákat. A térkép bal alsó sarkában lévő gombsorban a havas hegy kapcsolóval ki- és bekapcsolhatod őket; az elemleírása: „Pályák, sífutópályák és felvonók”.',
   'help.guide.tour-ski-import.goal':
@@ -4989,7 +4989,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.result':
     'Elkészült egy új evezős túra a hajóval, a víz típusával és a sebességgel, készen arra, hogy felvedd az első pontját a térképen.',
   'help.guide.tour-paddle-water-route.tip.1':
-    'Ahol hiányoznak a vízadatok, a TREK a példány beállításától függően vagy automatikusan letölti őket a régióra, vagy egy rendszergazdától kéri. A szakaszon ilyenkor a vízadatok betöltését jelző üzenet látszik, és amint megvannak az adatok, automatikusan megtörténik a tervezés, általában egy-három percen belül.',
+    'Ahol hiányoznak a vízadatok, a Manzil a példány beállításától függően vagy automatikusan letölti őket a régióra, vagy egy rendszergazdától kéri. A szakaszon ilyenkor a vízadatok betöltését jelző üzenet látszik, és amint megvannak az adatok, automatikusan megtörténik a tervezés, általában egy-három percen belül.',
   'help.guide.tour-paddle-portage.step.2':
     'Válaszd az „Átemelés innentől” lehetőséget. A következő pontig tartó szakasz átemelés lesz, a szárazföldön megrajzolva.',
   'help.guide.tour-paddle-lock.title': 'Zsilip és várakozási idő hozzáadása',
@@ -5065,9 +5065,9 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.tip.1':
     'A push böngészőnként működik: ismételd meg minden telefonon és számítógépen, amelyen értesítést szeretnél kapni. A „Kikapcsolás ezen az eszközön” csak azon az eszközön kapcsolja ki.',
   'help.guide.connect-airtrail.step.2':
-    'Az „Önaláírt tanúsítványok engedélyezése” csak a saját hálózatodon futó, megbízható példányhoz való. A „Módosítások visszaírása az AirTrailbe” alapból ki van kapcsolva, így a TREK csak olvas; kapcsold be, ha a szerkesztéseidet is vissza szeretnéd küldeni.',
+    'Az „Önaláírt tanúsítványok engedélyezése” csak a saját hálózatodon futó, megbízható példányhoz való. A „Módosítások visszaírása az AirTrailbe” alapból ki van kapcsolva, így a Manzil csak olvas; kapcsold be, ha a szerkesztéseidet is vissza szeretnéd küldeni.',
   'help.guide.connect-dawarich.step.2':
-    'Az „Új tartózkodások automatikus keresése” beállítással a TREK magától ellenőrzi az újdonságokat. Kikapcsolt állapotban csak akkor olvassa a Dawarichot, ha kéred. A „Saját aláírású tanúsítvány engedélyezése” csak olyan példányhoz való, amelyben a szervered nem bízik.',
+    'Az „Új tartózkodások automatikus keresése” beállítással a Manzil magától ellenőrzi az újdonságokat. Kikapcsolt állapotban csak akkor olvassa a Dawarichot, ha kéred. A „Saját aláírású tanúsítvány engedélyezése” csak olyan példányhoz való, amelyben a szervered nem bízik.',
   'help.guide.tour-connect-wanderer.step.2':
     'Az „Önaláírt tanúsítvány engedélyezése” beállítást csak a saját hálózatodon futó példányhoz kapcsold be.',
   'help.guide.tour-wanderer-watch.step.1':
@@ -5092,7 +5092,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.step.4':
     'Olvasd el a sárga megjegyzést: megnevezi, kik kapnak most először hozzáférést a naplóhoz. Ezután kattints a „Napló kapcsolása” gombra.',
   'help.guide.dawarich-stays.step.1':
-    'Ha a Dawarich csatlakoztatva van a Beállítások, Integrációk menüpontban, a helylista fölött megjelenik „A Dawarichból” rész. A fejlécéből kiderül, mikor ellenőrzött utoljára a TREK, és hány tartózkodás vár. Kattints rá a lista megnyitásához.',
+    'Ha a Dawarich csatlakoztatva van a Beállítások, Integrációk menüpontban, a helylista fölött megjelenik „A Dawarichból” rész. A fejlécéből kiderül, mikor ellenőrzött utoljára a Manzil, és hány tartózkodás vár. Kattints rá a lista megnyitásához.',
   'help.guide.leave-stop-off-route.step.2':
     'A név mellett „Útvonalon kívül” jelvény jelenik meg. A megálló a napon és a térképen marad, de a nap útvonala és a szakaszidők nem számolnak vele.',
   'help.guide.move-booking-day.result': 'A foglalás a tervben már az új naphoz tartozik, az időpontja nem változott.',
@@ -5101,7 +5101,7 @@ const help: TranslationStrings = {
     'Nyiss meg egy helyet, amelynek a fájljai között van fotó. A kártya alján lévő „Fájl” rész mutatja, hány fájl tartozik a helyhez.',
   'help.guide.place-own-hours.title': 'Hely nyitvatartásának, telefonszámának vagy e-mail-címének javítása',
   'help.guide.place-own-hours.tip.1':
-    'Az általad megadott nyitvatartás felülírja a TREK által lekérdezettet, így egy szezonálisan nyitva tartó kávézónál az látszik, amit te tudsz.',
+    'Az általad megadott nyitvatartás felülírja a Manzil által lekérdezettet, így egy szezonálisan nyitva tartó kávézónál az látszik, amit te tudsz.',
   'help.guide.day-panel.tip.3':
     'Naptár szerint tervezel? Kapcsold be a Beállítások „Megjelenés” részében a „Dátum elöl a napok fejlécében” beállítást: a fejlécben előbb a dátum látszik, alatta az „1. nap” vagy a nap neve.',
   'help.guide.confirm-stay-booking.result':
@@ -5121,7 +5121,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.tip.2':
     'Az oszlopokat pontosvessző választja el, és az Excel az ékezeteket helyesen jeleníti meg.',
   'help.guide.arrange-packing-list.tip.2':
-    'A TREK ebben a böngészőben megjegyzi az „A-tól Z-ig” beállítást, így a lista legközelebb is rendezve nyílik meg. Ez csak azt befolyásolja, amit te látsz, a többiek sorrendjét soha.',
+    'A Manzil ebben a böngészőben megjegyzi az „A-tól Z-ig” beállítást, így a lista legközelebb is rendezve nyílik meg. Ez csak azt befolyásolja, amit te látsz, a többiek sorrendjét soha.',
   'help.guide.count-packed-pieces.step.4':
     'Amint a számláló eléri a mennyiséget, a tétel automatikusan kipipálódik, és becsomagoltnak számít.',
   'help.guide.expense-receipts.result':
@@ -5129,7 +5129,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.4':
     'A „Ha egy dokumentumot törölnek” alatt add meg, mi történjen a másik oldalon lévő példánnyal. A „Mindkét példány megtartása” a tárolóban lévő példányt a helyén hagyja. Az „Áthelyezés a kukába” a tároló kukájába helyezi, amikor a dokumentumot a TREK-ben törlik.',
   'help.ctx.trip-collab.bullet.7':
-    'Itt mindenhez internetkapcsolat kell. Offline állapotban az üzenet, a jegyzet, a link, a szavazás vagy a szavazat nem mentődik, és a TREK ezt jelzi: „Ehhez kapcsolat kell. Próbáld újra, ha a TREK újra online.” Azok a tagok, akik nem szerkeszthetik az „Együttműködés” fület, mindent elolvashatnak, de az „Új jegyzet”, a „Link hozzáadása” és az „Új szavazás” nem jelenik meg nekik, az üzenetmező pedig szürke.',
+    'Itt mindenhez internetkapcsolat kell. Offline állapotban az üzenet, a jegyzet, a link, a szavazás vagy a szavazat nem mentődik, és a Manzil ezt jelzi: „Ehhez kapcsolat kell. Próbáld újra, ha a Manzil újra online.” Azok a tagok, akik nem szerkeszthetik az „Együttműködés” fület, mindent elolvashatnak, de az „Új jegyzet”, a „Link hozzáadása” és az „Új szavazás” nem jelenik meg nekik, az üzenetmező pedig szürke.',
   'help.guide.manage-notes.step.4':
     'A „Szerkesztés” megnyitja a jegyzet ablakát, minden mező kitöltve. Módosítsd, amit kell, itt például egy újabb sort a „Tartalom” alatt, és kattints a „Mentés” gombra.',
   'help.guide.note-categories.step.2':
@@ -5146,7 +5146,7 @@ const help: TranslationStrings = {
     'A „Bejelentkezés” vagy a „Beszállás” gomb mutatja, mikorra kell az autóútnak a terminálhoz érnie: az indulás ennyivel korábbra kerül a menetrendinél.',
   'help.guide.roadtrip-google-import.title': 'Útvonal importálása a Google Mapsből',
   'help.guide.roadtrip-google-import.tip.2':
-    'A linkben legalább kettő, legfeljebb 30 olyan megállónak kell lennie, amelyet a TREK el tud helyezni.',
+    'A linkben legalább kettő, legfeljebb 30 olyan megállónak kell lennie, amelyet a Manzil el tud helyezni.',
   'help.guide.roadtrip-hazards.tip.1':
     'A figyelmeztetések nem útlezárások: az útvonal soha nem változik miattuk, és aktuális közlemények, nem az utazásod idejére szóló előrejelzések.',
   'help.ctx.trip-tours.bullet.4':
@@ -5273,9 +5273,9 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-trail-details.step.3':
     'A jelvények összefoglalják: az útvonal mekkora része „Ismert”, mi a „Legmagasabb ismert” fokozat, és külön az az „Útvonalkorlát”, amellyel a gyalogtúrát tervezték.',
   'help.guide.tour-hike-round.goal':
-    'A TREK javasoljon a kívánt hosszúságú körtúrákat a gyalogtúra egyik megállójából indulva.',
+    'A Manzil javasoljon a kívánt hosszúságú körtúrákat a gyalogtúra egyik megállójából indulva.',
   'help.guide.tour-hike-round.tip.2':
-    '1 és 60 km közötti távolságot adhatsz meg, és a TREK a megadott értéktől legfeljebb 20 %-kal eltérő köröket kínál.',
+    '1 és 60 km közötti távolságot adhatsz meg, és a Manzil a megadott értéktől legfeljebb 20 %-kal eltérő köröket kínál.',
   'help.guide.tour-hike-compare-ways.result':
     'Az adott szakasz a választott utat követi, a gyalogtúra többi része változatlan. A térkép alján megjelenő „Út átvéve” üzenetben ott a „Visszavonás”.',
   'help.guide.tour-ferrata-add.step.3':
@@ -5300,7 +5300,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-check-off.result':
     'A meglátogatott megállók ki vannak pipálva, a kihagyottak át vannak húzva, a hátralévő idő pedig csak azt számolja, ami még előtted áll.',
   'help.guide.tour-bike-profile.goal':
-    'Kezdj egy kerékpártúrát, és a TREK tervezze meg az útvonalat túrakerékpárhoz, országúti, gravel- vagy MTB-kerékpárhoz.',
+    'Kezdj egy kerékpártúrát, és a Manzil tervezze meg az útvonalat túrakerékpárhoz, országúti, gravel- vagy MTB-kerékpárhoz.',
   'help.guide.tour-bike-profile.tip.1':
     'Ha később módosítod a profilt, a teljes útvonal újratervezése megtörténik az új profillal.',
   'help.guide.tour-bike-surfaces.step.2':
@@ -5331,7 +5331,7 @@ const help: TranslationStrings = {
     'Tavon a „Tavakon át” határozza meg az útvonalat: az „Egyenesen” a legrövidebb, a „Part mentén” szeles napokra a parthoz közel halad.',
   'help.guide.tour-paddle-water-route.title': 'Vízi szakaszok tervezése',
   'help.guide.tour-paddle-water-route.tip.2':
-    'Ahol az útvonal egy duzzasztógát mellett átemeléssel halad el, vagy egy zsilipen megy át, a TREK saját pontot helyez el, „Felismert” jelöléssel. Ha áthelyezed vagy módosítod, a saját pontod lesz.',
+    'Ahol az útvonal egy duzzasztógát mellett átemeléssel halad el, vagy egy zsilipen megy át, a Manzil saját pontot helyez el, „Felismert” jelöléssel. Ha áthelyezed vagy módosítod, a saját pontod lesz.',
   'help.guide.tour-paddle-portage.step.3':
     'A pont alatt megjelenik egy „Átemelés” kártya a hosszával és a többletpercekkel. Kattints rá a megnyitásához.',
   'help.guide.tour-paddle-lock.goal':
@@ -5339,7 +5339,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-lock.result':
     'A zsilip a perceivel együtt szerepel a túrán, az „Időbecslés” pedig hozzáadja őket.',
   'help.guide.tour-paddle-time.tip.1':
-    'A TREK kiindulásként vízen 4 km/h-val, cipeléskor 2 km/h-val és átemelésenként 10 perccel számol. Ezek beállítandó kiindulási értékek, nem mért adatok.',
+    'A Manzil kiindulásként vízen 4 km/h-val, cipeléskor 2 km/h-val és átemelésenként 10 perccel számol. Ezek beállítandó kiindulási értékek, nem mért adatok.',
   'help.guide.tour-paddle-wind.step.3':
     'A sávok a nap óráit mutatják, a széllökések az átlagos szél mögött látszanak. Ha egy sáv fölé viszed az egeret, megjelennek az adott óra értékei és a szélirány.',
   'help.guide.tour-paddle-checklist.goal':
@@ -5410,7 +5410,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.3':
     'Kattints a „Mentés”, majd a „Kapcsolat tesztelése” gombra. A teszt jelzi, hány útvonaladat importálhatod, a jelvény pedig „Csatlakozva” állapotra vált.',
   'help.guide.tour-wanderer-watch.step.2':
-    'A TREK naponta legfeljebb egyszer lekéri az általad importált útvonalak rövid adatait, a sorban pedig látod, mikor ellenőrzött utoljára. Ha egy útvonal megváltozhatott, értesítést kapsz, és a „Jelzések” számlálója nő: a „Jelzések” gombra kattintva minden túránál látod, hogy „Változhatott”, „Megváltozott” vagy „Nem ellenőrizhető”, és onnan meg is nyithatod.',
+    'A Manzil naponta legfeljebb egyszer lekéri az általad importált útvonalak rövid adatait, a sorban pedig látod, mikor ellenőrzött utoljára. Ha egy útvonal megváltozhatott, értesítést kapsz, és a „Jelzések” számlálója nő: a „Jelzések” gombra kattintva minden túránál látod, hogy „Változhatott”, „Megváltozott” vagy „Nem ellenőrizhető”, és onnan meg is nyithatod.',
   'help.guide.plugin-settings.goal':
     'Add meg egy pluginnek a saját kulcsaidat és beállításaidat, és nézd meg, mit végzett a nevedben.',
   'help.guide.own-routing-engine.result': 'Minden utazás útvonalait a te szervereid számolják.',
@@ -5431,7 +5431,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.result':
     'Az utazás fülsorában megjelenik a „Napló” fül. Mindenki, akinek „Olvasás” vagy „Szerkesztés” jogot adtál, ezen a fülön nyithatja meg a naplót, élő frissítéssel.',
   'help.guide.create-place.tip.4':
-    'A Google Mapsből másolt link a keresőben is működik: illeszd be, nyomj Entert, és a TREK kiolvassa belőle a helyet. Ha az űrlapon már van pozíció, a kereső melletti célkereszt („Helyek a gombostű közelében”) felsorolja, mi található a közelben.',
+    'A Google Mapsből másolt link a keresőben is működik: illeszd be, nyomj Entert, és a Manzil kiolvassa belőle a helyet. Ha az űrlapon már van pozíció, a kereső melletti célkereszt („Helyek a gombostű közelében”) felsorolja, mi található a közelben.',
   'help.guide.dawarich-stays.step.2':
     'A tartózkodások napok szerint csoportosítva jelennek meg, mindegyik az érkezés és a távozás idejével; a mérőóra ikon azt a tartózkodást jelöli, amelyben a Dawarich bizonytalan volt. Kattints a tartózkodás melletti gombostűre („Hozzáadás helyszínként”).',
   'help.guide.leave-stop-off-route.step.3':
@@ -5470,7 +5470,7 @@ const help: TranslationStrings = {
   'help.guide.expense-receipts.tip.1':
     'A szerkesztőben egy felsorolt fájl nevére kattintva ugyanez az előnézet nyílik meg. Ilyenkor az Esc csak az előnézetet zárja be, a kiadást nem.',
   'help.guide.files-sync-settings.step.5':
-    'A „Ha mindkét oldal változott” határozza meg, melyik példány marad meg, ha egy dokumentumot mindkét helyen szerkesztettek: „Kérdezzen rá”, „A TREK-példány megtartása” vagy „A tároló példányának megtartása”. Az „Automatikus szinkronizálás” bekapcsolásával a TREK a háttérben figyeli a változásokat; kikapcsolva a kártyán „Szüneteltetve” látszik, és csak a „Szinkronizálás most” indít szinkronizálást. Minden itteni módosítás azonnal mentődik.',
+    'A „Ha mindkét oldal változott” határozza meg, melyik példány marad meg, ha egy dokumentumot mindkét helyen szerkesztettek: „Kérdezzen rá”, „A TREK-példány megtartása” vagy „A tároló példányának megtartása”. Az „Automatikus szinkronizálás” bekapcsolásával a Manzil a háttérben figyeli a változásokat; kikapcsolva a kártyán „Szüneteltetve” látszik, és csak a „Szinkronizálás most” indít szinkronizálást. Minden itteni módosítás azonnal mentődik.',
   'help.guide.manage-notes.step.5':
     'A „Törlés” előbb rákérdez („Törli a jegyzetet?”), mert a jegyzet a fájljaival együtt minden tagnál törlődik. A megerősítéshez kattints a „Törlés” gombra.',
   'help.guide.note-categories.step.3':
@@ -5491,17 +5491,17 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-hazards.tip.2':
     'A DWD Németországot fedi le, a GDACS világszerte jelenti a katasztrófákat. Ha egy figyelmeztetés csak pontként jelenik meg, az érintett terület ismeretlen.',
   'help.ctx.trip-tours.bullet.5':
-    'A napok oszlopában a túra egy megállóhoz hasonló sor. Ha van „Kezdés” időpontja, a sorban kezdés → befejezés látszik, a befejezést a túra idejéből számolja a TREK, a „További lehetőségek” menüben pedig a „Szerkesztés”, az „Eltávolítás a napról”, a „Kihagyás az útvonalból” és a „Mentés gyűjteménybe” található.',
+    'A napok oszlopában a túra egy megállóhoz hasonló sor. Ha van „Kezdés” időpontja, a sorban kezdés → befejezés látszik, a befejezést a túra idejéből számolja a Manzil, a „További lehetőségek” menüben pedig a „Szerkesztés”, az „Eltávolítás a napról”, a „Kihagyás az útvonalból” és a „Mentés gyűjteménybe” található.',
   'help.guide.tour-show-list.step.5': 'Ugyanebben a kapcsolóban a „Hely” gombra kattintva visszakapod a helylistát.',
   'help.guide.tour-add-to-day.step.2':
     'Válaszd ki a napot. A menü az utazás összes napját felsorolja dátummal és címmel; az a nap, amelyen a túra már szerepel, szürke.',
   'help.guide.tour-add-to-day.result': 'A túra megjelenik a napja alatt, a vonala pedig a térképen az adott nap része.',
   'help.guide.tour-day-times.tip.2':
-    'Ha egy napon egy többnapos túrának csak egy szakasza szerepel, a TREK nem számol befejezési időt, mert a túra ideje a teljes útvonalra vonatkozik.',
+    'Ha egy napon egy többnapos túrának csak egy szakasza szerepel, a Manzil nem számol befejezési időt, mert a túra ideje a teljes útvonalra vonatkozik.',
   'help.guide.tour-remove-from-day.step.3':
     'Vagy kattints a nap fejlécére a nap megnyitásához, kattints a túrára a listában, majd a kártyája alján az „Eltávolítás a napról” gombra.',
   'help.guide.tour-filter-list.step.3':
-    'Ha a lista vegyes, a „Forrás” (TREK, GPX-import, wanderer), az „Útvonalkorlát” (T1-től T6-ig) és a „Típus” („Gyalogtúra”, „Kerékpártúra” és így tovább) tovább szűkíti. Egy bejelölt értékre újra kattintva törlöd a szűrést.',
+    'Ha a lista vegyes, a „Forrás” (Manzil, GPX-import, wanderer), az „Útvonalkorlát” (T1-től T6-ig) és a „Típus” („Gyalogtúra”, „Kerékpártúra” és így tovább) tovább szűkíti. Egy bejelölt értékre újra kattintva törlöd a szűrést.',
   'help.guide.tour-hide-on-map.step.1':
     'Vidd az egeret egy túra fölé a listában, és kattints a sor jobb oldalán megjelenő szem ikonra („Elrejtés a térképen”).',
   'help.guide.tour-import-plan-tab.step.1':
@@ -5521,7 +5521,7 @@ const help: TranslationStrings = {
   'help.guide.tour-copy-keep.tip.4':
     'A „Gyűjtemény” csak akkor érhető el, ha a Gyűjtemények bővítmény be van kapcsolva. Csak olvasható listát nem választhatsz, ha pedig még nincs listád, az ablak a „Gyűjtemények megnyitása” lehetőséget kínálja.',
   'help.guide.tour-packing-link.step.5':
-    'A tételek kipipálásához kattints a „Csomagolási lista megnyitása” gombra. A TREK a „Listák” fülre vált, a csomagolási listára.',
+    'A tételek kipipálásához kattints a „Csomagolási lista megnyitása” gombra. A Manzil a „Listák” fülre vált, a csomagolási listára.',
   'help.guide.tour-files.step.2': 'Az alatta lévő sor most mutatja a fájlok számát, és kinyílik a lista.',
   'help.guide.tour-activity-link.step.2':
     'A „Teljesítve” alatt ellenőrizd, melyik napon teljesítetted. Ha egyik naphoz sem tartozik, válaszd a „Nap nélkül” lehetőséget.',
@@ -5534,7 +5534,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.step.5':
     'A térkép tetején lévő „Hely vagy cím keresése” mezővel egy adott helyre ugorhatsz, így ott kezdheted, ahol a túra lesz.',
   'help.guide.tour-draw-route.goal':
-    'Helyezd el egy új túra pontjait a térképen, és a TREK megtervezi köztük az útvonalat.',
+    'Helyezd el egy új túra pontjait a térképen, és a Manzil megtervezi köztük az útvonalat.',
   'help.guide.tour-draw-route.tip.2':
     'A térkép gombján a Topo vagy a „Túrázás” térkép megmutatja az ösvényeket, így könnyebb rájuk kattintani. Ha egy pont túl messze van minden olyan úttól, amelyet a túratípus használhat, útvonal helyett értesítés jelenik meg.',
   'help.guide.tour-type-profile.step.3':
@@ -5606,7 +5606,7 @@ const help: TranslationStrings = {
   'help.guide.tour-stages-on-days.step.6':
     'A mellette lévő nyíl („A szakasz megnyitása a tervezőben”) a szerkesztőben, ennél a szakasznál nyitja meg a túrát.',
   'help.ctx.trip-tour-hike.bullet.1':
-    'A szerkesztő tetején lévő „Túratípus” határozza meg, hogyan tervezi a TREK az útvonalat. A „Gyalogtúra” a „Részletek” alatt megadott „Ösvény legnagyobb nehézsége” szintig használ ösvényeket; a „Futás” futásra alkalmas utakat választ, és a „Tervezett tempó” megadását kéri.',
+    'A szerkesztő tetején lévő „Túratípus” határozza meg, hogyan tervezi a Manzil az útvonalat. A „Gyalogtúra” a „Részletek” alatt megadott „Ösvény legnagyobb nehézsége” szintig használ ösvényeket; a „Futás” futásra alkalmas utakat választ, és a „Tervezett tempó” megadását kéri.',
   'help.guide.tour-hike-plan.step.1':
     'Kattints a bal oldali oszlop tetején az „Új túra tervezése” gombra. A szerkesztő „Új túra” címmel nyílik meg.',
   'help.guide.tour-hike-plan.tip.2':
@@ -5636,7 +5636,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.2':
     'Ha egy megállónak még nincs tartózkodási ideje, az utána következő érkezési idők a lehető legkorábbi időpontként jelennek meg.',
   'help.guide.tour-walk-google-import.step.3':
-    'Ellenőrizd a „Megállók a linkben” részt. Ha egy megállónak nincs pozíciója a linkben, a TREK megjelöli, és kihagyja.',
+    'Ellenőrizd a „Megállók a linkben” részt. Ha egy megállónak nincs pozíciója a linkben, a Manzil megjelöli, és kihagyja.',
   'help.guide.tour-walk-check-off.step.1':
     'A „Terv” fülön kattints a városi sétára a napján. A kártyája a térkép mellett nyílik meg.',
   'help.ctx.trip-tour-bike.title': 'Kerékpártúrák',
@@ -5670,11 +5670,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.6':
     'Az „Evezési tempó” szürkén mutatja a hajóhoz javasolt értéket. Ha saját értéket írsz be, a mezőn „Saját tempó” jelzés jelenik meg; az alatta lévő „Javasolt használata” link visszaállítja a hajóhoz javasolt sebességet.',
   'help.guide.tour-paddle-water-route.goal':
-    'A TREK tervezzen meg egy szakaszt a folyón vagy a tavon, és értsd meg a megjegyzéseket azoknál a szakaszoknál, amelyeket nem tudott megtervezni.',
+    'A Manzil tervezzen meg egy szakaszt a folyón vagy a tavon, és értsd meg a megjegyzéseket azoknál a szakaszoknál, amelyeket nem tudott megtervezni.',
   'help.guide.tour-paddle-water-route.tip.3':
     'A megtervezett szakasz alatti megjegyzések jelzik a vadvizet a nehézségi fokával, a csónakcsúszdát („Csónakcsúszda”), vagy az egyenes vonallal áthidalt hiányt a térképadatokban („Hiány a térképadatokban”).',
   'help.guide.tour-paddle-portage.step.4':
-    'Az „Útvonal” alatt a „Kövesd az utat” egy feltérképezett utat használ, az „Egyenes vonal” pedig egyenesen átvág. A TREK magától keresi az utat, és jelzi, ha nincs ilyen hosszú kerülő nélkül.',
+    'Az „Útvonal” alatt a „Kövesd az utat” egy feltérképezett utat használ, az „Egyenes vonal” pedig egyenesen átvág. A Manzil magától keresi az utat, és jelzi, ha nincs ilyen hosszú kerülő nélkül.',
   'help.guide.tour-paddle-lock.step.1':
     'Vidd az egeret a zsilipnél lévő megállóra, és kattints a három pontra („További műveletek”).',
   'help.guide.tour-paddle-time.title': 'Evezős túra idejének áttekintése és módosítása',
@@ -5684,7 +5684,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-checklist.step.1':
     'Mentsd el az evezős túrát, majd keresd meg a bal oldali oszlopban az „Ellenőrzőlista” részt. A fejlécében lévő jelvény összefoglalja, hol tart a lista.',
   'help.guide.tour-paddle-checklist.tip.4':
-    'Az akadályok a TREK által tárolt régiók OpenStreetMap-adataiból származnak. Ahol nincs ilyen adat, a kártya jelzi ezt, és a duzzasztógátakat, zsilipeket és átemeléseket neked kell ellenőrizned.',
+    'Az akadályok a Manzil által tárolt régiók OpenStreetMap-adataiból származnak. Ahol nincs ilyen adat, a kártya jelzi ezt, és a duzzasztógátakat, zsilipeket és átemeléseket neked kell ellenőrizned.',
   'help.guide.tour-paddle-track-marks.step.4':
     '„Az utazás túrái” között kattints a nyomvonalra. A bal oldali oszlop a rögzített formájában mutatja, az „Átemelések és zsilipek” kártyával együtt.',
   'help.ctx.trip-tour-horse.title': 'Lovastúrák',
@@ -5747,7 +5747,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.result':
     'A jelvényen „Csatlakozva” látszik, és az utazások „Túrák” fülén kereshetsz a wanderer-példányodban, és importálhatod az útvonalait.',
   'help.guide.tour-wanderer-watch.result':
-    'A TREK figyeli az importált útvonalaidat, és szól, ha valamelyik megváltozhatott. A túra csak akkor változik, ha elfogadod a módosítást.',
+    'A Manzil figyeli az importált útvonalaidat, és szól, ha valamelyik megváltozhatott. A túra csak akkor változik, ha elfogadod a módosítást.',
   'help.guide.plugin-settings.step.1':
     'A beállítások oldalsávjában nyisd meg a „Pluginok” részt. A „Bővítménybeállítások” alatt minden olyan pluginnek, amely beállítást kér tőled, saját kártyája van a mezőivel: töltsd ki őket, és kattints a „Mentés” gombra. A kártyán lévő műveletek megerősítés után futnak le.',
   'help.guide.profile.step.3': 'Kattints a kártya alján, jobb oldalon a „Mentés” gombra.',
@@ -5761,7 +5761,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.goal':
     'Add meg, milyen értesítési beállításokkal induljon minden felhasználó, és tilts le teljesen egy csatornát egy adott eseménynél.',
   'help.ctx.notifications.summary':
-    'Az összes értesítés, amelyet a TREK az alkalmazáson belül megjelenített, a legújabbal kezdve: egy foglalás, amelyet valaki módosított, egy új üzenet egy utazás csevegésében, egy veled megosztott naptár. A jobb felső sarokban lévő csengő a legújabb tízet mutatja, ez az oldal az összeset.',
+    'Az összes értesítés, amelyet a Manzil az alkalmazáson belül megjelenített, a legújabbal kezdve: egy foglalás, amelyet valaki módosított, egy új üzenet egy utazás csevegésében, egy veled megosztott naptár. A jobb felső sarokban lévő csengő a legújabb tízet mutatja, ez az oldal az összeset.',
   'help.guide.read-notifications.step.1':
     'Kattints a jobb felső sarokban a csengőre. A rajta lévő piros szám az olvasatlan értesítések számát mutatja.',
   'help.guide.filter-notifications.step.1': 'Kattints a jobb felső sarokban a csengőre.',
@@ -5780,7 +5780,7 @@ const help: TranslationStrings = {
   'help.guide.filter-places.step.5':
     'Ha az utazás több országot vagy régiót is érint, a földgömbbel egy országra vagy azon belül egy régióra szűrheted a listát, mindegyiknél a darabszámmal. A „Szűrő törlése” visszaállítja a „Minden ország” nézetet.',
   'help.guide.import-places-file.tip.3':
-    'Ha a Túrák bővítmény be van kapcsolva (ez az alapértelmezés), a fájlt az oszlop tetején, a „Túrák” részben importálhatod a „GPX vagy KML importálása” gombbal, és a vonalai túrák lesznek. A fájlban lévő pontokat itt nem importálja a TREK, mert a túrák csak vonalakból állnak.',
+    'Ha a Túrák bővítmény be van kapcsolva (ez az alapértelmezés), a fájlt az oszlop tetején, a „Túrák” részben importálhatod a „GPX vagy KML importálása” gombbal, és a vonalai túrák lesznek. A fájlban lévő pontokat itt nem importálja a Manzil, mert a túrák csak vonalakból állnak.',
   'help.guide.dawarich-stays.step.3':
     'Ellenőrizd a nevet, az „Érkezés” és a „Távozás” időpontját, válassz napot, vagy hagyd a „Még nincs naphoz rendelve” értéken, ha szeretnéd, írj jegyzetet, majd kattints a „Hely hozzáadása” gombra.',
   'help.guide.leave-stop-off-route.result':
@@ -5825,7 +5825,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync.tip.4':
     'Ha a kártyán sárga figyelmeztetés látszik „Újracsatlakozás” gombbal, a tároló már nem fogadja el a mentett bejelentkezési adatokat. Kattints az „Újracsatlakozás” gombra, adj meg új alkalmazásjelszót vagy tokent, és a szinkronizálás újraindul.',
   'help.guide.files-sync-settings.result':
-    'A következő futástól az utazás csak a választott irányban szinkronizál, a törléseket és az ütköző szerkesztéseket pedig a beállított szabályok szerint kezeli a TREK.',
+    'A következő futástól az utazás csak a választott irányban szinkronizál, a törléseket és az ütköző szerkesztéseket pedig a beállított szabályok szerint kezeli a Manzil.',
   'help.guide.manage-notes.result':
     'A jegyzet egyszerre minden tagnál eltűnt a „Jegyzetek” kártyáról. A csak kitűzött vagy módosított jegyzet megmarad, és a többiek is abban az állapotban látják, ahogy hagytad.',
   'help.guide.note-categories.step.4':
@@ -5872,7 +5872,7 @@ const help: TranslationStrings = {
   'help.guide.tour-take-along.step.3':
     'A GPX gombbal GPX-fájlként töltheted le a mentett túrát: a teljes útvonalat a meglévő magassági adatokkal, navigációs alkalmazáshoz vagy GPS-eszközhöz.',
   'help.guide.tour-copy-keep.step.1':
-    'Nyisd meg a túra kártyáját, és kattints alul a „Másolás” gombra. A TREK új, önálló túrát hoz létre a napjai nélkül, az eredeti pedig változatlan marad.',
+    'Nyisd meg a túra kártyáját, és kattints alul a „Másolás” gombra. A Manzil új, önálló túrát hoz létre a napjai nélkül, az eredeti pedig változatlan marad.',
   'help.guide.tour-copy-keep.result':
     'Az utazásban van egy második, szabadon módosítható túra, a gyűjteményben pedig egy saját másolat, amelyet egy másik utazáshoz is hozzáadhatsz.',
   'help.guide.tour-packing-link.tip.1':
@@ -5885,7 +5885,7 @@ const help: TranslationStrings = {
   'help.guide.tour-origin-check.title': 'Túra eredetének megtekintése',
   'help.guide.tour-origin-check.result': 'Tudod, honnan és mikor származik a túra, és hogy azóta megváltozott-e.',
   'help.ctx.trip-tour-planner.bullet.6':
-    'A nem mentett vázlat megmarad: ha újra megnyitod a „Túrák” fület, a TREK visszaállítja, „Nem mentett vázlat visszaállítva” jelöléssel. A „Vissza a túrákhoz” és az „Elveti” rákérdez, mielőtt elvetné a módosításokat.',
+    'A nem mentett vázlat megmarad: ha újra megnyitod a „Túrák” fület, a Manzil visszaállítja, „Nem mentett vázlat visszaállítva” jelöléssel. A „Vissza a túrákhoz” és az „Elveti” rákérdez, mielőtt elvetné a módosításokat.',
   'help.guide.tour-open-workspace.step.6':
     'A bal alsó gombbal válthatsz a térképek között, kezdetben a „Térkép” és a „Műhold” között. Megnyitott túránál a típusához tartozó térképeket is kínálja, például Topo vagy „Túrázás”, valamint kapcsolókat, például a „Pontok elhelyezése” és a 3D.',
   'help.guide.tour-draw-route.step.1':
@@ -5920,7 +5920,7 @@ const help: TranslationStrings = {
   'help.guide.tour-saved-elsewhere.result': 'Semmilyen módosítás nem vész el, hacsak valaki szándékosan el nem veti.',
   'help.guide.tour-import-gpx.title': 'GPX-, KML- vagy KMZ-fájl importálása túraként',
   'help.guide.tour-import-gpx.tip.2':
-    'A fájl minden nyomvonalából vagy útvonalából külön túra lesz. A nyomvonalakat a TREK soha nem fűzi össze.',
+    'A fájl minden nyomvonalából vagy útvonalából külön túra lesz. A nyomvonalakat a Manzil soha nem fűzi össze.',
   'help.guide.tour-view-import.step.2':
     'A bal oldali oszlop GPX-túraként mutatja: a „Túra összefoglalója” a távolsággal, a magassági adatokkal és a rögzített idővel, alatta a magassági profillal. A térképen a vonala látszik.',
   'help.guide.tour-plan-from-import.step.1':
@@ -5982,7 +5982,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.3':
     'A nyitvatartás az OpenStreetMapből vagy abból az utazási helyből származik, amelyhez a megálló tartozik, és a mellette lévő jelvény mutatja, honnan. Indulás előtt ellenőrizd.',
   'help.guide.tour-walk-google-import.step.4':
-    'Kattints a „Betöltés sétaként” gombra. A TREK maga tervezi meg a gyalogos útvonalat a megállók között. A séta mentéséhez kattints a „Mentés” gombra.',
+    'Kattints a „Betöltés sétaként” gombra. A Manzil maga tervezi meg a gyalogos útvonalat a megállók között. A séta mentéséhez kattints a „Mentés” gombra.',
   'help.guide.tour-walk-check-off.step.2':
     'Görgess „A séta megállói” részhez. Minden megállónál látod, mennyi ideig maradsz, és ha a sétának van kezdési ideje, azt is, mikor érkezel.',
   'help.ctx.trip-tour-bike.summary':
@@ -5993,12 +5993,12 @@ const help: TranslationStrings = {
   'help.guide.tour-bike-surfaces.step.4':
     'Az „Úttípus” alatt kattints egy sorra, például a „Mező- vagy erdei út” vagy a „Forgalmas út” sorra, és látod, hol halad rajta az útvonal.',
   'help.guide.tour-bike-mtb-grades.step.1':
-    'Nyisd meg a kerékpártúrát a szerkesztőben, és ellenőrizd, hogy a profil MTB-re van-e állítva. Az ösvények nehézségi fokát a TREK csak ennél a profilnál olvassa be.',
+    'Nyisd meg a kerékpártúrát a szerkesztőben, és ellenőrizd, hogy a profil MTB-re van-e állítva. Az ösvények nehézségi fokát a Manzil csak ennél a profilnál olvassa be.',
   'help.ctx.trip-tour-ski.title': 'Sí- és téli túrák',
   'help.guide.tour-ski-plan.goal':
     'Tervezz egy napot a pályákon, egy sífutókört, egy sítúrát vagy egy hótalpas sétát a feltérképezett pályák, felvonók és utak mentén.',
   'help.guide.tour-ski-plan.tip.2':
-    'A „Szakág” melletti információs pont elmagyarázza, mit csinál a TREK a sítúrákkal. Sem ott, sem máshol itt nincs információ a hóról, a lavinákról, vagy arról, hogy a pályák, a felvonók és az utak nyitva vannak-e.',
+    'A „Szakág” melletti információs pont elmagyarázza, mit csinál a Manzil a sítúrákkal. Sem ott, sem máshol itt nincs információ a hóról, a lavinákról, vagy arról, hogy a pályák, a felvonók és az utak nyitva vannak-e.',
   'help.guide.tour-ski-options.step.3':
     'Az „Előnyben” alatt válaszd a „Leggyorsabb”, a „Legtöbb síelés” vagy a „Legkönnyebb” lehetőséget. A „Tempó” alatt válaszd a „Laza”, a „Normál” vagy a „Sportos” lehetőséget: ez azt befolyásolja, mennyi időt számol az útvonaltervező az egyes pályákra.',
   'help.guide.tour-ski-fix-leg.goal':
@@ -6016,11 +6016,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.7':
     'Ellenőrizd, hogy a „Pont hozzáadása” be van-e kapcsolva, majd kattints a térképre: először a vízre szállás helyére, aztán az útközbeni pontokra, végül a kiszállás helyére.',
   'help.guide.tour-paddle-water-route.step.1':
-    'A kézzel rajzolt szakasz pontja alatt a „Kézzel rajzolva, nem tervezett” felirat és a szakasz hossza látszik. A TREK a vonalat pontosan úgy tartja meg, ahogy megrajzoltad.',
+    'A kézzel rajzolt szakasz pontja alatt a „Kézzel rajzolva, nem tervezett” felirat és a szakasz hossza látszik. A Manzil a vonalat pontosan úgy tartja meg, ahogy megrajzoltad.',
   'help.guide.tour-paddle-water-route.tip.4':
     'Amíg van meg nem tervezett szakasz, nem tudsz menteni. Előbb tervezd meg a vízen, vagy rajzold meg kézzel.',
   'help.guide.tour-paddle-portage.step.5':
-    'A „Ki- és beszállás” mezőben add meg, hány percre van szükséged a kiszálláshoz, a kipakoláshoz és a visszaszálláshoz. Ha üresen hagyod, a TREK 10 perccel számol.',
+    'A „Ki- és beszállás” mezőben add meg, hány percre van szükséged a kiszálláshoz, a kipakoláshoz és a visszaszálláshoz. Ha üresen hagyod, a Manzil 10 perccel számol.',
   'help.guide.tour-paddle-lock.step.2':
     'Válaszd a „Zsilip ezen a ponton” lehetőséget. A pont alatt megjelenik egy „Zsilip” kártya „Hiányzó idő” jelöléssel.',
   'help.guide.tour-paddle-time.goal':
@@ -6028,9 +6028,9 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-time.tip.3':
     'A szüneteket és a saját tervezett teljes időt a „Részletek” alatt adhatod meg. Ha van tervezett teljes idő, a kártya a becslés mellett a „Saját tervezett összidő” értéket is mutatja.',
   'help.guide.tour-paddle-wind.tip.1':
-    'Előrejelzés csak a következő 16 napra érhető el. Egy későbbi napnál a TREK jelzi, melyik dátumtól lesz elérhető az előrejelzés, egy elmúlt napnál pedig azt, hogy a nap már elmúlt.',
+    'Előrejelzés csak a következő 16 napra érhető el. Egy későbbi napnál a Manzil jelzi, melyik dátumtól lesz elérhető az előrejelzés, egy elmúlt napnál pedig azt, hogy a nap már elmúlt.',
   'help.guide.tour-paddle-checklist.step.2':
-    'Az alatta lévő sorból kiderül, mennyire frissek az adatok: „OSM-állapot” az OpenStreetMaphez, „Lekérve” arra, hogy a TREK mikor olvasta be őket, és „Akadályadatok”, ha nem fedik le a teljes útvonalat.',
+    'Az alatta lévő sorból kiderül, mennyire frissek az adatok: „OSM-állapot” az OpenStreetMaphez, „Lekérve” arra, hogy a Manzil mikor olvasta be őket, és „Akadályadatok”, ha nem fedik le a teljes útvonalat.',
   'help.guide.tour-paddle-checklist.tip.5':
     'Az ellenőrzőlista nem biztonsági vagy jogi engedély. A döntésed nem írja felül az OpenStreetMapben rögzített tilalmakat vagy magánterületeket.',
   'help.guide.tour-paddle-track-marks.step.5':
@@ -6070,7 +6070,7 @@ const help: TranslationStrings = {
   'help.ctx.collections.bullet.7':
     'Mentett túrák: az utazásokból mentett túrák a lista első sorai, a nehézségi fokukkal, a típusukkal, a származási utazással és az adataikkal. A „Hozzáadás egy úthoz” új túrát készít belőlük, a kuka ikon pedig eltávolítja őket a listáról.',
   'help.guide.move-to-list.title': 'Helyek áthelyezése vagy duplikálása másik listába',
-  'help.guide.copy-to-trip.tip.2': 'Az utazásban már szereplő helyeket a TREK kihagyja, és jelzi, hányat hagyott ki.',
+  'help.guide.copy-to-trip.tip.2': 'Az utazásban már szereplő helyeket a Manzil kihagyja, és jelzi, hányat hagyott ki.',
   'help.guide.accept-list-invite.tip.2':
     'A lista tetején a „Megosztott” gombra kattintva látod a tagokat. Ott a „Lista elhagyása” gombbal ki is léphetsz a listából.',
   'help.guide.tour-collection-add-to-trip.goal':
@@ -6091,14 +6091,14 @@ const help: TranslationStrings = {
   'help.guide.journey-auto-prepare.title': 'A rögzített napok automatikus előkészítése',
   'help.guide.photo-location.title': 'Bejegyzések elhelyezése a fotók készítési helyén',
   'help.ctx.settings-about.summary':
-    'Mi a TREK, melyik verzió fut ezen a szerveren, és hol találod a projektet: a dokumentációt, a hibabejelentés helyét és a támogatás lehetőségeit.',
+    'Mi a Manzil, melyik verzió fut ezen a szerveren, és hol találod a projektet: a dokumentációt, a hibabejelentés helyét és a támogatás lehetőségeit.',
   'help.guide.startup.tip.2':
     'Ha a kezdő fül egy általad kikapcsolt bővítményhez tartozik, helyette a terv nyílik meg.',
   'help.guide.web-push-device.title': 'Push értesítések ezen az eszközön',
   'help.guide.connect-airtrail.tip.1':
     'A kártya csak akkor jelenik meg, ha a rendszergazda bekapcsolta az AirTrail bővítményt.',
   'help.guide.connect-dawarich.tip.1':
-    'A TREK csak javasol bejegyzéseket, helyeket és országokat; semmi sem kerül be, amíg meg nem erősíted, és a Dawarichba semmit sem ír vissza.',
+    'A Manzil csak javasol bejegyzéseket, helyeket és országokat; semmi sem kerül be, amíg meg nem erősíted, és a Dawarichba semmit sem ír vissza.',
   'help.guide.tour-connect-wanderer.tip.1':
     'A kártya csak akkor jelenik meg, ha a rendszergazda a Túrák beállításainál engedélyezi a wanderert.',
   'help.guide.tour-wanderer-watch.tip.1':
@@ -6112,9 +6112,9 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.goal':
     'Minden fiók kapjon ésszerű mértékegységeket, színmódot és pénznemet anélkül, hogy bárkinek meg kellene nyitnia a Beállításokat.',
   'help.guide.default-map.step.3':
-    'Minden mező akkor mentődik, amikor elhagyod. A mező neve melletti „visszaállítás” link visszaállítja a TREK alapértelmezett értékét.',
+    'Minden mező akkor mentődik, amikor elhagyod. A mező neve melletti „visszaállítás” link visszaállítja a Manzil alapértelmezett értékét.',
   'help.guide.own-routing-engine.tip.2':
-    'Ha csak a saját útvonaltervező van beállítva, a nyilvános Valhallát sem használja a TREK. A mező melletti „visszaállítás” link újra kiüríti.',
+    'Ha csak a saját útvonaltervező van beállítva, a nyilvános Valhallát sem használja a Manzil. A mező melletti „visszaállítás” link újra kiüríti.',
   'help.guide.admin-passkeys.step.1':
     'A „Beállítások” fülön, a „Passkey-bejelentkezés” részben kapcsold be a „Passkey-bejelentkezés engedélyezése” beállítást.',
   'help.guide.storage-backends.step.4':
@@ -6170,7 +6170,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.1':
     'Ha a fülnek csak egy részét exportálnád, előbb szűkítsd a „Keresés” vagy a „Szűrő” segítségével. A fájl pontosan azt tartalmazza, amit a fül mutat.',
   'help.guide.import-booking-file.tip.4':
-    'A visszaigazolás feldolgozásához internetkapcsolat kell. Offline állapotban az importálás jelzi ezt, és amikor a TREK újra online, próbáld újra.',
+    'A visszaigazolás feldolgozásához internetkapcsolat kell. Offline állapotban az importálás jelzi ezt, és amikor a Manzil újra online, próbáld újra.',
   'help.guide.arrange-packing-list.step.1':
     'Fogd meg a lista fejlécének bal szélén, a színpont előtt lévő fogantyút, és ejtsd a listát egy másik kártyára. A célkártyát a kiemelőszíneddel rajzolt keret jelöli, és a lista az utazás minden résztvevőjénél átveszi annak a kártyának a helyét.',
   'help.guide.count-packed-pieces.title': 'Egy dolog több darabjának becsomagolása',
@@ -6181,7 +6181,7 @@ const help: TranslationStrings = {
   'help.guide.expense-receipts.step.1':
     'Kattints a kiadás sora melletti ceruzára. Megnyílik a szerkesztő, alul a „Nyugták és számlák” résszel.',
   'help.guide.expense-receipts.tip.3':
-    'A csatoláshoz internetkapcsolat és fájlfeltöltési jogosultság kell, mert a nyugtát a TREK az utazás egyik fájljaként tárolja.',
+    'A csatoláshoz internetkapcsolat és fájlfeltöltési jogosultság kell, mert a nyugtát a Manzil az utazás egyik fájljaként tárolja.',
   'help.guide.files-sync-settings.title': 'A dokumentumok szinkronizálási irányának kiválasztása',
   'help.guide.files-sync-settings.tip.1':
     'Az egyik sáv mindig bekapcsolva marad: ha az egyetlen még bekapcsolt sávra kattintasz, nem történik semmi.',
@@ -6252,7 +6252,7 @@ const help: TranslationStrings = {
   'help.guide.tour-draw-route.step.2':
     'Írd be a „Hely vagy cím keresése” mezőbe, honnan indul a túra, és válaszd ki a találatot. A térkép odaugrik.',
   'help.guide.tour-draw-route.tip.4':
-    'A nem mentett vázlat megmarad. Ha újra megnyitod az utazás „Túrák” fülét, a TREK visszaállítja, „Nem mentett vázlat visszaállítva” jelöléssel.',
+    'A nem mentett vázlat megmarad. Ha újra megnyitod az utazás „Túrák” fülét, a Manzil visszaállítja, „Nem mentett vázlat visszaállítva” jelöléssel.',
   'help.guide.tour-type-profile.tip.1':
     'A típus módosítása egy lépésnek számít az előzményekben: a sáv tetején lévő „Pontmódosítás visszavonása” visszaállítja a régi típust és az útvonalát.',
   'help.guide.tour-edit-points.step.4':
@@ -6281,10 +6281,10 @@ const help: TranslationStrings = {
   'help.guide.tour-import-gpx.goal':
     'Egy GPS-óráról, alkalmazásból vagy a Google Earthből származó nyomvonalból készíts túrát az utazáshoz, mentés előtti ellenőrzéssel.',
   'help.guide.tour-import-gpx.tip.3':
-    'Az utazásban már szereplő nyomvonal szürkén, „Már az utazásban van” jelöléssel látszik, és a TREK kihagyja.',
+    'Az utazásban már szereplő nyomvonal szürkén, „Már az utazásban van” jelöléssel látszik, és a Manzil kihagyja.',
   'help.guide.tour-view-import.step.3': 'A bal felső sarokban lévő nyíllal („Vissza a túrákhoz”) bezárhatod.',
   'help.guide.tour-plan-from-import.step.2':
-    'A TREK ellenőrzőpontokat vesz a nyomvonalból, és újratervezi köztük az útvonalat. A térkép az importált nyomvonalat pontozott, a javaslatot folytonos vonallal mutatja, a kártya pedig összeveti a hosszukat, a nyomvonaltól 50 m-en belül haladó rész arányát és a „Legnagyobb eltérés” értékét.',
+    'A Manzil ellenőrzőpontokat vesz a nyomvonalból, és újratervezi köztük az útvonalat. A térkép az importált nyomvonalat pontozott, a javaslatot folytonos vonallal mutatja, a kártya pedig összeveti a hosszukat, a nyomvonaltól 50 m-en belül haladó rész arányát és a „Legnagyobb eltérés” értékét.',
   'help.guide.tour-restore-recorded.title': 'Visszatérés a rögzített nyomvonalhoz',
   'help.guide.tour-take-over.title': 'Túra átvétele másik utazásból',
   'help.guide.tour-take-over.tip.1':
@@ -6345,7 +6345,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.4':
     'Két séta egy napon: a „Terv” fülön kattints a köztük lévő szakaszra („Közlekedési mód módosítása”), és válaszd a „Tömegközlekedés” lehetőséget. A keresés onnan és akkor indul, ahol és amikor az első séta véget ér, és figyelmeztet, ha egy kapcsolat a következő séta kezdete után érkezik.',
   'help.guide.tour-walk-google-import.tip.1':
-    'A TREK csak gyalogosan tervezett útvonalat tud beolvasni. Megosztás előtt állítsd a Google Mapset gyalogos módra.',
+    'A Manzil csak gyalogosan tervezett útvonalat tud beolvasni. Megosztás előtt állítsd a Google Mapset gyalogos módra.',
   'help.guide.tour-walk-check-off.step.3':
     'Egy megnézett megállónál kattints a „Megjelölés látogatottként”, egy kihagyottnál a „Kihagyás” gombra.',
   'help.ctx.trip-tour-bike.bullet.1':
@@ -6382,7 +6382,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.step.2':
     'Ha egy szakaszt a vízen szeretnél megterveztetni, vidd az egeret az előtte lévő megállóra, és kattints a három pontra („További műveletek”).',
   'help.guide.tour-paddle-water-route.result':
-    'Minden szakasz a vizet követi, vagy szándékosan kézzel van rajzolva, és ha a TREK nem tudott megtervezni egy szakaszt, jelzi az okát.',
+    'Minden szakasz a vizet követi, vagy szándékosan kézzel van rajzolva, és ha a Manzil nem tudott megtervezni egy szakaszt, jelzi az okát.',
   'help.guide.tour-paddle-portage.tip.1':
     'Ha mégis evezve tennéd meg a szakaszt, nyisd meg újra a pont „További műveletek” menüjét, és válaszd az „Újra evezés ezen a szakaszon” lehetőséget. A szakasz ismét kézzel rajzolt szakasz lesz.',
   'help.guide.tour-paddle-lock.step.3': 'Kattints a „Zsilip” kártyára a megnyitásához.',
@@ -6402,7 +6402,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.2':
     'Kattints a „Túra neve” alatti „Túratípus” mezőre, és válaszd a „Lovastúra” lehetőséget. Az „Útpontok” alatt megjelenik a „Lovas útvonalak” kártya.',
   'help.guide.tour-horse-plan.tip.2':
-    'A TREK lovastúránál nem számol lovaglási időt. Ha szeretnéd, hogy a napon szerepeljen idő, add meg a „Részletek” között a „Tervezett” mezőben.',
+    'A Manzil lovastúránál nem számol lovaglási időt. Ha szeretnéd, hogy a napon szerepeljen idő, add meg a „Részletek” között a „Tervezett” mezőben.',
   'help.guide.tour-horse-gap.step.3':
     'Kattints a „Szakasz átvétele” gombra. Amíg a kapcsoló nincs bekapcsolva, a gomb szürke marad.',
   'help.guide.tour-horse-recorded.step.1':
@@ -6419,7 +6419,7 @@ const help: TranslationStrings = {
   'help.guide.log-for-partner.title': 'Napok rögzítése annak, akivel közösen tervezel',
   'help.guide.dissolve-fusion.title': 'Közös tervezés befejezése',
   'help.guide.country-places.goal':
-    'Listázd ki, mely helyeket számol a TREK egy országhoz: így ellenőrizheted, mit csináltál ott, vagy megtalálhatod azt a helyet, amelyet a TREK rossz országhoz rendelt.',
+    'Listázd ki, mely helyeket számol a Manzil egy országhoz: így ellenőrizheted, mit csináltál ott, vagy megtalálhatod azt a helyet, amelyet a Manzil rossz országhoz rendelt.',
   'help.guide.regions.tip.3':
     'A „Hozzáadás a bakancslistához” régióknál is működik. A régió ugyanolyan sraffozással jelenik meg, mint egy bakancslistás ország.',
   'help.guide.tour-activity-stats.step.2':
@@ -6450,11 +6450,11 @@ const help: TranslationStrings = {
   'help.guide.readability.tip.3':
     'Az olvashatósági beállítások „Kísérleti” jelölésűek. Ha valami rosszul néz ki, a fül alján lévő „Alapértelmezések visszaállítása” gombbal visszaállíthatod az alapbeállításokat.',
   'help.guide.web-push-device.goal':
-    'Lásd a TREK értesítéseit a telefonodon vagy a számítógépeden akkor is, ha a TREK be van zárva.',
+    'Lásd a Manzil értesítéseit a telefonodon vagy a számítógépeden akkor is, ha a Manzil be van zárva.',
   'help.guide.connect-airtrail.tip.2':
-    'A kulcsot a TREK titkosítva tárolja, és többé nem jeleníti meg; ha a mezőben pontok látszanak, van mentett kulcs.',
+    'A kulcsot a Manzil titkosítva tárolja, és többé nem jeleníti meg; ha a mezőben pontok látszanak, van mentett kulcs.',
   'help.guide.connect-dawarich.tip.2':
-    'A gombok alatt a kártya jelzi, mikor ellenőrzött utoljára a TREK, és mit nem tud a Dawarich-verziód.',
+    'A gombok alatt a kártya jelzi, mikor ellenőrzött utoljára a Manzil, és mit nem tud a Dawarich-verziód.',
   'help.guide.tour-connect-wanderer.tip.2':
     'Privát címen futó példányhoz szükség lehet arra, hogy a rendszergazda engedélyezze a belső hálózatokat.',
   'help.guide.tour-wanderer-watch.tip.2':
@@ -6462,13 +6462,13 @@ const help: TranslationStrings = {
   'help.guide.plugin-settings.result':
     'A plugin a te beállításaiddal működik, és minden művelete, amelyet a nevedben végez, megjelenik a „Bővítmény-tevékenység” alatt.',
   'help.ctx.admin-defaults.bullet.3':
-    'A beállított mező melletti „visszaállítás” link visszaállítja a TREK alapértelmezett értékét. A felhasználó saját beállítása mindig felülírja ezeket.',
+    'A beállított mező melletti „visszaállítás” link visszaállítja a Manzil alapértelmezett értékét. A felhasználó saját beállítása mindig felülírja ezeket.',
   'help.ctx.admin-settings.bullet.5':
     '„Veszélyzóna”: a „JWT-titok cseréje” minden felhasználót kijelentkeztet, téged is.',
   'help.guide.default-user-settings.step.1':
     'Az „Alapértelmezett felhasználói beállítások” részben válaszd ki a „Színmód” („Világos”, „Sötét” vagy „Automatikus”), a „Hőmérséklet egység”, a „Távolság egység”, az „Időformátum”, „A hét kezdőnapja” és a „Megjelenítési pénznem” értékét, valamint azt, hogy a „Foglalási kódok elrejtése” be vagy ki legyen kapcsolva. Minden választás azonnal mentődik.',
   'help.guide.admin-passkeys.step.2':
-    'Add meg a Relying Party ID (domain) értékét, például trek.example.org, és az „Engedélyezett origók” közé azokat a címeket, amelyeken a TREK-ed elérhető, majd kattints a „Mentés” gombra. Ha mindkettőt üresen hagyod, a TREK az APP_URL értékét használja.',
+    'Add meg a Relying Party ID (domain) értékét, például trek.example.org, és az „Engedélyezett origók” közé azokat a címeket, amelyeken a TREK-ed elérhető, majd kattints a „Mentés” gombra. Ha mindkettőt üresen hagyod, a Manzil az APP_URL értékét használja.',
   'help.guide.rotate-jwt-secret.title': 'Mindenki kijelentkeztetése egyszerre',
   'help.guide.notification-defaults.step.2':
     'Egy cellára kattintva a következő állapotra váltasz: „Be”, „Ki”, „Tiltva”. Az elemleírás megnevezi a következő állapotot, és minden kattintás azonnal mentődik.',
@@ -6496,9 +6496,9 @@ const help: TranslationStrings = {
   'help.guide.place-image-from-file.result':
     'A fotó lett a hely képe a kártyán, a helyek oszlopában, a napon és a térképen.',
   'help.guide.place-own-hours.step.3':
-    'Alattuk a „Nyitvatartás” a hetet mutatja, naponként egy sorral. Ha a TREK talált nyitvatartást a helyhez, az már ki van töltve; ha nem, előbb kattints a „Nyitvatartás hozzáadása” gombra. Írd be, mikor nyit és zár az egyes napokon, és azoknál a napoknál, amikor zárva van, kattints a „Lezárva” gombra.',
+    'Alattuk a „Nyitvatartás” a hetet mutatja, naponként egy sorral. Ha a Manzil talált nyitvatartást a helyhez, az már ki van töltve; ha nem, előbb kattints a „Nyitvatartás hozzáadása” gombra. Írd be, mikor nyit és zár az egyes napokon, és azoknál a napoknál, amikor zárva van, kattints a „Lezárva” gombra.',
   'help.guide.add-accommodation.tip.5':
-    'A GPX-nyomvonalakat és a túrák helyeit a TREK soha nem kínálja fel szálláshelyként, csak az utazás szokásos helyeit.',
+    'A GPX-nyomvonalakat és a túrák helyeit a Manzil soha nem kínálja fel szálláshelyként, csak az utazás szokásos helyeit.',
   'help.guide.confirm-stay-booking.step.1':
     'Nyisd meg a bejelentkezés napját. A szállás kártyáján a „Foglalás” alatt látod az arra az éjszakára szóló szállodafoglalást „Függőben” vagy „Megerősítve” állapottal. Kattints erre a mezőre.',
   'help.guide.tour-map-lines.step.4':
@@ -6518,7 +6518,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.2':
     'Nyisd meg a nézetikonok utáni csúszkákat („Nézet beállításai”), és a „Rendezés” alatt válassz sorrendet. A sorok ezt követik, foglalásonként egy sorral, csoportok nélkül.',
   'help.guide.edit-booking.tip.4':
-    'Ha már módosítottál valamit, az űrlapon kívülre kattintva vagy az Esc billentyűvel a TREK megkérdezi: „Elveted a módosításokat?” A „Szerkesztés folytatása” visszavisz az űrlaphoz.',
+    'Ha már módosítottál valamit, az űrlapon kívülre kattintva vagy az Esc billentyűvel a Manzil megkérdezi: „Elveted a módosításokat?” A „Szerkesztés folytatása” visszavisz az űrlaphoz.',
   'help.guide.arrange-packing-list.step.2':
     'Egy listán belül a sor bal oldalán lévő fogantyúval feljebb vagy lejjebb húzhatod a tételt. A sor bal szélén megjelenő, kiemelőszínű vonal mutatja, hová kerül.',
   'help.guide.count-packed-pieces.goal':
@@ -6547,7 +6547,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.tip.2':
     'A megállónál foglalt asztal vagy jegy gombként jelenik meg az adott megállón; ami egyik megállóhoz sem tartozik, az „Erre a napra még lefoglalva” alatt szerepel.',
   'help.guide.roadtrip-google-import.step.3':
-    'Ellenőrizd a talált megállókat. Mindegyiknél látod, hol van; a „Hely nem azonosítható” jelölésűeket a TREK kihagyja.',
+    'Ellenőrizd a talált megállókat. Mindegyiknél látod, hol van; a „Hely nem azonosítható” jelölésűeket a Manzil kihagyja.',
   'help.guide.roadtrip-hazards.step.1': 'A jobb oldali oszlopban nyisd meg a „Vezetési beállítások” ablakot.',
   'help.ctx.trip-tours.summary':
     'A „Terv” fül jobb oldali oszlopa „Túrák” módban: az utazás összes túrája egy listában, a napok mellett. Innen rendelheted a túrákat a napokhoz, szűrheted a listát, elrejtheted a vonalakat a térképen, és GPX- vagy KML-fájlokat importálhatsz. Az útvonalakat a „Túrák” fülön rajzolhatod meg és módosíthatod.',
@@ -6651,7 +6651,7 @@ const help: TranslationStrings = {
   'help.guide.tour-along-search.step.1':
     'Nyiss meg egy túrát a „Túrák” fülön, és a bal oldali panelen görgess le „A túra mentén” részhez, a túra megállói alá. A kártya akkor jelenik meg, ha a túrának már van útvonala.',
   'help.guide.tour-along-search.tip.3':
-    'A találatok az OpenStreetMapből és a TREK helyindexéből származnak, ezért a kereséshez internetkapcsolat kell. Ha nincs találat, a „Tágítás eddig” a következő távolsággal próbálkozik; ha egy szerver túlterhelt, a „Próbáld újra” visszaszámlálást mutat, amíg újra próbálkozhatsz.',
+    'A találatok az OpenStreetMapből és a Manzil helyindexéből származnak, ezért a kereséshez internetkapcsolat kell. Ha nincs találat, a „Tágítás eddig” a következő távolsággal próbálkozik; ha egy szerver túlterhelt, a „Próbáld újra” visszaszámlálást mutat, amíg újra próbálkozhatsz.',
   'help.guide.tour-along-add-stop.tip.1':
     'A hely a túra megállója lesz, nem az utazás helye, ezért nem jelenik meg a helylistában.',
   'help.guide.tour-3d-terrain.step.4':
@@ -6672,7 +6672,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-hike.bullet.4':
     'Az útpontok alatti „Útrészletek” az OpenStreetMap alapján mutatja minden szakasz SAC-fokozatát, burkolatát és úttípusát, és ezek szerint színezi az útvonalat a térképen. Semmi sem változtat benne a túrán.',
   'help.guide.tour-hike-plan.step.4':
-    'A „Pont hozzáadása” kezdettől be van kapcsolva: kattints a térképen a gyalogtúra kiinduló- és végpontjára. A mellette lévő „Út helyei” gombbal helyette az utazás egy menedékházát vagy szállodáját is kiválaszthatod. Két ponttól a TREK megtervezi a gyalogos útvonalat.',
+    'A „Pont hozzáadása” kezdettől be van kapcsolva: kattints a térképen a gyalogtúra kiinduló- és végpontjára. A mellette lévő „Út helyei” gombbal helyette az utazás egy menedékházát vagy szállodáját is kiválaszthatod. Két ponttól a Manzil megtervezi a gyalogos útvonalat.',
   'help.guide.tour-hike-trail-details.title': 'Nehézségi fokok, burkolatok és úttípusok egy gyalogtúra mentén',
   'help.guide.tour-hike-trail-details.tip.1':
     'Az OpenStreetMapben értékkel nem rendelkező utak az „Ismeretlen” alatt szerepelnek, és az ismeretlen nem jelent könnyűt. Ha némelyiknél az „Ezúttal nem lehetett lekérdezni” felirat látszik, kattints a „Próbáld újra” gombra.',
@@ -6704,7 +6704,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.2':
     'A jobb oldali „Túra összefoglalója” a „Kerékpáros idő (becsült)” értéket mutatja, vagyis az útvonaltervező által a profilra számolt időt, az emelkedőkkel együtt. A szüneteket nem tartalmazza.',
   'help.guide.tour-bike-profile.step.4':
-    'Az „Útpontok” alatt kattints az „Út helyei” gombra, és válaszd ki a kiinduló- és a végpontot, itt a Hotel Alpenroyal, majd a Hotel Greif. Azt is megteheted, hogy ellenőrzöd, be van-e kapcsolva a „Pont hozzáadása”, és a térképre kattintasz. Két ponttól a TREK megtervezi az útvonalat.',
+    'Az „Útpontok” alatt kattints az „Út helyei” gombra, és válaszd ki a kiinduló- és a végpontot, itt a Hotel Alpenroyal, majd a Hotel Greif. Azt is megteheted, hogy ellenőrzöd, be van-e kapcsolva a „Pont hozzáadása”, és a térképre kattintasz. Két ponttól a Manzil megtervezi az útvonalat.',
   'help.guide.tour-bike-profile.tip.5':
     'Ha a rendszergazda engedélyezi a CyclOSM térképet, megnyitott kerékpártúránál a térkép rétegsorában a „Kerékpár” is megjelenik. Ha nem töltődik be, válts a „Térkép” nézetre. A túra nem változik.',
   'help.guide.tour-bike-surfaces.tip.1':
@@ -6735,7 +6735,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.2':
     'Evezős túránál a térkép a „Térkép” és a „Műhold” nézetet, rétegként pedig az OpenSeaMap „Hajózási jelek” rétegét kínálja.',
   'help.guide.tour-paddle-water-route.step.3':
-    'Válaszd a „Következő szakasz tervezése a vízen” lehetőséget. A TREK ettől a ponttól a következőig a folyó vagy a tó mentén tervezi meg a szakaszt.',
+    'Válaszd a „Következő szakasz tervezése a vízen” lehetőséget. A Manzil ettől a ponttól a következőig a folyó vagy a tó mentén tervezi meg a szakaszt.',
   'help.guide.tour-paddle-portage.title': 'A hajó átemelése egy akadály mellett',
   'help.guide.tour-paddle-portage.tip.2':
     'Az utolsó pontnál az „Átemelés innentől” akkor lép életbe, amikor elhelyezed a következő pontot. A sorban „Innen átemelés” látszik, az x-szel („Mégse emeld át”) pedig visszavonhatod.',
@@ -6756,7 +6756,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.3':
     'A „Lovas útvonalak” kártyán kattints a „Keresés a térképnézetben” gombra. A látható terület összes kijelölt lovasútvonala megjelenik a hosszával.',
   'help.guide.tour-horse-plan.tip.3':
-    'Keresés után elmozdítottad a térképet? A gombon ilyenkor „Keresés ebben a nézetben” áll. Túl nagy terület esetén a TREK arra kér, hogy előbb nagyíts rá.',
+    'Keresés után elmozdítottad a térképet? A gombon ilyenkor „Keresés ebben a nézetben” áll. Túl nagy terület esetén a Manzil arra kér, hogy előbb nagyíts rá.',
   'help.guide.tour-horse-gap.step.4':
     'Az „Útpontok” kártyán az áthidalás „Kézi, ellenőrizetlen” jelöléssel és a hosszával jelenik meg. Ha fölé viszed az egeret, elolvashatod, miért.',
   'help.guide.tour-horse-recorded.step.2':
@@ -6823,7 +6823,7 @@ const help: TranslationStrings = {
   'help.ctx.admin-notifications.bullet.4':
     'Alul az „Alapértelmezések a felhasználóknak”: eseményenként és csatornánként „Be”, „Ki” vagy „Tiltva” mindenkinek, aki nem módosította.',
   'help.guide.default-user-settings.step.2':
-    'A beállított mező neve mellett megjelenik egy „visszaállítás” link, amely visszaállítja a TREK beépített alapértelmezését.',
+    'A beállított mező neve mellett megjelenik egy „visszaállítás” link, amely visszaállítja a Manzil beépített alapértelmezését.',
   'help.guide.own-routing-engine.title': 'Saját útvonaltervező szerverek használata',
   'help.guide.admin-passkeys.result':
     'A bejelentkezési oldalon megjelenik a passkey-s bejelentkezés lehetősége, és a felhasználók a beállításaikban passkey-ket adhatnak hozzá.',
@@ -6848,7 +6848,7 @@ const help: TranslationStrings = {
     'Vidd az egeret a foglalás sora fölé a napon: a bal oldalán megjelenő fogantyú jelzi, hogy húzható.',
   'help.guide.place-image-from-file.tip.1': 'Csak JPG, PNG, GIF és WebP fájlok választhatók; PDF-jegy nem.',
   'help.guide.place-own-hours.step.4':
-    'A „Nyitvatartás” jobb oldalán lévő gombok: a másolás gomb minden napra a hétfői nyitvatartást állítja be, az X pedig törli a saját időpontjaidat. Ha a TREK saját nyitvatartást is talált, az „Átvétel a hely adataiból” visszaállítja azt.',
+    'A „Nyitvatartás” jobb oldalán lévő gombok: a másolás gomb minden napra a hétfői nyitvatartást állítja be, az X pedig törli a saját időpontjaidat. Ha a Manzil saját nyitvatartást is talált, az „Átvétel a hely adataiból” visszaállítja azt.',
   'help.guide.confirm-stay-booking.step.2':
     'A foglalás a terv fölött nyílik meg. A fejlécében az első gomb az állapotát mutatja.',
   'help.ctx.trip-map.bullet.9':
@@ -6865,7 +6865,7 @@ const help: TranslationStrings = {
   'help.guide.group-sort-bookings.step.1':
     'A „Kártyák” vagy a „Lista” nézetben kattints a három nézetikon utáni csúszkákra („Nézet beállításai”).',
   'help.guide.create-booking.tip.4':
-    'Offline állapotban a foglalás ezen az eszközön mentődik, és amint újra van kapcsolat, szinkronizálódik. Az új fájlokhoz internetkapcsolat kell, ezért távolítsd el őket, vagy mentsd később. Ha véletlenül az űrlapon kívülre kattintasz, vagy megnyomod az Esc billentyűt, a TREK megkérdezi: „Elveted a módosításokat?”, mielőtt bármi elveszne abból, amit beírtál.',
+    'Offline állapotban a foglalás ezen az eszközön mentődik, és amint újra van kapcsolat, szinkronizálódik. Az új fájlokhoz internetkapcsolat kell, ezért távolítsd el őket, vagy mentsd később. Ha véletlenül az űrlapon kívülre kattintasz, vagy megnyomod az Esc billentyűt, a Manzil megkérdezi: „Elveted a módosításokat?”, mielőtt bármi elveszne abból, amit beírtál.',
   'help.guide.booking-on-map.tip.2': 'A szállás az első éjszakájánál nyílik meg.',
   'help.guide.export-bookings-csv.step.3':
     'Kattints a „Nézet beállításai” utáni táblázat ikonra („Exportálás táblázatként (CSV)”).',
@@ -6878,7 +6878,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.1':
     'Kattints a sáv jobb szélén a „Dokumentumok szinkronizálása” gombra. Ha az utazás össze van kötve egy tárolóval, a tároló kártyája jobb oldalon nyílik meg; több tárolónál bal oldalon, az „Ez az utazás” alatt kattints a kívántra.',
   'help.guide.files-sync-settings.tip.3':
-    'Az „Azonnali frissítések”, egy link a mellette lévő „Másolás” gombbal, csak azoknál a tárolóknál jelenik meg, amelyeknél a TREK nem tud automatikusan feliratkozni a változásokra. Illeszd be a linket a tárolóba, és a változások azonnal megérkeznek, nem csak a következő ellenőrzéskor.',
+    'Az „Azonnali frissítések”, egy link a mellette lévő „Másolás” gombbal, csak azoknál a tárolóknál jelenik meg, amelyeknél a Manzil nem tud automatikusan feliratkozni a változásokra. Illeszd be a linket a tárolóba, és a változások azonnal megérkeznek, nem csak a következő ellenőrzéskor.',
   'help.guide.manage-notes.step.1':
     'Kattints a jegyzetkártya fejlécében a három pontra („További lehetőségek”). A menüben a „Kibontás”, a „Kitűzés”, a „Szerkesztés” és a „Törlés” található.',
   'help.guide.note-categories.title': 'Jegyzetek rendezése kategóriákba',
@@ -6909,7 +6909,7 @@ const help: TranslationStrings = {
   'help.guide.tour-add-to-day.tip.1':
     'Ha egy szakaszokból álló túrát egy napra húzol, ugyanezt egy kis ablak kérdezi meg. A „Mégse” változatlanul hagyja a tervet.',
   'help.guide.tour-day-times.step.2':
-    'Add meg a „Kezdés” értékét, a „Befejezés” mezőt hagyd üresen. A mezők alatti sor mutatja a TREK által kiszámolt befejezési időt: a kezdés plusz a túra ideje.',
+    'Add meg a „Kezdés” értékét, a „Befejezés” mezőt hagyd üresen. A mezők alatti sor mutatja a Manzil által kiszámolt befejezési időt: a kezdés plusz a túra ideje.',
   'help.guide.tour-remove-from-day.title': 'Túra levétele egy napról',
   'help.guide.tour-filter-list.title': 'A túralista szűrése',
   'help.guide.tour-filter-list.tip.3':
@@ -6945,7 +6945,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.step.1':
     'Kattints az utazás fülsorában, közvetlenül a „Terv” után a „Túrák” fülre. A térkép kitölti a képernyőt, mindkét oldalán egy-egy sávval.',
   'help.guide.tour-open-workspace.tip.2':
-    'Ha GPX-, KML- vagy KMZ-fájlt ejtesz bárhová ezen a fülön, a TREK az utazás túráiként importálja őket.',
+    'Ha GPX-, KML- vagy KMZ-fájlt ejtesz bárhová ezen a fülön, a Manzil az utazás túráiként importálja őket.',
   'help.guide.tour-draw-route.step.4':
     'A térkép alján megjelenik a „Pont elhelyezve” üzenet. A mellette lévő „Visszavonás” ismét eltávolítja a pontot.',
   'help.guide.tour-type-profile.title': 'A túra típusának kiválasztása',
@@ -7024,7 +7024,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-trail-details.tip.2':
     'A gyalogtúra korlátjánál nehezebb fokozat sorában „A határ felett” jelvény látszik.',
   'help.guide.tour-hike-round.step.5':
-    'Kattints az „Ezt a kört választom” gombra, majd a „Csere” gombra, amikor a TREK megkérdezi, lecserélje-e a tervezett útvonalat.',
+    'Kattints az „Ezt a kört választom” gombra, majd a „Csere” gombra, amikor a Manzil megkérdezi, lecserélje-e a tervezett útvonalat.',
   'help.guide.tour-hike-compare-ways.step.2':
     'A térkép fölött megnyílik a „Más utak ehhez a szakaszhoz” a „Jelenlegi út” és az „A út”, „B út” és így tovább lehetőséggel. Mindegyik a saját színével jelenik meg a térképen, és ha egy sor fölé viszed az egeret, a vonala kiemelődik.',
   'help.guide.tour-ferrata-add.goal':
@@ -7052,7 +7052,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.3':
     'Az „Útpontok” alatti „Burkolat és utak” kártya megmutatja, milyen talajon halad az útvonal: a burkolatokat, az úttípusokat és az ismerten burkolatlan rész arányát. Egy sorra kattintva kiemelheted a hozzá tartozó szakaszokat a térképen.',
   'help.guide.tour-bike-profile.step.5':
-    'Nézd meg a jobb oldali „Túra összefoglalója” részben a „Kerékpáros idő (becsült)” értéket. Ha az információs pontja fölé viszed az egeret, látod, hogyan számolja a TREK.',
+    'Nézd meg a jobb oldali „Túra összefoglalója” részben a „Kerékpáros idő (becsült)” értéket. Ha az információs pontja fölé viszed az egeret, látod, hogyan számolja a Manzil.',
   'help.guide.tour-bike-surfaces.title': 'Egy kerékpártúra burkolatainak megtekintése',
   'help.guide.tour-bike-surfaces.tip.2':
     'Az „Országúti” profilnál a sávok fölötti figyelmeztetés jelzi, mekkora szakasz ismerten burkolatlan. A „Megjelenítés a térképen” megjelöli ezeket a szakaszokat.',
@@ -7080,13 +7080,13 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.3':
     'Evezős túránál „A túra mentén” elsőként vízre szállási helyeket, csónakkölcsönzőt és ivóvizet keres.',
   'help.guide.tour-paddle-water-route.step.4':
-    'Ha a TREK nem tudott megtervezni egy szakaszt, az pirosra vált, és jelzi az okát, például hogy a területre még nincs vízadat. Az „Egyenes vonal” gombbal egyelőre kézzel rajzolhatod meg.',
+    'Ha a Manzil nem tudott megtervezni egy szakaszt, az pirosra vált, és jelzi az okát, például hogy a területre még nincs vízadat. Az „Egyenes vonal” gombbal egyelőre kézzel rajzolhatod meg.',
   'help.guide.tour-paddle-portage.goal':
     'Jelölj meg egy szakaszt, ahol viszed a hajót, hogy szárazföldi szakaszként számítson, a ki- és beszállás idejével együtt.',
   'help.guide.tour-paddle-portage.tip.3':
     'A hordozás 2 km/h-val számít, amíg az „Időbecslés” kártyán meg nem adod a saját hordozási sebességedet.',
   'help.guide.tour-paddle-lock.tip.1':
-    'A TREK nem ismeri a zsilipek üzemrendjét. Csak az általad megadott időkkel számol, ezért a zsilip nyitvatartását magad ellenőrizd.',
+    'A Manzil nem ismeri a zsilipek üzemrendjét. Csak az általad megadott időkkel számol, ezért a zsilip nyitvatartását magad ellenőrizd.',
   'help.guide.tour-paddle-time.step.3':
     'A „Víz” sor a vízen megtett távolság az „Evezési tempó” alapján. A sebességet az oszlop tetején lévő „Evezési tempó” mezőben módosíthatod.',
   'help.guide.tour-paddle-wind.goal': 'Nézd meg az evezés napjára várható szelet a túra kiindulópontján.',
@@ -7097,7 +7097,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-track-marks.goal':
     'Importálj evezős nyomvonalat az órádról, és jelöld meg rajta, hol vitted a hajót, és hol mentél át zsilipen.',
   'help.guide.tour-paddle-track-marks.tip.1':
-    'Pontosan a nyomvonalra kattints: a vonaltól túl messze eső kattintást a TREK elutasítja, és a kártya jelzi ezt.',
+    'Pontosan a nyomvonalra kattints: a vonaltól túl messze eső kattintást a Manzil elutasítja, és a kártya jelzi ezt.',
   'help.ctx.trip-tour-horse.bullet.3':
     'Minden szakasz egy jelvény az „Útpontok” kártyán, az útvonal nevével, egy hozzáférést jelző ponttal és a hosszával. Az a szakasz, amelyet egyetlen lovasútvonal sem fed le, „Kézi, ellenőrizetlen” jelölést kap.',
   'help.guide.tour-horse-plan.step.4':

@@ -20,12 +20,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Koneksi wanderer dihapus',
   'wanderer.loadFailed': 'Koneksi wanderer tidak dapat dimuat',
   'wanderer.privateIp':
-    'Alamat ini berada di jaringan privat. Jika TREK tidak dapat menjangkaunya, administrator harus mengizinkan jaringan internal.',
+    'Alamat ini berada di jaringan privat. Jika Manzil tidak dapat menjangkaunya, administrator harus mengizinkan jaringan internal.',
   'wanderer.error.disabled': 'Admin Anda belum mengaktifkan wanderer untuk Tur.',
   'wanderer.error.not_connected': 'wanderer belum terhubung.',
   'wanderer.error.invalid_url': 'Alamat itu bukan URL wanderer yang valid.',
   'wanderer.error.blocked_address':
-    'TREK tidak boleh menjangkau alamat itu. Untuk instans di jaringan Anda sendiri, administrator harus mengatur ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil tidak boleh menjangkau alamat itu. Untuk instans di jaringan Anda sendiri, administrator harus mengatur ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable':
     'wanderer tidak dapat dijangkau. Periksa alamatnya dan pastikan instans sedang berjalan.',
   'wanderer.error.tls': 'Sertifikat instans tidak dapat diverifikasi. Jika ditandatangani sendiri, izinkan di bawah.',
@@ -36,7 +36,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Jawaban tidak berasal dari wanderer. Pastikan alamat mengarah ke wanderer itu sendiri.',
   'wanderer.error.no_author':
-    'wanderer menjawab, tetapi tidak menyebutkan penulis jalur untuk akun token API ini, sehingga TREK tidak bisa mengetahui jalur mana yang milik Anda.',
+    'wanderer menjawab, tetapi tidak menyebutkan penulis jalur untuk akun token API ini, sehingga Manzil tidak bisa mengetahui jalur mana yang milik Anda.',
   'wanderer.error.too_large': 'Berkas jalur lebih besar dari 10 MB.',
   'wanderer.error.server_error': 'wanderer menjawab dengan galat. Coba lagi nanti.',
   'wanderer.error.offline': 'Anda sedang offline. Pencarian di wanderer hanya bisa dilakukan saat online.',

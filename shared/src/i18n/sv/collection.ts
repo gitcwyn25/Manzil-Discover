@@ -194,7 +194,7 @@ const collection: TranslationStrings = {
   'collections.file.errorUnreadable': 'Filen gick inte att läsa.',
   'collections.file.errorNotACollection': 'Det här är ingen TREK-listfil.',
   'collections.file.formatTrek': 'TREK-lista',
-  'collections.file.formatTrekHint': 'För en annan TREK, med etiketter och status',
+  'collections.file.formatTrekHint': 'För en annan Manzil, med etiketter och status',
   'collections.file.formatGpxHint': 'Vägpunkter för OsmAnd, Organic Maps, Garmin och andra kartappar',
   'collections.file.gpxOmitted': '{count} platser utan koordinater kom inte med i GPX-filen',
   'collections.file.gpxOmitted.one': '{count} plats utan koordinater kom inte med i GPX-filen',

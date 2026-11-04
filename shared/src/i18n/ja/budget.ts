@@ -198,7 +198,7 @@ const budget: TranslationStrings = {
     '保存に失敗し、アップロード済みのレシートが{count}件残っています。「ファイル」タブで削除してください。',
   'costs.receiptsNeedConnection':
     'レシートのアップロードには接続が必要です。オフラインで経費を保存するには新しいレシートを外すか、オンラインに戻ってから保存してください。',
-  'costs.paymentQueued': 'オフラインです。支払いは保存され、TREK がオンラインに戻ると表示されます。',
+  'costs.paymentQueued': 'オフラインです。支払いは保存され、Manzil がオンラインに戻ると表示されます。',
   'costs.confirm.deleteBodyReceipts': '「{name}」は完全に削除されます。領収書のファイルは「ファイル」に残ります。',
 };
 export default budget;

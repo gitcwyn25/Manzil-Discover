@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Aggiungi a un giorno',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Importazione GPX',
-  'tours.badge.planned': 'pianificata in TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'pianificata in Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'usare con cautela',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Questa escursione è già in quel giorno.',
   'tours.conversion.title': 'Versione modificabile',
   'tours.conversion.intro':
-    "Un'importazione è una traccia registrata. Pianifica una versione modificabile: TREK ne ricava dei punti di controllo, ricalcola il percorso attraverso di essi e mostra quanto il risultato si avvicina. Non cambia nulla finché non scegli.",
+    "Un'importazione è una traccia registrata. Pianifica una versione modificabile: Manzil ne ricava dei punti di controllo, ricalcola il percorso attraverso di essi e mostra quanto il risultato si avvicina. Non cambia nulla finché non scegli.",
   'tours.conversion.replace': "Sostituisci l'importazione",
   'tours.conversion.replaceHint':
     'Ripianifica questa escursione sul posto: i suoi giorni e le note restano, e la traccia registrata viene conservata così puoi tornarci.',
@@ -127,7 +127,7 @@ const tours: TranslationStrings = {
   'tours.planner.addPoint': 'Aggiungi punto',
   'tours.planner.addPointActive': 'Clicca sulla mappa',
   'tours.planner.emptyHint':
-    'Attiva «Aggiungi punto» e fai clic sulla mappa. Da due punti in poi TREK calcola il percorso.',
+    'Attiva «Aggiungi punto» e fai clic sulla mappa. Da due punti in poi Manzil calcola il percorso.',
   'tours.planner.walkingEstimated': 'Tempo di cammino stimato',
   'tours.planner.walkingEstimatedShort': 'Tempo stim.',
   'tours.planner.walkingEstimatedInfoLabel': 'Come viene stimato il tempo di cammino',
@@ -243,7 +243,7 @@ const tours: TranslationStrings = {
     'La data di modifica indicata da wanderer al momento dell’importazione. Un indizio, non la prova di una versione.',
   'tours.provenance.localState': 'Qui',
   'tours.provenance.plannedOver': 'Ripianificato, traccia registrata conservata',
-  'tours.provenance.editedLocally': 'Modificato in TREK',
+  'tours.provenance.editedLocally': 'Modificato in Manzil',
   'tours.provenance.asImported': 'Come importato',
   'tours.provenance.openSource': 'Apri in wanderer',
   'tours.provenance.check': 'Controlla la fonte',
@@ -319,7 +319,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Importa passeggiata da Google Maps',
   'tours.walkImport.title': 'Passeggiata da un link di Google Maps',
   'tours.walkImport.intro':
-    'Condividi un percorso a piedi in Google Maps e incolla qui il suo link. TREK legge le tappe e traccia da sé il cammino a piedi tra di esse.',
+    'Condividi un percorso a piedi in Google Maps e incolla qui il suo link. Manzil legge le tappe e traccia da sé il cammino a piedi tra di esse.',
   'tours.walkImport.urlLabel': 'Link al percorso a piedi',
   'tours.walkImport.urlHint': "Un link breve maps.app.goo.gl oppure l'indirizzo del percorso su google.com/maps.",
   'tours.walkImport.read': 'Leggi il link',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Da Google Maps',
   'tours.walkImport.openSource': 'Apri in Google Maps',
   'tours.walkImport.recalculated':
-    'TREK traccia di nuovo il cammino tra le tappe; la linea disegnata in Google Maps non viene ripresa.',
+    'Manzil traccia di nuovo il cammino tra le tappe; la linea disegnata in Google Maps non viene ripresa.',
   'tours.walkImport.noPosition': 'Nessuna posizione nel link',
   'tours.walkImport.unresolved': '{count} tappe non hanno una posizione nel link e vengono tralasciate.',
   'tours.walkImport.unresolved.one': '{count} tappa non ha una posizione nel link e viene tralasciata.',
@@ -337,7 +337,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.replacesDraft': 'Caricare la passeggiata sostituisce le modifiche non salvate nel pianificatore.',
   'tours.walkImport.defaultName': 'Passeggiata da Google Maps',
   'tours.walkImport.draftNotice':
-    'Da un percorso a piedi di Google Maps. TREK ha tracciato da sé il cammino tra le tappe.',
+    'Da un percorso a piedi di Google Maps. Manzil ha tracciato da sé il cammino tra le tappe.',
   'tours.walkImport.offline': 'Per leggere un link serve una connessione.',
   'tours.walkImport.failed': 'Il link non si è potuto leggere adesso. Riprova tra poco.',
   'tours.walkImport.refusal.not_google_maps':
@@ -380,7 +380,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': 'a {distance} dal percorso',
   'tours.poi.along': 'al {distance}',
   'tours.poi.source.osm': 'Da OpenStreetMap',
-  'tours.poi.source.trek': "Dall'indice dei luoghi di TREK",
+  'tours.poi.source.trek': "Dall'indice dei luoghi di Manzil",
   'tours.poi.hoursHint': 'Come li riporta la fonte; verifica prima di andare.',
   'tours.poi.website': 'Sito web',
   'tours.poi.slot.label': 'Dove va',
@@ -513,7 +513,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Dati della mappa del {build}',
   'tours.ski.summary.saved': 'Mostrato come salvato. Sposta un punto o cambia un’opzione per ripianificare.',
   'tours.ski.chooseTechnique': 'Scegli la tecnica, oppure Sconosciuta.',
-  'tours.ski.infoLabel': 'Cosa fa TREK con tour e tracce di sci',
+  'tours.ski.infoLabel': 'Cosa fa Manzil con tour e tracce di sci',
   'tours.ski.info':
     'Un giro pianificato segue piste, impianti e tracciati di OpenStreetMap dove arrivano i dati delle piste, altrimenti unisce i suoi punti in linea retta. Una traccia importata resta come è stata registrata. Le quote vengono dai dati delle piste, dal terreno o dal file. Nulla qui, nemmeno i colori di pendenza in 3D, dice qualcosa su neve, valanghe o apertura di piste, impianti e tracciati.',
   'tours.ski.time': 'Tempo di sci',
@@ -930,7 +930,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Calcola di nuovo il tratto successivo',
   'tours.planner.freeLegBadge': 'Disegnato a mano, non calcolato',
   'tours.planner.freeLegInfo':
-    'TREK collega questi due punti con una linea retta. Nessun router ha pianificato o verificato questo tratto.',
+    'Manzil collega questi due punti con una linea retta. Nessun router ha pianificato o verificato questo tratto.',
   'tours.map.seamarks': 'Segnali nautici',
   'tours.map.seamarksDown': 'I segnali nautici non si caricano. La mappa e il percorso funzionano ancora.',
   'tours.map.pistes': 'Piste, anelli di fondo e impianti',
@@ -978,9 +978,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': 'Importa {count} tour',
   'tours.import.previewConfirm.one': 'Importa {count} tour',
   'tours.conversion.introPaddle':
-    'Un import è una traccia registrata. Pianifica un’uscita in pagaia modificabile: TREK ne ricava punti di controllo, li collega con linee rette come si disegna un’uscita in pagaia e mostra quanto si avvicina. Nulla cambia finché non scegli.',
+    'Un import è una traccia registrata. Pianifica un’uscita in pagaia modificabile: Manzil ne ricava punti di controllo, li collega con linee rette come si disegna un’uscita in pagaia e mostra quanto si avvicina. Nulla cambia finché non scegli.',
   'tours.conversion.introSki':
-    'Un import è una traccia registrata. Pianifica un tour sciistico modificabile: TREK ne ricava punti di controllo, li collega con linee rette come si disegna un tour sciistico e mostra quanto si avvicina. Nulla cambia finché non scegli.',
+    'Un import è una traccia registrata. Pianifica un tour sciistico modificabile: Manzil ne ricava punti di controllo, li collega con linee rette come si disegna un tour sciistico e mostra quanto si avvicina. Nulla cambia finché non scegli.',
   'tours.conversion.closePaddle':
     'La proposta segue da vicino la traccia. I suoi punti sono collegati da linee rette, quindi non è la stessa linea.',
   'tours.planner.moreActions': 'Altre azioni',
@@ -1012,7 +1012,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Aggirata a piedi, conta il trasbordo',
   'tours.paddle.time.title': 'Stima dei tempi',
   'tours.paddle.time.assumptionInfo':
-    'TREK parte da 4 km/h in acqua, 2 km/h durante il trasporto e 10 minuti per sbarcare e reimbarcarsi a ogni trasbordo. Sono valori iniziali da adattare, non norme né misurazioni. I tempi delle chiuse sono solo quelli che inserisci.',
+    'Manzil parte da 4 km/h in acqua, 2 km/h durante il trasporto e 10 minuti per sbarcare e reimbarcarsi a ogni trasbordo. Sono valori iniziali da adattare, non norme né misurazioni. I tempi delle chiuse sono solo quelli che inserisci.',
   'tours.paddle.time.water': 'In acqua',
   'tours.paddle.time.carry': 'Trasporto',
   'tours.paddle.time.carrySpeed': 'Velocità di trasporto',
@@ -1094,7 +1094,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacles.none':
     'Nessun dato sugli ostacoli per quest’area. Qui controlla di persona traverse, chiuse e trasbordi.',
   'tours.paddle.obstacles.offline':
-    'Senza connessione TREK non carica dati sugli ostacoli. Controlla l’acqua di persona.',
+    'Senza connessione Manzil non carica dati sugli ostacoli. Controlla l’acqua di persona.',
   'tours.paddle.obstacles.error': 'Non è stato possibile caricare i dati sugli ostacoli. Controlla l’acqua di persona.',
   'tours.paddle.obstacle.kind.weir': 'Traversa',
   'tours.paddle.obstacle.kind.dam': 'Diga',
@@ -1109,7 +1109,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Trasbordo',
   'tours.paddle.obstacle.kind.access': 'Regola di navigazione',
   'tours.paddle.obstacles.truncated':
-    'TREK mostra qui solo una parte degli oggetti; l’area ne contiene di più. Controlla l’acqua di persona.',
+    'Manzil mostra qui solo una parte degli oggetti; l’area ne contiene di più. Controlla l’acqua di persona.',
   'tours.paddle.obstacles.dateUnknown': 'sconosciuto',
   'tours.paddle.obstacleCard.onRoute': 'Sul percorso a',
   'tours.paddle.obstacleCard.near': 'Vicino al percorso',
@@ -1197,7 +1197,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Sicurezza in acqua',
   'tours.paddle.safety.short': 'Pagaiare comporta dei rischi. Controlla di persona acqua, regole e meteo.',
   'tours.paddle.safety.text':
-    'Pagaiare comporta dei rischi. Mappe, proposte di percorso e indicazioni possono essere incomplete o non aggiornate. Prima dell’uscita controlla le condizioni locali attuali, le regole di navigazione dello specchio d’acqua e il meteo. Adotta misure di sicurezza adeguate. TREK supporta la tua pianificazione e non sostituisce il tuo controllo personale né la tua decisione responsabile.',
+    'Pagaiare comporta dei rischi. Mappe, proposte di percorso e indicazioni possono essere incomplete o non aggiornate. Prima dell’uscita controlla le condizioni locali attuali, le regole di navigazione dello specchio d’acqua e il meteo. Adotta misure di sicurezza adeguate. Manzil supporta la tua pianificazione e non sostituisce il tuo controllo personale né la tua decisione responsabile.',
   'tours.planner.shapingPoint': 'Punto di forma',
   'tours.planner.shapingHint': 'Guida il percorso senza essere una tappa. Trascinalo dove deve passare il percorso.',
   'tours.planner.makeStop': 'Rendilo una tappa',
@@ -1252,7 +1252,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Pianifica sull’acqua i tratti disegnati a mano',
   'tours.paddle.auto': 'Rilevato',
   'tours.paddle.autoHint':
-    'TREK ha messo questo punto a un trasbordo o a una chiusa trovati lungo il percorso. Se lo sposti o lo modifichi, diventa tuo.',
+    'Manzil ha messo questo punto a un trasbordo o a una chiusa trovati lungo il percorso. Se lo sposti o lo modifichi, diventa tuo.',
   'tours.paddle.note.rapids': 'Acque bianche {grade}',
   'tours.paddle.note.pass': 'Scivolo per canoe',
   'tours.paddle.note.gap': 'Lacuna nei dati della mappa',
@@ -1261,12 +1261,12 @@ const tours: TranslationStrings = {
   'tours.paddle.note.gapHint':
     'I dati sulle acque hanno qui una lacuna, colmata con una linea retta. Verifica sul posto.',
   'tours.paddle.failed.not_on_water':
-    'Un estremo di questo tratto non è su nessuna acqua nota a TREK. Spostalo sul fiume o sul lago.',
+    'Un estremo di questo tratto non è su nessuna acqua nota a Manzil. Spostalo sul fiume o sul lago.',
   'tours.paddle.failed.no_region':
     'Non ci sono ancora dati sulle acque per questa zona. Un amministratore può aggiungere la regione.',
   'tours.paddle.failed.building':
     'I dati sulle acque di questa regione sono ancora in preparazione. Riprova tra qualche minuto.',
-  'tours.paddle.failed.no_water_path': 'TREK non ha trovato un percorso sull’acqua tra questi punti.',
+  'tours.paddle.failed.no_water_path': 'Manzil non ha trovato un percorso sull’acqua tra questi punti.',
   'tours.paddle.failed.cross_region': 'Questi punti si trovano in due regioni senza dati sulle acque in comune.',
   'tours.paddle.failed.busy': 'Il pianificatore di percorsi è occupato. Riprova tra un momento.',
   'tours.paddle.failed.timeout':
@@ -1284,8 +1284,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.build': "Costruzione della rete d'acqua",
   'tours.paddle.load.hint':
     'Di solito da uno a tre minuti. Continua a pianificare, il tratto si pianifica da solo dopo.',
-  'tours.paddle.load.reason.tooLarge': 'La regione è più grande di quanto TREK carica da solo.',
-  'tours.paddle.load.reason.limit': 'Oggi TREK ha già caricato abbastanza regioni da solo.',
+  'tours.paddle.load.reason.tooLarge': 'La regione è più grande di quanto Manzil carica da solo.',
+  'tours.paddle.load.reason.limit': 'Oggi Manzil ha già caricato abbastanza regioni da solo.',
   'tours.paddle.load.declined': "Un amministratore ha rifiutato i dati sull'acqua di {region}.",
   'tours.paddle.load.failed': "Impossibile caricare i dati sull'acqua di {region}.",
   'tours.paddle.load.noWater':
@@ -1311,7 +1311,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Tempo a cavallo',
   'tours.horse.timeInfoLabel': 'Perché non c’è un tempo a cavallo',
   'tours.horse.timeInfo':
-    "TREK non calcola alcun tempo a cavallo: l'andatura dipende dal cavallo e da chi lo monta. Se vuoi, inserisci tu un totale previsto.",
+    "Manzil non calcola alcun tempo a cavallo: l'andatura dipende dal cavallo e da chi lo monta. Se vuoi, inserisci tu un totale previsto.",
   'tours.horse.routes.title': 'Itinerari equestri',
   'tours.horse.routes.infoLabel': 'Sugli itinerari equestri',
   'tours.horse.routes.info':
@@ -1370,7 +1370,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'Il tracciato resta come lo ha registrato il file. Nulla viene ricalcolato.',
   'tours.horse.recorded.noTime': 'Nessun tempo a cavallo',
   'tours.horse.recorded.noTimeInfo':
-    'TREK non calcola un tempo a cavallo per un’escursione: il ritmo è quello del cavallo e del cavaliere.',
+    'Manzil non calcola un tempo a cavallo per un’escursione: il ritmo è quello del cavallo e del cavaliere.',
   'tours.horse.recorded.accessUnchecked': 'Accesso non verificato',
   'tours.horse.recorded.accessUncheckedInfo':
     'L’importazione non verifica se le strade si possono percorrere a cavallo. Valgono i cartelli sul posto.',
@@ -1527,7 +1527,7 @@ const tours: TranslationStrings = {
   'tours.detail.openInTours': 'Apri nella scheda Escursioni',
   'tours.planner.status.routingGeneric': 'Calcolo del percorso…',
   'tours.planner.emptyHintPlacing':
-    'Fai clic sulla mappa per mettere i punti. Da due punti in poi TREK calcola il percorso.',
+    'Fai clic sulla mappa per mettere i punti. Da due punti in poi Manzil calcola il percorso.',
   'tours.ski.drawStraight': 'Traccia dritto',
   'tours.horse.routes.stale': "L'elenco mostra la vista cercata. Cerca di nuovo in questa.",
   'tours.horse.dialog.adoptGapHint':

@@ -110,7 +110,7 @@ export class ToursWandererMcp {
   @Tool({
     name: 'check_tour_source',
     description:
-      "Ask wanderer whether the trail a tour of the trip was imported from (origin wanderer) changed since, without changing the tour. state: unchanged, changed (changes names name, description or route; reimport has the trailId and contentHash to import the trail again as a new tour, which import_wanderer_trail does once the traveller said yes), unknown (imported before TREK kept a fingerprint; reimport is given), unavailable (the trail is gone or no longer the traveller's to read), not_connected (no wanderer connection) or other_instance (the connection is to another instance). editedLocally says whether the tour was changed in TREK since the import. A tour that did not come from wanderer is refused. Needs place editing permission on the trip.",
+      "Ask wanderer whether the trail a tour of the trip was imported from (origin wanderer) changed since, without changing the tour. state: unchanged, changed (changes names name, description or route; reimport has the trailId and contentHash to import the trail again as a new tour, which import_wanderer_trail does once the traveller said yes), unknown (imported before Manzil kept a fingerprint; reimport is given), unavailable (the trail is gone or no longer the traveller's to read), not_connected (no wanderer connection) or other_instance (the connection is to another instance). editedLocally says whether the tour was changed in Manzil since the import. A tour that did not come from wanderer is refused. Needs place editing permission on the trip.",
     inputSchema: { tripId: idSchema, ...wandererMcpSourceRequestSchema.shape },
     annotations: TOOL_ANNOTATIONS_READONLY,
     when: wandererOn,

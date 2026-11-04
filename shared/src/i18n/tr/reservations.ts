@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Haritada',
   'reservations.import.pinMissingTitle': 'Henüz haritada değil',
   'reservations.import.pinMissingBody':
-    'TREK bu konaklamayı haritada bulamadı. Yukarıdaki adı ve adresi kontrol edip yeniden arayın ya da raptiye olmadan kaydedin.',
+    'Manzil bu konaklamayı haritada bulamadı. Yukarıdaki adı ve adresi kontrol edip yeniden arayın ya da raptiye olmadan kaydedin.',
   'reservations.import.pinRetry': 'Yeniden ara',
   'reservations.import.savedWithoutPin':
     'Harita raptiyesi olmadan kaydedildi. Haritada görmek için yeri düzenleyip konumunu ayarlayın.',
@@ -273,7 +273,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Dosyalarda göster',
   'reservations.filesNeedConnection':
     'Dosyaların yüklenmesi için bağlantı gerekir. Rezervasyonu çevrimdışı kaydetmek için yenilerini kaldır ya da tekrar çevrimiçi olduğunda kaydet.',
-  'reservations.needsConnection': 'Bunun için bağlantı gerekiyor. TREK yeniden çevrimiçi olduğunda tekrar dene.',
+  'reservations.needsConnection': 'Bunun için bağlantı gerekiyor. Manzil yeniden çevrimiçi olduğunda tekrar dene.',
   'reservations.exportCsvFiltered': 'Gösterilen {total} satırdan {shown} tanesini dışa aktar (CSV)',
 };
 export default reservations;

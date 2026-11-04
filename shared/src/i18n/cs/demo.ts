@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Živé demo',
-  'demo.welcome.title': 'Vítejte v TREK',
+  'demo.welcome.title': 'Vítejte v Manzil',
   'demo.welcome.tagline':
     'Plánovač cest ke sdílení: plánujte spolu na mapě v reálném čase, od prvního nápadu až po fotoknihu po cestě.',
   'demo.welcome.resetTitle': 'Každou hodinu se vše obnoví',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Dny, místa a trasy na mapě, s lety, hotely, restauracemi, rezervacemi a sdílenými náklady.',
   'demo.feature.tours.title': 'Túry a výlety',
   'demo.feature.tours.body': 'Naplánujte túru po síti stezek a sledujte ji nad 3D terénem s výškovým profilem.',
-  'demo.feature.studio.title': 'Fotoknihy v TREK Studio',
+  'demo.feature.studio.title': 'Fotoknihy v Manzil Studio',
   'demo.feature.studio.body': 'Proměňte cestu stránku po stránce v navrženou fotoknihu.',
   'demo.feature.collab.title': 'Plánování spolu naživo',
   'demo.feature.collab.body': 'Všichni v cestě vidí každou změnu okamžitě, s chatem, poznámkami a anketami.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Ukládejte místa z různých cest do vlastních seznamů a kopírujte je do libovolného plánu.',
   'demo.feature.offline.title': 'Funguje offline',
-  'demo.feature.offline.body': 'Nainstalujte si TREK jako aplikaci a mějte plány, mapy a seznamy i bez připojení.',
+  'demo.feature.offline.body': 'Nainstalujte si Manzil jako aplikaci a mějte plány, mapy a seznamy i bez připojení.',
   'demo.welcome.limitsTitle': 'Není součástí dema',
   'demo.limit.uploads': 'Nahrávání fotek, dokumentů a obálek',
   'demo.limit.account': 'Změna účtu, hesla nebo 2FA',

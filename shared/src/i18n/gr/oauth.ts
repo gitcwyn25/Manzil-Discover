@@ -85,10 +85,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': 'Σφάλμα εξουσιοδότησης',
   'oauth.authorize.loginTitle': 'Συνδεθείτε για να συνεχίσετε',
   'oauth.authorize.loginDescription':
-    'Η εφαρμογή {client} ζητά πρόσβαση στον λογαριασμό σας στο TREK. Συνδεθείτε πρώτα.',
-  'oauth.authorize.loginButton': 'Σύνδεση στο TREK',
+    'Η εφαρμογή {client} ζητά πρόσβαση στον λογαριασμό σας στο Manzil. Συνδεθείτε πρώτα.',
+  'oauth.authorize.loginButton': 'Σύνδεση στο Manzil',
   'oauth.authorize.requestLabel': 'Αίτημα εξουσιοδότησης',
-  'oauth.authorize.requestDescription': 'Αυτή η εφαρμογή ζητά πρόσβαση στον λογαριασμό σας στο TREK.',
+  'oauth.authorize.requestDescription': 'Αυτή η εφαρμογή ζητά πρόσβαση στον λογαριασμό σας στο Manzil.',
   'oauth.authorize.verifiedHost': 'Επαληθευμένος τομέας: {host}',
   'oauth.authorize.trustNote':
     'Δώστε πρόσβαση μόνο σε εφαρμογές που εμπιστεύεστε. Τα δεδομένα σας μένουν στον διακομιστή σας.',

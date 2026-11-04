@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Проверять изменения моих маршрутов',
   'wanderer.watch.hint': 'Уведомление, если импортированный маршрут мог измениться.',
   'wanderer.watch.info':
-    'Не чаще раза в день TREK читает краткую запись каждого импортированного маршрута, но никогда его файл GPX. Он только уведомляет: принимать ли изменение, решаете вы сами через проверку источника тура.',
+    'Не чаще раза в день Manzil читает краткую запись каждого импортированного маршрута, но никогда его файл GPX. Он только уведомляет: принимать ли изменение, решаете вы сами через проверку источника тура.',
   'wanderer.watch.notConnected': 'Сначала подключите wanderer',
   'wanderer.watch.on': 'Фоновая проверка включена',
   'wanderer.watch.off': 'Фоновая проверка выключена',
@@ -12,7 +12,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.lastRun': 'Последняя проверка {date}',
   'wanderer.watch.neverRun': 'Ещё не проверялось',
   'wanderer.watch.paused': 'Приостановлено до {time}',
-  'wanderer.watch.pausedHint': 'wanderer не ответил. После каждой неудачи TREK ждёт дольше, прежде чем спросить снова.',
+  'wanderer.watch.pausedHint': 'wanderer не ответил. После каждой неудачи Manzil ждёт дольше, прежде чем спросить снова.',
   'wanderer.watch.blocked': 'Токен отклонён',
   'wanderer.watch.blockedHint':
     'wanderer отклонил API-токен. Проверка продолжится, когда пройдёт тест подключения или будет сохранён новый токен.',
@@ -34,7 +34,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'Запись в wanderer показывает другое название или описание. Проверка источника покажет всё, что изменилось.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK не смог оценить этот маршрут, поэтому об изменениях ничего не сказано.',
+    'Manzil не смог оценить этот маршрут, поэтому об изменениях ничего не сказано.',
   'wanderer.watch.reason.unavailable': 'Маршрут недоступен',
   'wanderer.watch.reason.no_change_time': 'Нет отметки времени',
 };

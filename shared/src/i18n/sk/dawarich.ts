@@ -4,7 +4,7 @@ const dawarich: TranslationStrings = {
   // ── Connection ─────────────────────────────────────────────────────────────
   'dawarich.title': 'Dawarich',
   'dawarich.intro':
-    'Pripojte svoju vlastnú inštanciu Dawarich a uvidíte, kde ste skutočne boli. TREK ju prečíta a navrhne záznamy do denníka, miesta a krajiny; nič sa nepridá, kým to nepotvrdíte, a do Dawarichu sa nič nezapisuje.',
+    'Pripojte svoju vlastnú inštanciu Dawarich a uvidíte, kde ste skutočne boli. Manzil ju prečíta a navrhne záznamy do denníka, miesta a krajiny; nič sa nepridá, kým to nepotvrdíte, a do Dawarichu sa nič nezapisuje.',
   'dawarich.url': 'Adresa inštancie',
   'dawarich.apiKey': 'API kľúč',
   'dawarich.apiKeyPlaceholder': 'Vložte svoj API kľúč Dawarich',
@@ -13,7 +13,7 @@ const dawarich: TranslationStrings = {
   'dawarich.allowInsecureTlsHint':
     'Potrebné len vtedy, keď vaša inštancia používa certifikát, ktorému váš server nedôveruje.',
   'dawarich.syncEnabled': 'Automaticky hľadať nové pobyty',
-  'dawarich.syncEnabledHint': 'Keď je vypnuté, TREK číta Dawarich len na vyžiadanie.',
+  'dawarich.syncEnabledHint': 'Keď je vypnuté, Manzil číta Dawarich len na vyžiadanie.',
   'dawarich.test.button': 'Otestovať pripojenie',
   'dawarich.test.success': 'Pripojené. Za posledných 30 dní nájdených {count} pobytov.',
   'dawarich.test.success.one': 'Pripojené. Za posledných 30 dní nájdený {count} pobyt.',
@@ -50,18 +50,18 @@ const dawarich: TranslationStrings = {
   'dawarich.capability.missing': 'Táto verzia Dawarichu neponúka: {features}.',
 
   // ── Failure reasons, as sentences the reader can act on ────────────────────
-  'dawarich.error.unreachable': 'TREK sa na túto adresu nedostal.',
+  'dawarich.error.unreachable': 'Manzil sa na túto adresu nedostal.',
   'dawarich.error.unauthorized': 'Dawarich odmietol API kľúč.',
   'dawarich.error.forbidden': 'Tento API kľúč nemá oprávnenie toto čítať.',
   'dawarich.error.not_found': 'Táto verzia Dawarichu tento koncový bod nemá.',
-  'dawarich.error.rate_limited': 'Dawarich požiadal TREK o spomalenie. Skúste to prosím o chvíľu znova.',
+  'dawarich.error.rate_limited': 'Dawarich požiadal Manzil o spomalenie. Skúste to prosím o chvíľu znova.',
   'dawarich.error.server_error': 'Dawarich odpovedal chybou.',
   'dawarich.error.invalid_response': 'Táto adresa odpovedala niečím, čo nie je Dawarich.',
-  'dawarich.error.too_large': 'Dawarich poslal viac dát, než koľko TREK prečíta naraz.',
+  'dawarich.error.too_large': 'Dawarich poslal viac dát, než koľko Manzil prečíta naraz.',
   'dawarich.error.not_connected': 'Zatiaľ nie je pripojená žiadna inštancia Dawarich.',
   'dawarich.error.addon_disabled': 'Doplnok Dawarich je v tejto inštancii vypnutý.',
-  'dawarich.error.offline': 'To vyžaduje pripojenie — TREK je práve offline.',
-  'dawarich.error.invalid_url': 'TREK túto adresu použiť nemôže.',
+  'dawarich.error.offline': 'To vyžaduje pripojenie — Manzil je práve offline.',
+  'dawarich.error.invalid_url': 'Manzil túto adresu použiť nemôže.',
   'dawarich.warning.private_ip':
     'Táto adresa mieri na privátnu IP ({ip}). Overte, že to tak má byť — server k nej možno potrebuje ALLOW_INTERNAL_NETWORK=true.',
   'dawarich.error.unknown': 'Pri komunikácii s Dawarichom sa niečo pokazilo.',
@@ -171,7 +171,7 @@ const dawarich: TranslationStrings = {
     'Krajiny, v ktorých ste podľa svojich záznamov boli. Potvrďte tie, ktoré chcete mať v Atlase — nič sa nepridá samo a čo ste označili ručne, zostáva vaše.',
   'dawarich.atlas.load': 'Vyhľadať krajiny',
   'dawarich.atlas.loading': 'Načítavajú sa vaše záznamy…',
-  'dawarich.atlas.empty': 'Vaše záznamy neukazujú žiadne krajiny, ktoré by TREK ešte nemal.',
+  'dawarich.atlas.empty': 'Vaše záznamy neukazujú žiadne krajiny, ktoré by Manzil ešte nemal.',
   'dawarich.atlas.cities': '{count} miest',
   'dawarich.atlas.cities.one': '{count} mesto',
   'dawarich.atlas.cities.few': '{count} mestá',
@@ -181,7 +181,7 @@ const dawarich: TranslationStrings = {
   'dawarich.atlas.accepted': 'Pridaných {count} krajín',
   'dawarich.atlas.accepted.one': 'Pridaná {count} krajina',
   'dawarich.atlas.accepted.few': 'Pridané {count} krajiny',
-  'dawarich.atlas.unresolved': 'TREK nedokázal tieto priradiť ku krajine: {names}.',
+  'dawarich.atlas.unresolved': 'Manzil nedokázal tieto priradiť ku krajine: {names}.',
   'dawarich.atlas.source': 'Z Dawarichu',
   'dawarich.atlas.range': 'Prehliadnuté od {from} do {to}',
 

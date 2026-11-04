@@ -260,7 +260,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays.one': '{count} den',
   'assistant.admin.retentionDays.few': '{count} dny',
   'assistant.admin.retentionForever': 'Navždy',
-  'assistant.mobile.tile': 'Zeptej se TREK',
+  'assistant.mobile.tile': 'Zeptej se Manzil',
   'assistant.mobile.tileHint': 'Plánuj s asistentem',
   'assistant.mobile.backToChat': 'Zpět do chatu',
   'assistant.step.nearbyAt': 'Hledá poblíž místa {place}',
@@ -503,7 +503,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.few': 'V souboru {name} jsem našel {count} rezervace. Ty, které chcete, přidejte níže.',
   'assistant.attach.none': 'V souboru {name} jsem nenašel žádnou rezervaci.',
   'assistant.attach.why.aiNotConfigured':
-    'Čtení pomocí AI tu pro importy není nastavené, takže soubor prošla jen vlastní čtečka TREK.',
+    'Čtení pomocí AI tu pro importy není nastavené, takže soubor prošla jen vlastní čtečka Manzil.',
   'assistant.attach.why.aiFailed': 'Čtečka AI ho nedokázala přečíst.',
   'assistant.attach.why.noText': 'Neobsahuje žádný čitelný text, nejspíš jde o sken.',
   'assistant.attach.why.nothingFound': 'Nic v něm nevypadá jako rezervace.',

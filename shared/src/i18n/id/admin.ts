@@ -15,7 +15,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'Memungkinkan pengguna menerima notifikasi di ponsel dan komputer mereka melalui browser, bahkan saat TREK ditutup. Memerlukan HTTPS; di iPhone dan iPad, TREK harus ditambahkan ke Layar Utama.',
+    'Memungkinkan pengguna menerima notifikasi di ponsel dan komputer mereka melalui browser, bahkan saat Manzil ditutup. Memerlukan HTTPS; di iPhone dan iPad, Manzil harus ditambahkan ke Layar Utama.',
   'admin.notifications.inappPanel.title': 'In-App',
   'admin.notifications.inappPanel.hint': 'Notifikasi in-app selalu aktif dan tidak bisa dinonaktifkan secara global.',
   'admin.notifications.adminWebhookPanel.title': 'Webhook admin',
@@ -141,13 +141,13 @@ const admin: TranslationStrings = {
     'Pengguna tanpa 2FA harus menyelesaikan pengaturan di Pengaturan sebelum menggunakan aplikasi.',
   'admin.apiKeys': 'Kunci API',
   'admin.apiKeysHint':
-    'Dari mana data tempat berasal. Indeks TREK tidak butuh kunci; dua penyedia di bawah bersifat opsional.',
+    'Dari mana data tempat berasal. Indeks Manzil tidak butuh kunci; dua penyedia di bawah bersifat opsional.',
   'admin.trekApi.badgeDefault': 'Sumber baku yang disarankan',
   'admin.googleCaveat.badge': 'Tidak disarankan',
   'admin.googleCaveat.body':
-    'TREK adalah perangkat lunak sumber terbuka dan di sini kami tidak netral. Pada skala ini ulasan dan foto usaha biasa hanya ada di Google, dan itulah monopoli. Kolom ini ada karena tidak ada penggantinya, bukan karena kami menyarankan. Lalu setiap pencarian pergi ke Google.',
+    'Manzil adalah perangkat lunak sumber terbuka dan di sini kami tidak netral. Pada skala ini ulasan dan foto usaha biasa hanya ada di Google, dan itulah monopoli. Kolom ini ada karena tidak ada penggantinya, bukan karena kami menyarankan. Lalu setiap pencarian pergi ke Google.',
   'admin.trekApi.tagline':
-    'Layanan milik TREK sendiri: pencarian tempat, pencarian alamat, dan rute, tanpa kunci Google dan tanpa perlu memasukkan kunci apa pun. Setiap instalasi mendapat kuota harian yang adil, dan hanya jumlah permintaan yang dihitung.',
+    'Layanan milik Manzil sendiri: pencarian tempat, pencarian alamat, dan rute, tanpa kunci Google dan tanpa perlu memasukkan kunci apa pun. Setiap instalasi mendapat kuota harian yang adil, dan hanya jumlah permintaan yang dihitung.',
   'admin.trekApi.factPlaces': '73,6 juta tempat di seluruh dunia',
   'admin.trekApi.factNoKey': 'Tanpa kunci yang perlu dimasukkan, kuota harian yang adil',
   'admin.trekApi.factOffline': 'Paket per negara jalan offline',
@@ -215,7 +215,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Kunci API Google Maps',
   'admin.mapsKeyHint': 'Diperlukan untuk pencarian tempat. Dapatkan di console.cloud.google.com',
   'admin.mapsKeyHintLong':
-    'Tanpa kunci API Google, TREK API yang disarankan akan dipakai. Dengan kunci, foto, ulasan, dan jam buka bisa dimuat sebagai tambahan. Buat kunci di console.cloud.google.com.',
+    'Tanpa kunci API Google, Manzil API yang disarankan akan dipakai. Dengan kunci, foto, ulasan, dan jam buka bisa dimuat sebagai tambahan. Buat kunci di console.cloud.google.com.',
   'admin.recommended': 'Direkomendasikan',
   'admin.weatherKey': 'Kunci API OpenWeatherMap',
   'admin.weatherKeyHint': 'Untuk data cuaca. Gratis di openweathermap.org',
@@ -227,13 +227,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': 'Diatur lewat {name}',
   'admin.placesProvider.title': 'Penyedia pencarian tempat',
   'admin.placesProvider.subtitle':
-    'Indeks milik TREK dan OpenStreetMap menjawab setiap pencarian. Di sini dipilih siapa lagi yang ditanya bila keduanya tidak menemukan apa pun: Otomatis memilih Google bila ada kunci, lalu Amap.',
+    'Indeks milik Manzil dan OpenStreetMap menjawab setiap pencarian. Di sini dipilih siapa lagi yang ditanya bila keduanya tidak menemukan apa pun: Otomatis memilih Google bila ada kunci, lalu Amap.',
   'admin.placesProvider.auto': 'Otomatis',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap (高德地图)', // same-as-en
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Penyedia yang dipilih belum punya kunci API, jadi pencarian tempat hanya dijawab oleh indeks TREK dan OpenStreetMap.',
+    'Penyedia yang dipilih belum punya kunci API, jadi pencarian tempat hanya dijawab oleh indeks Manzil dan OpenStreetMap.',
   'admin.placesProvider.saved': 'Penyedia pencarian tempat disimpan',
   'admin.validateKey': 'Uji',
   'admin.keyValid': 'Terhubung',
@@ -269,14 +269,14 @@ const admin: TranslationStrings = {
     'Menampilkan gambar dan deskripsi saat menambahkan tempat. Wikipedia dan OpenStreetMap selalu digunakan; Google ditambahkan bila Foto Tempat atau Detail Tempat aktif.',
   'admin.placesGoogleOnly.title': 'Cari hanya dengan Google',
   'admin.placesGoogleOnly.subtitle':
-    'Setiap pencarian dan setiap saran dikirim ke Google Places. Nonaktif, indeks TREK dan OpenStreetMap menjawab lebih dulu, dan Google hanya ditanya jika keduanya tidak menemukan apa pun.',
+    'Setiap pencarian dan setiap saran dikirim ke Google Places. Nonaktif, indeks Manzil dan OpenStreetMap menjawab lebih dulu, dan Google hanya ditanya jika keduanya tidak menemukan apa pun.',
   'admin.placesGoogleOnly.missingKey':
-    'Memerlukan kunci API Google Maps. Tanpa kunci, pencarian memakai indeks TREK dan OpenStreetMap, apa pun posisi sakelar ini.',
+    'Memerlukan kunci API Google Maps. Tanpa kunci, pencarian memakai indeks Manzil dan OpenStreetMap, apa pun posisi sakelar ini.',
   'admin.placesGoogleOnly.otherProvider':
     'Membutuhkan Google sebagai penyedia tempat. Dengan Amap atau OpenStreetMap yang dipilih, tidak ada pencarian yang dikirim ke Google, apa pun posisi sakelar ini.',
   'admin.googleQuota.title': 'Batas harian panggilan Google',
   'admin.googleQuota.subtitle':
-    'Setelah tercapai, TREK berhenti memanggil Google sampai hari berikutnya (UTC) dan mencari dengan OpenStreetMap. Kosongkan untuk tanpa batas.',
+    'Setelah tercapai, Manzil berhenti memanggil Google sampai hari berikutnya (UTC) dan mencari dengan OpenStreetMap. Kosongkan untuk tanpa batas.',
   'admin.googleQuota.placeholder': 'Tanpa batas',
   'admin.googleQuota.usedToday': 'Hari ini: {used}',
   'admin.googleQuota.usedOfLimit': 'Hari ini: {used} dari {limit}',
@@ -419,7 +419,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Repositori sumber',
   'admin.plugins.reportIssue': 'Laporkan masalah',
   'admin.plugins.homepage': 'Beranda',
-  'admin.plugins.requiresTrek': 'Memerlukan TREK {version}+',
+  'admin.plugins.requiresTrek': 'Memerlukan Manzil {version}+',
   'admin.plugins.reviewedOn': 'Ditinjau {date}',
   'admin.plugins.perm.db:own': 'Menyimpan datanya sendiri di database terisolasi',
   'admin.plugins.perm.db:read:trips': 'Membaca perjalanan yang dapat diakses oleh pengguna yang bersangkutan',
@@ -495,7 +495,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:calendar-source': 'Menyediakan acara untuk kalender',
   'admin.plugins.perm.hook:place-detail-provider':
     'Menyumbangkan detail tambahan (ulasan, peringkat, tautan) untuk suatu tempat',
-  'admin.plugins.perm.hook:search-provider': 'Menjawab pencarian tempat dari indeks sendiri, di samping hasil TREK',
+  'admin.plugins.perm.hook:search-provider': 'Menjawab pencarian tempat dari indeks sendiri, di samping hasil Manzil',
   'admin.plugins.perm.hook:poi-category-provider':
     'Menambahkan kategori tempat sendiri ke “Jelajahi tempat di peta”; saat Anda memilih salah satunya, plugin menerima area peta yang sedang Anda lihat',
   'admin.plugins.perm.hook:trip-warning-provider':
@@ -519,7 +519,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Menerbitkan alat yang dapat dijalankan asisten AI atas nama Anda (bertindak dengan akses yang Anda berikan ke plugin di sini, bukan milik asisten)',
   'admin.plugins.perm.geolocation:read':
-    'Meminta lokasi terkinimu selama salah satu tampilannya terbuka (TREK membacanya dengan izin lokasi situs ini, bukan izin milik plugin sendiri)',
+    'Meminta lokasi terkinimu selama salah satu tampilannya terbuka (Manzil membacanya dengan izin lokasi situs ini, bukan izin milik plugin sendiri)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Menambahkan bagian teks ke ekspor PDF perjalanan',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Menyorot negara di peta dunia Atlas (mis. daftar keinginan atau peringatan perjalanan)',
@@ -546,26 +546,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Biarkan nonaktif dulu',
   'admin.plugins.updateKeptOff': 'Pembaruan terpasang — dibiarkan nonaktif sampai kamu menyetujui izin baru',
   'admin.plugins.reviewedMeaning':
-    '"Ditinjau" berarti seorang maintainer TREK memindai plugin ini dari malware pada setiap versi — bukan untuk kualitas atau apakah plugin ini berfungsi. Ini bukan jaminan bahwa sebuah plugin tidak berbahaya.',
+    '"Ditinjau" berarti seorang maintainer Manzil memindai plugin ini dari malware pada setiap versi — bukan untuk kualitas atau apakah plugin ini berfungsi. Ini bukan jaminan bahwa sebuah plugin tidak berbahaya.',
   'admin.plugins.security.title': 'Bagaimana plugin dikungkung — dan batasannya',
   'admin.plugins.security.isolationTitle': 'Setiap plugin berjalan dalam kotak terisolasi',
   'admin.plugins.security.isolationBody':
-    'Sebuah plugin berjalan sebagai prosesnya sendiri yang terkunci dan hanya bisa membaca file-nya sendiri. Ia tidak bisa membaca database kamu, rahasia login kamu, atau kunci enkripsi kamu, tidak bisa menjalankan program lain, dan tidak bisa menulis file di mana pun. Antarmukanya berjalan dalam frame browser tersegel yang tidak bisa membaca cookie sesi kamu atau menyentuh halaman TREK di sekitarnya.',
+    'Sebuah plugin berjalan sebagai prosesnya sendiri yang terkunci dan hanya bisa membaca file-nya sendiri. Ia tidak bisa membaca database kamu, rahasia login kamu, atau kunci enkripsi kamu, tidak bisa menjalankan program lain, dan tidak bisa menulis file di mana pun. Antarmukanya berjalan dalam frame browser tersegel yang tidak bisa membaca cookie sesi kamu atau menyentuh halaman Manzil di sekitarnya.',
   'admin.plugins.security.permsTitle': 'Apa arti izin-izin ini',
   'admin.plugins.security.permsBody':
-    'Izin yang ditampilkan sebelum kamu memasang adalah batas keras yang diberlakukan TREK selama plugin berjalan — secara harfiah plugin tidak bisa melakukan apa pun yang tidak ada dalam daftar. Namun izin itu memberitahumu apa yang bisa dilakukan sebuah plugin, bukan apa yang sebenarnya dilakukannya. Plugin yang diizinkan membaca perjalananmu dan menjangkau sebuah server bisa mengirimkan perjalananmu ke server itu, jadi baca izin dan host keluarnya, bukan hanya deskripsinya.',
+    'Izin yang ditampilkan sebelum kamu memasang adalah batas keras yang diberlakukan Manzil selama plugin berjalan — secara harfiah plugin tidak bisa melakukan apa pun yang tidak ada dalam daftar. Namun izin itu memberitahumu apa yang bisa dilakukan sebuah plugin, bukan apa yang sebenarnya dilakukannya. Plugin yang diizinkan membaca perjalananmu dan menjangkau sebuah server bisa mengirimkan perjalananmu ke server itu, jadi baca izin dan host keluarnya, bukan hanya deskripsinya.',
   'admin.plugins.security.limitsTitle': 'Apa yang tidak bisa kami janjikan',
   'admin.plugins.security.limitsBody':
-    'Isolasi ini adalah batas perangkat lunak yang kuat, bukan batas yang mutlak. Sebuah plugin bertindak persis dengan hak yang kamu setujui, jadi dalam batas hak itu ia bisa berperilaku berbeda dari yang disiratkan deskripsinya, dan ia bisa mengirim data yang memang dimilikinya secara sah ke host yang telah dideklarasikannya. TREK tidak membaca atau menilai apa yang sebenarnya dilakukan oleh kode sebuah plugin.',
+    'Isolasi ini adalah batas perangkat lunak yang kuat, bukan batas yang mutlak. Sebuah plugin bertindak persis dengan hak yang kamu setujui, jadi dalam batas hak itu ia bisa berperilaku berbeda dari yang disiratkan deskripsinya, dan ia bisa mengirim data yang memang dimilikinya secara sah ke host yang telah dideklarasikannya. Manzil tidak membaca atau menilai apa yang sebenarnya dilakukan oleh kode sebuah plugin.',
   'admin.plugins.security.worstTitle': 'Skenario terburuk',
   'admin.plugins.security.worstBody':
     'Plugin berbahaya yang kamu aktifkan bisa menyalahgunakan data dan koneksi yang kamu berikan padanya — misalnya, membocorkan perjalanan yang boleh dibacanya. Ia tidak bisa mencuri kata sandi, memalsukan login admin, menjalankan perintah di servermu, atau menjangkau data yang tidak kamu berikan. Kerusakannya tetap dalam batas yang kamu setujui, dan menonaktifkan plugin akan menghentikannya.',
   'admin.plugins.security.reviewedTitle': 'Apa arti "Ditinjau"',
   'admin.plugins.security.reviewedBody':
-    'Plugin yang ditinjau telah dipindai secara manual dari malware oleh seorang maintainer TREK pada setiap versi — diperiksa untuk kode berbahaya, bukan untuk apakah plugin berfungsi dengan baik. Ini bukan janji bahwa plugin tidak berbahaya.',
+    'Plugin yang ditinjau telah dipindai secara manual dari malware oleh seorang maintainer Manzil pada setiap versi — diperiksa untuk kode berbahaya, bukan untuk apakah plugin berfungsi dengan baik. Ini bukan janji bahwa plugin tidak berbahaya.',
   'admin.plugins.security.signedTitle': 'Apa arti "Ditandatangani"',
   'admin.plugins.security.signedBody':
-    'Checksum yang diverifikasi TREK pada setiap pemasangan membuktikan bahwa file-nya persis seperti yang dijamin registri. Tanda tangan membuktikan hal yang berbeda: bahwa file itu datang dari pembuatnya, ditandatangani dengan kunci yang hanya dia miliki. Plugin yang ditandatangani punya keduanya. Plugin tanpa tanda tangan bukan berarti tidak aman — ia hanya membawa satu jaminan lebih sedikit, dan sebagian besar plugin di registri saat ini memang belum ditandatangani.',
+    'Checksum yang diverifikasi Manzil pada setiap pemasangan membuktikan bahwa file-nya persis seperti yang dijamin registri. Tanda tangan membuktikan hal yang berbeda: bahwa file itu datang dari pembuatnya, ditandatangani dengan kunci yang hanya dia miliki. Plugin yang ditandatangani punya keduanya. Plugin tanpa tanda tangan bukan berarti tidak aman — ia hanya membawa satu jaminan lebih sedikit, dan sebagian besar plugin di registri saat ini memang belum ditandatangani.',
   'admin.plugins.signed': 'Ditandatangani',
   'admin.plugins.signedHint': 'Diverifikasi dengan kunci tanda tangan pembuatnya saat dipasang',
   'admin.plugins.unsigned': 'Tanpa tanda tangan',
@@ -580,20 +580,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'File-nya tidak cocok dengan tanda tangan pembuatnya. File itu bukan yang ditandatangani pembuatnya — entah rusak, entah diutak-atik. Ini tidak bisa dilewati.',
   'admin.plugins.sig.missingBody':
-    'Plugin ini ditandatangani saat kamu memasangnya, tetapi versi barunya tidak menyertakan tanda tangan. TREK tidak akan diam-diam menerima kemunduran itu. Ini tidak bisa dilewati.',
+    'Plugin ini ditandatangani saat kamu memasangnya, tetapi versi barunya tidak menyertakan tanda tangan. Manzil tidak akan diam-diam menerima kemunduran itu. Ini tidak bisa dilewati.',
   'admin.plugins.sig.incompleteBody':
     'Entri registrinya setengah ditandatangani: ia mendeklarasikan kunci pembuat tetapi versinya tidak membawa tanda tangan (atau sebaliknya). Itu kesalahan di sisi plugin. Ini tidak bisa dilewati.',
   'admin.plugins.sig.pinnedKey': 'Kunci saat dipasang',
   'admin.plugins.sig.newKey': 'Kunci yang ditawarkan sekarang',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK tidak bisa membedakan pergantian kunci yang sah dari pengambilalihan — dari sini keduanya terlihat sama persis. Pastikan dulu kunci baru itu ke pembuatnya lewat saluran yang sudah kamu percaya sebelum kamu menerimanya. Setelah kamu menerimanya, plugin diperbarui dan kunci barunya diingat.',
+    'Manzil tidak bisa membedakan pergantian kunci yang sah dari pengambilalihan — dari sini keduanya terlihat sama persis. Pastikan dulu kunci baru itu ke pembuatnya lewat saluran yang sudah kamu percaya sebelum kamu menerimanya. Setelah kamu menerimanya, plugin diperbarui dan kunci barunya diingat.',
   'admin.plugins.sig.retrustConfirm': 'Percayai kunci baru & perbarui',
   'admin.plugins.sig.cancel': 'Jangan percayai',
   'admin.plugins.sig.consentUnsigned':
     'Tidak ada yang mengaitkan versi ini dengan pembuatnya — file-nya cocok dengan registri, tetapi tidak membawa tanda tangan pembuat.',
   'admin.plugins.security.trustTitle': 'Intinya',
   'admin.plugins.security.trustBody':
-    'Memasang plugin sama seperti memasang aplikasi pihak ketiga mana pun: hanya tambahkan kode dari pembuat yang kamu percaya, dan jika ragu, periksa sendiri terlebih dahulu. TREK tidak bertanggung jawab atas plugin pihak ketiga.',
+    'Memasang plugin sama seperti memasang aplikasi pihak ketiga mana pun: hanya tambahkan kode dari pembuat yang kamu percaya, dan jika ragu, periksa sendiri terlebih dahulu. Manzil tidak bertanggung jawab atas plugin pihak ketiga.',
   'admin.plugins.runtimeOn': 'Runtime aktif',
   'admin.plugins.tabDiscover': 'Jelajahi',
   'admin.plugins.searchPlaceholder': 'Cari plugin…',
@@ -609,11 +609,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortUpdates': 'Pembaruan dulu',
   'admin.plugins.sortDownloads': 'Paling banyak diunduh',
   'admin.plugins.updatesAvailable': '{count} pembaruan tersedia untuk plugin kamu.',
-  'admin.plugins.newerNeedsTrek': 'v{version} tersedia — membutuhkan TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'v{version} tersedia — membutuhkan Manzil {range}',
   'admin.plugins.versionsTitle': 'Versi',
   'admin.plugins.versionPickerTitle': 'Ubah versi — {name}',
   'admin.plugins.versionSwitch': 'Beralih ke {version}',
-  'admin.plugins.versionNeedsTrek': 'membutuhkan TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'membutuhkan Manzil {range}',
   'admin.plugins.changeVersion': 'Ubah versi…',
   'admin.plugins.noVersions': 'Tidak ada versi terpublikasi yang ditemukan di registri.',
   'admin.plugins.downgradeTitle': 'Kembalikan plugin ini?',
@@ -678,30 +678,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Unduh',
   'admin.plugins.dep.update': 'Perbarui',
   'admin.plugins.dep.resolveHint': 'Mengunduh versi kompatibel terbaru, termasuk dependensinya sendiri.',
-  'admin.plugins.dep.trekIncompatible': 'Membutuhkan TREK {range} — server ini menjalankan {host}',
-  'admin.plugins.dep.trekUnknown': 'Tidak menyatakan versi TREK mana yang didukung',
+  'admin.plugins.dep.trekIncompatible': 'Membutuhkan Manzil {range} — server ini menjalankan {host}',
+  'admin.plugins.dep.trekUnknown': 'Tidak menyatakan versi Manzil mana yang didukung',
   'admin.plugins.installCompatible': 'Instal {version}',
   'admin.plugins.installAnyway': 'Tetap pasang',
   'admin.plugins.rangeBypass.pill': 'Pemeriksaan versi nonaktif',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE disetel — plugin dapat dipasang dan dijalankan di luar versi TREK yang dinyatakan penulisnya',
-  'admin.plugins.rangeBypass.title': 'Di luar versi TREK yang didukung',
-  'admin.plugins.rangeBypass.noticeTitle': 'Dipasang di luar versi TREK yang didukung',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE disetel — plugin dapat dipasang dan dijalankan di luar versi Manzil yang dinyatakan penulisnya',
+  'admin.plugins.rangeBypass.title': 'Di luar versi Manzil yang didukung',
+  'admin.plugins.rangeBypass.noticeTitle': 'Dipasang di luar versi Manzil yang didukung',
   'admin.plugins.rangeBypass.body':
-    '“{name}” menyatakan dukungan untuk TREK {range}, sedangkan server ini menjalankan {host}. TREK meloloskannya hanya karena TREK_PLUGINS_IGNORE_TREK_RANGE disetel. Penulisnya belum memperbarui rentang versi plugin untuk TREK ini, jadi tidak ada jaminan plugin ini berfungsi — dan dalam kasus yang jarang, plugin yang tidak cocok dapat merusak data TREK. Lanjutkan hanya jika Anda menerima risiko itu.',
+    '“{name}” menyatakan dukungan untuk Manzil {range}, sedangkan server ini menjalankan {host}. Manzil meloloskannya hanya karena TREK_PLUGINS_IGNORE_TREK_RANGE disetel. Penulisnya belum memperbarui rentang versi plugin untuk Manzil ini, jadi tidak ada jaminan plugin ini berfungsi — dan dalam kasus yang jarang, plugin yang tidak cocok dapat merusak data Manzil. Lanjutkan hanya jika Anda menerima risiko itu.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '“{name}” tidak menyatakan versi TREK mana yang didukungnya; server ini menjalankan {host}. TREK meloloskannya hanya karena TREK_PLUGINS_IGNORE_TREK_RANGE disetel. Tidak ada tanda bahwa penulisnya mengujinya di TREK ini, jadi tidak ada jaminan plugin ini berfungsi — dan dalam kasus yang jarang, plugin yang tidak cocok dapat merusak data TREK. Lanjutkan hanya jika Anda menerima risiko itu.',
+    '“{name}” tidak menyatakan versi Manzil mana yang didukungnya; server ini menjalankan {host}. Manzil meloloskannya hanya karena TREK_PLUGINS_IGNORE_TREK_RANGE disetel. Tidak ada tanda bahwa penulisnya mengujinya di Manzil ini, jadi tidak ada jaminan plugin ini berfungsi — dan dalam kasus yang jarang, plugin yang tidak cocok dapat merusak data Manzil. Lanjutkan hanya jika Anda menerima risiko itu.',
   'admin.plugins.dep.trekBypassed': 'Di luar rentang TREK-nya ({range}) — pemeriksaan versi nonaktif',
-  'admin.plugins.dep.trekBypassedUnknown': 'Tidak menyatakan rentang TREK — pemeriksaan versi nonaktif',
-  'admin.plugins.rangeBypass.titleAdmin': 'Belum diuji di TREK ini',
+  'admin.plugins.dep.trekBypassedUnknown': 'Tidak menyatakan rentang Manzil — pemeriksaan versi nonaktif',
+  'admin.plugins.rangeBypass.titleAdmin': 'Belum diuji di Manzil ini',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Menurut pembuatnya, “{name}” mendukung TREK {range}, sedangkan server ini menjalankan {host}. Pembuatnya belum mengonfirmasinya untuk TREK ini, jadi mungkin tidak berfungsi, dan dalam kasus langka plugin yang tidak cocok dapat merusak data TREK. Kamu tetap bisa memakainya: pilihanmu hanya berlaku untuk plugin ini di versi ini, dan TREK akan bertanya lagi setelah pembaruan.',
+    'Menurut pembuatnya, “{name}” mendukung Manzil {range}, sedangkan server ini menjalankan {host}. Pembuatnya belum mengonfirmasinya untuk Manzil ini, jadi mungkin tidak berfungsi, dan dalam kasus langka plugin yang tidak cocok dapat merusak data Manzil. Kamu tetap bisa memakainya: pilihanmu hanya berlaku untuk plugin ini di versi ini, dan Manzil akan bertanya lagi setelah pembaruan.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '“{name}” tidak menyebutkan versi TREK mana yang didukung, sedangkan server ini menjalankan {host}. Tidak ada tanda bahwa plugin ini sudah diuji di TREK ini, jadi mungkin tidak berfungsi, dan dalam kasus langka plugin yang tidak cocok dapat merusak data TREK. Kamu tetap bisa memakainya: pilihanmu hanya berlaku untuk plugin ini di versi ini, dan TREK akan bertanya lagi setelah pembaruan.',
-  'admin.plugins.dep.trekAccepted': 'Dibuat untuk TREK {range}, berjalan atas risikomu',
-  'admin.plugins.dep.trekAcceptedUnknown': 'Tanpa versi TREK, berjalan atas risikomu',
+    '“{name}” tidak menyebutkan versi Manzil mana yang didukung, sedangkan server ini menjalankan {host}. Tidak ada tanda bahwa plugin ini sudah diuji di Manzil ini, jadi mungkin tidak berfungsi, dan dalam kasus langka plugin yang tidak cocok dapat merusak data Manzil. Kamu tetap bisa memakainya: pilihanmu hanya berlaku untuk plugin ini di versi ini, dan Manzil akan bertanya lagi setelah pembaruan.',
+  'admin.plugins.dep.trekAccepted': 'Dibuat untuk Manzil {range}, berjalan atas risikomu',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Tanpa versi Manzil, berjalan atas risikomu',
   'admin.plugins.activateAnyway': 'Tetap aktifkan',
-  'admin.plugins.untestedChip': 'Belum dikonfirmasi untuk TREK {host}',
+  'admin.plugins.untestedChip': 'Belum dikonfirmasi untuk Manzil {host}',
   'admin.plugins.filters': 'Saring',
   'admin.plugins.security.short': 'Cara plugin diamankan',
   'admin.plugins.accessTitle': 'Yang bisa diaksesnya',
@@ -714,7 +714,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'Ditinjau pada',
   'admin.plugins.downloads': 'Unduhan',
   'admin.addons.title': 'Addon',
-  'admin.addons.subtitle': 'Aktifkan atau nonaktifkan fitur untuk menyesuaikan pengalaman TREK kamu.',
+  'admin.addons.subtitle': 'Aktifkan atau nonaktifkan fitur untuk menyesuaikan pengalaman Manzil kamu.',
   'admin.addons.catalog.packing.name': 'Daftar',
   'admin.addons.catalog.packing.description': 'Daftar packing dan tugas to-do untuk perjalananmu',
   'admin.addons.catalog.budget.name': 'Biaya',
@@ -850,14 +850,14 @@ const admin: TranslationStrings = {
   'admin.github.loading': 'Memuat...',
   'admin.github.error': 'Gagal memuat rilis',
   'admin.github.by': 'oleh',
-  'admin.github.support': 'Bantu saya terus mengembangkan TREK',
+  'admin.github.support': 'Bantu saya terus mengembangkan Manzil',
   'admin.update.available': 'Pembaruan tersedia',
-  'admin.update.text': 'TREK {version} tersedia. Kamu menggunakan {current}.',
+  'admin.update.text': 'Manzil {version} tersedia. Kamu menggunakan {current}.',
   'admin.update.button': 'Lihat di GitHub',
   'admin.update.install': 'Pasang Pembaruan',
   'admin.update.confirmTitle': 'Pasang Pembaruan?',
   'admin.update.confirmText':
-    'TREK akan diperbarui dari {current} ke {version}. Server akan restart otomatis setelahnya.',
+    'Manzil akan diperbarui dari {current} ke {version}. Server akan restart otomatis setelahnya.',
   'admin.update.dataInfo':
     'Semua datamu (perjalanan, pengguna, kunci API, unggahan, Vacay, Atlas, anggaran) akan dipertahankan.',
   'admin.update.warning': 'Aplikasi akan tidak tersedia sebentar selama restart.',
@@ -869,9 +869,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Pergi ke Backup',
   'admin.update.howTo': 'Cara Memperbarui',
   'admin.update.dockerText':
-    'Instans TREK kamu berjalan di Docker. Untuk memperbarui ke {version}, jalankan perintah berikut di servermu:',
+    'Instans Manzil kamu berjalan di Docker. Untuk memperbarui ke {version}, jalankan perintah berikut di servermu:',
   'admin.update.nonDockerText':
-    'Instans TREK ini tidak berjalan di Docker. Untuk memperbarui ke {version}, jalankan ulang metode instalasi atau pembaruan yang kamu gunakan — misalnya, pada Proxmox Community Scripts jalankan pembaruan dari konsol LXC:',
+    'Instans Manzil ini tidak berjalan di Docker. Untuk memperbarui ke {version}, jalankan ulang metode instalasi atau pembaruan yang kamu gunakan — misalnya, pada Proxmox Community Scripts jalankan pembaruan dari konsol LXC:',
   'admin.update.wikiLink': 'Buka panduan pembaruan',
   'admin.update.reloadHint': 'Muat ulang halaman dalam beberapa detik.',
   'admin.tabs.permissions': 'Izin',
@@ -953,7 +953,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik tidak dapat dijangkau saat ini. Coba lagi nanti.',
   'admin.paddleRegions.attribution':
     'Data © kontributor OpenStreetMap (ODbL), ekstrak regional dari Geofabrik. Dibaca ulang setiap tanggal 3 tiap bulan.',
-  'admin.paddleRegions.toast.added': 'Wilayah ditambahkan. TREK membacanya di latar belakang.',
+  'admin.paddleRegions.toast.added': 'Wilayah ditambahkan. Manzil membacanya di latar belakang.',
   'admin.paddleRegions.toast.removed': 'Wilayah dihapus',
   'admin.paddleRegions.phase.build': 'Membangun jaringan perairan',
   'admin.paddleRegions.network.km': '{km} km perairan',
@@ -969,11 +969,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'Atas permintaan',
   'admin.paddleRegions.auto.mode.off': 'Mati',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Saat seseorang merencanakan tur dayung di tempat yang belum punya data air, TREK langsung memuat wilayah terkecil yang cocok, sampai batas ukuran dan hanya beberapa per hari. Yang lebih besar menunggu di sini sebagai permintaan. Hanya nama wilayah yang dikirim ke Geofabrik, tidak pernah lokasinya.',
+    'Saat seseorang merencanakan tur dayung di tempat yang belum punya data air, Manzil langsung memuat wilayah terkecil yang cocok, sampai batas ukuran dan hanya beberapa per hari. Yang lebih besar menunggu di sini sebagai permintaan. Hanya nama wilayah yang dikirim ke Geofabrik, tidak pernah lokasinya.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Setiap wilayah baru menunggu di sini sampai admin mengizinkannya. Saat admin sendiri merencanakan, wilayah langsung dimuat.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK tidak memuat apa pun sendiri dan tidak meminta apa pun. Tambahkan wilayah di sini secara manual.',
+    'Manzil tidak memuat apa pun sendiri dan tidak meminta apa pun. Tambahkan wilayah di sini secara manual.',
   'admin.paddleRegions.auto.maxSize': 'Wilayah terbesar yang dimuat otomatis',
   'admin.paddleRegions.auto.maxSizeHint':
     'Wilayah yang lebih besar menunggu di sini sebagai permintaan. Membaca wilayah butuh beberapa menit dan memakai memori selama berjalan.',
@@ -986,7 +986,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Muat',
   'admin.paddleRegions.requests.decline': 'Tolak',
   'admin.paddleRegions.origin.auto': 'Otomatis',
-  'admin.paddleRegions.origin.autoHint': 'TREK memuat wilayah ini sendiri untuk tur dayung yang direncanakan di sana.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil memuat wilayah ini sendiri untuk tur dayung yang direncanakan di sana.',
   'admin.mfa.reset': 'Setel ulang 2FA',
   'admin.mfa.resetHint':
     'Menonaktifkan autentikasi dua faktor untuk pengguna ini, misalnya setelah ponsel hilang. Pengguna dikeluarkan dari semua sesi dan dapat mengaturnya lagi setelah masuk dengan kata sandinya.',
@@ -1021,7 +1021,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Putar Ulang',
   'admin.addons.ai.name': 'AI', // same-as-en
   'admin.addons.ai.description':
-    'Satu koneksi untuk asisten dan impor pemesanan. MCP memungkinkan aplikasi AI lain memakai TREK.',
+    'Satu koneksi untuk asisten dan impor pemesanan. MCP memungkinkan aplikasi AI lain memakai Manzil.',
   'admin.addons.ai.setup': 'Atur AI',
   'admin.addons.ai.dialogSub':
     'Koneksi yang dipakai bersama oleh asisten dan penguraian AI, serta apa yang boleh dilakukan masing-masing.',
@@ -1052,16 +1052,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Nonaktif',
   'admin.contribute.status.unavailable': 'Tidak tersedia',
   'admin.contribute.noteActive':
-    'Apa yang diketik pengguna Anda tentang tempat akan sampai ke setiap TREK setelah diperiksa. Terima kasih sudah membantu.',
+    'Apa yang diketik pengguna Anda tentang tempat akan sampai ke setiap Manzil setelah diperiksa. Terima kasih sudah membantu.',
   'admin.contribute.noteOff':
     'Biarkan apa yang diketik pengguna Anda tentang tempat membuat TREK Places API lebih baik untuk semua orang.',
   'admin.contribute.ineligible.env_off': 'Dinonaktifkan untuk instalasi ini oleh TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Hanya instalasi produksi yang dapat membagikan detail tempat.',
   'admin.contribute.ineligible.demo': 'Instalasi demo tidak membagikan detail tempat.',
-  'admin.contribute.ineligible.index_off': 'Berbagi memerlukan indeks TREK sebagai sumber tempat.',
+  'admin.contribute.ineligible.index_off': 'Berbagi memerlukan indeks Manzil sebagai sumber tempat.',
   'admin.contribute.ineligible.custom_places_url':
     'Instalasi ini memakai Places API sendiri, jadi tidak ada tujuan untuk berbagi.',
-  'admin.contribute.ineligible.services_off': 'Layanan TREK dinonaktifkan untuk instalasi ini.',
+  'admin.contribute.ineligible.services_off': 'Layanan Manzil dinonaktifkan untuk instalasi ini.',
   'admin.contribute.ineligible.no_key': 'Instalasi ini belum memiliki kunci layanan. Kunci diminta secara otomatis.',
   'admin.contribute.pause.key_invalid': 'Dijeda: layanan tidak menerima kunci instalasi ini.',
   'admin.contribute.pause.key_refused':
@@ -1105,9 +1105,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Hentikan berbagi',
   'admin.contribute.refused.terms_outdated': 'Ketentuan berubah sementara itu. Silakan lihat lagi.',
   'admin.contribute.refused.no_field': 'Pilih setidaknya satu bidang untuk dibagikan.',
-  'admin.contribute.prompt.title': 'Bantu setiap TREK mengenal tempat dengan lebih baik',
+  'admin.contribute.prompt.title': 'Bantu setiap Manzil mengenal tempat dengan lebih baik',
   'admin.contribute.prompt.lead':
-    'Saat seseorang di sini menambahkan situs web, nomor telepon, jam buka, atau deskripsi ke sebuah tempat, TREK dapat meneruskannya. Setelah diperiksa, setiap instalasi TREK menampilkannya, dan instalasi Anda mendapat tambahan dari yang lain sebagai balasannya.',
+    'Saat seseorang di sini menambahkan situs web, nomor telepon, jam buka, atau deskripsi ke sebuah tempat, Manzil dapat meneruskannya. Setelah diperiksa, setiap instalasi Manzil menampilkannya, dan instalasi Anda mendapat tambahan dari yang lain sebagai balasannya.',
   'admin.contribute.prompt.why':
     'TREK Places API gratis dan tidak memerlukan kunci Google karena dibangun dari data terbuka. Setiap detail yang Anda bagikan membuatnya lebih baik bagi ribuan pelancong. Terima kasih sudah ikut serta.',
   'admin.contribute.prompt.whatLabel': 'Apa yang dibagikan',
@@ -1130,6 +1130,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Terima kasih. Detail tempat sekarang dibagikan.',
   'admin.servicesCard.title': 'Pencarian tempat dan rute',
   'admin.servicesCard.hint':
-    'Layanan milik TREK sendiri, penyedia yang menjawab pencarian dan transportasi umum, serta log pencarian.',
+    'Layanan milik Manzil sendiri, penyedia yang menjawab pencarian dan transportasi umum, serta log pencarian.',
 };
 export default admin;

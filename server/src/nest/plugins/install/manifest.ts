@@ -274,7 +274,7 @@ export function parseManifest(raw: unknown, opts?: { requireTrek?: boolean }): P
     throw new ManifestError(
       trek
         ? `invalid "trek" version range "${trek}" (expected a satisfiable semver range, e.g. ">=3.2.0 <4.0.0")`
-        : 'missing "trek" version range — declare the TREK versions this plugin supports, e.g. ">=3.2.0 <4.0.0"',
+        : 'missing "trek" version range — declare the Manzil versions this plugin supports, e.g. ">=3.2.0 <4.0.0"',
     );
   }
 
@@ -284,7 +284,7 @@ export function parseManifest(raw: unknown, opts?: { requireTrek?: boolean }): P
   }
   const apiVersion = (rawApi as number | undefined) ?? 1;
   if (opts?.requireTrek && apiVersion > PLUGIN_API_VERSION) {
-    throw new ManifestError(`plugin requires plugin-API v${apiVersion}; this TREK supports v${PLUGIN_API_VERSION}`);
+    throw new ManifestError(`plugin requires plugin-API v${apiVersion}; this Manzil supports v${PLUGIN_API_VERSION}`);
   }
 
   return {

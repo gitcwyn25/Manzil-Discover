@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     'Une Valhalla personnelle, interrogée lorsque le service d’itinéraire ci-dessus est réglé sur elle ou sur Automatique. Si seule une instance de routage personnalisée est configurée et qu’aucun service d’itinéraire n’est choisi, aucune Valhalla n’est interrogée. Après avoir saisi une URL, redémarrez le serveur et rechargez la page.',
   'settings.valhallaProvider': 'Service d’itinéraire',
   'settings.valhallaProviderHint':
-    'Avec les services TREK ou une Valhalla personnelle, Valhalla calcule tous les itinéraires : les journées et les road trips à pied, à vélo et en voiture, les itinéraires sans péages, autoroutes ni ferries, ainsi que les itinéraires, altitudes et chemins des randonnées. Si elle ne peut pas répondre, OSRM calcule cette journée à sa place. Les services TREK sont interrogés via ce serveur. Avec la Valhalla publique de FOSSGIS, OSRM calcule les itinéraires et Valhalla ne répond qu’à ce qu’OSRM ne sait pas faire. Automatique interroge les services TREK, sauf si une Valhalla personnelle ou seulement une instance de routage personnalisée est configurée.',
+    'Avec les services Manzil ou une Valhalla personnelle, Valhalla calcule tous les itinéraires : les journées et les road trips à pied, à vélo et en voiture, les itinéraires sans péages, autoroutes ni ferries, ainsi que les itinéraires, altitudes et chemins des randonnées. Si elle ne peut pas répondre, OSRM calcule cette journée à sa place. Les services Manzil sont interrogés via ce serveur. Avec la Valhalla publique de FOSSGIS, OSRM calcule les itinéraires et Valhalla ne répond qu’à ce qu’OSRM ne sait pas faire. Automatique interroge les services Manzil, sauf si une Valhalla personnelle ou seulement une instance de routage personnalisée est configurée.',
   'settings.valhallaProviderOption.auto': 'Automatique',
-  'settings.valhallaProviderOption.trek': 'Services TREK',
+  'settings.valhallaProviderOption.trek': 'Services Manzil',
   'settings.valhallaProviderOption.fossgis': 'Valhalla publique (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Instance Valhalla personnelle',
   'settings.mapHint': "Modèle d'URL pour les tuiles de carte",
@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
     'Les fonds de carte CARTO affichent un filigrane sans clé. Gratuite et sans compte, depuis',
   'settings.mapCartoKeyLink': "clé d'API de fonds de carte carto.com",
   'settings.mapCartoKeyMissing':
-    'Ce modèle est un fond de carte CARTO. Sans clé, CARTO appose "API KEY REQUIRED" sur chaque tuile. Tant que la clé manque, TREK affiche le fond de carte par défaut.',
+    'Ce modèle est un fond de carte CARTO. Sans clé, CARTO appose "API KEY REQUIRED" sur chaque tuile. Tant que la clé manque, Manzil affiche le fond de carte par défaut.',
   'settings.mapStyle': 'Style de carte',
   'settings.mapStylePlaceholder': 'Sélectionner un style Mapbox',
   'settings.mapStyleHint': 'Preset ou votre propre URL mapbox://styles/USER/ID',
@@ -216,19 +216,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Suggérez une nouvelle fonctionnalité',
   'settings.about.wikiHint': 'Documentation et guides',
   'settings.about.sponsor.eyebrow': 'Infrastructure sponsorisée',
-  'settings.about.sponsor.title': 'Les serveurs de TREK tournent sur dataforest cloud',
+  'settings.about.sponsor.title': 'Les serveurs de Manzil tournent sur dataforest cloud',
   'settings.about.sponsor.body':
-    'La recherche de lieux, la recherche d’adresses et le calcul d’itinéraires passent par les propres serveurs de TREK plutôt que par Google et consorts, et dataforest cloud sponsorise les machines qui les font tourner.',
+    'La recherche de lieux, la recherche d’adresses et le calcul d’itinéraires passent par les propres serveurs de Manzil plutôt que par Google et consorts, et dataforest cloud sponsorise les machines qui les font tourner.',
   'settings.about.sponsor.cta': 'Découvrir dataforest cloud',
   'settings.about.sponsor.search': 'Recherche de lieux',
   'settings.about.sponsor.address': 'Recherche d’adresses',
   'settings.about.sponsor.routing': 'Itinéraires',
   'settings.about.descriptionManaged':
-    'TREK vous aide à organiser vos voyages, de la première idée au dernier souvenir. Planning des jours, budget, listes de bagages, photos et bien plus, tout au même endroit.',
+    'Manzil vous aide à organiser vos voyages, de la première idée au dernier souvenir. Planning des jours, budget, listes de bagages, photos et bien plus, tout au même endroit.',
   'settings.about.sourceTitle': 'Code source',
   'settings.about.sourceHint': 'TREK est open source, sous licence AGPL-3.0',
   'settings.about.supporters.badge': 'Soutiens Mensuels',
-  'settings.about.supporters.title': 'Compagnons de voyage pour TREK',
+  'settings.about.supporters.title': 'Compagnons de voyage pour Manzil',
   'settings.about.supporters.subtitle':
     "Pendant que tu planifies ton prochain itinéraire, ces personnes aident à planifier l'avenir de TREK. Leur contribution mensuelle va directement au développement et aux heures réellement passées — pour que TREK reste Open Source.",
   'settings.about.supporters.since': 'soutien depuis {date}',
@@ -239,7 +239,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Voyageur petit budget',
   'settings.about.supporter.tier.hostelBunkmate': 'Voisin de dortoir',
   'settings.about.description':
-    'TREK est un planificateur de voyage auto-hébergé qui vous aide à organiser vos voyages de la première idée au dernier souvenir. Planification journalière, budget, listes de bagages, photos et bien plus — le tout au même endroit, sur votre propre serveur.',
+    'Manzil est un planificateur de voyage auto-hébergé qui vous aide à organiser vos voyages de la première idée au dernier souvenir. Planification journalière, budget, listes de bagages, photos et bien plus — le tout au même endroit, sur votre propre serveur.',
   'settings.about.madeWith': 'Fait avec',
   'settings.about.madeBy': 'par Maurice et une communauté open-source grandissante.',
   'settings.username': "Nom d'utilisateur",
@@ -362,16 +362,16 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Notifications push sur cet appareil',
   'settings.webPush.hint':
-    'Affiche les notifications de TREK sur cet appareil, même quand TREK est fermé. Les événements reçus suivent la colonne Push.',
+    'Affiche les notifications de Manzil sur cet appareil, même quand Manzil est fermé. Les événements reçus suivent la colonne Push.',
   'settings.webPush.enable': 'Activer sur cet appareil',
   'settings.webPush.disable': 'Désactiver sur cet appareil',
   'settings.webPush.enabled': 'Activé sur cet appareil',
   'settings.webPush.unsupported': 'Ce navigateur ne peut pas recevoir de notifications push.',
-  'settings.webPush.insecure': 'Le push nécessite que TREK soit ouvert en HTTPS.',
+  'settings.webPush.insecure': 'Le push nécessite que Manzil soit ouvert en HTTPS.',
   'settings.webPush.iosInstall':
-    "Sur iPhone et iPad, ajoutez d'abord TREK à l'écran d'accueil, puis ouvrez-le depuis celui-ci.",
+    "Sur iPhone et iPad, ajoutez d'abord Manzil à l'écran d'accueil, puis ouvrez-le depuis celui-ci.",
   'settings.webPush.denied':
-    'Les notifications sont bloquées pour TREK dans ce navigateur. Autorisez-les dans les réglages du navigateur, puis réessayez.',
+    'Les notifications sont bloquées pour Manzil dans ce navigateur. Autorisez-les dans les réglages du navigateur, puis réessayez.',
   'settings.webPush.failed': "Le push n'a pas pu être activé sur cet appareil.",
   'settings.currency': "Devise d'affichage",
   'settings.currencyHint':
@@ -419,7 +419,7 @@ const settings: TranslationStrings = {
     'À activer uniquement pour une instance de confiance sur votre propre réseau.',
   'settings.airtrail.writeBack': 'Réécrire les modifications dans AirTrail',
   'settings.airtrail.writeBackHint':
-    'Désactivé par défaut : AirTrail fait référence et TREK se contente de le lire. Activez pour renvoyer vers AirTrail les modifications faites dans TREK.',
+    'Désactivé par défaut : AirTrail fait référence et Manzil se contente de le lire. Activez pour renvoyer vers AirTrail les modifications faites dans Manzil.',
   'settings.airtrail.connected': 'Connecté',
   'settings.airtrail.notConnected': 'Non connecté',
   'settings.airtrail.toast.saved': 'Connexion AirTrail enregistrée',
@@ -540,7 +540,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Tableau de bord',
   'settings.startPageActiveTrip': 'Voyage en cours',
   'settings.startPageHint':
-    "TREK s'ouvre directement sur le voyage en cours, ou sur le prochain à venir. C'est le même voyage que celui mis en avant sur le tableau de bord.",
+    "Manzil s'ouvre directement sur le voyage en cours, ou sur le prochain à venir. C'est le même voyage que celui mis en avant sur le tableau de bord.",
   'settings.startTripTab': 'Onglet de démarrage',
   'settings.startTripTabHint':
     "L'onglet sur lequel le voyage s'ouvre. S'il appartient à un module désactivé, la vue Plan s'ouvre à la place.",

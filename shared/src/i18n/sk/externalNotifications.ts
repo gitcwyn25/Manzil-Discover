@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const sk: NotificationLocale = {
   email: {
-    footer: 'Toto ste dostali, pretože máte v TREK povolené upozornenia.',
+    footer: 'Toto ste dostali, pretože máte v Manzil povolené upozornenia.',
     manage: 'Spravovať predvoľby v Nastaveniach',
     madeWith: 'Made with',
-    openTrek: 'Otvoriť TREK',
+    openTrek: 'Otvoriť Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const sk: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Pozvánka Vacay Fusion',
-      body: `${p.actor} vás pozval(a) na spojenie plánov dovolenky. Otvorte TREK na prijatie alebo odmietnutie.`,
+      body: `${p.actor} vás pozval(a) na spojenie plánov dovolenky. Otvorte Manzil na prijatie alebo odmietnutie.`,
     }),
     vacay_share: (p) => ({
       title: 'Kalendár Vacay zdieľaný',
-      body: `${p.actor} s vami zdieľal(a) svoj kalendár dovoleniek. Otvorte TREK na jeho zobrazenie.`,
+      body: `${p.actor} s vami zdieľal(a) svoj kalendár dovoleniek. Otvorte Manzil na jeho zobrazenie.`,
     }),
     collection_invite: (p) => ({
       title: 'Pozvánka do zbierky',
-      body: `${p.actor} vás pozval(a) na zdieľanie zbierky. Otvorte TREK na prijatie alebo odmietnutie.`,
+      body: `${p.actor} vás pozval(a) na zdieľanie zbierky. Otvorte Manzil na prijatie alebo odmietnutie.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'sk', {
@@ -58,8 +58,8 @@ const sk: NotificationLocale = {
       body: `${p.actor} vás priradil(a) do kategórie balenia "${p.category}" v "${p.trip}".`,
     }),
     version_available: (p) => ({
-      title: 'Dostupná nová verzia TREK',
-      body: `TREK ${p.version} je teraz dostupný. Navštívte panel správcu na aktualizáciu.`,
+      title: 'Dostupná nová verzia Manzil',
+      body: `Manzil ${p.version} je teraz dostupný. Navštívte panel správcu na aktualizáciu.`,
     }),
     replica_failure: (p) => ({
       title: 'Zlyhanie repliky úložiska',
@@ -95,7 +95,7 @@ const sk: NotificationLocale = {
   passwordReset: {
     subject: 'Obnovte si heslo',
     greeting: 'Ahoj',
-    body: 'Dostali sme žiadosť o obnovenie hesla k vášmu účtu TREK. Kliknite na tlačidlo nižšie a nastavte si nové heslo.',
+    body: 'Dostali sme žiadosť o obnovenie hesla k vášmu účtu Manzil. Kliknite na tlačidlo nižšie a nastavte si nové heslo.',
     ctaIntro: 'Obnoviť heslo',
     expiry: 'Tento odkaz vyprší za 60 minút.',
     ignore: 'Ak ste o to nežiadali, tento e-mail môžete pokojne ignorovať — vaše heslo sa nezmení.',

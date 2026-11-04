@@ -254,7 +254,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Sdíleno přes',
   'journey.public.madeWith': 'Vytvořeno pomocí',
   'journey.pdf.journeyBook': 'Cestovní kniha',
-  'journey.pdf.madeWith': 'Vytvořeno pomocí TREK',
+  'journey.pdf.madeWith': 'Vytvořeno pomocí Manzil',
   'journey.pdf.day': 'Den',
   'journey.pdf.theEnd': 'Konec',
   'journey.pdf.saveAsPdf': 'Uložit jako PDF',
@@ -289,7 +289,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     'Skupin fotek, které selhaly: {failed}. Uložte znovu a zkuste to ještě jednou',
   'journey.picker.day': 'Tento den',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Otevřít studio fotoknihy',
   'journey.studio.backToJourney': 'Zpět do deníku',
@@ -334,7 +334,7 @@ const journey: TranslationStrings = {
     'Uloží návrh této dvoustrany jako soubor, bez fotografií, ke sdílení nebo dalšímu použití',
   'journey.studio.importSpread': 'Importovat',
   'journey.studio.importSpreadHint': 'Přidá dvoustranu ze staženého souboru s návrhem',
-  'journey.studio.importSpreadFailed': 'Tento soubor není dvoustrana z TREK Studia',
+  'journey.studio.importSpreadFailed': 'Tento soubor není dvoustrana z Manzil Studia',
   'journey.studio.desktopOnly': 'Studio potřebuje větší obrazovku',
   'journey.studio.desktopOnlyHint':
     'Sazba knihy potřebuje místo, a tak je Studio jen na počítači, stejně jako tvorba PDF. Všechno ostatní z cesty tu funguje jako obvykle.',
@@ -864,7 +864,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeFailed': 'Koncepty jsou vytvořené, ale trasa se neuložila: {reason}',
   'journey.dayImport.routeRetry': 'Uložit trasu znovu',
   'journey.dayImport.stale': 'Dawarich neodpověděl: {reason} Zobrazují se pobyty z poslední synchronizace {date}.',
-  'journey.dayImport.staleNever': 'Dawarich neodpověděl: {reason} Zobrazují se pobyty, které TREK už zná.',
+  'journey.dayImport.staleNever': 'Dawarich neodpověděl: {reason} Zobrazují se pobyty, které Manzil už zná.',
   'journey.dayImport.truncated': 'Dawarich poslal jen část tohoto dne. Některé pobyty mohou chybět.',
   'journey.dayImport.empty': 'Dawarich v tento den nenašel žádné pobyty.',
   'journey.prep.lastSuccess': 'Naposledy načteno {time}.',

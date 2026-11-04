@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Kontrollera ändringar i mina leder',
   'wanderer.watch.hint': 'En avisering när en importerad led kan ha ändrats.',
   'wanderer.watch.info':
-    'Högst en gång om dagen läser TREK den korta posten för varje led du har importerat, aldrig dess GPX-fil. Den aviserar bara: om en ändring ska tas in bestämmer du själv via turens källkontroll.',
+    'Högst en gång om dagen läser Manzil den korta posten för varje led du har importerat, aldrig dess GPX-fil. Den aviserar bara: om en ändring ska tas in bestämmer du själv via turens källkontroll.',
   'wanderer.watch.notConnected': 'Anslut wanderer först',
   'wanderer.watch.on': 'Bakgrundskontroll påslagen',
   'wanderer.watch.off': 'Bakgrundskontroll avstängd',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Inte kontrollerad än',
   'wanderer.watch.paused': 'Pausad till {time}',
   'wanderer.watch.pausedHint':
-    'wanderer svarade inte. Efter varje misslyckande väntar TREK längre innan det frågar igen.',
+    'wanderer svarade inte. Efter varje misslyckande väntar Manzil längre innan det frågar igen.',
   'wanderer.watch.blocked': 'Token nekad',
   'wanderer.watch.blockedHint':
     'wanderer nekade API-token. Kontrollen fortsätter när ett anslutningstest lyckas eller en ny token sparas.',
@@ -32,7 +32,7 @@ const wandererWatch: TranslationStrings = {
     'wanderer ändrade ledens tidsstämpel. Bara källkontrollen visar om innehållet skiljer sig.',
   'wanderer.watch.stateHint.changed':
     'Posten i wanderer visar ett annat namn eller en annan beskrivning. Källkontrollen visar allt som ändrats.',
-  'wanderer.watch.stateHint.unverifiable': 'TREK kunde inte bedöma leden, så inget sägs om huruvida den ändrats.',
+  'wanderer.watch.stateHint.unverifiable': 'Manzil kunde inte bedöma leden, så inget sägs om huruvida den ändrats.',
   'wanderer.watch.reason.unavailable': 'Leden går inte att nå',
   'wanderer.watch.reason.no_change_time': 'Ingen tidsstämpel',
 };

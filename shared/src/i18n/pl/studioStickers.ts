@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Kolory',
   'journey.studio.stickerSlot': 'Kolor {index}',
   'journey.studio.stickerResetColours': 'Oryginalne kolory',
-  'journey.studio.stickerMissing': 'Tej naklejki nie ma w bibliotece tej wersji TREK.',
+  'journey.studio.stickerMissing': 'Tej naklejki nie ma w bibliotece tej wersji Manzil.',
   'journey.studio.stickerFlip': 'Odbij lustrzanie',
   'journey.studio.stickerTurnLeft': 'Obróć w lewo',
   'journey.studio.stickerTurnRight': 'Obróć w prawo',

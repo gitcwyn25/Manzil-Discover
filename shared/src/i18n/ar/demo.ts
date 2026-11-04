@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'عرض تجريبي مباشر',
-  'demo.welcome.title': 'مرحبًا بك في TREK',
+  'demo.welcome.title': 'مرحبًا بك في Manzil',
   'demo.welcome.tagline':
     'مخطط الرحلات الذي تتشاركه: خططوا معًا على الخريطة في الوقت الفعلي، من أول فكرة حتى ألبوم الصور بعد الرحلة.',
   'demo.welcome.resetTitle': 'يُعاد ضبط كل شيء كل ساعة',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'الأيام والأماكن والمسارات على الخريطة، مع الرحلات الجوية والفنادق والمطاعم والحجوزات والتكاليف المشتركة.',
   'demo.feature.tours.title': 'الجولات والمشي',
   'demo.feature.tours.body': 'خطط لمسار مشي على شبكة الدروب وتابعه فوق تضاريس ثلاثية الأبعاد مع مخطط الارتفاع.',
-  'demo.feature.studio.title': 'ألبومات الصور في TREK Studio',
+  'demo.feature.studio.title': 'ألبومات الصور في Manzil Studio',
   'demo.feature.studio.body': 'حوّل رحلتك إلى ألبوم صور مصمم، صفحة بعد صفحة.',
   'demo.feature.collab.title': 'خططوا معًا مباشرة',
   'demo.feature.collab.body': 'يرى كل من في الرحلة كل تغيير لحظة حدوثه، مع الدردشة والملاحظات والاستطلاعات.',
@@ -29,7 +29,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.title': 'المجموعات',
   'demo.feature.collections.body': 'احفظ أماكن من رحلات مختلفة في قوائمك الخاصة وانسخها إلى أي خطة.',
   'demo.feature.offline.title': 'يعمل دون اتصال',
-  'demo.feature.offline.body': 'ثبّت TREK كتطبيق واحتفظ بخططك وخرائطك وقوائمك دون اتصال.',
+  'demo.feature.offline.body': 'ثبّت Manzil كتطبيق واحتفظ بخططك وخرائطك وقوائمك دون اتصال.',
   'demo.welcome.limitsTitle': 'غير متاح في العرض التجريبي',
   'demo.limit.uploads': 'رفع الصور والمستندات وصور الغلاف',
   'demo.limit.account': 'تغيير الحساب أو كلمة المرور أو 2FA',
@@ -48,7 +48,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'حقوق الصور',
   'demo.credits.intro':
-    'صور هذا العرض التجريبي من ويكيميديا كومنز، ولكل صورة الترخيص المذكور معها. ينطبق هذا الترخيص على الصورة وحدها، لا على TREK ولا على بقية العرض التجريبي.',
+    'صور هذا العرض التجريبي من ويكيميديا كومنز، ولكل صورة الترخيص المذكور معها. ينطبق هذا الترخيص على الصورة وحدها، لا على Manzil ولا على بقية العرض التجريبي.',
   'demo.credits.by': 'تصوير {author}',
   'demo.credits.publicDomain': 'ملكية عامة',
   'demo.credits.back': 'رجوع',

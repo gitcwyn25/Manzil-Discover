@@ -80,7 +80,7 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': 'Kesalahan otorisasi',
   'oauth.authorize.loginTitle': 'Masuk untuk melanjutkan',
   'oauth.authorize.loginDescription': '{client} ingin mengakses akun TREK-mu. Silakan masuk dulu.',
-  'oauth.authorize.loginButton': 'Masuk ke TREK',
+  'oauth.authorize.loginButton': 'Masuk ke Manzil',
   'oauth.authorize.requestLabel': 'Permintaan otorisasi',
   'oauth.authorize.requestDescription': 'Aplikasi ini meminta akses ke akun TREK-mu.',
   'oauth.authorize.verifiedHost': 'Domain terverifikasi: {host}',

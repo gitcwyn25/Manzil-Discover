@@ -4,7 +4,7 @@ const dawarich: TranslationStrings = {
   // ── Connection ─────────────────────────────────────────────────────────────
   'dawarich.title': 'Dawarich',
   'dawarich.intro':
-    'Ühenda oma Dawarichi server, et näha, kus tegelikult käisid. TREK loeb andmeid ja soovitab päevikusissekandeid, kohti ning riike; midagi ei lisata sinu kinnituseta ja Dawarichi ei kirjutata midagi tagasi.',
+    'Ühenda oma Dawarichi server, et näha, kus tegelikult käisid. Manzil loeb andmeid ja soovitab päevikusissekandeid, kohti ning riike; midagi ei lisata sinu kinnituseta ja Dawarichi ei kirjutata midagi tagasi.',
   'dawarich.url': 'Serveri aadress',
   'dawarich.apiKey': 'API-võti',
   'dawarich.apiKeyPlaceholder': 'Kleebi oma Dawarichi API-võti',
@@ -14,7 +14,7 @@ const dawarich: TranslationStrings = {
   'dawarich.allowInsecureTlsHint':
     'Vajalik ainult siis, kui sinu server kasutab sertifikaati, mida TREKi server ei usalda.',
   'dawarich.syncEnabled': 'Kontrolli uusi peatumisi automaatselt',
-  'dawarich.syncEnabledHint': 'Väljalülitatuna loeb TREK Dawarichi andmeid ainult sinu taotlusel.',
+  'dawarich.syncEnabledHint': 'Väljalülitatuna loeb Manzil Dawarichi andmeid ainult sinu taotlusel.',
   'dawarich.test.button': 'Testi ühendust',
   'dawarich.test.success': 'Ühendatud. Viimase 30 päeva jooksul leiti {count} peatumist.',
   'dawarich.test.success.one': 'Ühendatud. Viimase 30 päeva jooksul leiti {count} peatumine.',
@@ -49,18 +49,18 @@ const dawarich: TranslationStrings = {
   'dawarich.capability.missing': 'See Dawarichi versioon ei paku järgmisi võimalusi: {features}.',
 
   // ── Failure reasons, as sentences the reader can act on ────────────────────
-  'dawarich.error.unreachable': 'TREK ei saanud selle aadressiga ühendust.',
+  'dawarich.error.unreachable': 'Manzil ei saanud selle aadressiga ühendust.',
   'dawarich.error.unauthorized': 'Dawarich lükkas API-võtme tagasi.',
   'dawarich.error.forbidden': 'Sellel API-võtmel pole nende andmete lugemise õigust.',
   'dawarich.error.not_found': 'Selles Dawarichi versioonis pole seda API-otspunkti.',
   'dawarich.error.rate_limited': 'Dawarich palus TREKil päringuid aeglustada. Proovi varsti uuesti.',
   'dawarich.error.server_error': 'Dawarich vastas veaga.',
   'dawarich.error.invalid_response': 'Sellelt aadressilt vastas midagi muud kui Dawarich.',
-  'dawarich.error.too_large': 'Dawarich saatis rohkem andmeid, kui TREK korraga loeb.',
+  'dawarich.error.too_large': 'Dawarich saatis rohkem andmeid, kui Manzil korraga loeb.',
   'dawarich.error.not_connected': 'Ühtegi Dawarichi serverit pole veel ühendatud.',
   'dawarich.error.addon_disabled': 'Dawarichi lisamoodul on selles TREKi paigalduses välja lülitatud.',
-  'dawarich.error.offline': 'See vajab ühendust — TREK on praegu võrguühenduseta.',
-  'dawarich.error.invalid_url': 'TREK ei saa seda aadressi kasutada.',
+  'dawarich.error.offline': 'See vajab ühendust — Manzil on praegu võrguühenduseta.',
+  'dawarich.error.invalid_url': 'Manzil ei saa seda aadressi kasutada.',
   'dawarich.warning.private_ip':
     'See aadress viitab privaatsele IP-aadressile ({ip}). Veendu, et see on õige — ühendamiseks võib server vajada seadet ALLOW_INTERNAL_NETWORK=true.',
   'dawarich.error.unknown': 'Dawarichiga suhtlemisel läks midagi valesti.',
@@ -171,7 +171,7 @@ const dawarich: TranslationStrings = {
   'dawarich.atlas.accept.one': 'Lisa {count} riik',
   'dawarich.atlas.accepted': '{count} riiki lisatud',
   'dawarich.atlas.accepted.one': '{count} riik lisatud',
-  'dawarich.atlas.unresolved': 'TREK ei suutnud neid riigiga seostada: {names}.',
+  'dawarich.atlas.unresolved': 'Manzil ei suutnud neid riigiga seostada: {names}.',
   'dawarich.atlas.source': 'Dawarichist',
   'dawarich.atlas.range': 'Vaadatud ajavahemik {from} kuni {to}',
 

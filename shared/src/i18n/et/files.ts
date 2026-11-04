@@ -64,8 +64,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'Kas kustutada kõik prügikasti failid jäädavalt? Seda ei saa tagasi võtta.',
   'files.noteLabel': 'Märkus',
   'files.notePlaceholder': 'Lisa märkus...',
-  'files.uploadNeedsConnection': 'Üleslaadimiseks on vaja ühendust. Proovi uuesti, kui TREK on taas võrgus.',
-  'files.linkNeedsConnection': 'Selle lingi eemaldamiseks on vaja ühendust. Proovi uuesti, kui TREK on taas võrgus.',
+  'files.uploadNeedsConnection': 'Üleslaadimiseks on vaja ühendust. Proovi uuesti, kui Manzil on taas võrgus.',
+  'files.linkNeedsConnection': 'Selle lingi eemaldamiseks on vaja ühendust. Proovi uuesti, kui Manzil on taas võrgus.',
   'files.placeFilesNeedConnection':
     'Failide üleslaadimiseks on vaja ühendust. Eemalda uued, et koht võrguta salvestada, või salvesta, kui oled taas võrgus.',
   'files.maxSize': 'Maks {count} MB',

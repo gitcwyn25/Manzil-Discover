@@ -250,7 +250,7 @@ const assistant: TranslationStrings = {
     'Asisten boleh mencari di web (ulasan, jam buka, acara) lewat pencarian penyedia AI yang ia gunakan. Berfungsi dengan ChatGPT, Anthropic, dan OpenRouter; pencarian hanya dikirim ke penyedia itu.',
   'assistant.admin.retentionDays': '{count} hari',
   'assistant.admin.retentionForever': 'Selamanya',
-  'assistant.mobile.tile': 'Tanya TREK',
+  'assistant.mobile.tile': 'Tanya Manzil',
   'assistant.mobile.tileHint': 'Rencanakan bersama asisten',
   'assistant.mobile.backToChat': 'Kembali ke obrolan',
   'assistant.step.nearbyAt': 'Mencari di sekitar {place}',
@@ -462,7 +462,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found': 'Saya menemukan {count} pemesanan di {name}. Tambahkan yang Anda inginkan di bawah.',
   'assistant.attach.none': 'Saya tidak menemukan pemesanan di {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Pembacaan dengan AI belum diatur untuk impor di sini, jadi hanya pembaca bawaan TREK yang memeriksanya.',
+    'Pembacaan dengan AI belum diatur untuk impor di sini, jadi hanya pembaca bawaan Manzil yang memeriksanya.',
   'assistant.attach.why.aiFailed': 'Pembaca AI tidak dapat membacanya.',
   'assistant.attach.why.noText': 'Berkas ini tidak berisi teks yang dapat dibaca, kemungkinan besar hasil pindaian.',
   'assistant.attach.why.nothingFound': 'Tidak ada isinya yang tampak seperti pemesanan.',

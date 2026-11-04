@@ -64,7 +64,7 @@ export default function TrekApiCard({ t, managed = false }: TrekApiCardProps): R
             A pill beside the mark rather than a banner, so it does not shout
             over the settings around it. */}
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <TrekMark className="h-7 w-auto text-content" aria-label="TREK API" />
+          <TrekMark className="h-7 w-auto text-content" aria-label="Manzil API" />
           <StatusPill tone="accent">{t('admin.trekApi.badgeDefault')}</StatusPill>
         </div>
 

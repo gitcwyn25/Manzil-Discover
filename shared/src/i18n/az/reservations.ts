@@ -174,7 +174,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Xəritədə',
   'reservations.import.pinMissingTitle': 'Hələ xəritədə deyil',
   'reservations.import.pinMissingBody':
-    'TREK bu yaşayış yerini xəritədə tapa bilmədi. Yuxarıdakı adı və ünvanı yoxlayın və yenidən axtarın, ya da onu sancaqsız yadda saxlayın.',
+    'Manzil bu yaşayış yerini xəritədə tapa bilmədi. Yuxarıdakı adı və ünvanı yoxlayın və yenidən axtarın, ya da onu sancaqsız yadda saxlayın.',
   'reservations.import.pinRetry': 'Yenidən axtar',
   'reservations.import.savedWithoutPin':
     'Xəritə sancağı olmadan yadda saxlanıldı. Xəritədə görmək üçün yeri redaktə edin və mövqeyini təyin edin.',
@@ -305,7 +305,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Fayllarda göstər',
   'reservations.filesNeedConnection':
     'Faylların yüklənməsi üçün bağlantı lazımdır. Rezervasiyanı oflayn saxlamaq üçün yeni faylları silin və ya yenidən onlayn olduqda saxlayın.',
-  'reservations.needsConnection': 'Bunun üçün bağlantı lazımdır. TREK yenidən onlayn olduqda bir daha cəhd edin.',
+  'reservations.needsConnection': 'Bunun üçün bağlantı lazımdır. Manzil yenidən onlayn olduqda bir daha cəhd edin.',
   'reservations.exportCsvFiltered': 'Göstərilən {shown}/{total} sətri ixrac et (CSV)',
 };
 

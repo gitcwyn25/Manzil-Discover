@@ -10,7 +10,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Connexion en cours…',
   'login.signIn': 'Se connecter',
   'login.createAdmin': 'Créer un compte administrateur',
-  'login.createAdminHint': 'Configurez le premier compte administrateur pour TREK.',
+  'login.createAdminHint': 'Configurez le premier compte administrateur pour Manzil.',
   'login.setNewPassword': 'Définir un nouveau mot de passe',
   'login.setNewPasswordHint': 'Vous devez changer votre mot de passe avant de continuer.',
   'login.createAccount': 'Créer un compte',
@@ -79,7 +79,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Échec de la connexion par passkey. Veuillez réessayer.',
   'login.insecureCookie.title': 'La connexion ne tiendra pas en HTTP',
   'login.insecureCookie.body':
-    'Vous vous connectez en HTTP simple, donc votre navigateur rejette le cookie de session sécurisé de TREK : la requête suivante échoue avec « Access token required ». Solution : utilisez HTTPS ou, pour un home-lab, définissez COOKIE_SECURE=false.',
+    'Vous vous connectez en HTTP simple, donc votre navigateur rejette le cookie de session sécurisé de Manzil : la requête suivante échoue avec « Access token required ». Solution : utilisez HTTPS ou, pour un home-lab, définissez COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Ouvrir le guide de dépannage',
 };
 export default login;

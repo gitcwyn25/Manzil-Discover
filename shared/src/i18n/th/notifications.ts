@@ -17,7 +17,7 @@ const notifications: TranslationStrings = {
   'notifications.synologySessionCleared.text':
     'เซิร์ฟเวอร์หรือบัญชีของคุณมีการเปลี่ยนแปลง — ไปที่การตั้งค่าเพื่อทดสอบการเชื่อมต่อของคุณอีกครั้ง',
   'notifications.versionAvailable.title': 'อัปเดตพร้อมใช้งาน',
-  'notifications.versionAvailable.text': 'TREK {version} มีจำหน่ายแล้ว',
+  'notifications.versionAvailable.text': 'Manzil {version} มีจำหน่ายแล้ว',
   'notifications.versionAvailable.button': 'ดูรายละเอียด',
   'notifications.test.title': 'ทดสอบการแจ้งเตือนจาก {actor}',
   'notifications.test.text': 'นี่เป็นการแจ้งเตือนการทดสอบง่ายๆ',

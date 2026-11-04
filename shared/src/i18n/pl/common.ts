@@ -81,8 +81,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Spróbuj ponownie',
   'common.errorReload': 'Odśwież stronę',
   'common.errorUpdateTitle': 'Dostępna jest nowa wersja',
-  'common.errorUpdateBody': 'TREK został zaktualizowany, gdy ta karta była otwarta. Odśwież, aby pobrać nową wersję.',
+  'common.errorUpdateBody': 'Manzil został zaktualizowany, gdy ta karta była otwarta. Odśwież, aby pobrać nową wersję.',
   'common.errorPluginTitle': 'Nie udało się wyświetlić tej wtyczki',
-  'common.needsConnection': 'To wymaga połączenia. Spróbuj ponownie, gdy TREK znów będzie online.',
+  'common.needsConnection': 'To wymaga połączenia. Spróbuj ponownie, gdy Manzil znów będzie online.',
 };
 export default common;

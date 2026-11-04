@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Neid andmeid saab määrata töölauavaates, kus saad võrrelda ka alternatiivseid marsruute ja määrata päeva järgima imporditud rada.',
   'mobileTrip.planOnDesktop': 'Planeeritakse arvutis',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK arvutab sõidu, kui päeval on vähemalt kaks kohta.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil arvutab sõidu, kui päeval on vähemalt kaks kohta.',
   'mobileTrip.toursEmptyBody': 'Salvestatud retked ilmuvad siia ja neid saab päevale lisada.',
   'mobileTrip.toursCount': '{count} retke',
   'mobileTrip.toursCount.one': '{count} retk',

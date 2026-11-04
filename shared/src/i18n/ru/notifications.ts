@@ -34,7 +34,7 @@ const notifications: TranslationStrings = {
   'notifications.countLabel.few': 'уведомления',
   'notifications.countLabel.many': 'уведомлений',
   'notifications.versionAvailable.title': 'Доступно обновление',
-  'notifications.versionAvailable.text': 'TREK {version} теперь доступен.',
+  'notifications.versionAvailable.text': 'Manzil {version} теперь доступен.',
   'notifications.versionAvailable.button': 'Подробнее',
   'notifications.deleteAllConfirmTitle': 'Удалить все уведомления?',
   'notifications.deleteAllConfirmText': 'Все уведомления будут удалены навсегда. Это действие нельзя отменить.',

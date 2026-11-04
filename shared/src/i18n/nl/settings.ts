@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'CARTO-basiskaarten tonen zonder sleutel een watermerk. Gratis en zonder account, via',
   'settings.mapCartoKeyLink': 'carto.com basemap API-sleutel',
   'settings.mapCartoKeyMissing':
-    'Deze sjabloon is een CARTO-basiskaart. Zonder sleutel drukt CARTO "API KEY REQUIRED" op elke tegel. Zolang er geen sleutel is, toont TREK de standaardbasiskaart.',
+    'Deze sjabloon is een CARTO-basiskaart. Zonder sleutel drukt CARTO "API KEY REQUIRED" op elke tegel. Zolang er geen sleutel is, toont Manzil de standaardbasiskaart.',
   'settings.mapStyle': 'Kaartstijl',
   'settings.mapStylePlaceholder': 'Kies een Mapbox-stijl',
   'settings.mapStyleHint': 'Preset of eigen mapbox://styles/USER/ID URL',
@@ -213,19 +213,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Stel een nieuwe functie voor',
   'settings.about.wikiHint': 'Documentatie en handleidingen',
   'settings.about.sponsor.eyebrow': 'Gesponsorde infrastructuur',
-  'settings.about.sponsor.title': 'De eigen servers van TREK draaien op dataforest cloud',
+  'settings.about.sponsor.title': 'De eigen servers van Manzil draaien op dataforest cloud',
   'settings.about.sponsor.body':
-    'Plaatsen zoeken, adressen zoeken en routeplanning komen van eigen servers van TREK in plaats van Google en co., en dataforest cloud sponsort de machines waarop ze draaien.',
+    'Plaatsen zoeken, adressen zoeken en routeplanning komen van eigen servers van Manzil in plaats van Google en co., en dataforest cloud sponsort de machines waarop ze draaien.',
   'settings.about.sponsor.cta': 'Naar dataforest cloud',
   'settings.about.sponsor.search': 'Plaatsen zoeken',
   'settings.about.sponsor.address': 'Adressen zoeken',
   'settings.about.sponsor.routing': 'Routeplanning',
   'settings.about.descriptionManaged':
-    "TREK helpt je je reizen te organiseren, van het eerste idee tot de laatste herinnering. Dagplanning, budget, paklijsten, foto's en nog veel meer, allemaal op één plek.",
+    "Manzil helpt je je reizen te organiseren, van het eerste idee tot de laatste herinnering. Dagplanning, budget, paklijsten, foto's en nog veel meer, allemaal op één plek.",
   'settings.about.sourceTitle': 'Broncode',
   'settings.about.sourceHint': 'TREK is open source, onder de AGPL-3.0-licentie',
   'settings.about.supporters.badge': 'Maandelijkse Steuners',
-  'settings.about.supporters.title': 'Reisgezelschap voor TREK',
+  'settings.about.supporters.title': 'Reisgezelschap voor Manzil',
   'settings.about.supporters.subtitle':
     'Terwijl jij je volgende route plant, plannen deze mensen mee aan de toekomst van TREK. Hun maandelijkse bijdrage gaat rechtstreeks naar ontwikkeling en echte uren — zodat TREK Open Source blijft.',
   'settings.about.supporters.since': 'steuner sinds {date}',
@@ -236,7 +236,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Budget Traveller',
   'settings.about.supporter.tier.hostelBunkmate': 'Hostel Bunkmate',
   'settings.about.description':
-    "TREK is een zelf-gehoste reisplanner die je helpt je reizen te organiseren van het eerste idee tot de laatste herinnering. Dagplanning, budget, paklijsten, foto's en nog veel meer — alles op één plek, op je eigen server.",
+    "Manzil is een zelf-gehoste reisplanner die je helpt je reizen te organiseren van het eerste idee tot de laatste herinnering. Dagplanning, budget, paklijsten, foto's en nog veel meer — alles op één plek, op je eigen server.",
   'settings.about.madeWith': 'Gemaakt met',
   'settings.about.madeBy': 'door Maurice en een groeiende open-source community.',
   'settings.username': 'Gebruikersnaam',
@@ -357,15 +357,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Pushmeldingen op dit apparaat',
   'settings.webPush.hint':
-    'Toont TREK-meldingen op dit apparaat, ook als TREK gesloten is. Welke gebeurtenissen binnenkomen, volgt de kolom Push.',
+    'Toont TREK-meldingen op dit apparaat, ook als Manzil gesloten is. Welke gebeurtenissen binnenkomen, volgt de kolom Push.',
   'settings.webPush.enable': 'Inschakelen op dit apparaat',
   'settings.webPush.disable': 'Uitschakelen op dit apparaat',
   'settings.webPush.enabled': 'Ingeschakeld op dit apparaat',
   'settings.webPush.unsupported': 'Deze browser kan geen pushmeldingen ontvangen.',
-  'settings.webPush.insecure': 'Voor push moet TREK via HTTPS geopend zijn.',
-  'settings.webPush.iosInstall': 'Zet TREK op iPhone en iPad eerst op het beginscherm en open het vanaf daar.',
+  'settings.webPush.insecure': 'Voor push moet Manzil via HTTPS geopend zijn.',
+  'settings.webPush.iosInstall': 'Zet Manzil op iPhone en iPad eerst op het beginscherm en open het vanaf daar.',
   'settings.webPush.denied':
-    'Meldingen voor TREK zijn in deze browser geblokkeerd. Sta ze toe in de browserinstellingen en probeer het opnieuw.',
+    'Meldingen voor Manzil zijn in deze browser geblokkeerd. Sta ze toe in de browserinstellingen en probeer het opnieuw.',
   'settings.webPush.failed': 'Push kon niet worden ingeschakeld op dit apparaat.',
   'settings.currency': 'Weergavevaluta',
   'settings.currencyHint':
@@ -411,7 +411,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Schakel dit alleen in voor een vertrouwde instantie op je eigen netwerk.',
   'settings.airtrail.writeBack': 'Wijzigingen terugschrijven naar AirTrail',
   'settings.airtrail.writeBackHint':
-    'Standaard uit: AirTrail is de bron van waarheid en TREK leest er alleen uit. Schakel in om in TREK gemaakte wijzigingen terug te sturen naar AirTrail.',
+    'Standaard uit: AirTrail is de bron van waarheid en Manzil leest er alleen uit. Schakel in om in Manzil gemaakte wijzigingen terug te sturen naar AirTrail.',
   'settings.airtrail.connected': 'Verbonden',
   'settings.airtrail.notConnected': 'Niet verbonden',
   'settings.airtrail.toast.saved': 'AirTrail-verbinding opgeslagen',
@@ -531,7 +531,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Dashboard', // same-as-en
   'settings.startPageActiveTrip': 'Actieve reis',
   'settings.startPageHint':
-    'TREK opent direct de reis die nu loopt, of anders de eerstvolgende. Dat is dezelfde reis die het dashboard uitlicht.',
+    'Manzil opent direct de reis die nu loopt, of anders de eerstvolgende. Dat is dezelfde reis die het dashboard uitlicht.',
   'settings.startTripTab': 'Starttabblad',
   'settings.startTripTabHint':
     'Het tabblad waarmee de reis opent. Hoort het bij een uitgeschakelde add-on, dan opent het plan in plaats daarvan.',

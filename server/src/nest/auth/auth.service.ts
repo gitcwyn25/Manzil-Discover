@@ -556,7 +556,7 @@ export class AuthService {
         auditUserId: null, auditAction: 'user.login_failed', auditDetails: { email, reason: 'unknown_email' },
       };
     }
-    if (!user.password_hash) {
+    if (!user.password_hash || (user.oidc_sub && readEnv().supabase.url && user.oidc_issuer === `${readEnv().supabase.url}/auth/v1`)) {
       return {
         error: 'Invalid email or password', status: 401,
         auditUserId: Number(user.id), auditAction: 'user.login_failed', auditDetails: { email, reason: 'oidc_only' },
@@ -569,6 +569,17 @@ export class AuthService {
       };
     }
 
+    return this.completeIdentityLogin(user, remember, client);
+  }
+
+  /** Shared completion keeps external identities behind the same local MFA gate. */
+  async completeExternalLogin(userId: number, remember = false, client?: SessionClient) {
+    const user = await this.usersRepo.findById(userId);
+    if (!user || user.is_guest) throw new DomainError(401, 'Account is unavailable');
+    return this.completeIdentityLogin(user, remember, client);
+  }
+
+  private async completeIdentityLogin(user: UserRow, remember: boolean, client?: SessionClient) {
     if (user.mfa_enabled === 1) {
       const pv = user.password_version ?? 0;
       const mfa_token = jwt.sign(
@@ -576,7 +587,7 @@ export class AuthService {
         JWT_SECRET,
         { expiresIn: '5m', algorithm: 'HS256' }
       );
-      return { mfa_required: true, mfa_token };
+      return { mfa_required: true as const, mfa_token };
     }
 
     await this.usersRepo.touchLastLogin(user.id);
@@ -589,13 +600,28 @@ export class AuthService {
       remember,
       auditUserId: Number(user.id),
       auditAction: 'user.login',
-      auditDetails: { email },
+      auditDetails: { email: user.email },
     };
   }
 
   // -------------------------------------------------------------------------
   // Session
   // -------------------------------------------------------------------------
+
+  /** Provider password/recovery flows also invalidate Manzil sessions and API tokens. */
+  async revokeExternalSessions(userId: number) {
+    const user = await this.usersRepo.findById(userId);
+    if (!user || !user.oidc_sub) throw new DomainError(401, 'External account is unavailable');
+    await this.uow.transactional(async () => {
+      await this.usersRepo.applyAdminEdit(userId, { password_version: (user.password_version ?? 0) + 1 });
+      await this.mcpTokens.deleteAllForUser(userId);
+      try { await this.oauthTokens.revokeAllForUser(userId); } catch { /* legacy installs */ }
+      await this.pushSubscriptions.deleteAllForUser(userId);
+      await this.sessions.revokeAll(userId);
+    });
+    try { revokeUserSessions?.(userId); } catch { /* best effort socket disconnect */ }
+    return { success: true };
+  }
 
   async getCurrentUser(
     userId: number
@@ -816,7 +842,7 @@ export class AuthService {
     try {
       secret = authenticator.generateSecret();
       mfaSetupPending.set(userId, { secret, exp: Date.now() + MFA_SETUP_TTL_MS });
-      otpauth_url = authenticator.keyuri(userEmail, 'TREK', secret);
+      otpauth_url = authenticator.keyuri(userEmail, 'Manzil', secret);
     } catch (err) {
       console.error('[MFA] Setup error:', err);
       throw new DomainError(500, 'MFA setup failed');
@@ -900,12 +926,21 @@ export class AuthService {
       throw new DomainError(400, 'Verification token and code are required');
     }
     try {
-      const decoded = jwt.verify(mfa_token, JWT_SECRET, { algorithms: ['HS256'] }) as { id: number; purpose?: string };
+      const decoded = jwt.verify(mfa_token, JWT_SECRET, { algorithms: ['HS256'] }) as {
+        id: number;
+        purpose?: string;
+        pv?: number;
+      };
       if (decoded.purpose !== 'mfa_login') {
         throw new DomainError(401, 'Invalid verification token');
       }
       const user = await this.usersRepo.findById(decoded.id);
-      if (!user || user.mfa_enabled !== 1 || !user.mfa_secret) {
+      // Fresh challenges always carry pv. Recovery also invalidates pending
+      // first-factor proofs before any TOTP or backup code can be consumed.
+      if (
+        !user || user.mfa_enabled !== 1 || !user.mfa_secret ||
+        typeof decoded.pv !== 'number' || decoded.pv !== (user.password_version ?? 0)
+      ) {
         throw new DomainError(401, 'Invalid session');
       }
       const secret = decryptMfaSecret(user.mfa_secret);

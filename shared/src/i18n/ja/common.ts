@@ -76,8 +76,8 @@ const common: TranslationStrings = {
   'common.errorReload': 'ページを再読み込み',
   'common.errorUpdateTitle': '新しいバージョンがあります',
   'common.errorUpdateBody':
-    'このタブを開いている間に TREK が更新されました。再読み込みして新しいバージョンを取得してください。',
+    'このタブを開いている間に Manzil が更新されました。再読み込みして新しいバージョンを取得してください。',
   'common.errorPluginTitle': 'このプラグインを表示できませんでした',
-  'common.needsConnection': 'この操作には接続が必要です。TREK がオンラインに戻ってから、もう一度お試しください。',
+  'common.needsConnection': 'この操作には接続が必要です。Manzil がオンラインに戻ってから、もう一度お試しください。',
 };
 export default common;

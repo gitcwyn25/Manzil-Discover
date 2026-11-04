@@ -4,6 +4,7 @@ import { authApi } from '../../api/client'
 import { getApiErrorMessage } from '../../types'
 import { useTranslation } from '../../i18n'
 import { passwordErrorKey } from '../../utils/passwordError'
+import { availableSupabaseConfig, resetSupabasePassword, SupabaseMfaRequired } from '../../api/supabaseAuth'
 
 /**
  * Reset-password data hook — owns the token lookup, the form state, the
@@ -15,7 +16,8 @@ export function useResetPassword() {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const [params] = useSearchParams()
-  const token = params.get('token') || ''
+  const providerRecovery = params.get('auth') === 'supabase'
+  const token = providerRecovery ? 'supabase-recovery' : params.get('token') || ''
 
   const [pw, setPw] = useState('')
   const [pw2, setPw2] = useState('')
@@ -40,6 +42,14 @@ export function useResetPassword() {
     if (pw !== pw2) { setError(t('login.passwordsDontMatch')); return }
     setIsLoading(true)
     try {
+      if (providerRecovery) {
+        const config = await availableSupabaseConfig()
+        if (!config) throw new Error('Manzil account recovery is not configured.')
+        await resetSupabasePassword(config, pw, mfaRequired ? mfaCode : undefined)
+        setSuccess(true)
+        setIsLoading(false)
+        return
+      }
       const res = await authApi.resetPassword({
         token,
         new_password: pw,
@@ -54,7 +64,8 @@ export function useResetPassword() {
         setSuccess(true)
       }
     } catch (err) {
-      setError(getApiErrorMessage(err, t('login.resetPasswordFailed')))
+      if (err instanceof SupabaseMfaRequired) { setMfaRequired(true); setError(err.message) }
+      else setError(getApiErrorMessage(err, err instanceof Error ? err.message : t('login.resetPasswordFailed')))
     }
     setIsLoading(false)
   }

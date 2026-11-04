@@ -40,7 +40,7 @@ const trip: TranslationStrings = {
   'trip.toast.placesDeleted.few': '{count} miesta odstránené',
   'trip.invite.linkTitle': 'Odkaz na pozvanie na cestu',
   'trip.invite.linkHint':
-    'Ktokoľvek s účtom TREK, kto otvorí tento odkaz, sa pripojí k ceste ako člen. Vygenerovaním nového odkazu zneplatníte ten starý.',
+    'Ktokoľvek s účtom Manzil, kto otvorí tento odkaz, sa pripojí k ceste ako člen. Vygenerovaním nového odkazu zneplatníte ten starý.',
   'trip.invite.create': 'Vytvoriť odkaz na pozvanie',
   'trip.invite.regenerate': 'Vygenerovať znova',
   'trip.invite.disable': 'Deaktivovať',

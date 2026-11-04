@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Přihlašování…',
   'login.signIn': 'Přihlásit se',
   'login.createAdmin': 'Vytvořit účet administrátora',
-  'login.createAdminHint': 'Nastavte první administrátorský účet pro TREK.',
+  'login.createAdminHint': 'Nastavte první administrátorský účet pro Manzil.',
   'login.setNewPassword': 'Nastavit nové heslo',
   'login.setNewPasswordHint': 'Před pokračováním musíte změnit heslo.',
   'login.createAccount': 'Vytvořit účet',
@@ -75,7 +75,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Přihlášení přístupovým klíčem se nezdařilo. Zkuste to prosím znovu.',
   'login.insecureCookie.title': 'Přihlášení přes HTTP nevydrží',
   'login.insecureCookie.body':
-    'Připojujete se přes nešifrované HTTP, takže prohlížeč zahazuje zabezpečenou relační cookie TREK a další požadavek selže s chybou "Access token required". Řešení: použijte HTTPS, nebo v domácí síti nastavte COOKIE_SECURE=false.',
+    'Připojujete se přes nešifrované HTTP, takže prohlížeč zahazuje zabezpečenou relační cookie Manzil a další požadavek selže s chybou "Access token required". Řešení: použijte HTTPS, nebo v domácí síti nastavte COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Otevřít průvodce řešením potíží',
 };
 export default login;

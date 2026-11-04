@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const it: NotificationLocale = {
   email: {
-    footer: 'Hai ricevuto questa email perché hai le notifiche abilitate in TREK.',
+    footer: 'Hai ricevuto questa email perché hai le notifiche abilitate in Manzil.',
     manage: 'Gestisci le preferenze nelle impostazioni',
     madeWith: 'Made with',
-    openTrek: 'Apri TREK',
+    openTrek: 'Apri Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,15 +27,15 @@ const it: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Invito Vacay Fusion',
-      body: `${p.actor} ti ha invitato a fondere i piani vacanza. Apri TREK per accettare o rifiutare.`,
+      body: `${p.actor} ti ha invitato a fondere i piani vacanza. Apri Manzil per accettare o rifiutare.`,
     }),
     vacay_share: (p) => ({
       title: 'Calendario Vacay condiviso',
-      body: `${p.actor} ha condiviso con te il suo calendario ferie. Apri TREK per vederlo.`,
+      body: `${p.actor} ha condiviso con te il suo calendario ferie. Apri Manzil per vederlo.`,
     }),
     collection_invite: (p) => ({
       title: 'Invito a una raccolta',
-      body: `${p.actor} ti ha invitato a condividere una raccolta. Apri TREK per accettare o rifiutare.`,
+      body: `${p.actor} ti ha invitato a condividere una raccolta. Apri Manzil per accettare o rifiutare.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'it', { one: `${p.count} foto condivisa`, other: `${p.count} foto condivise` }),
@@ -50,8 +50,8 @@ const it: NotificationLocale = {
       body: `${p.actor} ti ha assegnato alla categoria "${p.category}" in "${p.trip}".`,
     }),
     version_available: (p) => ({
-      title: 'Nuova versione TREK disponibile',
-      body: `TREK ${p.version} è ora disponibile. Visita il pannello di amministrazione per aggiornare.`,
+      title: 'Nuova versione Manzil disponibile',
+      body: `Manzil ${p.version} è ora disponibile. Visita il pannello di amministrazione per aggiornare.`,
     }),
     replica_failure: (p) => ({
       title: "Errore di replica dell'archiviazione",
@@ -86,7 +86,7 @@ const it: NotificationLocale = {
   passwordReset: {
     subject: 'Reimposta la tua password',
     greeting: 'Ciao',
-    body: 'Abbiamo ricevuto una richiesta di reimpostazione della password per il tuo account TREK. Clicca il pulsante qui sotto per impostare una nuova password.',
+    body: 'Abbiamo ricevuto una richiesta di reimpostazione della password per il tuo account Manzil. Clicca il pulsante qui sotto per impostare una nuova password.',
     ctaIntro: 'Reimposta password',
     expiry: 'Questo link scade tra 60 minuti.',
     ignore: 'Se non hai richiesto questa operazione, ignora questa email — la tua password non cambierà.',

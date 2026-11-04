@@ -65,9 +65,9 @@ const files: TranslationStrings = {
   'files.linkEmpty': 'Encara no hi ha llocs ni reserves per enllaçar',
   'files.menu': 'Més opcions',
   'files.uploadErrorSize': 'El fitxer és massa gran (màx. {max} MB)',
-  'files.uploadNeedsConnection': 'Per pujar cal connexió. Torna-ho a provar quan TREK torni a estar en línia.',
+  'files.uploadNeedsConnection': 'Per pujar cal connexió. Torna-ho a provar quan Manzil torni a estar en línia.',
   'files.linkNeedsConnection':
-    'Per treure aquest enllaç cal connexió. Torna-ho a provar quan TREK torni a estar en línia.',
+    'Per treure aquest enllaç cal connexió. Torna-ho a provar quan Manzil torni a estar en línia.',
   'files.placeFilesNeedConnection':
     'Els fitxers necessiten connexió per pujar-se. Treu els nous per desar el lloc sense connexió, o desa quan tornis a estar en línia.',
   'files.maxSize': 'Màx. {count} MB',

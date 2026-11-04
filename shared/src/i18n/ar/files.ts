@@ -76,8 +76,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'حذف جميع ملفات سلة المهملات نهائيًا؟ لا يمكن التراجع عن ذلك.',
   'files.noteLabel': 'ملاحظة',
   'files.notePlaceholder': 'أضف ملاحظة...',
-  'files.uploadNeedsConnection': 'يحتاج الرفع إلى اتصال. حاول مرة أخرى عندما يعود TREK إلى الاتصال.',
-  'files.linkNeedsConnection': 'تحتاج إزالة هذا الربط إلى اتصال. حاول مرة أخرى عندما يعود TREK إلى الاتصال.',
+  'files.uploadNeedsConnection': 'يحتاج الرفع إلى اتصال. حاول مرة أخرى عندما يعود Manzil إلى الاتصال.',
+  'files.linkNeedsConnection': 'تحتاج إزالة هذا الربط إلى اتصال. حاول مرة أخرى عندما يعود Manzil إلى الاتصال.',
   'files.placeFilesNeedConnection':
     'تحتاج الملفات إلى اتصال لرفعها. أزل الملفات الجديدة لحفظ المكان دون اتصال، أو احفظ عند عودتك إلى الاتصال.',
   'files.maxSize': 'الحد الأقصى {count} ميغابايت',

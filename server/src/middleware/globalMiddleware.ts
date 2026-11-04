@@ -282,6 +282,7 @@ export function applyGlobalMiddleware(
           imgSrc: ["'self'", 'data:', 'blob:', 'https:'],
           connectSrc: [
             "'self'",
+            ...(/^https:\/\/[a-z0-9]{20}\.supabase\.co$/.test(readEnv().supabase.url) ? [readEnv().supabase.url] : []),
             'ws:',
             'wss:',
             'https://nominatim.openstreetmap.org',

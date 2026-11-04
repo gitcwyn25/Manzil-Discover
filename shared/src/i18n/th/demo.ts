@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'เดโมสด',
-  'demo.welcome.title': 'ยินดีต้อนรับสู่ TREK',
+  'demo.welcome.title': 'ยินดีต้อนรับสู่ Manzil',
   'demo.welcome.tagline':
     'ตัววางแผนการเดินทางที่แชร์กันได้ วางแผนร่วมกันบนแผนที่แบบเรียลไทม์ ตั้งแต่ไอเดียแรกจนถึงโฟโต้บุ๊กหลังทริป',
   'demo.welcome.resetTitle': 'ทุกอย่างจะถูกรีเซ็ตทุกชั่วโมง',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'วัน สถานที่ และเส้นทางบนแผนที่ พร้อมเที่ยวบิน โรงแรม ร้านอาหาร การจอง และค่าใช้จ่ายร่วม',
   'demo.feature.tours.title': 'ทัวร์และการเดินป่า',
   'demo.feature.tours.body': 'วางแผนเดินป่าบนเครือข่ายเส้นทางและติดตามบนภูมิประเทศ 3D พร้อมโปรไฟล์ความสูง',
-  'demo.feature.studio.title': 'โฟโต้บุ๊กใน TREK Studio',
+  'demo.feature.studio.title': 'โฟโต้บุ๊กใน Manzil Studio',
   'demo.feature.studio.body': 'เปลี่ยนการเดินทางให้เป็นโฟโต้บุ๊กที่ออกแบบแล้วทีละหน้า',
   'demo.feature.collab.title': 'วางแผนด้วยกันแบบสด',
   'demo.feature.collab.body': 'ทุกคนในทริปเห็นทุกการเปลี่ยนแปลงทันที พร้อมแชต บันทึก และโพล',
@@ -29,7 +29,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.title': 'คอลเลกชัน',
   'demo.feature.collections.body': 'บันทึกสถานที่จากหลายทริปไว้ในรายการของคุณเองและคัดลอกไปยังแผนใดก็ได้',
   'demo.feature.offline.title': 'ใช้งานแบบออฟไลน์ได้',
-  'demo.feature.offline.body': 'ติดตั้ง TREK เป็นแอปแล้วใช้แผน แผนที่ และรายการได้แม้ไม่มีการเชื่อมต่อ',
+  'demo.feature.offline.body': 'ติดตั้ง Manzil เป็นแอปแล้วใช้แผน แผนที่ และรายการได้แม้ไม่มีการเชื่อมต่อ',
   'demo.welcome.limitsTitle': 'สิ่งที่ไม่มีในเดโม',
   'demo.limit.uploads': 'อัปโหลดรูปภาพ เอกสาร และภาพปก',
   'demo.limit.account': 'เปลี่ยนบัญชี รหัสผ่าน หรือ 2FA',
@@ -48,7 +48,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'เครดิตภาพถ่าย',
   'demo.credits.intro':
-    'ภาพถ่ายในเดโมนี้มาจาก Wikimedia Commons โดยแต่ละภาพใช้สัญญาอนุญาตที่ระบุไว้คู่กัน สัญญาอนุญาตนั้นใช้กับภาพถ่ายเท่านั้น ไม่ใช่กับ TREK หรือส่วนอื่นของเดโม',
+    'ภาพถ่ายในเดโมนี้มาจาก Wikimedia Commons โดยแต่ละภาพใช้สัญญาอนุญาตที่ระบุไว้คู่กัน สัญญาอนุญาตนั้นใช้กับภาพถ่ายเท่านั้น ไม่ใช่กับ Manzil หรือส่วนอื่นของเดโม',
   'demo.credits.by': 'ภาพโดย {author}',
   'demo.credits.publicDomain': 'สาธารณสมบัติ',
   'demo.credits.back': 'ย้อนกลับ',

@@ -24,7 +24,7 @@ const docsync: TranslationStrings = {
   'docsync.onConflict.trek_wins': 'Säilita TREKi koopia',
   'docsync.onConflict.provider_wins': 'Säilita salvestusteenuse koopia',
   'docsync.webhookHint':
-    'Kleebi see URL teenusepakkuja seadetesse, et muudatused jõuaksid kohale kohe. Ilma selleta kontrollib TREK muudatusi ajastatult.',
+    'Kleebi see URL teenusepakkuja seadetesse, et muudatused jõuaksid kohale kohe. Ilma selleta kontrollib Manzil muudatusi ajastatult.',
 
   // Connection form fields. The keys mirror the `label` column in
   // document_provider_fields, which stores a key suffix rather than text.
@@ -47,7 +47,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudLogin': 'Sinu Nextcloudi kasutajanimi, mitte e-posti aadress.',
   'docsync.hintNextcloudAppPassword': 'Settings → Security → Create new app password. Ära kasuta konto parooli.',
   'docsync.hintOpenCloudToken': 'Loodud OpenCloudi rakenduspääsmete jaotises.',
-  'docsync.hintBasePath': 'Kaust, kust TREK otsib reisikaustu. Vaikimisi /TREK.',
+  'docsync.hintBasePath': 'Kaust, kust Manzil otsib reisikaustu. Vaikimisi /Manzil.',
   'docsync.hintSynologyUrl': 'Lisa ka port, näiteks https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Soovitatav on eraldi DSM-konto, millel on juurdepääs ainult sellele ühiskaustale.',
   'docsync.hintSynologyOtp': 'Vajalik ainult üks kord, kui kontol on kaheastmeline autentimine.',
@@ -87,7 +87,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Sellel kontol pole selle toimingu õigust.',
   'docsync.error.not_found': 'Teenusepakkuja juurest ei leitud.',
   'docsync.error.scope_missing': 'Ühendatud kausta pole enam olemas.',
-  'docsync.error.rate_limited': 'Teenusepakkuja piirab päringuid. TREK proovib hiljem uuesti.',
+  'docsync.error.rate_limited': 'Teenusepakkuja piirab päringuid. Manzil proovib hiljem uuesti.',
   'docsync.error.too_large': 'Fail ületab teenusepakkuja suurusepiirangu.',
   'docsync.error.unsupported_type': 'Teenusepakkuja ei toeta seda failitüüpi.',
   'docsync.error.quota_exceeded': 'Teenusepakkujal pole enam vaba ruumi.',
@@ -108,7 +108,7 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Midagi pole veel ühendatud',
   'docsync.empty.hintOwner':
-    'Vali vasakult salvestusteenus. TREK säilitab kõigest oma koopia, nii et teenuse kadumisel ei lähe midagi kaotsi.',
+    'Vali vasakult salvestusteenus. Manzil säilitab kõigest oma koopia, nii et teenuse kadumisel ei lähe midagi kaotsi.',
   'docsync.empty.hintMember': 'Selle seadistab reisi omanik. Dokumendid jäävad igal juhul TREKi.',
 
   // How each product files things. Shown before anyone connects, because it is
@@ -120,7 +120,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'Failid NAS-i kaustas',
 
   // ── The flow bar ───────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Salvestusteenusesse',
   'docsync.flow.toTrek': 'Salvestusteenusest',
   'docsync.flow.documents': 'dokumenti',
@@ -149,11 +149,11 @@ const docsync: TranslationStrings = {
   'docsync.connect.testing': 'Ühenduse loomine',
   'docsync.connect.okAs': 'Ühendatud, sisse logitud kasutajana {account}',
   'docsync.connect.insecureHint': 'Sinu võrgus asuvale serverile, millel on iseallkirjastatud sertifikaat.',
-  'docsync.connect.about.paperless': 'TREK salvestab selle reisi oma sildi alla ega puutu ülejäänud arhiivi.',
-  'docsync.connect.about.papra': 'Vali organisatsioon, kuhu see reis kuulub. TREK salvestab selle seal oma sildi alla.',
+  'docsync.connect.about.paperless': 'Manzil salvestab selle reisi oma sildi alla ega puutu ülejäänud arhiivi.',
+  'docsync.connect.about.papra': 'Vali organisatsioon, kuhu see reis kuulub. Manzil salvestab selle seal oma sildi alla.',
   'docsync.connect.about.nextcloud':
     'Kasuta rakenduse parooli, mitte konto parooli: see töötab ka kaheastmelise autentimisega ja saad selle eraldi tühistada.',
-  'docsync.connect.about.opencloud': 'TREK saab sellele reisile omaette tööruumi, ülejäänust eraldi.',
+  'docsync.connect.about.opencloud': 'Manzil saab sellele reisile omaette tööruumi, ülejäänust eraldi.',
   'docsync.connect.about.synologydrive':
     'Soovitatav on DSM-konto, millel on juurdepääs ainult selle reisi ühiskaustale.',
 
@@ -179,11 +179,11 @@ const docsync: TranslationStrings = {
     'Peatatud: administraator on selle teenuse välja lülitanud. Sünkroonimine jätkub, kui see uuesti lubatakse.',
   'docsync.binding.reconnect': 'Ühenda uuesti',
   'docsync.connection.title': 'Ühendus',
-  'docsync.connection.hint': 'Aadress ja sisselogimine, mida TREK selle hoidla jaoks kasutab.',
+  'docsync.connection.hint': 'Aadress ja sisselogimine, mida Manzil selle hoidla jaoks kasutab.',
   'docsync.connection.edit': 'Muuda ühendust',
   'docsync.connection.remove': 'Eemalda ühendus',
   'docsync.connection.confirmRemove':
-    'TREK unustab selle hoidla aadressi ja sisselogimise ning kõik selle reisi sünkroonimised selle kaudu peatuvad. Dokumendid jäävad TREKi ja hoidlasse.',
+    'Manzil unustab selle hoidla aadressi ja sisselogimise ning kõik selle reisi sünkroonimised selle kaudu peatuvad. Dokumendid jäävad TREKi ja hoidlasse.',
 };
 
 export default docsync;

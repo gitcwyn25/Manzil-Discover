@@ -1,17 +1,17 @@
 import type { TranslationStrings } from '../types';
 
 const system_notice: TranslationStrings = {
-  'system_notice.welcome_v1.title': 'Welkom bij TREK',
+  'system_notice.welcome_v1.title': 'Welkom bij Manzil',
   'system_notice.welcome_v1.body':
     "Jouw alles-in-één reisplanner. Maak reisschema's, deel trips met vrienden en blijf georganiseerd — online en offline.",
   'system_notice.welcome_v1.cta_label': 'Reis plannen',
-  'system_notice.welcome_v1.hero_alt': 'Schilderachtige reisbestemming met TREK interface',
+  'system_notice.welcome_v1.hero_alt': 'Schilderachtige reisbestemming met Manzil interface',
   'system_notice.welcome_v1.highlight_plan': "Dag-voor-dag reisschema's",
   'system_notice.welcome_v1.highlight_share': 'Samenwerken met reisgezelschap',
   'system_notice.welcome_v1.highlight_offline': 'Werkt offline op mobiel',
   'system_notice.dev_test_modal.title': '[Dev] Testmelding',
   'system_notice.dev_test_modal.body': 'Dit is een testmelding alleen voor ontwikkelaars.',
-  'system_notice.thank_you_support.title': 'Bedankt voor het gebruik van TREK',
+  'system_notice.thank_you_support.title': 'Bedankt voor het gebruik van Manzil',
   'system_notice.thank_you_support.body':
     'Even een kort bedankje dat je TREK hebt geïnstalleerd — het betekent echt veel voor me.\n\nIk ben een solo-ontwikkelaar en bouw TREK in mijn vrije tijd. Het begon als een klein hulpmiddel voor mijn eigen reizen, en ik ben oprecht overweldigd door de steun en de interesse vanuit de community sindsdien. TREK is met heel veel hart gemaakt aan mijn kant — maar ook dankzij de vele geweldige externe bijdragers die hebben geholpen het vorm te geven.\n\n**TREK is open source en volledig gratis — en dat zal het voor altijd blijven. Geen betaalde versies, geen abonnementen, geen addertjes onder het gras. Dat beloof ik.**\n\nAls TREK nuttig voor je is en je de ontwikkeling ervan wilt steunen, helpt een klein kopje koffie me oprecht om te blijven bouwen — absoluut geen druk, maar elk kopje houdt de late avonden gaande.\n\nBedankt dat je er bent.\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '100% open source op GitHub',
@@ -26,7 +26,7 @@ const system_notice: TranslationStrings = {
   'system_notice.pager.position': 'Melding {current} van {total}',
   'system_notice.v3_photos.title': "Foto's zijn verplaatst in 3.0",
   'system_notice.v3_photos.body':
-    "**Foto's** in de Reisplanner zijn verwijderd. Je foto's zijn veilig — TREK heeft je Immich- of Synology-bibliotheek nooit gewijzigd.\n\nFoto's leven nu in de **Journey**-addon. Journey is optioneel — als het nog niet beschikbaar is, vraag je admin het te activeren via Admin → Addons.",
+    "**Foto's** in de Reisplanner zijn verwijderd. Je foto's zijn veilig — Manzil heeft je Immich- of Synology-bibliotheek nooit gewijzigd.\n\nFoto's leven nu in de **Journey**-addon. Journey is optioneel — als het nog niet beschikbaar is, vraag je admin het te activeren via Admin → Addons.",
   'system_notice.v3_journey.title': 'Maak kennis met Journey — reisdagboek',
   'system_notice.v3_journey.body':
     'Documenteer je reizen als rijke verhalen met tijdlijnen, fotogalerijen en interactieve kaarten.',
@@ -58,7 +58,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'Update geïnstalleerd',
   'system_notice.release_notes.headline': 'De juiste plek, eerst.',
   'system_notice.release_notes.intro':
-    'Plaatsen zoeken, adressen zoeken en routeplanning draaien nu op eigen servers van TREK, gesponsord door dataforest cloud, en elke TREK kan wat hij over plaatsen weet delen met alle andere.',
+    'Plaatsen zoeken, adressen zoeken en routeplanning draaien nu op eigen servers van Manzil, gesponsord door dataforest cloud, en elke Manzil kan wat hij over plaatsen weet delen met alle andere.',
   'system_notice.release_notes.features_label': 'De hoogtepunten',
   'system_notice.release_notes.features_aside': 'Lang niet alles',
   'system_notice.release_notes.feature_search_title': 'Plaatsen zoeken dat klopt',
@@ -66,18 +66,18 @@ const system_notice: TranslationStrings = {
     'Steden, eilanden, bezienswaardigheden en luchthavens op hun code komen eerst, cafés komen uit je omgeving en suggesties verschijnen terwijl je typt.',
   'system_notice.release_notes.feature_share_title': 'Plaatsdetails, gedeeld',
   'system_notice.release_notes.feature_share_body':
-    'Deel websites, openingstijden en foto’s met elke TREK, veld voor veld, en je opgeslagen plaatsen nemen over wat anderen hebben toegevoegd.',
+    'Deel websites, openingstijden en foto’s met elke Manzil, veld voor veld, en je opgeslagen plaatsen nemen over wat anderen hebben toegevoegd.',
   'system_notice.release_notes.feature_routing_title': 'Snellere routes',
   'system_notice.release_notes.feature_routing_body':
     'Een hele dag wordt in één keer gepland met tot twintig stops, één trage route houdt de rest niet meer op en het openbaar vervoer vraagt een tweede aanbieder als de eerste niets vindt.',
-  'system_notice.release_notes.footnote': 'En daarnaast een lange lijst kleinere wijzigingen in de rest van TREK.',
+  'system_notice.release_notes.footnote': 'En daarnaast een lange lijst kleinere wijzigingen in de rest van Manzil.',
   'system_notice.release_notes.notes_label': 'Release notes',
   'system_notice.release_notes.note_eyebrow': 'Een woord van de maintainer',
-  'system_notice.release_notes.note_title': 'Jij bent de reden dat ik aan TREK blijf bouwen.',
+  'system_notice.release_notes.note_title': 'Jij bent de reden dat ik aan Manzil blijf bouwen.',
   'system_notice.release_notes.note_body':
-    'TREK begon als een klein hulpmiddel voor mijn eigen reizen, geschreven na werktijd omdat ik ze beter wilde kunnen plannen. Eigenlijk is het nooit gestopt met groeien. Bijna alles wat je gebruikt, is gebouwd laat op de avond, in het weekend, in de trein, naast een fulltime baan, en op heel wat avonden vroeg ik me stilletjes af of iemand daarbuiten het ooit zou openen.',
+    'Manzil begon als een klein hulpmiddel voor mijn eigen reizen, geschreven na werktijd omdat ik ze beter wilde kunnen plannen. Eigenlijk is het nooit gestopt met groeien. Bijna alles wat je gebruikt, is gebouwd laat op de avond, in het weekend, in de trein, naast een fulltime baan, en op heel wat avonden vroeg ik me stilletjes af of iemand daarbuiten het ooit zou openen.',
   'system_notice.release_notes.promise_label': 'De belofte',
-  'system_notice.release_notes.promise_lead': 'TREK blijft gratis, voor altijd.',
+  'system_notice.release_notes.promise_lead': 'Manzil blijft gratis, voor altijd.',
   'system_notice.release_notes.promise_text':
     'Elke functie, elke update, voor iedereen. Geen betaalde versies, geen abonnementen, geen addertjes.',
   'system_notice.release_notes.note_body_after':
@@ -86,7 +86,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': 'Onafhankelijk blijven',
   'system_notice.release_notes.support_lead': 'Zonder Google en co.',
   'system_notice.release_notes.support_text':
-    'Plaatsen zoeken, adressen zoeken en routeplanning draaien op eigen servers van TREK, vandaag gesponsord door dataforest cloud. Daar vecht ik elke dag voor, en om het zo te houden is jouw steun nodig.',
+    'Plaatsen zoeken, adressen zoeken en routeplanning draaien op eigen servers van Manzil, vandaag gesponsord door dataforest cloud. Daar vecht ik elke dag voor, en om het zo te houden is jouw steun nodig.',
   'system_notice.release_notes.cta_bmc': 'Buy me a coffee',
   'system_notice.release_notes.cta_kofi': 'Steun op Ko-fi',
 };

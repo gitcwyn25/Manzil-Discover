@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Kontrolovať zmeny mojich trás',
   'wanderer.watch.hint': 'Upozornenie, keď sa importovaná trasa mohla zmeniť.',
   'wanderer.watch.info':
-    'Najviac raz denne TREK prečíta krátky záznam každej trasy, ktorú ste importovali, nikdy jej súbor GPX. Len vás upozorní: či zmenu prevezmete, rozhodnete sami kontrolou zdroja túry.',
+    'Najviac raz denne Manzil prečíta krátky záznam každej trasy, ktorú ste importovali, nikdy jej súbor GPX. Len vás upozorní: či zmenu prevezmete, rozhodnete sami kontrolou zdroja túry.',
   'wanderer.watch.notConnected': 'Najprv pripojte wanderer',
   'wanderer.watch.on': 'Kontrola na pozadí zapnutá',
   'wanderer.watch.off': 'Kontrola na pozadí vypnutá',
@@ -12,7 +12,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.lastRun': 'Naposledy skontrolované {date}',
   'wanderer.watch.neverRun': 'Zatiaľ neskontrolované',
   'wanderer.watch.paused': 'Pozastavené do {time}',
-  'wanderer.watch.pausedHint': 'wanderer neodpovedal. Po každom neúspechu TREK čaká dlhšie, kým sa znova opýta.',
+  'wanderer.watch.pausedHint': 'wanderer neodpovedal. Po každom neúspechu Manzil čaká dlhšie, kým sa znova opýta.',
   'wanderer.watch.blocked': 'Token odmietnutý',
   'wanderer.watch.blockedHint':
     'wanderer odmietol token API. Kontrola pokračuje, keď prejde test pripojenia alebo sa uloží nový token.',
@@ -32,7 +32,7 @@ const wandererWatch: TranslationStrings = {
     'wanderer zmenil časovú pečiatku trasy. Len kontrola zdroja ukáže, či sa líši obsah.',
   'wanderer.watch.stateHint.changed':
     'Záznam vo wanderer ukazuje iný názov alebo popis. Kontrola zdroja ukáže všetko, čo sa zmenilo.',
-  'wanderer.watch.stateHint.unverifiable': 'TREK túto trasu nemohol posúdiť, takže sa o zmene nič nehovorí.',
+  'wanderer.watch.stateHint.unverifiable': 'Manzil túto trasu nemohol posúdiť, takže sa o zmene nič nehovorí.',
   'wanderer.watch.reason.unavailable': 'Trasa nie je dostupná',
   'wanderer.watch.reason.no_change_time': 'Bez časovej pečiatky',
 };

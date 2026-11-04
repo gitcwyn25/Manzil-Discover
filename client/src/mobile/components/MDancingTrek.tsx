@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import MascotClip from './trek3d/MascotClip';
-import { findClip, mascot3dEnabled } from './trek3d/mascotClips';
 
 /**
- * The TREK mascot — an empty-state character that IS the TREK mark: the logo is
- * the whole body, no arms, no legs. Two eyes give it life; a soft idle keeps it
+ * The Manzil mascot — an empty-state character whose body is the Manzil arch,
+ * with no arms or legs. Two eyes give it life; a soft idle keeps it
  * breathing and blinking, and a ground shadow anchors it. Monochrome
  * (currentColor, theme-driven) and it holds a single pose under reduced motion.
  *
@@ -43,8 +41,7 @@ export type TrekScene =
 
 export type TrekMood = 'default' | 'happy' | 'sad' | 'sleepy' | 'confused' | 'error';
 
-const MARK =
-  'M 855.636719 699.203125 L 222.246094 699.203125 C 197.679688 699.203125 179.90625 675.75 186.539062 652.101562 L 360.429688 32.390625 C 364.921875 16.386719 379.511719 5.328125 396.132812 5.328125 L 1029.527344 5.328125 C 1054.089844 5.328125 1071.867188 28.777344 1065.230469 52.429688 L 891.339844 672.136719 C 886.851562 688.140625 872.257812 699.203125 855.636719 699.203125 Z M 444.238281 1166.980469 L 533.773438 847.898438 C 540.410156 824.246094 522.632812 800.796875 498.070312 800.796875 L 172.472656 800.796875 C 155.851562 800.796875 141.261719 811.855469 136.769531 827.859375 L 47.234375 1146.941406 C 40.597656 1170.59375 58.375 1194.042969 82.9375 1194.042969 L 408.535156 1194.042969 C 425.15625 1194.042969 439.75 1182.984375 444.238281 1166.980469 Z M 609.003906 827.859375 L 435.113281 1447.570312 C 428.476562 1471.21875 446.253906 1494.671875 470.816406 1494.671875 L 1104.210938 1494.671875 C 1120.832031 1494.671875 1135.421875 1483.609375 1139.914062 1467.605469 L 1313.804688 847.898438 C 1320.441406 824.246094 1302.664062 800.796875 1278.101562 800.796875 L 644.707031 800.796875 C 628.085938 800.796875 613.492188 811.855469 609.003906 827.859375 Z M 1056.105469 333.019531 L 966.570312 652.101562 C 959.933594 675.75 977.710938 699.203125 1002.273438 699.203125 L 1327.871094 699.203125 C 1344.492188 699.203125 1359.085938 688.140625 1363.574219 672.136719 L 1453.109375 353.054688 C 1459.746094 329.40625 1441.96875 305.953125 1417.40625 305.953125 L 1091.808594 305.953125 C 1075.1875 305.953125 1060.597656 317.015625 1056.105469 333.019531 Z';
+const MANZIL_MARK = 'M22 68V43a22 22 0 0 1 44 0v25Z';
 
 const SCENE_MOOD: Partial<Record<TrekScene, TrekMood>> = {
   notifications: 'sleepy',
@@ -59,25 +56,10 @@ type MascotProps = {
 };
 
 /**
- * Picks the look: the pre-rendered 3D clip when one exists for this scene and
- * face (see `trek3d/MascotClip`), the SVG otherwise, under reduced motion, in
- * tests, or when `localStorage['trek-mascot-3d']` is `'0'`.
+ * Keep the animated SVG scenes for the Manzil arch. The upstream pre-rendered
+ * clips contain the old logo, so they cannot represent this mascot's geometry.
  */
 export default function MDancingTrek(props: MascotProps) {
-  const { size = 96, scene = 'idle', mood, className = '' } = props;
-  const sceneMood = SCENE_MOOD[scene] ?? 'default';
-  const clip =
-    import.meta.env.MODE !== 'test' && mascot3dEnabled() ? findClip(scene, mood ?? sceneMood, sceneMood) : null;
-  if (clip)
-    return (
-      <MascotClip
-        clip={clip}
-        scene={scene}
-        size={size}
-        className={className}
-        fallback={<MDancingTrekSvg {...props} />}
-      />
-    );
   return <MDancingTrekSvg {...props} />;
 }
 
@@ -103,12 +85,10 @@ function MDancingTrekSvg({ size = 96, scene = 'idle', mood, className = '' }: Ma
         {/* scene prop behind / under the body — animates on its own */}
         <SceneBack scene={scene} />
 
-        {/* body = the TREK mark, with its own per-scene bounce (hop, nod, …) */}
+        {/* the Manzil arch keeps the per-scene bounce (hop, nod, …) */}
         <g className={`trek-bounce trek-bounce--${scene}`}>
           <g className="trek-body">
-            <g transform="translate(20.5 21.7) scale(0.0313)">
-              <path fill="currentColor" d={MARK} />
-            </g>
+            <path className="manzil-mascot-mark" fill="currentColor" d={MANZIL_MARK} />
             <Eyes mood={face} />
             <SceneOnBody scene={scene} />
           </g>

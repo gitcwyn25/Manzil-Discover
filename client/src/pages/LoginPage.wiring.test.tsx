@@ -111,7 +111,7 @@ describe('LoginPage — takeoff', () => {
 
     expect(document.querySelector('.takeoff-overlay')).toBeInTheDocument();
     expect(screen.getByTestId('login-world')).toHaveAttribute('data-variant', 'takeoff');
-    expect(screen.getByAltText('TREK')).toHaveAttribute('src', '/logo-light.svg');
+    expect(screen.getByAltText('Manzil')).toHaveAttribute('src', '/logo-light.svg');
     expect(screen.queryByPlaceholderText(EMAIL_PLACEHOLDER)).toBeNull();
   });
 });
@@ -377,7 +377,7 @@ describe('LoginPage — forced password change', () => {
     renderPage();
 
     expect(screen.getByRole('button', { name: /update password/i })).toBeInTheDocument();
-    expect(screen.queryByRole('button', { name: /^register$/i })).toBeNull();
+    expect(screen.queryByRole('button', { name: /^create account$/i })).toBeNull();
   });
 });
 
@@ -385,7 +385,7 @@ describe('LoginPage — register mode', () => {
   it('FE-LOGIN-WIRE-023: switching to register resets the pending MFA state', () => {
     renderPage();
 
-    fireEvent.click(screen.getByRole('button', { name: /^register$/i }));
+    fireEvent.click(screen.getByRole('button', { name: /^create account$/i }));
 
     const updater = vi.mocked(fixture.setMode).mock.calls[0][0] as (m: 'login' | 'register') => 'login' | 'register';
     expect(updater('login')).toBe('register');
@@ -534,6 +534,6 @@ describe('LoginPage — alternative sign-in buttons', () => {
     fixture.appConfig.demo_mode = true;
     renderPage();
 
-    expect(screen.queryByRole('button', { name: /^register$/i })).toBeNull();
+    expect(screen.queryByRole('button', { name: /^create account$/i })).toBeNull();
   });
 });

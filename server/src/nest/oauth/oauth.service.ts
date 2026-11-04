@@ -789,7 +789,7 @@ export class OauthService {
       return {
         valid: false,
         error: 'invalid_target',
-        error_description: 'Requested resource must be the TREK MCP endpoint',
+        error_description: 'Requested resource must be the Manzil MCP endpoint',
       };
     }
 

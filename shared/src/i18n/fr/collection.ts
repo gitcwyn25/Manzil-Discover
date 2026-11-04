@@ -193,9 +193,9 @@ const collection: TranslationStrings = {
   'collections.file.doneSkipped.one': '{count} lieu importé, {skipped} omis',
   'collections.file.errorTooLarge': 'Ce fichier est trop volumineux pour être une liste.',
   'collections.file.errorUnreadable': 'Ce fichier n’a pas pu être lu.',
-  'collections.file.errorNotACollection': 'Ce n’est pas un fichier de liste TREK.',
-  'collections.file.formatTrek': 'Liste TREK',
-  'collections.file.formatTrekHint': 'Pour un autre TREK, avec étiquettes et statut',
+  'collections.file.errorNotACollection': 'Ce n’est pas un fichier de liste Manzil.',
+  'collections.file.formatTrek': 'Liste Manzil',
+  'collections.file.formatTrekHint': 'Pour un autre Manzil, avec étiquettes et statut',
   'collections.file.formatGpxHint':
     'Points de passage pour OsmAnd, Organic Maps, Garmin et d’autres applications cartographiques',
   'collections.file.gpxOmitted': '{count} lieux sans coordonnées ont été laissés hors du fichier GPX',

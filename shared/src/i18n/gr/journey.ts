@@ -261,7 +261,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Κοινοποιήθηκε μέσω',
   'journey.public.madeWith': 'Φτιαγμένο με',
   'journey.pdf.journeyBook': 'Βιβλίο Ταξιδιού',
-  'journey.pdf.madeWith': 'Φτιαγμένο με TREK',
+  'journey.pdf.madeWith': 'Φτιαγμένο με Manzil',
   'journey.pdf.day': 'Ημέρα',
   'journey.pdf.theEnd': 'Τέλος',
   'journey.pdf.saveAsPdf': 'Αποθήκευση ως PDF',
@@ -287,7 +287,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     '{failed} ομάδες φωτογραφιών απέτυχαν: αποθηκεύστε ξανά για να δοκιμάσετε πάλι',
   'journey.picker.day': 'Αυτή η ημέρα',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Άνοιγμα του studio φωτογραφικού βιβλίου',
   'journey.studio.backToJourney': 'Επιστροφή στο ταξίδι',
@@ -332,7 +332,7 @@ const journey: TranslationStrings = {
     'Αποθηκεύει τη σχεδίαση του δισέλιδου ως αρχείο, χωρίς τις φωτογραφίες, για κοινή χρήση ή επαναχρησιμοποίηση',
   'journey.studio.importSpread': 'Εισαγωγή',
   'journey.studio.importSpreadHint': 'Προσθέτει ένα δισέλιδο από αρχείο σχεδίασης που έχετε κατεβάσει',
-  'journey.studio.importSpreadFailed': 'Αυτό το αρχείο δεν είναι δισέλιδο του TREK Studio',
+  'journey.studio.importSpreadFailed': 'Αυτό το αρχείο δεν είναι δισέλιδο του Manzil Studio',
   'journey.studio.desktopOnly': 'Το Studio χρειάζεται μεγαλύτερη οθόνη',
   'journey.studio.desktopOnlyHint':
     "Η σχεδίαση βιβλίου θέλει χώρο, γι' αυτό το Studio υπάρχει μόνο στον υπολογιστή, όπως και η δημιουργία του PDF. Όλα τα άλλα του ταξιδιού σου δουλεύουν εδώ κανονικά.",
@@ -865,7 +865,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.stale':
     'Το Dawarich δεν απάντησε: {reason} Εμφανίζονται οι στάσεις του τελευταίου συγχρονισμού στις {date}.',
   'journey.dayImport.staleNever':
-    'Το Dawarich δεν απάντησε: {reason} Εμφανίζονται οι στάσεις που ήδη γνωρίζει το TREK.',
+    'Το Dawarich δεν απάντησε: {reason} Εμφανίζονται οι στάσεις που ήδη γνωρίζει το Manzil.',
   'journey.dayImport.truncated': 'Το Dawarich έστειλε μόνο μέρος αυτής της ημέρας. Μπορεί να λείπουν στάσεις.',
   'journey.dayImport.empty': 'Το Dawarich δεν βρήκε στάσεις αυτή την ημέρα.',
   'journey.prep.lastSuccess': 'Τελευταία λήψη {time}.',

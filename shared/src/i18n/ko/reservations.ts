@@ -143,7 +143,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': '지도에 있음',
   'reservations.import.pinMissingTitle': '아직 지도에 없음',
   'reservations.import.pinMissingBody':
-    'TREK이 지도에서 이 숙소를 찾지 못했습니다. 위의 이름과 주소를 확인하고 다시 검색하거나, 핀 없이 저장하세요.',
+    'Manzil이 지도에서 이 숙소를 찾지 못했습니다. 위의 이름과 주소를 확인하고 다시 검색하거나, 핀 없이 저장하세요.',
   'reservations.import.pinRetry': '다시 검색',
   'reservations.import.savedWithoutPin':
     '지도 핀 없이 저장했습니다. 지도에 표시하려면 장소를 편집해 위치를 설정하세요.',
@@ -264,7 +264,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': '파일에서 보기',
   'reservations.filesNeedConnection':
     '파일을 업로드하려면 연결이 필요합니다. 오프라인으로 예약을 저장하려면 새 파일을 제거하거나, 다시 온라인이 되면 저장하세요.',
-  'reservations.needsConnection': '연결이 필요한 작업입니다. TREK가 다시 온라인이 되면 다시 시도하세요.',
+  'reservations.needsConnection': '연결이 필요한 작업입니다. Manzil가 다시 온라인이 되면 다시 시도하세요.',
   'reservations.exportCsvFiltered': '표시된 {total}행 중 {shown}행 내보내기 (CSV)',
 };
 export default reservations;

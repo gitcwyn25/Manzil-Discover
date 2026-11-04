@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'A térképen',
   'reservations.import.pinMissingTitle': 'Még nincs a térképen',
   'reservations.import.pinMissingBody':
-    'A TREK nem találta meg ezt a szállást a térképen. Ellenőrizd a fenti nevet és címet, és keress újra, vagy mentsd el tű nélkül.',
+    'A Manzil nem találta meg ezt a szállást a térképen. Ellenőrizd a fenti nevet és címet, és keress újra, vagy mentsd el tű nélkül.',
   'reservations.import.pinRetry': 'Keresés újra',
   'reservations.import.savedWithoutPin':
     'Térképtű nélkül mentve. Szerkeszd a helyet, és állítsd be a pozícióját, hogy megjelenjen a térképen.',
@@ -275,7 +275,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Megjelenítés a fájlokban',
   'reservations.filesNeedConnection':
     'A fájlok feltöltéséhez kapcsolat kell. Távolítsd el az újakat, hogy offline mentsd a foglalást, vagy ments, amikor újra online vagy.',
-  'reservations.needsConnection': 'Ehhez kapcsolat kell. Próbáld újra, amint a TREK újra online lesz.',
+  'reservations.needsConnection': 'Ehhez kapcsolat kell. Próbáld újra, amint a Manzil újra online lesz.',
   'reservations.exportCsvFiltered': 'A megjelenített {shown} sor exportálása a(z) {total} közül (CSV)',
 };
 export default reservations;

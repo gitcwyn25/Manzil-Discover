@@ -179,7 +179,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Yeni yer bilgileri',
   'places.refresh.title': 'Yer bilgilerini güncelle',
   'places.refresh.intro':
-    'TREK bu yer için daha yeni bilgiler biliyor. Neyi alacağını seç, gerisi olduğu gibi kalır. Ardından yeri kaydet.',
+    'Manzil bu yer için daha yeni bilgiler biliyor. Neyi alacağını seç, gerisi olduğu gibi kalır. Ardından yeri kaydet.',
   'places.refresh.apply': 'Al',
   'places.refresh.replaces': 'Şu an kayıtlı değerin yerini alır',
   'places.refresh.empty': 'boş',

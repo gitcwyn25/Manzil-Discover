@@ -149,7 +149,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Na mape',
   'reservations.import.pinMissingTitle': 'Zatiaľ nie je na mape',
   'reservations.import.pinMissingBody':
-    'TREK toto ubytovanie na mape nenašiel. Skontrolujte názov a adresu vyššie a vyhľadajte znova, alebo ho uložte bez špendlíka.',
+    'Manzil toto ubytovanie na mape nenašiel. Skontrolujte názov a adresu vyššie a vyhľadajte znova, alebo ho uložte bez špendlíka.',
   'reservations.import.pinRetry': 'Hľadať znova',
   'reservations.import.savedWithoutPin':
     'Uložené bez špendlíka na mape. Upravte miesto a nastavte jeho polohu, aby sa zobrazilo na mape.',
@@ -281,7 +281,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Zobraziť v súboroch',
   'reservations.filesNeedConnection':
     'Súbory potrebujú na nahratie pripojenie. Odstráň nové, aby si rezerváciu uložil offline, alebo ulož, keď budeš znova online.',
-  'reservations.needsConnection': 'Na toto je potrebné pripojenie. Skús to znova, keď bude TREK opäť online.',
+  'reservations.needsConnection': 'Na toto je potrebné pripojenie. Skús to znova, keď bude Manzil opäť online.',
   'reservations.exportCsvFiltered': 'Exportovať zobrazené riadky, {shown} z {total} (CSV)',
 };
 export default reservations;

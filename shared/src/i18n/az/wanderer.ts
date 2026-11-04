@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer bağlantısı silindi',
   'wanderer.loadFailed': 'wanderer bağlantısını yükləmək mümkün olmadı',
   'wanderer.privateIp':
-    'Bu ünvan özəl şəbəkədədir. TREK ona çata bilmirsə, administrator daxili şəbəkələrə icazə verməlidir.',
+    'Bu ünvan özəl şəbəkədədir. Manzil ona çata bilmirsə, administrator daxili şəbəkələrə icazə verməlidir.',
   'wanderer.error.disabled': 'Administratorunuz turlar üçün wanderer-i aktivləşdirməyib.',
   'wanderer.error.not_connected': 'wanderer hələ qoşulmayıb.',
   'wanderer.error.invalid_url': 'Bu ünvan etibarlı wanderer URL-i deyil.',
   'wanderer.error.blocked_address':
-    'TREK bu ünvana qoşula bilməz. Öz şəbəkənizdəki instansiya üçün administrator ALLOW_INTERNAL_NETWORK=true təyin etməlidir.',
+    'Manzil bu ünvana qoşula bilməz. Öz şəbəkənizdəki instansiya üçün administrator ALLOW_INTERNAL_NETWORK=true təyin etməlidir.',
   'wanderer.error.unreachable': 'wanderer-ə çatmaq mümkün olmadı. Ünvanı və instansiyanın işlədiyini yoxlayın.',
   'wanderer.error.tls':
     'İnstansiyanın sertifikatını yoxlamaq mümkün olmadı. Özü tərəfindən imzalanmış sertifikat üçün aşağıda icazə verin.',
@@ -36,7 +36,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'Yalnız öz wanderer cığırlarınızı idxal edə bilərsiniz.',
   'wanderer.error.invalid_response': 'Cavab wanderer-dən gəlməyib. Ünvanın birbaşa wanderer-ə yönəldiyini yoxlayın.',
   'wanderer.error.no_author':
-    'wanderer cavab verdi, lakin bu API tokeninin hesabı üçün heç bir cığır müəllifi göstərmir, buna görə TREK hansı cığırların sizə aid olduğunu bilə bilmir.',
+    'wanderer cavab verdi, lakin bu API tokeninin hesabı üçün heç bir cığır müəllifi göstərmir, buna görə Manzil hansı cığırların sizə aid olduğunu bilə bilmir.',
   'wanderer.error.too_large': 'Cığır faylı 10 MB-dan böyükdür.',
   'wanderer.error.server_error': 'wanderer xəta ilə cavab verdi. Sonra yenidən cəhd edin.',
   'wanderer.error.offline': 'Oflaynsınız. wanderer-də yalnız onlayn axtarış etmək olar.',

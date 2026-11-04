@@ -22,7 +22,7 @@ const storage: TranslationStrings = {
 
   // Panel chrome
   'storage.title': 'Úložisko',
-  'storage.description': 'Kam TREK ukladá nahrané súbory, fotky a zálohy. Kým neuložíte, nič sa nezmení.',
+  'storage.description': 'Kam Manzil ukladá nahrané súbory, fotky a zálohy. Kým neuložíte, nič sa nezmení.',
   'storage.loading': 'Načítava sa…',
   'storage.saved': 'Konfigurácia úložiska uložená',
   'storage.save': 'Uložiť zmeny',
@@ -78,7 +78,7 @@ const storage: TranslationStrings = {
   'storage.category.avatars': 'Profilové fotky',
   'storage.category.places': 'Obrázky miest',
   'storage.category.photos-google': 'Vyrovnávacia pamäť fotiek Google',
-  'storage.category.photos-trek': 'Vyrovnávacia pamäť fotiek TREK',
+  'storage.category.photos-trek': 'Vyrovnávacia pamäť fotiek Manzil',
   'storage.category.backups': 'Zálohy',
 
   // What each category stores — rendered under the label in the category map.
@@ -91,7 +91,7 @@ const storage: TranslationStrings = {
   'storage.categoryDesc.photos-google':
     'Uložené kópie fotiek z Google Places — dajú sa znovu načítať, ich strata je bezpečná.',
   'storage.categoryDesc.photos-trek':
-    'Fotky uložené vo vyrovnávacej pamäti zo služby fotiek TREK používanej funkciou Spomienky — dajú sa znovu načítať, ich strata je bezpečná.',
+    'Fotky uložené vo vyrovnávacej pamäti zo služby fotiek Manzil používanej funkciou Spomienky — dajú sa znovu načítať, ich strata je bezpečná.',
   'storage.categoryDesc.backups': 'Archívy záloh servera vytvorené panelom Zálohy alebo plánovačom.',
 
   // Health strip

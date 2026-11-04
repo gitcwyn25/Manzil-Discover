@@ -168,7 +168,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Data tempat baru',
   'places.refresh.title': 'Perbarui data tempat',
   'places.refresh.intro':
-    'TREK mengetahui data yang lebih baru untuk tempat ini. Pilih yang ingin diambil; sisanya tetap. Simpan tempat setelahnya.',
+    'Manzil mengetahui data yang lebih baru untuk tempat ini. Pilih yang ingin diambil; sisanya tetap. Simpan tempat setelahnya.',
   'places.refresh.apply': 'Ambil',
   'places.refresh.replaces': 'Menggantikan nilai yang tersimpan',
   'places.refresh.empty': 'kosong',

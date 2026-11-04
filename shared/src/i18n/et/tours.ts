@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Lisa päevale',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX-import',
-  'tours.badge.planned': 'Planeeritud rakenduses TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'Planeeritud rakenduses Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'Kasuta ettevaatlikult',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'See retk on sellel päeval juba olemas.',
   'tours.conversion.title': 'Muudetav versioon',
   'tours.conversion.intro':
-    'Import on salvestatud rada. Planeeri muudetav versioon: TREK võtab sellest kontrollpunktid, arvutab nende kaudu marsruudi uuesti ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
+    'Import on salvestatud rada. Planeeri muudetav versioon: Manzil võtab sellest kontrollpunktid, arvutab nende kaudu marsruudi uuesti ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
   'tours.conversion.replace': 'Asenda import',
   'tours.conversion.replaceHint':
     'Planeerib selle retke samas kohas uuesti: selle päevad ja märkmed jäävad alles ning salvestatud rada säilitatakse, et saaksid selle juurde tagasi minna.',
@@ -125,7 +125,7 @@ const tours: TranslationStrings = {
   'tours.planner.addPoint': 'Lisa punkt',
   'tours.planner.addPointActive': 'Klõpsa kaardil',
   'tours.planner.emptyHint':
-    'Lülita sisse „Lisa punkt“ ja klõpsa kaardil. Alates kahest punktist arvutab TREK marsruudi.',
+    'Lülita sisse „Lisa punkt“ ja klõpsa kaardil. Alates kahest punktist arvutab Manzil marsruudi.',
   'tours.planner.walkingEstimated': 'Hinnanguline kõndimisaeg',
   'tours.planner.walkingEstimatedShort': 'Hinn. kõndimisaeg',
   'tours.planner.walkingEstimatedInfoLabel': 'Kuidas kõndimisaega hinnatakse',
@@ -314,7 +314,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Impordi jalutuskäik Google Mapsist',
   'tours.walkImport.title': 'Jalutuskäik Google Mapsi lingist',
   'tours.walkImport.intro':
-    'Jaga Google Mapsis jalgsimarsruuti ja kleebi selle link siia. TREK loeb peatused ja planeerib jalgsitee nende vahel ise.',
+    'Jaga Google Mapsis jalgsimarsruuti ja kleebi selle link siia. Manzil loeb peatused ja planeerib jalgsitee nende vahel ise.',
   'tours.walkImport.urlLabel': 'Link jalgsimarsruudile',
   'tours.walkImport.urlHint': 'Lühilink maps.app.goo.gl või marsruudi aadress lehel google.com/maps.',
   'tours.walkImport.read': 'Loe linki',
@@ -324,14 +324,14 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Google Mapsist',
   'tours.walkImport.openSource': 'Ava Google Mapsis',
   'tours.walkImport.recalculated':
-    'TREK planeerib tee peatuste vahel uuesti; Google Mapsis joonistatud joont üle ei võeta.',
+    'Manzil planeerib tee peatuste vahel uuesti; Google Mapsis joonistatud joont üle ei võeta.',
   'tours.walkImport.noPosition': 'Lingis pole asukohta',
   'tours.walkImport.unresolved': '{count} peatusel pole lingis asukohta ja need jäetakse välja.',
   'tours.walkImport.unresolved.one': '{count} peatusel pole lingis asukohta ja see jäetakse välja.',
   'tours.walkImport.tooFewPositions': 'Jalutuskäiguks on vaja vähemalt kahte asukohaga peatust.',
   'tours.walkImport.replacesDraft': 'Jalutuskäigu laadimine asendab planeerija salvestamata muudatused.',
   'tours.walkImport.defaultName': 'Jalutuskäik Google Mapsist',
-  'tours.walkImport.draftNotice': 'Google Mapsi jalgsimarsruudist. Tee peatuste vahel planeeris TREK ise.',
+  'tours.walkImport.draftNotice': 'Google Mapsi jalgsimarsruudist. Tee peatuste vahel planeeris Manzil ise.',
   'tours.walkImport.offline': 'Lingi lugemiseks on vaja ühendust.',
   'tours.walkImport.failed': 'Linki ei õnnestunud praegu lugeda. Proovi hetke pärast uuesti.',
   'tours.walkImport.refusal.not_google_maps':
@@ -502,7 +502,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Kaardiandmed seisuga {build}',
   'tours.ski.summary.saved': 'Näidatud nagu salvestatud. Uuesti planeerimiseks liiguta punkti või muuda valikut.',
   'tours.ski.chooseTechnique': 'Vali tehnika või Teadmata.',
-  'tours.ski.infoLabel': 'Mida TREK suusamatkade ja -radadega teeb',
+  'tours.ski.infoLabel': 'Mida Manzil suusamatkade ja -radadega teeb',
   'tours.ski.info':
     'Planeeritud matk järgib OpenStreetMapi nõlvu, tõstukeid ja radu seal, kuhu nõlvaandmed ulatuvad, mujal ühendab oma punkte otse. Imporditud rada jääb nii, nagu see salvestati. Kõrgused tulevad nõlvaandmetest, maastikust või failist. Miski siin, ka mitte 3D kaldevärvid, ei ütle midagi lume, laviinide ega selle kohta, kas nõlvad, tõstukid ja rajad on avatud.',
   'tours.ski.time': 'Suusaaeg',
@@ -907,7 +907,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Marsruudi järgmine lõik uuesti',
   'tours.planner.freeLegBadge': 'Käsitsi joonistatud, marsruutimata',
   'tours.planner.freeLegInfo':
-    'TREK ühendab need kaks punkti sirgjoonega. Ükski marsruudiplaneerija ei ole seda lõiku planeerinud ega kontrollinud.',
+    'Manzil ühendab need kaks punkti sirgjoonega. Ükski marsruudiplaneerija ei ole seda lõiku planeerinud ega kontrollinud.',
   'tours.map.seamarks': 'Navigatsioonimärgid',
   'tours.map.seamarksDown': 'Navigatsioonimärgid ei laadi. Kaart ja sinu marsruut töötavad edasi.',
   'tours.map.pistes': 'Nõlvad, suusarajad ja tõstukid',
@@ -956,9 +956,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': 'Impordi {count} matka',
   'tours.import.previewConfirm.one': 'Impordi {count} matk',
   'tours.conversion.introPaddle':
-    'Import on salvestatud rada. Planeeri muudetav aerutamismatk: TREK võtab sellest kontrollpunktid, ühendab need sirgjoontega, nagu aerutamismatk joonistatakse, ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
+    'Import on salvestatud rada. Planeeri muudetav aerutamismatk: Manzil võtab sellest kontrollpunktid, ühendab need sirgjoontega, nagu aerutamismatk joonistatakse, ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
   'tours.conversion.introSki':
-    'Import on salvestatud rada. Planeeri muudetav suusamatk: TREK võtab sellest kontrollpunktid, ühendab need sirgjoontega, nagu suusamatk joonistatakse, ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
+    'Import on salvestatud rada. Planeeri muudetav suusamatk: Manzil võtab sellest kontrollpunktid, ühendab need sirgjoontega, nagu suusamatk joonistatakse, ja näitab, kui lähedale see jõuab. Midagi ei muutu enne, kui sa valid.',
   'tours.conversion.closePaddle':
     'Ettepanek järgib rada täpselt. Selle punktid on ühendatud sirgjoontega, seega pole see sama joon.',
   'tours.planner.moreActions': 'Rohkem toiminguid',
@@ -990,7 +990,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Ümber kantud, arvesse läheb ülekanne',
   'tours.paddle.time.title': 'Ajahinnang',
   'tours.paddle.time.assumptionInfo':
-    'TREK alustab väärtustega 4 km/h vee peal, 2 km/h kandes ja 10 minutit iga ülekande juures väljumiseks ja tagasi vette minekuks. Need on lähteväärtused, mida kohandada, mitte normid ega mõõtmised. Lüüsiajad on ainult need, mille ise sisestad.',
+    'Manzil alustab väärtustega 4 km/h vee peal, 2 km/h kandes ja 10 minutit iga ülekande juures väljumiseks ja tagasi vette minekuks. Need on lähteväärtused, mida kohandada, mitte normid ega mõõtmised. Lüüsiajad on ainult need, mille ise sisestad.',
   'tours.paddle.time.water': 'Vee peal',
   'tours.paddle.time.carry': 'Kandmine',
   'tours.paddle.time.carrySpeed': 'Kandmiskiirus',
@@ -1070,7 +1070,7 @@ const tours: TranslationStrings = {
     'Takistuste andmed katavad ainult osa marsruudist (seisuga {date}). Kontrolli ülejäänut ise.',
   'tours.paddle.obstacles.none':
     'Selle piirkonna kohta pole takistuste andmeid. Kontrolli siin paise, lüüse ja ülekandekohti ise.',
-  'tours.paddle.obstacles.offline': 'Võrguühenduseta ei laadi TREK takistuste andmeid. Kontrolli veekogu ise.',
+  'tours.paddle.obstacles.offline': 'Võrguühenduseta ei laadi Manzil takistuste andmeid. Kontrolli veekogu ise.',
   'tours.paddle.obstacles.error': 'Takistuste andmeid ei õnnestunud laadida. Kontrolli veekogu ise.',
   'tours.paddle.obstacle.kind.weir': 'Pais',
   'tours.paddle.obstacle.kind.dam': 'Tamm',
@@ -1085,7 +1085,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Ülekandekoht',
   'tours.paddle.obstacle.kind.access': 'Aerutamisreegel',
   'tours.paddle.obstacles.truncated':
-    'TREK näitab siin ainult osa objektidest, piirkonnas on neid rohkem. Kontrolli veekogu ise.',
+    'Manzil näitab siin ainult osa objektidest, piirkonnas on neid rohkem. Kontrolli veekogu ise.',
   'tours.paddle.obstacles.dateUnknown': 'teadmata kuupäev',
   'tours.paddle.obstacleCard.onRoute': 'Marsruudil kaugusel',
   'tours.paddle.obstacleCard.near': 'Marsruudi lähedal',
@@ -1169,7 +1169,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Ohutus vee peal',
   'tours.paddle.safety.short': 'Aerutamisega kaasnevad riskid. Kontrolli ise veekogu, reegleid ja ilma.',
   'tours.paddle.safety.text':
-    'Aerutamisega kaasnevad riskid. Kaardid, marsruudisoovitused ja märkused võivad olla puudulikud või aegunud. Kontrolli enne matka praeguseid kohalikke olusid, veekogu kasutamise reegleid ja ilma. Rakenda sobivaid ohutusmeetmeid. TREK toetab sinu planeerimist, kuid ei asenda sinu enda kontrolli ega vastutustundlikku otsust.',
+    'Aerutamisega kaasnevad riskid. Kaardid, marsruudisoovitused ja märkused võivad olla puudulikud või aegunud. Kontrolli enne matka praeguseid kohalikke olusid, veekogu kasutamise reegleid ja ilma. Rakenda sobivaid ohutusmeetmeid. Manzil toetab sinu planeerimist, kuid ei asenda sinu enda kontrolli ega vastutustundlikku otsust.',
   'tours.planner.shapingPoint': 'Kujunduspunkt',
   'tours.planner.shapingHint': 'Suunab marsruuti, ilma et oleks peatus. Lohista see sinna, kust marsruut peab minema.',
   'tours.planner.makeStop': 'Tee peatuseks',
@@ -1222,7 +1222,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Planeeri käsitsi joonistatud lõigud vett mööda',
   'tours.paddle.auto': 'Leitud',
   'tours.paddle.autoHint':
-    'TREK pani selle punkti teel leitud ülevedamiskohta või lüüsi juurde. Kui liigutad või muudad seda, on see sinu oma.',
+    'Manzil pani selle punkti teel leitud ülevedamiskohta või lüüsi juurde. Kui liigutad või muudad seda, on see sinu oma.',
   'tours.paddle.note.rapids': 'Kärestik {grade}',
   'tours.paddle.note.pass': 'Paadirenn',
   'tours.paddle.note.gap': 'Lünk kaardiandmetes',
@@ -1234,7 +1234,7 @@ const tours: TranslationStrings = {
   'tours.paddle.failed.no_region': 'Selle piirkonna veeandmeid veel pole. Administraator saab piirkonna lisada.',
   'tours.paddle.failed.building':
     'Selle piirkonna veeandmeid alles valmistatakse ette. Proovi mõne minuti pärast uuesti.',
-  'tours.paddle.failed.no_water_path': 'TREK ei leidnud nende punktide vahel teed vett mööda.',
+  'tours.paddle.failed.no_water_path': 'Manzil ei leidnud nende punktide vahel teed vett mööda.',
   'tours.paddle.failed.cross_region': 'Need punktid asuvad kahes piirkonnas, millel pole ühiseid veeandmeid.',
   'tours.paddle.failed.busy': 'Marsruudiplaneerija on hõivatud. Proovi kohe uuesti.',
   'tours.paddle.failed.timeout': 'Selle lõigu planeerimine võttis liiga kaua. Lisa vahele punkt ja proovi uuesti.',
@@ -1250,8 +1250,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Lugemine',
   'tours.paddle.load.phase.build': 'Veevõrgu ehitamine',
   'tours.paddle.load.hint': 'Tavaliselt üks kuni kolm minutit. Kavanda rahulikult edasi, lõik kavandatakse pärast ise.',
-  'tours.paddle.load.reason.tooLarge': 'Piirkond on suurem, kui TREK ise laadib.',
-  'tours.paddle.load.reason.limit': 'TREK on täna juba piisavalt piirkondi ise laadinud.',
+  'tours.paddle.load.reason.tooLarge': 'Piirkond on suurem, kui Manzil ise laadib.',
+  'tours.paddle.load.reason.limit': 'Manzil on täna juba piisavalt piirkondi ise laadinud.',
   'tours.paddle.load.declined': 'Admin lükkas piirkonna {region} veeandmed tagasi.',
   'tours.paddle.load.failed': 'Piirkonna {region} veeandmeid ei õnnestunud laadida.',
   'tours.paddle.load.noWater': 'Piirkonna {region} veeandmetes pole siin vett. Pane punkt jõele või järvele.',
@@ -1276,7 +1276,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Ratsutamisaeg',
   'tours.horse.timeInfoLabel': 'Miks ratsutamisaega pole',
   'tours.horse.timeInfo':
-    'TREK ratsutamisaega ei arvuta: tempo sõltub hobusest ja ratsanikust. Soovi korral sisesta kavandatud koguaeg ise.',
+    'Manzil ratsutamisaega ei arvuta: tempo sõltub hobusest ja ratsanikust. Soovi korral sisesta kavandatud koguaeg ise.',
   'tours.horse.routes.title': 'Ratsarajad',
   'tours.horse.routes.infoLabel': 'Ratsaradadest',
   'tours.horse.routes.info':
@@ -1332,7 +1332,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecorded': 'Nagu salvestatud',
   'tours.horse.recorded.asRecordedInfo': 'Joon jääb selliseks, nagu fail selle salvestas. Midagi ei planeerita uuesti.',
   'tours.horse.recorded.noTime': 'Ratsutamisaega pole',
-  'tours.horse.recorded.noTimeInfo': 'TREK ei arvuta ratsamatkale ratsutamisaega: tempo määravad hobune ja ratsanik.',
+  'tours.horse.recorded.noTimeInfo': 'Manzil ei arvuta ratsamatkale ratsutamisaega: tempo määravad hobune ja ratsanik.',
   'tours.horse.recorded.accessUnchecked': 'Ligipääs kontrollimata',
   'tours.horse.recorded.accessUncheckedInfo':
     'Import ei kontrolli, kas teedel tohib ratsutada. Kohapeal kehtivad sildid.',
@@ -1484,7 +1484,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Salvestada pole veel midagi. Muuda kõigepealt retke.',
   'tours.detail.openInTours': 'Ava vahekaardil Retked',
   'tours.planner.status.routingGeneric': 'Marsruudi arvutamine…',
-  'tours.planner.emptyHintPlacing': 'Klõpsa kaardil, et punkte määrata. Kahest punktist alates arvutab TREK marsruudi.',
+  'tours.planner.emptyHintPlacing': 'Klõpsa kaardil, et punkte määrata. Kahest punktist alates arvutab Manzil marsruudi.',
   'tours.ski.drawStraight': 'Joonista sirgelt',
   'tours.horse.routes.stale': 'Loend näitab vaadet, mida otsisid. Otsi selle jaoks uuesti.',
   'tours.horse.dialog.adoptGapHint':

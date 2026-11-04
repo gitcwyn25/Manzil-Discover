@@ -394,7 +394,7 @@ export class RoadtripRouterService {
   private async fetchPayload(url: string, body: unknown, timeoutMs: number): Promise<unknown> {
     const response = await safeFetchAdminConfigured(url, {
       signal: AbortSignal.timeout(timeoutMs),
-      headers: { 'User-Agent': 'TREK Roadtrip', 'Content-Type': 'application/json', 'X-Client-Id': 'trek' },
+      headers: { 'User-Agent': 'Manzil Roadtrip', 'Content-Type': 'application/json', 'X-Client-Id': 'trek' },
       ...(body ? { method: 'POST', body: JSON.stringify(body) } : {}),
     });
     if (!response.ok) {
@@ -433,7 +433,7 @@ export class RoadtripRouterService {
       throw err;
     });
     if (answer && !relayCannotAnswer(answer.status)) return payloadOf(answer);
-    if (!publicFallback) throw new Error('The TREK routing service cannot answer');
+    if (!publicFallback) throw new Error('The Manzil routing service cannot answer');
     if (locationCount(body) > FOSSGIS_MAX_LOCATIONS) throw new TooManyForFossgis();
     return this.request(`${FOSSGIS_VALHALLA}/${action}`, body, timeoutMs);
   }

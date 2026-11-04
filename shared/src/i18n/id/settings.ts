@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     'Valhalla milik Anda sendiri, ditanyakan saat layanan perutean di atas diatur ke sana atau ke Otomatis. Jika hanya instans perutean sendiri yang dikonfigurasi dan tidak ada layanan perutean yang dipilih, tidak ada Valhalla yang ditanyakan. Setelah memasukkan URL, mulai ulang server dan muat ulang halaman.',
   'settings.valhallaProvider': 'Layanan perutean',
   'settings.valhallaProviderHint':
-    'Dengan layanan TREK atau Valhalla sendiri, Valhalla menghitung semua rute: hari dan perjalanan darat dengan berjalan kaki, bersepeda, dan bermobil, rute tanpa tol, jalan bebas hambatan, atau feri, serta rute, ketinggian, dan jalur tur. Jika tidak dapat menjawab, OSRM menghitung hari itu sebagai gantinya. Layanan TREK ditanyakan melalui server ini. Dengan Valhalla publik FOSSGIS, OSRM menghitung rute dan Valhalla hanya menjawab apa yang tidak bisa dilakukan OSRM. Otomatis menanyakan layanan TREK, kecuali Valhalla sendiri atau hanya instans perutean sendiri yang diatur.',
+    'Dengan layanan Manzil atau Valhalla sendiri, Valhalla menghitung semua rute: hari dan perjalanan darat dengan berjalan kaki, bersepeda, dan bermobil, rute tanpa tol, jalan bebas hambatan, atau feri, serta rute, ketinggian, dan jalur tur. Jika tidak dapat menjawab, OSRM menghitung hari itu sebagai gantinya. Layanan Manzil ditanyakan melalui server ini. Dengan Valhalla publik FOSSGIS, OSRM menghitung rute dan Valhalla hanya menjawab apa yang tidak bisa dilakukan OSRM. Otomatis menanyakan layanan Manzil, kecuali Valhalla sendiri atau hanya instans perutean sendiri yang diatur.',
   'settings.valhallaProviderOption.auto': 'Otomatis',
-  'settings.valhallaProviderOption.trek': 'Layanan TREK',
+  'settings.valhallaProviderOption.trek': 'Layanan Manzil',
   'settings.valhallaProviderOption.fossgis': 'Valhalla publik (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Instans Valhalla sendiri',
   'settings.mapHint': 'Template URL untuk tile peta',
@@ -51,7 +51,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'Peta dasar CARTO menampilkan tanda air tanpa kunci. Gratis, tanpa akun, dari',
   'settings.mapCartoKeyLink': 'kunci API peta dasar carto.com',
   'settings.mapCartoKeyMissing':
-    'Templat ini adalah peta dasar CARTO. Tanpa kunci, CARTO mencetak "API KEY REQUIRED" di setiap ubin. Sampai kunci dimasukkan, TREK menampilkan peta dasar bawaan.',
+    'Templat ini adalah peta dasar CARTO. Tanpa kunci, CARTO mencetak "API KEY REQUIRED" di setiap ubin. Sampai kunci dimasukkan, Manzil menampilkan peta dasar bawaan.',
   'settings.mapStyle': 'Gaya peta',
   'settings.mapStylePlaceholder': 'Pilih gaya Mapbox',
   'settings.mapStyleHint': 'Preset atau URL mapbox://styles/USER/ID milikmu',
@@ -130,16 +130,16 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Notifikasi push di perangkat ini',
   'settings.webPush.hint':
-    'Menampilkan notifikasi TREK di perangkat ini meskipun TREK sedang ditutup. Peristiwa yang dikirim mengikuti kolom Push.',
+    'Menampilkan notifikasi Manzil di perangkat ini meskipun Manzil sedang ditutup. Peristiwa yang dikirim mengikuti kolom Push.',
   'settings.webPush.enable': 'Aktifkan untuk perangkat ini',
   'settings.webPush.disable': 'Nonaktifkan untuk perangkat ini',
   'settings.webPush.enabled': 'Aktif untuk perangkat ini',
   'settings.webPush.unsupported': 'Browser ini tidak dapat menerima notifikasi push.',
-  'settings.webPush.insecure': 'Push memerlukan TREK dibuka melalui HTTPS.',
+  'settings.webPush.insecure': 'Push memerlukan Manzil dibuka melalui HTTPS.',
   'settings.webPush.iosInstall':
-    'Di iPhone dan iPad, tambahkan TREK ke Layar Utama terlebih dahulu, lalu buka dari sana.',
+    'Di iPhone dan iPad, tambahkan Manzil ke Layar Utama terlebih dahulu, lalu buka dari sana.',
   'settings.webPush.denied':
-    'Notifikasi untuk TREK diblokir di browser ini. Izinkan di pengaturan browser, lalu coba lagi.',
+    'Notifikasi untuk Manzil diblokir di browser ini. Izinkan di pengaturan browser, lalu coba lagi.',
   'settings.webPush.failed': 'Push tidak dapat diaktifkan untuk perangkat ini.',
   'settings.notificationPreferences.noChannels':
     'Belum ada saluran notifikasi yang dikonfigurasi. Minta admin untuk mengatur notifikasi email atau webhook.',
@@ -263,19 +263,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Sarankan fitur baru',
   'settings.about.wikiHint': 'Dokumentasi & panduan',
   'settings.about.sponsor.eyebrow': 'Infrastruktur bersponsor',
-  'settings.about.sponsor.title': 'Server milik TREK sendiri berjalan di dataforest cloud',
+  'settings.about.sponsor.title': 'Server milik Manzil sendiri berjalan di dataforest cloud',
   'settings.about.sponsor.body':
-    'Pencarian tempat, pencarian alamat, dan perutean berasal dari server milik TREK sendiri, bukan dari Google dan sejenisnya, dan dataforest cloud mensponsori mesin tempat server itu berjalan.',
+    'Pencarian tempat, pencarian alamat, dan perutean berasal dari server milik Manzil sendiri, bukan dari Google dan sejenisnya, dan dataforest cloud mensponsori mesin tempat server itu berjalan.',
   'settings.about.sponsor.cta': 'Kunjungi dataforest cloud',
   'settings.about.sponsor.search': 'Pencarian tempat',
   'settings.about.sponsor.address': 'Pencarian alamat',
   'settings.about.sponsor.routing': 'Perutean',
   'settings.about.descriptionManaged':
-    'TREK membantumu mengatur perjalanan dari ide pertama sampai kenangan terakhir. Perencanaan harian, anggaran, daftar bawaan, foto, dan banyak lagi, semua di satu tempat.',
+    'Manzil membantumu mengatur perjalanan dari ide pertama sampai kenangan terakhir. Perencanaan harian, anggaran, daftar bawaan, foto, dan banyak lagi, semua di satu tempat.',
   'settings.about.sourceTitle': 'Kode sumber',
   'settings.about.sourceHint': 'TREK bersumber terbuka, berlisensi AGPL-3.0',
   'settings.about.supporters.badge': 'Pendukung Bulanan',
-  'settings.about.supporters.title': 'Rekan perjalanan untuk TREK',
+  'settings.about.supporters.title': 'Rekan perjalanan untuk Manzil',
   'settings.about.supporters.subtitle':
     'Saat kamu merencanakan rute berikutnya, orang-orang ini ikut merencanakan masa depan TREK. Kontribusi bulanan mereka langsung masuk ke pengembangan dan jam kerja nyata — supaya TREK tetap Open Source.',
   'settings.about.supporters.since': 'pendukung sejak {date}',
@@ -286,7 +286,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Pelancong Hemat',
   'settings.about.supporter.tier.hostelBunkmate': 'Teman Ranjang Susun Hostel',
   'settings.about.description':
-    'TREK adalah perencana perjalanan self-hosted yang membantu kamu mengatur perjalanan dari ide pertama hingga kenangan terakhir. Perencanaan harian, anggaran, daftar bawaan, foto dan masih banyak lagi — semua di satu tempat, di servermu sendiri.',
+    'Manzil adalah perencana perjalanan self-hosted yang membantu kamu mengatur perjalanan dari ide pertama hingga kenangan terakhir. Perencanaan harian, anggaran, daftar bawaan, foto dan masih banyak lagi — semua di satu tempat, di servermu sendiri.',
   'settings.about.madeWith': 'Dibuat dengan',
   'settings.about.madeBy': 'oleh Maurice dan komunitas open-source yang terus berkembang.',
   'settings.username': 'Nama pengguna',
@@ -408,7 +408,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Aktifkan hanya untuk instans tepercaya di jaringanmu sendiri.',
   'settings.airtrail.writeBack': 'Tulis perubahan kembali ke AirTrail',
   'settings.airtrail.writeBackHint':
-    'Nonaktif secara bawaan: AirTrail adalah sumber kebenaran dan TREK hanya membaca darinya. Aktifkan untuk mengirim perubahan yang dibuat di TREK kembali ke AirTrail.',
+    'Nonaktif secara bawaan: AirTrail adalah sumber kebenaran dan Manzil hanya membaca darinya. Aktifkan untuk mengirim perubahan yang dibuat di Manzil kembali ke AirTrail.',
   'settings.airtrail.connected': 'Terhubung',
   'settings.airtrail.notConnected': 'Tidak terhubung',
   'settings.airtrail.toast.saved': 'Koneksi AirTrail disimpan',
@@ -528,7 +528,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Dasbor',
   'settings.startPageActiveTrip': 'Perjalanan aktif',
   'settings.startPageHint':
-    'TREK langsung membuka perjalanan yang sedang berlangsung, atau yang paling dekat akan dimulai. Perjalanan yang sama yang disorot dasbor.',
+    'Manzil langsung membuka perjalanan yang sedang berlangsung, atau yang paling dekat akan dimulai. Perjalanan yang sama yang disorot dasbor.',
   'settings.startTripTab': 'Tab awal',
   'settings.startTripTabHint':
     'Tab yang dibuka bersama perjalanan. Jika tab itu milik addon yang dimatikan, tampilan rencana yang dibuka.',

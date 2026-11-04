@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Sedang masuk…',
   'login.signIn': 'Masuk',
   'login.createAdmin': 'Buat Akun Admin',
-  'login.createAdminHint': 'Siapkan akun admin pertama untuk TREK.',
+  'login.createAdminHint': 'Siapkan akun admin pertama untuk Manzil.',
   'login.setNewPassword': 'Atur Kata Sandi Baru',
   'login.setNewPasswordHint': 'Kamu harus mengganti kata sandi sebelum melanjutkan.',
   'login.createAccount': 'Buat Akun',
@@ -74,7 +74,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Masuk dengan passkey gagal. Silakan coba lagi.',
   'login.insecureCookie.title': 'Login tidak akan bertahan lewat HTTP',
   'login.insecureCookie.body':
-    'Kamu terhubung lewat HTTP biasa, sehingga browser membuang cookie sesi aman milik TREK, dan permintaan berikutnya gagal dengan "Access token required". Solusi: gunakan HTTPS, atau untuk home-lab setel COOKIE_SECURE=false.',
+    'Kamu terhubung lewat HTTP biasa, sehingga browser membuang cookie sesi aman milik Manzil, dan permintaan berikutnya gagal dengan "Access token required". Solusi: gunakan HTTPS, atau untuk home-lab setel COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Buka panduan pemecahan masalah',
 };
 export default login;

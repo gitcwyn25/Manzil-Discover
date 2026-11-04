@@ -91,7 +91,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved.few': '{count} zastávky nešlo umístit',
   'assistant.card.roadtrip.dayRoute.after': 'Po {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Sleduje {name}',
-  'assistant.card.roadtrip.dayRoute.sketch': 'Zatím rovné čáry; TREK spočítá silnici, jakmile se změna použije.',
+  'assistant.card.roadtrip.dayRoute.sketch': 'Zatím rovné čáry; Manzil spočítá silnici, jakmile se změna použije.',
   'assistant.card.roadtrip.dayEnd.at': 'Den končí v místě {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Den končí po {percent} % jízdy za místem {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'Den opět končí automaticky',

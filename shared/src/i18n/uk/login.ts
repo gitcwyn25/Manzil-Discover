@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Вхід…',
   'login.signIn': 'Увійти',
   'login.createAdmin': 'Створити акаунт адміністратора',
-  'login.createAdminHint': 'Налаштуйте перший акаунт адміністратора для TREK.',
+  'login.createAdminHint': 'Налаштуйте перший акаунт адміністратора для Manzil.',
   'login.setNewPassword': 'Встановити новий пароль',
   'login.setNewPasswordHint': 'Ви повинні змінити пароль, перш ніж продовжити.',
   'login.createAccount': 'Створити акаунт',
@@ -76,7 +76,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Не вдалося увійти за допомогою passkey. Спробуйте ще раз.',
   'login.insecureCookie.title': 'Вхід не збережеться через HTTP',
   'login.insecureCookie.body':
-    'Ти підключаєшся через звичайний HTTP, тому браузер відкидає захищений сеансовий cookie TREK, і наступний запит завершується помилкою «Access token required». Рішення: використай HTTPS або, для домашньої лабораторії, встанови COOKIE_SECURE=false.',
+    'Ти підключаєшся через звичайний HTTP, тому браузер відкидає захищений сеансовий cookie Manzil, і наступний запит завершується помилкою «Access token required». Рішення: використай HTTPS або, для домашньої лабораторії, встанови COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Відкрити посібник з усунення несправностей',
 };
 export default login;

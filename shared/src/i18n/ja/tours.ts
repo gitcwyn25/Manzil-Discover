@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': '日程に追加',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPXインポート',
-  'tours.badge.planned': 'TREKで計画',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'Manzilで計画',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': '利用時は注意',
@@ -36,7 +36,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'このツアーはすでにその日に入っています。',
   'tours.conversion.title': '編集可能なバージョン',
   'tours.conversion.intro':
-    'インポートしたものは記録されたトラックです。編集可能なバージョンを計画すると、TREKがそこからコントロールポイントを取り出し、ルートを引き直して、どこまで近づけるかを表示します。選ぶまでは何も変わりません。',
+    'インポートしたものは記録されたトラックです。編集可能なバージョンを計画すると、Manzilがそこからコントロールポイントを取り出し、ルートを引き直して、どこまで近づけるかを表示します。選ぶまでは何も変わりません。',
   'tours.conversion.replace': 'インポートを置き換え',
   'tours.conversion.replaceHint':
     'このツアーをその場で計画し直します。日程とメモはそのまま残り、記録されたトラックも保持されるので、あとで戻すことができます。',
@@ -120,7 +120,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': '安全について',
   'tours.planner.addPoint': '地点を追加',
   'tours.planner.addPointActive': '地図をクリック',
-  'tours.planner.emptyHint': '「地点を追加」をオンにして地図をクリックします。2 地点からTREKがルートを計算します。',
+  'tours.planner.emptyHint': '「地点を追加」をオンにして地図をクリックします。2 地点からManzilがルートを計算します。',
   'tours.planner.walkingEstimated': '推定歩行時間',
   'tours.planner.walkingEstimatedShort': '推定時間',
   'tours.planner.walkingEstimatedInfoLabel': '歩行時間の推定方法',
@@ -232,7 +232,7 @@ const tours: TranslationStrings = {
     'インポート時に wanderer が示した変更日です。手がかりであり、版の証明ではありません。',
   'tours.provenance.localState': 'ここ',
   'tours.provenance.plannedOver': '計画し直し済み、記録トラックは保持',
-  'tours.provenance.editedLocally': 'TREK で編集済み',
+  'tours.provenance.editedLocally': 'Manzil で編集済み',
   'tours.provenance.asImported': 'インポート時のまま',
   'tours.provenance.openSource': 'wanderer で開く',
   'tours.provenance.check': 'ソースを確認',
@@ -305,7 +305,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Google Maps から街歩きを読み込む',
   'tours.walkImport.title': 'Google Maps のリンクから街歩き',
   'tours.walkImport.intro':
-    'Google Maps で徒歩ルートを共有し、そのリンクをここに貼り付けてください。TREK が立ち寄り先を読み取り、その間の徒歩の道を自分で計画します。',
+    'Google Maps で徒歩ルートを共有し、そのリンクをここに貼り付けてください。Manzil が立ち寄り先を読み取り、その間の徒歩の道を自分で計画します。',
   'tours.walkImport.urlLabel': '徒歩ルートのリンク',
   'tours.walkImport.urlHint': 'maps.app.goo.gl の短縮リンク、または google.com/maps 上のルートのアドレス。',
   'tours.walkImport.read': 'リンクを読み取る',
@@ -315,13 +315,13 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Google Maps から',
   'tours.walkImport.openSource': 'Google Maps で開く',
   'tours.walkImport.recalculated':
-    '立ち寄り先の間の道は TREK があらためて計画します。Google Maps で描かれた線は引き継ぎません。',
+    '立ち寄り先の間の道は Manzil があらためて計画します。Google Maps で描かれた線は引き継ぎません。',
   'tours.walkImport.noPosition': 'リンクに位置がありません',
   'tours.walkImport.unresolved': '{count} 件の立ち寄り先はリンクに位置がないため、除外されます。',
   'tours.walkImport.tooFewPositions': '街歩きには位置のある立ち寄り先が少なくとも 2 件必要です。',
   'tours.walkImport.replacesDraft': '街歩きを読み込むと、プランナーの未保存の変更は置き換えられます。',
   'tours.walkImport.defaultName': 'Google Maps からの街歩き',
-  'tours.walkImport.draftNotice': 'Google Maps の徒歩ルートから。立ち寄り先の間の道は TREK が自分で計画しました。',
+  'tours.walkImport.draftNotice': 'Google Maps の徒歩ルートから。立ち寄り先の間の道は Manzil が自分で計画しました。',
   'tours.walkImport.offline': 'リンクを読み取るには接続が必要です。',
   'tours.walkImport.failed': 'いまはリンクを読み取れませんでした。少し待ってからもう一度お試しください。',
   'tours.walkImport.refusal.not_google_maps':
@@ -362,7 +362,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': 'ルートから {distance}',
   'tours.poi.along': '{distance} 地点',
   'tours.poi.source.osm': 'OpenStreetMap より',
-  'tours.poi.source.trek': 'TREK の場所インデックスより',
+  'tours.poi.source.trek': 'Manzil の場所インデックスより',
   'tours.poi.hoursHint': '情報源の記載どおりです。出発前に確認してください。',
   'tours.poi.website': 'ウェブサイト',
   'tours.poi.slot.label': '追加する位置',
@@ -492,7 +492,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': '地図データ: {build}',
   'tours.ski.summary.saved': '保存した状態で表示しています。地点を動かすかオプションを変えると再計画します。',
   'tours.ski.chooseTechnique': '走法を選ぶか、不明を選んでください。',
-  'tours.ski.infoLabel': 'TREK がスキーツアーとトラックで行うこと',
+  'tours.ski.infoLabel': 'Manzil がスキーツアーとトラックで行うこと',
   'tours.ski.info':
     '計画したツアーは、ゲレンデデータが届く範囲では OpenStreetMap のコース、リフト、トレイルに沿い、それ以外はポイント間を直線で結びます。インポートしたトラックは記録どおりに残ります。標高はゲレンデデータ、地形、またはファイルから取得します。3D の傾斜色を含め、ここにある情報は雪、雪崩、コースやリフト、トレイルの営業状況について何も示しません。',
   'tours.ski.time': 'スキー時間',
@@ -895,7 +895,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': '次の区間を再びルート計算する',
   'tours.planner.freeLegBadge': '手描き、ルート計算なし',
   'tours.planner.freeLegInfo':
-    'TREK はこの 2 点を直線で結びます。この区間はどのルート計算でも計画・確認されていません。',
+    'Manzil はこの 2 点を直線で結びます。この区間はどのルート計算でも計画・確認されていません。',
   'tours.map.seamarks': '航路標識',
   'tours.map.seamarksDown': '航路標識を読み込めません。地図とルートはそのまま使えます。',
   'tours.map.pistes': 'ゲレンデ、クロスカントリーコース、リフト',
@@ -937,9 +937,9 @@ const tours: TranslationStrings = {
   'tours.import.previewAs': '取り込む種類',
   'tours.import.previewConfirm': '{count} 件のツアーを取り込む',
   'tours.conversion.introPaddle':
-    'インポートは記録されたトラックです。編集できるパドルツアーを計画すると、TREK はそこから制御点を取り出し、パドルツアーの描き方どおり直線で結び、どれだけ近いかを示します。選ぶまで何も変わりません。',
+    'インポートは記録されたトラックです。編集できるパドルツアーを計画すると、Manzil はそこから制御点を取り出し、パドルツアーの描き方どおり直線で結び、どれだけ近いかを示します。選ぶまで何も変わりません。',
   'tours.conversion.introSki':
-    'インポートは記録されたトラックです。編集できるスキーツアーを計画すると、TREK はそこから制御点を取り出し、スキーツアーの描き方どおり直線で結び、どれだけ近いかを示します。選ぶまで何も変わりません。',
+    'インポートは記録されたトラックです。編集できるスキーツアーを計画すると、Manzil はそこから制御点を取り出し、スキーツアーの描き方どおり直線で結び、どれだけ近いかを示します。選ぶまで何も変わりません。',
   'tours.conversion.closePaddle':
     '提案はトラックによく沿っています。ポイントは直線で結ばれているため、同じ線ではありません。',
   'tours.planner.moreActions': 'その他の操作',
@@ -971,7 +971,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': '運んで迂回、陸上運搬を計上',
   'tours.paddle.time.title': '所要時間の見積もり',
   'tours.paddle.time.assumptionInfo':
-    'TREK は水上 4 km/h、運搬 2 km/h、陸上運搬ごとの上陸と再出艇に 10 分を初期値とします。これは調整するための初期値で、基準でも測定値でもありません。閘門の時間は入力した値だけが使われます。',
+    'Manzil は水上 4 km/h、運搬 2 km/h、陸上運搬ごとの上陸と再出艇に 10 分を初期値とします。これは調整するための初期値で、基準でも測定値でもありません。閘門の時間は入力した値だけが使われます。',
   'tours.paddle.time.water': '水上',
   'tours.paddle.time.carry': '運搬',
   'tours.paddle.time.carrySpeed': '運搬速度',
@@ -1048,7 +1048,7 @@ const tours: TranslationStrings = {
     '障害物データはルートの一部しかカバーしていません（データの日付：{date}）。残りは自分で確認してください。',
   'tours.paddle.obstacles.none':
     'この地域の障害物データはありません。ここでは堰、閘門、陸上運搬を自分で確認してください。',
-  'tours.paddle.obstacles.offline': '接続がないと TREK は障害物データを読み込みません。水域は自分で確認してください。',
+  'tours.paddle.obstacles.offline': '接続がないと Manzil は障害物データを読み込みません。水域は自分で確認してください。',
   'tours.paddle.obstacles.error': '障害物データを読み込めませんでした。水域は自分で確認してください。',
   'tours.paddle.obstacle.kind.weir': '堰',
   'tours.paddle.obstacle.kind.dam': 'ダム',
@@ -1063,7 +1063,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': '陸上運搬地点',
   'tours.paddle.obstacle.kind.access': '航行ルール',
   'tours.paddle.obstacles.truncated':
-    'TREK はここで対象の一部だけを表示しています。この地域にはさらにあります。水域は自分で確認してください。',
+    'Manzil はここで対象の一部だけを表示しています。この地域にはさらにあります。水域は自分で確認してください。',
   'tours.paddle.obstacles.dateUnknown': '不明',
   'tours.paddle.obstacleCard.onRoute': 'ルート上',
   'tours.paddle.obstacleCard.near': 'ルート付近',
@@ -1145,7 +1145,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': '水上での安全',
   'tours.paddle.safety.short': 'パドリングには危険が伴います。水域、ルール、天候は自分で確認してください。',
   'tours.paddle.safety.text':
-    'パドリングには危険が伴います。地図、ルートの提案、注意事項は不完全だったり古くなっていたりすることがあります。ツアーの前に、現地の最新の状況、水域の利用ルール、天候を確認してください。適切な安全対策をとってください。TREK はあなたの計画を支援するものであり、自分自身での確認と責任ある判断に代わるものではありません。',
+    'パドリングには危険が伴います。地図、ルートの提案、注意事項は不完全だったり古くなっていたりすることがあります。ツアーの前に、現地の最新の状況、水域の利用ルール、天候を確認してください。適切な安全対策をとってください。Manzil はあなたの計画を支援するものであり、自分自身での確認と責任ある判断に代わるものではありません。',
   'tours.planner.shapingPoint': '形状ポイント',
   'tours.planner.shapingHint': '停留地点にならずにルートを導きます。ルートを通したい場所へドラッグしてください。',
   'tours.planner.makeStop': '停留地点にする',
@@ -1197,7 +1197,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': '手描きの区間を水上で計画',
   'tours.paddle.auto': '検出',
   'tours.paddle.autoHint':
-    'TREK が途中で見つけたポーテージまたは閘門にこの地点を置きました。移動や変更をすると、あなたの地点になります。',
+    'Manzil が途中で見つけたポーテージまたは閘門にこの地点を置きました。移動や変更をすると、あなたの地点になります。',
   'tours.paddle.note.rapids': '急流 {grade} 級',
   'tours.paddle.note.pass': 'カヌー水路',
   'tours.paddle.note.gap': '地図データの欠落',
@@ -1205,10 +1205,10 @@ const tours: TranslationStrings = {
     'ここでルートは流れのある水域を通ります。先に下見をし、迷ったら担いで迂回してください。',
   'tours.paddle.note.gapHint': 'ここは水域データに欠落があり、直線でつないでいます。現地で確認してください。',
   'tours.paddle.failed.not_on_water':
-    'この区間の端の一方が、TREK が知る水域上にありません。川か湖の上に移動してください。',
+    'この区間の端の一方が、Manzil が知る水域上にありません。川か湖の上に移動してください。',
   'tours.paddle.failed.no_region': 'この地域の水域データはまだありません。管理者が地域を追加できます。',
   'tours.paddle.failed.building': 'この地域の水域データはまだ準備中です。数分後にもう一度お試しください。',
-  'tours.paddle.failed.no_water_path': 'TREK はこれらの地点の間に水上の経路を見つけられませんでした。',
+  'tours.paddle.failed.no_water_path': 'Manzil はこれらの地点の間に水上の経路を見つけられませんでした。',
   'tours.paddle.failed.cross_region': 'これらの地点は、水域データを共有しない 2 つの地域にあります。',
   'tours.paddle.failed.busy': 'ルートプランナーが混み合っています。少ししてからもう一度お試しください。',
   'tours.paddle.failed.timeout': 'この区間の計画に時間がかかりすぎました。間に地点を追加して、もう一度お試しください。',
@@ -1223,8 +1223,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': '読み取り中',
   'tours.paddle.load.phase.build': '水域ネットワークを構築中',
   'tours.paddle.load.hint': '通常1〜3分です。そのまま計画を続けてください。区間は後で自動的に計画されます。',
-  'tours.paddle.load.reason.tooLarge': 'この地域はTREKが自動で読み込む大きさを超えています。',
-  'tours.paddle.load.reason.limit': 'TREKは今日すでに十分な数の地域を自動で読み込みました。',
+  'tours.paddle.load.reason.tooLarge': 'この地域はManzilが自動で読み込む大きさを超えています。',
+  'tours.paddle.load.reason.limit': 'Manzilは今日すでに十分な数の地域を自動で読み込みました。',
   'tours.paddle.load.declined': '管理者が{region}の水域データを却下しました。',
   'tours.paddle.load.failed': '{region}の水域データを読み込めませんでした。',
   'tours.paddle.load.noWater': '{region}の水域データでは、ここに水域がありません。地点を川か湖の上に置いてください。',
@@ -1247,7 +1247,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': '乗馬時間',
   'tours.horse.timeInfoLabel': '乗馬時間がない理由',
   'tours.horse.timeInfo':
-    'TREK は乗馬時間を計算しません。ペースは馬と乗り手しだいです。必要なら予定の合計時間をご自身で入力してください。',
+    'Manzil は乗馬時間を計算しません。ペースは馬と乗り手しだいです。必要なら予定の合計時間をご自身で入力してください。',
   'tours.horse.routes.title': '乗馬ルート',
   'tours.horse.routes.infoLabel': '乗馬ルートについて',
   'tours.horse.routes.info':
@@ -1302,7 +1302,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecorded': '記録のまま',
   'tours.horse.recorded.asRecordedInfo': '線はファイルに記録されたままです。ルートを計算し直すことはありません。',
   'tours.horse.recorded.noTime': '乗馬時間なし',
-  'tours.horse.recorded.noTimeInfo': 'TREK は乗馬ツアーの乗馬時間を計算しません。ペースは馬と乗り手次第です。',
+  'tours.horse.recorded.noTimeInfo': 'Manzil は乗馬ツアーの乗馬時間を計算しません。ペースは馬と乗り手次第です。',
   'tours.horse.recorded.accessUnchecked': '通行可否は未確認',
   'tours.horse.recorded.accessUncheckedInfo':
     'インポートでは、道を馬で通れるかどうかを確認しません。現地の標識が優先されます。',
@@ -1450,7 +1450,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': '保存する変更はまだありません。先にツアーを変更してください。',
   'tours.detail.openInTours': 'ツアータブで開く',
   'tours.planner.status.routingGeneric': 'ルートを計算中…',
-  'tours.planner.emptyHintPlacing': '地図をクリックして地点を置きます。2 地点から TREK がルートを計算します。',
+  'tours.planner.emptyHintPlacing': '地図をクリックして地点を置きます。2 地点から Manzil がルートを計算します。',
   'tours.ski.drawStraight': '直線で描く',
   'tours.horse.routes.stale': '一覧は検索した表示範囲のものです。この範囲で再検索してください。',
   'tours.horse.dialog.adoptGapHint': '先に手動の区間でつなぐか、ライドの終点から始まる区間を選んでください。',

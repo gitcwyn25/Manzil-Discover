@@ -10,7 +10,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Barvy',
   'journey.studio.stickerSlot': 'Barva {index}',
   'journey.studio.stickerResetColours': 'Původní barvy',
-  'journey.studio.stickerMissing': 'Tato samolepka není v knihovně této verze TREK.',
+  'journey.studio.stickerMissing': 'Tato samolepka není v knihovně této verze Manzil.',
   'journey.studio.stickerFlip': 'Zrcadlit',
   'journey.studio.stickerTurnLeft': 'Otočit doleva',
   'journey.studio.stickerTurnRight': 'Otočit doprava',

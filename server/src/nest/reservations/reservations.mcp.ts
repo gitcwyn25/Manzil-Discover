@@ -481,7 +481,7 @@ export class ReservationsMcp {
 
   @Tool({
     name: 'set_reservation_travelers',
-    description: 'Set who is travelling on a booking, replacing the current list. Pass the user IDs of trip members or guests from list_trip_members; an empty array clears the list. Somebody who is not on the trip is ignored rather than added: use add_trip_member for a person with a TREK account, or create_trip_guest for one without.',
+    description: 'Set who is travelling on a booking, replacing the current list. Pass the user IDs of trip members or guests from list_trip_members; an empty array clears the list. Somebody who is not on the trip is ignored rather than added: use add_trip_member for a person with a Manzil account, or create_trip_guest for one without.',
     inputSchema: {
       tripId: idSchema,
       reservationId: idSchema,

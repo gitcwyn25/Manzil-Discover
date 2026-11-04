@@ -194,7 +194,7 @@ export class MailerService {
       ).sendMail({
         from: smtpCfg.from,
         to,
-        subject: `TREK — ${strings.subject}`,
+        subject: `Manzil — ${strings.subject}`,
         text: `${strings.greeting}, ${to}\n\n${strings.body}\n\n${strings.ctaIntro}: ${resetUrl}\n\n${strings.expiry}\n${strings.ignore}`,
         html: buildPasswordResetHtml(strings.subject, strings, to, resetUrl, lang),
         attachments: [emailLogoAttachment()],
@@ -225,7 +225,7 @@ export class MailerService {
       ).sendMail({
         from: config.from,
         to,
-        subject: `TREK — ${subject}`,
+        subject: `Manzil — ${subject}`,
         text: body,
         html: buildEmailHtml(subject, body, lang, navigateTarget),
         attachments: [emailLogoAttachment()],
@@ -260,8 +260,8 @@ export class MailerService {
       ).sendMail({
         from: config.from,
         to,
-        subject: 'TREK — Test Notification',
-        text: 'This is a test email from TREK. If you received this, your SMTP configuration is working correctly.',
+        subject: 'Manzil — Test Notification',
+        text: 'This is a test email from Manzil. If you received this, your SMTP configuration is working correctly.',
       });
       logInfo(`SMTP test email sent to=${to} ${this.describeTarget(config)}`);
       return { success: true };

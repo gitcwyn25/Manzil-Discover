@@ -373,11 +373,11 @@ function bookMoved(current: BookRecord | null): DomainError {
  * nothing here an older writer could safely take.
  */
 function newerBook(schemaRev: number): DomainError {
-  return new DomainError(409, 'Book was saved by a newer version of TREK Studio', {
+  return new DomainError(409, 'Book was saved by a newer version of Manzil Studio', {
     code: BOOK_SCHEMA_NEWER_CODE,
     details: { code: BOOK_SCHEMA_NEWER_CODE, schemaRev },
     mcpMessage:
-      'This book was saved by a newer version of TREK than this server runs. Changing it here would drop what that version added, so it stays as it is.',
+      'This book was saved by a newer version of Manzil than this server runs. Changing it here would drop what that version added, so it stays as it is.',
   });
 }
 

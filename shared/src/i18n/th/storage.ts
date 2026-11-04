@@ -23,7 +23,7 @@ const storage: TranslationStrings = {
   // Panel chrome
   'storage.title': 'ที่เก็บของ',
   'storage.description':
-    'TREK จะจัดเก็บไฟล์ รูปภาพ และข้อมูลสำรองที่อัปโหลดไว้ การเปลี่ยนแปลงจะยังไม่มีผลจนกว่าคุณจะบันทึก',
+    'Manzil จะจัดเก็บไฟล์ รูปภาพ และข้อมูลสำรองที่อัปโหลดไว้ การเปลี่ยนแปลงจะยังไม่มีผลจนกว่าคุณจะบันทึก',
   'storage.loading': 'กำลังโหลด...',
   'storage.saved': 'บันทึกการกำหนดค่าพื้นที่เก็บข้อมูลแล้ว',
   'storage.save': 'บันทึกการเปลี่ยนแปลง',
@@ -80,7 +80,7 @@ const storage: TranslationStrings = {
   'storage.category.avatars': 'รูปโปรไฟล์',
   'storage.category.places': 'วางภาพ',
   'storage.category.photos-google': 'แคชรูปภาพของ Google',
-  'storage.category.photos-trek': 'แคชภาพถ่าย TREK',
+  'storage.category.photos-trek': 'แคชภาพถ่าย Manzil',
   'storage.category.backups': 'การสำรองข้อมูล',
 
   // What each category stores — rendered under the label in the category map.
@@ -93,7 +93,7 @@ const storage: TranslationStrings = {
   'storage.categoryDesc.photos-google':
     'สำเนารูปภาพสถานที่จาก Google ที่แคชไว้ — สร้างใหม่ได้และสามารถลบได้อย่างปลอดภัย',
   'storage.categoryDesc.photos-trek':
-    'รูปภาพที่แคชไว้จากบริการภาพถ่าย TREK ที่ใช้โดย Memories — สามารถดึงข้อมูลใหม่ได้ ปลอดภัยที่จะสูญหาย',
+    'รูปภาพที่แคชไว้จากบริการภาพถ่าย Manzil ที่ใช้โดย Memories — สามารถดึงข้อมูลใหม่ได้ ปลอดภัยที่จะสูญหาย',
   'storage.categoryDesc.backups': 'คลังสำรองข้อมูลเซิร์ฟเวอร์ที่สร้างโดยแผงสำรองข้อมูลหรือกำหนดการ',
 
   // Health strip

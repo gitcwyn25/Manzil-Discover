@@ -250,7 +250,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Compartido mediante',
   'journey.public.madeWith': 'Hecho con',
   'journey.pdf.journeyBook': 'Libro de travesía',
-  'journey.pdf.madeWith': 'Hecho con TREK',
+  'journey.pdf.madeWith': 'Hecho con Manzil',
   'journey.pdf.day': 'Día',
   'journey.pdf.theEnd': 'Fin',
   'journey.pdf.saveAsPdf': 'Guardar como PDF',
@@ -284,7 +284,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosUnavailable': 'No hay proveedores de fotos conectados disponibles.',
   'journey.editor.externalPhotosPartialFailed': '{failed} grupos de fotos han fallado: guarda de nuevo para reintentar',
   'journey.picker.day': 'Este día',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Abrir el studio del fotolibro',
   'journey.studio.backToJourney': 'Volver a la travesía',
@@ -329,7 +329,7 @@ const journey: TranslationStrings = {
     'Guarda el diseño de esta doble página como archivo, sin las fotos, para compartirlo o reutilizarlo',
   'journey.studio.importSpread': 'Importar',
   'journey.studio.importSpreadHint': 'Añade una doble página desde un archivo de diseño descargado',
-  'journey.studio.importSpreadFailed': 'Ese archivo no es una doble página de TREK Studio',
+  'journey.studio.importSpreadFailed': 'Ese archivo no es una doble página de Manzil Studio',
   'journey.studio.desktopOnly': 'Studio necesita una pantalla más grande',
   'journey.studio.desktopOnlyHint':
     'Diseñar un libro pide sitio para trabajar, así que Studio solo está en el escritorio, y el PDF también. Todo lo demás de tu travesía funciona aquí como siempre.',
@@ -853,7 +853,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Guardar la ruta otra vez',
   'journey.dayImport.stale':
     'Dawarich no respondió: {reason} Se muestran las estancias de la última sincronización del {date}.',
-  'journey.dayImport.staleNever': 'Dawarich no respondió: {reason} Se muestran las estancias que TREK ya conoce.',
+  'journey.dayImport.staleNever': 'Dawarich no respondió: {reason} Se muestran las estancias que Manzil ya conoce.',
   'journey.dayImport.truncated': 'Dawarich solo envió una parte de este día. Puede que falten estancias.',
   'journey.dayImport.empty': 'Dawarich no encontró estancias en este día.',
   'journey.prep.lastSuccess': 'Última consulta {time}.',

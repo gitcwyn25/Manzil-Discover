@@ -35,7 +35,7 @@ export const empty = (status: ChargingInfo['status']): ChargingInfo => ({
 });
 async function request(path: string) {
   const fetched = await fetch(`https://api.mobidata-bw.de/ocpdb${path}`, {
-    headers: { 'User-Agent': 'TREK Roadtrip (https://github.com/liketrek/TREK)' },
+    headers: { 'User-Agent': 'Manzil Roadtrip (https://github.com/liketrek/TREK)' },
     signal: AbortSignal.timeout(12000),
     redirect: 'error',
   });

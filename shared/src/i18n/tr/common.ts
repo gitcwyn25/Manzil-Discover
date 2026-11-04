@@ -77,8 +77,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Yeniden dene',
   'common.errorReload': 'Sayfayı yenile',
   'common.errorUpdateTitle': 'Yeni bir sürüm mevcut',
-  'common.errorUpdateBody': 'Bu sekme açıkken TREK güncellendi. Yeni sürümü almak için sayfayı yenileyin.',
+  'common.errorUpdateBody': 'Bu sekme açıkken Manzil güncellendi. Yeni sürümü almak için sayfayı yenileyin.',
   'common.errorPluginTitle': 'Bu eklenti gösterilemedi',
-  'common.needsConnection': 'Bunun için bağlantı gerekiyor. TREK yeniden çevrimiçi olduğunda tekrar dene.',
+  'common.needsConnection': 'Bunun için bağlantı gerekiyor. Manzil yeniden çevrimiçi olduğunda tekrar dene.',
 };
 export default common;

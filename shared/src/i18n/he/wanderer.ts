@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'החיבור ל-wanderer הוסר',
   'wanderer.loadFailed': 'לא ניתן היה לטעון את החיבור ל-wanderer',
   'wanderer.privateIp':
-    'הכתובת הזו נמצאת ברשת פרטית. אם TREK לא מצליח להגיע אליה, מנהל המערכת צריך לאפשר גישה לרשתות פנימיות.',
+    'הכתובת הזו נמצאת ברשת פרטית. אם Manzil לא מצליח להגיע אליה, מנהל המערכת צריך לאפשר גישה לרשתות פנימיות.',
   'wanderer.error.disabled': 'מנהל המערכת שלכם לא הפעיל את wanderer עבור מסלולים.',
   'wanderer.error.not_connected': 'wanderer עדיין לא מחובר.',
   'wanderer.error.invalid_url': 'הכתובת הזו אינה כתובת תקינה של wanderer.',
   'wanderer.error.blocked_address':
-    'ל-TREK אין הרשאה לגשת לכתובת הזו. למופע ברשת שלכם, מנהל המערכת צריך להגדיר ALLOW_INTERNAL_NETWORK=true.',
+    'ל-Manzil אין הרשאה לגשת לכתובת הזו. למופע ברשת שלכם, מנהל המערכת צריך להגדיר ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable': 'לא ניתן היה להגיע ל-wanderer. בדקו את הכתובת וודאו שהמופע פועל.',
   'wanderer.error.tls': 'לא ניתן היה לאמת את התעודה של המופע. אם זו תעודה בחתימה עצמית, אפשרו אותה למטה.',
   'wanderer.error.unauthorized': 'wanderer לא קיבל את אסימון ה-API. ייתכן שהוא בוטל או שפג תוקפו.',
@@ -35,7 +35,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': 'אפשר לייבא רק מסלולים שלכם מ-wanderer.',
   'wanderer.error.invalid_response': 'התגובה לא הגיעה מ-wanderer. ודאו שהכתובת מפנה ל-wanderer עצמו.',
   'wanderer.error.no_author':
-    'wanderer השיב, אך לא ציין מי יוצר המסלולים בחשבון המשויך לאסימון ה-API הזה, ולכן TREK לא יכול לזהות אילו מסלולים שייכים לכם.',
+    'wanderer השיב, אך לא ציין מי יוצר המסלולים בחשבון המשויך לאסימון ה-API הזה, ולכן Manzil לא יכול לזהות אילו מסלולים שייכים לכם.',
   'wanderer.error.too_large': 'קובץ המסלול גדול מ-10 מגה־בייט.',
   'wanderer.error.server_error': 'wanderer החזיר שגיאה. נסו שוב מאוחר יותר.',
   'wanderer.error.offline': 'אתם לא מחוברים לרשת. חיפוש ב-wanderer דורש חיבור לרשת.',

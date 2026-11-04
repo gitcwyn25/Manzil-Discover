@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'מתחבר…',
   'login.signIn': 'התחברות',
   'login.createAdmin': 'יצירת חשבון מנהל',
-  'login.createAdminHint': 'הגדירו את חשבון המנהל הראשון של TREK.',
+  'login.createAdminHint': 'הגדירו את חשבון המנהל הראשון של Manzil.',
   'login.setNewPassword': 'הגדרת סיסמה חדשה',
   'login.setNewPasswordHint': 'עליכם לשנות את הסיסמה לפני שתמשיכו.',
   'login.createAccount': 'יצירת חשבון',
@@ -73,7 +73,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'ההתחברות עם מפתח גישה נכשלה. נסו שוב.',
   'login.insecureCookie.title': 'ההתחברות לא תישמר דרך HTTP',
   'login.insecureCookie.body':
-    'אתם מתחברים דרך HTTP רגיל, ולכן הדפדפן מוחק את עוגיית ההפעלה המאובטחת של TREK — הבקשה הבאה נכשלת עם "Access token required". פתרון: השתמשו ב-HTTPS, או ברשת ביתית הגדירו COOKIE_SECURE=false.',
+    'אתם מתחברים דרך HTTP רגיל, ולכן הדפדפן מוחק את עוגיית ההפעלה המאובטחת של Manzil — הבקשה הבאה נכשלת עם "Access token required". פתרון: השתמשו ב-HTTPS, או ברשת ביתית הגדירו COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'פתיחת מדריך פתרון התקלות',
 };
 

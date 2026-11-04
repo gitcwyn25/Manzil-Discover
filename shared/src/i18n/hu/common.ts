@@ -77,8 +77,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Újra',
   'common.errorReload': 'Oldal újratöltése',
   'common.errorUpdateTitle': 'Új verzió érhető el',
-  'common.errorUpdateBody': 'A TREK frissült, amíg ez a lap nyitva volt. Töltse újra az új verzióért.',
+  'common.errorUpdateBody': 'A Manzil frissült, amíg ez a lap nyitva volt. Töltse újra az új verzióért.',
   'common.errorPluginTitle': 'Ezt a bővítményt nem sikerült megjeleníteni',
-  'common.needsConnection': 'Ehhez kapcsolat kell. Próbáld újra, amint a TREK újra online lesz.',
+  'common.needsConnection': 'Ehhez kapcsolat kell. Próbáld újra, amint a Manzil újra online lesz.',
 };
 export default common;

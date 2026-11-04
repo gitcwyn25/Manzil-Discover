@@ -1,4 +1,5 @@
 import type { User } from '../../types';
+import { readEnv } from '../../app-config';
 import { AuditService } from '../audit/audit.service';
 import { getClientIp } from '../audit/client-ip';
 import { extractToken, verifiedSessionClaims } from '../auth-core/jwt-verify';
@@ -53,8 +54,11 @@ export class AuthPublicController {
   @Get('app-config')
   @MfaExempt('bootstrap config, read before the client knows whether it must set up MFA')
   @UseGuards(OptionalJwtGuard)
-  appConfig(@Req() req: Request) {
-    return this.auth.getAppConfig((req.user as User | undefined) ?? undefined);
+  async appConfig(@Req() req: Request) {
+    const config = readEnv().supabase;
+    return { ...await this.auth.getAppConfig((req.user as User | undefined) ?? undefined),
+      supabase: /^https:\/\/[a-z0-9]{20}\.supabase\.co$/.test(config.url) && config.publishableKey
+        ? { url: config.url, publishable_key: config.publishableKey } : null };
   }
 
   @Post('demo-login')
@@ -84,6 +88,10 @@ export class AuthPublicController {
   @HttpCode(201)
   async register(@Body() body: RegisterDto, @Req() req: Request, @Res({ passthrough: true }) res: Response) {
     await this.limit('login', req, 10);
+    const provider = readEnv().supabase;
+    if (provider.url && provider.publishableKey) {
+      throw new DomainError(403, 'Create your Manzil account using email confirmation. Local registration is disabled.');
+    }
     const result = await this.auth.registerUser(body, sessionClientFrom(req));
     await this.audit.writeAudit({
       userId: result.auditUserId!,

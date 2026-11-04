@@ -257,7 +257,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} dagar',
   'assistant.admin.retentionDays.one': '{count} dag',
   'assistant.admin.retentionForever': 'För alltid',
-  'assistant.mobile.tile': 'Fråga TREK',
+  'assistant.mobile.tile': 'Fråga Manzil',
   'assistant.mobile.tileHint': 'Planera med assistenten',
   'assistant.mobile.backToChat': 'Tillbaka till chatten',
   'assistant.step.nearbyAt': 'Söker nära {place}',

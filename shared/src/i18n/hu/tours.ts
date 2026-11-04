@@ -12,7 +12,7 @@ const tours: TranslationStrings = {
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX-import',
   'tours.badge.planned': 'TREK-ben tervezve',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'óvatosan használd',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Ez a túra már szerepel ezen a napon.',
   'tours.conversion.title': 'Szerkeszthető változat',
   'tours.conversion.intro':
-    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető változatot: a TREK ellenőrzőpontokat vesz ki belőle, újratervezi rajtuk az útvonalat, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
+    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető változatot: a Manzil ellenőrzőpontokat vesz ki belőle, újratervezi rajtuk az útvonalat, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
   'tours.conversion.replace': 'Import lecserélése',
   'tours.conversion.replaceHint':
     'Helyben újratervezi ezt a túrát: a napjai és jegyzetei megmaradnak, a rögzített nyomvonalat pedig megőrizzük, hogy visszatérhess hozzá.',
@@ -125,7 +125,7 @@ const tours: TranslationStrings = {
   'tours.planner.addPoint': 'Pont hozzáadása',
   'tours.planner.addPointActive': 'Kattints a térképre',
   'tours.planner.emptyHint':
-    'Kapcsold be a „Pont hozzáadása” gombot, és kattints a térképre. Két ponttól a TREK kiszámolja az útvonalat.',
+    'Kapcsold be a „Pont hozzáadása” gombot, és kattints a térképre. Két ponttól a Manzil kiszámolja az útvonalat.',
   'tours.planner.walkingEstimated': 'Becsült gyaloglási idő',
   'tours.planner.walkingEstimatedShort': 'Becs. idő',
   'tours.planner.walkingEstimatedInfoLabel': 'Hogyan becsüljük a gyaloglási időt',
@@ -319,7 +319,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Séta importálása a Google Mapsből',
   'tours.walkImport.title': 'Séta egy Google Maps-linkből',
   'tours.walkImport.intro':
-    'Oszd meg a gyalogos útvonalat a Google Mapsben, és illeszd be ide a linkjét. A TREK beolvassa a megállókat, és maga tervezi meg köztük a gyalogutat.',
+    'Oszd meg a gyalogos útvonalat a Google Mapsben, és illeszd be ide a linkjét. A Manzil beolvassa a megállókat, és maga tervezi meg köztük a gyalogutat.',
   'tours.walkImport.urlLabel': 'Link a gyalogos útvonalhoz',
   'tours.walkImport.urlHint': 'Egy maps.app.goo.gl rövid link vagy az útvonal címe a google.com/maps oldalon.',
   'tours.walkImport.read': 'Link beolvasása',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'A Google Mapsből',
   'tours.walkImport.openSource': 'Megnyitás a Google Mapsben',
   'tours.walkImport.recalculated':
-    'A TREK újratervezi a megállók közötti utat; a Google Mapsben rajzolt vonalat nem veszi át.',
+    'A Manzil újratervezi a megállók közötti utat; a Google Mapsben rajzolt vonalat nem veszi át.',
   'tours.walkImport.noPosition': 'Nincs hely a linkben',
   'tours.walkImport.unresolved': '{count} megállónak nincs helye a linkben, ezért kimarad.',
   'tours.walkImport.unresolved.one': '{count} megállónak nincs helye a linkben, ezért kimarad.',
@@ -337,7 +337,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.replacesDraft': 'A séta betöltése felülírja a tervező mentetlen módosításait.',
   'tours.walkImport.defaultName': 'Séta a Google Mapsből',
   'tours.walkImport.draftNotice':
-    'Egy Google Maps gyalogos útvonalából. A megállók közötti utat a TREK maga tervezte meg.',
+    'Egy Google Maps gyalogos útvonalából. A megállók közötti utat a Manzil maga tervezte meg.',
   'tours.walkImport.offline': 'A link beolvasásához kapcsolat kell.',
   'tours.walkImport.failed': 'A linket most nem sikerült beolvasni. Próbáld újra egy kicsit később.',
   'tours.walkImport.refusal.not_google_maps':
@@ -377,7 +377,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} az útvonaltól',
   'tours.poi.along': '{distance}-nél',
   'tours.poi.source.osm': 'Az OpenStreetMapből',
-  'tours.poi.source.trek': 'A TREK helyjegyzékéből',
+  'tours.poi.source.trek': 'A Manzil helyjegyzékéből',
   'tours.poi.hoursHint': 'A forrás szerint; indulás előtt ellenőrizd.',
   'tours.poi.website': 'Weboldal',
   'tours.poi.slot.label': 'Hová kerül',
@@ -508,7 +508,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.saved':
     'A mentett állapot látszik. Mozgass el egy pontot vagy módosíts egy beállítást az újratervezéshez.',
   'tours.ski.chooseTechnique': 'Válaszd ki a technikát, vagy az Ismeretlent.',
-  'tours.ski.infoLabel': 'Mit kezd a TREK a sí- és téli túrákkal és a sínyomvonalakkal',
+  'tours.ski.infoLabel': 'Mit kezd a Manzil a sí- és téli túrákkal és a sínyomvonalakkal',
   'tours.ski.info':
     'A tervezett túra OpenStreetMap-pályákat, felvonókat és nyomvonalakat követ, ameddig a pályaadatok érnek, máshol egyenesen köti össze a pontjait. Az importált nyomvonal úgy marad, ahogy rögzítették. A magasságok a pályaadatokból, a terepből vagy a fájlból származnak. Semmi sem, a 3D lejtőszínek sem, mond itt semmit a hóról, lavinákról vagy arról, hogy a pályák, felvonók és nyomvonalak nyitva vannak-e.',
   'tours.ski.time': 'Síidő',
@@ -763,9 +763,9 @@ const tours: TranslationStrings = {
   'tours.walk.timeEstimatedInfoLabel': 'Hogyan számoljuk a gyaloglási időt',
   'tours.walk.timeEstimatedInfo': 'Az útvonaltervező gyalogos ideje a megállók között, a tartózkodások nélkül.',
   'tours.walk.routePending':
-    'Csak a megállóival mentve. A köztük lévő utat a TREK akkor tervezi meg, amikor a sétát megnyitják a tervezőben és mentik.',
+    'Csak a megállóival mentve. A köztük lévő utat a Manzil akkor tervezi meg, amikor a sétát megnyitják a tervezőben és mentik.',
   'tours.walk.routePendingPlanner':
-    'Csak a megállóival mentve. A köztük lévő utat épp most tervezte meg a TREK; mentsd a sétát, hogy megmaradjon.',
+    'Csak a megállóival mentve. A köztük lévő utat épp most tervezte meg a Manzil; mentsd a sétát, hogy megmaradjon.',
   'tours.walk.stays': 'Tartózkodások',
   'tours.walk.totalAtLeast': 'legalább {time}',
   'tours.walk.totalComputed': 'Számított',
@@ -922,7 +922,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'A következő szakasz újratervezése',
   'tours.planner.freeLegBadge': 'Kézzel rajzolva, nem tervezett',
   'tours.planner.freeLegInfo':
-    'A TREK egyenes vonallal köti össze ezt a két pontot. Útvonaltervező nem tervezte és nem ellenőrizte ezt a szakaszt.',
+    'A Manzil egyenes vonallal köti össze ezt a két pontot. Útvonaltervező nem tervezte és nem ellenőrizte ezt a szakaszt.',
   'tours.map.seamarks': 'Hajózási jelek',
   'tours.map.seamarksDown': 'A hajózási jelek nem töltődnek be. A térkép és az útvonalad továbbra is működik.',
   'tours.map.pistes': 'Pályák, sífutópályák és felvonók',
@@ -971,9 +971,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': '{count} túra importálása',
   'tours.import.previewConfirm.one': '{count} túra importálása',
   'tours.conversion.introPaddle':
-    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető evezős túrát: a TREK kontrollpontokat vesz ki belőle, egyenes vonalakkal köti össze őket, ahogy az evezős túrát rajzolod, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
+    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető evezős túrát: a Manzil kontrollpontokat vesz ki belőle, egyenes vonalakkal köti össze őket, ahogy az evezős túrát rajzolod, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
   'tours.conversion.introSki':
-    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető sí- és téli túrát: a TREK kontrollpontokat vesz ki belőle, egyenes vonalakkal köti össze őket, ahogy a sí- és téli túrát rajzolod, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
+    'Az import egy rögzített nyomvonal. Tervezz belőle szerkeszthető sí- és téli túrát: a Manzil kontrollpontokat vesz ki belőle, egyenes vonalakkal köti össze őket, ahogy a sí- és téli túrát rajzolod, és megmutatja, mennyire közelíti meg. Semmi sem változik, amíg nem döntesz.',
   'tours.conversion.closePaddle':
     'A javaslat szorosan követi a nyomvonalat. Pontjait egyenes vonalak kötik össze, így nem ugyanaz a vonal.',
   'tours.planner.moreActions': 'További műveletek',
@@ -1005,7 +1005,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Megkerülve, az átemelés számít',
   'tours.paddle.time.title': 'Időbecslés',
   'tours.paddle.time.assumptionInfo':
-    'A TREK kiindulásként 4 km/h-val számol a vízen, 2 km/h-val hordozáskor és átemelésenként 10 perccel a ki- és visszaszállásra. Ezek állítható kiinduló értékek, nem normák és nem mérések. Zsilipidőként csak az számít, amit megadsz.',
+    'A Manzil kiindulásként 4 km/h-val számol a vízen, 2 km/h-val hordozáskor és átemelésenként 10 perccel a ki- és visszaszállásra. Ezek állítható kiinduló értékek, nem normák és nem mérések. Zsilipidőként csak az számít, amit megadsz.',
   'tours.paddle.time.water': 'A vízen',
   'tours.paddle.time.carry': 'Hordozás',
   'tours.paddle.time.carrySpeed': 'Hordozási tempó',
@@ -1086,7 +1086,7 @@ const tours: TranslationStrings = {
     'Az akadályadatok csak az útvonal egy részét fedik le (állapot: {date}). A többit ellenőrizd magad.',
   'tours.paddle.obstacles.none':
     'Ehhez a területhez nincsenek akadályadatok. A bukógátakat, zsilipeket és átemelőhelyeket itt ellenőrizd magad.',
-  'tours.paddle.obstacles.offline': 'Kapcsolat nélkül a TREK nem tölt be akadályadatokat. Ellenőrizd magad a vizet.',
+  'tours.paddle.obstacles.offline': 'Kapcsolat nélkül a Manzil nem tölt be akadályadatokat. Ellenőrizd magad a vizet.',
   'tours.paddle.obstacles.error': 'Az akadályadatokat nem sikerült betölteni. Ellenőrizd magad a vizet.',
   'tours.paddle.obstacle.kind.weir': 'Bukógát',
   'tours.paddle.obstacle.kind.dam': 'Gát',
@@ -1101,7 +1101,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Átemelőhely',
   'tours.paddle.obstacle.kind.access': 'Evezési szabály',
   'tours.paddle.obstacles.truncated':
-    'A TREK itt csak az objektumok egy részét mutatja, a területen több van. Ellenőrizd magad a vizet.',
+    'A Manzil itt csak az objektumok egy részét mutatja, a területen több van. Ellenőrizd magad a vizet.',
   'tours.paddle.obstacles.dateUnknown': 'ismeretlen',
   'tours.paddle.obstacleCard.onRoute': 'Az útvonalon',
   'tours.paddle.obstacleCard.near': 'Az útvonal közelében',
@@ -1188,7 +1188,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Biztonság a vízen',
   'tours.paddle.safety.short': 'Az evezés kockázatokkal jár. Ellenőrizd magad a vizet, a szabályokat és az időjárást.',
   'tours.paddle.safety.text':
-    'Az evezés kockázatokkal jár. A térképek, útvonaljavaslatok és megjegyzések hiányosak vagy elavultak lehetnek. A túra előtt ellenőrizd az aktuális helyi körülményeket, a vízhasználati szabályokat és az időjárást. Tegyél megfelelő biztonsági intézkedéseket. A TREK támogatja a tervezésedet, de nem helyettesíti a saját ellenőrzésedet és felelős döntésedet.',
+    'Az evezés kockázatokkal jár. A térképek, útvonaljavaslatok és megjegyzések hiányosak vagy elavultak lehetnek. A túra előtt ellenőrizd az aktuális helyi körülményeket, a vízhasználati szabályokat és az időjárást. Tegyél megfelelő biztonsági intézkedéseket. A Manzil támogatja a tervezésedet, de nem helyettesíti a saját ellenőrzésedet és felelős döntésedet.',
   'tours.planner.shapingPoint': 'Alakítópont',
   'tours.planner.shapingHint':
     'Irányítja az útvonalat anélkül, hogy megálló lenne. Húzd oda, ahol az útvonalnak haladnia kell.',
@@ -1243,7 +1243,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Kézzel rajzolt szakaszok tervezése a vízen',
   'tours.paddle.auto': 'Felismert',
   'tours.paddle.autoHint':
-    'A TREK egy útközben talált átemelőhelyhez vagy zsiliphez tette ezt a pontot. Ha áthelyezed vagy módosítod, a tiéd lesz.',
+    'A Manzil egy útközben talált átemelőhelyhez vagy zsiliphez tette ezt a pontot. Ha áthelyezed vagy módosítod, a tiéd lesz.',
   'tours.paddle.note.rapids': 'Vadvíz {grade}',
   'tours.paddle.note.pass': 'Csónakcsúszda',
   'tours.paddle.note.gap': 'Hiány a térképadatokban',
@@ -1251,11 +1251,11 @@ const tours: TranslationStrings = {
     'Az útvonal itt mozgó vízen halad át. Előbb nézd meg, és kétség esetén emeld át a hajót.',
   'tours.paddle.note.gapHint': 'A vízadatokban itt hiány van, egyenes vonallal áthidalva. Ellenőrizd a helyszínen.',
   'tours.paddle.failed.not_on_water':
-    'A szakasz egyik vége nincs a TREK által ismert vízen. Helyezd a folyóra vagy a tóra.',
+    'A szakasz egyik vége nincs a Manzil által ismert vízen. Helyezd a folyóra vagy a tóra.',
   'tours.paddle.failed.no_region':
     'Ehhez a területhez még nincsenek vízadatok. Egy rendszergazda hozzáadhatja a régiót.',
   'tours.paddle.failed.building': 'A régió vízadatai még előkészítés alatt állnak. Próbáld újra néhány perc múlva.',
-  'tours.paddle.failed.no_water_path': 'A TREK nem talált vízi utat a pontok között.',
+  'tours.paddle.failed.no_water_path': 'A Manzil nem talált vízi utat a pontok között.',
   'tours.paddle.failed.cross_region': 'Ezek a pontok két olyan régióban vannak, amelyeknek nincsenek közös vízadataik.',
   'tours.paddle.failed.busy': 'Az útvonaltervező foglalt. Próbáld újra egy pillanat múlva.',
   'tours.paddle.failed.timeout': 'A szakasz tervezése túl sokáig tartott. Tegyél közé egy pontot, és próbáld újra.',
@@ -1271,8 +1271,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Beolvasás',
   'tours.paddle.load.phase.build': 'Vízhálózat építése',
   'tours.paddle.load.hint': 'Általában egy-három perc. Tervezz nyugodtan tovább, a szakasz utána magától elkészül.',
-  'tours.paddle.load.reason.tooLarge': 'A régió nagyobb annál, amit a TREK magától betölt.',
-  'tours.paddle.load.reason.limit': 'A TREK ma már elég régiót töltött be magától.',
+  'tours.paddle.load.reason.tooLarge': 'A régió nagyobb annál, amit a Manzil magától betölt.',
+  'tours.paddle.load.reason.limit': 'A Manzil ma már elég régiót töltött be magától.',
   'tours.paddle.load.declined': 'Egy admin elutasította {region} vízadatait.',
   'tours.paddle.load.failed': '{region} vízadatait nem sikerült betölteni.',
   'tours.paddle.load.noWater': '{region} vízadataiban itt nincs víz. Tedd a pontot a folyóra vagy a tóra.',
@@ -1297,7 +1297,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Lovaglási idő',
   'tours.horse.timeInfoLabel': 'Miért nincs lovaglási idő',
   'tours.horse.timeInfo':
-    'A TREK nem számol lovaglási időt: a tempót a ló és a lovas adja. Ha szeretnéd, add meg magad a tervezett teljes időt.',
+    'A Manzil nem számol lovaglási időt: a tempót a ló és a lovas adja. Ha szeretnéd, add meg magad a tervezett teljes időt.',
   'tours.horse.routes.title': 'Lovas útvonalak',
   'tours.horse.routes.infoLabel': 'A lovas útvonalakról',
   'tours.horse.routes.info':
@@ -1353,7 +1353,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'A vonal úgy marad, ahogy a fájl rögzítette. Semmit nem tervez újra.',
   'tours.horse.recorded.noTime': 'Nincs lovaglási idő',
   'tours.horse.recorded.noTimeInfo':
-    'A TREK nem számol lovaglási időt egy lovastúrához: a tempót a ló és a lovas adja.',
+    'A Manzil nem számol lovaglási időt egy lovastúrához: a tempót a ló és a lovas adja.',
   'tours.horse.recorded.accessUnchecked': 'Hozzáférés ellenőrizetlen',
   'tours.horse.recorded.accessUncheckedInfo':
     'Az importálás nem ellenőrzi, hogy szabad-e lovagolni az utakon. A helyszíni táblák a mérvadók.',
@@ -1514,7 +1514,7 @@ const tours: TranslationStrings = {
   'tours.detail.openInTours': 'Megnyitás a Túrák fülön',
   'tours.planner.status.routingGeneric': 'Útvonal kiszámítása…',
   'tours.planner.emptyHintPlacing':
-    'Kattints a térképre a pontok felvételéhez. Két ponttól a TREK kiszámolja az útvonalat.',
+    'Kattints a térképre a pontok felvételéhez. Két ponttól a Manzil kiszámolja az útvonalat.',
   'tours.ski.drawStraight': 'Egyenes vonal',
   'tours.horse.routes.stale': 'A lista a keresett nézetet mutatja. Keress újra ezen a nézeten.',
   'tours.horse.dialog.adoptGapHint':

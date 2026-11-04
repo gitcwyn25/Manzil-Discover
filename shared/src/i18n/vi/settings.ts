@@ -32,9 +32,9 @@ const settings: TranslationStrings = {
     'Valhalla riêng của bạn, được hỏi khi dịch vụ định tuyến ở trên được đặt cho nó hoặc Tự động. Nếu chỉ cấu hình máy chủ định tuyến riêng và không chọn dịch vụ định tuyến, sẽ không hỏi Valhalla nào. Sau khi nhập URL, hãy khởi động lại máy chủ và tải lại trang.',
   'settings.valhallaProvider': 'Dịch vụ định tuyến',
   'settings.valhallaProviderHint':
-    'Với dịch vụ TREK hoặc Valhalla riêng, Valhalla tính mọi lộ trình: các ngày và chuyến đi đường bộ khi đi bộ, đi xe đạp và đi ô tô, lộ trình tránh đường thu phí, đường cao tốc hoặc phà, cùng lộ trình, độ cao và đường đi của các chuyến đi. Khi không thể trả lời, OSRM sẽ tính ngày đó thay thế. Dịch vụ TREK được hỏi qua máy chủ này. Với Valhalla công cộng của FOSSGIS, OSRM tính các lộ trình và Valhalla chỉ trả lời những gì OSRM không làm được. Tự động sẽ hỏi dịch vụ TREK, trừ khi đã đặt Valhalla riêng hoặc chỉ máy chủ định tuyến riêng.',
+    'Với dịch vụ Manzil hoặc Valhalla riêng, Valhalla tính mọi lộ trình: các ngày và chuyến đi đường bộ khi đi bộ, đi xe đạp và đi ô tô, lộ trình tránh đường thu phí, đường cao tốc hoặc phà, cùng lộ trình, độ cao và đường đi của các chuyến đi. Khi không thể trả lời, OSRM sẽ tính ngày đó thay thế. Dịch vụ Manzil được hỏi qua máy chủ này. Với Valhalla công cộng của FOSSGIS, OSRM tính các lộ trình và Valhalla chỉ trả lời những gì OSRM không làm được. Tự động sẽ hỏi dịch vụ Manzil, trừ khi đã đặt Valhalla riêng hoặc chỉ máy chủ định tuyến riêng.',
   'settings.valhallaProviderOption.auto': 'Tự động',
-  'settings.valhallaProviderOption.trek': 'Dịch vụ TREK',
+  'settings.valhallaProviderOption.trek': 'Dịch vụ Manzil',
   'settings.valhallaProviderOption.fossgis': 'Valhalla công cộng (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Valhalla riêng',
   'settings.mapHint': 'Mẫu URL cho ô bản đồ',
@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'Bản đồ nền CARTO hiển thị hình mờ nếu không có khóa. Miễn phí, không cần tài khoản, từ',
   'settings.mapCartoKeyLink': 'khóa API bản đồ nền carto.com',
   'settings.mapCartoKeyMissing':
-    'Mẫu này là bản đồ nền CARTO. Không có khóa, CARTO in "API KEY REQUIRED" lên mọi ô bản đồ. Cho đến khi bạn nhập khóa, TREK hiển thị bản đồ nền mặc định.',
+    'Mẫu này là bản đồ nền CARTO. Không có khóa, CARTO in "API KEY REQUIRED" lên mọi ô bản đồ. Cho đến khi bạn nhập khóa, Manzil hiển thị bản đồ nền mặc định.',
   'settings.mapStyle': 'Kiểu bản đồ',
   'settings.mapStylePlaceholder': 'Chọn kiểu Mapbox',
   'settings.mapStyleHint': 'Đặt trước hoặc của riêng bạn mapbox://styles/USER/ID URL',
@@ -139,15 +139,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Thông báo đẩy',
   'settings.webPush.title': 'Thông báo đẩy trên thiết bị này',
   'settings.webPush.hint':
-    'Hiển thị thông báo của TREK trên thiết bị này ngay cả khi TREK đang đóng. Những sự kiện nào được gửi đến tuân theo cột Thông báo đẩy.',
+    'Hiển thị thông báo của Manzil trên thiết bị này ngay cả khi Manzil đang đóng. Những sự kiện nào được gửi đến tuân theo cột Thông báo đẩy.',
   'settings.webPush.enable': 'Bật cho thiết bị này',
   'settings.webPush.disable': 'Tắt cho thiết bị này',
   'settings.webPush.enabled': 'Đã bật cho thiết bị này',
   'settings.webPush.unsupported': 'Trình duyệt này không thể nhận thông báo đẩy.',
-  'settings.webPush.insecure': 'Thông báo đẩy cần mở TREK qua HTTPS.',
-  'settings.webPush.iosInstall': 'Trên iPhone và iPad, hãy thêm TREK vào Màn hình chính trước rồi mở từ đó.',
+  'settings.webPush.insecure': 'Thông báo đẩy cần mở Manzil qua HTTPS.',
+  'settings.webPush.iosInstall': 'Trên iPhone và iPad, hãy thêm Manzil vào Màn hình chính trước rồi mở từ đó.',
   'settings.webPush.denied':
-    'Thông báo của TREK đang bị chặn trong trình duyệt này. Hãy cho phép trong cài đặt trình duyệt rồi thử lại.',
+    'Thông báo của Manzil đang bị chặn trong trình duyệt này. Hãy cho phép trong cài đặt trình duyệt rồi thử lại.',
   'settings.webPush.failed': 'Không thể bật thông báo đẩy cho thiết bị này.',
   'settings.notificationPreferences.noChannels':
     'Không có kênh thông báo nào được cấu hình. Yêu cầu quản trị viên thiết lập thông báo qua email hoặc webhook.',
@@ -271,21 +271,21 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Đề xuất tính năng mới',
   'settings.about.wikiHint': 'Tài liệu & hướng dẫn',
   'settings.about.sponsor.eyebrow': 'Hạ tầng được tài trợ',
-  'settings.about.sponsor.title': 'Máy chủ riêng của TREK chạy trên dataforest cloud',
+  'settings.about.sponsor.title': 'Máy chủ riêng của Manzil chạy trên dataforest cloud',
   'settings.about.sponsor.body':
-    'Tìm địa điểm, tìm địa chỉ và chỉ đường đến từ máy chủ riêng của TREK thay vì Google và các dịch vụ khác, còn dataforest cloud tài trợ những máy mà chúng chạy trên đó.',
+    'Tìm địa điểm, tìm địa chỉ và chỉ đường đến từ máy chủ riêng của Manzil thay vì Google và các dịch vụ khác, còn dataforest cloud tài trợ những máy mà chúng chạy trên đó.',
   'settings.about.sponsor.cta': 'Ghé thăm dataforest cloud',
   'settings.about.sponsor.search': 'Tìm địa điểm',
   'settings.about.sponsor.address': 'Tìm địa chỉ',
   'settings.about.sponsor.routing': 'Chỉ đường',
   'settings.about.descriptionManaged':
-    'TREK giúp bạn tổ chức các chuyến đi từ ý tưởng đầu tiên đến kỷ niệm cuối cùng. Lên kế hoạch theo ngày, ngân sách, danh sách đồ cần mang, ảnh và nhiều hơn nữa, tất cả ở một nơi.',
+    'Manzil giúp bạn tổ chức các chuyến đi từ ý tưởng đầu tiên đến kỷ niệm cuối cùng. Lên kế hoạch theo ngày, ngân sách, danh sách đồ cần mang, ảnh và nhiều hơn nữa, tất cả ở một nơi.',
   'settings.about.sourceTitle': 'Mã nguồn',
   'settings.about.sourceHint': 'TREK là mã nguồn mở, theo giấy phép AGPL-3.0',
   'settings.about.supporters.badge': 'Người ủng hộ hàng tháng',
-  'settings.about.supporters.title': 'Bạn đồng hành cho TREK',
+  'settings.about.supporters.title': 'Bạn đồng hành cho Manzil',
   'settings.about.supporters.subtitle':
-    'Trong khi bạn đang lên kế hoạch cho lộ trình tiếp theo của mình, những người này đang giúp lập kế hoạch cho tương lai của TREK. Đóng góp hàng tháng của họ được đổ thẳng vào hoạt động phát triển và số giờ thực tế được sử dụng — vì vậy TREK vẫn là Nguồn mở.',
+    'Trong khi bạn đang lên kế hoạch cho lộ trình tiếp theo của mình, những người này đang giúp lập kế hoạch cho tương lai của Manzil. Đóng góp hàng tháng của họ được đổ thẳng vào hoạt động phát triển và số giờ thực tế được sử dụng — vì vậy Manzil vẫn là Nguồn mở.',
   'settings.about.supporters.since': 'ủng hộ kể từ {date}',
   'settings.about.supporters.tierEmpty': 'Hãy là người đầu tiên',
   'settings.about.supporter.tier.noReturnTicket': 'Không có vé khứ hồi',
@@ -294,7 +294,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Khách du lịch tiết kiệm',
   'settings.about.supporter.tier.hostelBunkmate': 'Nhà nghỉ bạn cùng phòng',
   'settings.about.description':
-    'TREK là công cụ lập kế hoạch du lịch tự lưu trữ giúp bạn tổ chức các chuyến đi của mình từ ý tưởng đầu tiên đến kỷ niệm cuối cùng. Lập kế hoạch trong ngày, ngân sách, danh sách đóng gói, ảnh và nhiều nội dung khác — tất cả đều ở cùng một nơi, trên máy chủ của riêng bạn.',
+    'Manzil là công cụ lập kế hoạch du lịch tự lưu trữ giúp bạn tổ chức các chuyến đi của mình từ ý tưởng đầu tiên đến kỷ niệm cuối cùng. Lập kế hoạch trong ngày, ngân sách, danh sách đóng gói, ảnh và nhiều nội dung khác — tất cả đều ở cùng một nơi, trên máy chủ của riêng bạn.',
   'settings.about.madeWith': 'Được làm bằng',
   'settings.about.madeBy': 'của Maurice và cộng đồng nguồn mở đang phát triển.',
   'settings.username': 'Tên người dùng',
@@ -412,7 +412,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Chỉ kích hoạt cho một phiên bản đáng tin cậy trên mạng của riêng bạn.',
   'settings.airtrail.writeBack': 'Viết các thay đổi trở lại AirTrail',
   'settings.airtrail.writeBackHint':
-    'Tắt theo mặc định: AirTrail là nguồn sự thật và TREK chỉ đọc từ đó. Bật để đẩy các chỉnh sửa được thực hiện trong TREK trở lại AirTrail.',
+    'Tắt theo mặc định: AirTrail là nguồn sự thật và Manzil chỉ đọc từ đó. Bật để đẩy các chỉnh sửa được thực hiện trong Manzil trở lại AirTrail.',
   'settings.airtrail.connected': 'Đã kết nối',
   'settings.airtrail.notConnected': 'Không được kết nối',
   'settings.airtrail.toast.saved': 'AirTrail đã lưu kết nối',
@@ -529,7 +529,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Bảng điều khiển',
   'settings.startPageActiveTrip': 'Chuyến đi đang diễn ra',
   'settings.startPageHint':
-    'TREK mở thẳng chuyến đi đang diễn ra, nếu không thì chuyến gần nhất sắp tới. Đó cũng là chuyến mà bảng điều khiển làm nổi bật.',
+    'Manzil mở thẳng chuyến đi đang diễn ra, nếu không thì chuyến gần nhất sắp tới. Đó cũng là chuyến mà bảng điều khiển làm nổi bật.',
   'settings.startTripTab': 'Tab khởi động',
   'settings.startTripTabHint':
     'Tab mà chuyến đi mở ra. Nếu tab đó thuộc tiện ích đã tắt, chế độ xem kế hoạch sẽ mở thay thế.',

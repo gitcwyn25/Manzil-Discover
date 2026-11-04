@@ -23,7 +23,7 @@ const docsync: TranslationStrings = {
   'docsync.onConflict.trek_wins': 'Ponechať kópiu z TREKu',
   'docsync.onConflict.provider_wins': 'Ponechať kópiu z úložiska',
   'docsync.webhookHint':
-    'Vložte túto URL k svojmu poskytovateľovi, aby zmeny prichádzali okamžite. Bez toho TREK kontroluje v pravidelných intervaloch.',
+    'Vložte túto URL k svojmu poskytovateľovi, aby zmeny prichádzali okamžite. Bez toho Manzil kontroluje v pravidelných intervaloch.',
 
   // Polia formulára pripojenia. Kľúče zodpovedajú stĺpcu `label` v tabuľke
   // document_provider_fields, ktorá ukladá príponu kľúča, nie text.
@@ -46,7 +46,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudLogin': 'Vaše prihlasovacie meno v Nextcloude, nie e-mailová adresa.',
   'docsync.hintNextcloudAppPassword': 'Nastavenia, Zabezpečenie, Vytvoriť nové heslo aplikácie. Nikdy heslo k účtu.',
   'docsync.hintOpenCloudToken': 'Vytvára sa v OpenCloude pod tokenmi aplikácií.',
-  'docsync.hintBasePath': 'Kde TREK hľadá priečinky ciest. Predvolene /TREK.',
+  'docsync.hintBasePath': 'Kde Manzil hľadá priečinky ciest. Predvolene /Manzil.',
   'docsync.hintSynologyUrl': 'Uveďte aj port, napríklad https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Najlepšie vyhradený účet DSM s prístupom len k tomuto zdieľanému priečinku.',
   'docsync.hintSynologyOtp': 'Potrebné len raz, ak účet používa dvojfaktorové overenie.',
@@ -87,7 +87,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Tento účet na to nemá oprávnenie.',
   'docsync.error.not_found': 'U poskytovateľa sa nenašlo.',
   'docsync.error.scope_missing': 'Pripojený priečinok už neexistuje.',
-  'docsync.error.rate_limited': 'Poskytovateľ obmedzuje počet požiadaviek. TREK to skúsi znova neskôr.',
+  'docsync.error.rate_limited': 'Poskytovateľ obmedzuje počet požiadaviek. Manzil to skúsi znova neskôr.',
   'docsync.error.too_large': 'Súbor je väčší, než poskytovateľ prijíma.',
   'docsync.error.unsupported_type': 'Poskytovateľ tento typ súboru neprijíma.',
   'docsync.error.quota_exceeded': 'Poskytovateľovi došlo miesto.',
@@ -108,7 +108,7 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Zatiaľ nič nepripojené',
   'docsync.empty.hintOwner':
-    'Vyberte úložisko vľavo. TREK si vždy ponecháva vlastnú kópiu všetkého, takže sa nič nestratí, ani keď úložisko zmizne.',
+    'Vyberte úložisko vľavo. Manzil si vždy ponecháva vlastnú kópiu všetkého, takže sa nič nestratí, ani keď úložisko zmizne.',
   'docsync.empty.hintMember': 'Nastavuje to vlastník cesty. Dokumenty tak či tak zostávajú v TREKu.',
 
   // Ako každý produkt veci ukladá. Zobrazuje sa ešte pred pripojením, pretože
@@ -120,7 +120,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'Ukladá do priečinka na NAS',
 
   // ── Pruh toku ──────────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Do úložiska',
   'docsync.flow.toTrek': 'Z úložiska',
   'docsync.flow.documents': 'dokumentov',
@@ -149,18 +149,18 @@ const docsync: TranslationStrings = {
   'docsync.connect.testing': 'Nadväzuje sa spojenie',
   'docsync.connect.okAs': 'Spojenie nadviazané, prihlásené ako {account}',
   'docsync.connect.insecureHint': 'Pre inštanciu vo vlastnej sieti s vlastnoručne podpísaným certifikátom.',
-  'docsync.connect.about.paperless': 'TREK ukladá túto cestu pod vlastným štítkom a zvyšku vášho archívu sa nedotkne.',
+  'docsync.connect.about.paperless': 'Manzil ukladá túto cestu pod vlastným štítkom a zvyšku vášho archívu sa nedotkne.',
   'docsync.connect.about.papra':
-    'Vyberte organizáciu, do ktorej cesta patrí. TREK ju v nej uloží pod vlastným štítkom.',
+    'Vyberte organizáciu, do ktorej cesta patrí. Manzil ju v nej uloží pod vlastným štítkom.',
   'docsync.connect.about.nextcloud':
     'Použite heslo aplikácie, nie heslo k účtu: funguje aj s dvojfaktorovým overením a dá sa zrušiť samostatne.',
-  'docsync.connect.about.opencloud': 'TREK dostane pre túto cestu vlastný priestor, oddelený od všetkého ostatného.',
+  'docsync.connect.about.opencloud': 'Manzil dostane pre túto cestu vlastný priestor, oddelený od všetkého ostatného.',
   'docsync.connect.about.synologydrive':
     'Najlepšie účet DSM, ktorý dosiahne len na zdieľaný priečinok určený pre túto cestu.',
 
   // ── Výber umiestnenia ──────────────────────────────────────────────────────
   'docsync.scope.title': 'Kam v {provider} túto cestu uložiť?',
-  'docsync.scope.intro': 'Synchronizuje sa len to, čo je vnútri. Zvyšok vášho úložiska zostane mimo TREK.',
+  'docsync.scope.intro': 'Synchronizuje sa len to, čo je vnútri. Zvyšok vášho úložiska zostane mimo Manzil.',
   'docsync.scope.createTitle': 'Vytvoriť nové',
   'docsync.scope.createAction': 'Vytvoriť',
   'docsync.scope.pickTitle': 'Alebo použite existujúce',
@@ -180,11 +180,11 @@ const docsync: TranslationStrings = {
     'Pozastavené: správca tohto poskytovateľa vypol. Synchronizácia bude pokračovať, hneď ako ho znova zapne.',
   'docsync.binding.reconnect': 'Znova pripojiť',
   'docsync.connection.title': 'Pripojenie',
-  'docsync.connection.hint': 'Adresa a prihlásenie, ktoré TREK pre toto úložisko používa.',
+  'docsync.connection.hint': 'Adresa a prihlásenie, ktoré Manzil pre toto úložisko používa.',
   'docsync.connection.edit': 'Upraviť pripojenie',
   'docsync.connection.remove': 'Odstrániť pripojenie',
   'docsync.connection.confirmRemove':
-    'TREK zabudne adresu a prihlásenie k tomuto úložisku a každá synchronizácia tejto cesty cez neho sa zastaví. Dokumenty zostanú v TREKu aj v úložisku.',
+    'Manzil zabudne adresu a prihlásenie k tomuto úložisku a každá synchronizácia tejto cesty cez neho sa zastaví. Dokumenty zostanú v TREKu aj v úložisku.',
 };
 
 export default docsync;

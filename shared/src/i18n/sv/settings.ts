@@ -54,7 +54,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'CARTO-bakgrundskartor visar en vattenstämpel utan nyckel. Gratis och utan konto, från',
   'settings.mapCartoKeyLink': 'API-nyckel för bakgrundskartor på carto.com',
   'settings.mapCartoKeyMissing':
-    'Den här mallen är en CARTO-bakgrundskarta. Utan nyckel stämplar CARTO "API KEY REQUIRED" på varje ruta. Tills en nyckel anges visar TREK standardbakgrundskartan.',
+    'Den här mallen är en CARTO-bakgrundskarta. Utan nyckel stämplar CARTO "API KEY REQUIRED" på varje ruta. Tills en nyckel anges visar Manzil standardbakgrundskartan.',
   'settings.mapStyle': 'Kartstil',
   'settings.mapStylePlaceholder': 'Välj en Mapbox-stil',
   'settings.mapStyleHint': 'Förinställda eller egna mapbox://styles/USER/ID länk',
@@ -138,15 +138,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Push-meddelanden på den här enheten',
   'settings.webPush.hint':
-    'Visar TREK-meddelanden på den här enheten även när TREK är stängt. Vilka händelser som kommer fram styrs av kolumnen Push.',
+    'Visar TREK-meddelanden på den här enheten även när Manzil är stängt. Vilka händelser som kommer fram styrs av kolumnen Push.',
   'settings.webPush.enable': 'Slå på för den här enheten',
   'settings.webPush.disable': 'Slå av för den här enheten',
   'settings.webPush.enabled': 'På för den här enheten',
   'settings.webPush.unsupported': 'Den här webbläsaren kan inte ta emot push-meddelanden.',
-  'settings.webPush.insecure': 'Push kräver att TREK öppnas via HTTPS.',
-  'settings.webPush.iosInstall': 'På iPhone och iPad lägger du först till TREK på hemskärmen och öppnar det därifrån.',
+  'settings.webPush.insecure': 'Push kräver att Manzil öppnas via HTTPS.',
+  'settings.webPush.iosInstall': 'På iPhone och iPad lägger du först till Manzil på hemskärmen och öppnar det därifrån.',
   'settings.webPush.denied':
-    'Meddelanden från TREK är blockerade i den här webbläsaren. Tillåt dem i webbläsarens inställningar och försök sedan igen.',
+    'Meddelanden från Manzil är blockerade i den här webbläsaren. Tillåt dem i webbläsarens inställningar och försök sedan igen.',
   'settings.webPush.failed': 'Push kunde inte slås på för den här enheten.',
   'settings.notificationPreferences.noChannels':
     'Inga meddelandekanaler har konfigurerats. Be en administratör att ställa in e-post- eller webhook-meddelanden.',
@@ -278,13 +278,13 @@ const settings: TranslationStrings = {
   'settings.about.sponsor.address': 'Adressökning',
   'settings.about.sponsor.routing': 'Ruttplanering',
   'settings.about.descriptionManaged':
-    'TREK hjälper dig att organisera dina resor, från den första idén till det sista minnet. Dagsplanering, budget, packlistor, foton och mycket mer, allt på ett ställe.',
+    'Manzil hjälper dig att organisera dina resor, från den första idén till det sista minnet. Dagsplanering, budget, packlistor, foton och mycket mer, allt på ett ställe.',
   'settings.about.sourceTitle': 'Källkod',
   'settings.about.sourceHint': 'TREK är öppen källkod under AGPL-3.0',
   'settings.about.supporters.badge': 'Månatliga bidragsgivare',
-  'settings.about.supporters.title': 'Resekompisar för TREK',
+  'settings.about.supporters.title': 'Resekompisar för Manzil',
   'settings.about.supporters.subtitle':
-    'Medan du planerar din nästa rutt bidrar dessa personer till att forma TREK:s framtid. Deras månatliga bidrag går direkt till utveckling och faktisk arbetstid – så att TREK förblir öppen källkod.',
+    'Medan du planerar din nästa rutt bidrar dessa personer till att forma TREK:s framtid. Deras månatliga bidrag går direkt till utveckling och faktisk arbetstid – så att Manzil förblir öppen källkod.',
   'settings.about.supporters.since': 'bidragsgivare sedan {date}',
   'settings.about.supporters.tierEmpty': 'Var först',
   'settings.about.supporter.tier.noReturnTicket': 'Ingen returbiljett',
@@ -293,7 +293,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Budgetresenären',
   'settings.about.supporter.tier.hostelBunkmate': 'Rumskamrat på vandrarhem',
   'settings.about.description':
-    'TREK är en resplanerare som du själv kan driva och som hjälper dig att organisera dina resor från den första idén till det sista minnet. Dagsplanering, budget, packlistor, foton och mycket mer – allt på ett och samma ställe, på din egen server.',
+    'Manzil är en resplanerare som du själv kan driva och som hjälper dig att organisera dina resor från den första idén till det sista minnet. Dagsplanering, budget, packlistor, foton och mycket mer – allt på ett och samma ställe, på din egen server.',
   'settings.about.madeWith': 'Gjord med',
   'settings.about.madeBy': 'av Maurice och en växande open source-gemenskap.',
   'settings.username': 'Användarnamn',
@@ -409,7 +409,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Aktivera endast för en betrodd instans i ditt eget nätverk.',
   'settings.airtrail.writeBack': 'Skriv tillbaka ändringarna till AirTrail',
   'settings.airtrail.writeBackHint':
-    'Avstängt som standard: AirTrail är den primära källan och TREK läser endast från den. Aktivera funktionen för att skicka ändringar som gjorts i TREK tillbaka till AirTrail.',
+    'Avstängt som standard: AirTrail är den primära källan och Manzil läser endast från den. Aktivera funktionen för att skicka ändringar som gjorts i Manzil tillbaka till AirTrail.',
   'settings.airtrail.connected': 'Ansluten',
   'settings.airtrail.notConnected': 'Inte ansluten',
   'settings.airtrail.toast.saved': 'AirTrail anslutning sparad',
@@ -528,7 +528,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Översikt',
   'settings.startPageActiveTrip': 'Aktiv resa',
   'settings.startPageHint':
-    'TREK öppnar direkt i resan som pågår, annars i nästa som börjar. Det är samma resa som översikten lyfter fram.',
+    'Manzil öppnar direkt i resan som pågår, annars i nästa som börjar. Det är samma resa som översikten lyfter fram.',
   'settings.startTripTab': 'Startflik',
   'settings.startTripTabHint':
     'Fliken som resan öppnas med. Hör den till ett avstängt tillägg öppnas planvyn i stället.',

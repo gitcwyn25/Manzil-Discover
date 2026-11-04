@@ -756,6 +756,63 @@ describe('verifyMfaLogin — validation', () => {
   });
 });
 
+describe('MFA challenge password version', () => {
+  it.each(['totp', 'backup'] as const)('refuses a pre-recovery challenge before accepting %s, but accepts a fresh challenge', async (method) => {
+    const { user } = createUser(testDb);
+    const secret = authenticator.generateSecret();
+    const backup = 'REVOKED-CHALLENGE';
+    await updateRows(orm, Users, { id: user.id }, {
+      oidc_sub: 'supabase-subject',
+      oidc_issuer: 'https://wfabehnihelxemztmvca.supabase.co/auth/v1',
+      mfa_enabled: 1,
+      mfa_secret: 'enc:' + secret,
+      mfa_backup_codes: JSON.stringify([hashBackupCode(backup)]),
+    });
+    const stale = await svc.completeExternalLogin(user.id);
+    expect(stale).toHaveProperty('mfa_required', true);
+    if (!('mfa_token' in stale)) throw new Error('Expected an MFA challenge');
+    await svc.revokeExternalSessions(user.id);
+
+    expect((await asLegacyResult(svc.verifyMfaLogin({
+      mfa_token: stale.mfa_token,
+      code: method === 'totp' ? authenticator.generate(secret) : backup,
+    }))).status).toBe(401);
+    expect(await sessionRows(testDb, user.id)).toHaveLength(0);
+    expect(JSON.parse((await readUser(orm, user.id)).mfa_backup_codes)).toHaveLength(1);
+
+    const fresh = await svc.completeExternalLogin(user.id);
+    if (!('mfa_token' in fresh)) throw new Error('Expected a fresh MFA challenge');
+    const accepted = await svc.verifyMfaLogin({
+      mfa_token: fresh.mfa_token,
+      code: method === 'totp' ? authenticator.generate(secret) : backup,
+    });
+    expect(typeof accepted.token).toBe('string');
+    expect(decodeJwt(accepted.token!)).toMatchObject({ pv: 1 });
+    expect(await sessionRows(testDb, user.id)).toHaveLength(1);
+  });
+
+  it.each(['totp', 'backup'] as const)('refuses a challenge missing its password version before accepting %s', async (method) => {
+    const { user } = createUser(testDb);
+    const secret = authenticator.generateSecret();
+    const backup = 'MISSING-VERSION';
+    await updateRows(orm, Users, { id: user.id }, {
+      mfa_enabled: 1,
+      mfa_secret: 'enc:' + secret,
+      mfa_backup_codes: JSON.stringify([hashBackupCode(backup)]),
+    });
+    const jwt = await import('jsonwebtoken');
+    const token = jwt.sign({ id: user.id, purpose: 'mfa_login' }, TEST_CONFIG.JWT_SECRET, {
+      expiresIn: '5m', algorithm: 'HS256',
+    });
+    expect((await asLegacyResult(svc.verifyMfaLogin({
+      mfa_token: token,
+      code: method === 'totp' ? authenticator.generate(secret) : backup,
+    }))).status).toBe(401);
+    expect(await sessionRows(testDb, user.id)).toHaveLength(0);
+    expect(JSON.parse((await readUser(orm, user.id)).mfa_backup_codes)).toHaveLength(1);
+  });
+});
+
 // ---------------------------------------------------------------------------
 // Coverage added with the DI fold (AUTH-DB-050+): the fold moved ~1400 lines
 // under the src/nest coverage gate, so the previously untested branches —
@@ -993,6 +1050,19 @@ describe('loginUser — credential branches', () => {
     const row = await readUser(orm, user.id);
     expect(row.login_count).toBe(1);
     expect(row.last_login).not.toBeNull();
+  });
+
+  it('Supabase identities cannot bypass provider MFA through native password login; local MFA still gates exchange', async () => {
+    const { user, password } = createUser(testDb);
+    vi.stubEnv('SUPABASE_URL', 'https://wfabehnihelxemztmvca.supabase.co');
+    try {
+      await updateRows(orm, Users, { id: user.id }, { oidc_sub: 'provider-subject',
+        oidc_issuer: 'https://wfabehnihelxemztmvca.supabase.co/auth/v1', mfa_enabled: 1 });
+      expect((await svc.loginUser({ email: user.email, password })).status).toBe(401);
+      const exchanged = await svc.completeExternalLogin(user.id);
+      expect(exchanged).toHaveProperty('mfa_required', true);
+      expect(exchanged).not.toHaveProperty('token');
+    } finally { vi.unstubAllEnvs(); }
   });
 
   it("AUTH-DB-062b: forwards the caller's remember choice into the minted token (T4, task-5-review-template.md; unit-level pin, not only the e2e)", async () => {

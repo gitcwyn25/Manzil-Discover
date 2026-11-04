@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const system_notice: TranslationStrings = {
   'system_notice.v3_photos.title': 'Fotod on versioonis 3.0 kolinud',
   'system_notice.v3_photos.body':
-    'Reisiplaneerija **Fotod** on eemaldatud. Sinu fotod on alles — TREK ei muutnud kunagi sinu Immichi või Synology kogu.\n\nFotod asuvad nüüd lisamoodulis **Reisilugu**. See on valikuline — kui see pole veel saadaval, palu administraatoril see lubada jaotises Haldus → Lisamoodulid.',
+    'Reisiplaneerija **Fotod** on eemaldatud. Sinu fotod on alles — Manzil ei muutnud kunagi sinu Immichi või Synology kogu.\n\nFotod asuvad nüüd lisamoodulis **Reisilugu**. See on valikuline — kui see pole veel saadaval, palu administraatoril see lubada jaotises Haldus → Lisamoodulid.',
   'system_notice.v3_journey.title': 'Tutvu reisipäevikuga',
   'system_notice.v3_journey.body':
     'Jäädvusta oma reisid lugudena koos ajajoonte, fotogaleriide ja interaktiivsete kaartidega.',
@@ -27,7 +27,7 @@ const system_notice: TranslationStrings = {
   'system_notice.v3_mcp.highlight_tools': 'Laiendatud tööriistad ja viibad',
   'system_notice.v3_thankyou.title': 'Isiklik sõnum minult',
   'system_notice.v3_thankyou.body':
-    'Enne kui lähed, tahaksin korraks peatuda.\n\nTREK sai alguse kõrvalprojektina minu enda reiside jaoks. Ma ei osanud kujutleda, et sellest saab midagi, mida 4000 teist nüüd oma seikluste planeerimiseks usaldab. Iga täht, iga veateade, iga funktsioonisoov — loen neid kõiki ja need annavad mulle jõudu täiskohaga töö ja ülikooli kõrvalt hilisõhtuti jätkata.\n\nTahan, et teaksid: TREK jääb alati avatud lähtekoodiga, ise majutatavaks ja sinu omaks. Ei jälgimist, tellimusi ega varjatud tingimusi. Lihtsalt tööriist inimeselt, kes armastab reisimist sama palju kui sina.\n\nEriline tänu kasutajale [jubnl](https://github.com/jubnl) — sinust on saanud suurepärane kaasautor. Nii paljus selles, mis teeb versiooni 3.0 heaks, on sinu käekiri. Aitäh, et uskusid projekti juba siis, kui see oli veel konarlik.\n\nJa kõigile, kes teatasid veast, tõlkisid teksti, jagasid TREKi sõbraga või lihtsalt kasutasid seda reisi planeerimiseks — **aitäh**. Tänu teile on see olemas.\n\nPalju uusi ühiseid seiklusi!\n\n— Maurice\n\n---\n\n[Liitu kogukonnaga Discordis](https://discord.gg/7Q6M6jDwzf)\n\nKui TREK teeb sinu reisid paremaks, aitab [väike kohv](https://ko-fi.com/mauriceboe) arendusel jätkuda.',
+    'Enne kui lähed, tahaksin korraks peatuda.\n\nTREK sai alguse kõrvalprojektina minu enda reiside jaoks. Ma ei osanud kujutleda, et sellest saab midagi, mida 4000 teist nüüd oma seikluste planeerimiseks usaldab. Iga täht, iga veateade, iga funktsioonisoov — loen neid kõiki ja need annavad mulle jõudu täiskohaga töö ja ülikooli kõrvalt hilisõhtuti jätkata.\n\nTahan, et teaksid: Manzil jääb alati avatud lähtekoodiga, ise majutatavaks ja sinu omaks. Ei jälgimist, tellimusi ega varjatud tingimusi. Lihtsalt tööriist inimeselt, kes armastab reisimist sama palju kui sina.\n\nEriline tänu kasutajale [jubnl](https://github.com/jubnl) — sinust on saanud suurepärane kaasautor. Nii paljus selles, mis teeb versiooni 3.0 heaks, on sinu käekiri. Aitäh, et uskusid projekti juba siis, kui see oli veel konarlik.\n\nJa kõigile, kes teatasid veast, tõlkisid teksti, jagasid TREKi sõbraga või lihtsalt kasutasid seda reisi planeerimiseks — **aitäh**. Tänu teile on see olemas.\n\nPalju uusi ühiseid seiklusi!\n\n— Maurice\n\n---\n\n[Liitu kogukonnaga Discordis](https://discord.gg/7Q6M6jDwzf)\n\nKui Manzil teeb sinu reisid paremaks, aitab [väike kohv](https://ko-fi.com/mauriceboe) arendusel jätkuda.',
   'system_notice.v3014_whitespace_collision.title': 'Vajalik toiming: kasutajakontode konflikt',
   'system_notice.v3014_whitespace_collision.body':
     'Versioonile 3.0.14 uuendamine tuvastas salvestatud kontode alguses või lõpus olevatest tühikutest põhjustatud kasutajanimede või e-posti aadresside kattuvusi. Mõjutatud kontod nimetati automaatselt ümber. Ülevaatamist vajavate kontode leidmiseks otsi serveri logist ridu, mis algavad tekstiga **[migration] WHITESPACE COLLISION**.',
@@ -44,7 +44,7 @@ const system_notice: TranslationStrings = {
   // Thank-you + support the project (shown once per install and once per upgrade)
   'system_notice.thank_you_support.title': 'Aitäh, et kasutad TREKi',
   'system_notice.thank_you_support.body':
-    'Aitäh TREKi paigaldamise eest — see tähendab mulle tõesti palju.\n\nOlen üksikarendaja ja teen TREKi vabal ajal. See algas väikese tööriistana minu enda reiside jaoks ning kogukonna toetus ja huvi on mind siiralt üllatanud. Panen TREKi palju südant, kuid seda on kujundanud ka paljud suurepärased välised kaasautorid.\n\n**TREK on avatud lähtekoodiga ja täiesti tasuta — ning jääb selleks igavesti. Ei tasulisi pakette, tellimusi ega varjatud tingimusi. Luban seda.**\n\nKui TREK on sulle kasulik ja soovid selle arendust toetada, aitab väike kohv mul edasi arendada — täiesti vabatahtlikult, kuid iga tass annab hilisõhtuteks jõudu.\n\nAitäh, et oled siin.\n\n— Maurice',
+    'Aitäh TREKi paigaldamise eest — see tähendab mulle tõesti palju.\n\nOlen üksikarendaja ja teen TREKi vabal ajal. See algas väikese tööriistana minu enda reiside jaoks ning kogukonna toetus ja huvi on mind siiralt üllatanud. Panen TREKi palju südant, kuid seda on kujundanud ka paljud suurepärased välised kaasautorid.\n\n**Manzil on avatud lähtekoodiga ja täiesti tasuta — ning jääb selleks igavesti. Ei tasulisi pakette, tellimusi ega varjatud tingimusi. Luban seda.**\n\nKui Manzil on sulle kasulik ja soovid selle arendust toetada, aitab väike kohv mul edasi arendada — täiesti vabatahtlikult, kuid iga tass annab hilisõhtuteks jõudu.\n\nAitäh, et oled siin.\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': '100% avatud lähtekood GitHubis',
   'system_notice.thank_you_support.highlight_free': 'Igavesti tasuta — tasulisi pakette ei tule',
   'system_notice.thank_you_support.highlight_community': 'Loodud koos kogukonnaga',
@@ -54,7 +54,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'Uuendus paigaldatud',
   'system_notice.release_notes.headline': 'Õige koht, kõige ees.',
   'system_notice.release_notes.intro':
-    'Kohaotsing, aadressiotsing ja teekonnad töötavad nüüd TREKi enda serverites, mida toetab dataforest cloud, ja iga TREK saab jagada oma teadmisi kohtade kohta kõigi teistega.',
+    'Kohaotsing, aadressiotsing ja teekonnad töötavad nüüd TREKi enda serverites, mida toetab dataforest cloud, ja iga Manzil saab jagada oma teadmisi kohtade kohta kõigi teistega.',
   'system_notice.release_notes.features_label': 'Peamised uuendused',
   'system_notice.release_notes.features_aside': 'See pole kaugeltki kõik',
   'system_notice.release_notes.feature_search_title': 'Kohaotsing, mis tabab täppi',
@@ -71,9 +71,9 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.note_eyebrow': 'Sõnum hooldajalt',
   'system_notice.release_notes.note_title': 'Sina oled põhjus, miks ma TREKi arendamist jätkan.',
   'system_notice.release_notes.note_body':
-    'TREK algas väikese tööriistana minu enda reiside jaoks. Kirjutasin seda pärast tööd, sest tahtsin paremat viisi reise planeerida. See polegi õieti lakanud kasvamast. Peaaegu kõik, mida kasutad, on loodud hilisõhtuti, nädalavahetustel ja rongides täiskohaga töö kõrvalt. Paljudel õhtutel mõtlesin vaikselt, kas keegi selle kunagi avab.',
+    'Manzil algas väikese tööriistana minu enda reiside jaoks. Kirjutasin seda pärast tööd, sest tahtsin paremat viisi reise planeerida. See polegi õieti lakanud kasvamast. Peaaegu kõik, mida kasutad, on loodud hilisõhtuti, nädalavahetustel ja rongides täiskohaga töö kõrvalt. Paljudel õhtutel mõtlesin vaikselt, kas keegi selle kunagi avab.',
   'system_notice.release_notes.promise_label': 'Lubadus',
-  'system_notice.release_notes.promise_lead': 'TREK jääb igavesti tasuta.',
+  'system_notice.release_notes.promise_lead': 'Manzil jääb igavesti tasuta.',
   'system_notice.release_notes.promise_text':
     'Iga funktsioon ja iga uuendus kõigile. Ei tasulisi pakette, tellimusi ega varjatud tingimusi.',
   'system_notice.release_notes.note_body_after':

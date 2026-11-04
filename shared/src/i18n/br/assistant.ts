@@ -256,7 +256,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} dias',
   'assistant.admin.retentionDays.one': '{count} dia',
   'assistant.admin.retentionForever': 'Para sempre',
-  'assistant.mobile.tile': 'Pergunte ao TREK',
+  'assistant.mobile.tile': 'Pergunte ao Manzil',
   'assistant.mobile.tileHint': 'Planeje com o assistente',
   'assistant.mobile.backToChat': 'Voltar ao chat',
   'assistant.step.nearbyAt': 'Buscando perto de {place}',
@@ -484,7 +484,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': 'Encontrei {count} reserva em {name}. Adicione abaixo se estiver certa.',
   'assistant.attach.none': 'Não encontrei nenhuma reserva em {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'A leitura por IA não está configurada para importações aqui, então só o leitor próprio do TREK analisou o arquivo.',
+    'A leitura por IA não está configurada para importações aqui, então só o leitor próprio do Manzil analisou o arquivo.',
   'assistant.attach.why.aiFailed': 'O leitor de IA não conseguiu ler o arquivo.',
   'assistant.attach.why.noText': 'O arquivo não tem texto legível, provavelmente é uma digitalização.',
   'assistant.attach.why.nothingFound': 'Nada nele parece uma reserva.',

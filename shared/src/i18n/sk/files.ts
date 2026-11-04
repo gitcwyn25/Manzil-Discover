@@ -67,9 +67,9 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'Trvalo zmazať všetky súbory v koši? Túto akciu nie je možné vrátiť.',
   'files.noteLabel': 'Poznámka',
   'files.notePlaceholder': 'Pridať poznámku...',
-  'files.uploadNeedsConnection': 'Nahrávanie potrebuje pripojenie. Skús to znova, keď bude TREK opäť online.',
+  'files.uploadNeedsConnection': 'Nahrávanie potrebuje pripojenie. Skús to znova, keď bude Manzil opäť online.',
   'files.linkNeedsConnection':
-    'Odstránenie tohto prepojenia potrebuje pripojenie. Skús to znova, keď bude TREK opäť online.',
+    'Odstránenie tohto prepojenia potrebuje pripojenie. Skús to znova, keď bude Manzil opäť online.',
   'files.placeFilesNeedConnection':
     'Súbory potrebujú na nahranie pripojenie. Odstráň nové, aby si miesto uložil offline, alebo ulož, keď budeš opäť online.',
   'files.maxSize': 'Max. {count} MB',

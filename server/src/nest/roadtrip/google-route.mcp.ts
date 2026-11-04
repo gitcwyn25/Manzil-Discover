@@ -43,7 +43,7 @@ export class GoogleRouteMcp {
   @Tool({
     name: 'import_google_maps_route',
     description:
-      'Append reviewed Google Maps stops to an existing trip day in supplied order. Creates places and visits atomically. Requires place and day editing permissions. Existing visits remain. TREK calculates the road geometry; no Google route geometry is preserved.',
+      'Append reviewed Google Maps stops to an existing trip day in supplied order. Creates places and visits atomically. Requires place and day editing permissions. Existing visits remain. Manzil calculates the road geometry; no Google route geometry is preserved.',
     inputSchema: {
       tripId: idSchema,
       ...googleRouteImportSchema.shape,

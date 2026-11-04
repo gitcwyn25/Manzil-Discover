@@ -14,7 +14,7 @@ export const FOLLOW_UPS_SPEC: AiToolSpec = {
   description:
     'Offer the user up to three short questions or requests they are likely to send next, shown as one-tap chips ' +
     'under your answer. Call it once, last, after your answer is written, together with nothing else. Each must ' +
-    'follow from what was just discussed and the part of TREK it is about (a planned hike: an easier variant, what ' +
+    'follow from what was just discussed and the part of Manzil it is about (a planned hike: an easier variant, what ' +
     'to pack; a budget: who owes whom), be written as the user would say it, in their language, and be something ' +
     'you can do. Never repeat what was just done; skip it when nothing sensible follows.',
   parameters: {

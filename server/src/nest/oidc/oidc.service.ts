@@ -447,7 +447,7 @@ export class OidcService implements OnModuleDestroy {
         `[OIDC] User ${user.id} (${user.username}) is stored as an admin and the configured OIDC_ADMIN_CLAIM ` +
           `"${resolution.claimKey}" was not in their userinfo response, so the admin role is kept. Providers that omit a ` +
           `claim instead of sending it empty (Okta filtered groups, Entra ID) cannot take admin away this way — remove it ` +
-          `in TREK's admin panel. ${received} ${scopeHint}`,
+          `in Manzil's admin panel. ${received} ${scopeHint}`,
       );
       return;
     }
@@ -747,6 +747,7 @@ export class OidcService implements OnModuleDestroy {
     userInfo: OidcUserInfo,
     config: OidcConfig,
     inviteToken?: string,
+    identityPolicy: 'oidc' | 'supabase' = 'oidc',
   ): Promise<{ user: User; roleChange?: OidcRoleChange; created?: true } | { error: string }> {
     // Defense-in-depth for direct callers — the controller redirects on a
     // missing email before it ever calls this; the same code flows through its
@@ -759,12 +760,17 @@ export class OidcService implements OnModuleDestroy {
 
     // Try to find existing user by sub, then by email
     let user = await this.usersRepo.findByOidcIdentity(sub, config.issuer);
+    if (identityPolicy === 'supabase' && user) {
+      if (user.is_guest) return { error: 'invalid_identity' };
+      return { user: toClientUser(user) };
+    }
     if (!user) {
       // Never link/log-in to a guest (#1362) via its synthetic email.
       // `email` is already JS-lowered above (O4 shape) — findByEmailLoweredBind
       // mirrors the legacy `LOWER(email) = ?` statement exactly; do not use
       // findByEmailCI here, it is AU12's `LOWER(email) = LOWER(?)` shape.
       user = await this.usersRepo.findByEmailLoweredBind(email);
+      if (identityPolicy === 'supabase' && user) return { error: 'identity_link_required' };
     }
 
     if (user) {
@@ -776,6 +782,7 @@ export class OidcService implements OnModuleDestroy {
     // --- New user registration ---
     const userCount = await this.usersRepo.countNonGuest();
     const isFirstUser = userCount === 0;
+    if (identityPolicy === 'supabase' && isFirstUser) return { error: 'owner_setup_required' };
 
     let validInvite: InviteTokenRow | null = null;
     if (inviteToken) {
@@ -787,8 +794,8 @@ export class OidcService implements OnModuleDestroy {
     }
 
     if (!isFirstUser && !validInvite) {
-      const { oidc_registration } = await this.auth.resolveAuthToggles();
-      if (!oidc_registration) {
+      const toggles = await this.auth.resolveAuthToggles();
+      if (!(identityPolicy === 'supabase' ? toggles.password_registration : toggles.oidc_registration)) {
         return { error: 'registration_disabled' };
       }
     }
@@ -796,8 +803,8 @@ export class OidcService implements OnModuleDestroy {
     // Same three outcomes as above; a missing claim here means the account is
     // created with the role it would have had without any mapping at all.
     const resolution = this.resolveOidcRoleDetailed(userInfo, isFirstUser);
-    if (resolution.claimMissing) this.warnMissingAdminClaim(resolution, null);
-    const role = resolution.role;
+    if (identityPolicy !== 'supabase' && resolution.claimMissing) this.warnMissingAdminClaim(resolution, null);
+    const role = identityPolicy === 'supabase' ? 'user' : resolution.role;
     const randomPass = crypto.randomBytes(32).toString('hex');
     const hash = bcrypt.hashSync(randomPass, 10);
 
@@ -828,6 +835,7 @@ export class OidcService implements OnModuleDestroy {
           first_seen_version: readEnv().app.appVersion || '0.0.0',
           oidc_sub: sub,
           oidc_issuer: config.issuer,
+          ...(identityPolicy === 'supabase' ? { email_self_asserted: 1 } : {}),
           avatar: picture,
         });
         // Trip-bound invite (#1402): auto-add the new SSO user to the trip inside the

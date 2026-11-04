@@ -7,7 +7,7 @@ const et: NotificationLocale = {
     footer: 'Said selle kirja, sest oled TREKis teavitused lubanud.',
     manage: 'Halda eelistusi seadetes',
     madeWith: 'Loodud rakendusega',
-    openTrek: 'Ava TREK',
+    openTrek: 'Ava Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -28,15 +28,15 @@ const et: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Kutse puhkuseplaanide ühendamiseks',
-      body: `${p.actor} kutsus sind puhkuseplaane ühendama. Nõustumiseks või keeldumiseks ava TREK.`,
+      body: `${p.actor} kutsus sind puhkuseplaane ühendama. Nõustumiseks või keeldumiseks ava Manzil.`,
     }),
     vacay_share: (p) => ({
       title: 'Puhkusekalender jagatud',
-      body: `${p.actor} jagas sinuga oma puhkusekalendrit. Vaatamiseks ava TREK.`,
+      body: `${p.actor} jagas sinuga oma puhkusekalendrit. Vaatamiseks ava Manzil.`,
     }),
     collection_invite: (p) => ({
       title: 'Kogumiku kutse',
-      body: `${p.actor} kutsus sind kogumikku jagama. Nõustumiseks või keeldumiseks ava TREK.`,
+      body: `${p.actor} kutsus sind kogumikku jagama. Nõustumiseks või keeldumiseks ava Manzil.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'et', { one: `Jagatud ${p.count} foto`, other: `Jagatud ${p.count} fotot` }),
@@ -55,7 +55,7 @@ const et: NotificationLocale = {
     }),
     version_available: (p) => ({
       title: 'TREKi uus versioon on saadaval',
-      body: `TREK ${p.version} on nüüd saadaval. Uuendamiseks ava halduspaneel.`,
+      body: `Manzil ${p.version} on nüüd saadaval. Uuendamiseks ava halduspaneel.`,
     }),
     replica_failure: (p) => ({
       title: 'Salvestuskoopia tõrge',

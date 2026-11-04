@@ -10,7 +10,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Oturum açılıyor…',
   'login.signIn': 'Oturum Aç',
   'login.createAdmin': 'Yönetici Hesabı Oluştur',
-  'login.createAdminHint': 'TREK için ilk yönetici hesabını kurun.',
+  'login.createAdminHint': 'Manzil için ilk yönetici hesabını kurun.',
   'login.setNewPassword': 'Yeni Şifre Belirle',
   'login.setNewPasswordHint': 'Devam etmeden önce şifrenizi değiştirmelisiniz.',
   'login.createAccount': 'Hesap Oluşturmak',
@@ -77,7 +77,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Passkey ile oturum açma başarısız oldu. Lütfen tekrar deneyin.',
   'login.insecureCookie.title': 'Giriş HTTP üzerinden kalıcı olmaz',
   'login.insecureCookie.body':
-    'Düz HTTP ile bağlanıyorsun, bu yüzden tarayıcın TREK\'in güvenli oturum çerezini atıyor ve sonraki istek "Access token required" hatasıyla başarısız oluyor. Çözüm: HTTPS kullan ya da ev sunucusu için COOKIE_SECURE=false ayarla.',
+    'Düz HTTP ile bağlanıyorsun, bu yüzden tarayıcın Manzil\'in güvenli oturum çerezini atıyor ve sonraki istek "Access token required" hatasıyla başarısız oluyor. Çözüm: HTTPS kullan ya da ev sunucusu için COOKIE_SECURE=false ayarla.',
   'login.insecureCookie.link': 'Sorun giderme kılavuzunu aç',
 };
 export default login;

@@ -267,7 +267,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays.few': '{count} dni',
   'assistant.admin.retentionDays.many': '{count} dni',
   'assistant.admin.retentionForever': 'Zawsze',
-  'assistant.mobile.tile': 'Zapytaj TREK',
+  'assistant.mobile.tile': 'Zapytaj Manzil',
   'assistant.mobile.tileHint': 'Planuj z asystentem',
   'assistant.mobile.backToChat': 'Wróć do czatu',
   'assistant.step.nearbyAt': 'Szuka w pobliżu: {place}',
@@ -528,7 +528,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.many': 'Znalazłem w pliku {name} {count} rezerwacji. Dodaj poniżej te, które chcesz.',
   'assistant.attach.none': 'Nie znalazłem żadnej rezerwacji w pliku {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Odczyt przez AI nie jest tu skonfigurowany dla importów, więc plik sprawdził tylko własny czytnik TREK.',
+    'Odczyt przez AI nie jest tu skonfigurowany dla importów, więc plik sprawdził tylko własny czytnik Manzil.',
   'assistant.attach.why.aiFailed': 'Czytnik AI nie zdołał go odczytać.',
   'assistant.attach.why.noText': 'Nie zawiera czytelnego tekstu, to najpewniej skan.',
   'assistant.attach.why.nothingFound': 'Nic w nim nie wygląda na rezerwację.',

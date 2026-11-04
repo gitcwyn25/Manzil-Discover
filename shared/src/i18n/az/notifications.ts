@@ -19,7 +19,7 @@ const notifications: TranslationStrings = {
     'Serveriniz və ya hesabınız dəyişib — bağlantını yenidən yoxlamaq üçün Tənzimləmələr bölməsinə keçin.',
 
   'notifications.versionAvailable.title': 'Yeniləmə əlçatandır',
-  'notifications.versionAvailable.text': 'TREK {version} artıq əlçatandır.',
+  'notifications.versionAvailable.text': 'Manzil {version} artıq əlçatandır.',
   'notifications.versionAvailable.button': 'Təfərrüatlara bax',
 
   'notifications.test.title': '{actor} tərəfindən test bildirişi',

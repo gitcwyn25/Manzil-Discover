@@ -401,6 +401,10 @@ export function deriveAll(raw: RawEnv) {
     demo: deriveDemo(raw),
     adminBootstrap: deriveAdminBootstrap(raw),
     oidc: deriveOidc(raw),
+    supabase: {
+      url: (raw.SUPABASE_URL || '').trim().replace(/\/+$/, ''),
+      publishableKey: (raw.SUPABASE_PUBLISHABLE_KEY || '').trim(),
+    },
     smtp: deriveSmtp(raw),
     mcp: deriveMcp(raw),
     plugins: derivePlugins(raw),

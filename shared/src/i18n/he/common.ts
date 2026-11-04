@@ -79,9 +79,9 @@ const common: TranslationStrings = {
   'common.errorRetry': 'נסו שוב',
   'common.errorReload': 'רענון העמוד',
   'common.errorUpdateTitle': 'גרסה חדשה זמינה',
-  'common.errorUpdateBody': 'TREK עודכן בזמן שהלשונית הייתה פתוחה. רעננו כדי לקבל את הגרסה החדשה.',
+  'common.errorUpdateBody': 'Manzil עודכן בזמן שהלשונית הייתה פתוחה. רעננו כדי לקבל את הגרסה החדשה.',
   'common.errorPluginTitle': 'לא ניתן להציג את התוסף הזה',
-  'common.needsConnection': 'הפעולה הזו דורשת חיבור. נסו שוב כש-TREK יחזור לרשת.',
+  'common.needsConnection': 'הפעולה הזו דורשת חיבור. נסו שוב כש-Manzil יחזור לרשת.',
 };
 
 export default common;

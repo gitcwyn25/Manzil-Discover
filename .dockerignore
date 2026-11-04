@@ -6,6 +6,8 @@ client/dist
 shared/dist
 data
 uploads
+**/data
+**/uploads
 .git
 .github
 **/.env
@@ -35,5 +37,5 @@ server/tests/
 server/vitest.config.ts
 **/*.test.ts
 **/*.spec.ts
-scripts/
+!NOTICE.md
 charts/

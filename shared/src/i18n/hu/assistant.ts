@@ -487,7 +487,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': '{count} foglalást találtam ebben: {name}. Add hozzá lent, ha jónak tűnik.',
   'assistant.attach.none': 'Nem találtam foglalást ebben: {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Az importáláshoz itt nincs beállítva a mesterséges intelligenciával történő olvasás, ezért csak a TREK saját olvasója nézte meg.',
+    'Az importáláshoz itt nincs beállítva a mesterséges intelligenciával történő olvasás, ezért csak a Manzil saját olvasója nézte meg.',
   'assistant.attach.why.aiFailed': 'A mesterséges intelligencia olvasója nem tudta elolvasni.',
   'assistant.attach.why.noText': 'Nincs benne olvasható szöveg, valószínűleg szkennelt dokumentum.',
   'assistant.attach.why.nothingFound': 'Semmi sem hasonlít benne foglalásra.',

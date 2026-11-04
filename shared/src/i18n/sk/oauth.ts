@@ -79,10 +79,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.loading': 'Načítava sa…',
   'oauth.authorize.errorTitle': 'Chyba autorizácie',
   'oauth.authorize.loginTitle': 'Pre pokračovanie sa prihláste',
-  'oauth.authorize.loginDescription': '{client} žiada o prístup k vášmu účtu TREK. Najprv sa prosím prihláste.',
-  'oauth.authorize.loginButton': 'Prihlásiť sa do TREK',
+  'oauth.authorize.loginDescription': '{client} žiada o prístup k vášmu účtu Manzil. Najprv sa prosím prihláste.',
+  'oauth.authorize.loginButton': 'Prihlásiť sa do Manzil',
   'oauth.authorize.requestLabel': 'Žiadosť o autorizáciu',
-  'oauth.authorize.requestDescription': 'Táto aplikácia žiada o prístup k vášmu účtu TREK.',
+  'oauth.authorize.requestDescription': 'Táto aplikácia žiada o prístup k vášmu účtu Manzil.',
   'oauth.authorize.verifiedHost': 'Overená doména: {host}',
   'oauth.authorize.trustNote':
     'Prístup udeľujte len aplikáciám, ktorým dôverujete. Vaše dáta zostávajú na vašom serveri.',

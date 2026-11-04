@@ -75,7 +75,7 @@ const storage: TranslationStrings = {
   'storage.category.avatars': 'Profil şəkilləri',
   'storage.category.places': 'Məkan şəkilləri',
   'storage.category.photos-google': 'Google foto keşi',
-  'storage.category.photos-trek': 'TREK foto keşi',
+  'storage.category.photos-trek': 'Manzil foto keşi',
   'storage.category.backups': 'Ehtiyat nüsxələr',
   // What each category stores — rendered under the label in the category map.
   'storage.categoryDesc.files':
@@ -89,7 +89,7 @@ const storage: TranslationStrings = {
   'storage.categoryDesc.photos-google':
     'Google Places fotolarının keşlənmiş nüsxələri — yenidən əldə edilə bilər, itirilməsi təhlükəsizdir.',
   'storage.categoryDesc.photos-trek':
-    'Xatirələr bölməsində istifadə edilən TREK foto xidmətindən keşlənmiş fotolar — yenidən əldə edilə bilər, itirilməsi təhlükəsizdir.',
+    'Xatirələr bölməsində istifadə edilən Manzil foto xidmətindən keşlənmiş fotolar — yenidən əldə edilə bilər, itirilməsi təhlükəsizdir.',
   'storage.categoryDesc.backups':
     'Ehtiyat nüsxə paneli və ya cədvəl vasitəsilə yaradılmış server ehtiyat nüsxəsi arxivləri.',
   // Health strip

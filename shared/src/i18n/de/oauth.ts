@@ -83,7 +83,7 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': 'Autorisierungsfehler',
   'oauth.authorize.loginTitle': 'Melde dich an, um fortzufahren',
   'oauth.authorize.loginDescription': '{client} möchte auf dein TREK-Konto zugreifen. Bitte melde dich zuerst an.',
-  'oauth.authorize.loginButton': 'Bei TREK anmelden',
+  'oauth.authorize.loginButton': 'Bei Manzil anmelden',
   'oauth.authorize.requestLabel': 'Autorisierungsanfrage',
   'oauth.authorize.requestDescription': 'Diese Anwendung bittet um Zugriff auf dein TREK-Konto.',
   'oauth.authorize.verifiedHost': 'Bestätigte Domain: {host}',

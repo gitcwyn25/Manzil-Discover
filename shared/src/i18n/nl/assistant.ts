@@ -257,7 +257,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} dagen',
   'assistant.admin.retentionDays.one': '{count} dag',
   'assistant.admin.retentionForever': 'Voor altijd',
-  'assistant.mobile.tile': 'Vraag het TREK',
+  'assistant.mobile.tile': 'Vraag het Manzil',
   'assistant.mobile.tileHint': 'Plan met de assistent',
   'assistant.mobile.backToChat': 'Terug naar chat',
   'assistant.step.nearbyAt': 'Zoekt in de buurt van {place}',
@@ -485,7 +485,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': 'Ik heb {count} boeking gevonden in {name}. Voeg die hieronder toe als hij klopt.',
   'assistant.attach.none': 'Ik heb geen boeking gevonden in {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Lezen met AI is hier niet ingesteld voor imports, dus alleen de eigen lezer van TREK heeft ernaar gekeken.',
+    'Lezen met AI is hier niet ingesteld voor imports, dus alleen de eigen lezer van Manzil heeft ernaar gekeken.',
   'assistant.attach.why.aiFailed': 'De AI-lezer kon het niet lezen.',
   'assistant.attach.why.noText': 'Er staat geen leesbare tekst in, het is waarschijnlijk een scan.',
   'assistant.attach.why.nothingFound': 'Niets erin lijkt op een boeking.',

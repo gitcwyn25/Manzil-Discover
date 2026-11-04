@@ -41,9 +41,9 @@ const settings: TranslationStrings = {
     'Vlastná Valhalla, ktorej sa pýta, keď je smerovacia služba vyššie nastavená na ňu alebo na Automaticky. Ak je nastavená iba vlastná smerovacia inštancia a nie je zvolená žiadna smerovacia služba, žiadna Valhalla sa nepýta. Po zadaní URL reštartujte server a znovu načítajte stránku.',
   'settings.valhallaProvider': 'Smerovacia služba',
   'settings.valhallaProviderHint':
-    'So službami TREK alebo vlastnou Valhallou počíta všetky trasy Valhalla: dni a cestné výlety pešo, na bicykli aj autom, trasy bez mýta, diaľnic alebo trajektov a trasy, výšky a cesty výletov. Keď nemôže odpovedať, vypočíta daný deň OSRM. Služby TREK sa pýtajú cez tento server. S verejnou Valhallou FOSSGIS počíta trasy OSRM a Valhalla odpovedá len na to, čo OSRM nevie. Automaticky sa pýta služieb TREK, pokiaľ nie je nastavená vlastná Valhalla alebo iba vlastná smerovacia inštancia.',
+    'So službami Manzil alebo vlastnou Valhallou počíta všetky trasy Valhalla: dni a cestné výlety pešo, na bicykli aj autom, trasy bez mýta, diaľnic alebo trajektov a trasy, výšky a cesty výletov. Keď nemôže odpovedať, vypočíta daný deň OSRM. Služby Manzil sa pýtajú cez tento server. S verejnou Valhallou FOSSGIS počíta trasy OSRM a Valhalla odpovedá len na to, čo OSRM nevie. Automaticky sa pýta služieb Manzil, pokiaľ nie je nastavená vlastná Valhalla alebo iba vlastná smerovacia inštancia.',
   'settings.valhallaProviderOption.auto': 'Automaticky',
-  'settings.valhallaProviderOption.trek': 'Služby TREK',
+  'settings.valhallaProviderOption.trek': 'Služby Manzil',
   'settings.valhallaProviderOption.fossgis': 'Verejná Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Vlastná inštancia Valhally',
   'settings.mapHint': 'URL šablóna pre mapové dlaždice',
@@ -60,7 +60,7 @@ const settings: TranslationStrings = {
   'settings.mapCartoKeyHint': 'Podkladové mapy CARTO sa bez kľúča zobrazujú s vodoznakom. Zadarmo a bez účtu, na',
   'settings.mapCartoKeyLink': 'carto.com API kľúč pre podkladové mapy',
   'settings.mapCartoKeyMissing':
-    'Táto šablóna je podkladová mapa CARTO. Bez kľúča CARTO vypáli do každej dlaždice nápis "API KEY REQUIRED". Kým kľúč nezadáte, TREK zobrazuje predvolenú podkladovú mapu.',
+    'Táto šablóna je podkladová mapa CARTO. Bez kľúča CARTO vypáli do každej dlaždice nápis "API KEY REQUIRED". Kým kľúč nezadáte, Manzil zobrazuje predvolenú podkladovú mapu.',
   'settings.mapStyle': 'Štýl mapy',
   'settings.mapStylePlaceholder': 'Vyberte štýl Mapbox',
   'settings.mapStyleHint': 'Predvoľba alebo vaša vlastná URL mapbox://styles/USER/ID',
@@ -145,15 +145,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Push oznámenia v tomto zariadení',
   'settings.webPush.hint':
-    'Zobrazuje oznámenia TREK v tomto zariadení, aj keď je TREK zatvorený. Ktoré udalosti prídu, určuje stĺpec Push.',
+    'Zobrazuje oznámenia Manzil v tomto zariadení, aj keď je Manzil zatvorený. Ktoré udalosti prídu, určuje stĺpec Push.',
   'settings.webPush.enable': 'Zapnúť pre toto zariadenie',
   'settings.webPush.disable': 'Vypnúť pre toto zariadenie',
   'settings.webPush.enabled': 'Zapnuté pre toto zariadenie',
   'settings.webPush.unsupported': 'Tento prehliadač nedokáže prijímať push oznámenia.',
-  'settings.webPush.insecure': 'Push vyžaduje, aby bol TREK otvorený cez HTTPS.',
-  'settings.webPush.iosInstall': 'Na iPhone a iPade najprv pridajte TREK na plochu a otvorte ho odtiaľ.',
+  'settings.webPush.insecure': 'Push vyžaduje, aby bol Manzil otvorený cez HTTPS.',
+  'settings.webPush.iosInstall': 'Na iPhone a iPade najprv pridajte Manzil na plochu a otvorte ho odtiaľ.',
   'settings.webPush.denied':
-    'Oznámenia pre TREK sú v tomto prehliadači zablokované. Povoľte ich v nastaveniach prehliadača a skúste to znova.',
+    'Oznámenia pre Manzil sú v tomto prehliadači zablokované. Povoľte ich v nastaveniach prehliadača a skúste to znova.',
   'settings.webPush.failed': 'Push sa pre toto zariadenie nepodarilo zapnúť.',
   'settings.notificationPreferences.noChannels':
     'Nie sú nakonfigurované žiadne kanály oznámení. Požiadajte správcu o nastavenie e-mailových alebo webhookových oznámení.',
@@ -276,19 +276,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Navrhnite novú funkciu',
   'settings.about.wikiHint': 'Dokumentácia a návody',
   'settings.about.sponsor.eyebrow': 'Sponzorovaná infraštruktúra',
-  'settings.about.sponsor.title': 'Vlastné servery TREK bežia na dataforest cloud',
+  'settings.about.sponsor.title': 'Vlastné servery Manzil bežia na dataforest cloud',
   'settings.about.sponsor.body':
-    'Vyhľadávanie miest, vyhľadávanie adries a trasy pochádzajú z vlastných serverov TREK namiesto od Google a spol. a stroje, na ktorých bežia, sponzoruje dataforest cloud.',
+    'Vyhľadávanie miest, vyhľadávanie adries a trasy pochádzajú z vlastných serverov Manzil namiesto od Google a spol. a stroje, na ktorých bežia, sponzoruje dataforest cloud.',
   'settings.about.sponsor.cta': 'Navštíviť dataforest cloud',
   'settings.about.sponsor.search': 'Vyhľadávanie miest',
   'settings.about.sponsor.address': 'Vyhľadávanie adries',
   'settings.about.sponsor.routing': 'Trasy',
   'settings.about.descriptionManaged':
-    'TREK vám pomáha organizovať vaše cesty od prvého nápadu po poslednú spomienku. Denné plánovanie, rozpočet, zoznamy balenia, fotky a oveľa viac — všetko na jednom mieste.',
+    'Manzil vám pomáha organizovať vaše cesty od prvého nápadu po poslednú spomienku. Denné plánovanie, rozpočet, zoznamy balenia, fotky a oveľa viac — všetko na jednom mieste.',
   'settings.about.sourceTitle': 'Zdrojový kód',
   'settings.about.sourceHint': 'TREK je open source, licencovaný pod AGPL-3.0',
   'settings.about.supporters.badge': 'Mesační podporovatelia',
-  'settings.about.supporters.title': 'Spoločníci na ceste s TREK',
+  'settings.about.supporters.title': 'Spoločníci na ceste s Manzil',
   'settings.about.supporters.subtitle':
     'Kým plánujete svoju ďalšiu trasu, títo ľudia pomáhajú plánovať budúcnosť TREK. Ich mesačný príspevok ide priamo do vývoja a reálne strávených hodín — aby TREK zostal Open Source.',
   'settings.about.supporters.since': 'podporovateľ od {date}',
@@ -299,7 +299,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Lacný cestovateľ',
   'settings.about.supporter.tier.hostelBunkmate': 'Spolubbývajúci z hostela',
   'settings.about.description':
-    'TREK je samohostovaný plánovač ciest, ktorý vám pomáha organizovať vaše cesty od prvého nápadu po poslednú spomienku. Denné plánovanie, rozpočet, zoznamy balenia, fotky a oveľa viac — všetko na jednom mieste, na vašom vlastnom serveri.',
+    'Manzil je samohostovaný plánovač ciest, ktorý vám pomáha organizovať vaše cesty od prvého nápadu po poslednú spomienku. Denné plánovanie, rozpočet, zoznamy balenia, fotky a oveľa viac — všetko na jednom mieste, na vašom vlastnom serveri.',
   'settings.about.madeWith': 'Vytvorené s',
   'settings.about.madeBy': 'Mauriceom a rastúcou open-source komunitou.',
   'settings.username': 'Používateľské meno',
@@ -415,7 +415,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Povoľte iba pre dôveryhodnú inštanciu vo vlastnej sieti.',
   'settings.airtrail.writeBack': 'Zapisovať zmeny späť do AirTrail',
   'settings.airtrail.writeBackHint':
-    'V predvolenom stave vypnuté: AirTrail je zdrojom pravdy a TREK z neho iba číta. Zapnite, ak chcete odosielať úpravy vykonané v TREK späť do AirTrail.',
+    'V predvolenom stave vypnuté: AirTrail je zdrojom pravdy a Manzil z neho iba číta. Zapnite, ak chcete odosielať úpravy vykonané v Manzil späť do AirTrail.',
   'settings.airtrail.connected': 'Pripojené',
   'settings.airtrail.notConnected': 'Nepripojené',
   'settings.airtrail.toast.saved': 'Pripojenie k AirTrail uložené',
@@ -534,7 +534,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Prehľad',
   'settings.startPageActiveTrip': 'Aktívna cesta',
   'settings.startPageHint':
-    'TREK sa otvorí rovno na ceste, ktorá práve prebieha, alebo na najbližšej nadchádzajúcej. Je to tá istá cesta, ktorú zvýrazňuje prehľad.',
+    'Manzil sa otvorí rovno na ceste, ktorá práve prebieha, alebo na najbližšej nadchádzajúcej. Je to tá istá cesta, ktorú zvýrazňuje prehľad.',
   'settings.startTripTab': 'Úvodná karta',
   'settings.startTripTabHint':
     'Karta, na ktorej sa cesta otvorí. Ak patrí k doplnku, ktorý ste vypli, otvorí sa namiesto nej zobrazenie plánu.',

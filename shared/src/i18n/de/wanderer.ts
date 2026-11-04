@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer-Verbindung entfernt',
   'wanderer.loadFailed': 'Die wanderer-Verbindung konnte nicht geladen werden',
   'wanderer.privateIp':
-    'Diese Adresse liegt in einem privaten Netzwerk. Wenn TREK sie nicht erreicht, muss der Administrator interne Netzwerke erlauben.',
+    'Diese Adresse liegt in einem privaten Netzwerk. Wenn Manzil sie nicht erreicht, muss der Administrator interne Netzwerke erlauben.',
   'wanderer.error.disabled': 'Dein Admin hat wanderer für Touren nicht aktiviert.',
   'wanderer.error.not_connected': 'wanderer ist noch nicht verbunden.',
   'wanderer.error.invalid_url': 'Diese Adresse ist keine gültige wanderer-URL.',
   'wanderer.error.blocked_address':
-    'TREK darf diese Adresse nicht erreichen. Für eine Instanz in deinem eigenen Netzwerk muss der Administrator ALLOW_INTERNAL_NETWORK=true setzen.',
+    'Manzil darf diese Adresse nicht erreichen. Für eine Instanz in deinem eigenen Netzwerk muss der Administrator ALLOW_INTERNAL_NETWORK=true setzen.',
   'wanderer.error.unreachable': 'wanderer war nicht erreichbar. Prüfe die Adresse und ob die Instanz läuft.',
   'wanderer.error.tls':
     'Das Zertifikat der Instanz konnte nicht geprüft werden. Ein selbstsigniertes kannst du unten zulassen.',
@@ -38,7 +38,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Die Antwort kam nicht von wanderer. Prüfe, ob die Adresse auf wanderer selbst zeigt.',
   'wanderer.error.no_author':
-    'wanderer hat geantwortet, nennt für das Konto dieses API-Tokens aber keinen Trail-Autor. TREK kann deshalb nicht erkennen, welche Trails deine sind.',
+    'wanderer hat geantwortet, nennt für das Konto dieses API-Tokens aber keinen Trail-Autor. Manzil kann deshalb nicht erkennen, welche Trails deine sind.',
   'wanderer.error.too_large': 'Die Trail-Datei ist größer als 10 MB.',
   'wanderer.error.server_error': 'wanderer hat mit einem Fehler geantwortet. Versuche es später noch einmal.',
   'wanderer.error.offline': 'Du bist offline. wanderer lässt sich nur online durchsuchen.',

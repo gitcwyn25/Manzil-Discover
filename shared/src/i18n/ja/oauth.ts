@@ -80,10 +80,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': '認可エラー',
   'oauth.authorize.loginTitle': '続行するにはサインインしてください',
   'oauth.authorize.loginDescription':
-    '{client} が TREK アカウントへのアクセスを求めています。先にサインインしてください。',
-  'oauth.authorize.loginButton': 'TREK にサインイン',
+    '{client} が Manzil アカウントへのアクセスを求めています。先にサインインしてください。',
+  'oauth.authorize.loginButton': 'Manzil にサインイン',
   'oauth.authorize.requestLabel': '認可リクエスト',
-  'oauth.authorize.requestDescription': 'このアプリケーションが TREK アカウントへのアクセスを求めています。',
+  'oauth.authorize.requestDescription': 'このアプリケーションが Manzil アカウントへのアクセスを求めています。',
   'oauth.authorize.verifiedHost': '確認済みのドメイン: {host}',
   'oauth.authorize.trustNote':
     '信頼できるアプリケーションにのみアクセスを許可してください。データはお使いのサーバーに保管されたままです。',

@@ -703,7 +703,7 @@ export class PluginRuntimeService implements OnApplicationBootstrap, OnModuleDes
     const apiVersion = row.api_version ?? 1;
     if (apiVersion > PLUGIN_API_VERSION) {
       throw new PluginDependencyError(
-        `plugin requires plugin-API v${apiVersion}; this TREK supports v${PLUGIN_API_VERSION}`,
+        `plugin requires plugin-API v${apiVersion}; this Manzil supports v${PLUGIN_API_VERSION}`,
         'API_VERSION_INCOMPATIBLE',
       );
     }
@@ -906,7 +906,7 @@ export class PluginRuntimeService implements OnApplicationBootstrap, OnModuleDes
     const target = await this.registry.resolveVersion(id); // throws TREK_VERSION_INCOMPATIBLE if nothing fits
     if (installedVersion && semver.valid(installedVersion) && !semver.gt(target.version, installedVersion)) {
       throw new RegistryError(
-        `no update available for ${id} on TREK ${hostVersion()} — ${installedVersion} is already the newest compatible version`,
+        `no update available for ${id} on Manzil ${hostVersion()} — ${installedVersion} is already the newest compatible version`,
         'NO_COMPATIBLE_UPDATE',
       );
     }

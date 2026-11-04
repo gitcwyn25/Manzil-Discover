@@ -64,7 +64,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved': '配置できなかった停車地が {count} か所',
   'assistant.card.roadtrip.dayRoute.after': '{name} の後',
   'assistant.card.roadtrip.dayRoute.follows': '{name} に沿う',
-  'assistant.card.roadtrip.dayRoute.sketch': '今は直線です。変更を適用すると TREK が道路を計算します。',
+  'assistant.card.roadtrip.dayRoute.sketch': '今は直線です。変更を適用すると Manzil が道路を計算します。',
   'assistant.card.roadtrip.dayEnd.at': '一日は {name} で終わります',
   'assistant.card.roadtrip.dayEnd.along': '一日は {name} の後、走行の {percent} % 地点で終わります',
   'assistant.card.roadtrip.dayEnd.auto': '一日は再び自動で終わります',

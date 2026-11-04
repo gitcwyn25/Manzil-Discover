@@ -67,8 +67,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'למחוק לצמיתות את כל הקבצים בסל המחזור? לא ניתן לבטל פעולה זו.',
   'files.noteLabel': 'הערה',
   'files.notePlaceholder': 'הוספת הערה...',
-  'files.uploadNeedsConnection': 'העלאה דורשת חיבור. נסו שוב כש-TREK יחזור לרשת.',
-  'files.linkNeedsConnection': 'הסרת הקישור הזה דורשת חיבור. נסו שוב כש-TREK יחזור לרשת.',
+  'files.uploadNeedsConnection': 'העלאה דורשת חיבור. נסו שוב כש-Manzil יחזור לרשת.',
+  'files.linkNeedsConnection': 'הסרת הקישור הזה דורשת חיבור. נסו שוב כש-Manzil יחזור לרשת.',
   'files.placeFilesNeedConnection':
     'העלאת קבצים דורשת חיבור. הסירו את הקבצים החדשים כדי לשמור את המקום במצב לא מקוון, או שמרו כשתחזרו לרשת.',
   'files.maxSize': 'עד {count} MB',

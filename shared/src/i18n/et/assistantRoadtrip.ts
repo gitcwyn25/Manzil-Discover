@@ -79,7 +79,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': 'Pärast kohta {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Järgib rada {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'Praegu sirged jooned; TREK arvutab tee välja, kui muudatus on rakendatud.',
+    'Praegu sirged jooned; Manzil arvutab tee välja, kui muudatus on rakendatud.',
   'assistant.card.roadtrip.dayEnd.at': 'Päev lõpeb kohas {name}',
   'assistant.card.roadtrip.dayEnd.along': 'Päev lõpeb {percent} % sõidu järel pärast kohta {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'Päev lõpeb taas automaatselt',

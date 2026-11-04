@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Додати до дня',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Імпорт GPX',
-  'tours.badge.planned': 'сплановано в TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'сплановано в Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'використовуйте обережно',
@@ -45,7 +45,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Цей тур уже призначено на цей день.',
   'tours.conversion.title': 'Редагована версія',
   'tours.conversion.intro':
-    'Імпорт є записаним треком. Сплануйте редаговану версію: TREK візьме з нього контрольні точки, заново прокладе через них маршрут і покаже, наскільки близько він підходить. Нічого не зміниться, доки ви не оберете.',
+    'Імпорт є записаним треком. Сплануйте редаговану версію: Manzil візьме з нього контрольні точки, заново прокладе через них маршрут і покаже, наскільки близько він підходить. Нічого не зміниться, доки ви не оберете.',
   'tours.conversion.replace': 'Замінити імпорт',
   'tours.conversion.replaceHint':
     'Планує цей тур заново на тому самому місці: його дні та нотатки залишаються, а записаний трек зберігається, щоб ви могли до нього повернутися.',
@@ -132,7 +132,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Про безпеку',
   'tours.planner.addPoint': 'Додати точку',
   'tours.planner.addPointActive': 'Натисніть на карту',
-  'tours.planner.emptyHint': 'Увімкніть «Додати точку» і натисніть на карту. Від двох точок TREK розрахує маршрут.',
+  'tours.planner.emptyHint': 'Увімкніть «Додати точку» і натисніть на карту. Від двох точок Manzil розрахує маршрут.',
   'tours.planner.walkingEstimated': 'Орієнтовний час у дорозі',
   'tours.planner.walkingEstimatedShort': 'Орієнт. час',
   'tours.planner.walkingEstimatedInfoLabel': 'Як оцінюється час у дорозі',
@@ -250,7 +250,7 @@ const tours: TranslationStrings = {
     'Дата зміни, яку wanderer вказав під час імпорту. Підказка, а не доказ версії.',
   'tours.provenance.localState': 'Тут',
   'tours.provenance.plannedOver': 'Перепланковано, записаний трек збережено',
-  'tours.provenance.editedLocally': 'Змінено в TREK',
+  'tours.provenance.editedLocally': 'Змінено в Manzil',
   'tours.provenance.asImported': 'Як імпортовано',
   'tours.provenance.openSource': 'Відкрити у wanderer',
   'tours.provenance.check': 'Перевірити джерело',
@@ -325,7 +325,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Імпортувати прогулянку з Google Maps',
   'tours.walkImport.title': 'Прогулянка за посиланням Google Maps',
   'tours.walkImport.intro':
-    'Поділися пішим маршрутом у Google Maps і встав сюди його посилання. TREK прочитає зупинки й сам прокладе пішу дорогу між ними.',
+    'Поділися пішим маршрутом у Google Maps і встав сюди його посилання. Manzil прочитає зупинки й сам прокладе пішу дорогу між ними.',
   'tours.walkImport.urlLabel': 'Посилання на піший маршрут',
   'tours.walkImport.urlHint': 'Коротке посилання maps.app.goo.gl або адреса маршруту на google.com/maps.',
   'tours.walkImport.read': 'Прочитати посилання',
@@ -335,7 +335,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'З Google Maps',
   'tours.walkImport.openSource': 'Відкрити в Google Maps',
   'tours.walkImport.recalculated':
-    'TREK заново прокладає дорогу між зупинками; лінія, намальована в Google Maps, не переноситься.',
+    'Manzil заново прокладає дорогу між зупинками; лінія, намальована в Google Maps, не переноситься.',
   'tours.walkImport.noPosition': 'У посиланні немає координат',
   'tours.walkImport.unresolved': '{count} зупинки не мають координат у посиланні, тож їх пропущено.',
   'tours.walkImport.unresolved.one': '{count} зупинка не має координат у посиланні, тож її пропущено.',
@@ -344,7 +344,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.tooFewPositions': 'Для прогулянки потрібні щонайменше дві зупинки з координатами.',
   'tours.walkImport.replacesDraft': 'Завантаження прогулянки замінить незбережені зміни в планувальнику.',
   'tours.walkImport.defaultName': 'Прогулянка з Google Maps',
-  'tours.walkImport.draftNotice': 'З пішого маршруту Google Maps. Дорогу між зупинками TREK проклав сам.',
+  'tours.walkImport.draftNotice': 'З пішого маршруту Google Maps. Дорогу між зупинками Manzil проклав сам.',
   'tours.walkImport.offline': "Щоб прочитати посилання, потрібне з'єднання.",
   'tours.walkImport.failed': 'Не вдалося прочитати посилання зараз. Спробуй ще раз трохи згодом.',
   'tours.walkImport.refusal.not_google_maps':
@@ -384,7 +384,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} від маршруту',
   'tours.poi.along': 'на {distance}',
   'tours.poi.source.osm': 'З OpenStreetMap',
-  'tours.poi.source.trek': 'З каталогу місць TREK',
+  'tours.poi.source.trek': 'З каталогу місць Manzil',
   'tours.poi.hoursHint': 'За даними джерела; перевірте перед виходом.',
   'tours.poi.website': 'Вебсайт',
   'tours.poi.slot.label': 'Куди вставити',
@@ -515,7 +515,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Дані мапи від {build}',
   'tours.ski.summary.saved': 'Показано, як збережено. Перемістіть точку або змініть параметр, щоб спланувати знову.',
   'tours.ski.chooseTechnique': 'Виберіть техніку або «Невідомо».',
-  'tours.ski.infoLabel': 'Що TREK робить з лижними маршрутами і треками',
+  'tours.ski.infoLabel': 'Що Manzil робить з лижними маршрутами і треками',
   'tours.ski.info':
     'Запланований маршрут іде трасами, підйомниками й лижнями з OpenStreetMap там, де є дані трас, а деінде з’єднує точки прямо. Імпортований трек лишається таким, яким його записано. Висоти беруться з даних трас, рельєфу або файлу. Ніщо тут, зокрема кольори нахилу в 3D, нічого не каже про сніг, лавини чи те, чи відкриті траси, підйомники й лижні.',
   'tours.ski.time': 'Час на лижах',
@@ -927,7 +927,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Знову прокласти наступну ділянку',
   'tours.planner.freeLegBadge': 'Намальовано вручну, не прокладено',
   'tours.planner.freeLegInfo':
-    'TREK з’єднує ці дві точки прямою лінією. Жоден маршрутизатор не прокладав і не перевіряв цю ділянку.',
+    'Manzil з’єднує ці дві точки прямою лінією. Жоден маршрутизатор не прокладав і не перевіряв цю ділянку.',
   'tours.map.seamarks': 'Навігаційні знаки',
   'tours.map.seamarksDown': 'Навігаційні знаки не завантажуються. Мапа й ваш маршрут працюють далі.',
   'tours.map.pistes': 'Траси, лижні та підйомники',
@@ -990,9 +990,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm.few': 'Імпортувати {count} тури',
   'tours.import.previewConfirm.many': 'Імпортувати {count} турів',
   'tours.conversion.introPaddle':
-    'Імпорт — це записаний трек. Сплануйте редагований сплав: TREK бере з нього контрольні точки, з’єднує їх прямими лініями, як малюється сплав, і показує, наскільки це близько. Нічого не змінюється, доки ви не вирішите.',
+    'Імпорт — це записаний трек. Сплануйте редагований сплав: Manzil бере з нього контрольні точки, з’єднує їх прямими лініями, як малюється сплав, і показує, наскільки це близько. Нічого не змінюється, доки ви не вирішите.',
   'tours.conversion.introSki':
-    'Імпорт є записаним треком. Сплануйте редагований лижний маршрут: TREK бере з нього контрольні точки, з’єднує їх прямими лініями, як малюється лижний маршрут, і показує, наскільки це близько. Нічого не змінюється, доки ви не вирішите.',
+    'Імпорт є записаним треком. Сплануйте редагований лижний маршрут: Manzil бере з нього контрольні точки, з’єднує їх прямими лініями, як малюється лижний маршрут, і показує, наскільки це близько. Нічого не змінюється, доки ви не вирішите.',
   'tours.conversion.closePaddle':
     'Пропозиція близько йде за треком. Її точки з’єднані прямими лініями, тож це не та сама лінія.',
   'tours.planner.moreActions': 'Інші дії',
@@ -1024,7 +1024,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Обнесено, рахується обнос',
   'tours.paddle.time.title': 'Оцінка часу',
   'tours.paddle.time.assumptionInfo':
-    'TREK починає з 4 км/год на воді, 2 км/год під час перенесення та 10 хвилин на вихід і повторний спуск на кожному обносі. Це початкові значення для налаштування, а не норми й не вимірювання. Для шлюзів враховується лише той час, який ви вводите.',
+    'Manzil починає з 4 км/год на воді, 2 км/год під час перенесення та 10 хвилин на вихід і повторний спуск на кожному обносі. Це початкові значення для налаштування, а не норми й не вимірювання. Для шлюзів враховується лише той час, який ви вводите.',
   'tours.paddle.time.water': 'На воді',
   'tours.paddle.time.carry': 'Перенесення',
   'tours.paddle.time.carrySpeed': 'Швидкість перенесення',
@@ -1105,7 +1105,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacles.none':
     'Для цієї місцевості немає даних про перешкоди. Водозливи, шлюзи й обноси тут перевірте самостійно.',
   'tours.paddle.obstacles.offline':
-    'Без з’єднання TREK не завантажує дані про перешкоди. Перевірте водойму самостійно.',
+    'Без з’єднання Manzil не завантажує дані про перешкоди. Перевірте водойму самостійно.',
   'tours.paddle.obstacles.error': 'Не вдалося завантажити дані про перешкоди. Перевірте водойму самостійно.',
   'tours.paddle.obstacle.kind.weir': 'Водозлив',
   'tours.paddle.obstacle.kind.dam': 'Гребля',
@@ -1120,7 +1120,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Місце обносу',
   'tours.paddle.obstacle.kind.access': 'Правило доступу',
   'tours.paddle.obstacles.truncated':
-    'TREK показує тут лише частину об’єктів: у цій місцевості їх більше. Перевірте водойму самостійно.',
+    'Manzil показує тут лише частину об’єктів: у цій місцевості їх більше. Перевірте водойму самостійно.',
   'tours.paddle.obstacles.dateUnknown': 'невідому дату',
   'tours.paddle.obstacleCard.onRoute': 'На маршруті на',
   'tours.paddle.obstacleCard.near': 'Поблизу маршруту',
@@ -1204,7 +1204,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Безпека на воді',
   'tours.paddle.safety.short': 'Веслування пов’язане з ризиками. Самостійно перевірте водойму, правила й погоду.',
   'tours.paddle.safety.text':
-    'Веслування пов’язане з ризиками. Карти, пропозиції маршрутів і підказки можуть бути неповними або застарілими. Перед сплавом перевірте поточні місцеві умови, правила користування водоймою та погоду. Дотримуйтеся відповідних заходів безпеки. TREK допомагає з плануванням і не замінює вашої власної перевірки та відповідального рішення.',
+    'Веслування пов’язане з ризиками. Карти, пропозиції маршрутів і підказки можуть бути неповними або застарілими. Перед сплавом перевірте поточні місцеві умови, правила користування водоймою та погоду. Дотримуйтеся відповідних заходів безпеки. Manzil допомагає з плануванням і не замінює вашої власної перевірки та відповідального рішення.',
   'tours.paddle.check.bans.few': '{count} із забороною',
   'tours.paddle.check.bans.many': '{count} із забороною',
   'tours.paddle.check.decided.few': '{count} рішення',
@@ -1270,17 +1270,17 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Прокласти по воді ділянки, намальовані вручну',
   'tours.paddle.auto': 'Знайдено',
   'tours.paddle.autoHint':
-    'TREK поставив цю точку біля волоку чи шлюзу, знайденого дорогою. Якщо ви її перемістите чи зміните, вона стане вашою.',
+    'Manzil поставив цю точку біля волоку чи шлюзу, знайденого дорогою. Якщо ви її перемістите чи зміните, вона стане вашою.',
   'tours.paddle.note.rapids': 'Поріг, категорія {grade}',
   'tours.paddle.note.pass': 'Човновий прохід',
   'tours.paddle.note.gap': 'Прогалина в даних мапи',
   'tours.paddle.note.rapidsHint': 'Тут маршрут іде швидкою водою. Спершу огляньте ділянку і в разі сумніву обнесіть.',
   'tours.paddle.note.gapHint': 'У даних про водойми тут прогалина, з’єднана прямою лінією. Перевірте на місці.',
   'tours.paddle.failed.not_on_water':
-    'Один кінець цієї ділянки не на воді, відомій TREK. Перемістіть його на річку чи озеро.',
+    'Один кінець цієї ділянки не на воді, відомій Manzil. Перемістіть його на річку чи озеро.',
   'tours.paddle.failed.no_region': 'Для цієї місцевості ще немає даних про водойми. Адміністратор може додати регіон.',
   'tours.paddle.failed.building': 'Дані про водойми цього регіону ще готуються. Спробуйте знову за кілька хвилин.',
-  'tours.paddle.failed.no_water_path': 'TREK не знайшов шляху по воді між цими точками.',
+  'tours.paddle.failed.no_water_path': 'Manzil не знайшов шляху по воді між цими точками.',
   'tours.paddle.failed.cross_region': 'Ці точки лежать у двох регіонах без спільних даних про водойми.',
   'tours.paddle.failed.busy': 'Планувальник маршрутів зайнятий. Спробуйте знову за мить.',
   'tours.paddle.failed.timeout':
@@ -1297,8 +1297,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.read': 'Читання',
   'tours.paddle.load.phase.build': 'Побудова водної мережі',
   'tours.paddle.load.hint': 'Зазвичай від однієї до трьох хвилин. Плануйте далі, ділянка потім спланується сама.',
-  'tours.paddle.load.reason.tooLarge': 'Регіон більший, ніж TREK завантажує сам.',
-  'tours.paddle.load.reason.limit': 'TREK уже завантажив сьогодні досить регіонів сам.',
+  'tours.paddle.load.reason.tooLarge': 'Регіон більший, ніж Manzil завантажує сам.',
+  'tours.paddle.load.reason.limit': 'Manzil уже завантажив сьогодні досить регіонів сам.',
   'tours.paddle.load.declined': 'Адміністратор відхилив дані про воду для {region}.',
   'tours.paddle.load.failed': 'Не вдалося завантажити дані про воду для {region}.',
   'tours.paddle.load.noWater': 'У даних про воду для {region} тут немає води. Поставте точку на річку чи озеро.',
@@ -1324,7 +1324,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Час у сідлі',
   'tours.horse.timeInfoLabel': 'Чому немає часу в сідлі',
   'tours.horse.timeInfo':
-    'TREK не розраховує час у сідлі: темп залежить від коня і вершника. За бажання вкажіть загальний час самі.',
+    'Manzil не розраховує час у сідлі: темп залежить від коня і вершника. За бажання вкажіть загальний час самі.',
   'tours.horse.routes.title': 'Кінні маршрути',
   'tours.horse.routes.infoLabel': 'Про кінні маршрути',
   'tours.horse.routes.info':
@@ -1380,7 +1380,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'Лінія залишається такою, як її записав файл. Нічого не прокладається заново.',
   'tours.horse.recorded.noTime': 'Без часу в сідлі',
   'tours.horse.recorded.noTimeInfo':
-    'TREK не розраховує час у сідлі для кінної прогулянки: темп задають кінь і вершник.',
+    'Manzil не розраховує час у сідлі для кінної прогулянки: темп задають кінь і вершник.',
   'tours.horse.recorded.accessUnchecked': 'Доступ не перевірено',
   'tours.horse.recorded.accessUncheckedInfo':
     'Імпорт не перевіряє, чи можна їхати цими дорогами верхи. На місці діють знаки.',
@@ -1548,7 +1548,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Поки нічого зберігати. Спочатку змініть тур.',
   'tours.detail.openInTours': 'Відкрити на вкладці «Тури»',
   'tours.planner.status.routingGeneric': 'Розрахунок маршруту…',
-  'tours.planner.emptyHintPlacing': 'Натисніть на карту, щоб поставити точки. Від двох точок TREK розрахує маршрут.',
+  'tours.planner.emptyHintPlacing': 'Натисніть на карту, щоб поставити точки. Від двох точок Manzil розрахує маршрут.',
   'tours.ski.drawStraight': 'Провести прямо',
   'tours.horse.routes.stale': 'Список показує ділянку, у якій ви шукали. Повторіть пошук для поточної.',
   'tours.horse.dialog.adoptGapHint':

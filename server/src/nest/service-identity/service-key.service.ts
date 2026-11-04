@@ -322,7 +322,7 @@ export class ServiceKeyService {
     this.dialectRefusalLogged = true;
     logWarn(
       'TREK services: this release can no longer register with the TREK services. Searches and routes ' +
-        'continue through the shared pool and the public services; updating TREK restores the key.',
+        'continue through the shared pool and the public services; updating Manzil restores the key.',
     );
   }
 
@@ -349,7 +349,7 @@ export class ServiceKeyService {
 
   private readGrant(grant: ServiceKeyGrant): ServiceKey {
     const key = parseServiceKey(grant.key);
-    if (!key) throw new Error('the issuer handed out a key TREK cannot read');
+    if (!key) throw new Error('the issuer handed out a key Manzil cannot read');
     return key;
   }
 

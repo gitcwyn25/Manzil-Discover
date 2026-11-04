@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Napok, helyek és útvonalak a térképen, járatokkal, szállodákkal, éttermekkel, foglalásokkal és közös költségekkel.',
   'demo.feature.tours.title': 'Túrák és kirándulások',
   'demo.feature.tours.body': 'Tervezz túrát az ösvényhálózaton, és kövesd 3D terepen a magassági profillal.',
-  'demo.feature.studio.title': 'Fotókönyvek a TREK Studióban',
+  'demo.feature.studio.title': 'Fotókönyvek a Manzil Studióban',
   'demo.feature.studio.body': 'Alakíts egy utazást oldalról oldalra megtervezett fotókönyvvé.',
   'demo.feature.collab.title': 'Közös tervezés élőben',
   'demo.feature.collab.body':

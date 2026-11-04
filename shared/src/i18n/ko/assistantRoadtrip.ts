@@ -64,7 +64,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.unresolved': '배치하지 못한 정차지 {count}곳',
   'assistant.card.roadtrip.dayRoute.after': '{name} 다음',
   'assistant.card.roadtrip.dayRoute.follows': '{name} 따라가기',
-  'assistant.card.roadtrip.dayRoute.sketch': '지금은 직선입니다. 변경을 적용하면 TREK이 도로를 계산합니다.',
+  'assistant.card.roadtrip.dayRoute.sketch': '지금은 직선입니다. 변경을 적용하면 Manzil이 도로를 계산합니다.',
   'assistant.card.roadtrip.dayEnd.at': '하루는 {name}에서 끝납니다',
   'assistant.card.roadtrip.dayEnd.along': '하루는 {name} 이후 주행의 {percent} % 지점에서 끝납니다',
   'assistant.card.roadtrip.dayEnd.auto': '하루가 다시 자동으로 끝납니다',

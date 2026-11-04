@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Conexão com o wanderer removida',
   'wanderer.loadFailed': 'Não foi possível carregar a conexão com o wanderer',
   'wanderer.privateIp':
-    'Este endereço está numa rede privada. Se o TREK não conseguir alcançá-lo, o administrador precisa permitir redes internas.',
+    'Este endereço está numa rede privada. Se o Manzil não conseguir alcançá-lo, o administrador precisa permitir redes internas.',
   'wanderer.error.disabled': 'Seu administrador não ativou o wanderer para os passeios.',
   'wanderer.error.not_connected': 'O wanderer ainda não está conectado.',
   'wanderer.error.invalid_url': 'Esse endereço não é uma URL válida do wanderer.',
   'wanderer.error.blocked_address':
-    'O TREK não pode acessar esse endereço. Para uma instância na sua própria rede, o administrador precisa definir ALLOW_INTERNAL_NETWORK=true.',
+    'O Manzil não pode acessar esse endereço. Para uma instância na sua própria rede, o administrador precisa definir ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable':
     'Não foi possível alcançar o wanderer. Confira o endereço e se a instância está rodando.',
   'wanderer.error.tls': 'Não foi possível verificar o certificado da instância. Se for autoassinado, permita abaixo.',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'A resposta não veio do wanderer. Confira se o endereço aponta para o próprio wanderer.',
   'wanderer.error.no_author':
-    'O wanderer respondeu, mas não indica nenhum autor de trilhas para a conta deste token de API, então o TREK não consegue saber quais trilhas são suas.',
+    'O wanderer respondeu, mas não indica nenhum autor de trilhas para a conta deste token de API, então o Manzil não consegue saber quais trilhas são suas.',
   'wanderer.error.too_large': 'O arquivo da trilha tem mais de 10 MB.',
   'wanderer.error.server_error': 'O wanderer respondeu com um erro. Tente de novo mais tarde.',
   'wanderer.error.offline': 'Você está offline. O wanderer só pode ser pesquisado online.',

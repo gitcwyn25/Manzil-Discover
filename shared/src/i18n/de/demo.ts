@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Demo zum Ausprobieren',
-  'demo.welcome.title': 'Willkommen bei TREK',
+  'demo.welcome.title': 'Willkommen bei Manzil',
   'demo.welcome.tagline':
     'Der Reiseplaner zum Teilen: gemeinsam und in Echtzeit auf der Karte planen, von der ersten Idee bis zum Fotobuch nach der Reise.',
   'demo.welcome.resetTitle': 'Jede Stunde wird alles zurückgesetzt',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Tage, Orte und Routen auf der Karte, mit Flügen, Hotels, Restaurants, Buchungen und geteilten Kosten.',
   'demo.feature.tours.title': 'Touren und Wanderungen',
   'demo.feature.tours.body': 'Plane eine Wanderung auf dem Wegenetz und folge ihr über 3D-Gelände mit Höhenprofil.',
-  'demo.feature.studio.title': 'Fotobücher mit TREK Studio',
+  'demo.feature.studio.title': 'Fotobücher mit Manzil Studio',
   'demo.feature.studio.body': 'Mach aus einer Reise Seite für Seite ein gestaltetes Fotobuch.',
   'demo.feature.collab.title': 'Live gemeinsam planen',
   'demo.feature.collab.body': 'Alle in der Reise sehen jede Änderung sofort, mit Chat, Notizen und Umfragen.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Speichere Orte über Reisen hinweg in eigenen Listen und übernimm sie in jeden Plan.',
   'demo.feature.offline.title': 'Funktioniert offline',
-  'demo.feature.offline.body': 'Installiere TREK als App und behalte Pläne, Karten und Listen auch ohne Verbindung.',
+  'demo.feature.offline.body': 'Installiere Manzil als App und behalte Pläne, Karten und Listen auch ohne Verbindung.',
   'demo.welcome.limitsTitle': 'Nicht Teil der Demo',
   'demo.limit.uploads': 'Fotos, Dokumente und Titelbilder hochladen',
   'demo.limit.account': 'Konto, Passwort oder 2FA ändern',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Bildnachweise',
   'demo.credits.intro':
-    'Die Fotos dieser Demo stammen aus Wikimedia Commons, jedes unter der Lizenz, die bei ihm steht. Diese Lizenz gilt nur für das Foto, nicht für TREK oder den Rest der Demo.',
+    'Die Fotos dieser Demo stammen aus Wikimedia Commons, jedes unter der Lizenz, die bei ihm steht. Diese Lizenz gilt nur für das Foto, nicht für Manzil oder den Rest der Demo.',
   'demo.credits.by': 'Foto: {author}',
   'demo.credits.publicDomain': 'Gemeinfrei',
   'demo.credits.back': 'Zurück',

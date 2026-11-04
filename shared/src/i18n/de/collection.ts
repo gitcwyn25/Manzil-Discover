@@ -196,7 +196,7 @@ const collection: TranslationStrings = {
   'collections.file.errorUnreadable': 'Diese Datei konnte nicht gelesen werden.',
   'collections.file.errorNotACollection': 'Das ist keine TREK-Listendatei.',
   'collections.file.formatTrek': 'TREK-Liste',
-  'collections.file.formatTrekHint': 'Für ein anderes TREK, mit Labels und Status',
+  'collections.file.formatTrekHint': 'Für ein anderes Manzil, mit Labels und Status',
   'collections.file.formatGpxHint': 'Wegpunkte für OsmAnd, Organic Maps, Garmin und andere Karten-Apps',
   'collections.file.gpxOmitted': '{count} Orte ohne Koordinaten fehlen in der GPX-Datei',
   'collections.file.gpxOmitted.one': '{count} Ort ohne Koordinaten fehlt in der GPX-Datei',

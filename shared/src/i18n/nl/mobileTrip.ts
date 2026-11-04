@@ -57,7 +57,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Deze waarden stel je in op de desktop. Daar kun je ook routevarianten vergelijken en een dag een geïmporteerde track laten volgen.',
   'mobileTrip.planOnDesktop': 'Plannen op de computer',
-  'mobileTrip.rtDriveOnTwoPlaces': 'TREK berekent de rit zodra een dag twee plaatsen heeft.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Manzil berekent de rit zodra een dag twee plaatsen heeft.',
   'mobileTrip.toursEmptyBody': 'Opgeslagen tochten verschijnen hier en kun je aan een dag toevoegen.',
   'mobileTrip.toursCount': '{count} tochten',
   'mobileTrip.toursCount.one': '{count} tocht',

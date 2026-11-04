@@ -4,7 +4,7 @@ const dawarich: TranslationStrings = {
   // ── Connection ─────────────────────────────────────────────────────────────
   'dawarich.title': 'Dawarich',
   'dawarich.intro':
-    'Həqiqətən haralara getdiyinizi görmək üçün öz Dawarich instansiyanızı qoşun. TREK məlumatları oxuyaraq gündəlik qeydləri, məkanlar və ölkələr təklif edir; siz təsdiqləyənədək heç nə əlavə edilmir və Dawarich-ə heç nə geri yazılmır.',
+    'Həqiqətən haralara getdiyinizi görmək üçün öz Dawarich instansiyanızı qoşun. Manzil məlumatları oxuyaraq gündəlik qeydləri, məkanlar və ölkələr təklif edir; siz təsdiqləyənədək heç nə əlavə edilmir və Dawarich-ə heç nə geri yazılmır.',
   'dawarich.url': 'İnstansiya ünvanı',
   'dawarich.apiKey': 'API açarı',
   'dawarich.apiKeyPlaceholder': 'Dawarich API açarınızı yapışdırın',
@@ -14,7 +14,7 @@ const dawarich: TranslationStrings = {
   'dawarich.allowInsecureTlsHint':
     'Yalnız instansiyanız serverinizin etibar etmədiyi sertifikatdan istifadə edirsə tələb olunur.',
   'dawarich.syncEnabled': 'Yeni dayanma qeydlərini avtomatik yoxla',
-  'dawarich.syncEnabledHint': 'Deaktiv olduqda TREK Dawarich-i yalnız siz istədiyiniz zaman oxuyur.',
+  'dawarich.syncEnabledHint': 'Deaktiv olduqda Manzil Dawarich-i yalnız siz istədiyiniz zaman oxuyur.',
   'dawarich.test.button': 'Bağlantını yoxla',
   'dawarich.test.success': 'Qoşuldu. Son 30 gündə {count} dayanma qeydi tapıldı.',
   'dawarich.test.success.one': 'Qoşuldu. Son 30 gündə {count} dayanma qeydi tapıldı.',
@@ -49,7 +49,7 @@ const dawarich: TranslationStrings = {
   'dawarich.capability.missing': 'Bu Dawarich versiyası bunları dəstəkləmir: {features}.',
 
   // ── Failure reasons, as sentences the reader can act on ────────────────────
-  'dawarich.error.unreachable': 'TREK həmin ünvana çata bilmədi.',
+  'dawarich.error.unreachable': 'Manzil həmin ünvana çata bilmədi.',
   'dawarich.error.unauthorized': 'Dawarich API açarını rədd etdi.',
   'dawarich.error.forbidden': 'Bu API açarının həmin məlumatları oxumaq icazəsi yoxdur.',
   'dawarich.error.not_found': 'Bu Dawarich versiyasında həmin son nöqtə yoxdur.',
@@ -59,8 +59,8 @@ const dawarich: TranslationStrings = {
   'dawarich.error.too_large': 'Dawarich TREK-in bir dəfəyə oxuya biləcəyindən çox məlumat göndərdi.',
   'dawarich.error.not_connected': 'Hələ heç bir Dawarich instansiyası qoşulmayıb.',
   'dawarich.error.addon_disabled': 'Dawarich əlavəsi bu instansiya üçün deaktiv edilib.',
-  'dawarich.error.offline': 'Bu əməliyyat internet bağlantısı tələb edir — TREK hazırda oflayndır.',
-  'dawarich.error.invalid_url': 'TREK həmin ünvandan istifadə edə bilmir.',
+  'dawarich.error.offline': 'Bu əməliyyat internet bağlantısı tələb edir — Manzil hazırda oflayndır.',
+  'dawarich.error.invalid_url': 'Manzil həmin ünvandan istifadə edə bilmir.',
   'dawarich.warning.private_ip':
     'Həmin ünvan şəxsi IP-yə ({ip}) yönəlir. Bunun nəzərdə tutduğunuz ünvan olduğuna əmin olun — serverin ona çatması üçün ALLOW_INTERNAL_NETWORK=true tələb oluna bilər.',
   'dawarich.error.unknown': 'Dawarich ilə əlaqə zamanı xəta baş verdi.',
@@ -172,7 +172,7 @@ const dawarich: TranslationStrings = {
   'dawarich.atlas.accept.one': '{count} ölkə əlavə et',
   'dawarich.atlas.accepted': '{count} ölkə əlavə edildi',
   'dawarich.atlas.accepted.one': '{count} ölkə əlavə edildi',
-  'dawarich.atlas.unresolved': 'TREK bunları ölkə ilə uyğunlaşdıra bilmədi: {names}.',
+  'dawarich.atlas.unresolved': 'Manzil bunları ölkə ilə uyğunlaşdıra bilmədi: {names}.',
   'dawarich.atlas.source': 'Dawarich-dən',
   'dawarich.atlas.range': '{from}–{to} aralığı yoxlanıldı',
 

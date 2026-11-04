@@ -79,8 +79,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Zkusit znovu',
   'common.errorReload': 'Načíst stránku znovu',
   'common.errorUpdateTitle': 'Je dostupná nová verze',
-  'common.errorUpdateBody': 'TREK byl aktualizován, zatímco byla tato karta otevřená. Načtěte znovu pro novou verzi.',
+  'common.errorUpdateBody': 'Manzil byl aktualizován, zatímco byla tato karta otevřená. Načtěte znovu pro novou verzi.',
   'common.errorPluginTitle': 'Tento plugin se nepodařilo zobrazit',
-  'common.needsConnection': 'Na tohle je potřeba připojení. Zkus to znovu, až bude TREK zase online.',
+  'common.needsConnection': 'Na tohle je potřeba připojení. Zkus to znovu, až bude Manzil zase online.',
 };
 export default common;

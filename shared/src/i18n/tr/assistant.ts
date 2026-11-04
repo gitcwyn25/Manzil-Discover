@@ -255,7 +255,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} gün',
   'assistant.admin.retentionDays.one': '{count} gün',
   'assistant.admin.retentionForever': 'Süresiz',
-  'assistant.mobile.tile': 'TREK’e sor',
+  'assistant.mobile.tile': 'Manzil’e sor',
   'assistant.mobile.tileHint': 'Asistanla planla',
   'assistant.mobile.backToChat': 'Sohbete dön',
   'assistant.step.nearbyAt': '{place} yakınında arıyor',
@@ -483,7 +483,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': '{name} içinde {count} rezervasyon buldum. Doğru görünüyorsa aşağıdan ekle.',
   'assistant.attach.none': '{name} içinde rezervasyon bulamadım.',
   'assistant.attach.why.aiNotConfigured':
-    'Burada içe aktarma için yapay zekâ ile okuma ayarlı değil, bu yüzden dosyaya yalnızca TREK’in kendi okuyucusu baktı.',
+    'Burada içe aktarma için yapay zekâ ile okuma ayarlı değil, bu yüzden dosyaya yalnızca Manzil’in kendi okuyucusu baktı.',
   'assistant.attach.why.aiFailed': 'Yapay zekâ okuyucusu dosyayı okuyamadı.',
   'assistant.attach.why.noText': 'Okunabilir metin içermiyor, büyük olasılıkla taranmış bir belge.',
   'assistant.attach.why.nothingFound': 'İçinde rezervasyona benzeyen bir şey yok.',

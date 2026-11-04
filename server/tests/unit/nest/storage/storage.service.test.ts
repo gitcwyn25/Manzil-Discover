@@ -5,6 +5,9 @@ import { StorageService } from '../../../../src/nest/storage/storage.service';
 import {
   StorageInvalidKeyError,
   StorageNotFoundError,
+  StorageUploadLimitError,
+  MANZIL_UPLOAD_MAX_BYTES,
+  isLocalTempFile,
   type ByteRange,
   type ObjectStat,
   type StorageDriver,
@@ -16,7 +19,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { PassThrough, Readable } from 'node:stream';
-import { describe, it, expect, afterEach } from 'vitest';
+import { describe, it, expect, afterEach, beforeEach, vi } from 'vitest';
 
 // Facade over a stub registry (the weather.controller.test.ts casting style)
 // backed by a REAL LocalDriver, so key composition, prefix stripping, and both
@@ -37,14 +40,14 @@ interface Fixture {
   failures: ReplicaFailure[];
 }
 
-function makeFixture(keyPrefix = 'files/'): Fixture {
+function makeFixture(keyPrefix = 'files/', route?: { current?: ResolvedCategory }): Fixture {
   const root = makeTmpDir();
   const tempDir = makeTmpDir();
   const driver = new LocalDriver({ id: 'stub-local', root });
   driver.init({ cleanSpool: true });
   const failures: ReplicaFailure[] = [];
   const registry = {
-    resolve: (): ResolvedCategory => ({ driver, keyPrefix, backendName: 'stub-local' }),
+    resolve: (): ResolvedCategory => route?.current ?? { driver, keyPrefix, backendName: 'stub-local' },
     tempDir: () => tempDir,
     replicaFailures: () => failures,
   } as unknown as StorageRegistryService;
@@ -55,6 +58,7 @@ function makeFixture(keyPrefix = 'files/'): Fixture {
 function makeStreamOnlyFixture(
   contents: string,
   body = (bytes: Buffer): Readable => Readable.from(bytes),
+  put: StorageDriver['put'] = async () => undefined,
 ): Fixture & { driverCalls: string[] } {
   const fx = makeFixture('');
   const driverCalls: string[] = [];
@@ -62,7 +66,7 @@ function makeStreamOnlyFixture(
   const stat: ObjectStat = { key: 'remote.bin', size: bytes.length, mtimeMs: 1 };
   const streamOnly: StorageDriver = {
     id: 'stub-remote',
-    put: async () => undefined,
+    put,
     getStream: async (key: string) => {
       driverCalls.push(`getStream:${key}`);
       return { stream: body(bytes), stat: { ...stat, key } };
@@ -121,7 +125,173 @@ function makeGhostLocalPathFixture(contents: string): Fixture & { driverCalls: s
 }
 
 afterEach(() => {
+  vi.unstubAllEnvs();
   while (tmpDirs.length) fs.rmSync(tmpDirs.pop()!, { recursive: true, force: true });
+});
+
+describe('Manzil private upload limit', () => {
+  beforeEach(() => {
+    vi.stubEnv('SUPABASE_URL', 'https://wfabehnihelxemztmvca.supabase.co');
+    vi.stubEnv('SUPABASE_PUBLISHABLE_KEY', 'public-test-key');
+  });
+
+  it('accepts a stream at the exact limit and removes its temporary validation file', async () => {
+    const fx = makeFixture();
+    await fx.storage.put('files', 'exact.bin', Readable.from(Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES)));
+    expect((await fx.storage.stat('files', 'exact.bin'))?.size).toBe(MANZIL_UPLOAD_MAX_BYTES);
+    expect(fs.readdirSync(fx.tempDir)).toEqual([]);
+  });
+
+  it('writes a validated stream to the current backend when its route changes during spooling', async () => {
+    const route: { current?: ResolvedCategory } = {};
+    const source = makeFixture('files/', route);
+    const destination = makeFixture();
+    const stream = Readable.from(
+      (async function* () {
+        yield Buffer.from('first');
+        route.current = { driver: destination.driver, keyPrefix: 'migrated/', backendName: 'new-backend' };
+        yield Buffer.from('second');
+      })(),
+    );
+
+    await source.storage.put('files', 'moving.bin', stream);
+
+    expect(await source.driver.stat('files/moving.bin')).toBeNull();
+    expect(fs.readFileSync(path.join(destination.root, 'migrated/moving.bin'), 'utf8')).toBe('firstsecond');
+    expect(fs.readdirSync(source.tempDir)).toEqual([]);
+  });
+
+  it('writes a caller-owned file to the current backend when its route changes during size validation', async () => {
+    const route: { current?: ResolvedCategory } = {};
+    const source = makeFixture('files/', route);
+    const destination = makeFixture();
+    const tmpPath = path.join(source.tempDir, 'source.bin');
+    fs.writeFileSync(tmpPath, 'file-content');
+    let notifyStarted!: () => void;
+    let releaseValidation!: () => void;
+    const started = new Promise<void>((resolve) => {
+      notifyStarted = resolve;
+    });
+    const released = new Promise<void>((resolve) => {
+      releaseValidation = resolve;
+    });
+    const originalStat = fs.promises.stat.bind(fs.promises);
+    const stat = vi.spyOn(fs.promises, 'stat').mockImplementationOnce(async (file) => {
+      notifyStarted();
+      await released;
+      return originalStat(file);
+    });
+    try {
+      const upload = source.storage.put('files', 'moving.bin', { tmpPath });
+      await started;
+      route.current = { driver: destination.driver, keyPrefix: 'migrated/', backendName: 'new-backend' };
+      releaseValidation();
+      await upload;
+      expect(await source.driver.stat('files/moving.bin')).toBeNull();
+      expect(fs.readFileSync(path.join(destination.root, 'migrated/moving.bin'), 'utf8')).toBe('file-content');
+      expect(fs.existsSync(tmpPath)).toBe(false);
+    } finally {
+      releaseValidation();
+      stat.mockRestore();
+    }
+  });
+
+  it.each(['files', 'journey', 'covers', 'avatars', 'places'] as const)(
+    'refuses an oversized %s stream before a driver can replace an existing file',
+    async (category) => {
+      const fx = makeFixture();
+      await fx.storage.put(category, 'existing.bin', Readable.from('keep'));
+      const put = vi.spyOn(fx.driver, 'put');
+      await expect(
+        fx.storage.put(
+          category,
+          'existing.bin',
+          Readable.from([Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES), Buffer.from('x')]),
+        ),
+      ).rejects.toBeInstanceOf(StorageUploadLimitError);
+      expect(put).not.toHaveBeenCalled();
+      expect(fs.readFileSync(path.join(fx.root, 'files/existing.bin'), 'utf8')).toBe('keep');
+      expect(fs.readdirSync(fx.tempDir)).toEqual([]);
+    },
+  );
+
+  it('validates a caller-owned temporary file at the limit and lets the local driver consume it', async () => {
+    const fx = makeFixture();
+    const tmpPath = path.join(fx.tempDir, 'source.bin');
+    fs.writeFileSync(tmpPath, Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES));
+    await fx.storage.put('files', 'exact-temp.bin', { tmpPath });
+    expect((await fx.storage.stat('files', 'exact-temp.bin'))?.size).toBe(MANZIL_UPLOAD_MAX_BYTES);
+    expect(fs.existsSync(tmpPath)).toBe(false);
+  });
+
+  it('consumes an oversized caller-owned temp file without invoking the driver', async () => {
+    const fx = makeFixture();
+    const tmpPath = path.join(fx.tempDir, 'oversized.bin');
+    fs.writeFileSync(tmpPath, Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES + 1));
+    const put = vi.spyOn(fx.driver, 'put');
+    await expect(fx.storage.put('files', 'large.bin', { tmpPath })).rejects.toMatchObject({
+      statusCode: 413,
+      message: 'File exceeds the 4 MB upload limit.',
+    });
+    expect(put).not.toHaveBeenCalled();
+    expect(fs.existsSync(tmpPath)).toBe(false);
+    expect(await fx.storage.exists('files', 'large.bin')).toBe(false);
+  });
+
+  it('checks streams before transfer to a remote driver too', async () => {
+    const put = vi.fn<StorageDriver['put']>(async (_key, source) => {
+      if (!isLocalTempFile(source)) throw new Error('A validated temp file was expected');
+      expect(fs.statSync(source.tmpPath).size).toBe(MANZIL_UPLOAD_MAX_BYTES);
+    });
+    const fx = makeStreamOnlyFixture('', undefined, put);
+    await fx.storage.put('files', 'exact.bin', Readable.from(Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES)));
+    expect(put).toHaveBeenCalledTimes(1);
+    await expect(
+      fx.storage.put('files', 'large.bin', Readable.from(Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES + 1))),
+    ).rejects.toBeInstanceOf(StorageUploadLimitError);
+    expect(put).toHaveBeenCalledTimes(1);
+    expect(fs.readdirSync(fx.tempDir)).toEqual([]);
+  });
+
+  it('cleans validation files and preserves source failures before transfer', async () => {
+    const fx = makeFixture();
+    const failure = new Error('source failed');
+    const source = Readable.from(
+      (async function* () {
+        yield Buffer.from('partial');
+        throw failure;
+      })(),
+    );
+    const put = vi.spyOn(fx.driver, 'put');
+    await expect(fx.storage.put('files', 'partial.bin', source)).rejects.toBe(failure);
+    expect(put).not.toHaveBeenCalled();
+    expect(fs.readdirSync(fx.tempDir)).toEqual([]);
+  });
+
+  it('consumes caller-owned temp files when the target driver fails', async () => {
+    const fx = makeFixture();
+    const tmpPath = path.join(fx.tempDir, 'source.bin');
+    fs.writeFileSync(tmpPath, 'valid');
+    vi.spyOn(fx.driver, 'put').mockRejectedValueOnce(new Error('target failed'));
+    await expect(fx.storage.put('files', 'source.bin', { tmpPath })).rejects.toThrow('target failed');
+    expect(fs.existsSync(tmpPath)).toBe(false);
+  });
+
+  it.each(['photos-google', 'photos-trek', 'backups', 'photos'] as const)(
+    'retains the existing %s storage behavior',
+    async (category) => {
+      const fx = makeFixture();
+      await fx.storage.put(category, 'large.bin', Readable.from(Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES + 1)));
+      expect((await fx.storage.stat(category, 'large.bin'))?.size).toBe(MANZIL_UPLOAD_MAX_BYTES + 1);
+    },
+  );
+
+  it('keeps the previous behavior when the provider is not configured', async () => {
+    vi.stubEnv('SUPABASE_PUBLISHABLE_KEY', '');
+    const fx = makeFixture();
+    await fx.storage.put('files', 'large.bin', Readable.from(Buffer.alloc(MANZIL_UPLOAD_MAX_BYTES + 1)));
+    expect((await fx.storage.stat('files', 'large.bin'))?.size).toBe(MANZIL_UPLOAD_MAX_BYTES + 1);
+  });
 });
 
 describe('StorageService key composition', () => {

@@ -400,8 +400,8 @@ export class PluginRegistryService {
     if (!v) {
       throw new RegistryError(
         constraint
-          ? `no version of ${id} satisfies "${constraint}" and TREK ${hostVersion()}`
-          : `no version of ${id} is compatible with TREK ${hostVersion()}`,
+          ? `no version of ${id} satisfies "${constraint}" and Manzil ${hostVersion()}`
+          : `no version of ${id} is compatible with Manzil ${hostVersion()}`,
         'TREK_VERSION_INCOMPATIBLE',
       );
     }
@@ -453,7 +453,7 @@ export class PluginRegistryService {
       if (!ver) throw new RegistryError(`version ${opts.version} not found for ${entry.id}`);
       if (!accept && !installable(ver, normalizedHost())) {
         throw new RegistryError(
-          `${entry.id} ${ver.version} requires TREK ${trekRequirement(ver)} — this is TREK ${hostVersion()}`,
+          `${entry.id} ${ver.version} requires Manzil ${trekRequirement(ver)} — this is Manzil ${hostVersion()}`,
           'TREK_VERSION_INCOMPATIBLE',
         );
       }
@@ -467,14 +467,14 @@ export class PluginRegistryService {
     const latest = entry.versions[0];
     if (latest && !opts?.constraint) {
       throw new RegistryError(
-        `${entry.id} ${latest.version} requires TREK ${trekRequirement(latest)} — this is TREK ${hostVersion()}`,
+        `${entry.id} ${latest.version} requires Manzil ${trekRequirement(latest)} — this is Manzil ${hostVersion()}`,
         'TREK_VERSION_INCOMPATIBLE',
       );
     }
     throw new RegistryError(
       opts?.constraint
-        ? `no version of ${entry.id} satisfies "${opts.constraint}" and TREK ${hostVersion()}`
-        : `no version of ${entry.id} is compatible with TREK ${hostVersion()}`,
+        ? `no version of ${entry.id} satisfies "${opts.constraint}" and Manzil ${hostVersion()}`
+        : `no version of ${entry.id} is compatible with Manzil ${hostVersion()}`,
       'TREK_VERSION_INCOMPATIBLE',
     );
   }
@@ -849,7 +849,7 @@ export function assertHostCompatible(range: string | null, id: string, accepted 
     warnRangeBypass(id, bypass);
     return bypass;
   }
-  throw new RegistryError(`${id} requires TREK ${range} — this is TREK ${hostVersion()}`, 'TREK_VERSION_INCOMPATIBLE');
+  throw new RegistryError(`${id} requires Manzil ${range} — this is Manzil ${hostVersion()}`, 'TREK_VERSION_INCOMPATIBLE');
 }
 
 /**

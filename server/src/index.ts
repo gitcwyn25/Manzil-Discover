@@ -48,7 +48,7 @@ const onListen = () => {
   const resolvedAppUrl = getMcpSafeUrl();
   const banner = [
     '──────────────────────────────────────',
-    '  TREK API started',
+    '  Manzil API started',
     `  Version         ${APP_VERSION}`,
     ...(HOST ? [`  Host:           ${HOST}`] : []),
     `  Container Port: ${PORT}`,

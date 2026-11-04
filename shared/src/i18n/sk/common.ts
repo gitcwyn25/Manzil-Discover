@@ -80,8 +80,8 @@ const common: TranslationStrings = {
   'common.errorReload': 'Znova načítať stránku',
   'common.errorUpdateTitle': 'Je dostupná nová verzia',
   'common.errorUpdateBody':
-    'TREK bol aktualizovaný, kým bola táto karta otvorená. Znova načítajte stránku pre novú verziu.',
+    'Manzil bol aktualizovaný, kým bola táto karta otvorená. Znova načítajte stránku pre novú verziu.',
   'common.errorPluginTitle': 'Tento plugin sa nepodarilo zobraziť',
-  'common.needsConnection': 'Na toto je potrebné pripojenie. Skús to znova, keď bude TREK opäť online.',
+  'common.needsConnection': 'Na toto je potrebné pripojenie. Skús to znova, keď bude Manzil opäť online.',
 };
 export default common;

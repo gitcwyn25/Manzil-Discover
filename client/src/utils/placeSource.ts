@@ -18,7 +18,7 @@ import type { TranslationFn } from '../types'
  * already know would need a string in 23 languages to say less than nothing.
  */
 export const SOURCE_LABELS: Record<string, string> = {
-  'trek-places': 'TREK',
+  'trek-places': 'Manzil',
   openstreetmap: 'OpenStreetMap',
   nominatim: 'OpenStreetMap',
   google: 'Google',

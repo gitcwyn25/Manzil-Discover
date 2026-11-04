@@ -53,8 +53,8 @@ const az: NotificationLocale = {
       body: `${p.actor} sizi “${p.trip}” səyahətində “${p.category}” baqaj kateqoriyasına təyin etdi.`,
     }),
     version_available: (p) => ({
-      title: 'Yeni TREK versiyası əlçatandır',
-      body: `TREK ${p.version} artıq əlçatandır. Yeniləmək üçün administrator panelinə keçin.`,
+      title: 'Yeni Manzil versiyası əlçatandır',
+      body: `Manzil ${p.version} artıq əlçatandır. Yeniləmək üçün administrator panelinə keçin.`,
     }),
     replica_failure: (p) => ({
       title: 'Yaddaş replikası xətası',
@@ -92,7 +92,7 @@ const az: NotificationLocale = {
   passwordReset: {
     subject: 'Parolunuzu sıfırlayın',
     greeting: 'Salam',
-    body: 'TREK hesabınızın parolunu sıfırlamaq üçün sorğu aldıq. Yeni parol təyin etmək üçün aşağıdakı düyməyə klikləyin.',
+    body: 'Manzil hesabınızın parolunu sıfırlamaq üçün sorğu aldıq. Yeni parol təyin etmək üçün aşağıdakı düyməyə klikləyin.',
     ctaIntro: 'Parolu sıfırla',
     expiry: 'Bu linkin vaxtı 60 dəqiqədən sonra bitəcək.',
     ignore: 'Bu sorğunu siz göndərməmisinizsə, məktubu nəzərə almaya bilərsiniz — parolunuz dəyişməyəcək.',

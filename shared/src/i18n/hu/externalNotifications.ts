@@ -6,7 +6,7 @@ const hu: NotificationLocale = {
     footer: 'Ezt az értesítést azért kaptad, mert engedélyezted az értesítéseket a TREK-ben.',
     manage: 'Beállítások kezelése',
     madeWith: 'Made with',
-    openTrek: 'TREK megnyitása',
+    openTrek: 'Manzil megnyitása',
   },
   events: {
     trip_invite: (p) => ({
@@ -53,8 +53,8 @@ const hu: NotificationLocale = {
       body: `${p.actor} hozzárendelte Önt a "${p.category}" csomagolási kategóriához a(z) "${p.trip}" utazásban.`,
     }),
     version_available: (p) => ({
-      title: 'Új TREK verzió érhető el',
-      body: `A TREK ${p.version} elérhető. Látogasson el az adminisztrációs panelre a frissítéshez.`,
+      title: 'Új Manzil verzió érhető el',
+      body: `A Manzil ${p.version} elérhető. Látogasson el az adminisztrációs panelre a frissítéshez.`,
     }),
     replica_failure: (p) => ({
       title: 'Tárhely-replika hiba',

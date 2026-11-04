@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Meine Trails auf Änderungen prüfen',
   'wanderer.watch.hint': 'Eine Benachrichtigung, wenn sich ein importierter Trail geändert haben könnte.',
   'wanderer.watch.info':
-    'Höchstens einmal am Tag liest TREK den kurzen Eintrag jedes importierten Trails, nie seine GPX-Datei. Es benachrichtigt dich nur: Ob eine Änderung übernommen wird, entscheidest du selbst über die Quellenprüfung der Tour.',
+    'Höchstens einmal am Tag liest Manzil den kurzen Eintrag jedes importierten Trails, nie seine GPX-Datei. Es benachrichtigt dich nur: Ob eine Änderung übernommen wird, entscheidest du selbst über die Quellenprüfung der Tour.',
   'wanderer.watch.notConnected': 'Verbinde zuerst wanderer',
   'wanderer.watch.on': 'Hintergrundprüfung eingeschaltet',
   'wanderer.watch.off': 'Hintergrundprüfung ausgeschaltet',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Noch nicht geprüft',
   'wanderer.watch.paused': 'Pausiert bis {time}',
   'wanderer.watch.pausedHint':
-    'wanderer hat nicht geantwortet. Nach jedem Fehlschlag wartet TREK länger, bevor es wieder fragt.',
+    'wanderer hat nicht geantwortet. Nach jedem Fehlschlag wartet Manzil länger, bevor es wieder fragt.',
   'wanderer.watch.blocked': 'Token abgelehnt',
   'wanderer.watch.blockedHint':
     'wanderer hat das API-Token abgelehnt. Die Prüfung läuft weiter, sobald ein Verbindungstest gelingt oder ein neues Token gespeichert ist.',
@@ -33,7 +33,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'Der Eintrag in wanderer hat einen anderen Namen oder eine andere Beschreibung. Was sich alles geändert hat, zeigt die Quellenprüfung.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK konnte diesen Trail nicht beurteilen. Ob er sich geändert hat, bleibt offen.',
+    'Manzil konnte diesen Trail nicht beurteilen. Ob er sich geändert hat, bleibt offen.',
   'wanderer.watch.reason.unavailable': 'Trail nicht erreichbar',
   'wanderer.watch.reason.no_change_time': 'Kein Zeitstempel',
 };

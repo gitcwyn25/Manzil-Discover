@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': '라이브 데모',
-  'demo.welcome.title': 'TREK에 오신 것을 환영합니다',
+  'demo.welcome.title': 'Manzil에 오신 것을 환영합니다',
   'demo.welcome.tagline':
     '함께 쓰는 여행 플래너: 지도 위에서 실시간으로 함께 계획하고, 첫 아이디어부터 여행 후 포토북까지.',
   'demo.welcome.resetTitle': '매시간 모든 것이 초기화됩니다',
@@ -15,7 +15,7 @@ const demo: TranslationStrings = {
   'demo.feature.planner.body': '지도 위의 일정, 장소, 경로와 함께 항공편, 호텔, 식당, 예약, 공동 비용까지.',
   'demo.feature.tours.title': '투어와 하이킹',
   'demo.feature.tours.body': '등산로 네트워크에서 하이킹을 계획하고 고도 프로필과 함께 3D 지형 위에서 따라가 보세요.',
-  'demo.feature.studio.title': 'TREK Studio 포토북',
+  'demo.feature.studio.title': 'Manzil Studio 포토북',
   'demo.feature.studio.body': '여행을 한 페이지씩 디자인된 포토북으로 만들어 보세요.',
   'demo.feature.collab.title': '실시간으로 함께 계획',
   'demo.feature.collab.body': '여행 멤버 모두가 모든 변경을 바로 보고, 채팅, 메모, 투표도 함께합니다.',
@@ -28,7 +28,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.title': '컬렉션',
   'demo.feature.collections.body': '여러 여행의 장소를 나만의 목록에 저장하고 어떤 계획에도 복사하세요.',
   'demo.feature.offline.title': '오프라인에서도 작동',
-  'demo.feature.offline.body': 'TREK을 앱으로 설치하면 연결 없이도 계획, 지도, 목록을 쓸 수 있습니다.',
+  'demo.feature.offline.body': 'Manzil을 앱으로 설치하면 연결 없이도 계획, 지도, 목록을 쓸 수 있습니다.',
   'demo.welcome.limitsTitle': '데모에서 제외된 기능',
   'demo.limit.uploads': '사진, 문서, 표지 업로드',
   'demo.limit.account': '계정, 비밀번호 또는 2FA 변경',
@@ -47,7 +47,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': '사진 출처',
   'demo.credits.intro':
-    '이 데모의 사진은 Wikimedia Commons에서 가져왔으며, 각 사진에는 함께 표시된 라이선스가 적용됩니다. 이 라이선스는 사진에만 적용되며 TREK이나 데모의 나머지 부분에는 적용되지 않습니다.',
+    '이 데모의 사진은 Wikimedia Commons에서 가져왔으며, 각 사진에는 함께 표시된 라이선스가 적용됩니다. 이 라이선스는 사진에만 적용되며 Manzil이나 데모의 나머지 부분에는 적용되지 않습니다.',
   'demo.credits.by': '촬영: {author}',
   'demo.credits.publicDomain': '퍼블릭 도메인',
   'demo.credits.back': '뒤로',

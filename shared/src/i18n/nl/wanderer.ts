@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer-koppeling verwijderd',
   'wanderer.loadFailed': 'De wanderer-koppeling kon niet worden geladen',
   'wanderer.privateIp':
-    'Dit adres ligt in een privénetwerk. Als TREK het niet kan bereiken, moet de beheerder interne netwerken toestaan.',
+    'Dit adres ligt in een privénetwerk. Als Manzil het niet kan bereiken, moet de beheerder interne netwerken toestaan.',
   'wanderer.error.disabled': 'Je beheerder heeft wanderer niet ingeschakeld voor Tochten.',
   'wanderer.error.not_connected': 'wanderer is nog niet gekoppeld.',
   'wanderer.error.invalid_url': 'Dat adres is geen geldige wanderer-URL.',
   'wanderer.error.blocked_address':
-    'TREK mag dat adres niet bereiken. Voor een instantie in je eigen netwerk moet de beheerder ALLOW_INTERNAL_NETWORK=true instellen.',
+    'Manzil mag dat adres niet bereiken. Voor een instantie in je eigen netwerk moet de beheerder ALLOW_INTERNAL_NETWORK=true instellen.',
   'wanderer.error.unreachable': 'wanderer is niet bereikbaar. Controleer het adres en of de instantie draait.',
   'wanderer.error.tls':
     'Het certificaat van de instantie kon niet worden geverifieerd. Sta een zelfondertekend certificaat hieronder toe.',
@@ -38,7 +38,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Het antwoord kwam niet van wanderer. Controleer of het adres naar wanderer zelf wijst.',
   'wanderer.error.no_author':
-    'wanderer heeft geantwoord, maar noemt geen auteur van wandelroutes voor het account van dit API-token, dus TREK kan niet zien welke wandelroutes van jou zijn.',
+    'wanderer heeft geantwoord, maar noemt geen auteur van wandelroutes voor het account van dit API-token, dus Manzil kan niet zien welke wandelroutes van jou zijn.',
   'wanderer.error.too_large': 'Het bestand van de wandelroute is groter dan 10 MB.',
   'wanderer.error.server_error': 'wanderer antwoordde met een fout. Probeer het later opnieuw.',
   'wanderer.error.offline': 'Je bent offline. wanderer kan alleen online worden doorzocht.',

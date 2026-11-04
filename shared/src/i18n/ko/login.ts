@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': '로그인 중…',
   'login.signIn': '로그인',
   'login.createAdmin': '관리자 계정 만들기',
-  'login.createAdminHint': 'TREK의 첫 번째 관리자 계정을 설정하세요.',
+  'login.createAdminHint': 'Manzil의 첫 번째 관리자 계정을 설정하세요.',
   'login.setNewPassword': '새 비밀번호 설정',
   'login.setNewPasswordHint': '계속하기 전에 비밀번호를 변경해야 합니다.',
   'login.createAccount': '계정 만들기',
@@ -73,7 +73,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': '패스키 로그인에 실패했습니다. 다시 시도하세요.',
   'login.insecureCookie.title': 'HTTP에서는 로그인이 유지되지 않습니다',
   'login.insecureCookie.body':
-    '일반 HTTP로 접속 중이라 브라우저가 TREK의 보안 세션 쿠키를 버리며, 다음 요청은 "Access token required" 오류로 실패합니다. 해결 방법: HTTPS를 사용하거나, 홈랩이라면 COOKIE_SECURE=false로 설정하세요.',
+    '일반 HTTP로 접속 중이라 브라우저가 Manzil의 보안 세션 쿠키를 버리며, 다음 요청은 "Access token required" 오류로 실패합니다. 해결 방법: HTTPS를 사용하거나, 홈랩이라면 COOKIE_SECURE=false로 설정하세요.',
   'login.insecureCookie.link': '문제 해결 가이드 열기',
 };
 export default login;

@@ -80,7 +80,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': '{name} után',
   'assistant.card.roadtrip.dayRoute.follows': 'Követi: {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'Egyelőre egyenes vonalak; a TREK a módosítás alkalmazása után számítja ki az utat.',
+    'Egyelőre egyenes vonalak; a Manzil a módosítás alkalmazása után számítja ki az utat.',
   'assistant.card.roadtrip.dayEnd.at': 'A nap itt ér véget: {name}',
   'assistant.card.roadtrip.dayEnd.along': 'A nap {name} után az út {percent} %-ánál ér véget',
   'assistant.card.roadtrip.dayEnd.auto': 'A nap ismét automatikusan ér véget',

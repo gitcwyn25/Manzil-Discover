@@ -61,8 +61,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'Xóa vĩnh viễn tất cả các tập tin vào thùng rác? Điều này không thể hoàn tác được.',
   'files.noteLabel': 'Ghi chú',
   'files.notePlaceholder': 'Thêm ghi chú...',
-  'files.uploadNeedsConnection': 'Tải lên cần có kết nối. Hãy thử lại khi TREK trực tuyến trở lại.',
-  'files.linkNeedsConnection': 'Gỡ liên kết này cần có kết nối. Hãy thử lại khi TREK trực tuyến trở lại.',
+  'files.uploadNeedsConnection': 'Tải lên cần có kết nối. Hãy thử lại khi Manzil trực tuyến trở lại.',
+  'files.linkNeedsConnection': 'Gỡ liên kết này cần có kết nối. Hãy thử lại khi Manzil trực tuyến trở lại.',
   'files.placeFilesNeedConnection':
     'Tệp cần có kết nối để tải lên. Hãy bỏ các tệp mới để lưu địa điểm khi ngoại tuyến, hoặc lưu khi bạn trực tuyến trở lại.',
   'files.maxSize': 'Tối đa {count} MB',

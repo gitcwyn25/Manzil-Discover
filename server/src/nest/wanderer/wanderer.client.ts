@@ -128,7 +128,7 @@ const TLS_CODES = new Set([
 
 function networkFailure(err: unknown): WandererError {
   if (err instanceof SsrfBlockedError)
-    return new WandererError('blocked_address', 'TREK may not reach that wanderer address', err.message);
+    return new WandererError('blocked_address', 'Manzil may not reach that wanderer address', err.message);
   const cause = (err as { cause?: { code?: string } })?.cause;
   if (cause?.code && TLS_CODES.has(cause.code)) {
     return new WandererError('tls', 'The wanderer certificate could not be verified', cause.code);
@@ -215,7 +215,7 @@ export class WandererClient {
       if (err instanceof SyntaxError) {
         throw new WandererError(
           'invalid_response',
-          'wanderer answered with something TREK does not understand',
+          'wanderer answered with something Manzil does not understand',
           err.message,
         );
       }
@@ -225,7 +225,7 @@ export class WandererClient {
     if (!parsed.success) {
       throw new WandererError(
         'invalid_response',
-        'wanderer answered with something TREK does not understand',
+        'wanderer answered with something Manzil does not understand',
         parsed.error.message.slice(0, 200),
       );
     }

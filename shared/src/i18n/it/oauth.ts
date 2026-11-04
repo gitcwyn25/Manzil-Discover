@@ -80,10 +80,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.loading': 'Caricamento…',
   'oauth.authorize.errorTitle': 'Errore di autorizzazione',
   'oauth.authorize.loginTitle': 'Accedi per continuare',
-  'oauth.authorize.loginDescription': '{client} vuole accedere al tuo account TREK. Accedi prima.',
-  'oauth.authorize.loginButton': 'Accedi a TREK',
+  'oauth.authorize.loginDescription': '{client} vuole accedere al tuo account Manzil. Accedi prima.',
+  'oauth.authorize.loginButton': 'Accedi a Manzil',
   'oauth.authorize.requestLabel': 'Richiesta di autorizzazione',
-  'oauth.authorize.requestDescription': "Questa applicazione richiede l'accesso al tuo account TREK.",
+  'oauth.authorize.requestDescription': "Questa applicazione richiede l'accesso al tuo account Manzil.",
   'oauth.authorize.verifiedHost': 'Dominio verificato: {host}',
   'oauth.authorize.trustNote':
     "Concedi l'accesso solo ad applicazioni di cui ti fidi. I tuoi dati restano sul tuo server.",

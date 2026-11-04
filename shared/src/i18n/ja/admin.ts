@@ -20,7 +20,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Webプッシュ',
   'admin.notifications.webPushPanel.hint':
-    'TREKを閉じている間も、ユーザーがブラウザ経由でスマートフォンやパソコンに通知を受け取れるようにします。HTTPSが必要です。iPhoneとiPadでは、TREKをホーム画面に追加する必要があります。',
+    'Manzilを閉じている間も、ユーザーがブラウザ経由でスマートフォンやパソコンに通知を受け取れるようにします。HTTPSが必要です。iPhoneとiPadでは、Manzilをホーム画面に追加する必要があります。',
   'admin.notifications.inappPanel.title': 'アプリ内',
   'admin.notifications.inappPanel.hint': 'アプリ内通知は常に有効で、全体では無効にできません。',
   'admin.notifications.adminWebhookPanel.title': '管理者Webhook',
@@ -132,13 +132,13 @@ const admin: TranslationStrings = {
   'admin.requireMfa': '二要素認証（2FA）を必須にする',
   'admin.requireMfaHint': '2FA未設定のユーザーは、利用前に設定が必要です。',
   'admin.apiKeys': 'APIキー',
-  'admin.apiKeysHint': '場所データの出どころ。TREK のインデックスにキーは不要で、下の二つの提供元は任意です。',
+  'admin.apiKeysHint': '場所データの出どころ。Manzil のインデックスにキーは不要で、下の二つの提供元は任意です。',
   'admin.trekApi.badgeDefault': '推奨の既定ソース',
   'admin.googleCaveat.badge': '推奨しません',
   'admin.googleCaveat.body':
-    'TREK はオープンソースで、この点で中立ではありません。この規模でレビューとふつうの店舗の写真があるのは Google だけで、それが独占です。この欄は代わりがないから置いてあるのであって、勧めているからではありません。使えば問い合わせはすべて Google に届きます。',
+    'Manzil はオープンソースで、この点で中立ではありません。この規模でレビューとふつうの店舗の写真があるのは Google だけで、それが独占です。この欄は代わりがないから置いてあるのであって、勧めているからではありません。使えば問い合わせはすべて Google に届きます。',
   'admin.trekApi.tagline':
-    'TREK 独自のサービス: 場所の検索、住所の検索、ルート案内を、Google キーなし、入力するキーなしで利用できます。設置ごとに公平な1日の上限があり、数えるのはリクエスト数だけです。',
+    'Manzil 独自のサービス: 場所の検索、住所の検索、ルート案内を、Google キーなし、入力するキーなしで利用できます。設置ごとに公平な1日の上限があり、数えるのはリクエスト数だけです。',
   'admin.trekApi.factPlaces': '世界で 7,360 万件の場所',
   'admin.trekApi.factNoKey': '入力するキーは不要、公平な1日の上限',
   'admin.trekApi.factOffline': '国別パッケージはオフラインでも使えます',
@@ -205,7 +205,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'Google Maps APIキー',
   'admin.mapsKeyHint': '場所検索に必要。console.cloud.google.com で取得',
   'admin.mapsKeyHintLong':
-    'Google の API キーがなくても、推奨の TREK API が使われます。キーがあれば、写真・評価・営業時間を追加で読み込めます。キーは console.cloud.google.com で作成できます。',
+    'Google の API キーがなくても、推奨の Manzil API が使われます。キーがあれば、写真・評価・営業時間を追加で読み込めます。キーは console.cloud.google.com で作成できます。',
   'admin.recommended': '推奨',
   'admin.weatherKey': 'OpenWeatherMap APIキー',
   'admin.weatherKeyHint': '天気データ用。openweathermap.org で無料',
@@ -217,13 +217,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': '{name} で設定済み',
   'admin.placesProvider.title': '地点検索のプロバイダー',
   'admin.placesProvider.subtitle':
-    'TREK 自身の索引と OpenStreetMap がすべての検索に答えます。ここでは、それらが何も見つけられなかったときに誰に尋ねるかを選びます。自動はキーがあれば Google を、次に Amap を選びます。',
+    'Manzil 自身の索引と OpenStreetMap がすべての検索に答えます。ここでは、それらが何も見つけられなかったときに誰に尋ねるかを選びます。自動はキーがあれば Google を、次に Amap を選びます。',
   'admin.placesProvider.auto': '自動',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap（高德地图）',
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    '選択したプロバイダに API キーが設定されていないため、地点検索には TREK の索引と OpenStreetMap だけが答えます。',
+    '選択したプロバイダに API キーが設定されていないため、地点検索には Manzil の索引と OpenStreetMap だけが答えます。',
   'admin.placesProvider.saved': '地点検索のプロバイダーを保存しました',
   'admin.validateKey': 'テスト',
   'admin.keyValid': '接続済み',
@@ -256,14 +256,14 @@ const admin: TranslationStrings = {
     '場所を追加するときに写真と説明を表示します。WikipediaとOpenStreetMapは常に使用され、「場所の写真」または「場所の詳細」が有効な場合はGoogleも追加されます。',
   'admin.placesGoogleOnly.title': 'Google だけで検索',
   'admin.placesGoogleOnly.subtitle':
-    'すべての検索と候補が Google Places に送られます。オフの場合は TREK のインデックスと OpenStreetMap が先に答え、何も見つからないときだけ Google に問い合わせます。',
+    'すべての検索と候補が Google Places に送られます。オフの場合は Manzil のインデックスと OpenStreetMap が先に答え、何も見つからないときだけ Google に問い合わせます。',
   'admin.placesGoogleOnly.missingKey':
-    'Google Maps API キーが必要です。キーがない場合、このスイッチに関係なく検索は TREK のインデックスと OpenStreetMap で行われます。',
+    'Google Maps API キーが必要です。キーがない場合、このスイッチに関係なく検索は Manzil のインデックスと OpenStreetMap で行われます。',
   'admin.placesGoogleOnly.otherProvider':
     '場所プロバイダーとして Google が必要です。Amap または OpenStreetMap を選択している間は、このスイッチの状態にかかわらず検索は Google に送られません。',
   'admin.googleQuota.title': 'Google 呼び出しの1日の上限',
   'admin.googleQuota.subtitle':
-    '上限に達すると、翌日（UTC）まで TREK は Google を呼び出さず、OpenStreetMap で検索します。空欄なら上限なし。',
+    '上限に達すると、翌日（UTC）まで Manzil は Google を呼び出さず、OpenStreetMap で検索します。空欄なら上限なし。',
   'admin.googleQuota.placeholder': '上限なし',
   'admin.googleQuota.usedToday': '今日: {used}',
   'admin.googleQuota.usedOfLimit': '今日: {used} / {limit}',
@@ -406,7 +406,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'ソースリポジトリ',
   'admin.plugins.reportIssue': '問題を報告',
   'admin.plugins.homepage': 'ホームページ',
-  'admin.plugins.requiresTrek': 'TREK {version} 以上が必要',
+  'admin.plugins.requiresTrek': 'Manzil {version} 以上が必要',
   'admin.plugins.reviewedOn': 'レビュー日：{date}',
   'admin.plugins.perm.db:own': '専用の分離データベースに独自データを保存',
   'admin.plugins.perm.db:read:trips': '操作中のユーザーがアクセスできる旅行の読み取り',
@@ -464,7 +464,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:photo-provider': '「写真」機能への写真の提供',
   'admin.plugins.perm.hook:calendar-source': 'カレンダーへの予定の提供',
   'admin.plugins.perm.hook:place-detail-provider': '場所に追加の詳細情報（レビュー、評価、リンク）を提供',
-  'admin.plugins.perm.hook:search-provider': '独自のインデックスから場所の検索に回答（TREK 自身の結果と並べて表示）',
+  'admin.plugins.perm.hook:search-provider': '独自のインデックスから場所の検索に回答（Manzil 自身の結果と並べて表示）',
   'admin.plugins.perm.hook:poi-category-provider':
     '独自のスポットカテゴリを「地図でスポットを探す」に追加（カテゴリを選ぶと、表示中の地図の範囲がプラグインに送られます）',
   'admin.plugins.perm.hook:trip-warning-provider': '旅程に検証警告を表示（プランナー内に表示）',
@@ -484,7 +484,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'AI アシスタントがあなたの代わりに実行できるツールを公開する（ここでプラグインに付与した権限で動作し、アシスタント自身の権限ではありません）',
   'admin.plugins.perm.geolocation:read':
-    'このプラグインのビューが開いている間、あなたの現在地を取得（TREK がこのサイトの位置情報の許可を使って読み取ります。プラグイン専用の許可は求められません）',
+    'このプラグインのビューが開いている間、あなたの現在地を取得（Manzil がこのサイトの位置情報の許可を使って読み取ります。プラグイン専用の許可は求められません）',
   'admin.plugins.perm.hook:pdf-section-provider': '旅行の PDF エクスポートにテキストセクションを追加',
   'admin.plugins.perm.hook:atlas-layer-provider': 'Atlas の世界地図で国をハイライト（例: ウィッシュリストや渡航情報）',
   'admin.plugins.perm.hook:journal-entry-provider': '日記のエントリーに追加の行（リンク、統計）を提供',
@@ -509,26 +509,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': '今は無効のままにする',
   'admin.plugins.updateKeptOff': 'アップデートをインストールしました — 新しい権限を承認するまで無効のままです',
   'admin.plugins.reviewedMeaning':
-    '「レビュー済み」とは、TREKのメンテナーが各バージョンでこのプラグインをマルウェアの観点から確認したという意味です — 品質や動作の可否を確認したものではありません。プラグインが無害であることを保証するものではありません。',
+    '「レビュー済み」とは、Manzilのメンテナーが各バージョンでこのプラグインをマルウェアの観点から確認したという意味です — 品質や動作の可否を確認したものではありません。プラグインが無害であることを保証するものではありません。',
   'admin.plugins.security.title': 'プラグインの分離のしくみ — そしてその限界',
   'admin.plugins.security.isolationTitle': 'すべてのプラグインは隔離環境で実行されます',
   'admin.plugins.security.isolationBody':
-    'プラグインは、自身のファイルしか読み取れない厳重に制限された独立プロセスとして実行されます。データベース、ログイン用のシークレット、暗号鍵を読み取ることはできず、他のプログラムを起動することも、どこかにファイルを書き込むこともできません。その画面は隔離されたブラウザフレーム内で動作し、セッションCookieを読み取ったり、周囲のTREKページに干渉したりすることはできません。',
+    'プラグインは、自身のファイルしか読み取れない厳重に制限された独立プロセスとして実行されます。データベース、ログイン用のシークレット、暗号鍵を読み取ることはできず、他のプログラムを起動することも、どこかにファイルを書き込むこともできません。その画面は隔離されたブラウザフレーム内で動作し、セッションCookieを読み取ったり、周囲のManzilページに干渉したりすることはできません。',
   'admin.plugins.security.permsTitle': '権限の意味',
   'admin.plugins.security.permsBody':
-    'インストール前に表示される権限は、プラグインの実行中にTREKが強制する厳格な制限です — リストにないことは一切実行できません。ただし、これらはプラグインが何をできるかを示すもので、実際に何をするかを示すものではありません。旅行の読み取りとサーバーへの接続を許可されたプラグインは、あなたの旅行をそのサーバーに送信できます。説明文だけでなく、権限と接続先ホストも確認してください。',
+    'インストール前に表示される権限は、プラグインの実行中にManzilが強制する厳格な制限です — リストにないことは一切実行できません。ただし、これらはプラグインが何をできるかを示すもので、実際に何をするかを示すものではありません。旅行の読み取りとサーバーへの接続を許可されたプラグインは、あなたの旅行をそのサーバーに送信できます。説明文だけでなく、権限と接続先ホストも確認してください。',
   'admin.plugins.security.limitsTitle': '保証できないこと',
   'admin.plugins.security.limitsBody':
-    'この分離は強固なソフトウェア上の境界ですが、絶対的なものではありません。プラグインは、あなたが承認した権限のとおりに動作するため、その権限の範囲内では説明とは異なる振る舞いをする場合があり、正当に保持しているデータを宣言済みのホストへ送信することもできます。TREKは、プラグインのコードが実際に何をするかを読み取ったり判断したりはしません。',
+    'この分離は強固なソフトウェア上の境界ですが、絶対的なものではありません。プラグインは、あなたが承認した権限のとおりに動作するため、その権限の範囲内では説明とは異なる振る舞いをする場合があり、正当に保持しているデータを宣言済みのホストへ送信することもできます。Manzilは、プラグインのコードが実際に何をするかを読み取ったり判断したりはしません。',
   'admin.plugins.security.worstTitle': '最悪の場合',
   'admin.plugins.security.worstBody':
     '有効化した悪意のあるプラグインは、あなたが与えたデータと接続を悪用する可能性があります — たとえば、読み取りを許可された旅行を漏えいさせるなどです。ただし、パスワードを盗んだり、管理者ログインを偽造したり、サーバー上でコマンドを実行したり、許可していないデータにアクセスしたりすることはできません。被害はあなたが承認した範囲内にとどまり、プラグインを無効化すれば止まります。',
   'admin.plugins.security.reviewedTitle': '「レビュー済み」の意味',
   'admin.plugins.security.reviewedBody':
-    'レビュー済みのプラグインは、TREKのメンテナーが各バージョンで手動でマルウェアの有無を確認したものです — 悪意のあるコードの有無を確認したものであり、正しく動作するかどうかを確認したものではありません。プラグインが無害であることを約束するものではありません。',
+    'レビュー済みのプラグインは、Manzilのメンテナーが各バージョンで手動でマルウェアの有無を確認したものです — 悪意のあるコードの有無を確認したものであり、正しく動作するかどうかを確認したものではありません。プラグインが無害であることを約束するものではありません。',
   'admin.plugins.security.signedTitle': '「署名済み」の意味',
   'admin.plugins.security.signedBody':
-    'TREKがインストールのたびに検証するチェックサムは、ファイルがレジストリの保証するものとまったく同一であることを証明します。署名が証明するのは別のことです。そのファイルが作者本人から届いたこと、そして作者だけが持つ鍵で署名されていることです。署名済みのプラグインはその両方を備えています。署名がないプラグインが危険というわけではありません — 保証がひとつ少ないだけであり、現時点ではレジストリのプラグインの多くは署名されていません。',
+    'Manzilがインストールのたびに検証するチェックサムは、ファイルがレジストリの保証するものとまったく同一であることを証明します。署名が証明するのは別のことです。そのファイルが作者本人から届いたこと、そして作者だけが持つ鍵で署名されていることです。署名済みのプラグインはその両方を備えています。署名がないプラグインが危険というわけではありません — 保証がひとつ少ないだけであり、現時点ではレジストリのプラグインの多くは署名されていません。',
   'admin.plugins.signed': '署名済み',
   'admin.plugins.signedHint': 'インストール時に作者の署名鍵で検証済み',
   'admin.plugins.unsigned': '署名なし',
@@ -543,20 +543,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'ファイルが作者の署名と一致しません。作者が署名したものではなく、破損したか、改ざんされたかのどちらかです。これを上書きすることはできません。',
   'admin.plugins.sig.missingBody':
-    'このプラグインはインストール時には署名されていましたが、新しいバージョンには署名がありません。TREKはこの後退を黙って受け入れることはしません。これを上書きすることはできません。',
+    'このプラグインはインストール時には署名されていましたが、新しいバージョンには署名がありません。Manzilはこの後退を黙って受け入れることはしません。これを上書きすることはできません。',
   'admin.plugins.sig.incompleteBody':
     'レジストリの登録内容が中途半端です。作者の鍵は宣言されているのに、このバージョンには署名がありません（またはその逆です）。これはプラグイン側の不備です。これを上書きすることはできません。',
   'admin.plugins.sig.pinnedKey': 'インストール時の鍵',
   'admin.plugins.sig.newKey': '現在提示されている鍵',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREKには、正当な鍵の更新と乗っ取りを見分けることはできません — ここからは両者はまったく同じに見えます。受け入れる前に、すでに信頼している経路で作者に新しい鍵を確認してください。受け入れると、プラグインが更新され、新しい鍵が記憶されます。',
+    'Manzilには、正当な鍵の更新と乗っ取りを見分けることはできません — ここからは両者はまったく同じに見えます。受け入れる前に、すでに信頼している経路で作者に新しい鍵を確認してください。受け入れると、プラグインが更新され、新しい鍵が記憶されます。',
   'admin.plugins.sig.retrustConfirm': '新しい鍵を信頼して更新',
   'admin.plugins.sig.cancel': '信頼しない',
   'admin.plugins.sig.consentUnsigned':
     'このバージョンと作者を結びつけるものはありません — ファイルはレジストリと一致しますが、作者の署名は付いていません。',
   'admin.plugins.security.trustTitle': '結論',
   'admin.plugins.security.trustBody':
-    'プラグインのインストールは、サードパーティ製アプリのインストールと同じです。信頼できる作者のコードのみを追加し、少しでも疑わしい場合は、まずご自身で内容を確認してください。TREKはサードパーティ製プラグインについて一切の責任を負いません。',
+    'プラグインのインストールは、サードパーティ製アプリのインストールと同じです。信頼できる作者のコードのみを追加し、少しでも疑わしい場合は、まずご自身で内容を確認してください。Manzilはサードパーティ製プラグインについて一切の責任を負いません。',
   'admin.plugins.runtimeOn': 'ランタイム：オン',
   'admin.plugins.tabDiscover': '探す',
   'admin.plugins.searchPlaceholder': 'プラグインを検索…',
@@ -572,11 +572,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortUpdates': 'アップデート優先',
   'admin.plugins.sortDownloads': 'ダウンロード数順',
   'admin.plugins.updatesAvailable': 'プラグインに{count}件のアップデートがあります。',
-  'admin.plugins.newerNeedsTrek': 'v{version} が利用可能 — TREK {range} が必要',
+  'admin.plugins.newerNeedsTrek': 'v{version} が利用可能 — Manzil {range} が必要',
   'admin.plugins.versionsTitle': 'バージョン',
   'admin.plugins.versionPickerTitle': 'バージョン変更 — {name}',
   'admin.plugins.versionSwitch': '{version} に切り替え',
-  'admin.plugins.versionNeedsTrek': 'TREK {range} が必要',
+  'admin.plugins.versionNeedsTrek': 'Manzil {range} が必要',
   'admin.plugins.changeVersion': 'バージョン変更…',
   'admin.plugins.noVersions': 'レジストリに公開バージョンが見つかりません。',
   'admin.plugins.downgradeTitle': 'このプラグインをロールバックしますか？',
@@ -641,30 +641,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'ダウンロード',
   'admin.plugins.dep.update': '更新',
   'admin.plugins.dep.resolveHint': '独自の依存関係を含め、最新の互換バージョンをダウンロードします。',
-  'admin.plugins.dep.trekIncompatible': 'TREK {range} が必要です — このサーバーは {host} です',
-  'admin.plugins.dep.trekUnknown': '対応する TREK バージョンが宣言されていません',
+  'admin.plugins.dep.trekIncompatible': 'Manzil {range} が必要です — このサーバーは {host} です',
+  'admin.plugins.dep.trekUnknown': '対応する Manzil バージョンが宣言されていません',
   'admin.plugins.installCompatible': '{version} をインストール',
   'admin.plugins.installAnyway': 'それでもインストール',
   'admin.plugins.rangeBypass.pill': 'バージョンチェック無効',
   'admin.plugins.rangeBypass.pillHint':
-    'TREK_PLUGINS_IGNORE_TREK_RANGE が設定されています — プラグインは作者が宣言した TREK バージョンの範囲外でもインストール・実行できます',
-  'admin.plugins.rangeBypass.title': 'サポート対象の TREK バージョン外',
-  'admin.plugins.rangeBypass.noticeTitle': 'サポート対象の TREK バージョン外にインストールされました',
+    'TREK_PLUGINS_IGNORE_TREK_RANGE が設定されています — プラグインは作者が宣言した Manzil バージョンの範囲外でもインストール・実行できます',
+  'admin.plugins.rangeBypass.title': 'サポート対象の Manzil バージョン外',
+  'admin.plugins.rangeBypass.noticeTitle': 'サポート対象の Manzil バージョン外にインストールされました',
   'admin.plugins.rangeBypass.body':
-    '「{name}」は TREK {range} をサポートすると宣言していますが、このサーバーは {host} で動作しています。TREK_PLUGINS_IGNORE_TREK_RANGE が設定されているため TREK はこれを許可します。作者はこの TREK 向けにプラグインのバージョン範囲を更新していないため、動作する保証はなく、まれに不適合なプラグインが TREK のデータを破損することがあります。このリスクを受け入れる場合のみ続行してください。',
+    '「{name}」は Manzil {range} をサポートすると宣言していますが、このサーバーは {host} で動作しています。TREK_PLUGINS_IGNORE_TREK_RANGE が設定されているため Manzil はこれを許可します。作者はこの Manzil 向けにプラグインのバージョン範囲を更新していないため、動作する保証はなく、まれに不適合なプラグインが Manzil のデータを破損することがあります。このリスクを受け入れる場合のみ続行してください。',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '「{name}」はサポートする TREK バージョンを宣言していません。このサーバーは {host} で動作しています。TREK_PLUGINS_IGNORE_TREK_RANGE が設定されているため TREK はこれを許可します。作者がこの TREK で検証した形跡はなく、動作する保証はありません。まれに不適合なプラグインが TREK のデータを破損することがあります。このリスクを受け入れる場合のみ続行してください。',
-  'admin.plugins.dep.trekBypassed': 'TREK 範囲外（{range}）— バージョンチェック無効',
-  'admin.plugins.dep.trekBypassedUnknown': 'TREK 範囲の宣言なし — バージョンチェック無効',
-  'admin.plugins.rangeBypass.titleAdmin': 'この TREK では未検証',
+    '「{name}」はサポートする Manzil バージョンを宣言していません。このサーバーは {host} で動作しています。TREK_PLUGINS_IGNORE_TREK_RANGE が設定されているため Manzil はこれを許可します。作者がこの Manzil で検証した形跡はなく、動作する保証はありません。まれに不適合なプラグインが Manzil のデータを破損することがあります。このリスクを受け入れる場合のみ続行してください。',
+  'admin.plugins.dep.trekBypassed': 'Manzil 範囲外（{range}）— バージョンチェック無効',
+  'admin.plugins.dep.trekBypassedUnknown': 'Manzil 範囲の宣言なし — バージョンチェック無効',
+  'admin.plugins.rangeBypass.titleAdmin': 'この Manzil では未検証',
   'admin.plugins.rangeBypass.bodyAdmin':
-    '作者によると「{name}」は TREK {range} に対応しており、このサーバーは {host} で動いています。作者はまだこの TREK での動作を確認していないため、動かない可能性があり、まれに合わないプラグインが TREK のデータを壊すこともあります。それでも使うことはできます。この選択はこのバージョンのこのプラグインにだけ適用され、アップデート後に TREK が改めて確認します。',
+    '作者によると「{name}」は Manzil {range} に対応しており、このサーバーは {host} で動いています。作者はまだこの Manzil での動作を確認していないため、動かない可能性があり、まれに合わないプラグインが Manzil のデータを壊すこともあります。それでも使うことはできます。この選択はこのバージョンのこのプラグインにだけ適用され、アップデート後に Manzil が改めて確認します。',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '「{name}」は対応する TREK のバージョンを示しておらず、このサーバーは {host} で動いています。この TREK で検証された形跡はないため、動かない可能性があり、まれに合わないプラグインが TREK のデータを壊すこともあります。それでも使うことはできます。この選択はこのバージョンのこのプラグインにだけ適用され、アップデート後に TREK が改めて確認します。',
-  'admin.plugins.dep.trekAccepted': 'TREK {range} 向け、自己責任で稼働中',
-  'admin.plugins.dep.trekAcceptedUnknown': 'TREK の対応範囲なし、自己責任で稼働中',
+    '「{name}」は対応する Manzil のバージョンを示しておらず、このサーバーは {host} で動いています。この Manzil で検証された形跡はないため、動かない可能性があり、まれに合わないプラグインが Manzil のデータを壊すこともあります。それでも使うことはできます。この選択はこのバージョンのこのプラグインにだけ適用され、アップデート後に Manzil が改めて確認します。',
+  'admin.plugins.dep.trekAccepted': 'Manzil {range} 向け、自己責任で稼働中',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Manzil の対応範囲なし、自己責任で稼働中',
   'admin.plugins.activateAnyway': 'それでも有効にする',
-  'admin.plugins.untestedChip': 'TREK {host} での動作は未確認',
+  'admin.plugins.untestedChip': 'Manzil {host} での動作は未確認',
   'admin.plugins.filters': 'フィルター',
   'admin.plugins.security.short': 'プラグインの保護のしくみ',
   'admin.plugins.accessTitle': 'アクセスできるもの',
@@ -677,7 +677,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'レビュー日',
   'admin.plugins.downloads': 'ダウンロード数',
   'admin.addons.title': 'アドオン',
-  'admin.addons.subtitle': '機能を有効／無効にしてTREKをカスタマイズします。',
+  'admin.addons.subtitle': '機能を有効／無効にしてManzilをカスタマイズします。',
   'admin.addons.catalog.packing.name': 'リスト',
   'admin.addons.catalog.packing.description': '旅行用の持ち物リストとToDo',
   'admin.addons.catalog.budget.name': '費用',
@@ -754,7 +754,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': '天気データ',
   'admin.weather.badge': '2026年3月24日以降',
   'admin.weather.description':
-    'TREKは天気データにOpen‑Meteoを使用しています。無料でオープンソース、APIキーは不要です。',
+    'Manzilは天気データにOpen‑Meteoを使用しています。無料でオープンソース、APIキーは不要です。',
   'admin.weather.forecast': '16日間予報',
   'admin.weather.forecastDesc': '以前は5日（OpenWeatherMap）',
   'admin.weather.climate': '過去の気候データ',
@@ -812,13 +812,13 @@ const admin: TranslationStrings = {
   'admin.github.loading': '読み込み中...',
   'admin.github.error': 'リリースの読み込みに失敗しました',
   'admin.github.by': '作成者',
-  'admin.github.support': 'TREKの開発を支援',
+  'admin.github.support': 'Manzilの開発を支援',
   'admin.update.available': '更新があります',
-  'admin.update.text': 'TREK {version} が利用可能です。現在は {current} を使用しています。',
+  'admin.update.text': 'Manzil {version} が利用可能です。現在は {current} を使用しています。',
   'admin.update.button': 'GitHubで見る',
   'admin.update.install': '更新をインストール',
   'admin.update.confirmTitle': '更新をインストールしますか？',
-  'admin.update.confirmText': 'TREKを {current} から {version} に更新します。更新後、サーバーは自動的に再起動します。',
+  'admin.update.confirmText': 'Manzilを {current} から {version} に更新します。更新後、サーバーは自動的に再起動します。',
   'admin.update.dataInfo':
     'すべてのデータ（旅行、ユーザー、APIキー、アップロード、Vacay、Atlas、予算）は保持されます。',
   'admin.update.warning': '再起動中、アプリは短時間利用できません。',
@@ -830,9 +830,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'バックアップへ',
   'admin.update.howTo': '更新方法',
   'admin.update.dockerText':
-    'TREKはDockerで実行されています。{version} に更新するには、サーバーで次のコマンドを実行してください：',
+    'ManzilはDockerで実行されています。{version} に更新するには、サーバーで次のコマンドを実行してください：',
   'admin.update.nonDockerText':
-    'このTREKインスタンスはDockerで実行されていません。{version} に更新するには、使用したインストールまたは更新方法をもう一度実行してください。たとえばProxmox Community Scriptsの場合は、LXCコンソールから更新を実行します：',
+    'このManzilインスタンスはDockerで実行されていません。{version} に更新するには、使用したインストールまたは更新方法をもう一度実行してください。たとえばProxmox Community Scriptsの場合は、LXCコンソールから更新を実行します：',
   'admin.update.wikiLink': '更新ガイドを開く',
   'admin.update.reloadHint': '数秒後にページを再読み込みしてください。',
   'admin.tabs.permissions': '権限',
@@ -911,7 +911,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': '現在 Geofabrik に接続できません。後でもう一度お試しください。',
   'admin.paddleRegions.attribution':
     'データ © OpenStreetMap 貢献者（ODbL）、地域別の抽出データは Geofabrik によるものです。毎月 3 日に読み直します。',
-  'admin.paddleRegions.toast.added': '地域を追加しました。TREK がバックグラウンドで読み込みます。',
+  'admin.paddleRegions.toast.added': '地域を追加しました。Manzil がバックグラウンドで読み込みます。',
   'admin.paddleRegions.toast.removed': '地域を削除しました',
   'admin.paddleRegions.phase.build': '水路ネットワークを構築中',
   'admin.paddleRegions.network.km': '水域 {km} km',
@@ -928,11 +928,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'リクエスト制',
   'admin.paddleRegions.auto.mode.off': 'オフ',
   'admin.paddleRegions.auto.modeHint.auto':
-    '水域データのない場所でパドルツアーが計画されると、TREKは該当する最小の地域をすぐに読み込みます。サイズ上限まで、1日に数件だけです。それより大きいものはここでリクエストとして待ちます。Geofabrikに送られるのは地域名だけで、場所は送られません。',
+    '水域データのない場所でパドルツアーが計画されると、Manzilは該当する最小の地域をすぐに読み込みます。サイズ上限まで、1日に数件だけです。それより大きいものはここでリクエストとして待ちます。Geofabrikに送られるのは地域名だけで、場所は送られません。',
   'admin.paddleRegions.auto.modeHint.ask':
     '新しい地域は管理者が許可するまでここで待ちます。管理者自身が計画した場合はすぐに読み込みます。',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREKは自分では何も読み込まず、リクエストも出しません。地域はここで手動で追加してください。',
+    'Manzilは自分では何も読み込まず、リクエストも出しません。地域はここで手動で追加してください。',
   'admin.paddleRegions.auto.maxSize': '自動で読み込む最大の地域',
   'admin.paddleRegions.auto.maxSizeHint':
     'より大きい地域はここでリクエストとして待ちます。地域の読み込みには数分かかり、その間メモリを使います。',
@@ -945,7 +945,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': '読み込む',
   'admin.paddleRegions.requests.decline': '却下する',
   'admin.paddleRegions.origin.auto': '自動',
-  'admin.paddleRegions.origin.autoHint': 'この地域は、そこで計画されたパドルツアーのためにTREKが自動で読み込みました。',
+  'admin.paddleRegions.origin.autoHint': 'この地域は、そこで計画されたパドルツアーのためにManzilが自動で読み込みました。',
   'admin.mfa.reset': '2FAをリセット',
   'admin.mfa.resetHint':
     'このユーザーの二要素認証をオフにします（スマートフォンを紛失した場合など）。すべての場所からサインアウトされ、パスワードでサインインした後に再設定できます。',
@@ -981,7 +981,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': '更新',
   'admin.addons.ai.name': 'AI', // same-as-en
   'admin.addons.ai.description':
-    'アシスタントと予約の取り込みに使う接続を一つに。MCP を使うと他の AI アプリから TREK を使えます。',
+    'アシスタントと予約の取り込みに使う接続を一つに。MCP を使うと他の AI アプリから Manzil を使えます。',
   'admin.addons.ai.setup': 'AI を設定',
   'admin.addons.ai.dialogSub': 'アシスタントと AI 解析が共有する接続と、それぞれに許可すること。',
   'admin.addons.ai.tab.connection': '接続',
@@ -1011,16 +1011,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'オフ',
   'admin.contribute.status.unavailable': '利用できません',
   'admin.contribute.noteActive':
-    'ユーザーが場所について入力した内容は、確認を経てすべての TREK に届きます。ご協力ありがとうございます。',
+    'ユーザーが場所について入力した内容は、確認を経てすべての Manzil に届きます。ご協力ありがとうございます。',
   'admin.contribute.noteOff':
     'ユーザーが場所について入力した内容で、TREK Places API をみんなのためによりよくしませんか。',
   'admin.contribute.ineligible.env_off': 'TREK_PLACES_CONTRIBUTE により、このインストールでは無効になっています。',
   'admin.contribute.ineligible.not_production': '場所の詳細を共有できるのは本番環境のインストールだけです。',
   'admin.contribute.ineligible.demo': 'デモ用のインストールでは場所の詳細を共有しません。',
-  'admin.contribute.ineligible.index_off': '共有には、場所のソースとして TREK インデックスが必要です。',
+  'admin.contribute.ineligible.index_off': '共有には、場所のソースとして Manzil インデックスが必要です。',
   'admin.contribute.ineligible.custom_places_url':
     'このインストールは独自の Places API を使っているため、共有先がありません。',
-  'admin.contribute.ineligible.services_off': 'このインストールでは TREK サービスがオフになっています。',
+  'admin.contribute.ineligible.services_off': 'このインストールでは Manzil サービスがオフになっています。',
   'admin.contribute.ineligible.no_key': 'このインストールには、まだサービスキーがありません。自動的に要求されます。',
   'admin.contribute.pause.key_invalid': '一時停止中：サービスがこのインストールのキーを受け付けませんでした。',
   'admin.contribute.pause.key_refused':
@@ -1064,9 +1064,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': '共有を停止',
   'admin.contribute.refused.terms_outdated': 'その間に規約が変更されました。もう一度ご確認ください。',
   'admin.contribute.refused.no_field': '共有する項目を1つ以上選んでください。',
-  'admin.contribute.prompt.title': 'すべての TREK が場所をもっとよく知るために',
+  'admin.contribute.prompt.title': 'すべての Manzil が場所をもっとよく知るために',
   'admin.contribute.prompt.lead':
-    'ここで誰かが場所にウェブサイト、電話番号、営業時間、説明を追加すると、TREK はそれを送ることができます。確認を経て、すべての TREK インストールに表示され、あなたのところにも他の人が追加した内容が届きます。',
+    'ここで誰かが場所にウェブサイト、電話番号、営業時間、説明を追加すると、Manzil はそれを送ることができます。確認を経て、すべての Manzil インストールに表示され、あなたのところにも他の人が追加した内容が届きます。',
   'admin.contribute.prompt.why':
     'TREK Places API は無料で、オープンデータから作られているため Google のキーも不要です。共有していただく詳細の一つ一つが、数多くの旅行者の役に立ちます。ご参加ありがとうございます。',
   'admin.contribute.prompt.whatLabel': '共有される内容',
@@ -1088,6 +1088,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.decline': 'いいえ',
   'admin.contribute.prompt.thanks': 'ありがとうございます。場所の詳細の共有を開始しました。',
   'admin.servicesCard.title': '場所検索とルート案内',
-  'admin.servicesCard.hint': 'TREK独自のサービス、検索と公共交通に応答するプロバイダー、そして検索ログ。',
+  'admin.servicesCard.hint': 'Manzil独自のサービス、検索と公共交通に応答するプロバイダー、そして検索ログ。',
 };
 export default admin;

@@ -250,7 +250,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Compartilhado via',
   'journey.public.madeWith': 'Feito com',
   'journey.pdf.journeyBook': 'Livro da jornada',
-  'journey.pdf.madeWith': 'Feito com TREK',
+  'journey.pdf.madeWith': 'Feito com Manzil',
   'journey.pdf.day': 'Dia',
   'journey.pdf.theEnd': 'Fim',
   'journey.pdf.saveAsPdf': 'Salvar como PDF',
@@ -285,7 +285,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     '{failed} grupos de fotos falharam: salve novamente para tentar de novo',
   'journey.picker.day': 'Este dia',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Abrir o estúdio de fotolivro',
   'journey.studio.backToJourney': 'Voltar à jornada',
@@ -330,7 +330,7 @@ const journey: TranslationStrings = {
     'Salva o design desta página dupla como arquivo, sem as fotos, para compartilhar ou reutilizar',
   'journey.studio.importSpread': 'Importar',
   'journey.studio.importSpreadHint': 'Adiciona uma página dupla a partir de um arquivo de design baixado',
-  'journey.studio.importSpreadFailed': 'Esse arquivo não é uma página do TREK Studio',
+  'journey.studio.importSpreadFailed': 'Esse arquivo não é uma página do Manzil Studio',
   'journey.studio.desktopOnly': 'O Studio precisa de uma tela maior',
   'journey.studio.desktopOnlyHint':
     'Montar um livro pede espaço de trabalho, então o Studio existe só no computador, e o PDF também. Todo o resto da sua jornada funciona aqui como sempre.',
@@ -852,7 +852,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Salvar a rota de novo',
   'journey.dayImport.stale':
     'O Dawarich não respondeu: {reason} Mostrando as paradas da última sincronização em {date}.',
-  'journey.dayImport.staleNever': 'O Dawarich não respondeu: {reason} Mostrando as paradas que o TREK já conhece.',
+  'journey.dayImport.staleNever': 'O Dawarich não respondeu: {reason} Mostrando as paradas que o Manzil já conhece.',
   'journey.dayImport.truncated': 'O Dawarich enviou só parte deste dia. Podem faltar paradas.',
   'journey.dayImport.empty': 'O Dawarich não encontrou paradas neste dia.',
   'journey.prep.lastSuccess': 'Última busca {time}.',

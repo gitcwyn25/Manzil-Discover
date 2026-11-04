@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Op de kaart',
   'reservations.import.pinMissingTitle': 'Nog niet op de kaart',
   'reservations.import.pinMissingBody':
-    'TREK kon dit verblijf niet op de kaart vinden. Controleer de naam en het adres hierboven en zoek opnieuw, of sla het op zonder speld.',
+    'Manzil kon dit verblijf niet op de kaart vinden. Controleer de naam en het adres hierboven en zoek opnieuw, of sla het op zonder speld.',
   'reservations.import.pinRetry': 'Opnieuw zoeken',
   'reservations.import.savedWithoutPin':
     'Opgeslagen zonder speld op de kaart. Bewerk de plek en stel de locatie in om hem op de kaart te zien.',
@@ -273,7 +273,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Tonen in bestanden',
   'reservations.filesNeedConnection':
     'Bestanden hebben een verbinding nodig om te uploaden. Verwijder de nieuwe om de boeking offline op te slaan, of sla op zodra je weer online bent.',
-  'reservations.needsConnection': 'Hiervoor is een verbinding nodig. Probeer het opnieuw zodra TREK weer online is.',
+  'reservations.needsConnection': 'Hiervoor is een verbinding nodig. Probeer het opnieuw zodra Manzil weer online is.',
   'reservations.exportCsvFiltered': 'De {shown} van {total} getoonde rijen exporteren (CSV)',
 };
 export default reservations;

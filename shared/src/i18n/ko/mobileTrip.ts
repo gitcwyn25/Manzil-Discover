@@ -54,7 +54,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     '이 수치는 데스크톱에서 설정합니다. 데스크톱에서는 다른 경로를 비교하고, 가져온 트랙을 따라가도록 하루를 맞출 수도 있습니다.',
   'mobileTrip.planOnDesktop': '계획은 데스크톱에서',
-  'mobileTrip.rtDriveOnTwoPlaces': '하루에 장소가 두 곳 생기면 TREK이 주행을 계산합니다.',
+  'mobileTrip.rtDriveOnTwoPlaces': '하루에 장소가 두 곳 생기면 Manzil이 주행을 계산합니다.',
   'mobileTrip.toursEmptyBody': '저장된 투어가 여기에 표시되며 날짜에 추가할 수 있습니다.',
   'mobileTrip.toursCount': '투어 {count}개',
   'mobileTrip.rtSearchOffline': '연결이 필요합니다: 이 검색은 앞으로 갈 경로를 읽습니다.',

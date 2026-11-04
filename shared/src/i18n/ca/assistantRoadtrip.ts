@@ -80,7 +80,7 @@ const assistantRoadtrip: TranslationStrings = {
   'assistant.card.roadtrip.dayRoute.after': 'Després de {name}',
   'assistant.card.roadtrip.dayRoute.follows': 'Segueix {name}',
   'assistant.card.roadtrip.dayRoute.sketch':
-    'De moment, línies rectes; TREK calcula la carretera quan s’aplica el canvi.',
+    'De moment, línies rectes; Manzil calcula la carretera quan s’aplica el canvi.',
   'assistant.card.roadtrip.dayEnd.at': 'El dia acaba a {name}',
   'assistant.card.roadtrip.dayEnd.along': 'El dia acaba al {percent} % del trajecte després de {name}',
   'assistant.card.roadtrip.dayEnd.auto': 'El dia torna a acabar automàticament',

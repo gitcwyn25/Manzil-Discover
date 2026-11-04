@@ -13,7 +13,7 @@ const docsync: TranslationStrings = {
   'docsync.newFolderPlaceholder': 'Naam van de nieuwe map',
   'docsync.syncNow': 'Nu synchroniseren',
   'docsync.unlink': 'Verbinding verbreken',
-  'docsync.confirmUnlink': 'Documenten blijven in TREK en in de opslag. Alleen de koppeling ertussen verdwijnt.',
+  'docsync.confirmUnlink': 'Documenten blijven in Manzil en in de opslag. Alleen de koppeling ertussen verdwijnt.',
   'docsync.syncEnabled': 'Automatisch synchroniseren',
   'docsync.deletePolicy': 'Als een document wordt verwijderd',
   'docsync.deleteUnlink': 'Beide kopieën behouden',
@@ -23,7 +23,7 @@ const docsync: TranslationStrings = {
   'docsync.onConflict.trek_wins': 'De TREK-kopie behouden',
   'docsync.onConflict.provider_wins': 'De kopie in de opslag behouden',
   'docsync.webhookHint':
-    'Plak deze URL bij je aanbieder, dan komen wijzigingen meteen binnen. Zonder die URL kijkt TREK op vaste tijden.',
+    'Plak deze URL bij je aanbieder, dan komen wijzigingen meteen binnen. Zonder die URL kijkt Manzil op vaste tijden.',
 
   // Velden van het verbindingsformulier. De keys volgen de kolom `label` in
   // document_provider_fields, die een key-achtervoegsel bewaart en geen tekst.
@@ -48,7 +48,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudAppPassword':
     'Instellingen, Beveiliging, Nieuw app-wachtwoord aanmaken. Nooit je accountwachtwoord.',
   'docsync.hintOpenCloudToken': 'Wordt in OpenCloud aangemaakt onder app-tokens.',
-  'docsync.hintBasePath': 'Waar TREK naar reismappen zoekt. Standaard /TREK.',
+  'docsync.hintBasePath': 'Waar Manzil naar reismappen zoekt. Standaard /Manzil.',
   'docsync.hintSynologyUrl': 'Vermeld de poort, bijvoorbeeld https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Het beste een apart DSM-account dat alleen bij deze gedeelde map kan.',
   'docsync.hintSynologyOtp': 'Maar één keer nodig, als het account tweestapsverificatie gebruikt.',
@@ -68,7 +68,7 @@ const docsync: TranslationStrings = {
   'docsync.state.too_large': 'Te groot',
   'docsync.state.error': 'Fout',
   'docsync.state.remote_missing': 'Ontbreekt bij de aanbieder',
-  'docsync.state.local_deleted': 'Verwijderd in TREK',
+  'docsync.state.local_deleted': 'Verwijderd in Manzil',
   'docsync.state.scope_drift': 'Buiten de map verplaatst',
 
   'docsync.conflict.resolve': '{count} oplossen',
@@ -88,7 +88,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Dit account mag dat niet.',
   'docsync.error.not_found': 'Niet gevonden bij de aanbieder.',
   'docsync.error.scope_missing': 'De gekoppelde map bestaat niet meer.',
-  'docsync.error.rate_limited': 'De aanbieder remt ons af. TREK probeert het later opnieuw.',
+  'docsync.error.rate_limited': 'De aanbieder remt ons af. Manzil probeert het later opnieuw.',
   'docsync.error.too_large': 'Het bestand is groter dan de aanbieder accepteert.',
   'docsync.error.unsupported_type': 'De aanbieder accepteert dit bestandstype niet.',
   'docsync.error.quota_exceeded': 'De aanbieder heeft geen ruimte meer.',
@@ -109,8 +109,8 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Nog niets verbonden',
   'docsync.empty.hintOwner':
-    'Kies links een opslag. TREK houdt van alles een eigen kopie, dus er gaat niets verloren als die wegvalt.',
-  'docsync.empty.hintMember': 'De eigenaar van de reis stelt dit in. Documenten blijven hoe dan ook in TREK.',
+    'Kies links een opslag. Manzil houdt van alles een eigen kopie, dus er gaat niets verloren als die wegvalt.',
+  'docsync.empty.hintMember': 'De eigenaar van de reis stelt dit in. Documenten blijven hoe dan ook in Manzil.',
 
   // Hoe elk product dingen opbergt. Staat er al voordat iemand verbindt, want het
   // is wat het volgende scherm gaat vragen.
@@ -121,7 +121,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'Ordent in een map op de NAS',
 
   // ── De stroombalk ──────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Naar de opslag',
   'docsync.flow.toTrek': 'Uit de opslag',
   'docsync.flow.documents': 'documenten',
@@ -150,17 +150,17 @@ const docsync: TranslationStrings = {
   'docsync.connect.testing': 'Bezig met verbinden',
   'docsync.connect.okAs': 'Bereikt, aangemeld als {account}',
   'docsync.connect.insecureHint': 'Voor een instantie op je eigen netwerk met een zelfondertekend certificaat.',
-  'docsync.connect.about.paperless': 'TREK zet deze reis onder een eigen tag en komt nooit aan de rest van je archief.',
+  'docsync.connect.about.paperless': 'Manzil zet deze reis onder een eigen tag en komt nooit aan de rest van je archief.',
   'docsync.connect.about.papra':
-    'Kies de organisatie waar deze reis bij hoort. TREK zet hem daarbinnen onder een eigen tag.',
+    'Kies de organisatie waar deze reis bij hoort. Manzil zet hem daarbinnen onder een eigen tag.',
   'docsync.connect.about.nextcloud':
     'Gebruik een app-wachtwoord, niet je accountwachtwoord: het blijft werken met tweestapsverificatie en je kunt het los intrekken.',
-  'docsync.connect.about.opencloud': 'TREK krijgt een eigen ruimte voor deze reis, los van al het andere.',
+  'docsync.connect.about.opencloud': 'Manzil krijgt een eigen ruimte voor deze reis, los van al het andere.',
   'docsync.connect.about.synologydrive': 'Het beste een DSM-account dat alleen bij de gedeelde map van deze reis kan.',
 
   // ── De plek kiezen ─────────────────────────────────────────────────────────
   'docsync.scope.title': 'Waar moet deze reis in {provider} komen te staan?',
-  'docsync.scope.intro': 'Alleen wat hierin staat wordt gesynchroniseerd. De rest van je opslag blijft buiten TREK.',
+  'docsync.scope.intro': 'Alleen wat hierin staat wordt gesynchroniseerd. De rest van je opslag blijft buiten Manzil.',
   'docsync.scope.createTitle': 'Een nieuwe maken',
   'docsync.scope.createAction': 'Aanmaken',
   'docsync.scope.pickTitle': 'Of gebruik er een die je al hebt',
@@ -170,7 +170,7 @@ const docsync: TranslationStrings = {
   // ── Dingen waar iemand over moet beslissen ─────────────────────────────────
   'docsync.issues.title': 'Vraagt om aandacht',
   'docsync.issues.conflict': 'Op beide plekken gewijzigd. Kies welke je behoudt.',
-  'docsync.issues.remote_missing': 'Weg uit de opslag. De kopie in TREK staat er nog.',
+  'docsync.issues.remote_missing': 'Weg uit de opslag. De kopie in Manzil staat er nog.',
   'docsync.issues.rejected_type': 'Dit bestandstype is hier niet toegestaan.',
   'docsync.issues.too_large': 'Groter dan de limiet.',
   'docsync.issues.error': 'De overdracht is niet gelukt.',
@@ -180,11 +180,11 @@ const docsync: TranslationStrings = {
     'Gepauzeerd: een beheerder heeft deze aanbieder uitgeschakeld. De synchronisatie gaat verder zodra hij weer aanstaat.',
   'docsync.binding.reconnect': 'Opnieuw verbinden',
   'docsync.connection.title': 'Verbinding',
-  'docsync.connection.hint': 'Het adres en de login die TREK voor deze opslag gebruikt.',
+  'docsync.connection.hint': 'Het adres en de login die Manzil voor deze opslag gebruikt.',
   'docsync.connection.edit': 'Verbinding bewerken',
   'docsync.connection.remove': 'Verbinding verwijderen',
   'docsync.connection.confirmRemove':
-    'TREK vergeet het adres en de login van deze opslag, en elke synchronisatie van deze reis via deze opslag stopt. De documenten blijven in TREK en in de opslag.',
+    'Manzil vergeet het adres en de login van deze opslag, en elke synchronisatie van deze reis via deze opslag stopt. De documenten blijven in Manzil en in de opslag.',
 };
 
 export default docsync;

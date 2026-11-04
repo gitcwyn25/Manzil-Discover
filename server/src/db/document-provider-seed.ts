@@ -202,7 +202,7 @@ export const DOCUMENT_PROVIDER_FIELDS: ProviderFieldRow[] = [
     field_key: 'base_path',
     label: 'providerBasePath',
     input_type: 'text',
-    placeholder: '/TREK',
+    placeholder: '/Manzil',
     hint: 'hintBasePath',
     required: 0,
     secret: 0,

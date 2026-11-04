@@ -21,7 +21,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'Låter användare ta emot meddelanden på sina telefoner och datorer via webbläsaren, även när TREK är stängt. Kräver HTTPS; på iPhone och iPad måste TREK läggas till på hemskärmen.',
+    'Låter användare ta emot meddelanden på sina telefoner och datorer via webbläsaren, även när Manzil är stängt. Kräver HTTPS; på iPhone och iPad måste Manzil läggas till på hemskärmen.',
   'admin.notifications.inappPanel.title': 'I-App',
   'admin.notifications.inappPanel.hint': 'Meddelanden i appen är alltid aktiva och kan inte inaktiveras generellt.',
   'admin.notifications.adminWebhookPanel.title': 'Webhook för administratörer',
@@ -150,7 +150,7 @@ const admin: TranslationStrings = {
   'admin.trekApi.badgeDefault': 'Rekommenderad standardkälla',
   'admin.googleCaveat.badge': 'Avrådes',
   'admin.googleCaveat.body':
-    'TREK är öppen källkod och vi är inte neutrala här. I den här skalan finns omdömen och foton på vanliga verksamheter bara hos Google, och det är ett monopol. Fältet finns i brist på alternativ, inte för att vi rekommenderar det. Varje uppslagning går då till Google.',
+    'Manzil är öppen källkod och vi är inte neutrala här. I den här skalan finns omdömen och foton på vanliga verksamheter bara hos Google, och det är ett monopol. Fältet finns i brist på alternativ, inte för att vi rekommenderar det. Varje uppslagning går då till Google.',
   'admin.trekApi.tagline':
     'TREK:s egna tjänster: platssökning, adresssökning och ruttplanering, utan Google-nyckel och utan att ange någon nyckel. Varje installation får en rimlig dagskvot, och bara antalet förfrågningar räknas.',
   'admin.trekApi.factPlaces': '73,6 miljoner platser i världen',
@@ -276,12 +276,12 @@ const admin: TranslationStrings = {
   'admin.placesGoogleOnly.subtitle':
     'Varje sökning och varje förslag går till Google Places. Av svarar TREK:s eget index och OpenStreetMap först, och Google tillfrågas bara när de inte hittar något.',
   'admin.placesGoogleOnly.missingKey':
-    'Kräver en Google Maps API-nyckel. Utan nyckel söker TREK via sitt eget index och OpenStreetMap, oavsett hur den här brytaren står.',
+    'Kräver en Google Maps API-nyckel. Utan nyckel söker Manzil via sitt eget index och OpenStreetMap, oavsett hur den här brytaren står.',
   'admin.placesGoogleOnly.otherProvider':
     'Kräver Google som platsleverantör. Med Amap eller OpenStreetMap valt går ingen sökning till Google, oavsett hur den här väljaren står.',
   'admin.googleQuota.title': 'Daglig gräns för Google-anrop',
   'admin.googleQuota.subtitle':
-    'När gränsen nås slutar TREK anropa Google till nästa dag (UTC) och söker med OpenStreetMap i stället. Tomt betyder ingen gräns.',
+    'När gränsen nås slutar Manzil anropa Google till nästa dag (UTC) och söker med OpenStreetMap i stället. Tomt betyder ingen gräns.',
   'admin.googleQuota.placeholder': 'Ingen gräns',
   'admin.googleQuota.usedToday': 'Idag: {used}',
   'admin.googleQuota.usedOfLimit': 'Idag: {used} av {limit}',
@@ -443,7 +443,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Källkodsarkiv',
   'admin.plugins.reportIssue': 'Rapportera ett problem',
   'admin.plugins.homepage': 'Webbplats',
-  'admin.plugins.requiresTrek': 'Kräver TREK {version}+',
+  'admin.plugins.requiresTrek': 'Kräver Manzil {version}+',
   'admin.plugins.reviewedOn': 'Granskad {date}',
   'admin.plugins.perm.db:own': 'Lagra sina egna data i en isolerad databas',
   'admin.plugins.perm.db:read:trips': 'Läsa resor som den aktiva användaren har åtkomst till',
@@ -536,7 +536,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Publicera verktyg som en AI-assistent kan köra åt dig (det agerar med de rättigheter du ger tillägget här, inte med assistentens egna)',
   'admin.plugins.perm.geolocation:read':
-    'Fråga efter din position i realtid medan en av dess vyer är öppen (TREK läser den med den här webbplatsens platsbehörighet, inte med en egen behörighet för tillägget)',
+    'Fråga efter din position i realtid medan en av dess vyer är öppen (Manzil läser den med den här webbplatsens platsbehörighet, inte med en egen behörighet för tillägget)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Lägga till textavsnitt i resans PDF-export',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Markera länder på Atlas-världskartan (t.ex. önskelistor eller resevarningar)',
@@ -572,10 +572,10 @@ const admin: TranslationStrings = {
     'Ett plugin körs som en egen låst process som bara kan läsa sina egna filer. Det kan inte läsa din databas, din inloggningshemlighet eller din krypteringsnyckel, kan inte starta andra program och kan inte skriva filer någonstans. Dess gränssnitt körs i en förseglad webbläsarram som inte kan läsa din sessionscookie eller röra TREK-sidan runt omkring.',
   'admin.plugins.security.permsTitle': 'Vad behörigheterna betyder',
   'admin.plugins.security.permsBody':
-    'Behörigheterna som visas innan du installerar är en hård gräns som TREK upprätthåller medan pluginet körs — det kan bokstavligen inte göra något som inte står på listan. Men de talar om vad ett plugin kan göra, inte vad det faktiskt gör. Ett plugin som får läsa dina resor och nå en server kan skicka dina resor till den servern, så läs behörigheterna och de utgående värdarna, inte bara beskrivningen.',
+    'Behörigheterna som visas innan du installerar är en hård gräns som Manzil upprätthåller medan pluginet körs — det kan bokstavligen inte göra något som inte står på listan. Men de talar om vad ett plugin kan göra, inte vad det faktiskt gör. Ett plugin som får läsa dina resor och nå en server kan skicka dina resor till den servern, så läs behörigheterna och de utgående värdarna, inte bara beskrivningen.',
   'admin.plugins.security.limitsTitle': 'Vad vi inte kan lova',
   'admin.plugins.security.limitsBody':
-    'Isoleringen är en stark mjukvarugräns, men inte en absolut. Ett plugin agerar med exakt de rättigheter du godkänner, så inom dessa rättigheter kan det bete sig annorlunda än vad beskrivningen antyder, och det kan skicka data som det legitimt innehar till de värdar det har deklarerat. TREK läser eller bedömer inte vad ett plugins kod faktiskt gör.',
+    'Isoleringen är en stark mjukvarugräns, men inte en absolut. Ett plugin agerar med exakt de rättigheter du godkänner, så inom dessa rättigheter kan det bete sig annorlunda än vad beskrivningen antyder, och det kan skicka data som det legitimt innehar till de värdar det har deklarerat. Manzil läser eller bedömer inte vad ett plugins kod faktiskt gör.',
   'admin.plugins.security.worstTitle': 'Värsta tänkbara fall',
   'admin.plugins.security.worstBody':
     'Ett fientligt plugin som du aktiverar kan missbruka de data och anslutningar du har gett det — till exempel läcka de resor det får läsa. Det kan inte stjäla lösenord, förfalska en administratörsinloggning, köra kommandon på din server eller nå data som du inte har beviljat. Skadan håller sig inom det du har godkänt, och att stänga av pluginet stoppar det.',
@@ -584,7 +584,7 @@ const admin: TranslationStrings = {
     'Ett granskat plugin har manuellt skannats efter skadlig kod av en TREK-underhållare i varje version — kontrollerat för fientlig kod, inte för om det fungerar bra. Det är inget löfte om att pluginet är ofarligt.',
   'admin.plugins.security.signedTitle': 'Vad ”Signerad” betyder',
   'admin.plugins.security.signedBody':
-    'Kontrollsumman som TREK verifierar vid varje installation bevisar att filerna är exakt det som registret går i god för. En signatur bevisar något annat: att de kommer från upphovspersonen, signerade med en nyckel som bara hen har. Ett signerat plugin har båda delarna. Ett osignerat är inte osäkert — det bär helt enkelt en garanti mindre, och de flesta plugins i registret är osignerade i dag.',
+    'Kontrollsumman som Manzil verifierar vid varje installation bevisar att filerna är exakt det som registret går i god för. En signatur bevisar något annat: att de kommer från upphovspersonen, signerade med en nyckel som bara hen har. Ett signerat plugin har båda delarna. Ett osignerat är inte osäkert — det bär helt enkelt en garanti mindre, och de flesta plugins i registret är osignerade i dag.',
   'admin.plugins.signed': 'Signerad',
   'admin.plugins.signedHint': 'Verifierad mot upphovspersonens signeringsnyckel när den installerades',
   'admin.plugins.unsigned': 'Osignerad',
@@ -599,20 +599,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Filerna stämmer inte med upphovspersonens signatur. De är inte det som upphovspersonen signerade — antingen har de skadats eller så har någon manipulerat dem. Detta går inte att förbigå.',
   'admin.plugins.sig.missingBody':
-    'Det här pluginet var signerat när du installerade det, men den nya versionen levereras utan signatur. TREK accepterar inte den försämringen i tysthet. Detta går inte att förbigå.',
+    'Det här pluginet var signerat när du installerade det, men den nya versionen levereras utan signatur. Manzil accepterar inte den försämringen i tysthet. Detta går inte att förbigå.',
   'admin.plugins.sig.incompleteBody':
     'Registerposten är halvsignerad: den anger en upphovspersonsnyckel men versionen bär ingen signatur (eller tvärtom). Det är ett misstag på pluginets sida. Detta går inte att förbigå.',
   'admin.plugins.sig.pinnedKey': 'Nyckeln det installerades med',
   'admin.plugins.sig.newKey': 'Nyckeln det erbjuder nu',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK kan inte skilja ett legitimt nyckelbyte från en kapning — härifrån ser de identiska ut. Bekräfta den nya nyckeln med upphovspersonen via en kanal du redan litar på innan du accepterar den. När du gör det uppdateras pluginet och den nya nyckeln sparas.',
+    'Manzil kan inte skilja ett legitimt nyckelbyte från en kapning — härifrån ser de identiska ut. Bekräfta den nya nyckeln med upphovspersonen via en kanal du redan litar på innan du accepterar den. När du gör det uppdateras pluginet och den nya nyckeln sparas.',
   'admin.plugins.sig.retrustConfirm': 'Lita på den nya nyckeln och uppdatera',
   'admin.plugins.sig.cancel': 'Lita inte på den',
   'admin.plugins.sig.consentUnsigned':
     'Ingenting knyter den här versionen till sin upphovsperson — filerna stämmer med registret, men de bär ingen signatur från upphovspersonen.',
   'admin.plugins.security.trustTitle': 'Sammanfattningsvis',
   'admin.plugins.security.trustBody':
-    'Att installera ett plugin är som att installera vilken tredjepartsapp som helst: lägg bara till kod från upphovspersoner du litar på, och granska det själv först om du är osäker. TREK tar inget ansvar för tredjepartsplugins.',
+    'Att installera ett plugin är som att installera vilken tredjepartsapp som helst: lägg bara till kod från upphovspersoner du litar på, och granska det själv först om du är osäker. Manzil tar inget ansvar för tredjepartsplugins.',
   'admin.plugins.runtimeOn': 'Körmiljö på',
   'admin.plugins.tabDiscover': 'Upptäck',
   'admin.plugins.searchPlaceholder': 'Sök plugins…',
@@ -629,11 +629,11 @@ const admin: TranslationStrings = {
   'admin.plugins.sortDownloads': 'Mest nedladdade',
   'admin.plugins.updatesAvailable': '{count} uppdateringar tillgängliga för dina plugins.',
   'admin.plugins.updatesAvailable.one': '{count} uppdatering tillgänglig för dina plugins.',
-  'admin.plugins.newerNeedsTrek': 'v{version} tillgänglig — kräver TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'v{version} tillgänglig — kräver Manzil {range}',
   'admin.plugins.versionsTitle': 'Versioner',
   'admin.plugins.versionPickerTitle': 'Byt version — {name}',
   'admin.plugins.versionSwitch': 'Byt till {version}',
-  'admin.plugins.versionNeedsTrek': 'kräver TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'kräver Manzil {range}',
   'admin.plugins.changeVersion': 'Byt version…',
   'admin.plugins.noVersions': 'Inga publicerade versioner hittades i registret.',
   'admin.plugins.downgradeTitle': 'Rulla tillbaka detta tillägg?',
@@ -700,7 +700,7 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Ladda ner',
   'admin.plugins.dep.update': 'Uppdatera',
   'admin.plugins.dep.resolveHint': 'Laddar ner den senaste kompatibla versionen, inklusive dess egna beroenden.',
-  'admin.plugins.dep.trekIncompatible': 'Kräver TREK {range} — den här servern kör {host}',
+  'admin.plugins.dep.trekIncompatible': 'Kräver Manzil {range} — den här servern kör {host}',
   'admin.plugins.dep.trekUnknown': 'Anger inte vilka TREK-versioner som stöds',
   'admin.plugins.installCompatible': 'Installera {version}',
   'admin.plugins.installAnyway': 'Installera ändå',
@@ -710,20 +710,20 @@ const admin: TranslationStrings = {
   'admin.plugins.rangeBypass.title': 'Utanför de TREK-versioner som stöds',
   'admin.plugins.rangeBypass.noticeTitle': 'Installerat utanför de TREK-versioner som stöds',
   'admin.plugins.rangeBypass.body':
-    '”{name}” anger stöd för TREK {range}, och den här servern kör {host}. TREK släpper igenom det bara för att TREK_PLUGINS_IGNORE_TREK_RANGE är satt. Upphovspersonen har inte uppdaterat pluginets versionsintervall för den här TREK-versionen, så det finns ingen garanti att det fungerar — och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Fortsätt bara om du accepterar den risken.',
+    '”{name}” anger stöd för Manzil {range}, och den här servern kör {host}. Manzil släpper igenom det bara för att TREK_PLUGINS_IGNORE_TREK_RANGE är satt. Upphovspersonen har inte uppdaterat pluginets versionsintervall för den här TREK-versionen, så det finns ingen garanti att det fungerar — och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Fortsätt bara om du accepterar den risken.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '”{name}” anger inte vilka TREK-versioner det stöder; den här servern kör {host}. TREK släpper igenom det bara för att TREK_PLUGINS_IGNORE_TREK_RANGE är satt. Inget tyder på att upphovspersonen har testat det på den här TREK-versionen, så det finns ingen garanti att det fungerar — och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Fortsätt bara om du accepterar den risken.',
+    '”{name}” anger inte vilka TREK-versioner det stöder; den här servern kör {host}. Manzil släpper igenom det bara för att TREK_PLUGINS_IGNORE_TREK_RANGE är satt. Inget tyder på att upphovspersonen har testat det på den här TREK-versionen, så det finns ingen garanti att det fungerar — och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Fortsätt bara om du accepterar den risken.',
   'admin.plugins.dep.trekBypassed': 'Utanför sitt TREK-intervall ({range}) — versionskontroller av',
   'admin.plugins.dep.trekBypassedUnknown': 'Anger inget TREK-intervall — versionskontroller av',
-  'admin.plugins.rangeBypass.titleAdmin': 'Otestad på denna TREK',
+  'admin.plugins.rangeBypass.titleAdmin': 'Otestad på denna Manzil',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'Enligt upphovspersonen stöder ”{name}” TREK {range}, och den här servern kör {host}. Upphovspersonen har ännu inte bekräftat den för denna TREK, så den kanske inte fungerar, och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Du kan ändå använda den: ditt val gäller bara detta plugin i den här versionen, och efter en uppdatering frågar TREK igen.',
+    'Enligt upphovspersonen stöder ”{name}” Manzil {range}, och den här servern kör {host}. Upphovspersonen har ännu inte bekräftat den för denna Manzil, så den kanske inte fungerar, och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Du kan ändå använda den: ditt val gäller bara detta plugin i den här versionen, och efter en uppdatering frågar Manzil igen.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '”{name}” anger inte vilka TREK-versioner den stöder, och den här servern kör {host}. Inget tyder på att den har testats på denna TREK, så den kanske inte fungerar, och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Du kan ändå använda den: ditt val gäller bara detta plugin i den här versionen, och efter en uppdatering frågar TREK igen.',
-  'admin.plugins.dep.trekAccepted': 'Gjord för TREK {range}, körs på egen risk',
+    '”{name}” anger inte vilka TREK-versioner den stöder, och den här servern kör {host}. Inget tyder på att den har testats på denna Manzil, så den kanske inte fungerar, och i sällsynta fall kan ett plugin som inte passar skada TREK-data. Du kan ändå använda den: ditt val gäller bara detta plugin i den här versionen, och efter en uppdatering frågar Manzil igen.',
+  'admin.plugins.dep.trekAccepted': 'Gjord för Manzil {range}, körs på egen risk',
   'admin.plugins.dep.trekAcceptedUnknown': 'Ingen TREK-version angiven, körs på egen risk',
   'admin.plugins.activateAnyway': 'Aktivera ändå',
-  'admin.plugins.untestedChip': 'Ännu inte bekräftad för TREK {host}',
+  'admin.plugins.untestedChip': 'Ännu inte bekräftad för Manzil {host}',
   'admin.plugins.filters': 'Filtrera',
   'admin.plugins.security.short': 'Så skyddas plugins',
   'admin.plugins.accessTitle': 'Vad det har åtkomst till',
@@ -814,7 +814,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Väderdata',
   'admin.weather.badge': 'Sedan den 24 mars 2026',
   'admin.weather.description':
-    'TREK använder Open-Meteo som källa för väderdata. Open-Meteo är en kostnadsfri vädertjänst med öppen källkod – ingen API-nyckel krävs.',
+    'Manzil använder Open-Meteo som källa för väderdata. Open-Meteo är en kostnadsfri vädertjänst med öppen källkod – ingen API-nyckel krävs.',
   'admin.weather.forecast': '16-dagarsprognos',
   'admin.weather.forecastDesc': 'Tidigare 5 dagar (OpenWeatherMap)',
   'admin.weather.climate': 'Historiska klimatdata',
@@ -875,14 +875,14 @@ const admin: TranslationStrings = {
   'admin.github.loading': 'Laddar...',
   'admin.github.error': 'Det gick inte att ladda utgåvorna',
   'admin.github.by': 'av',
-  'admin.github.support': 'Hjälper mig att fortsätta bygga TREK',
+  'admin.github.support': 'Hjälper mig att fortsätta bygga Manzil',
   'admin.update.available': 'Uppdatering tillgänglig',
-  'admin.update.text': 'TREK {version} finns tillgängligt. Du kör {current}.',
+  'admin.update.text': 'Manzil {version} finns tillgängligt. Du kör {current}.',
   'admin.update.button': 'Visa på GitHub',
   'admin.update.install': 'Installera uppdatering',
   'admin.update.confirmTitle': 'Ska uppdateringen installeras?',
   'admin.update.confirmText':
-    'TREK kommer att uppdateras från {current} till {version}. Servern startas om automatiskt därefter.',
+    'Manzil kommer att uppdateras från {current} till {version}. Servern startas om automatiskt därefter.',
   'admin.update.dataInfo':
     'Alla dina data (resor, användare, API-nycklar, uppladdningar, Vacay, Atlas, budgetar) kommer att bevaras.',
   'admin.update.warning': 'Appen kommer att vara tillfälligt otillgänglig under omstarten.',
@@ -962,7 +962,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik går inte att nå just nu. Försök igen senare.',
   'admin.paddleRegions.attribution':
     'Data © OpenStreetMap-bidragsgivare (ODbL), regionala utdrag från Geofabrik. Läses in igen den 3:e varje månad.',
-  'admin.paddleRegions.toast.added': 'Region tillagd. TREK läser in den i bakgrunden.',
+  'admin.paddleRegions.toast.added': 'Region tillagd. Manzil läser in den i bakgrunden.',
   'admin.paddleRegions.toast.removed': 'Region borttagen',
   'admin.paddleRegions.phase.build': 'Bygger vattennätet',
   'admin.paddleRegions.network.km': '{km} km vatten',
@@ -983,11 +983,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'På begäran',
   'admin.paddleRegions.auto.mode.off': 'Av',
   'admin.paddleRegions.auto.modeHint.auto':
-    'När någon planerar en paddeltur där det ännu inte finns vattendata läser TREK direkt in den minsta passande regionen, upp till storleksgränsen och bara några om dagen. Större väntar här som förfrågan. Bara regionens namn går till Geofabrik, aldrig platsen.',
+    'När någon planerar en paddeltur där det ännu inte finns vattendata läser Manzil direkt in den minsta passande regionen, upp till storleksgränsen och bara några om dagen. Större väntar här som förfrågan. Bara regionens namn går till Geofabrik, aldrig platsen.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Varje ny region väntar här tills en administratör släpper igenom den. När en administratör planerar läses den in direkt.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK läser inte in något av sig själv och frågar inte efter något. Lägg till regioner här för hand.',
+    'Manzil läser inte in något av sig själv och frågar inte efter något. Lägg till regioner här för hand.',
   'admin.paddleRegions.auto.maxSize': 'Största region som läses in automatiskt',
   'admin.paddleRegions.auto.maxSizeHint':
     'Större regioner väntar här som förfrågan. Att läsa in en region tar några minuter och tar minne under tiden.',
@@ -1001,7 +1001,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.decline': 'Avböj',
   'admin.paddleRegions.origin.auto': 'Automatiskt',
   'admin.paddleRegions.origin.autoHint':
-    'TREK läste in den här regionen av sig själv för en paddeltur som planeras där.',
+    'Manzil läste in den här regionen av sig själv för en paddeltur som planeras där.',
   'admin.mfa.reset': 'Återställ 2FA',
   'admin.mfa.resetHint':
     'Stänger av tvåfaktorsautentiseringen för den här användaren, till exempel efter en förlorad telefon. Användaren loggas ut överallt och kan ställa in den igen efter inloggning med lösenordet.',
@@ -1036,7 +1036,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Rotera',
   'admin.addons.ai.name': 'AI', // same-as-en
   'admin.addons.ai.description':
-    'En anslutning för assistenten och bokningsimporten. Med MCP kan andra AI-appar använda TREK.',
+    'En anslutning för assistenten och bokningsimporten. Med MCP kan andra AI-appar använda Manzil.',
   'admin.addons.ai.setup': 'Konfigurera AI',
   'admin.addons.ai.dialogSub': 'Anslutningen som assistenten och AI-tolkningen delar, och vad var och en får göra.',
   'admin.addons.ai.tab.connection': 'Anslutning',
@@ -1066,7 +1066,7 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Av',
   'admin.contribute.status.unavailable': 'Inte tillgänglig',
   'admin.contribute.noteActive':
-    'Det dina användare skriver om platser når varje TREK efter en kontroll. Tack för hjälpen.',
+    'Det dina användare skriver om platser når varje Manzil efter en kontroll. Tack för hjälpen.',
   'admin.contribute.noteOff': 'Låt det dina användare skriver om platser göra TREK Places API bättre för alla.',
   'admin.contribute.ineligible.env_off': 'Avstängt för den här installationen via TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Bara en produktionsinstallation kan dela platsuppgifter.',
@@ -1118,9 +1118,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Sluta dela',
   'admin.contribute.refused.terms_outdated': 'Villkoren har ändrats under tiden. Titta på dem igen.',
   'admin.contribute.refused.no_field': 'Välj minst ett fält att dela.',
-  'admin.contribute.prompt.title': 'Hjälp alla TREK att känna till platser bättre',
+  'admin.contribute.prompt.title': 'Hjälp alla Manzil att känna till platser bättre',
   'admin.contribute.prompt.lead':
-    'När någon här lägger till en webbplats, ett telefonnummer, öppettider eller en beskrivning till en plats kan TREK skicka vidare det. Efter en kontroll visar varje TREK-installation det, och din får i gengäld det andra har lagt till.',
+    'När någon här lägger till en webbplats, ett telefonnummer, öppettider eller en beskrivning till en plats kan Manzil skicka vidare det. Efter en kontroll visar varje TREK-installation det, och din får i gengäld det andra har lagt till.',
   'admin.contribute.prompt.why':
     'TREK Places API är gratis och behöver ingen Google-nyckel, eftersom det bygger på öppna data. Varje uppgift du delar gör det bättre för tusentals resenärer. Tack för att du är med.',
   'admin.contribute.prompt.whatLabel': 'Vad som delas',

@@ -13,7 +13,7 @@ const docsync: TranslationStrings = {
   'docsync.newFolderPlaceholder': 'Nazwa nowego folderu',
   'docsync.syncNow': 'Synchronizuj teraz',
   'docsync.unlink': 'Rozłącz',
-  'docsync.confirmUnlink': 'Dokumenty zostają w TREK i w repozytorium. Znika tylko powiązanie między nimi.',
+  'docsync.confirmUnlink': 'Dokumenty zostają w Manzil i w repozytorium. Znika tylko powiązanie między nimi.',
   'docsync.syncEnabled': 'Synchronizuj automatycznie',
   'docsync.deletePolicy': 'Gdy dokument zostanie usunięty',
   'docsync.deleteUnlink': 'Zachowaj obie kopie',
@@ -23,7 +23,7 @@ const docsync: TranslationStrings = {
   'docsync.onConflict.trek_wins': 'Zachowaj kopię z TREK-a',
   'docsync.onConflict.provider_wins': 'Zachowaj kopię z magazynu',
   'docsync.webhookHint':
-    'Wklej ten adres URL u swojego dostawcy, aby zmiany docierały natychmiast. Bez tego TREK sprawdza je co jakiś czas.',
+    'Wklej ten adres URL u swojego dostawcy, aby zmiany docierały natychmiast. Bez tego Manzil sprawdza je co jakiś czas.',
 
   // Pola formularza połączenia. Klucze odpowiadają kolumnie `label` w tabeli
   // document_provider_fields, która przechowuje sufiks klucza, a nie tekst.
@@ -47,7 +47,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudAppPassword':
     'Ustawienia → Bezpieczeństwo → Utwórz nowe hasło aplikacji. Nigdy hasło do konta.',
   'docsync.hintOpenCloudToken': 'Tworzony w OpenCloud w sekcji tokenów aplikacji.',
-  'docsync.hintBasePath': 'Miejsce, w którym TREK szuka folderów podróży. Domyślnie /TREK.',
+  'docsync.hintBasePath': 'Miejsce, w którym Manzil szuka folderów podróży. Domyślnie /Manzil.',
   'docsync.hintSynologyUrl': 'Podaj również port, na przykład https://nas.example.com:5001',
   'docsync.hintSynologyUser': 'Najlepiej osobne konto DSM z dostępem tylko do tego folderu współdzielonego.',
   'docsync.hintSynologyOtp': 'Potrzebny tylko raz, jeśli konto używa uwierzytelniania dwuskładnikowego.',
@@ -67,7 +67,7 @@ const docsync: TranslationStrings = {
   'docsync.state.too_large': 'Zbyt duży',
   'docsync.state.error': 'Błąd',
   'docsync.state.remote_missing': 'Brak u dostawcy',
-  'docsync.state.local_deleted': 'Usunięty w TREK',
+  'docsync.state.local_deleted': 'Usunięty w Manzil',
   'docsync.state.scope_drift': 'Przeniesiony poza folder',
 
   'docsync.conflict.resolve': 'Rozwiąż {count}',
@@ -76,7 +76,7 @@ const docsync: TranslationStrings = {
   'docsync.conflict.resolve.many': 'Rozwiąż {count}',
 
   'docsync.conflict.title': 'Obie kopie zostały zmienione',
-  'docsync.conflict.keepTrek': 'Zachowaj wersję z TREK',
+  'docsync.conflict.keepTrek': 'Zachowaj wersję z Manzil',
   'docsync.conflict.keepProvider': 'Zachowaj wersję dostawcy',
   'docsync.conflict.keepBoth': 'Zachowaj obie',
 
@@ -90,7 +90,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'To konto nie ma do tego uprawnień.',
   'docsync.error.not_found': 'Nie znaleziono u dostawcy.',
   'docsync.error.scope_missing': 'Połączony folder już nie istnieje.',
-  'docsync.error.rate_limited': 'Dostawca ogranicza liczbę zapytań. TREK spróbuje ponownie później.',
+  'docsync.error.rate_limited': 'Dostawca ogranicza liczbę zapytań. Manzil spróbuje ponownie później.',
   'docsync.error.too_large': 'Plik jest większy, niż akceptuje dostawca.',
   'docsync.error.unsupported_type': 'Dostawca nie przyjmuje tego typu pliku.',
   'docsync.error.quota_exceeded': 'U dostawcy zabrakło miejsca.',
@@ -111,8 +111,8 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Nic jeszcze nie połączono',
   'docsync.empty.hintOwner':
-    'Wybierz repozytorium po lewej. TREK trzyma własną kopię wszystkiego, więc nic nie przepadnie, jeśli ono zniknie.',
-  'docsync.empty.hintMember': 'Konfiguruje to właściciel podróży. Tak czy inaczej dokumenty zostają w TREK.',
+    'Wybierz repozytorium po lewej. Manzil trzyma własną kopię wszystkiego, więc nic nie przepadnie, jeśli ono zniknie.',
+  'docsync.empty.hintMember': 'Konfiguruje to właściciel podróży. Tak czy inaczej dokumenty zostają w Manzil.',
 
   // Jak każdy produkt porządkuje pliki. Pokazywane, zanim ktokolwiek się połączy,
   // bo o to zapyta następny ekran.
@@ -123,7 +123,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'Przechowuje pliki w folderze na NAS-ie',
 
   // ── Pasek przepływu ────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Do repozytorium',
   'docsync.flow.toTrek': 'Z repozytorium',
   'docsync.flow.documents': 'dokumentów',
@@ -152,19 +152,19 @@ const docsync: TranslationStrings = {
   'docsync.connect.testing': 'Próba połączenia',
   'docsync.connect.okAs': 'Połączono, zalogowano jako {account}',
   'docsync.connect.insecureHint': 'Dla instancji w Twojej sieci z certyfikatem z własnym podpisem.',
-  'docsync.connect.about.paperless': 'TREK zapisuje tę podróż pod własnym tagiem i nie rusza reszty Twojego archiwum.',
+  'docsync.connect.about.paperless': 'Manzil zapisuje tę podróż pod własnym tagiem i nie rusza reszty Twojego archiwum.',
   'docsync.connect.about.papra':
-    'Wybierz organizację, do której należy ta podróż. TREK zapisze ją w niej pod własnym tagiem.',
+    'Wybierz organizację, do której należy ta podróż. Manzil zapisze ją w niej pod własnym tagiem.',
   'docsync.connect.about.nextcloud':
     'Użyj hasła aplikacji, nie hasła do konta: działa mimo logowania dwuskładnikowego i możesz je unieważnić osobno.',
-  'docsync.connect.about.opencloud': 'TREK dostaje własną przestrzeń dla tej podróży, oddzieloną od reszty.',
+  'docsync.connect.about.opencloud': 'Manzil dostaje własną przestrzeń dla tej podróży, oddzieloną od reszty.',
   'docsync.connect.about.synologydrive':
     'Najlepiej konto DSM sięgające tylko do folderu współdzielonego przeznaczonego dla tej podróży.',
 
   // ── Wybór miejsca ──────────────────────────────────────────────────────────
   'docsync.scope.title': 'Gdzie ta podróż ma się znaleźć w {provider}?',
   'docsync.scope.intro':
-    'Synchronizowane jest tylko to, co jest w środku. Reszta Twojego repozytorium zostaje poza TREK.',
+    'Synchronizowane jest tylko to, co jest w środku. Reszta Twojego repozytorium zostaje poza Manzil.',
   'docsync.scope.createTitle': 'Utwórz nowe miejsce',
   'docsync.scope.createAction': 'Utwórz',
   'docsync.scope.pickTitle': 'Albo użyj istniejącego',
@@ -174,7 +174,7 @@ const docsync: TranslationStrings = {
   // ── Rzeczy, o których musi zdecydować człowiek ─────────────────────────────
   'docsync.issues.title': 'Wymaga uwagi',
   'docsync.issues.conflict': 'Zmieniony w obu miejscach. Wybierz, którą wersję zachować.',
-  'docsync.issues.remote_missing': 'Zniknął z repozytorium. Kopia w TREK nadal tu jest.',
+  'docsync.issues.remote_missing': 'Zniknął z repozytorium. Kopia w Manzil nadal tu jest.',
   'docsync.issues.rejected_type': 'Ten typ pliku jest tu niedozwolony.',
   'docsync.issues.too_large': 'Większy niż limit.',
   'docsync.issues.error': 'Transfer się nie powiódł.',
@@ -184,11 +184,11 @@ const docsync: TranslationStrings = {
     'Wstrzymane: administrator wyłączył tego dostawcę. Synchronizacja zostanie wznowiona, gdy znów go włączy.',
   'docsync.binding.reconnect': 'Połącz ponownie',
   'docsync.connection.title': 'Połączenie',
-  'docsync.connection.hint': 'Adres i dane logowania, których TREK używa dla tego magazynu.',
+  'docsync.connection.hint': 'Adres i dane logowania, których Manzil używa dla tego magazynu.',
   'docsync.connection.edit': 'Edytuj połączenie',
   'docsync.connection.remove': 'Usuń połączenie',
   'docsync.connection.confirmRemove':
-    'TREK zapomina adres i dane logowania tego magazynu, a każda synchronizacja tej podróży przez niego się zatrzymuje. Dokumenty zostają w TREK i w magazynie.',
+    'Manzil zapomina adres i dane logowania tego magazynu, a każda synchronizacja tej podróży przez niego się zatrzymuje. Dokumenty zostają w Manzil i w magazynie.',
 };
 
 export default docsync;

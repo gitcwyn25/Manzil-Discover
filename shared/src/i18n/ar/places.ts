@@ -209,7 +209,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'تفاصيل جديدة للمكان',
   'places.refresh.title': 'تحديث تفاصيل المكان',
   'places.refresh.intro':
-    'يعرف TREK تفاصيل أحدث لهذا المكان. اختر ما تريد اعتماده، ويبقى الباقي كما هو. احفظ المكان بعد ذلك.',
+    'يعرف Manzil تفاصيل أحدث لهذا المكان. اختر ما تريد اعتماده، ويبقى الباقي كما هو. احفظ المكان بعد ذلك.',
   'places.refresh.apply': 'اعتماد',
   'places.refresh.replaces': 'يستبدل القيمة المحفوظة الآن',
   'places.refresh.empty': 'فارغ',

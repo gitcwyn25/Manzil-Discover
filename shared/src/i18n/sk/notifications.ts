@@ -17,7 +17,7 @@ const notifications: TranslationStrings = {
   'notifications.synologySessionCleared.text':
     'Váš server alebo účet sa zmenil — prejdite do Nastavení a znovu otestujte pripojenie.',
   'notifications.versionAvailable.title': 'Dostupná aktualizácia',
-  'notifications.versionAvailable.text': 'TREK {version} je teraz k dispozícii.',
+  'notifications.versionAvailable.text': 'Manzil {version} je teraz k dispozícii.',
   'notifications.versionAvailable.button': 'Zobraziť podrobnosti',
   'notifications.test.title': 'Testovacie oznámenie od {actor}',
   'notifications.test.text': 'Toto je jednoduché testovacie oznámenie.',

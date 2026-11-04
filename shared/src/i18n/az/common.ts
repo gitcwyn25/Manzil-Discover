@@ -77,8 +77,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'Yenidən cəhd et',
   'common.errorReload': 'Səhifəni yenilə',
   'common.errorUpdateTitle': 'Yeni versiya mövcuddur',
-  'common.errorUpdateBody': 'Bu səhifə açıq olarkən TREK yeniləndi. Yeni versiyanı əldə etmək üçün səhifəni yenilə.',
+  'common.errorUpdateBody': 'Bu səhifə açıq olarkən Manzil yeniləndi. Yeni versiyanı əldə etmək üçün səhifəni yenilə.',
   'common.errorPluginTitle': 'Bu plagini göstərmək mümkün olmadı',
-  'common.needsConnection': 'Bunun üçün bağlantı lazımdır. TREK yenidən onlayn olduqda bir daha cəhd edin.',
+  'common.needsConnection': 'Bunun üçün bağlantı lazımdır. Manzil yenidən onlayn olduqda bir daha cəhd edin.',
 };
 export default common;

@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Színek',
   'journey.studio.stickerSlot': '{index}. szín',
   'journey.studio.stickerResetColours': 'Eredeti színek',
-  'journey.studio.stickerMissing': 'Ez a matrica nincs benne a TREK ezen verziójának könyvtárában.',
+  'journey.studio.stickerMissing': 'Ez a matrica nincs benne a Manzil ezen verziójának könyvtárában.',
   'journey.studio.stickerFlip': 'Tükrözés',
   'journey.studio.stickerTurnLeft': 'Forgatás balra',
   'journey.studio.stickerTurnRight': 'Forgatás jobbra',

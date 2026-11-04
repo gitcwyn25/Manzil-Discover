@@ -532,7 +532,7 @@ export class AssistantToolsService implements OnApplicationBootstrap {
     offer: SessionOffer,
     kept?: KeptItineraries,
   ): Promise<AssistantToolSession> {
-    const server = createLocalMcpServer('TREK assistant');
+    const server = createLocalMcpServer('Manzil assistant');
     const around = (info: { kind: string; name: string }, call: () => unknown): unknown =>
       traceEntry('mcp', `${info.kind} ${info.name} user=${userId} client=assistant`, () =>
         withRequestContext(this.orm, call),

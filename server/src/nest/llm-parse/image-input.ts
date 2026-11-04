@@ -73,7 +73,7 @@ export async function capImage(data: Buffer, mimeType: string): Promise<{ data: 
   const header = readImageHeader(data);
   if (header && header.width * header.height > IMAGE_MAX_PIXELS) {
     throw new ImageTooLargeError(
-      `the photo is ${header.width} x ${header.height} pixels, more than the ${IMAGE_MAX_PIXELS / 1_000_000} megapixels TREK reads`,
+      `the photo is ${header.width} x ${header.height} pixels, more than the ${IMAGE_MAX_PIXELS / 1_000_000} megapixels Manzil reads`,
     );
   }
   if (!header || header.mimeType === 'image/webp') return asTheyCame(data, header?.mimeType ?? mimeType);

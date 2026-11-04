@@ -615,7 +615,7 @@ export class PlaceEnrichmentService {
         candidate: {
           key: '',
           url: '',
-          attribution: 'TREK Community',
+          attribution: 'Manzil Community',
           license: 'CC BY 4.0',
           licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
           sourceUrl: null,

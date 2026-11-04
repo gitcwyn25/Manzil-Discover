@@ -30,6 +30,10 @@ export { STORAGE_CATEGORIES, type StorageCategory } from '@trek/shared';
 export const SERVED_CATEGORIES = [...CONFIGURABLE_CATEGORIES, 'photos'] as const;
 export type ServedCategory = ConfigurableCategory | 'photos';
 
+/** The owner's private-upload policy; caches and backups keep their existing limits. */
+export const MANZIL_UPLOAD_MAX_BYTES = 4 * 1024 * 1024;
+export const MANZIL_USER_UPLOAD_CATEGORIES = ['files', 'journey', 'covers', 'avatars', 'places'] as const;
+
 export interface ObjectStat {
   key: string;
   size: number;
@@ -145,6 +149,15 @@ export class StorageBackendError extends Error {
   ) {
     super(message);
     this.name = 'StorageBackendError';
+  }
+}
+
+/** The global exception filter preserves this client-facing rejection as HTTP 413. */
+export class StorageUploadLimitError extends Error {
+  readonly statusCode = 413;
+  constructor(readonly maxBytes = MANZIL_UPLOAD_MAX_BYTES) {
+    super('File exceeds the 4 MB upload limit.');
+    this.name = 'StorageUploadLimitError';
   }
 }
 

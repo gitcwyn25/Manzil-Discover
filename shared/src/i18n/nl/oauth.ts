@@ -82,7 +82,7 @@ const oauth: TranslationStrings = {
   'oauth.authorize.errorTitle': 'Autorisatiefout',
   'oauth.authorize.loginTitle': 'Log in om door te gaan',
   'oauth.authorize.loginDescription': '{client} wil toegang tot je TREK-account. Log eerst in.',
-  'oauth.authorize.loginButton': 'Inloggen bij TREK',
+  'oauth.authorize.loginButton': 'Inloggen bij Manzil',
   'oauth.authorize.requestLabel': 'Autorisatieverzoek',
   'oauth.authorize.requestDescription': 'Deze toepassing vraagt toegang tot je TREK-account.',
   'oauth.authorize.verifiedHost': 'Geverifieerd domein: {host}',

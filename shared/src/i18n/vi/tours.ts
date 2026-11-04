@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Thêm vào ngày',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'Nhập từ GPX',
-  'tours.badge.planned': 'lên kế hoạch trong TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'lên kế hoạch trong Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'cần thận trọng khi sử dụng',
@@ -37,7 +37,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Chuyến tham quan này đã có trong ngày đó.',
   'tours.conversion.title': 'Phiên bản có thể chỉnh sửa',
   'tours.conversion.intro':
-    'Bản nhập là một vệt hành trình đã ghi. Lên kế hoạch một phiên bản có thể chỉnh sửa: TREK lấy các điểm kiểm soát từ đó, định tuyến lại và cho thấy kết quả gần đến mức nào. Không có gì thay đổi cho đến khi bạn chọn.',
+    'Bản nhập là một vệt hành trình đã ghi. Lên kế hoạch một phiên bản có thể chỉnh sửa: Manzil lấy các điểm kiểm soát từ đó, định tuyến lại và cho thấy kết quả gần đến mức nào. Không có gì thay đổi cho đến khi bạn chọn.',
   'tours.conversion.replace': 'Thay thế bản nhập',
   'tours.conversion.replaceHint':
     'Lên kế hoạch lại chuyến tham quan này ngay tại chỗ: các ngày và ghi chú được giữ nguyên, vệt hành trình đã ghi cũng được lưu lại để bạn có thể quay về.',
@@ -124,7 +124,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Về an toàn',
   'tours.planner.addPoint': 'Thêm điểm',
   'tours.planner.addPointActive': 'Nhấp vào bản đồ',
-  'tours.planner.emptyHint': 'Bật “Thêm điểm” rồi nhấp vào bản đồ. Từ hai điểm trở lên, TREK sẽ tính tuyến đường.',
+  'tours.planner.emptyHint': 'Bật “Thêm điểm” rồi nhấp vào bản đồ. Từ hai điểm trở lên, Manzil sẽ tính tuyến đường.',
   'tours.planner.walkingEstimated': 'Thời gian đi bộ ước tính',
   'tours.planner.walkingEstimatedShort': 'TG ước tính',
   'tours.planner.walkingEstimatedInfoLabel': 'Cách ước tính thời gian đi bộ',
@@ -238,7 +238,7 @@ const tours: TranslationStrings = {
     'Ngày thay đổi mà wanderer cho biết khi nhập. Chỉ là gợi ý, không phải bằng chứng phiên bản.',
   'tours.provenance.localState': 'Tại đây',
   'tours.provenance.plannedOver': 'Đã lên kế hoạch lại, giữ vết đã ghi',
-  'tours.provenance.editedLocally': 'Đã sửa trong TREK',
+  'tours.provenance.editedLocally': 'Đã sửa trong Manzil',
   'tours.provenance.asImported': 'Như khi nhập',
   'tours.provenance.openSource': 'Mở trong wanderer',
   'tours.provenance.check': 'Kiểm tra nguồn',
@@ -312,7 +312,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Nhập lộ trình đi bộ từ Google Maps',
   'tours.walkImport.title': 'Lộ trình đi bộ từ liên kết Google Maps',
   'tours.walkImport.intro':
-    'Chia sẻ một tuyến đi bộ trong Google Maps rồi dán liên kết vào đây. TREK đọc các điểm dừng và tự lên lộ trình đi bộ giữa chúng.',
+    'Chia sẻ một tuyến đi bộ trong Google Maps rồi dán liên kết vào đây. Manzil đọc các điểm dừng và tự lên lộ trình đi bộ giữa chúng.',
   'tours.walkImport.urlLabel': 'Liên kết đến tuyến đi bộ',
   'tours.walkImport.urlHint': 'Một liên kết rút gọn maps.app.goo.gl, hoặc địa chỉ của tuyến trên google.com/maps.',
   'tours.walkImport.read': 'Đọc liên kết',
@@ -322,13 +322,13 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Từ Google Maps',
   'tours.walkImport.openSource': 'Mở trong Google Maps',
   'tours.walkImport.recalculated':
-    'TREK lên lại đường đi giữa các điểm dừng; đường đã vẽ trong Google Maps không được giữ lại.',
+    'Manzil lên lại đường đi giữa các điểm dừng; đường đã vẽ trong Google Maps không được giữ lại.',
   'tours.walkImport.noPosition': 'Không có vị trí trong liên kết',
   'tours.walkImport.unresolved': '{count} điểm dừng không có vị trí trong liên kết nên bị bỏ qua.',
   'tours.walkImport.tooFewPositions': 'Một lộ trình đi bộ cần ít nhất hai điểm dừng có vị trí.',
   'tours.walkImport.replacesDraft': 'Tải lộ trình đi bộ sẽ thay thế các thay đổi chưa lưu trong trình lập kế hoạch.',
   'tours.walkImport.defaultName': 'Lộ trình đi bộ từ Google Maps',
-  'tours.walkImport.draftNotice': 'Từ một tuyến đi bộ của Google Maps. Đường đi giữa các điểm dừng do TREK tự lên.',
+  'tours.walkImport.draftNotice': 'Từ một tuyến đi bộ của Google Maps. Đường đi giữa các điểm dừng do Manzil tự lên.',
   'tours.walkImport.offline': 'Cần có kết nối mạng để đọc liên kết.',
   'tours.walkImport.failed': 'Hiện chưa đọc được liên kết. Hãy thử lại sau ít phút.',
   'tours.walkImport.refusal.not_google_maps':
@@ -369,7 +369,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': 'cách lộ trình {distance}',
   'tours.poi.along': 'tại {distance}',
   'tours.poi.source.osm': 'Từ OpenStreetMap',
-  'tours.poi.source.trek': 'Từ chỉ mục địa điểm của TREK',
+  'tours.poi.source.trek': 'Từ chỉ mục địa điểm của Manzil',
   'tours.poi.hoursHint': 'Theo nguồn dữ liệu; hãy kiểm tra trước khi đi.',
   'tours.poi.website': 'Trang web',
   'tours.poi.slot.label': 'Chèn vào đâu',
@@ -500,7 +500,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Dữ liệu bản đồ ngày {build}',
   'tours.ski.summary.saved': 'Hiển thị như đã lưu. Di chuyển một điểm hoặc đổi một tùy chọn để lập lại kế hoạch.',
   'tours.ski.chooseTechnique': 'Chọn kỹ thuật, hoặc Không rõ.',
-  'tours.ski.infoLabel': 'TREK làm gì với chuyến và đường trượt tuyết',
+  'tours.ski.infoLabel': 'Manzil làm gì với chuyến và đường trượt tuyết',
   'tours.ski.info':
     'Một chuyến đi đã lên kế hoạch đi theo đường trượt, cáp treo và đường mòn từ OpenStreetMap ở nơi có dữ liệu đường trượt, và nối các điểm bằng đường thẳng ở nơi khác. Một tuyến đã nhập được giữ như khi ghi lại. Độ cao lấy từ dữ liệu đường trượt, địa hình hoặc tệp. Không có gì ở đây, kể cả màu độ dốc trong 3D, nói gì về tuyết, lở tuyết hay việc đường trượt, cáp treo và đường mòn có mở hay không.',
   'tours.ski.time': 'Thời gian trượt',
@@ -906,7 +906,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Định tuyến lại đoạn tiếp theo',
   'tours.planner.freeLegBadge': 'Vẽ tay, không định tuyến',
   'tours.planner.freeLegInfo':
-    'TREK nối hai điểm này bằng một đường thẳng. Không công cụ định tuyến nào đã lập hay kiểm tra đoạn này.',
+    'Manzil nối hai điểm này bằng một đường thẳng. Không công cụ định tuyến nào đã lập hay kiểm tra đoạn này.',
   'tours.map.seamarks': 'Báo hiệu hàng hải',
   'tours.map.seamarksDown': 'Báo hiệu hàng hải không tải được. Bản đồ và tuyến của bạn vẫn hoạt động.',
   'tours.map.pistes': 'Đường trượt, đường trượt băng đồng và cáp treo',
@@ -948,9 +948,9 @@ const tours: TranslationStrings = {
   'tours.import.previewAs': 'Nhập dưới dạng',
   'tours.import.previewConfirm': 'Nhập {count} chuyến',
   'tours.conversion.introPaddle':
-    'Bản nhập là một vết đã ghi. Hãy lập một chuyến chèo thuyền có thể chỉnh sửa: TREK lấy các điểm kiểm soát từ đó, nối chúng bằng đường thẳng như cách vẽ chuyến chèo thuyền và cho thấy nó sát đến đâu. Không gì thay đổi cho đến khi bạn chọn.',
+    'Bản nhập là một vết đã ghi. Hãy lập một chuyến chèo thuyền có thể chỉnh sửa: Manzil lấy các điểm kiểm soát từ đó, nối chúng bằng đường thẳng như cách vẽ chuyến chèo thuyền và cho thấy nó sát đến đâu. Không gì thay đổi cho đến khi bạn chọn.',
   'tours.conversion.introSki':
-    'Bản nhập là một vết đã ghi. Hãy lập một chuyến trượt tuyết có thể chỉnh sửa: TREK lấy các điểm kiểm soát từ đó, nối chúng bằng đường thẳng như cách vẽ chuyến trượt tuyết và cho thấy nó sát đến đâu. Không gì thay đổi cho đến khi bạn chọn.',
+    'Bản nhập là một vết đã ghi. Hãy lập một chuyến trượt tuyết có thể chỉnh sửa: Manzil lấy các điểm kiểm soát từ đó, nối chúng bằng đường thẳng như cách vẽ chuyến trượt tuyết và cho thấy nó sát đến đâu. Không gì thay đổi cho đến khi bạn chọn.',
   'tours.conversion.closePaddle':
     'Đề xuất bám sát vết. Các điểm được nối bằng đường thẳng nên đây không phải cùng một đường.',
   'tours.planner.moreActions': 'Thêm thao tác',
@@ -982,7 +982,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Khiêng vòng qua, tính theo đoạn khiêng thuyền',
   'tours.paddle.time.title': 'Ước tính thời gian',
   'tours.paddle.time.assumptionInfo':
-    'TREK bắt đầu với 4 km/h trên nước, 2 km/h khi khiêng thuyền và 10 phút để lên bờ rồi xuống nước lại ở mỗi đoạn khiêng thuyền. Đây là giá trị ban đầu để bạn điều chỉnh, không phải tiêu chuẩn và không phải số đo. Thời gian qua âu thuyền chỉ là những gì bạn nhập.',
+    'Manzil bắt đầu với 4 km/h trên nước, 2 km/h khi khiêng thuyền và 10 phút để lên bờ rồi xuống nước lại ở mỗi đoạn khiêng thuyền. Đây là giá trị ban đầu để bạn điều chỉnh, không phải tiêu chuẩn và không phải số đo. Thời gian qua âu thuyền chỉ là những gì bạn nhập.',
   'tours.paddle.time.water': 'Trên nước',
   'tours.paddle.time.carry': 'Khiêng thuyền',
   'tours.paddle.time.carrySpeed': 'Tốc độ khiêng',
@@ -1060,7 +1060,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacles.none':
     'Không có dữ liệu chướng ngại vật cho khu vực này. Hãy tự kiểm tra đập tràn, âu thuyền và điểm khiêng thuyền ở đây.',
   'tours.paddle.obstacles.offline':
-    'Không có kết nối, TREK không tải dữ liệu chướng ngại vật. Hãy tự kiểm tra mặt nước.',
+    'Không có kết nối, Manzil không tải dữ liệu chướng ngại vật. Hãy tự kiểm tra mặt nước.',
   'tours.paddle.obstacles.error': 'Không thể tải dữ liệu chướng ngại vật. Hãy tự kiểm tra mặt nước.',
   'tours.paddle.obstacle.kind.weir': 'Đập tràn',
   'tours.paddle.obstacle.kind.dam': 'Đập',
@@ -1075,7 +1075,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Điểm khiêng thuyền',
   'tours.paddle.obstacle.kind.access': 'Quy định chèo thuyền',
   'tours.paddle.obstacles.truncated':
-    'TREK chỉ hiển thị một phần các đối tượng ở đây, khu vực này còn nhiều hơn. Hãy tự kiểm tra mặt nước.',
+    'Manzil chỉ hiển thị một phần các đối tượng ở đây, khu vực này còn nhiều hơn. Hãy tự kiểm tra mặt nước.',
   'tours.paddle.obstacles.dateUnknown': 'một ngày không rõ',
   'tours.paddle.obstacleCard.onRoute': 'Trên tuyến tại',
   'tours.paddle.obstacleCard.near': 'Gần tuyến',
@@ -1157,7 +1157,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'An toàn trên mặt nước',
   'tours.paddle.safety.short': 'Chèo thuyền có rủi ro. Hãy tự kiểm tra mặt nước, quy định và thời tiết.',
   'tours.paddle.safety.text':
-    'Chèo thuyền tiềm ẩn rủi ro. Bản đồ, gợi ý tuyến và ghi chú có thể chưa đầy đủ hoặc đã lỗi thời. Trước chuyến đi, hãy kiểm tra điều kiện địa phương hiện tại, quy định sử dụng mặt nước và thời tiết. Thực hiện các biện pháp an toàn phù hợp. TREK hỗ trợ việc lập kế hoạch của bạn và không thay thế việc tự kiểm tra cũng như quyết định có trách nhiệm của bạn.',
+    'Chèo thuyền tiềm ẩn rủi ro. Bản đồ, gợi ý tuyến và ghi chú có thể chưa đầy đủ hoặc đã lỗi thời. Trước chuyến đi, hãy kiểm tra điều kiện địa phương hiện tại, quy định sử dụng mặt nước và thời tiết. Thực hiện các biện pháp an toàn phù hợp. Manzil hỗ trợ việc lập kế hoạch của bạn và không thay thế việc tự kiểm tra cũng như quyết định có trách nhiệm của bạn.',
   'tours.planner.shapingPoint': 'Điểm định hình',
   'tours.planner.shapingHint':
     'Định hướng tuyến đường mà không phải là điểm dừng. Kéo nó tới nơi tuyến đường cần đi qua.',
@@ -1212,7 +1212,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Lập trên mặt nước các chặng vẽ tay',
   'tours.paddle.auto': 'Đã tìm thấy',
   'tours.paddle.autoHint':
-    'TREK đặt điểm này tại một chỗ khiêng thuyền hoặc âu thuyền tìm thấy trên đường. Nếu bạn di chuyển hoặc thay đổi nó, nó sẽ thuộc về bạn.',
+    'Manzil đặt điểm này tại một chỗ khiêng thuyền hoặc âu thuyền tìm thấy trên đường. Nếu bạn di chuyển hoặc thay đổi nó, nó sẽ thuộc về bạn.',
   'tours.paddle.note.rapids': 'Nước xiết cấp {grade}',
   'tours.paddle.note.pass': 'Lối cho thuyền',
   'tours.paddle.note.gap': 'Khoảng trống trong dữ liệu bản đồ',
@@ -1221,10 +1221,10 @@ const tours: TranslationStrings = {
   'tours.paddle.note.gapHint':
     'Dữ liệu mặt nước có khoảng trống ở đây, được nối bằng đường thẳng. Hãy kiểm tra tại chỗ.',
   'tours.paddle.failed.not_on_water':
-    'Một đầu của chặng này không nằm trên vùng nước nào TREK biết. Hãy dời nó lên sông hoặc hồ.',
+    'Một đầu của chặng này không nằm trên vùng nước nào Manzil biết. Hãy dời nó lên sông hoặc hồ.',
   'tours.paddle.failed.no_region': 'Chưa có dữ liệu mặt nước cho khu vực này. Quản trị viên có thể thêm vùng.',
   'tours.paddle.failed.building': 'Dữ liệu mặt nước của vùng này vẫn đang được chuẩn bị. Hãy thử lại sau vài phút.',
-  'tours.paddle.failed.no_water_path': 'TREK không tìm thấy đường đi trên mặt nước giữa các điểm này.',
+  'tours.paddle.failed.no_water_path': 'Manzil không tìm thấy đường đi trên mặt nước giữa các điểm này.',
   'tours.paddle.failed.cross_region': 'Các điểm này nằm ở hai vùng không có dữ liệu mặt nước chung.',
   'tours.paddle.failed.busy': 'Trình lập tuyến đang bận. Hãy thử lại sau giây lát.',
   'tours.paddle.failed.timeout': 'Việc lập chặng này mất quá lâu. Hãy thêm một điểm ở giữa và thử lại.',
@@ -1241,8 +1241,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.build': 'Đang xây dựng mạng lưới nước',
   'tours.paddle.load.hint':
     'Thường mất một đến ba phút. Cứ tiếp tục lên kế hoạch, đoạn này sẽ tự được lên kế hoạch sau đó.',
-  'tours.paddle.load.reason.tooLarge': 'Vùng này lớn hơn mức TREK tự tải.',
-  'tours.paddle.load.reason.limit': 'Hôm nay TREK đã tự tải đủ số vùng.',
+  'tours.paddle.load.reason.tooLarge': 'Vùng này lớn hơn mức Manzil tự tải.',
+  'tours.paddle.load.reason.limit': 'Hôm nay Manzil đã tự tải đủ số vùng.',
   'tours.paddle.load.declined': 'Quản trị viên đã từ chối dữ liệu nước cho {region}.',
   'tours.paddle.load.failed': 'Không thể tải dữ liệu nước cho {region}.',
   'tours.paddle.load.noWater': 'Dữ liệu nước cho {region} không có mặt nước ở đây. Hãy đặt điểm trên sông hoặc hồ.',
@@ -1265,7 +1265,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Thời gian cưỡi ngựa',
   'tours.horse.timeInfoLabel': 'Vì sao không có thời gian cưỡi ngựa',
   'tours.horse.timeInfo':
-    'TREK không tính thời gian cưỡi ngựa: tốc độ do ngựa và người cưỡi quyết định. Nếu muốn, hãy tự nhập tổng thời gian dự kiến.',
+    'Manzil không tính thời gian cưỡi ngựa: tốc độ do ngựa và người cưỡi quyết định. Nếu muốn, hãy tự nhập tổng thời gian dự kiến.',
   'tours.horse.routes.title': 'Tuyến cưỡi ngựa',
   'tours.horse.routes.infoLabel': 'Về tuyến cưỡi ngựa',
   'tours.horse.routes.info':
@@ -1321,7 +1321,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo': 'Đường đi giữ nguyên như tệp đã ghi. Không có gì được dẫn đường lại.',
   'tours.horse.recorded.noTime': 'Không có thời gian cưỡi ngựa',
   'tours.horse.recorded.noTimeInfo':
-    'TREK không tính thời gian cưỡi ngựa cho chuyến cưỡi ngựa: nhịp độ là của ngựa và người cưỡi.',
+    'Manzil không tính thời gian cưỡi ngựa cho chuyến cưỡi ngựa: nhịp độ là của ngựa và người cưỡi.',
   'tours.horse.recorded.accessUnchecked': 'Chưa kiểm tra quyền đi',
   'tours.horse.recorded.accessUncheckedInfo':
     'Việc nhập không kiểm tra liệu có được cưỡi ngựa trên các con đường hay không. Biển báo tại chỗ mới là căn cứ.',
@@ -1470,7 +1470,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Chưa có gì để lưu. Hãy thay đổi chuyến tham quan trước.',
   'tours.detail.openInTours': 'Mở trong tab Chuyến tham quan',
   'tours.planner.status.routingGeneric': 'Đang tính tuyến đường…',
-  'tours.planner.emptyHintPlacing': 'Nhấp vào bản đồ để đặt điểm. Từ hai điểm trở lên, TREK sẽ tính tuyến đường.',
+  'tours.planner.emptyHintPlacing': 'Nhấp vào bản đồ để đặt điểm. Từ hai điểm trở lên, Manzil sẽ tính tuyến đường.',
   'tours.ski.drawStraight': 'Vẽ thẳng',
   'tours.horse.routes.stale': 'Danh sách hiển thị khung nhìn bạn đã tìm. Hãy tìm lại cho khung nhìn này.',
   'tours.horse.dialog.adoptGapHint':

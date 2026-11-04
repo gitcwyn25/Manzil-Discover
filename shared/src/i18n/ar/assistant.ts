@@ -273,7 +273,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays.few': '{count} أيام',
   'assistant.admin.retentionDays.many': '{count} يومًا',
   'assistant.admin.retentionForever': 'للأبد',
-  'assistant.mobile.tile': 'اسأل TREK',
+  'assistant.mobile.tile': 'اسأل Manzil',
   'assistant.mobile.tileHint': 'خطط مع المساعد',
   'assistant.mobile.backToChat': 'العودة إلى المحادثة',
   'assistant.step.nearbyAt': 'يبحث بالقرب من {place}',
@@ -565,7 +565,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.many': 'وجدت {count} حجزًا في {name}. أضف ما تريده منها أدناه.',
   'assistant.attach.none': 'لم أجد أي حجز في {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'قراءة الملفات بالذكاء الاصطناعي غير مفعّلة للاستيراد هنا، لذلك فحصه قارئ TREK وحده.',
+    'قراءة الملفات بالذكاء الاصطناعي غير مفعّلة للاستيراد هنا، لذلك فحصه قارئ Manzil وحده.',
   'assistant.attach.why.aiFailed': 'لم يتمكن قارئ الذكاء الاصطناعي من قراءته.',
   'assistant.attach.why.noText': 'لا يحتوي على نص قابل للقراءة، والأرجح أنه ملف ممسوح ضوئيًا.',
   'assistant.attach.why.nothingFound': 'لا شيء فيه يبدو كحجز.',

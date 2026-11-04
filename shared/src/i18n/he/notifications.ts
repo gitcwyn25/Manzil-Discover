@@ -16,7 +16,7 @@ const notifications: TranslationStrings = {
   'notifications.synologySessionCleared.title': 'Synology Photos נותק',
   'notifications.synologySessionCleared.text': 'השרת או החשבון שלכם השתנו — עברו להגדרות כדי לבדוק שוב את החיבור.',
   'notifications.versionAvailable.title': 'עדכון זמין',
-  'notifications.versionAvailable.text': 'TREK {version} זמין עכשיו.',
+  'notifications.versionAvailable.text': 'Manzil {version} זמין עכשיו.',
   'notifications.versionAvailable.button': 'הצגת פרטים',
   'notifications.test.title': 'התראת בדיקה מ-{actor}',
   'notifications.test.text': 'זוהי התראת בדיקה פשוטה.',

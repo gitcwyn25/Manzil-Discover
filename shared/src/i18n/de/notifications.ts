@@ -32,7 +32,7 @@ const notifications: TranslationStrings = {
   'notifications.countLabel': 'Benachrichtigungen',
   'notifications.countLabel.one': 'Benachrichtigung',
   'notifications.versionAvailable.title': 'Update verfügbar',
-  'notifications.versionAvailable.text': 'TREK {version} ist jetzt verfügbar.',
+  'notifications.versionAvailable.text': 'Manzil {version} ist jetzt verfügbar.',
   'notifications.versionAvailable.button': 'Details anzeigen',
   'notifications.deleteAllConfirmTitle': 'Alle Benachrichtigungen löschen?',
   'notifications.deleteAllConfirmText':

@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Canlı demo',
-  'demo.welcome.title': 'TREK-ə xoş gəlmisiniz',
+  'demo.welcome.title': 'Manzil-ə xoş gəlmisiniz',
   'demo.welcome.tagline':
     'Paylaşılan səyahət planlayıcısı: xəritədə real vaxtda birlikdə planlayın, ilk ideyadan səfərdən sonrakı foto kitaba qədər.',
   'demo.welcome.resetTitle': 'Hər saat hər şey sıfırlanır',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Xəritədə günlər, yerlər və marşrutlar; uçuşlar, otellər, restoranlar, rezervasiyalar və ortaq xərclərlə.',
   'demo.feature.tours.title': 'Turlar və gəzintilər',
   'demo.feature.tours.body': 'Cığır şəbəkəsində gəzinti planlayın və hündürlük profili ilə 3D relyefdə izləyin.',
-  'demo.feature.studio.title': 'TREK Studio ilə foto kitablar',
+  'demo.feature.studio.title': 'Manzil Studio ilə foto kitablar',
   'demo.feature.studio.body': 'Səyahəti səhifə səhifə tərtib olunmuş foto kitaba çevirin.',
   'demo.feature.collab.title': 'Canlı birlikdə planlayın',
   'demo.feature.collab.body': 'Səfərdəki hər kəs hər dəyişikliyi dərhal görür; söhbət, qeydlər və sorğularla.',
@@ -50,7 +50,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Foto müəllifləri',
   'demo.credits.intro':
-    'Bu demodakı fotolar Wikimedia Commons-dan götürülüb və hər biri yanında göstərilən lisenziya ilə yayımlanır. Bu lisenziya yalnız fotoya aiddir, TREK-ə və ya demonun qalan hissəsinə aid deyil.',
+    'Bu demodakı fotolar Wikimedia Commons-dan götürülüb və hər biri yanında göstərilən lisenziya ilə yayımlanır. Bu lisenziya yalnız fotoya aiddir, Manzil-ə və ya demonun qalan hissəsinə aid deyil.',
   'demo.credits.by': 'Müəllif: {author}',
   'demo.credits.publicDomain': 'İctimai mülkiyyət',
   'demo.credits.back': 'Geri',

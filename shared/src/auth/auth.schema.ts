@@ -1,5 +1,16 @@
 import { z } from 'zod';
 
+export const supabaseExchangeRequestSchema = z.object({
+  access_token: z.string().min(1).max(20000),
+  remember_me: z.boolean().optional(),
+  invite_token: z.string().max(256).optional(),
+});
+export const supabaseExchangeResponseSchema = z.union([
+  z.object({ mfa_required: z.literal(true), mfa_token: z.string() }),
+  z.object({ success: z.literal(true) }),
+]);
+export const supabaseRevokeResponseSchema = z.object({ success: z.literal(true) });
+
 /**
  * Auth API contract for /api/auth.
  *

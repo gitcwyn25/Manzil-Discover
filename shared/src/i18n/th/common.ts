@@ -75,8 +75,8 @@ const common: TranslationStrings = {
   'common.errorRetry': 'ลองอีกครั้ง',
   'common.errorReload': 'โหลดหน้าซ้ำ',
   'common.errorUpdateTitle': 'มีเวอร์ชันใหม่ให้ใช้งานแล้ว',
-  'common.errorUpdateBody': 'TREK ได้รับการอัปเดตขณะที่แท็บนี้เปิดอยู่ โหลดซ้ำเพื่อรับเวอร์ชันใหม่',
+  'common.errorUpdateBody': 'Manzil ได้รับการอัปเดตขณะที่แท็บนี้เปิดอยู่ โหลดซ้ำเพื่อรับเวอร์ชันใหม่',
   'common.errorPluginTitle': 'ไม่สามารถแสดงปลั๊กอินนี้ได้',
-  'common.needsConnection': 'การทำงานนี้ต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ TREK กลับมาออนไลน์',
+  'common.needsConnection': 'การทำงานนี้ต้องใช้การเชื่อมต่อ ลองอีกครั้งเมื่อ Manzil กลับมาออนไลน์',
 };
 export default common;

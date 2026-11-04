@@ -23,12 +23,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'Підключення до wanderer видалено',
   'wanderer.loadFailed': 'Не вдалося завантажити підключення до wanderer',
   'wanderer.privateIp':
-    'Ця адреса належить до приватної мережі. Якщо TREK не може до неї підключитися, адміністратор має дозволити внутрішні мережі.',
+    'Ця адреса належить до приватної мережі. Якщо Manzil не може до неї підключитися, адміністратор має дозволити внутрішні мережі.',
   'wanderer.error.disabled': 'Адміністратор не ввімкнув wanderer для турів.',
   'wanderer.error.not_connected': 'wanderer ще не підключено.',
   'wanderer.error.invalid_url': 'Ця адреса не є дійсним URL wanderer.',
   'wanderer.error.blocked_address':
-    'TREK не дозволено звертатися до цієї адреси. Для екземпляра у вашій власній мережі адміністратор має встановити ALLOW_INTERNAL_NETWORK=true.',
+    'Manzil не дозволено звертатися до цієї адреси. Для екземпляра у вашій власній мережі адміністратор має встановити ALLOW_INTERNAL_NETWORK=true.',
   'wanderer.error.unreachable':
     'Не вдалося зв’язатися з wanderer. Перевірте адресу та переконайтеся, що екземпляр працює.',
   'wanderer.error.tls': 'Не вдалося перевірити сертифікат екземпляра. Якщо він самопідписаний, дозвольте його нижче.',
@@ -39,7 +39,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Відповідь надійшла не від wanderer. Перевірте, що адреса вказує саме на wanderer.',
   'wanderer.error.no_author':
-    'wanderer відповів, але не вказує автора маршрутів для облікового запису цього API-токена, тож TREK не може визначити, які маршрути ваші.',
+    'wanderer відповів, але не вказує автора маршрутів для облікового запису цього API-токена, тож Manzil не може визначити, які маршрути ваші.',
   'wanderer.error.too_large': 'Файл маршруту більший за 10 МБ.',
   'wanderer.error.server_error': 'wanderer відповів помилкою. Спробуйте пізніше.',
   'wanderer.error.offline': 'Немає підключення до мережі. Пошук у wanderer доступний лише онлайн.',

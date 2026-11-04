@@ -7,7 +7,11 @@ import { assertValidKey } from './storage-keys';
 import { StorageRegistryService } from './storage-registry.service';
 import {
   isClientAbortError,
+  isLocalTempFile,
+  MANZIL_UPLOAD_MAX_BYTES,
+  MANZIL_USER_UPLOAD_CATEGORIES,
   StorageNotFoundError,
+  StorageUploadLimitError,
   type ByteRange,
   type LocalTempFile,
   type ObjectStat,
@@ -21,7 +25,7 @@ import type { Response } from 'express';
 import { randomUUID } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
-import type { Readable } from 'node:stream';
+import { Transform, type Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 
 export interface SendOptions {
@@ -117,7 +121,45 @@ export class StorageService {
     opts?: PutOptions,
   ): Promise<void> {
     const { driver, key } = this.resolve(category, name);
-    return driver.put(key, source, opts);
+    const provider = this.runtimeEnv.env().supabase;
+    if (
+      !provider.url ||
+      !provider.publishableKey ||
+      !MANZIL_USER_UPLOAD_CATEGORIES.some((value) => value === category)
+    ) {
+      return driver.put(key, source, opts);
+    }
+    // Validate before handing bytes to either backend. This also covers a local
+    // upload racing a copy-before-flip migration to the capped private bucket.
+    if (isLocalTempFile(source)) {
+      try {
+        if ((await fs.promises.stat(source.tmpPath)).size > MANZIL_UPLOAD_MAX_BYTES)
+          throw new StorageUploadLimitError();
+        const current = this.resolve(category, name);
+        return await current.driver.put(current.key, source, opts);
+      } finally {
+        await fs.promises.rm(source.tmpPath, { force: true });
+      }
+    }
+    const directory = this.tempDir();
+    await fs.promises.mkdir(directory, { recursive: true });
+    const tmpPath = path.join(directory, `upload-${randomUUID()}`);
+    let bytes = 0;
+    const limit = new Transform({
+      transform(chunk: Buffer, _encoding, callback) {
+        bytes += chunk.length;
+        if (bytes > MANZIL_UPLOAD_MAX_BYTES) callback(new StorageUploadLimitError());
+        else callback(null, chunk);
+      },
+    });
+    try {
+      await pipeline(source, limit, fs.createWriteStream(tmpPath, { flags: 'wx' }));
+      const current = this.resolve(category, name);
+      await current.driver.put(current.key, { tmpPath }, opts);
+    } finally {
+      // A driver consumes the temp file; failure before transfer must consume it too.
+      await fs.promises.rm(tmpPath, { force: true });
+    }
   }
 
   async getStream(

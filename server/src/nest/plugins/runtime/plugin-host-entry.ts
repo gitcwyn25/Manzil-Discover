@@ -86,7 +86,7 @@ function installSdkInjection(requirePlugin: NodeJS.Require): void {
   nodeModule._load = function (request: string, parent: unknown, isMain: boolean): unknown {
     if (request === 'trek-plugin-sdk') return shim;
     if (request.startsWith('trek-plugin-sdk/')) {
-      throw new Error(`${request} is a build/test-time module — only 'trek-plugin-sdk' itself is injected inside TREK`);
+      throw new Error(`${request} is a build/test-time module — only 'trek-plugin-sdk' itself is injected inside Manzil`);
     }
     return realLoad.call(this, request, parent, isMain);
   };

@@ -20,10 +20,10 @@ const docsync: TranslationStrings = {
   'docsync.deleteTrash': 'Zibil qutusuna köçür',
   'docsync.conflictPolicy': 'Hər iki tərəf dəyişdikdə',
   'docsync.onConflict.manual': 'Məndən soruş',
-  'docsync.onConflict.trek_wins': 'TREK nüsxəsini saxla',
+  'docsync.onConflict.trek_wins': 'Manzil nüsxəsini saxla',
   'docsync.onConflict.provider_wins': 'Saxlama xidmətindəki nüsxəni saxla',
   'docsync.webhookHint':
-    'Dəyişikliklərin dərhal çatması üçün bu URL-ni provayderinizə daxil edin. Bu edilmədikdə TREK müəyyən vaxt intervalları ilə yoxlayır.',
+    'Dəyişikliklərin dərhal çatması üçün bu URL-ni provayderinizə daxil edin. Bu edilmədikdə Manzil müəyyən vaxt intervalları ilə yoxlayır.',
 
   // Connection form fields. The keys mirror the `label` column in
   // document_provider_fields, which stores a key suffix rather than text.
@@ -48,7 +48,7 @@ const docsync: TranslationStrings = {
   'docsync.hintNextcloudAppPassword':
     'Tənzimləmələr → Təhlükəsizlik → Yeni tətbiq parolu yarat. Hesab parolunuzu heç vaxt istifadə etməyin.',
   'docsync.hintOpenCloudToken': 'OpenCloud-da tətbiq tokenləri bölməsindən yaradılır.',
-  'docsync.hintBasePath': 'TREK-in səyahət qovluqlarını axtardığı yer. Standart olaraq /TREK.',
+  'docsync.hintBasePath': 'TREK-in səyahət qovluqlarını axtardığı yer. Standart olaraq /Manzil.',
   'docsync.hintSynologyUrl': 'Portu da daxil edin, məsələn, https://nas.example.com:5001',
   'docsync.hintSynologyUser':
     'Yalnız bu paylaşılan qovluğa giriş icazəsi olan ayrıca DSM hesabından istifadə etmək daha yaxşıdır.',
@@ -76,7 +76,7 @@ const docsync: TranslationStrings = {
   'docsync.conflict.resolve.one': '{count} ziddiyyəti həll et',
 
   'docsync.conflict.title': 'Hər iki nüsxə dəyişdirilib',
-  'docsync.conflict.keepTrek': 'TREK versiyasını saxla',
+  'docsync.conflict.keepTrek': 'Manzil versiyasını saxla',
   'docsync.conflict.keepProvider': 'Provayder versiyasını saxla',
   'docsync.conflict.keepBoth': 'Hər ikisini saxla',
 
@@ -89,7 +89,7 @@ const docsync: TranslationStrings = {
   'docsync.error.forbidden': 'Bu hesabın həmin əməliyyatı yerinə yetirməsinə icazə verilmir.',
   'docsync.error.not_found': 'Provayderdə tapılmadı.',
   'docsync.error.scope_missing': 'Qoşulmuş qovluq artıq mövcud deyil.',
-  'docsync.error.rate_limited': 'Provayder sorğu tezliyini məhdudlaşdırır. TREK daha sonra yenidən cəhd edəcək.',
+  'docsync.error.rate_limited': 'Provayder sorğu tezliyini məhdudlaşdırır. Manzil daha sonra yenidən cəhd edəcək.',
   'docsync.error.too_large': 'Fayl provayderin qəbul etdiyi ölçüdən böyükdür.',
   'docsync.error.unsupported_type': 'Provayder bu fayl növünü qəbul etmir.',
   'docsync.error.quota_exceeded': 'Provayderdə boş yer qalmayıb.',
@@ -110,7 +110,7 @@ const docsync: TranslationStrings = {
 
   'docsync.empty.title': 'Hələ heç nə qoşulmayıb',
   'docsync.empty.hintOwner':
-    'Soldan saxlama xidməti seçin. TREK hər şeyin öz nüsxəsini saxlayır, buna görə xidmət yoxa çıxsa belə heç nə itmir.',
+    'Soldan saxlama xidməti seçin. Manzil hər şeyin öz nüsxəsini saxlayır, buna görə xidmət yoxa çıxsa belə heç nə itmir.',
   'docsync.empty.hintMember': 'Bunu səyahətin sahibi quraşdırır. Hər bir halda sənədlər TREK-də qalır.',
 
   // How each product files things. Shown before anyone connects, because it is
@@ -122,7 +122,7 @@ const docsync: TranslationStrings = {
   'docsync.model.synologydrive': 'NAS-dakı qovluqda yerləşən fayllar',
 
   // ── The flow bar ───────────────────────────────────────────────────────────
-  'docsync.flow.trek': 'TREK',
+  'docsync.flow.trek': 'Manzil',
   'docsync.flow.toProvider': 'Saxlama xidmətinə',
   'docsync.flow.toTrek': 'Saxlama xidmətindən',
   'docsync.flow.documents': 'sənəd',
@@ -152,12 +152,12 @@ const docsync: TranslationStrings = {
   'docsync.connect.okAs': 'Qoşuldu, {account} hesabı ilə daxil olundu',
   'docsync.connect.insecureHint': 'Öz-özünə imzalanmış sertifikata malik şəxsi şəbəkənizdəki sistem üçün.',
   'docsync.connect.about.paperless':
-    'TREK bu səyahətin fayllarını ayrıca etiket altında saxlayır və arxivinizin qalan hissəsinə toxunmur.',
+    'Manzil bu səyahətin fayllarını ayrıca etiket altında saxlayır və arxivinizin qalan hissəsinə toxunmur.',
   'docsync.connect.about.papra':
-    'Bu səyahətin aid olduğu təşkilatı seçin. TREK faylları onun daxilində ayrıca etiket altında saxlayır.',
+    'Bu səyahətin aid olduğu təşkilatı seçin. Manzil faylları onun daxilində ayrıca etiket altında saxlayır.',
   'docsync.connect.about.nextcloud':
     'Hesab parolunuzdan deyil, tətbiq parolundan istifadə edin: o, iki faktorlu doğrulama ilə işləyir və ayrıca ləğv edilə bilər.',
-  'docsync.connect.about.opencloud': 'TREK bu səyahət üçün digər hər şeydən ayrı öz məkanını əldə edir.',
+  'docsync.connect.about.opencloud': 'Manzil bu səyahət üçün digər hər şeydən ayrı öz məkanını əldə edir.',
   'docsync.connect.about.synologydrive':
     'Yalnız bu səyahətin istifadə etməli olduğu paylaşılan qovluğa giriş əldə edən DSM hesabından istifadə etmək daha yaxşıdır.',
 
@@ -174,7 +174,7 @@ const docsync: TranslationStrings = {
   // ── Things a person has to decide ──────────────────────────────────────────
   'docsync.issues.title': 'Yoxlanılmalıdır',
   'docsync.issues.conflict': 'Hər iki yerdə dəyişdirilib. Hansının saxlanılacağını seçin.',
-  'docsync.issues.remote_missing': 'Saxlama xidmətindən silinib. TREK nüsxəsi hələ də buradadır.',
+  'docsync.issues.remote_missing': 'Saxlama xidmətindən silinib. Manzil nüsxəsi hələ də buradadır.',
   'docsync.issues.rejected_type': 'Bu fayl növünə burada icazə verilmir.',
   'docsync.issues.too_large': 'İcazə verilən ölçüdən böyükdür.',
   'docsync.issues.error': 'Ötürmə baş tutmadı.',
@@ -188,7 +188,7 @@ const docsync: TranslationStrings = {
   'docsync.connection.edit': 'Bağlantını redaktə et',
   'docsync.connection.remove': 'Bağlantını sil',
   'docsync.connection.confirmRemove':
-    'TREK bu anbarın ünvanını və giriş məlumatlarını unudur, bu səyahətin onun üzərindən gedən bütün sinxronlaşdırmaları dayanır. Sənədlər TREK-də və anbarda qalır.',
+    'Manzil bu anbarın ünvanını və giriş məlumatlarını unudur, bu səyahətin onun üzərindən gedən bütün sinxronlaşdırmaları dayanır. Sənədlər TREK-də və anbarda qalır.',
 };
 
 export default docsync;

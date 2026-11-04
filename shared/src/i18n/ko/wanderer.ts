@@ -20,12 +20,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer 연결을 삭제했습니다',
   'wanderer.loadFailed': 'wanderer 연결을 불러오지 못했습니다',
   'wanderer.privateIp':
-    '이 주소는 사설 네트워크에 있습니다. TREK이 접근할 수 없다면 관리자가 내부 네트워크를 허용해야 합니다.',
+    '이 주소는 사설 네트워크에 있습니다. Manzil이 접근할 수 없다면 관리자가 내부 네트워크를 허용해야 합니다.',
   'wanderer.error.disabled': '관리자가 투어에서 wanderer를 활성화하지 않았습니다.',
   'wanderer.error.not_connected': 'wanderer가 아직 연결되지 않았습니다.',
   'wanderer.error.invalid_url': '올바른 wanderer URL이 아닙니다.',
   'wanderer.error.blocked_address':
-    'TREK이 이 주소에 접근할 수 없습니다. 내 네트워크의 인스턴스라면 관리자가 ALLOW_INTERNAL_NETWORK=true를 설정해야 합니다.',
+    'Manzil이 이 주소에 접근할 수 없습니다. 내 네트워크의 인스턴스라면 관리자가 ALLOW_INTERNAL_NETWORK=true를 설정해야 합니다.',
   'wanderer.error.unreachable': 'wanderer에 연결할 수 없습니다. 주소와 인스턴스가 실행 중인지 확인하세요.',
   'wanderer.error.tls': '인스턴스의 인증서를 확인할 수 없습니다. 자체 서명 인증서라면 아래에서 허용하세요.',
   'wanderer.error.unauthorized':
@@ -35,7 +35,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.not_own_trail': '자신의 wanderer 트레일만 가져올 수 있습니다.',
   'wanderer.error.invalid_response': 'wanderer의 응답이 아닙니다. 주소가 wanderer 자체를 가리키는지 확인하세요.',
   'wanderer.error.no_author':
-    'wanderer가 응답했지만 이 API 토큰의 계정에 대한 트레일 작성자를 알려 주지 않아, TREK이 어떤 트레일이 내 것인지 알 수 없습니다.',
+    'wanderer가 응답했지만 이 API 토큰의 계정에 대한 트레일 작성자를 알려 주지 않아, Manzil이 어떤 트레일이 내 것인지 알 수 없습니다.',
   'wanderer.error.too_large': '트레일 파일이 10 MB보다 큽니다.',
   'wanderer.error.server_error': 'wanderer가 오류로 응답했습니다. 나중에 다시 시도하세요.',
   'wanderer.error.offline': '오프라인 상태입니다. wanderer는 온라인에서만 검색할 수 있습니다.',

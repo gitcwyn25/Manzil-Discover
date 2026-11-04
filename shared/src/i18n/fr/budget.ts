@@ -211,7 +211,7 @@ const budget: TranslationStrings = {
   'costs.receiptsNeedConnection':
     "Les justificatifs ont besoin d'une connexion pour être envoyés. Retirez les nouveaux pour enregistrer la dépense hors ligne, ou enregistrez une fois de retour en ligne.",
   'costs.paymentQueued':
-    'Vous êtes hors ligne. Le paiement est enregistré et apparaîtra dès que TREK sera de nouveau en ligne.',
+    'Vous êtes hors ligne. Le paiement est enregistré et apparaîtra dès que Manzil sera de nouveau en ligne.',
   'costs.confirm.deleteBodyReceipts':
     '« {name} » sera supprimé définitivement. Ses fichiers de justificatifs restent dans Fichiers.',
 };

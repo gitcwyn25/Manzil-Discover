@@ -249,7 +249,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Partagé via',
   'journey.public.madeWith': 'Créé avec',
   'journey.pdf.journeyBook': 'Carnet de voyage',
-  'journey.pdf.madeWith': 'Créé avec TREK',
+  'journey.pdf.madeWith': 'Créé avec Manzil',
   'journey.pdf.day': 'Jour',
   'journey.pdf.theEnd': 'Fin',
   'journey.pdf.saveAsPdf': 'Enregistrer en PDF',
@@ -284,7 +284,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosPartialFailed':
     '{failed} groupes de photos ont échoué, enregistrez à nouveau pour réessayer',
   'journey.picker.day': 'Ce jour',
-  'journey.studio.title': 'TREK Studio',
+  'journey.studio.title': 'Manzil Studio',
   'journey.studio.open': 'Studio',
   'journey.studio.openAria': 'Ouvrir le studio de livre photo',
   'journey.studio.backToJourney': 'Retour au journal de voyage',
@@ -328,7 +328,7 @@ const journey: TranslationStrings = {
     'Enregistre la mise en page de cette double page dans un fichier, sans les photos, à partager ou à réutiliser',
   'journey.studio.importSpread': 'Importer',
   'journey.studio.importSpreadHint': "Ajoute une double page à partir d'un fichier de mise en page téléchargé",
-  'journey.studio.importSpreadFailed': "Ce fichier n'est pas une double page TREK Studio",
+  'journey.studio.importSpreadFailed': "Ce fichier n'est pas une double page Manzil Studio",
   'journey.studio.desktopOnly': 'Studio demande un écran plus grand',
   'journey.studio.desktopOnlyHint':
     "Composer un livre demande de la place, donc Studio n'existe que sur ordinateur, et le PDF aussi. Tout le reste de votre journal de voyage fonctionne ici comme d'habitude.",
@@ -852,7 +852,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Garder le trajet à nouveau',
   'journey.dayImport.stale':
     "Dawarich n'a pas répondu : {reason} Affichage des séjours de la dernière synchronisation du {date}.",
-  'journey.dayImport.staleNever': "Dawarich n'a pas répondu : {reason} Affichage des séjours que TREK connaît déjà.",
+  'journey.dayImport.staleNever': "Dawarich n'a pas répondu : {reason} Affichage des séjours que Manzil connaît déjà.",
   'journey.dayImport.truncated': "Dawarich n'a envoyé qu'une partie de cette journée. Des séjours peuvent manquer.",
   'journey.dayImport.empty': "Dawarich n'a trouvé aucun séjour ce jour-là.",
   'journey.prep.lastSuccess': 'Dernière récupération {time}.',

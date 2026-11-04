@@ -260,7 +260,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} ημέρες',
   'assistant.admin.retentionDays.one': '{count} ημέρα',
   'assistant.admin.retentionForever': 'Για πάντα',
-  'assistant.mobile.tile': 'Ρωτήστε το TREK',
+  'assistant.mobile.tile': 'Ρωτήστε το Manzil',
   'assistant.mobile.tileHint': 'Σχεδιάστε με τον βοηθό',
   'assistant.mobile.backToChat': 'Πίσω στη συνομιλία',
   'assistant.step.nearbyAt': 'Αναζήτηση κοντά σε {place}',
@@ -487,7 +487,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': 'Βρήκα {count} κράτηση στο {name}. Πρόσθεσέ την παρακάτω αν είναι σωστή.',
   'assistant.attach.none': 'Δεν βρήκα καμία κράτηση στο {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'Η ανάγνωση με ΤΝ δεν έχει ρυθμιστεί για εισαγωγές εδώ, οπότε το εξέτασε μόνο ο αναγνώστης του TREK.',
+    'Η ανάγνωση με ΤΝ δεν έχει ρυθμιστεί για εισαγωγές εδώ, οπότε το εξέτασε μόνο ο αναγνώστης του Manzil.',
   'assistant.attach.why.aiFailed': 'Ο αναγνώστης ΤΝ δεν μπόρεσε να το διαβάσει.',
   'assistant.attach.why.noText': 'Δεν περιέχει αναγνώσιμο κείμενο, μάλλον είναι σάρωση.',
   'assistant.attach.why.nothingFound': 'Τίποτα σε αυτό δεν μοιάζει με κράτηση.',

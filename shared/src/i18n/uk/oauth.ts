@@ -79,10 +79,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.loading': 'Завантаження…',
   'oauth.authorize.errorTitle': 'Помилка авторизації',
   'oauth.authorize.loginTitle': 'Увійди, щоб продовжити',
-  'oauth.authorize.loginDescription': '{client} запитує доступ до твого облікового запису TREK. Спочатку увійди.',
-  'oauth.authorize.loginButton': 'Увійти в TREK',
+  'oauth.authorize.loginDescription': '{client} запитує доступ до твого облікового запису Manzil. Спочатку увійди.',
+  'oauth.authorize.loginButton': 'Увійти в Manzil',
   'oauth.authorize.requestLabel': 'Запит на авторизацію',
-  'oauth.authorize.requestDescription': 'Цей застосунок запитує доступ до твого облікового запису TREK.',
+  'oauth.authorize.requestDescription': 'Цей застосунок запитує доступ до твого облікового запису Manzil.',
   'oauth.authorize.verifiedHost': 'Підтверджений домен: {host}',
   'oauth.authorize.trustNote':
     'Надавай доступ лише застосункам, яким довіряєш. Твої дані залишаються на твоєму сервері.',

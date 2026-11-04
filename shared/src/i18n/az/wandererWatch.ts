@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Marşrutlarımdakı dəyişiklikləri yoxla',
   'wanderer.watch.hint': 'İdxal edilmiş marşrut dəyişmiş ola bilərsə bildiriş.',
   'wanderer.watch.info':
-    'TREK idxal etdiyin hər marşrutun qısa qeydini gündə ən çox bir dəfə oxuyur, GPX faylını isə heç vaxt. O, yalnız bildirir: dəyişikliyin qəbul edilib-edilməməsinə turun mənbə yoxlaması ilə özün qərar verirsən.',
+    'Manzil idxal etdiyin hər marşrutun qısa qeydini gündə ən çox bir dəfə oxuyur, GPX faylını isə heç vaxt. O, yalnız bildirir: dəyişikliyin qəbul edilib-edilməməsinə turun mənbə yoxlaması ilə özün qərar verirsən.',
   'wanderer.watch.notConnected': 'Əvvəlcə wanderer qoş',
   'wanderer.watch.on': 'Fon yoxlaması açıldı',
   'wanderer.watch.off': 'Fon yoxlaması bağlandı',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Hələ yoxlanmayıb',
   'wanderer.watch.paused': '{time} vaxtınadək dayandırılıb',
   'wanderer.watch.pausedHint':
-    'wanderer cavab vermədi. Hər uğursuzluqdan sonra TREK yenidən soruşmazdan əvvəl daha uzun gözləyir.',
+    'wanderer cavab vermədi. Hər uğursuzluqdan sonra Manzil yenidən soruşmazdan əvvəl daha uzun gözləyir.',
   'wanderer.watch.blocked': 'Token rədd edildi',
   'wanderer.watch.blockedHint':
     'wanderer API tokenini rədd etdi. Bağlantı testi keçəndə və ya yeni token saxlananda yoxlama davam edir.',
@@ -33,7 +33,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'wanderer qeydi başqa ad və ya təsvir göstərir. Mənbə yoxlaması dəyişən hər şeyi göstərir.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK bu marşrutu qiymətləndirə bilmədi, ona görə də dəyişiklik barədə heç nə deyilmir.',
+    'Manzil bu marşrutu qiymətləndirə bilmədi, ona görə də dəyişiklik barədə heç nə deyilmir.',
   'wanderer.watch.reason.unavailable': 'Marşruta çatmaq olmur',
   'wanderer.watch.reason.no_change_time': 'Vaxt möhürü yoxdur',
 };

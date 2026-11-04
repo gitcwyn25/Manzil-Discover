@@ -88,10 +88,10 @@ const oauth: TranslationStrings = {
   'oauth.authorize.loading': 'Yüklənir…',
   'oauth.authorize.errorTitle': 'İcazə xətası',
   'oauth.authorize.loginTitle': 'Davam etmək üçün daxil olun',
-  'oauth.authorize.loginDescription': '{client} TREK hesabınıza giriş istəyir. Əvvəlcə daxil olun.',
-  'oauth.authorize.loginButton': 'TREK-ə daxil ol',
+  'oauth.authorize.loginDescription': '{client} Manzil hesabınıza giriş istəyir. Əvvəlcə daxil olun.',
+  'oauth.authorize.loginButton': 'Manzil-ə daxil ol',
   'oauth.authorize.requestLabel': 'İcazə sorğusu',
-  'oauth.authorize.requestDescription': 'Bu tətbiq TREK hesabınıza giriş icazəsi istəyir.',
+  'oauth.authorize.requestDescription': 'Bu tətbiq Manzil hesabınıza giriş icazəsi istəyir.',
   'oauth.authorize.verifiedHost': 'Təsdiqlənmiş domen: {host}',
   'oauth.authorize.trustNote':
     'Yalnız etibar etdiyiniz tətbiqlərə giriş icazəsi verin. Məlumatlarınız serverinizdə qalır.',

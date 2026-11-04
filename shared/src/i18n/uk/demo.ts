@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Жива демоверсія',
-  'demo.welcome.title': 'Ласкаво просимо до TREK',
+  'demo.welcome.title': 'Ласкаво просимо до Manzil',
   'demo.welcome.tagline':
     'Планувальник подорожей для спільної роботи: плануйте разом на мапі в реальному часі, від першої ідеї до фотокниги після поїздки.',
   'demo.welcome.resetTitle': 'Щогодини все скидається',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Дні, місця та маршрути на мапі, з перельотами, готелями, ресторанами, бронюваннями та спільними витратами.',
   'demo.feature.tours.title': 'Тури та походи',
   'demo.feature.tours.body': 'Прокладіть похід мережею стежок і йдіть ним над 3D рельєфом із профілем висот.',
-  'demo.feature.studio.title': 'Фотокниги в TREK Studio',
+  'demo.feature.studio.title': 'Фотокниги в Manzil Studio',
   'demo.feature.studio.body': 'Перетворіть поїздку на зверстану фотокнигу, сторінка за сторінкою.',
   'demo.feature.collab.title': 'Плануйте разом наживо',
   'demo.feature.collab.body': 'Усі учасники поїздки одразу бачать кожну зміну, з чатом, нотатками й опитуваннями.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Зберігайте місця з різних поїздок у власних списках і копіюйте їх у будь який план.',
   'demo.feature.offline.title': 'Працює офлайн',
-  'demo.feature.offline.body': 'Встановіть TREK як застосунок, і плани, мапи та списки залишаться з вами без зв’язку.',
+  'demo.feature.offline.body': 'Встановіть Manzil як застосунок, і плани, мапи та списки залишаться з вами без зв’язку.',
   'demo.welcome.limitsTitle': 'Недоступно в демоверсії',
   'demo.limit.uploads': 'Завантаження фото, документів і обкладинок',
   'demo.limit.account': 'Зміна облікового запису, пароля або 2FA',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Автори фотографій',
   'demo.credits.intro':
-    'Фотографії в цій демоверсії взято з Wikimedia Commons, кожну під ліцензією, зазначеною поруч. Ця ліцензія стосується лише фотографії, а не TREK чи решти демоверсії.',
+    'Фотографії в цій демоверсії взято з Wikimedia Commons, кожну під ліцензією, зазначеною поруч. Ця ліцензія стосується лише фотографії, а не Manzil чи решти демоверсії.',
   'demo.credits.by': 'Фото: {author}',
   'demo.credits.publicDomain': 'Суспільне надбання',
   'demo.credits.back': 'Назад',

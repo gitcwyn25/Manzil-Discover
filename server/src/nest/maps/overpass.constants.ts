@@ -54,7 +54,7 @@ export function parseOverpassEndpoints(raw: string | undefined): string[] {
  * not a useful identifier, so it is dropped.
  */
 export function buildUserAgent(instanceUrl: string | undefined): string {
-  const base = 'TREK Travel Planner (https://github.com/liketrek/TREK)';
+  const base = 'Manzil Travel Planner (https://github.com/liketrek/TREK)';
   if (instanceUrl && !instanceUrl.startsWith('http://localhost')) return `${base}; ${instanceUrl}`;
   return base;
 }

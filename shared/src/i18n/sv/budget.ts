@@ -209,7 +209,7 @@ const budget: TranslationStrings = {
     'Sparandet misslyckades och {count} uppladdat kvitto finns kvar. Ta bort det under Filer.',
   'costs.receiptsNeedConnection':
     'Kvitton behöver en anslutning för att laddas upp. Ta bort de nya för att spara utgiften offline, eller spara när du är online igen.',
-  'costs.paymentQueued': 'Du är offline. Betalningen är sparad och visas när TREK är online igen.',
+  'costs.paymentQueued': 'Du är offline. Betalningen är sparad och visas när Manzil är online igen.',
   'costs.confirm.deleteBodyReceipts': '"{name}" raderas permanent. Kvittofilerna finns kvar i Filer.',
 };
 export default budget;

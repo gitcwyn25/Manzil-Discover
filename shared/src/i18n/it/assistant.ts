@@ -259,7 +259,7 @@ const assistant: TranslationStrings = {
   'assistant.admin.retentionDays': '{count} giorni',
   'assistant.admin.retentionDays.one': '{count} giorno',
   'assistant.admin.retentionForever': 'Per sempre',
-  'assistant.mobile.tile': 'Chiedi a TREK',
+  'assistant.mobile.tile': 'Chiedi a Manzil',
   'assistant.mobile.tileHint': 'Pianifica con l’assistente',
   'assistant.mobile.backToChat': 'Torna alla chat',
   'assistant.step.nearbyAt': 'Cerco vicino a {place}',
@@ -490,7 +490,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found.one': 'Ho trovato {count} prenotazione in {name}. Aggiungila qui sotto se è corretta.',
   'assistant.attach.none': 'Non ho trovato nessuna prenotazione in {name}.',
   'assistant.attach.why.aiNotConfigured':
-    'La lettura con IA non è configurata per le importazioni, quindi l’ha esaminato solo il lettore di TREK.',
+    'La lettura con IA non è configurata per le importazioni, quindi l’ha esaminato solo il lettore di Manzil.',
   'assistant.attach.why.aiFailed': 'Il lettore IA non è riuscito a leggerlo.',
   'assistant.attach.why.noText': 'Non contiene testo leggibile, probabilmente è una scansione.',
   'assistant.attach.why.nothingFound': 'Niente al suo interno sembra una prenotazione.',

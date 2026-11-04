@@ -45,9 +45,9 @@ const settings: TranslationStrings = {
     'Öz Valhalla-nız; yuxarıdakı marşrut xidməti ona və ya Avtomatik rejimə qurulduqda soruşulur. Yalnız öz marşrut instansiyanız konfiqurasiya edilibsə və marşrut xidməti seçilməyibsə, heç bir Valhalla soruşulmur. URL daxil etdikdən sonra serveri yenidən başladın və səhifəni yeniləyin.',
   'settings.valhallaProvider': 'Marşrut xidməti',
   'settings.valhallaProviderHint':
-    'TREK xidmətləri və ya öz Valhalla-nızla bütün marşrutları Valhalla hesablayır: piyada, velosipedlə və avtomobillə günlər və yol səyahətləri, ödənişli yollar, avtomagistrallar və ya bərələr olmadan marşrutlar, həmçinin turların marşrutları, hündürlükləri və cığırları. Cavab verə bilmədikdə həmin günü OSRM hesablayır. TREK xidmətləri bu server vasitəsilə soruşulur. İctimai FOSSGIS Valhalla ilə marşrutları OSRM hesablayır, Valhalla isə yalnız OSRM-in bacarmadığına cavab verir. Avtomatik rejim, öz Valhalla-nız və ya yalnız öz marşrut instansiyanız təyin edilməyibsə, TREK xidmətlərini soruşur.',
+    'Manzil xidmətləri və ya öz Valhalla-nızla bütün marşrutları Valhalla hesablayır: piyada, velosipedlə və avtomobillə günlər və yol səyahətləri, ödənişli yollar, avtomagistrallar və ya bərələr olmadan marşrutlar, həmçinin turların marşrutları, hündürlükləri və cığırları. Cavab verə bilmədikdə həmin günü OSRM hesablayır. Manzil xidmətləri bu server vasitəsilə soruşulur. İctimai FOSSGIS Valhalla ilə marşrutları OSRM hesablayır, Valhalla isə yalnız OSRM-in bacarmadığına cavab verir. Avtomatik rejim, öz Valhalla-nız və ya yalnız öz marşrut instansiyanız təyin edilməyibsə, Manzil xidmətlərini soruşur.',
   'settings.valhallaProviderOption.auto': 'Avtomatik',
-  'settings.valhallaProviderOption.trek': 'TREK xidmətləri',
+  'settings.valhallaProviderOption.trek': 'Manzil xidmətləri',
   'settings.valhallaProviderOption.fossgis': 'İctimai Valhalla (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Öz Valhalla instansiyası',
   'settings.mapHint': 'Xəritə plitələri üçün URL şablonu',
@@ -68,7 +68,7 @@ const settings: TranslationStrings = {
     'CARTO əsas xəritələri açar olmadan su nişanı göstərir. Pulsuzdur və hesab tələb etmir, mənbə:',
   'settings.mapCartoKeyLink': 'carto.com əsas xəritə API açarı',
   'settings.mapCartoKeyMissing':
-    'Bu şablon CARTO əsas xəritəsidir. Açar olmadıqda CARTO hər plitənin üzərinə “API KEY REQUIRED” yazısı əlavə edir. Açar daxil edənədək TREK standart əsas xəritəni göstərəcək.',
+    'Bu şablon CARTO əsas xəritəsidir. Açar olmadıqda CARTO hər plitənin üzərinə “API KEY REQUIRED” yazısı əlavə edir. Açar daxil edənədək Manzil standart əsas xəritəni göstərəcək.',
 
   'settings.mapStyle': 'Xəritə üslubu',
   'settings.mapStylePlaceholder': 'Mapbox üslubu seçin',
@@ -165,15 +165,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Bu cihazda push bildirişləri',
   'settings.webPush.hint':
-    'TREK bağlı olanda belə TREK bildirişlərini bu cihazda göstərir. Hansı hadisələrin gəldiyini Push sütunu müəyyən edir.',
+    'Manzil bağlı olanda belə Manzil bildirişlərini bu cihazda göstərir. Hansı hadisələrin gəldiyini Push sütunu müəyyən edir.',
   'settings.webPush.enable': 'Bu cihaz üçün aktiv et',
   'settings.webPush.disable': 'Bu cihaz üçün deaktiv et',
   'settings.webPush.enabled': 'Bu cihaz üçün aktivdir',
   'settings.webPush.unsupported': 'Bu brauzer push bildirişlərini qəbul edə bilmir.',
-  'settings.webPush.insecure': 'Push üçün TREK HTTPS vasitəsilə açılmalıdır.',
+  'settings.webPush.insecure': 'Push üçün Manzil HTTPS vasitəsilə açılmalıdır.',
   'settings.webPush.iosInstall': 'iPhone və iPad-də əvvəlcə TREK-i Əsas ekrana əlavə edin və onu oradan açın.',
   'settings.webPush.denied':
-    'Bu brauzerdə TREK üçün bildirişlər bloklanıb. Onlara brauzer tənzimləmələrində icazə verin, sonra yenidən cəhd edin.',
+    'Bu brauzerdə Manzil üçün bildirişlər bloklanıb. Onlara brauzer tənzimləmələrində icazə verin, sonra yenidən cəhd edin.',
   'settings.webPush.failed': 'Bu cihaz üçün push aktiv edilə bilmədi.',
   'settings.notificationPreferences.noChannels':
     'Heç bir bildiriş kanalı konfiqurasiya edilməyib. Administratordan e-poçt və ya webhook bildirişlərini quraşdırmasını istəyin.',
@@ -314,14 +314,14 @@ const settings: TranslationStrings = {
   'settings.about.sponsor.address': 'Ünvan axtarışı',
   'settings.about.sponsor.routing': 'Marşrutlaşdırma',
   'settings.about.descriptionManaged':
-    'TREK səyahətlərinizi ilk ideyadan son xatirəyədək təşkil etməyə kömək edir. Günlük planlaşdırma, büdcə, baqaj siyahıları, fotolar və daha çoxu — hamısı bir yerdə.',
+    'Manzil səyahətlərinizi ilk ideyadan son xatirəyədək təşkil etməyə kömək edir. Günlük planlaşdırma, büdcə, baqaj siyahıları, fotolar və daha çoxu — hamısı bir yerdə.',
   'settings.about.sourceTitle': 'Mənbə kodu',
   'settings.about.sourceHint': 'TREK AGPL-3.0 lisenziyalı açıq mənbəli layihədir',
 
   'settings.about.supporters.badge': 'Aylıq dəstəkçilər',
   'settings.about.supporters.title': 'TREK-in səyahət yoldaşları',
   'settings.about.supporters.subtitle':
-    'Siz növbəti marşrutunuzu planlaşdırarkən bu insanlar TREK-in gələcəyini planlaşdırmağa kömək edir. Onların aylıq töhfəsi birbaşa inkişaf işlərinə və sərf olunan real iş saatlarına yönəlir — beləliklə TREK açıq mənbəli qalır.',
+    'Siz növbəti marşrutunuzu planlaşdırarkən bu insanlar TREK-in gələcəyini planlaşdırmağa kömək edir. Onların aylıq töhfəsi birbaşa inkişaf işlərinə və sərf olunan real iş saatlarına yönəlir — beləliklə Manzil açıq mənbəli qalır.',
   'settings.about.supporters.since': '{date} tarixindən dəstəkçi',
   'settings.about.supporters.tierEmpty': 'İlk dəstəkçi olun',
   'settings.about.supporter.tier.noReturnTicket': 'Dönüşsüz bilet',
@@ -331,7 +331,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.hostelBunkmate': 'Hostel otaq yoldaşı',
 
   'settings.about.description':
-    'TREK səyahətlərinizi ilk ideyadan son xatirəyədək təşkil etməyə kömək edən, öz serverinizdə yerləşdirilən səyahət planlayıcısıdır. Günlük planlaşdırma, büdcə, baqaj siyahıları, fotolar və daha çoxu — hamısı bir yerdə, öz serverinizdə.',
+    'Manzil səyahətlərinizi ilk ideyadan son xatirəyədək təşkil etməyə kömək edən, öz serverinizdə yerləşdirilən səyahət planlayıcısıdır. Günlük planlaşdırma, büdcə, baqaj siyahıları, fotolar və daha çoxu — hamısı bir yerdə, öz serverinizdə.',
   'settings.about.madeWith': 'Hazırlanıb:',
   'settings.about.madeBy': 'Maurice və böyüyən açıq mənbə icması tərəfindən.',
 
@@ -456,7 +456,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Yalnız öz şəbəkənizdəki etibarlı instansiya üçün aktivləşdirin.',
   'settings.airtrail.writeBack': 'Dəyişiklikləri AirTrail-ə geri yaz',
   'settings.airtrail.writeBackHint':
-    'Standart olaraq deaktivdir: AirTrail əsas məlumat mənbəyidir və TREK ondan yalnız oxuyur. TREK-də edilən dəyişiklikləri AirTrail-ə göndərmək üçün aktivləşdirin.',
+    'Standart olaraq deaktivdir: AirTrail əsas məlumat mənbəyidir və Manzil ondan yalnız oxuyur. TREK-də edilən dəyişiklikləri AirTrail-ə göndərmək üçün aktivləşdirin.',
   'settings.airtrail.connected': 'Qoşulub',
   'settings.airtrail.notConnected': 'Qoşulmayıb',
   'settings.airtrail.toast.saved': 'AirTrail bağlantısı yadda saxlanıldı',
@@ -582,7 +582,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'İdarə paneli',
   'settings.startPageActiveTrip': 'Aktiv səyahət',
   'settings.startPageHint':
-    'TREK birbaşa bu gün davam edən və ya qarşıdan gələn növbəti səyahəti açır. Bu, idarə panelində önə çıxarılan səyahətlə eynidir.',
+    'Manzil birbaşa bu gün davam edən və ya qarşıdan gələn növbəti səyahəti açır. Bu, idarə panelində önə çıxarılan səyahətlə eynidir.',
   'settings.startTripTab': 'Başlanğıc tabı',
   'settings.startTripTabHint':
     'Səyahət açıldıqda göstərilən tab. Deaktiv etdiyiniz əlavəyə aiddirsə, əvəzində plan görünüşü açılır.',

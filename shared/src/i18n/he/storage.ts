@@ -17,7 +17,7 @@ const storage: TranslationStrings = {
   'storage.field.primary': 'Backend ראשי',
   'storage.field.replicas': 'עותקים',
   'storage.title': 'אחסון',
-  'storage.description': 'היכן TREK שומר קבצים שהועלו, תמונות וגיבויים. שום דבר לא משתנה עד שתשמרו.',
+  'storage.description': 'היכן Manzil שומר קבצים שהועלו, תמונות וגיבויים. שום דבר לא משתנה עד שתשמרו.',
   'storage.loading': 'טוען…',
   'storage.saved': 'הגדרות האחסון נשמרו',
   'storage.save': 'שמירת שינויים',
@@ -63,7 +63,7 @@ const storage: TranslationStrings = {
   'storage.category.avatars': 'תמונות פרופיל',
   'storage.category.places': 'תמונות מקומות',
   'storage.category.photos-google': 'מטמון תמונות Google',
-  'storage.category.photos-trek': 'מטמון תמונות TREK',
+  'storage.category.photos-trek': 'מטמון תמונות Manzil',
   'storage.category.backups': 'גיבויים',
   'storage.categoryDesc.files':
     'קבצים מצורפים שהועלו לטיולים — כרטיסים, קובצי PDF, אישורי הזמנה וקבצים ששותפו בצ׳אט הטיול.',
@@ -73,7 +73,7 @@ const storage: TranslationStrings = {
   'storage.categoryDesc.places': 'תמונות המצורפות למקומות ולמקומות באוספים — שהועלו או יובאו.',
   'storage.categoryDesc.photos-google': 'עותקים שמורים של תמונות Google Places — ניתנים לטעינה מחדש, אפשר לאבד אותם.',
   'storage.categoryDesc.photos-trek':
-    'תמונות שמורות משירות התמונות של TREK המשמש את Memories — ניתנות לטעינה מחדש, אפשר לאבד אותן.',
+    'תמונות שמורות משירות התמונות של Manzil המשמש את Memories — ניתנות לטעינה מחדש, אפשר לאבד אותן.',
   'storage.categoryDesc.backups': 'ארכיוני גיבוי של השרת שנוצרו מלוח הגיבוי או לפי לוח זמנים.',
   'storage.health.title': 'תקינות',
   'storage.health.allClear': 'לא נרשמו כשלים בעותקים.',

@@ -19,7 +19,7 @@ const storage: TranslationStrings = {
   'storage.field.replicas': 'Repliken',
   'storage.title': 'Speicher',
   'storage.description':
-    'Wo TREK hochgeladene Dateien, Fotos und Backups aufbewahrt. Es ändert sich nichts, bis du speicherst.',
+    'Wo Manzil hochgeladene Dateien, Fotos und Backups aufbewahrt. Es ändert sich nichts, bis du speicherst.',
   'storage.loading': 'Wird geladen…',
   'storage.saved': 'Speicherkonfiguration gespeichert',
   'storage.save': 'Änderungen speichern',

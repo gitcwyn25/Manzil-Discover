@@ -22,9 +22,9 @@ const settings: TranslationStrings = {
     'Una Valhalla pròpia, consultada quan el servei de rutes de dalt hi està configurat o està en Automàtic. Si només hi ha una instància d’encaminament pròpia configurada i no s’ha triat cap servei de rutes, no es consulta cap Valhalla. Després d’introduir una URL, reinicia el servidor i torna a carregar la pàgina.',
   'settings.valhallaProvider': 'Servei de rutes',
   'settings.valhallaProviderHint':
-    'Amb els serveis de TREK o una Valhalla pròpia, Valhalla calcula totes les rutes: els dies i els viatges per carretera a peu, en bicicleta i en cotxe, les rutes sense peatges, autopistes ni ferris, i les rutes, altituds i camins de les excursions. Si no pot respondre, OSRM calcula aquell dia en el seu lloc. Els serveis de TREK es consulten a través d’aquest servidor. Amb la Valhalla pública de FOSSGIS, OSRM calcula les rutes i Valhalla només respon el que OSRM no pot. Automàtic consulta els serveis de TREK, tret que hi hagi configurada una Valhalla pròpia o només una instància d’encaminament pròpia.',
+    'Amb els serveis de Manzil o una Valhalla pròpia, Valhalla calcula totes les rutes: els dies i els viatges per carretera a peu, en bicicleta i en cotxe, les rutes sense peatges, autopistes ni ferris, i les rutes, altituds i camins de les excursions. Si no pot respondre, OSRM calcula aquell dia en el seu lloc. Els serveis de Manzil es consulten a través d’aquest servidor. Amb la Valhalla pública de FOSSGIS, OSRM calcula les rutes i Valhalla només respon el que OSRM no pot. Automàtic consulta els serveis de Manzil, tret que hi hagi configurada una Valhalla pròpia o només una instància d’encaminament pròpia.',
   'settings.valhallaProviderOption.auto': 'Automàtic',
-  'settings.valhallaProviderOption.trek': 'Serveis de TREK',
+  'settings.valhallaProviderOption.trek': 'Serveis de Manzil',
   'settings.valhallaProviderOption.fossgis': 'Valhalla pública (FOSSGIS)',
   'settings.valhallaProviderOption.custom': 'Instància de Valhalla pròpia',
   'settings.mapHint': "Plantilla d'URL per als mosaics del mapa",
@@ -41,7 +41,7 @@ const settings: TranslationStrings = {
     "Els mapes base de CARTO mostren una marca d'aigua sense clau. Gratuïta i sense compte, des de",
   'settings.mapCartoKeyLink': "clau d'API de mapes base de carto.com",
   'settings.mapCartoKeyMissing':
-    'Aquesta plantilla és un mapa base de CARTO. Sense clau, CARTO estampa "API KEY REQUIRED" a cada tessel·la. Mentre no hi hagi clau, TREK mostra el mapa base per defecte.',
+    'Aquesta plantilla és un mapa base de CARTO. Sense clau, CARTO estampa "API KEY REQUIRED" a cada tessel·la. Mentre no hi hagi clau, Manzil mostra el mapa base per defecte.',
   'settings.mapStyle': 'Estil de mapa',
   'settings.mapStylePlaceholder': 'Selecciona un estil de Mapbox',
   'settings.mapStyleHint': 'Predefinit o la teva pròpia URL mapbox://styles/USUARI/ID',
@@ -196,19 +196,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Suggereix una funció nova',
   'settings.about.wikiHint': 'Documentació i guies',
   'settings.about.sponsor.eyebrow': 'Infraestructura patrocinada',
-  'settings.about.sponsor.title': 'Els servidors de TREK funcionen a dataforest cloud',
+  'settings.about.sponsor.title': 'Els servidors de Manzil funcionen a dataforest cloud',
   'settings.about.sponsor.body':
-    'La cerca de llocs, la cerca d’adreces i el càlcul de rutes surten de servidors propis de TREK en lloc de Google i companyia, i dataforest cloud patrocina les màquines on funcionen.',
+    'La cerca de llocs, la cerca d’adreces i el càlcul de rutes surten de servidors propis de Manzil en lloc de Google i companyia, i dataforest cloud patrocina les màquines on funcionen.',
   'settings.about.sponsor.cta': 'Visita dataforest cloud',
   'settings.about.sponsor.search': 'Cerca de llocs',
   'settings.about.sponsor.address': 'Cerca d’adreces',
   'settings.about.sponsor.routing': 'Rutes',
   'settings.about.descriptionManaged':
-    "TREK t'ajuda a organitzar els teus viatges des de la primera idea fins al darrer record. Planificació de dies, pressupost, llistes d'equipatge, fotos i molt més, tot en un sol lloc.",
+    "Manzil t'ajuda a organitzar els teus viatges des de la primera idea fins al darrer record. Planificació de dies, pressupost, llistes d'equipatge, fotos i molt més, tot en un sol lloc.",
   'settings.about.sourceTitle': 'Codi font',
   'settings.about.sourceHint': 'TREK és de codi obert, amb llicència AGPL-3.0',
   'settings.about.supporters.badge': 'Patrocinadors Mensuals',
-  'settings.about.supporters.title': 'Companyia de viatge per a TREK',
+  'settings.about.supporters.title': 'Companyia de viatge per a Manzil',
   'settings.about.supporters.subtitle':
     'Mentre planifiques la teva pròxima ruta, aquestes persones ajuden a planificar el futur de TREK. La seva aportació mensual va directa al desenvolupament i a les hores reals invertides — perquè TREK continuï sent Open Source.',
   'settings.about.supporters.since': 'patrocinador des de {date}',
@@ -219,7 +219,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Viatger de pressupost ajustat',
   'settings.about.supporter.tier.hostelBunkmate': "Company de lliteres a l'alberg",
   'settings.about.description':
-    "TREK és un planificador de viatges autoallotjat que t'ajuda a organitzar els teus viatges des de la primera idea fins al darrer record. Planificació diària, pressupost, llistes d'equipatge, fotos i molt més — tot en un sol lloc, al teu propi servidor.",
+    "Manzil és un planificador de viatges autoallotjat que t'ajuda a organitzar els teus viatges des de la primera idea fins al darrer record. Planificació diària, pressupost, llistes d'equipatge, fotos i molt més — tot en un sol lloc, al teu propi servidor.",
   'settings.about.madeWith': 'Fet amb',
   'settings.about.madeBy': 'per Maurice i una creixent comunitat de codi obert.',
   'settings.username': 'Usuari',
@@ -329,15 +329,15 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Notificacions push en aquest dispositiu',
   'settings.webPush.hint':
-    'Mostra les notificacions de TREK en aquest dispositiu fins i tot quan TREK està tancat. Els esdeveniments que arriben segueixen la columna Push.',
+    'Mostra les notificacions de Manzil en aquest dispositiu fins i tot quan Manzil està tancat. Els esdeveniments que arriben segueixen la columna Push.',
   'settings.webPush.enable': 'Activa en aquest dispositiu',
   'settings.webPush.disable': 'Desactiva en aquest dispositiu',
   'settings.webPush.enabled': 'Activat en aquest dispositiu',
   'settings.webPush.unsupported': 'Aquest navegador no pot rebre notificacions push.',
-  'settings.webPush.insecure': "Push necessita que TREK s'obri per HTTPS.",
-  'settings.webPush.iosInstall': "A l'iPhone i l'iPad, afegeix primer TREK a la pantalla d'inici i obre'l des d'allà.",
+  'settings.webPush.insecure': "Push necessita que Manzil s'obri per HTTPS.",
+  'settings.webPush.iosInstall': "A l'iPhone i l'iPad, afegeix primer Manzil a la pantalla d'inici i obre'l des d'allà.",
   'settings.webPush.denied':
-    'Les notificacions de TREK estan bloquejades en aquest navegador. Permet-les a la configuració del navegador i torna-ho a provar.',
+    'Les notificacions de Manzil estan bloquejades en aquest navegador. Permet-les a la configuració del navegador i torna-ho a provar.',
   'settings.webPush.failed': "No s'ha pogut activar push en aquest dispositiu.",
   'settings.passkey.title': "Claus d'accés",
   'settings.passkey.description':
@@ -507,7 +507,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Tauler',
   'settings.startPageActiveTrip': 'Viatge actiu',
   'settings.startPageHint':
-    'TREK obre directament el viatge que està en curs, o el següent que comença. És el mateix viatge que destaca el tauler.',
+    'Manzil obre directament el viatge que està en curs, o el següent que comença. És el mateix viatge que destaca el tauler.',
   'settings.startTripTab': "Pestanya d'inici",
   'settings.startTripTabHint':
     "La pestanya amb què s'obre el viatge. Si pertany a un complement desactivat, s'obre la vista de planificació.",

@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Comprovar canvis en els meus camins',
   'wanderer.watch.hint': 'Un avís quan un camí importat podria haver canviat.',
   'wanderer.watch.info':
-    "Com a molt un cop al dia, TREK llegeix la fitxa breu de cada camí que has importat, mai el seu fitxer GPX. Només t'avisa: incorporar un canvi ho decideixes tu, amb la comprovació de la font del recorregut.",
+    "Com a molt un cop al dia, Manzil llegeix la fitxa breu de cada camí que has importat, mai el seu fitxer GPX. Només t'avisa: incorporar un canvi ho decideixes tu, amb la comprovació de la font del recorregut.",
   'wanderer.watch.notConnected': 'Connecta primer wanderer',
   'wanderer.watch.on': 'Comprovació en segon pla activada',
   'wanderer.watch.off': 'Comprovació en segon pla desactivada',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Encara sense comprovar',
   'wanderer.watch.paused': 'En pausa fins a {time}',
   'wanderer.watch.pausedHint':
-    'wanderer no ha respost. Després de cada error, TREK espera més abans de tornar a preguntar.',
+    'wanderer no ha respost. Després de cada error, Manzil espera més abans de tornar a preguntar.',
   'wanderer.watch.blocked': 'Testimoni rebutjat',
   'wanderer.watch.blockedHint':
     "wanderer ha rebutjat el testimoni de l'API. La comprovació es reprèn quan una prova de connexió funcioni o es desi un testimoni nou.",
@@ -33,7 +33,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'La fitxa de wanderer mostra un altre nom o una altra descripció. La comprovació de la font mostra tot el que ha canviat.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK no ha pogut valorar aquest camí, així que no es diu res sobre si ha canviat.',
+    'Manzil no ha pogut valorar aquest camí, així que no es diu res sobre si ha canviat.',
   'wanderer.watch.reason.unavailable': 'Camí inaccessible',
   'wanderer.watch.reason.no_change_time': 'Sense marca de temps',
 };

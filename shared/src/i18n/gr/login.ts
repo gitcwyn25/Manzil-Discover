@@ -10,7 +10,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Σύνδεση…',
   'login.signIn': 'Σύνδεση',
   'login.createAdmin': 'Δημιουργία Λογαριασμού Διαχειριστή',
-  'login.createAdminHint': 'Ρυθμίστε τον πρώτο λογαριασμό διαχειριστή για το TREK.',
+  'login.createAdminHint': 'Ρυθμίστε τον πρώτο λογαριασμό διαχειριστή για το Manzil.',
   'login.setNewPassword': 'Ορισμός Νέου Κωδικού',
   'login.setNewPasswordHint': 'Πρέπει να αλλάξετε τον κωδικό σας πριν συνεχίσετε.',
   'login.createAccount': 'Δημιουργία Λογαριασμού',
@@ -79,7 +79,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Η σύνδεση με passkey απέτυχε. Παρακαλώ δοκιμάστε ξανά.',
   'login.insecureCookie.title': 'Η σύνδεση δεν διατηρείται μέσω HTTP',
   'login.insecureCookie.body':
-    'Συνδέεστε μέσω απλού HTTP, γι\' αυτό ο browser απορρίπτει το ασφαλές cookie συνεδρίας του TREK και το επόμενο αίτημα αποτυγχάνει με το μήνυμα "Access token required". Λύση: χρησιμοποιήστε HTTPS ή, για home-lab, ορίστε COOKIE_SECURE=false.',
+    'Συνδέεστε μέσω απλού HTTP, γι\' αυτό ο browser απορρίπτει το ασφαλές cookie συνεδρίας του Manzil και το επόμενο αίτημα αποτυγχάνει με το μήνυμα "Access token required". Λύση: χρησιμοποιήστε HTTPS ή, για home-lab, ορίστε COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Άνοιγμα του οδηγού αντιμετώπισης προβλημάτων',
 };
 export default login;

@@ -4,7 +4,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.label': 'Rotalarımdaki değişiklikleri denetle',
   'wanderer.watch.hint': 'İçe aktarılan bir rota değişmiş olabilirse bildirim.',
   'wanderer.watch.info':
-    'TREK, içe aktardığın her rotanın kısa kaydını günde en fazla bir kez okur, GPX dosyasını asla. Yalnızca bildirir: bir değişikliğin alınıp alınmayacağına turun kaynak denetimiyle sen karar verirsin.',
+    'Manzil, içe aktardığın her rotanın kısa kaydını günde en fazla bir kez okur, GPX dosyasını asla. Yalnızca bildirir: bir değişikliğin alınıp alınmayacağına turun kaynak denetimiyle sen karar verirsin.',
   'wanderer.watch.notConnected': 'Önce wanderer bağla',
   'wanderer.watch.on': 'Arka plan denetimi açıldı',
   'wanderer.watch.off': 'Arka plan denetimi kapatıldı',
@@ -13,7 +13,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.neverRun': 'Henüz denetlenmedi',
   'wanderer.watch.paused': '{time} saatine kadar duraklatıldı',
   'wanderer.watch.pausedHint':
-    'wanderer yanıt vermedi. TREK her başarısızlıktan sonra yeniden sormadan önce daha uzun bekler.',
+    'wanderer yanıt vermedi. Manzil her başarısızlıktan sonra yeniden sormadan önce daha uzun bekler.',
   'wanderer.watch.blocked': 'Belirteç reddedildi',
   'wanderer.watch.blockedHint':
     'wanderer API belirtecini reddetti. Bir bağlantı testi geçtiğinde ya da yeni bir belirteç kaydedildiğinde denetim sürer.',
@@ -33,7 +33,7 @@ const wandererWatch: TranslationStrings = {
   'wanderer.watch.stateHint.changed':
     'wanderer kaydı başka bir ad ya da açıklama gösteriyor. Kaynak denetimi değişen her şeyi gösterir.',
   'wanderer.watch.stateHint.unverifiable':
-    'TREK bu rotayı değerlendiremedi, bu yüzden değişip değişmediği hakkında bir şey söylenmiyor.',
+    'Manzil bu rotayı değerlendiremedi, bu yüzden değişip değişmediği hakkında bir şey söylenmiyor.',
   'wanderer.watch.reason.unavailable': 'Rotaya ulaşılamıyor',
   'wanderer.watch.reason.no_change_time': 'Zaman damgası yok',
 };

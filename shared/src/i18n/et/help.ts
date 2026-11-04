@@ -72,14 +72,14 @@ const help: TranslationStrings = {
     'Klõpsa „Uus reis“. Sama teevad ka sinu reiside lõpus olev kaart ja paremas alanurgas olev nupp.',
   'help.guide.create-trip.step.2': 'Anna reisile nimi. See on ainus kohustuslik väli, kõik muu saad lisada hiljem.',
   'help.guide.create-trip.step.3':
-    'Vali algus- ja lõppkuupäev. TREK loob iga kuupäeva jaoks ühe päeva, nii et saad kohe reisiplaani koostama hakata. Kuupäevi veel pole? Jäta mõlemad tühjaks ja sisesta hoopis „Päevade arv“.',
+    'Vali algus- ja lõppkuupäev. Manzil loob iga kuupäeva jaoks ühe päeva, nii et saad kohe reisiplaani koostama hakata. Kuupäevi veel pole? Jäta mõlemad tühjaks ja sisesta hoopis „Päevade arv“.',
   'help.guide.create-trip.step.4':
     'Valikuline: lisa kaanefoto. Laadi üles oma foto, lohista või kleebi see või otsi Unsplashist sihtkoha järgi.',
   'help.guide.create-trip.step.5': 'Klõpsa „Loo uus reis“.',
   'help.guide.create-trip.result':
     'Reis ilmub sinu ülevaatesse. Kui see on sinu järgmine reis, on see näha ülemisel pardakaardil.',
   'help.guide.create-trip.tip.1':
-    'Kuupäevi saab hiljem muuta. Kui broneeringud on juba olemas, küsib TREK, kas need nihutada koos päevadega.',
+    'Kuupäevi saab hiljem muuta. Kui broneeringud on juba olemas, küsib Manzil, kas need nihutada koos päevadega.',
   'help.guide.create-trip.tip.2': 'Siin valitud reisi valuutasse arvestatakse ümber kõik kulud. Vali sihtkoha valuuta.',
 
   // edit-trip
@@ -146,7 +146,7 @@ const help: TranslationStrings = {
   'help.guide.calendar-feed.goal':
     'Näe kõigi aktiivsete reiside päevi ja broneeringuid oma kalendrirakenduses, alati ajakohasena.',
   'help.guide.calendar-feed.step.1': 'Klõpsa vaatelüliti kõrval oleval kalendriikoonil.',
-  'help.guide.calendar-feed.step.2': 'Klõpsa „Lülita kalendri tellimus sisse“. TREK loob privaatse kalendrivoo lingi.',
+  'help.guide.calendar-feed.step.2': 'Klõpsa „Lülita kalendri tellimus sisse“. Manzil loob privaatse kalendrivoo lingi.',
   'help.guide.calendar-feed.step.3':
     'Klõpsa „Lisa Google’i kalendrisse“ või „Lisa Apple’i kalendrisse / Outlooki“. Muu kalendrirakenduse jaoks ava „Või kopeeri link käsitsi“ ja kopeeri link sealt.',
   'help.guide.calendar-feed.result':
@@ -500,7 +500,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.step.1':
     'Kui Dawarichi lisamoodul on ühendatud, ilmub kaardi alaossa statistikast vasakule Dawarichi paneel kahe paaniga. Klõpsa „Riigid“.',
   'help.guide.dawarich-countries.step.2':
-    'Aken avaneb vahekaardil „Riigid“. Klõpsa „Otsi riike“: TREK loeb kuu kaupa läbi riigid ja linnad, mida sinu salvestused viimase 12 kuu jooksul hõlmavad, nii et see võib veidi aega võtta. Iga riik, mida sinu Atlases veel pole, on loendis koos lipu, linnade arvu ja esimese linna nimega. Kõik riigid on vaikimisi linnukesega märgitud. Klõpsa real, et see välja jätta.',
+    'Aken avaneb vahekaardil „Riigid“. Klõpsa „Otsi riike“: Manzil loeb kuu kaupa läbi riigid ja linnad, mida sinu salvestused viimase 12 kuu jooksul hõlmavad, nii et see võib veidi aega võtta. Iga riik, mida sinu Atlases veel pole, on loendis koos lipu, linnade arvu ja esimese linna nimega. Kõik riigid on vaikimisi linnukesega märgitud. Klõpsa real, et see välja jätta.',
   'help.guide.dawarich-countries.step.3':
     'Kinnita paremas allnurgas oleva nupuga, millel on viie märgitud rea korral kirjas „Lisa 5 riiki“. Aknas on näha, mitu riiki lisati. Kui akna sulged, on kaart juba uuendatud.',
   'help.guide.dawarich-countries.result':
@@ -508,7 +508,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-countries.tip.1':
     'Riigid, mida Atlas juba külastatuna näitab, olgu käsitsi märgituna, reisi põhjal või varasema kontrolli järgi, jäetakse välja, nii et sinu enda märgised ei muutu kunagi. Riik, mille oled Atlasest varem eemaldanud, lisatakse uuesti, kui selle siin kinnitad.',
   'help.guide.dawarich-countries.tip.2':
-    'Kui TREK ei suuda riigi nime sobitada, kuvatakse nimi ridade all ja seda ei jäeta välja. „Kontrolli uuesti“ küsib Dawarichilt uuesti. Loendi all olev märkus ütleb, et kontrolliti viimast 12 kuud. Seda ajavahemikku ei saa muuta.',
+    'Kui Manzil ei suuda riigi nime sobitada, kuvatakse nimi ridade all ja seda ei jäeta välja. „Kontrolli uuesti“ küsib Dawarichilt uuesti. Loendi all olev märkus ütleb, et kontrolliti viimast 12 kuud. Seda ajavahemikku ei saa muuta.',
   // dawarich-wishes
   'help.guide.dawarich-wishes.title': 'Soovide täidetuks märkimine salvestuste põhjal',
   'help.guide.dawarich-wishes.goal':
@@ -516,7 +516,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.step.1':
     'Klõpsa kaardi alaosas statistikast vasakul olevas Dawarichi paneelis „Soovinimekiri“.',
   'help.guide.dawarich-wishes.step.2':
-    'Aken avaneb vahekaardil „Soovinimekiri“. Klõpsa „Kontrolli soovinimekirja“: TREK otsib sinu salvestustest läbi kõik koordinaatidega kirjed. Soov, milleni jõudsid, on loendis koos sellega, kui lähedale jõudsid, kui kaua seal olid ja mis päeval, ning see on vaikimisi linnukesega märgitud. Juba täidetud soovi juures on kirjas „Juba täidetuks märgitud“. Loendi all olev märkus loeb kokku koordinaatideta kirjed ja näitab ka reeglit: soov loetakse täidetuks 250 m raadiuses ja pärast 20 minutit kohapeal.',
+    'Aken avaneb vahekaardil „Soovinimekiri“. Klõpsa „Kontrolli soovinimekirja“: Manzil otsib sinu salvestustest läbi kõik koordinaatidega kirjed. Soov, milleni jõudsid, on loendis koos sellega, kui lähedale jõudsid, kui kaua seal olid ja mis päeval, ning see on vaikimisi linnukesega märgitud. Juba täidetud soovi juures on kirjas „Juba täidetuks märgitud“. Loendi all olev märkus loeb kokku koordinaatideta kirjed ja näitab ka reeglit: soov loetakse täidetuks 250 m raadiuses ja pärast 20 minutit kohapeal.',
   'help.guide.dawarich-wishes.step.3':
     'Kinnita paremas allnurgas oleva nupuga, millel on kahe märgitud rea korral kirjas „Märgi 2 täidetuks“. Seejärel sulge aken ja ava selle kõrval paneeli vahekaart „Soovinimekiri“.',
   'help.guide.dawarich-wishes.result':
@@ -524,7 +524,7 @@ const help: TranslationStrings = {
   'help.guide.dawarich-wishes.tip.1':
     'Möödasõit ei lähe arvesse: pead olema kohale lähedal ja viibima seal mõnda aega. Kui sobib mitu viibimist, kasutatakse pikimat. Koordinaatideta soovi ei saa kontrollida, seega lisa kohad „Lisa koht“ otsingu kaudu, mitte ainult nime järgi.',
   'help.guide.dawarich-wishes.tip.2':
-    'Üks kontroll vaatab läbi kuni 50 kirjet, alustades nendest, mis pole veel täidetuks märgitud. Kui neid on rohkem, annab TREK sellest teada. Juba täidetuks märgitud soov säilitab oma kuupäeva.',
+    'Üks kontroll vaatab läbi kuni 50 kirjet, alustades nendest, mis pole veel täidetuks märgitud. Kui neid on rohkem, annab Manzil sellest teada. Juba täidetuks märgitud soov säilitab oma kuupäeva.',
   // ── Screen: collections ────────────────────────────────────────────────────
   'help.ctx.collections.title': 'Kogumikud',
   'help.ctx.collections.summary':
@@ -580,7 +580,7 @@ const help: TranslationStrings = {
   'help.guide.import-from-trip.result':
     'Kohad kopeeritakse nimekirja koos nime, aadressi, koordinaatide, kirjelduse ja kategooriaga. Reis ise ei muutu.',
   'help.guide.import-from-trip.tip.1':
-    'TREK jätab nime või koordinaatide järgi tuvastatud duplikaadid automaatselt vahele, nii et kaks korda importimine on ohutu.',
+    'Manzil jätab nime või koordinaatide järgi tuvastatud duplikaadid automaatselt vahele, nii et kaks korda importimine on ohutu.',
   'help.guide.import-from-trip.tip.2':
     'Reisi kohtade loendis pakub valikurežiim hoopis nuppu „Salvesta kogumikku“ käsitsi valitud kohtade jaoks.',
   // place-status
@@ -669,7 +669,7 @@ const help: TranslationStrings = {
     'Vali „TREKi nimekiri“, kui tahad nimekirja kasutada teises TREKis koos siltide ja olekuga, või GPX OsmAndi, Organic Mapsi, Garmini ja muude teekonnapunkte lugevate rakenduste jaoks.',
   'help.guide.export-list.result': 'Fail laaditakse alla. Jagatud nimekirja võib eksportida iga liige.',
   'help.guide.export-list.tip.1':
-    'Koordinaatideta kohast ei saa GPX-teekonnapunkti. See jäetakse välja ja TREK ütleb, mitu sellist oli.',
+    'Koordinaatideta kohast ei saa GPX-teekonnapunkti. See jäetakse välja ja Manzil ütleb, mitu sellist oli.',
   'help.guide.export-list.tip.2':
     'Hinnanguid, liikmeid ja üles laaditud fotosid meelega ei ekspordita: need kuuluvad sellele TREKile, mitte nimekirjale.',
   // import-file
@@ -679,7 +679,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.step.1':
     'Klõpsa nimekirjade ribal nupu „Uus nimekiri“ kõrval olevat üleslaadimisnoolega impordinuppu.',
   'help.guide.import-file.step.2':
-    'Vali fail. Enne importimist näitab TREK, mis failis on: nimi, kohtade arv ja siltide arv.',
+    'Vali fail. Enne importimist näitab Manzil, mis failis on: nimi, kohtade arv ja siltide arv.',
   'help.guide.import-file.step.3':
     'Jäta valik „Uus nimekiri“ ja muuda soovi korral nime, seejärel klõpsa „Impordi“. Või vali „Lisa nimekirja“, et lisada kohad nimekirja, mida saad muuta, ja klõpsa „Lisa nimekirja“.',
   'help.guide.import-file.result':
@@ -687,7 +687,7 @@ const help: TranslationStrings = {
   'help.guide.import-file.tip.1':
     'GPX-failist saab igast nimega teekonnapunktist koht. Rajad on jooned ja need jäetakse välja, eelvaade näitab, mitu punkti see oli.',
   'help.guide.import-file.tip.2':
-    'Fail, mis pole TREKi nimekiri ega GPX, lükatakse tagasi ja TREK näitab põhjust. Kui ühte kohta ei õnnestu lugeda, jäetakse vahele ainult see koht, mitte kogu fail.',
+    'Fail, mis pole TREKi nimekiri ega GPX, lükatakse tagasi ja Manzil näitab põhjust. Kui ühte kohta ei õnnestu lugeda, jäetakse vahele ainult see koht, mitte kogu fail.',
   // edit-list
   'help.guide.edit-list.title': 'Muuda või kustuta nimekiri',
   'help.guide.edit-list.goal': 'Muuda nimekirja nime, värvi, kaanepilti, kirjeldust või linke või eemalda nimekiri.',
@@ -930,7 +930,7 @@ const help: TranslationStrings = {
   // ── Screen: journey-studio ─────────────────────────────────────────────────
   'help.ctx.journey-studio.title': 'Stuudio',
   'help.ctx.journey-studio.summary':
-    'TREK Studio paigutab reisi trükitavaks fotoraamatuks. See avaneb päeviku peal: külgriba paneelidega on vasakul, töötatav lehepaar keskel ja selle omadused paremal. Automaatne paigutus koostab sinu kirjetest esimese kavandi, teema annab raamatule värvid ja kirjatüübid ning assistent oskab lehti sinuga koos kujundada. Pärast seda saad kõike liigutada, kärpida ja ümber kujundada ning iga sammu tagasi võtta.',
+    'Manzil Studio paigutab reisi trükitavaks fotoraamatuks. See avaneb päeviku peal: külgriba paneelidega on vasakul, töötatav lehepaar keskel ja selle omadused paremal. Automaatne paigutus koostab sinu kirjetest esimese kavandi, teema annab raamatule värvid ja kirjatüübid ning assistent oskab lehti sinuga koos kujundada. Pärast seda saad kõike liigutada, kärpida ja ümber kujundada ning iga sammu tagasi võtta.',
   'help.ctx.journey-studio.bullet.1':
     'Ülariba: vasakul reisiloo kaas ja nimi. Paremal on näha, kes veel raamatus osaleb ja kas see on salvestatud, lehe formaat, tagasivõtmine, uuesti tegemine ja kleebi, Automaatne paigutus, assistent, abi, Eksport ning nupp, mis sulgeb Stuudio.',
   'help.ctx.journey-studio.bullet.2':
@@ -942,7 +942,7 @@ const help: TranslationStrings = {
   'help.ctx.journey-studio.bullet.5':
     'Raamat on paigutatud nagu trükitud raamat: kaas, üksik esimene lehekülg tühja kaanesisu vastas, lehepaarid, üksik viimane lehekülg ja tagakaas. Leheküljenumbrid loetakse esimesest leheküljest ja trükitakse nii, nagu need on näidatud.',
   'help.ctx.journey-studio.bullet.6':
-    'Kujundada saab mitu inimest korraga: igaüks näeb teiste kursoreid koos nimedega. Kui salvestad versiooni, mida keegi teine on vahepeal muutnud, näitab TREK konflikti ega kirjuta tema tööd üle.',
+    'Kujundada saab mitu inimest korraga: igaüks näeb teiste kursoreid koos nimedega. Kui salvestad versiooni, mida keegi teine on vahepeal muutnud, näitab Manzil konflikti ega kirjuta tema tööd üle.',
   'help.ctx.journey-studio.bullet.7':
     'Teema: üks ilme kogu raamatule, selle paber, tint ja kolm rõhuvärvi, kirjatüübid ja motiivid. Teemaga seotud elemendid järgivad seda, kui sa teemat muudad.',
   'help.ctx.journey-studio.bullet.8':
@@ -1022,7 +1022,7 @@ const help: TranslationStrings = {
     'Kõik seotud värvid ja kirjatüübid raamatus muutuvad korraga ning teema rakendamine on üks tagasivõtmise samm.',
   'help.guide.studio-content.tip.1': 'Jaotise „Sisu“ ülaosas olev otsinguväli filtreerib mõlemat loendit.',
   'help.guide.studio-content.tip.2':
-    'Kui lohistad faili arvutist tööpinnale, laadib TREK selle üles ja paigutab ühe sammuga.',
+    'Kui lohistad faili arvutist tööpinnale, laadib Manzil selle üles ja paigutab ühe sammuga.',
   // studio-elements
   'help.guide.studio-elements.title': 'Lisa tekst, kujundid, ikoonid ja kleebised',
   'help.guide.studio-elements.goal': 'Kaunista lehepaari lisaks fotodele ja lugudele.',
@@ -1129,7 +1129,7 @@ const help: TranslationStrings = {
   'help.guide.studio-spread-file.result':
     'Lehepaar imporditakse koos raamide ja tekstistiilidega. Lohista uue reisiloo fotod raamidesse.',
   'help.guide.studio-spread-file.tip.1':
-    'Kui fail pole lehepaari kujundus, lükkab TREK selle tagasi ja näitab põhjust.',
+    'Kui fail pole lehepaari kujundus, lükkab Manzil selle tagasi ja näitab põhjust.',
 
   // ── Screen: settings (all tabs) ────────────────────────────────────────────
   'help.ctx.settings.title': 'Seaded',
@@ -1145,7 +1145,7 @@ const help: TranslationStrings = {
     'Jaotises „Konto“ on sinu profiil, parool, kaheastmeline autentimine, pääsuvõtmed ja konto kustutamise võimalus.',
   'help.ctx.settings-display.title': 'Üldine',
   'help.ctx.settings-display.summary':
-    'Millega TREK avaneb, millist keelt ja ühikuid see kasutab ning kuidas reisikaart ja broneeringud käituvad. Iga muudatus rakendub kohe.',
+    'Millega Manzil avaneb, millist keelt ja ühikuid see kasutab ning kuidas reisikaart ja broneeringud käituvad. Iga muudatus rakendub kohe.',
   'help.ctx.settings-display.bullet.1':
     '„Käivitamine“: „Avaleht“ avab „Ülevaate“ või „Aktiivse reisi“; valikuga „Aktiivne reis“ määrab „Avatav vahekaart“, milline vaheleht reisil avaneb.',
   'help.ctx.settings-display.bullet.2':
@@ -1154,7 +1154,7 @@ const help: TranslationStrings = {
     '„Reisimine ja kaart“: „Ava kohad rakenduses“, „Kuupäev päevapealkirjades eespool“, „Broneeringute marsruutide sildid“, „Näita alati broneeringute marsruute“, „Kompaktsed tähised planeerimata kohtadele“, „Avasta kaardil kohti“, „Hägusta broneerimiskoodid“ ja „Optimeeri marsruut majutuskohast“.',
   'help.ctx.settings-appearance.title': 'Välimus',
   'help.ctx.settings-appearance.summary':
-    'Kuidas TREK selle konto puhul välja näeb: hele või tume, aktsentvärv, klaasefekt ja animatsioonid, teksti suurus ning millised vidinad on töölaual. Kõik muudatused rakenduvad kohe igas seadmes, kuhu sisse logid.',
+    'Kuidas Manzil selle konto puhul välja näeb: hele või tume, aktsentvärv, klaasefekt ja animatsioonid, teksti suurus ning millised vidinad on töölaual. Kõik muudatused rakenduvad kohe igas seadmes, kuhu sisse logid.',
   'help.ctx.settings-appearance.bullet.1':
     '„Teema“: „Värvirežiim“ („Hele“, „Tume“ või „Automaatne“), „Värviskeem“ ning valikuga „Kohandatud“ sinu enda rõhuvärv heleda ja tumeda režiimi jaoks koos kontrastikontrolliga.',
   'help.ctx.settings-appearance.bullet.2':
@@ -1174,7 +1174,7 @@ const help: TranslationStrings = {
     'Ainult Mapbox GL: „3D-hooned ja maastik“ ning „Kõrge kvaliteediga režiim“. Nupu „Salvesta kaart“ kohal on reaalajas eelvaade. „Salvesta kaart“ salvestab sinu valiku.',
   'help.ctx.settings-notifications.title': 'Teavitused',
   'help.ctx.settings-notifications.summary':
-    'Kuidas TREK võtab sinuga ühendust väljaspool rakendust. Ülal olev tabel, kus iga sündmuse kohta on rida ja iga kanali kohta veerg, määrab, mis kuhu saadetakse. Selle all on kaardid veebihaagi, ntfy, selle seadme tõuketeavituste ja pluginate kanalite jaoks.',
+    'Kuidas Manzil võtab sinuga ühendust väljaspool rakendust. Ülal olev tabel, kus iga sündmuse kohta on rida ja iga kanali kohta veerg, määrab, mis kuhu saadetakse. Selle all on kaardid veebihaagi, ntfy, selle seadme tõuketeavituste ja pluginate kanalite jaoks.',
   'help.ctx.settings-notifications.bullet.1':
     '„Teavitused“: lülita iga sündmus kanali kaupa sisse või välja. Lukk tähendab, et administraator on selle kõigi jaoks välja lülitanud.',
   'help.ctx.settings-notifications.bullet.2':
@@ -1196,7 +1196,7 @@ const help: TranslationStrings = {
     '„API-pääsutõendid“: vana viis MCP-ga ühendamiseks, märgisega „Aegunud“; kasuta selle asemel „OAuth 2.1 kliente“.',
   'help.ctx.settings-offline.title': 'Võrguühenduseta',
   'help.ctx.settings-offline.summary':
-    'Mida TREK selles seadmes hoiab, et reis avaneks ka ilma ühenduseta, ja mis juhtub, kui võrguta tehtud muudatus läheb vastuollu mujal tehtud muudatusega.',
+    'Mida Manzil selles seadmes hoiab, et reis avaneks ka ilma ühenduseta, ja mis juhtub, kui võrguta tehtud muudatus läheb vastuollu mujal tehtud muudatusega.',
   'help.ctx.settings-offline.bullet.1':
     '„Võrguühenduseta režiim“: „Sunni võrguühenduseta režiim“ laadib kõigepealt kõik alla, töötab seejärel ainult vahemälust ja paneb sinu muudatused järjekorda.',
   'help.ctx.settings-offline.bullet.2':
@@ -1220,7 +1220,7 @@ const help: TranslationStrings = {
   'help.guide.language-region.title': 'Määra keel, ühikud ja valuuta',
   'help.guide.language-region.goal': 'Kasuta TREKi oma keeles ja oma piirkonna vormingutega.',
   'help.guide.language-region.step.1':
-    'Vali jaotises „Keel ja piirkond“ siltide reast „Keel“. TREK vahetab keele kohe kõigis seadmetes, kuhu sisse logid.',
+    'Vali jaotises „Keel ja piirkond“ siltide reast „Keel“. Manzil vahetab keele kohe kõigis seadmetes, kuhu sisse logid.',
   'help.guide.language-region.step.2':
     '„Kohtade nimed“ määrab keele, mida kohaotsing, soovitused ja aadressid kasutavad; „Sama mis rakendusel“ järgib liidese keelt.',
   'help.guide.language-region.result':
@@ -1241,17 +1241,17 @@ const help: TranslationStrings = {
     'Administraator saab määrata vaikeväärtused kõigile; see, mida siin muudad, kehtib sinu kohta.',
   // startup
   'help.guide.startup.title': 'TREKi avalehe valimine',
-  'help.guide.startup.goal': 'Ava TREK lehel, mida kõige rohkem kasutad, mitte iga kord ülevaatel.',
+  'help.guide.startup.goal': 'Ava Manzil lehel, mida kõige rohkem kasutad, mitte iga kord ülevaatel.',
   'help.guide.startup.step.1':
     'Vahelehe „Üldine“ ülaosas, jaotises „Käivitamine“, määra „Avaleht“ väärtusele „Ülevaade“ või „Aktiivne reis“.',
   'help.guide.startup.step.2': 'Valikuga „Aktiivne reis“ ilmub „Avatav vahekaart“: vali vaheleht, millel reis avaneb.',
-  'help.guide.startup.result': 'Järgmisel korral avab TREK kohe selle lehe.',
+  'help.guide.startup.result': 'Järgmisel korral avab Manzil kohe selle lehe.',
   'help.guide.startup.tip.1':
     '„Aktiivne reis“ on reis, mis toimub täna, või järgmine tulev reis. See on sama reis, mida ülevaade näitab ülaosas.',
   // theme-scheme
   'help.guide.theme-scheme.title': 'Teema ja rõhuvärvi määramine',
   'help.guide.theme-scheme.goal':
-    'Tee TREK heledaks või tumedaks või lase tal järgida seadet, just sulle meeldivas värvis.',
+    'Tee Manzil heledaks või tumedaks või lase tal järgida seadet, just sulle meeldivas värvis.',
   'help.guide.theme-scheme.step.1':
     'Määra jaotises „Teema“ „Värvirežiim“ väärtusele „Hele“, „Tume“ või „Automaatne“. „Automaatne“ järgib sinu seadet.',
   'help.guide.theme-scheme.step.2':
@@ -1370,17 +1370,17 @@ const help: TranslationStrings = {
   'help.guide.offline-prepare.tip.1':
     'Kõige rohkem ruumi võtavad kaardipaanid; lülita need välja, et hoida ainult reisiandmeid ja dokumente.',
   'help.guide.offline-prepare.tip.2':
-    'Kõige sujuvamaks käivitamiseks ilma võrguta paigalda TREK brauserist rakendusena.',
+    'Kõige sujuvamaks käivitamiseks ilma võrguta paigalda Manzil brauserist rakendusena.',
   // offline-conflicts
   'help.guide.offline-conflicts.title': 'Otsusta sünkroonimiskonflikti korral, milline versioon jääb',
   'help.guide.offline-conflicts.goal':
-    'Vali, kuidas TREK lahendab konflikti võrguta tehtud muudatuse ja mujal tehtud muudatuse vahel.',
+    'Vali, kuidas Manzil lahendab konflikti võrguta tehtud muudatuse ja mujal tehtud muudatuse vahel.',
   'help.guide.offline-conflicts.step.1':
     'Kui võrguühenduseta tehtud muudatus on vastuolus uuemaga, ilmub jaotise „Võrguühenduseta“ ülaossa „Sünkroonimiskonfliktid“. Klõpsa iga muudatuse juures „Säilita minu oma“ või „Säilita serveri oma“.',
   'help.guide.offline-conflicts.step.2':
     'Samal kaardil määrab „Konflikti korral“, mis juhtub järgmisel korral: „Küsi iga kord“, „Säilita alati minu versioon“ või „Säilita alati serveri versioon“.',
   'help.guide.offline-conflicts.result':
-    'Valikuga „Küsi iga kord“ jääb konflikt jaotisse „Sünkroonimiskonfliktid“, kuni teed valiku. Kahe teise valiku puhul lahendab TREK selle automaatselt.',
+    'Valikuga „Küsi iga kord“ jääb konflikt jaotisse „Sünkroonimiskonfliktid“, kuni teed valiku. Kahe teise valiku puhul lahendab Manzil selle automaatselt.',
   'help.guide.offline-conflicts.tip.1':
     '„Tühjenda vahemälu“ eemaldab ainult selles seadmes oleva koopia. Serveris ei muutu midagi.',
   // profile
@@ -1432,7 +1432,7 @@ const help: TranslationStrings = {
   'help.guide.delete-account.result':
     'Sinu konto kustutatakse koos sulle kuuluvate reiside, kohtade ja failidega. Teistele kuuluvad reisid jäävad alles.',
   'help.guide.delete-account.tip.1':
-    'Kui oled ainus administraator, näitab TREK teadet „Kustutamine pole võimalik“: määra enne mõni teine kasutaja administraatoriks.',
+    'Kui oled ainus administraator, näitab Manzil teadet „Kustutamine pole võimalik“: määra enne mõni teine kasutaja administraatoriks.',
   'help.guide.delete-account.tip.2':
     'Seda ei saa tagasi võtta. Ekspordi enne kinnitamist kõik, mida tahad alles hoida.',
 
@@ -1679,7 +1679,7 @@ const help: TranslationStrings = {
     'Lülita sisse „Nõua kaheastmelist autentimist (2FA)“, et kõik, kellel 2FA puudub, peaksid selle enne TREKi kasutamist seadetes seadistama.',
   'help.guide.auth-methods.result': 'Sisselogimislehel on täpselt need viisid, mille sisse jätsid.',
   'help.guide.auth-methods.tip.1':
-    'TREK ei lase viimast sisselogimisviisi välja lülitada: selle lüliti muutub halliks ja vihje ütleb, et vähemalt üks sisselogimisviis peab jääma sisse lülitatuks.',
+    'Manzil ei lase viimast sisselogimisviisi välja lülitada: selle lüliti muutub halliks ja vihje ütleb, et vähemalt üks sisselogimisviis peab jääma sisse lülitatuks.',
   'help.guide.auth-methods.tip.2':
     'Kui serveris on määratud OIDC_ONLY, on parooli lülitid lukus ja märkus annab sellest teada.',
   // oidc
@@ -1707,10 +1707,10 @@ const help: TranslationStrings = {
   'help.guide.instance-keys.result':
     "Kasutajad saavad funktsioone kasutada ilma oma võtmeteta. Ilma Google'i võtmeta kasutab otsing TREK Places API-t ja OpenStreetMapi.",
   'help.guide.instance-keys.tip.1':
-    'Kui kasutajal on jaotises „Seaded“ isiklik võti, kasutab TREK selle kasutaja puhul instantsi võtme asemel seda.',
+    'Kui kasutajal on jaotises „Seaded“ isiklik võti, kasutab Manzil selle kasutaja puhul instantsi võtme asemel seda.',
   'help.guide.instance-keys.tip.2': 'Võtmed võivad tulla ka keskkonnamuutujatest, need on siin kirjutuskaitstud.',
   'help.guide.instance-keys.tip.3':
-    "„Google'i päringute päevapiirang“ piirab, kui palju TREK tohib võtmega päevas kulutada. Pealkirja kõrval olev märk loeb tänaseid päringuid. Kui piirang on täis, kasutavad otsingud järgmise päevani (UTC) OpenStreetMapi.",
+    "„Google'i päringute päevapiirang“ piirab, kui palju Manzil tohib võtmega päevas kulutada. Pealkirja kõrval olev märk loeb tänaseid päringuid. Kui piirang on täis, kasutavad otsingud järgmise päevani (UTC) OpenStreetMapi.",
   // places-transit
   'help.guide.places-transit.title': 'Vali otsingu ja ühistranspordi teenusepakkujad',
   'help.guide.places-transit.goal':
@@ -1718,7 +1718,7 @@ const help: TranslationStrings = {
   'help.guide.places-transit.step.1':
     "Vali jaotises „Ühistranspordi teenusepakkuja“ „Transitous (tasuta)“, mis ei vaja võtit ja on tugevaim Euroopas, või Google, mis kasutab Google'i võtit. Valik salvestub kohe.",
   'help.guide.places-transit.step.2':
-    'Vali jaotises „Kohaotsingu teenusepakkuja“, millist teenust TREK kasutab, kui TREKi register ja OpenStreetMap midagi ei leia: „Automaatne“ (Google, kui võti on olemas, seejärel Amap), Google Places, Amap (高德地图) või OpenStreetMap.',
+    'Vali jaotises „Kohaotsingu teenusepakkuja“, millist teenust Manzil kasutab, kui TREKi register ja OpenStreetMap midagi ei leia: „Automaatne“ (Google, kui võti on olemas, seejärel Amap), Google Places, Amap (高德地图) või OpenStreetMap.',
   'help.guide.places-transit.result': 'Iga otsingukast ja iga ühistranspordi marsruut TREKis kasutab seda valikut.',
   'help.guide.places-transit.tip.1':
     'Kui valikul pole võtit, näed siin hoiatust. Kohaotsing kasutab siis ainult TREKi registrit ja OpenStreetMapi ning ühistransport ainult Transitousi.',
@@ -1783,7 +1783,7 @@ const help: TranslationStrings = {
   'help.guide.storage-backends.step.2':
     'Määra jaotises „Kategooriad“ iga üleslaadimise liik, näiteks „Reisidokumendid“, „Reisiloo fotod“ või „Varukoopiad“, mõnele taustsüsteemile.',
   'help.guide.storage-backends.step.3':
-    'Klõpsa all „Salvesta muudatused“. Kui mõni kategooria osutab nüüd mujale, küsib TREK, kas „Teisalda olemasolevad objektid“ või „Suuna ainult uued kirjutused“.',
+    'Klõpsa all „Salvesta muudatused“. Kui mõni kategooria osutab nüüd mujale, küsib Manzil, kas „Teisalda olemasolevad objektid“ või „Suuna ainult uued kirjutused“.',
   'help.guide.storage-backends.result':
     'Uued üleslaadimised lähevad määratud taustsüsteemi. Teisaldatud failid pakutakse sealt ja see, mida otsustasid mitte teisaldada, jääb oma kohale.',
   'help.guide.storage-backends.tip.1':
@@ -1833,7 +1833,7 @@ const help: TranslationStrings = {
     'MCP lisamooduli väljalülitamine peatab kohe kõik kliendid ja peidab selle vahelehe, kuid ei kustuta midagi: tõendid hakkavad uuesti tööle, kui lisamoodul on jälle sees.',
   // release-history
   'help.guide.release-history.title': 'Kontrolli, kas on uus versioon',
-  'help.guide.release-history.goal': 'Tea, kas sinu TREK on ajakohane ja mida järgmine versioon toob.',
+  'help.guide.release-history.goal': 'Tea, kas sinu Manzil on ajakohane ja mida järgmine versioon toob.',
   'help.guide.release-history.step.1':
     'Kui uuem versioon on olemas, on lehe päise all „Uuendus saadaval“ koos sinu kasutatava versiooniga. „Vaata GitHubis“ avab versiooni ja „Kuidas uuendada“ näitab Dockeri käske või muude paigalduste uuendamisjuhendit.',
   'help.guide.release-history.step.2':
@@ -1984,7 +1984,7 @@ const help: TranslationStrings = {
   'help.guide.undo-change.tip.1':
     '„Võta tagasi“ hõlmab plaani: kohtade lisamist, määramist, eemaldamist, ümberjärjestamist, teisaldamist ja lukustamist, päeva tühjendamist, marsruudi optimeerimist, kohtade kustutamist, kategooriate muutmist ja importimist.',
   'help.guide.undo-change.tip.2':
-    'Klõpsa uuesti, et minna kaugemale tagasi: TREK hoiab sinu viimast 30 muudatust sellel reisil, uusimad eespool, kuni reisilt lahkud.',
+    'Klõpsa uuesti, et minna kaugemale tagasi: Manzil hoiab sinu viimast 30 muudatust sellel reisil, uusimad eespool, kuni reisilt lahkud.',
   'help.guide.clear-day.title': 'Tühjenda päev',
   'help.guide.clear-day.goal': 'Eemalda päevast korraga kõik kohad, näiteks et päev otsast peale uuesti planeerida.',
   'help.guide.clear-day.step.1': 'Paremklõpsa plaanis päeva päisel.',
@@ -2021,13 +2021,13 @@ const help: TranslationStrings = {
   'help.guide.create-place.step.4':
     'Kontrolli vormi välju. Ainus kohustuslik väli on nimi dialoogi ülaosas. Selle all oleva kategooriasildiga valid ühe reisi kategooriatest ja kõrval oleva +-iga lood uue. „Aadress“, „Laiuskraad“ ja „Pikkuskraad“ tulevad otsingust või sisestad need ise. „Kirjeldus“ ja „Märkmed“ on sinu enda teksti jaoks. „Veebisait“ on lingi jaoks, jaotise „Failid“ all olev „Lisa“ lisab dokumendi ning „Telefon“, „E-post“ ja „Lisa lahtiolekuajad“ on andmete jaoks, mida otsing ei leidnud.',
   'help.guide.create-place.step.5':
-    'Klõpsa „Lisa“. Kui reisil on juba sama nime või asukohaga koht, näitab TREK hoiatust ja nupul on nüüd kirjas „Lisa siiski“.',
+    'Klõpsa „Lisa“. Kui reisil on juba sama nime või asukohaga koht, näitab Manzil hoiatust ja nupul on nüüd kirjas „Lisa siiski“.',
   'help.guide.create-place.result':
     'Koht on loendis ja kaardil jaotises „Planeerimata“, kuni see mõnele päevale pannakse.',
   'help.guide.create-place.tip.1':
     'Kui lisamoodul „Eelarve“ on sees, avab vormi allosas olev „Kulud“ kohe pärast salvestamist kulude redaktori koha kulu jaoks. Dialoogi kleebitud pilt või PDF lisatakse failina jaotisse „Failid“.',
   'help.guide.create-place.tip.2':
-    "Igas TREKis annavad otsingutulemused TREKi indeks ja OpenStreetMap ning „Koha üksikasjad“ täidetakse automaatselt Wikipediast, Wikivoyage'ist ja Wikimediast. Google'i poole pöördub TREK ainult siis, kui mõlemad ei leia midagi, ja hinnanguid annab ainult Google.",
+    "Igas TREKis annavad otsingutulemused TREKi indeks ja OpenStreetMap ning „Koha üksikasjad“ täidetakse automaatselt Wikipediast, Wikivoyage'ist ja Wikimediast. Google'i poole pöördub Manzil ainult siis, kui mõlemad ei leia midagi, ja hinnanguid annab ainult Google.",
   'help.guide.create-place.tip.3':
     'Koha saad luua ka kaardil: paremklõpsa sobival kohal ja avaneb vorm, kus koordinaadid ja aadress on juba täidetud.',
   // place-to-open-day
@@ -2121,7 +2121,7 @@ const help: TranslationStrings = {
   'help.guide.import-places-file.result':
     'Kohad on loendis. Rajal on real värviline joon, see on kaardil näha ja sellel on oma filter „Rajad“.',
   'help.guide.import-places-file.tip.1':
-    'Liiga suur fail lükatakse tagasi ja TREK näitab suuruspiirangut. Ekspordi fail uuesti ilma fotodeta või jaga see osadeks.',
+    'Liiga suur fail lükatakse tagasi ja Manzil näitab suuruspiirangut. Ekspordi fail uuesti ilma fotodeta või jaga see osadeks.',
   'help.guide.import-places-file.tip.2': 'Kogu importimise saad tagasi võtta päevade kohal olevalt tööriistaribalt.',
   // import-places-list
   'help.guide.import-places-list.title': 'Impordi jagatud Google Mapsi või Naver Mapsi nimekiri',
@@ -2228,7 +2228,7 @@ const help: TranslationStrings = {
   'help.guide.reorder-stops.step.3':
     'Lohista peatus teise päeva kaardile, et see sinna viia; vanalt päevalt see eemaldatakse.',
   'help.guide.reorder-stops.step.4':
-    'Kui peatusel on kindel kellaaeg ja teisaldamine rikuks päeva järjekorra, küsib TREK „Kas eemaldada kellaaeg?“, sest kellaaeg määrab peatuse asukoha. „Kinnita“ eemaldab kellaaja, nii et peatuse saab panna kuhu tahes. „Tühista“ jätab päeva endiseks.',
+    'Kui peatusel on kindel kellaaeg ja teisaldamine rikuks päeva järjekorra, küsib Manzil „Kas eemaldada kellaaeg?“, sest kellaaeg määrab peatuse asukoha. „Kinnita“ eemaldab kellaaja, nii et peatuse saab panna kuhu tahes. „Tühista“ jätab päeva endiseks.',
   'help.guide.reorder-stops.result': 'Marsruut ja sõiduajad uuenevad kohe uue järjekorra järgi.',
   'help.guide.reorder-stops.tip.1':
     'Kindla kellaajaga broneering jääb oma kellaajale vastavasse kohta. Kui lohistad selle oma päeva sees mujale, liigub see tagasi. Kui lohistad selle teisele päevakaardile, liigub see sellele päevale.',
@@ -2248,7 +2248,7 @@ const help: TranslationStrings = {
   'help.guide.set-stop-times.tip.1':
     'Kellaaeg kuulub selle päeva peatusele. Samal kohal võib teisel päeval olla teine kellaaeg.',
   'help.guide.set-stop-times.tip.2':
-    'Kellaajaga peatuse käsitsi liigutamiseks lohista seda. TREK küsib „Kas eemaldada kellaaeg?“ ja kui klõpsad „Kinnita“, kellaaeg eemaldatakse.',
+    'Kellaajaga peatuse käsitsi liigutamiseks lohista seda. Manzil küsib „Kas eemaldada kellaaeg?“ ja kui klõpsad „Kinnita“, kellaaeg eemaldatakse.',
   'help.guide.set-stop-times.tip.3':
     'Sama vormi väli „Selle päeva märkmed“ on info jaoks, mis kehtib ainult sellel päeval, näiteks laua broneering või piletinumber.',
   // remove-from-day
@@ -2425,7 +2425,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.goal': 'Asenda automaatne pisipilt oma fotoga.',
   'help.guide.place-image.step.1': 'Ava koht kohtade veerust.',
   'help.guide.place-image.step.2':
-    'Vii kursor päises ümmargusele pildile: ilmub kaamera ja vihjes on „Laadi pilt üles“. Klõpsa sellel ja vali fail. Kui koha failide hulgas on juba fotosid, palub TREK kõigepealt valida: „Laadi seadmest üles“ või mõni pilt jaotisest „Manustatud failidest“.',
+    'Vii kursor päises ümmargusele pildile: ilmub kaamera ja vihjes on „Laadi pilt üles“. Klõpsa sellel ja vali fail. Kui koha failide hulgas on juba fotosid, palub Manzil kõigepealt valida: „Laadi seadmest üles“ või mõni pilt jaotisest „Manustatud failidest“.',
   'help.guide.place-image.step.3': 'Kaardi ülaosas on nüüd sinu pilt, mille nurgas on väike punane X.',
   'help.guide.place-image.step.4': 'Sama pilt on näha ka koha real kohtade veerus ja koha markeril kaardil.',
   'help.guide.place-image.result':
@@ -2434,7 +2434,7 @@ const help: TranslationStrings = {
   'help.guide.place-image.tip.2':
     'Nurgas olev X eemaldab sinu pildi ja jälle on näha automaatne pilt. Koht ise ei muutu.',
   'help.guide.place-image.tip.3':
-    'Kui sa pole pilti lisanud, otsib TREK selle koha koordinaatide järgi. Kui midagi ei leita, näidatakse kategooria ikooni. Pilti saavad määrata ainult reisijad, kes tohivad kohti muuta.',
+    'Kui sa pole pilti lisanud, otsib Manzil selle koha koordinaatide järgi. Kui midagi ei leita, näidatakse kategooria ikooni. Pilti saavad määrata ainult reisijad, kes tohivad kohti muuta.',
   // place-day-assign
   'help.guide.place-day-assign.title': 'Lisa koht avatud päevale või eemalda see',
   'help.guide.place-day-assign.goal': 'Kasuta kaardil olevat nuppu, selle asemel et rida üle planeerija lohistada.',
@@ -2515,11 +2515,11 @@ const help: TranslationStrings = {
   'help.guide.place-navigation.step.2':
     'Loendis on sellele kohale sobivad kaardirakendused: Google Maps, Waze, Apple Maps, OpenStreetMap ja CoMaps ning Androidis lisaks „Muu kaardirakendus“.',
   'help.guide.place-navigation.step.3':
-    'Klõpsa sellel, mida kasutad. Võimaluse korral saadab TREK rakendusse koha enda, mitte ainult selle koordinaadid, nii et jõuad õige sissepääsu juurde.',
+    'Klõpsa sellel, mida kasutad. Võimaluse korral saadab Manzil rakendusse koha enda, mitte ainult selle koordinaadid, nii et jõuad õige sissepääsu juurde.',
   'help.guide.place-navigation.step.4':
     'Selle kõrval olev „Ava veebisait“ avab uuel vahekaardil koha enda veebisaidi koos lahtiolekuaegade ja piletitega.',
   'help.guide.place-navigation.result':
-    'Kaardirakendus avab koha, veebisait avaneb uuel vahekaardil ja reisis ei muutu midagi. Kui TREK on paigaldatud rakendusena, avaneb uue vahekaardi asemel kaardirakendus.',
+    'Kaardirakendus avab koha, veebisait avaneb uuel vahekaardil ja reisis ei muutu midagi. Kui Manzil on paigaldatud rakendusena, avaneb uue vahekaardi asemel kaardirakendus.',
   'help.guide.place-navigation.tip.1':
     'Waze alustab navigeerimist kohe. Teised rakendused avavad koha ja navigeerimise alustamiseks tuleb veel korra puudutada.',
   'help.guide.place-navigation.tip.2':
@@ -2744,7 +2744,7 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.1':
     'Kaardi ülaosas olev ikoonirida on kategooriaotsing: „Restoranid“, „Kohvikud“, „Baarid ja ööelu“, „Majutus“, „Vaatamisväärsused“, „Muuseumid ja kultuur“, „Loodus ja pargid“ ning „Tegevused“. Pluginate lisatud kategooriad on õhukese eraldaja järel; nime nägemiseks vii kursor ikoonile.',
   'help.guide.map-nearby-places.step.2':
-    'Klõpsa kategoorial. TREK otsib kaardi nähtavast osast seda tüüpi kohti ja paneb iga tulemuse kohta kategooria värvi nööpnõela. Korraga saab olla ainult üks kategooria: teisel klõpsamine asendab selle ja aktiivsel klõpsamine lülitab selle välja.',
+    'Klõpsa kategoorial. Manzil otsib kaardi nähtavast osast seda tüüpi kohti ja paneb iga tulemuse kohta kategooria värvi nööpnõela. Korraga saab olla ainult üks kategooria: teisel klõpsamine asendab selle ja aktiivsel klõpsamine lülitab selle välja.',
   'help.guide.map-nearby-places.step.3':
     'Kaarti liigutades ilmub rea alla teine nupp: „Otsi sellest piirkonnast“ teeb sama otsingu uues vaates. Kaardi liigutamine ise uut otsingut ei alusta, nii jääb päringuid vähe.',
   'help.guide.map-nearby-places.step.4':
@@ -2752,13 +2752,13 @@ const help: TranslationStrings = {
   'help.guide.map-nearby-places.step.5':
     'Kontrolli täidetud andmeid ja lisa see, mida otsing ei saanud teada. Nime all olev kategooriasilt on juba määratud, kui reisil on sobiv kategooria, näiteks restoran restorani jaoks; muidu on sellel kirjas „Kategooriata“, kuni valid kategooria. Lisa oma „Kirjeldus“ ja märkmed.',
   'help.guide.map-nearby-places.step.6':
-    'Klõpsa „Lisa“. Kui sama nimega või samas kohas asuv koht on reisis juba olemas, annab TREK sellest teada ja nupu tekst muutub: „Lisa siiski“.',
+    'Klõpsa „Lisa“. Kui sama nimega või samas kohas asuv koht on reisis juba olemas, annab Manzil sellest teada ja nupu tekst muutub: „Lisa siiski“.',
   'help.guide.map-nearby-places.result':
     'Koht on kohtade loendis ja kaardil ühena reisi enda nööpnõeltest, jaotises „Planeerimata“, kuni paned selle mõnele päevale. Otsingu nööpnõelad jäävad alles, kuni lülitad kategooria välja.',
   'help.guide.map-nearby-places.tip.1':
     'Rida on peidetud, kui jaotises „Seaded“ > „Üldine“ alajaotises „Reisimine ja kaart“ on „Avasta kaardil kohti“ välja lülitatud.',
   'help.guide.map-nearby-places.tip.2':
-    'Tulemused tulevad TREK Placesi indeksist ja OpenStreetMapist, seega on see üks väheseid asju plaanis, mis vajab ühendust.',
+    'Tulemused tulevad Manzil Placesi indeksist ja OpenStreetMapist, seega on see üks väheseid asju plaanis, mis vajab ühendust.',
   'help.guide.map-nearby-places.tip.3':
     'Otsing hõlmab ainult ekraanil olevat ala, nii et suumi sisse tänavani, mis sind huvitab. Kogu linna otsing annab ainult esimesed kuuskümmend tulemust, ilma kindla järjekorrata.',
   // map-add-place
@@ -2767,7 +2767,7 @@ const help: TranslationStrings = {
   'help.guide.map-add-place.step.1':
     'Tee kaardil soovitud kohas paremklõps. Avaneb kohavorm pealkirjaga „Lisa koht või tegevus“.',
   'help.guide.map-add-place.step.2':
-    '„Laiuskraad“ ja „Pikkuskraad“ on juba selle punkti järgi määratud. TREK otsib koordinaatide järgi ja täidab välja „Aadress“ sellega, mis sealt leitakse. Kui otsing leiab ka nime, täidab TREK akna ülaosas ka nime. Midagi pole veel salvestatud, nii et paranda, mis on valesti.',
+    '„Laiuskraad“ ja „Pikkuskraad“ on juba selle punkti järgi määratud. Manzil otsib koordinaatide järgi ja täidab välja „Aadress“ sellega, mis sealt leitakse. Kui otsing leiab ka nime, täidab Manzil akna ülaosas ka nime. Midagi pole veel salvestatud, nii et paranda, mis on valesti.',
   'help.guide.map-add-place.step.3':
     'Kirjuta dialoogi ülaosas olevale väljale nimi, mille ära tunned. Vali selle all olevalt sildilt kategooria; kuni valid, on seal kirjas „Kategooriata“. Seejärel lisa muud plaani jaoks vajalikud andmed: „Kirjeldus“, „Märkmed“, „Veebisait“.',
   'help.guide.map-add-place.step.4':
@@ -2784,7 +2784,7 @@ const help: TranslationStrings = {
   'help.guide.map-satellite.step.1':
     'Aluskihi lüliti on kaardi all vasakul olevast kahest ümmargusest nupust alumine, luku all. Selle ikoon näitab alati kihti, millele see lülitab, ja vihje ütleb, millele: „Lülitu satelliidivaatele“. Klõpsa sellel.',
   'help.guide.map-satellite.step.2':
-    'Kaardil on nüüd aerofotod. Need on nii detailsed, et näha on üksikuid hooneid, ja oma võtit pole vaja. Kõik, mida TREK joonistab, jääb peale: nööpnõelad, päeva marsruut, rajad ja broneeringute marsruudid.',
+    'Kaardil on nüüd aerofotod. Need on nii detailsed, et näha on üksikuid hooneid, ja oma võtit pole vaja. Kõik, mida Manzil joonistab, jääb peale: nööpnõelad, päeva marsruut, rajad ja broneeringute marsruudid.',
   'help.guide.map-satellite.step.3':
     'Nupul on nüüd kirjas „Lülitu kaardivaatele“. Klõpsa sellel, et kaardivaatesse tagasi minna.',
   'help.guide.map-satellite.result': 'Kaart joonistatakse uuesti ja valitud kiht jäetakse sinu kontole meelde.',
@@ -2839,7 +2839,7 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.goal':
     'Näita kaardil teekonda, mille Dawarich sinu telefonis salvestas, katkendjoonena planeeritud marsruudi kõrval, ja vaata päev päeva haaval, kuidas reis tegelikult kulges.',
   'help.guide.map-dawarich-trail.step.1':
-    'Ümmargune Dawarichi nupp on kaardi paremas alanurgas nupu „Näita kogu reisi“ all. Kui viid kursori sellele, on kirjas „Näita salvestatud teekonda“. Klõpsa sellel. TREK küsib sinu Dawarichilt reisi kuupäevade andmeid ja vastust oodates keerleb nupu ümber rõngas.',
+    'Ümmargune Dawarichi nupp on kaardi paremas alanurgas nupu „Näita kogu reisi“ all. Kui viid kursori sellele, on kirjas „Näita salvestatud teekonda“. Klõpsa sellel. Manzil küsib sinu Dawarichilt reisi kuupäevade andmeid ja vastust oodates keerleb nupu ümber rõngas.',
   'help.guide.map-dawarich-trail.step.2':
     'Salvestatud teekond ilmub katkendjoonena, iga päev ise värvi, ja see joonistatakse planeeritud marsruudi alla, et plaan jääks loetavaks. Nupul on nüüd kirjas „Peida salvestatud teekond“. Iga päev lõpeb kohaliku aja järgi keskööl. Kui ahendad päeva päevade veerus, peidetakse kaardil selle katkendjoon ja peatused.',
   'help.guide.map-dawarich-trail.step.3':
@@ -2847,9 +2847,9 @@ const help: TranslationStrings = {
   'help.guide.map-dawarich-trail.result':
     'Kaardil on koos näha, mida planeerisid ja mida tegelikult tegid, katkend- ja pidevjoonena. Nuppude kohal olev infokaart loetleb endiselt planeeritud päevad ja nende vahemaad.',
   'help.guide.map-dawarich-trail.tip.1':
-    'Sisse- või väljalülitus salvestatakse iga reisi kohta sinu kontole, nii et see on igas brauseris ja seadmes sama. Kui teekond on sisse lülitatud, küsib TREK Dawarichilt iga kahe minuti järel uuesti, nii et käimasolev reis uueneb lehte uuesti laadimata. Teekonda ennast ei salvestata kunagi, seega pole seda TREKi andmebaasis ega varukoopiates ja see pole võrguta saadaval.',
+    'Sisse- või väljalülitus salvestatakse iga reisi kohta sinu kontole, nii et see on igas brauseris ja seadmes sama. Kui teekond on sisse lülitatud, küsib Manzil Dawarichilt iga kahe minuti järel uuesti, nii et käimasolev reis uueneb lehte uuesti laadimata. Teekonda ennast ei salvestata kunagi, seega pole seda TREKi andmebaasis ega varukoopiates ja see pole võrguta saadaval.',
   'help.guide.map-dawarich-trail.tip.2':
-    'Nupu silt ütleb, miks kaart on tühi: laadimise ajal „Salvestatud teekonna laadimine…“, siis „Nendel kuupäevadel pole midagi salvestatud“, „Salvestatud teekonda ei saanud laadida“ või, kui TREK on võrguühenduseta, „Salvestatud teekonna laadimine vajab ühendust“.',
+    'Nupu silt ütleb, miks kaart on tühi: laadimise ajal „Salvestatud teekonna laadimine…“, siis „Nendel kuupäevadel pole midagi salvestatud“, „Salvestatud teekonda ei saanud laadida“ või, kui Manzil on võrguühenduseta, „Salvestatud teekonna laadimine vajab ühendust“.',
   // map-compass
   'help.guide.map-compass.title': 'Pööra kaarti ja leia jälle põhjasuund',
   'help.guide.map-compass.goal': 'Pööra kaart liikumissuunda ja too see ühe klõpsuga tagasi põhja suunda.',
@@ -2866,7 +2866,7 @@ const help: TranslationStrings = {
   // ── Screen: trip-transports ───────────────────────────────────────────────────────────
   'help.ctx.trip-transports.title': 'Transport',
   'help.ctx.trip-transports.summary':
-    'Kõik viisid, kuidas peatuste vahel liigud: lennud, rongid, bussid, autod, taksod, jalgrattad, kruiisid, praamid, köisraudteed ja ühistranspordi ühendused, mille TREK sinu eest otsib. Vahelehel on need loetletud. Neid saab luua ja vaadata ka plaanis ning need on kaardil näha.',
+    'Kõik viisid, kuidas peatuste vahel liigud: lennud, rongid, bussid, autod, taksod, jalgrattad, kruiisid, praamid, köisraudteed ja ühistranspordi ühendused, mille Manzil sinu eest otsib. Vahelehel on need loetletud. Neid saab luua ja vaadata ka plaanis ning need on kaardil näha.',
   'help.ctx.trip-transports.bullet.1':
     'Vahelehel on ainult sõidud. Majutus, restoranid, üritused ja piletid on vahelehel „Broneeringud“, nii et sama kirje ei ole kunagi kahes kohas.',
   'help.ctx.trip-transports.bullet.2':
@@ -2946,7 +2946,7 @@ const help: TranslationStrings = {
   'help.guide.plan-transit.step.1':
     'Klõpsa päeva päises +-märgil ja vali „Ühistransport“. Otsing avaneb selle päeva jaoks: päev on päises näha ümara märgisena ja selle kõrval olevad „Käsitsi“ ja „Automaatne“ lülitavad selle otsingu ja tavalise vormi vahel.',
   'help.guide.plan-transit.step.2':
-    '„Lähtekoht“ ja „Sihtkoht“ võtavad vastu peatuse või jaama. Kui väli on veel tühi, pakub TREK päeva majutust, päeva broneeringute jaamu ja lennujaamu ning päeva enda peatusi. Kui kirjutad kaks tähte, otsitakse hoopis sõiduplaani jaamu. Väljade vahel olev „Vaheta“ vahetab lähte- ja sihtkoha.',
+    '„Lähtekoht“ ja „Sihtkoht“ võtavad vastu peatuse või jaama. Kui väli on veel tühi, pakub Manzil päeva majutust, päeva broneeringute jaamu ja lennujaamu ning päeva enda peatusi. Kui kirjutad kaks tähte, otsitakse hoopis sõiduplaani jaamu. Väljade vahel olev „Vaheta“ vahetab lähte- ja sihtkoha.',
   'help.guide.plan-transit.step.3':
     '„Väljumine“ või „Saabumine“ koos kellaajaga ütleb, millal tahad sõita, ning „Parim marsruut“, „Vähem ümberistumisi“ või „Vähem kõndimist“ määrab, kuidas tulemused järjestatakse.',
   'help.guide.plan-transit.step.4':
@@ -3058,7 +3058,7 @@ const help: TranslationStrings = {
   'help.guide.airtrail-import.tip.1':
     'Lend, mis on reisil juba sama numbri ja kuupäevaga, jäetakse vahele ja teade ütleb, mitu jäeti vahele. Päevade kohal tööriistaribal olev tagasivõtmise nool tühistab kogu impordi.',
   'help.guide.airtrail-import.tip.2':
-    'Andmete peamiseks allikaks jääb AirTrail. TREK loeb selle muudatusi reisi avamisel ja taustal iga paari minuti järel. AirTrailis kustutatud lennu kaart jääb TREKi alles ja selle sildiks saab „Sünkroonimata“. TREKis tehtud muudatused saadetakse AirTraili tagasi ainult siis, kui jaotises „Integratsioonid“ on sisse lülitatud „Kirjuta muudatused AirTraili tagasi“.',
+    'Andmete peamiseks allikaks jääb AirTrail. Manzil loeb selle muudatusi reisi avamisel ja taustal iga paari minuti järel. AirTrailis kustutatud lennu kaart jääb TREKi alles ja selle sildiks saab „Sünkroonimata“. TREKis tehtud muudatused saadetakse AirTraili tagasi ainult siis, kui jaotises „Integratsioonid“ on sisse lülitatud „Kirjuta muudatused AirTraili tagasi“.',
   'help.guide.airtrail-import.tip.3':
     'Ühendatud ühenduslend ei ole üks AirTraili lend, mida saaks sünkroonida, seega imporditakse see ühekordselt: sinine kiip jääb alles ja kui viid kursori kiibi kohale, öeldakse seda ka seal. Sama juhtub sünkroonitud lennuga, kui lisad sellele käsitsi peatuse.',
   // ── Screen: trip-bookings ─────────────────────────────────────────────────────────────
@@ -3068,7 +3068,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-bookings.bullet.1':
     'Riba paremas otsas olev „Käsitsi broneering“ avab akna „Uus broneering“. Sellega saab luua kuut tüüpi broneeringuid: „Majutus“, „Restoran“, „Üritus“, „Ekskursioon“, „Parkimine“ ja „Muu“. Lennud, rongid ja muu transport on vahekaardil „Transport“ ega ilmu kunagi siia.',
   'help.ctx.trip-bookings.bullet.2':
-    'Nupu „Käsitsi broneering“ ees olev allalaadimisikoon „Impordi broneeringukinnitused“ laadib kinnitused üles, et TREK saaks need automaatselt läbi lugeda: EML, PDF, PKPass, HTML või TXT, kuni viis faili, igaüks kuni 10 MB, ning fotod, kui tehisintellekti mudel oskab pilte lugeda. Ikoon on olemas ainult siis, kui server oskab neid lugeda.',
+    'Nupu „Käsitsi broneering“ ees olev allalaadimisikoon „Impordi broneeringukinnitused“ laadib kinnitused üles, et Manzil saaks need automaatselt läbi lugeda: EML, PDF, PKPass, HTML või TXT, kuni viis faili, igaüks kuni 10 MB, ning fotod, kui tehisintellekti mudel oskab pilte lugeda. Ikoon on olemas ainult siis, kui server oskab neid lugeda.',
   'help.ctx.trip-bookings.bullet.3':
     'Otsing otsib pealkirjadest, tüüpidest, kohtadest, märkmetest, broneerimiskoodidest ja reisijatest. Selle kõrval olev lehter „Filtreeri“ kitsendab vahekaarti „Oleku“ ja „Tüübi“ järgi (iga tüübi juures on arv) ning, kui mõnes broneeringus on inimesed nimetatud, ka „Reisijate“ järgi. Lehtril olev arv näitab, mitu filtrit on sisse lülitatud.',
   'help.ctx.trip-bookings.bullet.4':
@@ -3132,7 +3132,7 @@ const help: TranslationStrings = {
   'help.guide.booking-hotel.step.2':
     'Vali hotell jaotises „Majutus“. Loendis on reisi kohad, ilma imporditud radade ja retkedeta. Kui valid koha, läheb selle nimi tühja pealkirja ja aadress väljale „Asukoht / aadress“.',
   'help.guide.booking-hotel.step.3':
-    'Määra „Alates“ ja „Kuni“: esimene öö ja hommik, mil lahkud. Mõlemas saab valida reisi päevi koos kuupäevadega ja TREK hoolitseb, et „Kuni“ oleks pärast „Alates“.',
+    'Määra „Alates“ ja „Kuni“: esimene öö ja hommik, mil lahkud. Mõlemas saab valida reisi päevi koos kuupäevadega ja Manzil hoolitseb, et „Kuni“ oleks pärast „Alates“.',
   'help.guide.booking-hotel.step.4':
     'Täida väljad „Sisseregistreerimine“, „Sisseregistreerimine kuni“ ja „Väljaregistreerimine“ ning kinnituselt „Broneerimiskood“.',
   'help.guide.booking-hotel.step.5': 'Klõpsa „Lisa“.',
@@ -3181,7 +3181,7 @@ const help: TranslationStrings = {
   'help.guide.booking-files.title': 'Hoia vautšer broneeringu juures',
   'help.guide.booking-files.goal': 'Lisa kinnitus, pilet või pääsmik broneeringule, millega see on seotud.',
   'help.guide.booking-files.step.1':
-    'Ava broneering selle kaardil oleva pliiatsiga. „Failid“ on „Lingi“ kõrval, klõpsa seal „Lisa fail“. Olemasoleva broneeringu puhul laaditakse dokument kohe üles ja TREK näitab teadet „Fail üles laaditud“.',
+    'Ava broneering selle kaardil oleva pliiatsiga. „Failid“ on „Lingi“ kõrval, klõpsa seal „Lisa fail“. Olemasoleva broneeringu puhul laaditakse dokument kohe üles ja Manzil näitab teadet „Fail üles laaditud“.',
   'help.guide.booking-files.step.2': 'Dokument on loendis oma nimega, selle juures on avamisnupp ja kõrval X.',
   'help.guide.booking-files.step.3':
     '„Seo olemasolev fail“ pakub reisi dokumente, mis pole veel selle broneeringu juures. Vali üks ja see lisatakse ilma uuesti üles laadimata.',
@@ -3326,7 +3326,7 @@ const help: TranslationStrings = {
   'help.guide.packing-categories.tip.2':
     'Kui määrad kellegi nimekirjale, saab ta pakkimisteavituse. See ei muuda, kes esemeid näeb. Seda määrab rea kolme punkti menüüs valik „Jagamine“.',
   'help.guide.packing-categories.tip.3':
-    'Kahel nimekirjal võib olla sama nimi. TREK hoiab neid sisemiselt lahus, nii et nimed jäävad täpselt selliseks, nagu need kirjutasid.',
+    'Kahel nimekirjal võib olla sama nimi. Manzil hoiab neid sisemiselt lahus, nii et nimed jäävad täpselt selliseks, nagu need kirjutasid.',
   // check-off-packing
   'help.guide.check-off-packing.title': 'Asjade ärämärkimine pakkimise ajal',
   'help.guide.check-off-packing.goal': 'Märgi, mis on kotis, jälgi edenemisriba ja eemalda pakitud esemed.',
@@ -3374,13 +3374,13 @@ const help: TranslationStrings = {
   'help.guide.import-packing-list.step.3':
     'Või laadi read failist akna vasakus allnurgas oleva nupuga „Laadi CSV/TXT/MD“. See võtab vastu .csv-, .txt- või .md-faili ja asendab kogu kasti sisu.',
   'help.guide.import-packing-list.step.4':
-    'Klõpsa paremas allnurgas „Impordi 3“. Nupul olev number näitab, mitu rida TREK ära tundis.',
+    'Klõpsa paremas allnurgas „Impordi 3“. Nupul olev number näitab, mitu rida Manzil ära tundis.',
   'help.guide.import-packing-list.result':
     'Igast reast saab kirje nimekirjas, mille nimi on rea esimesel väljal. Olemasolevad esemed ei muutu.',
   'help.guide.import-packing-list.tip.1':
     'Välju eraldavad nii komad, semikoolonid kui ka tabulaatorid ning jutumärgid hoiavad välja koos, nii et "Särk, sinine" jääb üheks nimeks. Ühe väärtusega rida on lihtsalt nimi. Rida, millel pole oma nimekirja, läheb nimekirja „Muu“. "3x" nime ees määrab koguse.',
   'help.guide.import-packing-list.tip.2':
-    'Kui reisil pole veel neljandal väljal nimetatud kotti, loob TREK selle. Import ja „Rakenda mall“ on kaks viisi, kuidas lisada kaalud ja kotid korraga paljudele esemetele.',
+    'Kui reisil pole veel neljandal väljal nimetatud kotti, loob Manzil selle. Import ja „Rakenda mall“ on kaks viisi, kuidas lisada kaalud ja kotid korraga paljudele esemetele.',
   // export-packing-list
   'help.guide.export-packing-list.title': 'Prindi või ekspordi pakkimisnimekiri',
   'help.guide.export-packing-list.goal':
@@ -3564,7 +3564,7 @@ const help: TranslationStrings = {
     'Kohandatud jaotuse saab sisestada ka protsentides: lülita „Sisesta osad kui“ väärtusele %, ja enne kulu salvestamist peavad osad kokku andma 100 %.',
   // expense-currency
   'help.guide.expense-currency.title': 'Sisesta kulu teises valuutas',
-  'help.guide.expense-currency.goal': 'Sisesta kviitungil olev summa ja TREK salvestab vahetuskursi.',
+  'help.guide.expense-currency.goal': 'Sisesta kviitungil olev summa ja Manzil salvestab vahetuskursi.',
   'help.guide.expense-currency.step.1':
     'Ava „Lisa kulu“. Kirjuta nimi akna ülaossa ja sisesta väljale „Kogusumma“ summa täpselt nii, nagu see on tšekil, mitte ümberarvestatud summat.',
   'help.guide.expense-currency.step.2':
@@ -3696,7 +3696,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-files.bullet.3':
     'Real on pisipilt või failitüüp, üleslaadija, nimi, selle all märkus, suurus ja kuupäev ning iga seose kohta üks märk: koht, broneering või transport oma nimega (kursorit peale viies näed „Päevaplaan“, „Broneering“ või „Transport“) ja „Ühismärkmetest“.',
   'help.ctx.trip-files.bullet.4':
-    'Rea lõpus on kuni viis ikooni, mille nimi on näha, kui viid kursori neile: „Lisa tärn“, „Määra“ (pliiats), „Ava“, „Laadi alla“ ja „Kustuta“. „Kustuta“ ei küsi kinnitust: fail läheb prügikasti, kust saad selle taastada. Võrguühenduseta töötavad märkus, link, tärn ja prügikast endiselt ning muudatused saadetakse, kui TREK on taas võrgus; ainult üleslaadimiseks ja mõne muu seose eemaldamiseks on vaja ühendust.',
+    'Rea lõpus on kuni viis ikooni, mille nimi on näha, kui viid kursori neile: „Lisa tärn“, „Määra“ (pliiats), „Ava“, „Laadi alla“ ja „Kustuta“. „Kustuta“ ei küsi kinnitust: fail läheb prügikasti, kust saad selle taastada. Võrguühenduseta töötavad märkus, link, tärn ja prügikast endiselt ning muudatused saadetakse, kui Manzil on taas võrgus; ainult üleslaadimiseks ja mõne muu seose eemaldamiseks on vaja ühendust.',
   'help.ctx.trip-files.bullet.5':
     'Pilt või video avaneb täisekraanil, kus saad liikuda nooleklahvidega ja all on pisipiltide rida. Kõik muud dokumendid avanevad aknas, mille ülaosas on nimi ja selle all „Ava uuel vahekaardil“ ja „Laadi alla“. Rahakoti pääse laaditakse kohe alla.',
   'help.ctx.trip-files.bullet.6':
@@ -3720,7 +3720,7 @@ const help: TranslationStrings = {
   'help.guide.files-upload.tip.2':
     'Vajuta Ctrl+V, et lisada lõikelaual olev pilt loendisse, nii et broneeringu ekraanipilti ei pea enne salvestama.',
   'help.guide.files-upload.tip.3':
-    'Üleslaadimiseks on vaja failide üleslaadimise õigust; ilma selleta kasti üldse pole. Loendist puuduva tüübi korral näidatakse teadet ja midagi ei laadita üles. Piirangust suurem fail (50 MB, kui administraator pole muud määranud) lükatakse tagasi enne, kui midagi saadetakse, ja teade nimetab piirangu. Üleslaadimiseks on vaja ka ühendust: võrguühenduseta annab TREK sellest teada ega laadi midagi üles.',
+    'Üleslaadimiseks on vaja failide üleslaadimise õigust; ilma selleta kasti üldse pole. Loendist puuduva tüübi korral näidatakse teadet ja midagi ei laadita üles. Piirangust suurem fail (50 MB, kui administraator pole muud määranud) lükatakse tagasi enne, kui midagi saadetakse, ja teade nimetab piirangu. Üleslaadimiseks on vaja ka ühendust: võrguühenduseta annab Manzil sellest teada ega laadi midagi üles.',
   // files-link
   'help.guide.files-link.title': 'Seo dokument koha või broneeringuga',
   'help.guide.files-link.goal':
@@ -3740,7 +3740,7 @@ const help: TranslationStrings = {
   'help.guide.files-link.tip.1':
     'Failil võib olla korraga mitu seost, nii et sama kinnitus võib samal ajal kuuluda nii hotelli broneeringu kui ka hotelli koha juurde.',
   'help.guide.files-link.tip.2':
-    'Kui klõpsad märgitud kirjel uuesti, eemaldatakse see seos; fail ise jääb alles. Võrguühenduseta salvestatakse märkus ja uued märked ning saadetakse, kui TREK on taas võrgus; ainult mõne muu seose eemaldamiseks on vaja ühendust.',
+    'Kui klõpsad märgitud kirjel uuesti, eemaldatakse see seos; fail ise jääb alles. Võrguühenduseta salvestatakse märkus ja uued märked ning saadetakse, kui Manzil on taas võrgus; ainult mõne muu seose eemaldamiseks on vaja ühendust.',
   'help.guide.files-link.tip.3':
     'See töötab ka vastupidi: kohale või broneeringule lisatud dokument on samuti selles loendis ja selle real on sama märk.',
   // files-star
@@ -3808,7 +3808,7 @@ const help: TranslationStrings = {
     '„Tühjenda prügikast“, mis on ribal prügikasti ikooni kõrval, kustutab jäädavalt kõik, mis prügikastis veel on. Brauser küsib enne seda ühe korra kinnitust. Prügikasti ikoon viib tagasi failide juurde.',
   'help.guide.files-trash.result': 'Fail on loendis tagasi samas kohas, kus see enne oli.',
   'help.guide.files-trash.tip.1':
-    'Real olev „Kustuta“ ei küsi kinnitust. Seepärast ongi prügikast: TREKist ei eemaldata midagi enne, kui kustutad selle siit. Kõik see töötab ka võrguühenduseta ja saadetakse, kui TREK on taas võrgus.',
+    'Real olev „Kustuta“ ei küsi kinnitust. Seepärast ongi prügikast: TREKist ei eemaldata midagi enne, kui kustutad selle siit. Kõik see töötab ka võrguühenduseta ja saadetakse, kui Manzil on taas võrgus.',
   'help.guide.files-trash.tip.2':
     'Faili kustutamiseks ja taastamiseks on vaja failide kustutamise õigust. Ilma selleta ei näe liige real nuppu „Kustuta“ ega prügikastis olevaid nuppe.',
   'help.guide.files-trash.tip.3': 'Prügikastist jäädavalt kustutatud faili ei saa tagasi tuua.',
@@ -3821,21 +3821,21 @@ const help: TranslationStrings = {
   'help.guide.files-sync.step.2':
     'Klõpsa oma hoidlal, siin Nextcloud. Avaneb väiksem ühenduse aken hoidla nimega, mis küsib selle hoidla sisselogimisandmeid.',
   'help.guide.files-sync.step.3':
-    "Täida „Aadress“ ja salvestusteenuse enda sisselogimisandmed: Paperless-ngx jaoks „API-pääse“, Papra jaoks „API-võti“ ja „Organisatsiooni ID“, Nextcloudi jaoks „Kasutajanimi“ ja „Rakenduse parool“, OpenCloudi jaoks „Kasutajanimi“ ja „Rakenduse pääse“ ning Synology Drive'i jaoks „Kasutajanimi“, „Parool“ ja, kui konto seda nõuab, „Kaheastmelise autentimise kood“. Kasuta alati rakenduse parooli või pääset, kui teenus seda pakub, mitte kunagi oma konto parooli. Nextcloud ja Synology Drive võtavad vastu ka valikulise „Baaskausta“, kust TREK reisikaustu otsib, siin /Reisen. All olev „Luba iseallkirjastatud sertifikaat“ on mõeldud ainult sinu enda võrgus olevale teenusele, millel on selline sertifikaat.",
+    "Täida „Aadress“ ja salvestusteenuse enda sisselogimisandmed: Paperless-ngx jaoks „API-pääse“, Papra jaoks „API-võti“ ja „Organisatsiooni ID“, Nextcloudi jaoks „Kasutajanimi“ ja „Rakenduse parool“, OpenCloudi jaoks „Kasutajanimi“ ja „Rakenduse pääse“ ning Synology Drive'i jaoks „Kasutajanimi“, „Parool“ ja, kui konto seda nõuab, „Kaheastmelise autentimise kood“. Kasuta alati rakenduse parooli või pääset, kui teenus seda pakub, mitte kunagi oma konto parooli. Nextcloud ja Synology Drive võtavad vastu ka valikulise „Baaskausta“, kust Manzil reisikaustu otsib, siin /Reisen. All olev „Luba iseallkirjastatud sertifikaat“ on mõeldud ainult sinu enda võrgus olevale teenusele, millel on selline sertifikaat.",
   'help.guide.files-sync.step.4':
-    'Klõpsa „Testi ühendust“. TREK ühendub sisestatud andmetega hoidlaga ja jaluses on kirjas „Ühendatud, sisse logitud kasutajana“ ning konto nimi. Kui kasutajaandmed lükatakse tagasi või aadressile ei pääse ligi, näitab jalus hoopis seda. Mõlemal juhul ei salvestata midagi.',
+    'Klõpsa „Testi ühendust“. Manzil ühendub sisestatud andmetega hoidlaga ja jaluses on kirjas „Ühendatud, sisse logitud kasutajana“ ning konto nimi. Kui kasutajaandmed lükatakse tagasi või aadressile ei pääse ligi, näitab jalus hoopis seda. Mõlemal juhul ei salvestata midagi.',
   'help.guide.files-sync.step.5':
-    'Klõpsa „Ühenda“. Ühendus salvestatakse reisi juurde ja TREK küsib, kus hoidlas peaksid reisi dokumendid olema: silt, kaust või ruum, kus need asuvad. Sünkroonitakse ainult seal olev sisu. „Loo uus“ loob selle, kui klõpsad „Loo“, ja nimeks võetakse reisi pealkiri. Jaotises „Või kasuta olemasolevat“ on olemasolevad. Klõpsa ühel, siin kaustal „Sügis Jaapanis“.',
+    'Klõpsa „Ühenda“. Ühendus salvestatakse reisi juurde ja Manzil küsib, kus hoidlas peaksid reisi dokumendid olema: silt, kaust või ruum, kus need asuvad. Sünkroonitakse ainult seal olev sisu. „Loo uus“ loob selle, kui klõpsad „Loo“, ja nimeks võetakse reisi pealkiri. Jaotises „Või kasuta olemasolevat“ on olemasolevad. Klõpsa ühel, siin kaustal „Sügis Jaapanis“.',
   'help.guide.files-sync.step.6':
     'Aken avaneb uuesti: sinu hoidla on vasakul jaotises „See reis“ ja paremal oleval kaardil on näha, kuhu see sünkroonib, millal see viimati käis, ja nupp „Sünkrooni kohe“. Esimene sünkroonimine algab automaatselt. Klõpsa „Sünkrooni kohe“, et sünkroonida igal ajal. Pärast sünkroonimist asendub nime kõrval olev märk „Veel sünkroonimata“ rohelise täpiga, millele kursorit viies on kirjas „Sünkroonis“. Vooriba näitab, mitu dokumenti on TREKis ja mitu hoidlas, nende vahel rajad „Salvestusteenusesse“ ja „Salvestusteenusest“. Sulge aken paremas ülanurgas oleva ×-ga.',
   'help.guide.files-sync.result':
-    'Hoidlas juba olnud dokumendid ilmuvad loendi algusse, üles laaditud sinu nimel, ja kõik reisi dokumendid on ka hoidlas, välja arvatud „Ühismärkmetest“ pärit dokumendid. Edaspidi kontrollib TREK hoidlat taustal ja loendi muudatused kopeeritakse hoidlasse.',
+    'Hoidlas juba olnud dokumendid ilmuvad loendi algusse, üles laaditud sinu nimel, ja kõik reisi dokumendid on ka hoidlas, välja arvatud „Ühismärkmetest“ pärit dokumendid. Edaspidi kontrollib Manzil hoidlat taustal ja loendi muudatused kopeeritakse hoidlasse.',
   'help.guide.files-sync.tip.1':
     'Reisi saab ühendada ainult reisi omanik või instantsi administraator, sest kasutajaandmed annavad ligipääsu kogu hoidla kontole. Kui reis on ühendatud, näeb iga liige nuppu „Dokumentide sünkroonimine“ ning saab selle avada, kaarti lugeda ja vajutada „Sünkrooni kohe“.',
   'help.guide.files-sync.tip.2':
     'Sinu oma võrgus olev hoidla vajab TREKi serveris seadet ALLOW_INTERNAL_NETWORK=true ja selle aadress peab olema masina aadress võrgus, mitte kunagi localhost. Muidu vastab „Testi ühendust“ teatega „See aadress pole lubatud.“',
   'help.guide.files-sync.tip.3':
-    'Nupu „Sünkrooni kohe“ kõrval olev ikoon „Katkesta ühendus“ küsib üks kord kinnitust. Seejärel lõpetab see ühenduse ja jätab kõik dokumendid mõlemale poole alles. Kui ühendad sama sildi, kausta või ruumi teist korda, käsitleb TREK seda uuena ja impordib kõik uuesti. Seega ühenda pärast ühenduse katkestamist tühi, mitte vana.',
+    'Nupu „Sünkrooni kohe“ kõrval olev ikoon „Katkesta ühendus“ küsib üks kord kinnitust. Seejärel lõpetab see ühenduse ja jätab kõik dokumendid mõlemale poole alles. Kui ühendad sama sildi, kausta või ruumi teist korda, käsitleb Manzil seda uuena ja impordib kõik uuesti. Seega ühenda pärast ühenduse katkestamist tühi, mitte vana.',
   // ── Screen: trip-collab ───────────────────────────────────────────────────────────────
   'help.ctx.trip-collab.title': 'Koostöö',
   'help.ctx.trip-collab.summary':
@@ -3992,7 +3992,7 @@ const help: TranslationStrings = {
   'help.guide.trip-chat.tip.2':
     '„Lisa pildid“ abil saad ühele sõnumile lisada kuni neli pilti. Neid saab ka kasti kleepida või sinna lohistada.',
   'help.guide.trip-chat.tip.3':
-    'Lingiga sõnumi alla ilmub eelvaatekaart, mille laadib sinu enda TREK, nii et link millelegi, kuhu ainult sina ligi pääsed, jääb tavaliseks lingiks.',
+    'Lingiga sõnumi alla ilmub eelvaatekaart, mille laadib sinu enda Manzil, nii et link millelegi, kuhu ainult sina ligi pääsed, jääb tavaliseks lingiks.',
   'help.guide.trip-chat.tip.4':
     'Vestlusel on jaotises „Lisamoodulid“ oma lüliti, „Koostöö“ all: administraator saab vestluse välja lülitada ja jätta märkmed, lingid, küsitlused ning „Järgmisena“ sisse.',
 
@@ -4112,7 +4112,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-alternatives.result':
     'Teelõik kasutab nüüd valitud teed ning muutuvad ka vahemaa külgveerus ja sellele järgnevad saabumisajad.',
   'help.guide.roadtrip-alternatives.tip.1':
-    'Kui valid teise tee, kontrollib TREK seda kõigepealt autoreisi marsruutijaga. Seejärel hoiab ta teelõiku sellel teel nii väheste vahepunktidega kui vaja ja asendab lõigu senised vahepunktid. Teed, mida marsruutija ei suuda järgida, ei salvestata. Kui valid marsruutija enda tee, eemaldatakse vahepunktid uuesti.',
+    'Kui valid teise tee, kontrollib Manzil seda kõigepealt autoreisi marsruutijaga. Seejärel hoiab ta teelõiku sellel teel nii väheste vahepunktidega kui vaja ja asendab lõigu senised vahepunktid. Teed, mida marsruutija ei suuda järgida, ei salvestata. Kui valid marsruutija enda tee, eemaldatakse vahepunktid uuesti.',
   'help.guide.roadtrip-alternatives.tip.2':
     '„Kiirteeta“, „Teemaksudeta“ ja „Praamita“ tulevad teiselt mootorilt, millel on oma kiirusmudel, seega ei saa nende aegu teistega võrrelda.',
   // roadtrip-limits
@@ -4184,7 +4184,7 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-track.step.2':
     'Vali rada. Iga raja juures on selle pikkus ja see, kas rada järgib selle päeva marsruuti või kui kaugel see on. Lähim rada on esimene.',
   'help.guide.roadtrip-track.step.3':
-    'Klõpsa „Järgi seda rada“. TREK lisab vahepunktid sinna, kus sõit on rajast kõige kaugemal, arvutab marsruudi uuesti ja kordab seda mitu korda.',
+    'Klõpsa „Järgi seda rada“. Manzil lisab vahepunktid sinna, kus sõit on rajast kõige kaugemal, arvutab marsruudi uuesti ja kordab seda mitu korda.',
   'help.guide.roadtrip-track.step.4':
     'Dialoog näitab, mitu vahepunkti lisati ja kui lähedal rajale sõit nüüd püsib, või et sõit järgis rada juba varem. All vasakul olev „Eemalda vahepunktid“ eemaldab need ja marsruudiplaneerija planeerib päeva uuesti. Dialoogi sulgemisel jääb rada alles.',
   'help.guide.roadtrip-track.result':
@@ -4253,11 +4253,11 @@ const help: TranslationStrings = {
   'help.guide.own-routing-engine.goal':
     'Arvuta päevade ja autoreiside marsruudid avalike serverite asemel oma OSRM- või Valhalla-serveriga.',
   'help.guide.admin-passkeys.tip.1':
-    'Kui TREK ei suuda veel domeeni tuvastada, annab hoiatus sellest teada ja pääsuvõtmed jäävad peidetuks, kuni määrad APP_URL-i või Relying Party ID.',
+    'Kui Manzil ei suuda veel domeeni tuvastada, annab hoiatus sellest teada ja pääsuvõtmed jäävad peidetuks, kuni määrad APP_URL-i või Relying Party ID.',
   'help.guide.rotate-jwt-secret.step.1':
     'Klõpsa vahelehe „Seaded“ allosas jaotises „Ohutsoon“ rea „Roteeri JWT saladus“ kõrval nuppu „Vaheta“.',
   'help.guide.storage-backends.tip.3':
-    'TREK saab fotode vahemälu uuesti alla laadida, nii et selle peegeldamine raiskab tavaliselt salvestusruumi.',
+    'Manzil saab fotode vahemälu uuesti alla laadida, nii et selle peegeldamine raiskab tavaliselt salvestusruumi.',
   'help.guide.admin-channels.step.3':
     'Allpool kaardil „Teavitused“ vali iga sündmuse jaoks kanalid, mis selle saadavad: „Uus versioon saadaval“, „Salvestuskoopia tõrge“ ja „Aerutamispiirkonda taotleti“. Iga lüliti salvestub kohe.',
   'help.guide.notification-defaults.tip.1':
@@ -4303,7 +4303,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.result':
     'Brauser laadib alla faili, mille nimi koosneb reisi ja vahelehe nimest, näiteks autumn-in-japan-bookings.csv, ja milles on rida iga vahelehel näidatud broneeringu kohta.',
   'help.guide.arrange-packing-list.result':
-    'Nimekirjad on selles järjekorras, kuhu need lohistasid, ja esemed on järjestatud A kuni Ü, kuni selle välja lülitad. TREK salvestab siiski ka sinu enda järjekorra.',
+    'Nimekirjad on selles järjekorras, kuhu need lohistasid, ja esemed on järjestatud A kuni Ü, kuni selle välja lülitad. Manzil salvestab siiski ka sinu enda järjekorra.',
   'help.guide.count-packed-pieces.step.2':
     'Koguse ette ilmub loendur 0/5 koos miinuse ja plussiga. Klõpsa plussil iga tüki eest, mis kotti läheb.',
   'help.guide.expense-receipts.step.4':
@@ -4322,7 +4322,7 @@ const help: TranslationStrings = {
     'Prügikast eemaldab ainult kategooria, mida ükski märge ei kasuta. Kasutusel olev kategooria jääb loendisse, kuni oled need märkmed teise kategooriasse teisaldanud.',
   'help.guide.roadtrip-reorder.title': 'Peatuse ümberjärjestamine või teisele päevale viimine',
   'help.guide.roadtrip-reorder.tip.3':
-    'Kinnitatud kellaaja kohta TREK ei küsi: riba arvutab päeva kohe ümber ja märgib iga peatuse, kuhu enam õigeks ajaks ei jõua.',
+    'Kinnitatud kellaaja kohta Manzil ei küsi: riba arvutab päeva kohe ümber ja märgib iga peatuse, kuhu enam õigeks ajaks ei jõua.',
   'help.guide.roadtrip-overnight.step.3':
     'Dialoogi ülaosas lisab „Ööbimine“ öö ja „Paus“ teeb sellest mõneks ajaks peatuse. Hotelli puhul avaneb „Ööbimine“, laagriplatsi puhul „Paus“. Ööbimise puhul küsitakse ainult „Sisseregistreerimine“ aega, mille võid ka tühjaks jätta.',
   'help.guide.roadtrip-stop-fill.step.1':
@@ -4366,7 +4366,7 @@ const help: TranslationStrings = {
   'help.guide.tour-activity-compare.step.4':
     'Raja all olev „Muuda“ valib teise salvestuse. „Eemalda seos“ eemaldab selle retkelt ja rada jääb reisi impordina alles.',
   'help.guide.tour-origin-check.step.3':
-    'Vahelehel „Retked“ joonistatud retke juures on kirjas „Planeeritud rakenduses TREK“ ja väljal „Loodud“ loomise päev.',
+    'Vahelehel „Retked“ joonistatud retke juures on kirjas „Planeeritud rakenduses Manzil“ ja väljal „Loodud“ loomise päev.',
   'help.ctx.trip-tour-planner.bullet.2':
     'Vasak riba on redaktor. Kui midagi pole avatud, pakub see „Planeeri uus retk“. Avatud retke puhul on näha selle nimi, tüüp, teekonnapunktid, tüübile omased kaardid ja üksikasjad ning all nupud „Loobu“ ja „Salvesta“.',
   'help.guide.tour-open-workspace.step.2':
@@ -4374,7 +4374,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.tip.3':
     'Kui avad teise retke ajal, mil redaktoris on salvestamata muudatusi, küsitakse enne: „Loobu muudatustest“ või jätka muutmist.',
   'help.guide.tour-draw-route.step.5':
-    'Klõpsa järgmistel kohtadel selles järjekorras, nagu neid läbid. Iga klõps lisab punkti uueks lõpuks ja alates kahest punktist planeerib TREK marsruudi mööda radu.',
+    'Klõpsa järgmistel kohtadel selles järjekorras, nagu neid läbid. Iga klõps lisab punkti uueks lõpuks ja alates kahest punktist planeerib Manzil marsruudi mööda radu.',
   'help.guide.tour-type-profile.goal':
     'Vali retke tüüp ja rattaretke puhul ka profiil, et marsruut kulgeks õigeid teid pidi.',
   'help.guide.tour-edit-points.title': 'Punktide liigutamine, ümberjärjestamine ja eemaldamine',
@@ -4494,11 +4494,11 @@ const help: TranslationStrings = {
     'Vaata oma suusaretke ümbruse nõlvu, suusaradu ja tõstukeid ning seda, mida nende värvid tähendavad.',
   'help.guide.tour-ski-import.title': 'Impordi suusarada ja ütle, mis see oli',
   'help.guide.tour-ski-import.tip.1':
-    'Imporditud rada jääb nii, nagu see salvestati: TREK ei sobita seda nõlvadega ja selle kaardil on „Suusaaeg“ väärtusega „Arvutamata“.',
+    'Imporditud rada jääb nii, nagu see salvestati: Manzil ei sobita seda nõlvadega ja selle kaardil on „Suusaaeg“ väärtusega „Arvutamata“.',
   'help.ctx.trip-tour-paddle.bullet.3':
     'Punkti menüüs „Rohkem toiminguid“ on aerutamise tööriistad: planeeri järgmine lõik vett mööda või joonista see käsitsi, „Siit alates kanna paati“ ja „Lüüs selles punktis“.',
   'help.guide.tour-paddle-setup.step.3':
-    'Vali jaotises „Paat“ „Süst“, „Kanuu“, „SUP“ või „Muu“. Paadi järgi pakub TREK välja kiiruse.',
+    'Vali jaotises „Paat“ „Süst“, „Kanuu“, „SUP“ või „Muu“. Paadi järgi pakub Manzil välja kiiruse.',
   'help.guide.tour-paddle-setup.tip.4':
     'Veeru allosas olev rida „Aerutamisel on riske“ avab lehe „Ohutus vee peal“. Loe see enne esimest retke korra läbi.',
   'help.guide.tour-paddle-water-route.step.5':
@@ -4521,7 +4521,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-track-marks.tip.2':
     '„Loobu“ eemaldab salvestamata märgid. Salvestatud rada ennast ei joonistata kunagi ümber.',
   'help.ctx.trip-tour-horse.bullet.4':
-    'TREK ei arvuta ratsutamisaega. Kui tahad, et aeg oleks päeval näha, sisesta see jaotises „Üksikasjad“ väljale „Plaanis“.',
+    'Manzil ei arvuta ratsutamisaega. Kui tahad, et aeg oleks päeval näha, sisesta see jaotises „Üksikasjad“ väljale „Plaanis“.',
   'help.guide.tour-horse-plan.step.5':
     'Vali jaotises „Jaotised“ lõik. Kontrolli, millises suunas („Suund“) seda ratsutad ja mida näitab selle ulatuses „Ligipääs hobusega“.',
   'help.guide.tour-horse-plan.tip.5':
@@ -4563,7 +4563,7 @@ const help: TranslationStrings = {
   'help.guide.journey-map-layers.tip.1':
     'Värviline katkendjoon on reisi GPX-marsruut, osa plaanist; pidev joon on sel päeval salvestatud marsruut.',
   'help.guide.journey-keep-route.tip.1':
-    'Kus salvestus lõpeb, lõpeb ka joon. TREK joonistab ainult seda, mis salvestati.',
+    'Kus salvestus lõpeb, lõpeb ka joon. Manzil joonistab ainult seda, mis salvestati.',
   'help.guide.journey-day-stays.tip.1':
     'Rida on näha ainult neile, kes tohivad päevikut muuta ja kellel on oma Dawarich ühendatud, ning ainult päevadel, kus on veel midagi otsustada.',
   'help.guide.journey-take-over-day.step.4':
@@ -4576,7 +4576,7 @@ const help: TranslationStrings = {
   'help.guide.dashboard-widgets.step.3':
     'Kaartide all olev „Taasta vaikeseaded“ lähtestab kogu vahelehe „Välimus“ algseadetele.',
   'help.guide.web-push-device.result':
-    'Kaardil on kirjas „Selles seadmes sisse lülitatud“ ja jaotises „Tõuketeavitus“ sisse lülitatud sündmused jõuavad sinuni ka siis, kui TREK on suletud.',
+    'Kaardil on kirjas „Selles seadmes sisse lülitatud“ ja jaotises „Tõuketeavitus“ sisse lülitatud sündmused jõuavad sinuni ka siis, kui Manzil on suletud.',
   'help.guide.connect-airtrail.step.1':
     'Leia jaotisest „Integratsioonid“ AirTrail ja sisesta selle „Serveri URL“ ja API-võti. Võtme lood AirTrailis jaotises „Settings“, „Security“.',
   'help.guide.connect-dawarich.step.1':
@@ -4607,7 +4607,7 @@ const help: TranslationStrings = {
     'Vali iga reisil osaleja jaoks „Ligipääs puudub“, „Lugemine“ või „Muuda“. „Kõik saavad lugeda“ ja „Mitte keegi“ määravad kõigile korraga.',
   'help.guide.collapse-columns.tip.3': 'Kui eraldajal on fookus, saad seda liigutada ka nooleklahvidega.',
   'help.guide.edit-place.tip.3':
-    'Kui klõpsad dialoogist väljaspool, ei lähe muudatused kaduma: TREK küsib enne „Kas loobuda muudatustest?“ ja „Jätka muutmist“ viib sind vormi tagasi.',
+    'Kui klõpsad dialoogist väljaspool, ei lähe muudatused kaduma: Manzil küsib enne „Kas loobuda muudatustest?“ ja „Jätka muutmist“ viib sind vormi tagasi.',
   'help.guide.dawarich-stays.goal':
     'Lisa pärast kontrollimist kohad, kus Dawarich salvestas sinu peatumised reisi ajal.',
   'help.guide.leave-stop-off-route.step.1':
@@ -4654,14 +4654,14 @@ const help: TranslationStrings = {
   'help.guide.roadtrip-bookings.step.2':
     'Ribal on sõit tüübi värvi kaart, sõiduplaan on saabumisveerus ning algus- ja lõpp-punkt pealkirja all.',
   'help.guide.roadtrip-google-import.tip.1':
-    "TREK arvutab peatuste vahel oma marsruudi; Google'i teekonda see ei kopeeri.",
+    "Manzil arvutab peatuste vahel oma marsruudi; Google'i teekonda see ei kopeeri.",
   'help.guide.roadtrip-hazards.result': 'Kaardil on näha sinu reisi ümbruse kehtivad hoiatused ja marsruut ei muutu.',
   'help.ctx.trip-tours.bullet.3':
     'Rida: värviline riba on retke joon kaardil, ümmargune ruut näitab marsruudipiirangut (T1 kuni T6) või tüüpi, väike GPX- või wandereri märk tähistab importi ning märgid näitavad päevi, aega, vahemaad ja tõusu. Numbriga kuu näitab mitmepäevase retke etappide arvu.',
   'help.guide.tour-show-list.step.3': 'Klõpsa real. Retke kaart avaneb kaardi peal.',
   'help.guide.tour-add-to-day.goal': 'Planeeri, millal retke teed, et see oleks päevas ja selle joon kaardil.',
   'help.guide.tour-add-to-day.tip.3':
-    'Retke saab päevale lisada ainult ühe korra. Kui lohistad selle päevale, kus see juba on, näitab TREK ainult teadet „See retk on sellel päeval juba olemas.“',
+    'Retke saab päevale lisada ainult ühe korra. Kui lohistad selle päevale, kus see juba on, näitab Manzil ainult teadet „See retk on sellel päeval juba olemas.“',
   'help.guide.tour-day-times.step.4':
     'Kui retk lõpeb pärast päeva järgmise punkti algust, annab rea all olev märkus sellest teada, näiteks „Lõpeb 13:30, kuid Lunch at Gostner Schwaige algab 12:30“. Midagi ei liigutata.',
   'help.guide.tour-remove-from-day.step.1':
@@ -4698,7 +4698,7 @@ const help: TranslationStrings = {
   'help.guide.tour-open-workspace.result':
     'Vaheleht „Retked“: vasakul redaktor, paremal reisi retked, nende vahel kaart.',
   'help.guide.tour-draw-route.step.6':
-    'Jaotises „Teekonnapunktid“ saab iga punkt numbriga rea, mis nimetatakse koha järgi, kui nimi on laaditud. Kuni TREK töötab, näitab väike täpp „Uus retk“ kõrval selle olekut.',
+    'Jaotises „Teekonnapunktid“ saab iga punkt numbriga rea, mis nimetatakse koha järgi, kui nimi on laaditud. Kuni Manzil töötab, näitab väike täpp „Uus retk“ kõrval selle olekut.',
   'help.guide.tour-type-profile.step.1':
     'Klõpsa välja „Retke nimi“ all „Matka tüüp“. Seal on näha praegune tüüp ja rida selle kohta, kuidas seda planeeritakse.',
   'help.guide.tour-edit-points.goal': 'Muuda retke kulgu, liigutades selle punkte kaardil või loendis.',
@@ -4722,7 +4722,7 @@ const help: TranslationStrings = {
     'Jaotise „Selle reisi retked“ ülaosas olev „Retke kokkuvõte“ näitab redaktoris oleva retke „Vahemaa“, „Tõus“ ja „Laskumine“, hinnangulist aega, pause ja planeeritud koguaega.',
   'help.guide.tour-list-manage.title': 'Reisi retkede haldamine',
   'help.guide.tour-list-manage.tip.2':
-    'Päev, kus retk juba on, on päevamenüüs hall. Mitmepäevase retke puhul küsib TREK, kas selle etapid algavad sellest päevast või läheb kogu retk sellele päevale.',
+    'Päev, kus retk juba on, on päevamenüüs hall. Mitmepäevase retke puhul küsib Manzil, kas selle etapid algavad sellest päevast või läheb kogu retk sellele päevale.',
   'help.guide.tour-delete.tip.2':
     'Kui tahad retke ainult päevast eemaldada, kasuta selle asemel päeva menüüs „Eemalda päevast“.',
   'help.guide.tour-saved-elsewhere.step.4':
@@ -4747,7 +4747,7 @@ const help: TranslationStrings = {
     'Vasaku paneeli kaart „Matka ääres“ otsib marsruudi lähedalt vaatepunkte, vett, onne, söögikohti ja muud ning loetleb tulemused. Loendist saad koha lisada retkele peatusena.',
   'help.guide.tour-map-layers.tip.1':
     'Valitud kaart jääb kehtima kõigile avatavatele retkedele, kuni lehe uuesti laadid. Retk, mille tüüp seda kaarti ei paku, avaneb kaardil „Kaart“ ning vahelehe „Plaan“ kaart ja jaotises „Seaded“ olev seade ei muutu.',
-  'help.guide.tour-along-search.step.4': 'Klõpsa „Otsi matka äärest“. TREK ainult otsib: retk ei muutu.',
+  'help.guide.tour-along-search.step.4': 'Klõpsa „Otsi matka äärest“. Manzil ainult otsib: retk ei muutu.',
   'help.guide.tour-along-add-stop.step.1':
     'Klõpsa kohal loendis „Matka ääres“ või selle nööpnõelal kaardil. Koha kaart avaneb kaardi peal: mis see on, kui kaugel see marsruudist on ja kui kaugel retke algusest see asub.',
   'help.guide.tour-3d-terrain.title': 'Retke vaatamine 3D-s',
@@ -4773,7 +4773,7 @@ const help: TranslationStrings = {
   'help.guide.tour-hike-round.tip.1':
     'Ringid jäävad matka „Raja suurim raskusaste“ piiresse; kaardil olev T-silt näitab, milline see on.',
   'help.guide.tour-hike-compare-ways.step.4':
-    'Klõpsa „Vali see tee“. TREK kontrollib marsruudiplaneerijaga, et marsruut seda teed tõesti järgib.',
+    'Klõpsa „Vali see tee“. Manzil kontrollib marsruudiplaneerijaga, et marsruut seda teed tõesti järgib.',
   'help.guide.tour-ferrata-add.step.2':
     'Klõpsa kaardil via ferratal, selle katkendjoonel või sildil. Selle kaardil on nimi, raskusaste ja pikkus.',
   'help.guide.tour-ferrata-add.tip.4':
@@ -4830,7 +4830,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.result':
     'Uus aerutamisretk koos paadi, veekogu ja kiirusega, valmis esimese punkti lisamiseks kaardile.',
   'help.guide.tour-paddle-water-route.tip.1':
-    'Kui veeandmed puuduvad, laadib TREK need piirkonna jaoks automaatselt alla või küsib neid administraatorilt, olenevalt serveri seadistusest. Lõigul on siis kirjas, et veeandmeid laaditakse, ja see planeeritakse automaatselt, kui andmed on olemas, tavaliselt ühe kuni kolme minuti jooksul.',
+    'Kui veeandmed puuduvad, laadib Manzil need piirkonna jaoks automaatselt alla või küsib neid administraatorilt, olenevalt serveri seadistusest. Lõigul on siis kirjas, et veeandmeid laaditakse, ja see planeeritakse automaatselt, kui andmed on olemas, tavaliselt ühe kuni kolme minuti jooksul.',
   'help.guide.tour-paddle-portage.step.2':
     'Vali „Siit alates kanna paati“. Lõik järgmise punktini muutub ülekandeks, mis on joonistatud maismaale.',
   'help.guide.tour-paddle-lock.title': 'Lüüsi ja selle ooteaja lisamine',
@@ -4903,9 +4903,9 @@ const help: TranslationStrings = {
   'help.guide.web-push-device.tip.1':
     'Tõuketeavitused töötavad brauseri kaupa: korda seda igas telefonis ja arvutis, kus tahad teavitusi saada. „Lülita selles seadmes välja“ peatab need ainult selles seadmes.',
   'help.guide.connect-airtrail.step.2':
-    '„Luba iseallkirjastatud sertifikaadid“ on mõeldud ainult usaldusväärsele serverile sinu enda võrgus. „Kirjuta muudatused AirTraili tagasi“ on vaikimisi väljas, nii et TREK ainult loeb; lülita see sisse, et saata oma muudatused tagasi.',
+    '„Luba iseallkirjastatud sertifikaadid“ on mõeldud ainult usaldusväärsele serverile sinu enda võrgus. „Kirjuta muudatused AirTraili tagasi“ on vaikimisi väljas, nii et Manzil ainult loeb; lülita see sisse, et saata oma muudatused tagasi.',
   'help.guide.connect-dawarich.step.2':
-    '„Kontrolli uusi peatumisi automaatselt“ laseb TREKil ise kontrollida. Kui see on väljas, loeb TREK Dawarichi ainult siis, kui seda palud. „Luba iseallkirjastatud sertifikaat“ on mõeldud ainult serverile, mida sinu server ei usalda.',
+    '„Kontrolli uusi peatumisi automaatselt“ laseb TREKil ise kontrollida. Kui see on väljas, loeb Manzil Dawarichi ainult siis, kui seda palud. „Luba iseallkirjastatud sertifikaat“ on mõeldud ainult serverile, mida sinu server ei usalda.',
   'help.guide.tour-connect-wanderer.step.2':
     'Lülita „Luba iseallkirjastatud sertifikaat“ sisse ainult siis, kui server on sinu enda võrgus.',
   'help.guide.tour-wanderer-watch.step.1':
@@ -4930,7 +4930,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.step.4':
     'Loe kollast märkust: see nimetab, kes saab päeviku esimest korda. Seejärel klõpsa „Seo päevik“.',
   'help.guide.dawarich-stays.step.1':
-    'Kui Dawarich on jaotises „Seaded“, „Integratsioonid“ ühendatud, on kohtade loendi kohal „Dawarichist“. Selle päis näitab, millal TREK viimati kontrollis ja mitu peatumist on ootel. Klõpsa sellel, et loend avada.',
+    'Kui Dawarich on jaotises „Seaded“, „Integratsioonid“ ühendatud, on kohtade loendi kohal „Dawarichist“. Selle päis näitab, millal Manzil viimati kontrollis ja mitu peatumist on ootel. Klõpsa sellel, et loend avada.',
   'help.guide.leave-stop-off-route.step.2':
     'Nime kõrvale ilmub märk „Marsruudist väljas“. Peatus jääb päeva ja kaardile, kuid päeva marsruut ja lõikude ajad jätavad selle vahele.',
   'help.guide.move-booking-day.result': 'Broneering kuulub plaanis uuele päevale ja selle kellaaeg ei muutu.',
@@ -4959,7 +4959,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.tip.2':
     'Veerud on eraldatud semikoolonitega ja Excel avab faili nii, et täpitähed jäävad terveks.',
   'help.guide.arrange-packing-list.tip.2':
-    'TREK jätab „A kuni Ü“ selles brauseris meelde, nii et nimekiri avaneb ka järgmisel korral sorteerituna. See muudab ainult seda, mida sina näed, mitte järjekorda, mida näevad teised.',
+    'Manzil jätab „A kuni Ü“ selles brauseris meelde, nii et nimekiri avaneb ka järgmisel korral sorteerituna. See muudab ainult seda, mida sina näed, mitte järjekorda, mida näevad teised.',
   'help.guide.count-packed-pieces.step.4':
     'Kui loendur jõuab koguseni, märgitakse ese automaatselt ja see loetakse pakituks.',
   'help.guide.expense-receipts.result':
@@ -4967,7 +4967,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.4':
     'Vali jaotises „Dokumendi kustutamisel“, mis juhtub teisel pool oleva koopiaga. „Säilita mõlemad koopiad“ jätab salvestusteenuse koopia alles. „Teisalda prügikasti“ saadab selle salvestusteenuse prügikasti, kui dokument TREKis kustutatakse.',
   'help.ctx.trip-collab.bullet.7':
-    'Kõik siin nõuab ühendust. Võrguühenduseta ei salvestata sõnumit, märget, linki, küsitlust ega häält ning TREK teatab, et selleks on vaja ühendust ja tuleb uuesti proovida, kui TREK on taas võrgus. Liikmed, kes ei tohi „Koostööd“ muuta, saavad kõike lugeda, kuid neil pole nuppe „Uus märge“, „Lisa link“ ja „Uus küsitlus“ ning sõnumikast on hall.',
+    'Kõik siin nõuab ühendust. Võrguühenduseta ei salvestata sõnumit, märget, linki, küsitlust ega häält ning Manzil teatab, et selleks on vaja ühendust ja tuleb uuesti proovida, kui Manzil on taas võrgus. Liikmed, kes ei tohi „Koostööd“ muuta, saavad kõike lugeda, kuid neil pole nuppe „Uus märge“, „Lisa link“ ja „Uus küsitlus“ ning sõnumikast on hall.',
   'help.guide.manage-notes.step.4':
     '„Muuda“ avab märkme dialoogi, kus kõik on juba täidetud. Muuda, mida vaja, siin üks rida juurde väljale „Sisu“, ja klõpsa „Salvesta“.',
   'help.guide.note-categories.step.2':
@@ -4984,7 +4984,7 @@ const help: TranslationStrings = {
     'Silt „Sisseregistreerimine“ või „Pardaleminek“ näitab, mis ajaks pead terminali jõudma: väljasõit määratakse sõiduplaanist just nii palju varasemaks.',
   'help.guide.roadtrip-google-import.title': 'Marsruudi importimine Google Mapsist',
   'help.guide.roadtrip-google-import.tip.2':
-    'Lingis peab olema vähemalt kaks peatust, mille TREK suudab kaardile paigutada, ja kõige rohkem 30.',
+    'Lingis peab olema vähemalt kaks peatust, mille Manzil suudab kaardile paigutada, ja kõige rohkem 30.',
   'help.guide.roadtrip-hazards.tip.1':
     'Hoiatused ei ole teede sulgemised: marsruut ei muutu nende tõttu kunagi ja need on kehtivad teated, mitte prognoos sinu reisikuupäevadeks.',
   'help.ctx.trip-tours.bullet.4':
@@ -5159,13 +5159,13 @@ const help: TranslationStrings = {
     'Järvel määrab marsruudi „Üle järvede“: „Otse üle“ on lühim, „Kalda lähedal“ püsib tuulistel päevadel kalda lähedal.',
   'help.guide.tour-paddle-water-route.title': 'Lõikude planeerimine vee peal',
   'help.guide.tour-paddle-water-route.tip.2':
-    'Kus marsruut kannab paati ümber paisu või läbib lüüsi, lisab TREK sinna oma punkti märkega „Leitud“. Kui seda liigutad või muudad, saab sellest sinu enda punkt.',
+    'Kus marsruut kannab paati ümber paisu või läbib lüüsi, lisab Manzil sinna oma punkti märkega „Leitud“. Kui seda liigutad või muudad, saab sellest sinu enda punkt.',
   'help.guide.tour-paddle-portage.step.3':
     'Punkti alla ilmub kaart „Ülekanne“ koos pikkuse ja lisaminutitega. Klõpsa sellel, et see avada.',
   'help.guide.tour-paddle-lock.goal': 'Lisa retkele lüüs ja arvesta selle ooteaeg ja läbimine retke aja hulka.',
   'help.guide.tour-paddle-lock.result': 'Lüüs on retkel koos minutitega ja „Ajahinnang“ arvestab need sisse.',
   'help.guide.tour-paddle-time.tip.1':
-    'TREK alustab väärtustega 4 km/h vee peal, 2 km/h kandmisel ja 10 minutit iga ülekande juures. Need on algväärtused kohandamiseks, mitte mõõtmistulemused.',
+    'Manzil alustab väärtustega 4 km/h vee peal, 2 km/h kandmisel ja 10 minutit iga ülekande juures. Need on algväärtused kohandamiseks, mitte mõõtmistulemused.',
   'help.guide.tour-paddle-wind.step.3':
     'Tulbad näitavad päeva tunde, puhangud keskmise tuule taga. Vii kursor tulbale, et näha selle tunni näitajaid ja suunda.',
   'help.guide.tour-paddle-checklist.goal':
@@ -5225,7 +5225,7 @@ const help: TranslationStrings = {
     'All olev „Pluginate tegevus“ loetleb kõik toimingud, mida pluginad sinu nimel tegid, uusimad eespool, koos nupuga „Värskenda“.',
   'help.guide.language-region.tip.3':
     '„Nädala alguspäev“ määrab iga kuupäevavalija esimese veeru; Vacays on selleks eraldi seade.',
-  'help.guide.web-push-device.tip.2': "iPhone'is ja iPadis lisa TREK kõigepealt avaekraanile ja ava see sealt.",
+  'help.guide.web-push-device.tip.2': "iPhone'is ja iPadis lisa Manzil kõigepealt avaekraanile ja ava see sealt.",
   'help.guide.connect-airtrail.step.3':
     'Klõpsa „Salvesta“, seejärel „Testi ühendust“. See näitab, mitu lendu leiti, ja märk muutub olekuks „Ühendatud“.',
   'help.guide.connect-dawarich.step.3':
@@ -5233,7 +5233,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.step.3':
     'Klõpsa „Salvesta“, seejärel „Testi ühendust“. See näitab, mitu sinu rada saab importida, ja märk muutub olekuks „Ühendatud“.',
   'help.guide.tour-wanderer-watch.step.2':
-    'Kõige rohkem kord päevas loeb TREK iga imporditud raja lühikirjet ja real on näha, millal viimati kontrolliti. Kui rada võib olla muutunud, saad teavituse ja „Vihjed“ loendab selle: klõpsa „Vihjed“, et näha iga retke olekuga „Võib olla muutunud“, „Muudetud“ või „Ei saa kontrollida“, ja ava see sealt.',
+    'Kõige rohkem kord päevas loeb Manzil iga imporditud raja lühikirjet ja real on näha, millal viimati kontrolliti. Kui rada võib olla muutunud, saad teavituse ja „Vihjed“ loendab selle: klõpsa „Vihjed“, et näha iga retke olekuga „Võib olla muutunud“, „Muudetud“ või „Ei saa kontrollida“, ja ava see sealt.',
   'help.guide.plugin-settings.goal': 'Anna pluginale oma võtmed ja eelistused ning vaata, mida see sinu nimel tegi.',
   'help.guide.own-routing-engine.result': 'Kõigi reiside marsruudid arvutatakse sinu serverites.',
   'help.guide.admin-passkeys.title': 'Pääsuvõtmega sisselogimise pakkumine',
@@ -5251,7 +5251,7 @@ const help: TranslationStrings = {
   'help.guide.link-journal.result':
     'Reisi vahelehtede ribale ilmub vaheleht „Päevik“. Kõik, kellele andsid õiguse „Lugemine“ või „Muuda“, saavad päevikut sellel vahelehel avada ja näevad muudatusi reaalajas.',
   'help.guide.create-place.tip.4':
-    'Ka Google Mapsist kopeeritud link töötab otsingus: kleebi see, vajuta Enter ja TREK loeb koha lingist. Kui vormil on asukoht, näitab otsingu kõrval olev sihik „Kohad selle nõela lähedal“, mis on ümberringi.',
+    'Ka Google Mapsist kopeeritud link töötab otsingus: kleebi see, vajuta Enter ja Manzil loeb koha lingist. Kui vormil on asukoht, näitab otsingu kõrval olev sihik „Kohad selle nõela lähedal“, mis on ümberringi.',
   'help.guide.dawarich-stays.step.2':
     'Peatumised on rühmitatud päevade kaupa, igaühe juures saabumis- ja lahkumisaeg; mõõdikuikoon tähistab peatumist, mille puhul Dawarich polnud kindel. Klõpsa peatumise kõrval oleval nööpnõelal „Lisa kohana“.',
   'help.guide.leave-stop-off-route.step.3':
@@ -5319,7 +5319,7 @@ const help: TranslationStrings = {
   'help.guide.tour-remove-from-day.step.3':
     'Või klõpsa päeva päisel, et päev avada, klõpsa loendis retkel ja klõpsa selle kaardi allosas „Eemalda päevast“.',
   'help.guide.tour-filter-list.step.3':
-    'Kui loendis on segamini eri retki, kitsendavad seda veelgi „Allikas“ (TREK, „GPX-import“, wanderer), „Marsruudi piir“ (T1 kuni T6) ja „Tüüp“ („Matk“, „Rattaretk“ jne). Klõpsa märgitud väärtusel uuesti, et see tühistada.',
+    'Kui loendis on segamini eri retki, kitsendavad seda veelgi „Allikas“ (Manzil, „GPX-import“, wanderer), „Marsruudi piir“ (T1 kuni T6) ja „Tüüp“ („Matk“, „Rattaretk“ jne). Klõpsa märgitud väärtusel uuesti, et see tühistada.',
   'help.guide.tour-hide-on-map.step.1':
     'Vii kursor loendis retkele ja klõpsa rea paremale ilmuval silmal („Peida kaardil“).',
   'help.guide.tour-import-plan-tab.step.1': 'Klõpsa vahelehel „Plaan“ parema veeru ülaosas oleval lülitil „Retked“.',
@@ -5338,7 +5338,7 @@ const help: TranslationStrings = {
   'help.guide.tour-copy-keep.tip.4':
     '„Kogumik“ on saadaval ainult siis, kui lisamoodul „Kogumikud“ on sees. Nimekirja, mida tohid ainult lugeda, ei saa valida, ja kui nimekirja veel pole, pakub dialoog „Ava kogumikud“.',
   'help.guide.tour-packing-link.step.5':
-    'Klõpsa „Ava pakkimisnimekiri“, et asju ära märkida. TREK avab vahelehe „Nimekirjad“ pakkimisnimekirjaga.',
+    'Klõpsa „Ava pakkimisnimekiri“, et asju ära märkida. Manzil avab vahelehe „Nimekirjad“ pakkimisnimekirjaga.',
   'help.guide.tour-files.step.2': 'Selle all olev rida näitab nüüd failide arvu ja loend avaneb.',
   'help.guide.tour-activity-link.step.2':
     'Kontrolli jaotises „Läbitud“ päeva, mil retke tegid. Kui see ei kuulu ühelegi päevale, vali „Päevata“.',
@@ -5485,7 +5485,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.tip.3':
     'Planeeritud lõigu all olevad märkused tähistavad kärestikku koos raskusastmega, paadirenni („Paadirenn“) või kaardiandmete lünka („Lünk kaardiandmetes“), mis on ületatud sirgjoonega.',
   'help.guide.tour-paddle-portage.step.4':
-    'Jaotises „Marsruut“ kasutab „Järgi rada“ kaardistatud teed ja „Sirge joon“ läheb otse. TREK otsib raja ise ja annab teada, kui seda ilma pika ümbersõiduta pole.',
+    'Jaotises „Marsruut“ kasutab „Järgi rada“ kaardistatud teed ja „Sirge joon“ läheb otse. Manzil otsib raja ise ja annab teada, kui seda ilma pika ümbersõiduta pole.',
   'help.guide.tour-paddle-lock.step.1':
     'Vii kursor lüüsi juures olevale peatusele ja klõpsa „Rohkem toiminguid“ (kolm täppi).',
   'help.guide.tour-paddle-time.title': 'Aerutamisretke aja lugemine ja kohandamine',
@@ -5547,7 +5547,7 @@ const help: TranslationStrings = {
     'Seotud reisi ajal on iga päeva peatumised selle päeva juures valmis valiku „Võta päev üle“ jaoks.',
   'help.ctx.settings-about.title': 'Teave',
   'help.guide.web-push-device.tip.3':
-    'Tõuketeavitused töötavad ainult siis, kui TREK on avatud HTTPS-i kaudu. Kui teavitused on blokeeritud, luba need brauseri seadetes ja proovi uuesti.',
+    'Tõuketeavitused töötavad ainult siis, kui Manzil on avatud HTTPS-i kaudu. Kui teavitused on blokeeritud, luba need brauseri seadetes ja proovi uuesti.',
   'help.guide.connect-airtrail.result':
     'Märgil on „Ühendatud“ ja reisi vahelehel „Transport“ on valik „Impordi AirTrailist“.',
   'help.guide.connect-dawarich.result':
@@ -5555,7 +5555,7 @@ const help: TranslationStrings = {
   'help.guide.tour-connect-wanderer.result':
     'Märgil on „Ühendatud“ ja reisi vahelehel „Retked“ saab sinu wandereris otsida ja sealt radu importida.',
   'help.guide.tour-wanderer-watch.result':
-    'TREK kontrollib sinu imporditud radu ja annab teada, kui mõni võib olla muutunud. Retk muutub ainult siis, kui muudatuse vastu võtad.',
+    'Manzil kontrollib sinu imporditud radu ja annab teada, kui mõni võib olla muutunud. Retk muutub ainult siis, kui muudatuse vastu võtad.',
   'help.guide.plugin-settings.step.1':
     'Ava seadete külgribal „Pluginad“. Jaotise „Pluginate seaded“ all on igal sinult seadeid vajaval pluginal kaart oma väljadega: täida need ja klõpsa „Salvesta“. Kaardil olevad toimingud käivituvad pärast kinnitust.',
   'help.guide.profile.step.3': 'Klõpsa kaardi jaluse paremas servas „Salvesta profiil“.',
@@ -5568,7 +5568,7 @@ const help: TranslationStrings = {
   'help.guide.notification-defaults.goal':
     'Määra, millised on kõigi kasutajate teavituste algseaded, ja blokeeri sündmuse jaoks kanal täielikult.',
   'help.ctx.notifications.summary':
-    'Kõik teavitused, mida TREK on sulle rakenduses näidanud, uusimad eespool: keegi muutis broneeringut, reisivestlusse tuli uus sõnum, sinuga jagati kalendrit. Paremal üleval olev kellaikoon näitab kümmet uusimat, see leht näitab kõiki.',
+    'Kõik teavitused, mida Manzil on sulle rakenduses näidanud, uusimad eespool: keegi muutis broneeringut, reisivestlusse tuli uus sõnum, sinuga jagati kalendrit. Paremal üleval olev kellaikoon näitab kümmet uusimat, see leht näitab kõiki.',
   'help.guide.read-notifications.step.1':
     'Klõpsa paremal üleval kellaikoonil. Sellel olev punane number näitab lugemata teavituste arvu.',
   'help.guide.filter-notifications.step.1': 'Klõpsa paremal üleval kellaikoonil.',
@@ -5678,7 +5678,7 @@ const help: TranslationStrings = {
   'help.guide.tour-take-along.step.3':
     'Klõpsa „GPX“, et laadida salvestatud retk alla GPX-failina: kogu marsruut koos olemasolevate kõrgustega, valmis navigatsioonirakenduse või GPS-seadme jaoks.',
   'help.guide.tour-copy-keep.step.1':
-    'Ava retke kaart ja klõpsa all „Kopeeri“. TREK loob uue, sõltumatu retke ilma päevadeta ja algne retk jääb samaks.',
+    'Ava retke kaart ja klõpsa all „Kopeeri“. Manzil loob uue, sõltumatu retke ilma päevadeta ja algne retk jääb samaks.',
   'help.guide.tour-copy-keep.result':
     'Reisil on teine retk, mida saad vabalt muuta, ja kogumikus on oma koopia, mille saab lisada teisele reisile.',
   'help.guide.tour-packing-link.tip.1':
@@ -5783,7 +5783,7 @@ const help: TranslationStrings = {
   'help.guide.tour-walk-day-times.tip.3':
     'Lahtiolekuajad tulevad OpenStreetMapist või reisi kohast, millega peatus on seotud, ja nende kõrval olev silt näitab allikat. Kontrolli neid enne minekut.',
   'help.guide.tour-walk-google-import.step.4':
-    'Klõpsa „Laadi jalutuskäiguna“. TREK planeerib peatuste vahelise jalgtee ise. Jalutuskäigu salvestamiseks klõpsa „Salvesta“.',
+    'Klõpsa „Laadi jalutuskäiguna“. Manzil planeerib peatuste vahelise jalgtee ise. Jalutuskäigu salvestamiseks klõpsa „Salvesta“.',
   'help.guide.tour-walk-check-off.step.2':
     'Keri jaotiseni „Jalutuse peatused“. Iga peatuse juures on viibimisaeg ja, kui jalutuskäigul on algusaeg, saabumisaeg.',
   'help.ctx.trip-tour-bike.summary':
@@ -5799,7 +5799,7 @@ const help: TranslationStrings = {
   'help.guide.tour-ski-plan.goal':
     'Planeeri päev nõlvadel, murdmaasuusaring, suusamatk või räätsamatk mööda kaardistatud nõlvu, tõstukeid ja radu.',
   'help.guide.tour-ski-plan.tip.2':
-    '„Ala“ kõrval olev infotäpp selgitab, mida TREK suusaretkedega teeb. Seal ega mujal siin ei öelda midagi lume, laviinide ega selle kohta, kas nõlvad, tõstukid ja rajad on avatud.',
+    '„Ala“ kõrval olev infotäpp selgitab, mida Manzil suusaretkedega teeb. Seal ega mujal siin ei öelda midagi lume, laviinide ega selle kohta, kas nõlvad, tõstukid ja rajad on avatud.',
   'help.guide.tour-ski-options.step.3':
     'Vali jaotises „Eelista“ „Kiireim“, „Kõige rohkem suusatamist“ või „Lihtsaim“. Vali jaotises „Tempo“ „Rahulik“, „Tavaline“ või „Sportlik“: see muudab aega, mille marsruudiplaneerija igale nõlvale arvestab.',
   'help.guide.tour-ski-fix-leg.goal': 'Lase punane lõik ühe klõpsuga planeerida või joonista see sirgjoonena.',
@@ -5816,11 +5816,11 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.step.7':
     'Kontrolli, et „Lisa punkt“ on sees, seejärel klõpsa kaardil: kõigepealt vettelaskmiskoht, siis vahepealsed punktid ja lõpuks veest väljumise koht.',
   'help.guide.tour-paddle-water-route.step.1':
-    'Käsitsi joonistatud lõigu punkti all on kirjas „Käsitsi joonistatud, marsruutimata“ koos lõigu pikkusega. TREK jätab joone selliseks, nagu selle joonistasid.',
+    'Käsitsi joonistatud lõigu punkti all on kirjas „Käsitsi joonistatud, marsruutimata“ koos lõigu pikkusega. Manzil jätab joone selliseks, nagu selle joonistasid.',
   'help.guide.tour-paddle-water-route.tip.4':
     'Kui mõni lõik pole planeeritud, ei saa salvestada. Planeeri see enne vett mööda või joonista käsitsi.',
   'help.guide.tour-paddle-portage.step.5':
-    'Sisesta jaotises „Välja ja vette“ minutid, mida vajad paadist väljumiseks, mahalaadimiseks ja tagasi vette laskmiseks. Kui jätad selle tühjaks, arvestab TREK 10 minutit.',
+    'Sisesta jaotises „Välja ja vette“ minutid, mida vajad paadist väljumiseks, mahalaadimiseks ja tagasi vette laskmiseks. Kui jätad selle tühjaks, arvestab Manzil 10 minutit.',
   'help.guide.tour-paddle-lock.step.2':
     'Vali „Lüüs selles punktis“. Punkti alla ilmub kaart „Lüüs“ märkega „Aeg puudub“.',
   'help.guide.tour-paddle-time.goal':
@@ -5830,7 +5830,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-wind.tip.1':
     'Prognoos on olemas ainult järgmiseks 16 päevaks. Kaugema päeva puhul on kirjas, mis kuupäevast prognoos on saadaval. Möödunud päeva puhul on kirjas, et päev on möödas.',
   'help.guide.tour-paddle-checklist.step.2':
-    'Selle all olev rida näitab, kui värsked on andmed: „OSM seisuga“ OpenStreetMapi kohta, „Laaditud“ selle kohta, millal TREK need luges, ja „Takistuste andmed“, kui need ei kata kogu marsruuti.',
+    'Selle all olev rida näitab, kui värsked on andmed: „OSM seisuga“ OpenStreetMapi kohta, „Laaditud“ selle kohta, millal Manzil need luges, ja „Takistuste andmed“, kui need ei kata kogu marsruuti.',
   'help.guide.tour-paddle-checklist.tip.5':
     'Kontrollnimekiri ei ole ohutus- ega õiguslik heakskiit. Sinu otsus ei tühista OpenStreetMapis märgitud keeldu ega eramaad.',
   'help.guide.tour-paddle-track-marks.step.5':
@@ -5869,7 +5869,7 @@ const help: TranslationStrings = {
   'help.ctx.collections.bullet.7':
     'Salvestatud retked: reisist salvestatud retked on nimekirja esimesed read koos raskusastme, tüübi, päritolureisi ja mõõtmetega. „Lisa reisile“ loob neist uue retke ja prügikastiikoon eemaldab selle nimekirjast.',
   'help.guide.move-to-list.title': 'Kohtade teisaldamine või kopeerimine teise nimekirja',
-  'help.guide.copy-to-trip.tip.2': 'Koht, mis reisil juba on, jäetakse vahele ja TREK näitab, mitu kohta vahele jäeti.',
+  'help.guide.copy-to-trip.tip.2': 'Koht, mis reisil juba on, jäetakse vahele ja Manzil näitab, mitu kohta vahele jäeti.',
   'help.guide.accept-list-invite.tip.2':
     'Klõpsa nimekirja ülaosas „Jagatud“, et näha liikmeid. Seal saad nupuga „Lahku nimekirjast“ nimekirjast lahkuda.',
   'help.guide.tour-collection-add-to-trip.goal':
@@ -5890,13 +5890,13 @@ const help: TranslationStrings = {
   'help.guide.journey-auto-prepare.title': 'Salvestatud päevade ettevalmistamine TREKi poolt',
   'help.guide.photo-location.title': 'Sissekannete paigutamine fotode tegemise kohta',
   'help.ctx.settings-about.summary':
-    'Mis on TREK, milline versioon selles serveris töötab ja kust leiad projekti: dokumentatsiooni, vigadest teatamise koha ja projekti toetamise võimalused.',
+    'Mis on Manzil, milline versioon selles serveris töötab ja kust leiad projekti: dokumentatsiooni, vigadest teatamise koha ja projekti toetamise võimalused.',
   'help.guide.startup.tip.2': 'Kui avatav vahekaart kuulub välja lülitatud lisamoodulile, avaneb selle asemel plaan.',
   'help.guide.web-push-device.title': 'Tõuketeavitused selles seadmes',
   'help.guide.connect-airtrail.tip.1':
     'Kaart on näha ainult siis, kui administraator on lisamooduli AirTrail sisse lülitanud.',
   'help.guide.connect-dawarich.tip.1':
-    'TREK ainult soovitab sissekandeid, kohti ja riike; midagi ei lisata enne sinu kinnitust ja Dawarichi ei kirjutata midagi tagasi.',
+    'Manzil ainult soovitab sissekandeid, kohti ja riike; midagi ei lisata enne sinu kinnitust ja Dawarichi ei kirjutata midagi tagasi.',
   'help.guide.tour-connect-wanderer.tip.1':
     'Kaart on näha ainult siis, kui administraator lubab jaotises „Retked“ wandereri.',
   'help.guide.tour-wanderer-watch.tip.1':
@@ -5964,7 +5964,7 @@ const help: TranslationStrings = {
   'help.guide.export-bookings-csv.step.1':
     'Kui tahad eksportida ainult osa vahelehest, kitsenda seda enne „Otsi“ või „Filter“ abil. Failis on täpselt see, mida vaheleht näitab.',
   'help.guide.import-booking-file.tip.4':
-    'Kinnituse lugemiseks on vaja ühendust. Võrguühenduseta annab „Impordi“ sellest teada ja saad uuesti proovida, kui TREK on taas võrgus.',
+    'Kinnituse lugemiseks on vaja ühendust. Võrguühenduseta annab „Impordi“ sellest teada ja saad uuesti proovida, kui Manzil on taas võrgus.',
   'help.guide.arrange-packing-list.step.1':
     'Lohista nimekirja päise vasakus otsas, värvitäpi ees olevast pidemest ja aseta nimekiri teisele kaardile. Sinu rõhuvärvi kontuur tähistab sihtkaarti ja nimekiri võtab selle kaardi koha kõigi reisil osalejate jaoks.',
   'help.guide.count-packed-pieces.title': 'Ühe asja mitme tüki pakkimine',
@@ -6068,7 +6068,7 @@ const help: TranslationStrings = {
   'help.guide.tour-import-gpx.tip.3': 'Rada, mis reisil juba on, on hall märkega „Juba reisil“ ja jäetakse vahele.',
   'help.guide.tour-view-import.step.3': 'Üleval vasakul olev nool „Tagasi retkede juurde“ sulgeb selle.',
   'help.guide.tour-plan-from-import.step.2':
-    'TREK võtab rajast kontrollpunktid ja arvutab nende vahel marsruudi uuesti. Kaardil on import punktiirjoonena ja soovitus pideva joonena ning kaart võrdleb nende pikkusi, kuni 50 m kaugusel rajast oleva osa osakaalu ja väärtust „Suurim kõrvalekalle“.',
+    'Manzil võtab rajast kontrollpunktid ja arvutab nende vahel marsruudi uuesti. Kaardil on import punktiirjoonena ja soovitus pideva joonena ning kaart võrdleb nende pikkusi, kuni 50 m kaugusel rajast oleva osa osakaalu ja väärtust „Suurim kõrvalekalle“.',
   'help.guide.tour-restore-recorded.title': 'Salvestatud raja juurde naasmine',
   'help.guide.tour-take-over.title': 'Retke ülevõtmine teiselt reisilt',
   'help.guide.tour-take-over.tip.1':
@@ -6165,7 +6165,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-water-route.step.2':
     'Kui tahad, et üks lõik planeeritaks vett mööda, vii kursor sellele eelnevale peatusele ja klõpsa „Rohkem toiminguid“ (kolm täppi).',
   'help.guide.tour-paddle-water-route.result':
-    'Iga lõik järgib vett või on teadlikult käsitsi joonistatud ning lõik, mida TREK ei suutnud planeerida, näitab põhjust.',
+    'Iga lõik järgib vett või on teadlikult käsitsi joonistatud ning lõik, mida Manzil ei suutnud planeerida, näitab põhjust.',
   'help.guide.tour-paddle-portage.tip.1':
     'Kui tahad lõigu siiski läbi aerutada, ava punktil uuesti „Rohkem toiminguid“ ja vali „Aeruta see lõik jälle“. Sellest saab jälle käsitsi joonistatud lõik.',
   'help.guide.tour-paddle-lock.step.3': 'Klõpsa kaardil „Lüüs“, et see avada.',
@@ -6183,7 +6183,7 @@ const help: TranslationStrings = {
   'help.guide.tour-horse-plan.step.2':
     'Klõpsa välja „Retke nimi“ all väljal „Matka tüüp“ ja vali „Ratsamatk“. Jaotise „Teekonnapunktid“ alla ilmub kaart „Ratsarajad“.',
   'help.guide.tour-horse-plan.tip.2':
-    'TREK ei arvuta ratsamatkale ratsutamisaega. Kui tahad, et päeval oleks aeg, sisesta see jaotises „Üksikasjad“ väljale „Plaanis“.',
+    'Manzil ei arvuta ratsamatkale ratsutamisaega. Kui tahad, et päeval oleks aeg, sisesta see jaotises „Üksikasjad“ väljale „Plaanis“.',
   'help.guide.tour-horse-gap.step.3': 'Klõpsa „Võta lõik üle“. Kuni lüliti pole sees, on nupp hall.',
   'help.guide.tour-horse-recorded.step.1':
     'Klõpsa jaotises „Selle reisi retked“ „Lisa matk“ (+), vali „Impordi GPX või KML“ ja vali oma ratsamatka fail.',
@@ -6199,7 +6199,7 @@ const help: TranslationStrings = {
   'help.guide.log-for-partner.title': 'Päevade märkimine kaasplaneerija eest',
   'help.guide.dissolve-fusion.title': 'Ühise planeerimise lõpetamine',
   'help.guide.country-places.goal':
-    'Vaata kohti, mida TREK riigi alla arvestab, et kontrollida, mida sa seal tegid, või leida koht, mille TREK on vale riigi alla pannud.',
+    'Vaata kohti, mida Manzil riigi alla arvestab, et kontrollida, mida sa seal tegid, või leida koht, mille Manzil on vale riigi alla pannud.',
   'help.guide.regions.tip.3':
     '„Lisa soovinimekirja“ töötab ka piirkonna puhul. Piirkond on näidatud sama viirutusega nagu soovinimekirjas olev riik.',
   'help.guide.tour-activity-stats.step.2':
@@ -6228,11 +6228,11 @@ const help: TranslationStrings = {
   'help.ctx.settings-about.bullet.1': 'Selles serveris töötav versioon on näidatud pealkirja kõrval.',
   'help.guide.readability.tip.3':
     '„Loetavus“ on märgitud kui „Eksperimentaalne“. Kui midagi näeb vale välja, klõpsa vahelehe allosas „Taasta vaikeseaded“, et vaikeseaded taastada.',
-  'help.guide.web-push-device.goal': 'Saa TREKi teavitusi oma telefonis või arvutis ka siis, kui TREK on suletud.',
+  'help.guide.web-push-device.goal': 'Saa TREKi teavitusi oma telefonis või arvutis ka siis, kui Manzil on suletud.',
   'help.guide.connect-airtrail.tip.2':
     'Võti salvestatakse krüpteeritult ja seda ei näidata enam kunagi; täpid väljal tähendavad, et võti on salvestatud.',
   'help.guide.connect-dawarich.tip.2':
-    'Nuppude all näitab kaart, millal TREK viimati kontrollis ja mida sinu Dawarichi versioon ei paku.',
+    'Nuppude all näitab kaart, millal Manzil viimati kontrollis ja mida sinu Dawarichi versioon ei paku.',
   'help.guide.tour-connect-wanderer.tip.2':
     'Privaatsel aadressil oleva serveri jaoks võib administraator pidada sisevõrgud lubama.',
   'help.guide.tour-wanderer-watch.tip.2':
@@ -6245,7 +6245,7 @@ const help: TranslationStrings = {
   'help.guide.default-user-settings.step.1':
     'Vali jaotises „Kasutajate vaikeseaded“ „Värvirežiim“ („Hele“, „Tume“ või „Automaatne“), „Temperatuuriühik“, „Vahemaaühik“, „Ajavorming“, „Nädala alguspäev“, „Kuvamisvaluuta“ ja see, kas „Hägusta broneerimiskoodid“ on sees või „Väljas“. Iga valik salvestub kohe.',
   'help.guide.admin-passkeys.step.2':
-    'Sisesta „Teenuseosutaja ID (domeen)“, näiteks trek.example.org, ja „Lubatud päritolud“, mille kaudu sinu TREK on kättesaadav, seejärel klõpsa „Salvesta“. Jäta mõlemad tühjaks, et kasutada APP_URL-i.',
+    'Sisesta „Teenuseosutaja ID (domeen)“, näiteks trek.example.org, ja „Lubatud päritolud“, mille kaudu sinu Manzil on kättesaadav, seejärel klõpsa „Salvesta“. Jäta mõlemad tühjaks, et kasutada APP_URL-i.',
   'help.guide.rotate-jwt-secret.title': 'Kõigi korraga väljalogimine',
   'help.guide.notification-defaults.step.2':
     'Klõpsa lahtril, et lülitada see järgmisse olekusse: sees, „Väljas“, „Blokeeritud“. Vihje näitab järgmist olekut ja iga klõps salvestub kohe.',
@@ -6271,7 +6271,7 @@ const help: TranslationStrings = {
   'help.guide.move-booking-day.goal': 'Vii transport või broneering otse plaanist teisele päevale, ilma vormi avamata.',
   'help.guide.place-image-from-file.result': 'Foto on koha pilt kaardil, kohtade veerus, päevas ja kaardil.',
   'help.guide.place-own-hours.step.3':
-    'Nende all olev „Lahtiolekuajad“ näitab nädalat, iga päeva kohta üks rida. Kui TREK leidis kohale ajad, on need juba täidetud; muidu klõpsa kõigepealt „Lisa lahtiolekuajad“. Sisesta iga päeva avamis- ja sulgemisaeg ning klõpsa päeval, mil koht ei ole avatud, „Suletud“.',
+    'Nende all olev „Lahtiolekuajad“ näitab nädalat, iga päeva kohta üks rida. Kui Manzil leidis kohale ajad, on need juba täidetud; muidu klõpsa kõigepealt „Lisa lahtiolekuajad“. Sisesta iga päeva avamis- ja sulgemisaeg ning klõpsa päeval, mil koht ei ole avatud, „Suletud“.',
   'help.guide.add-accommodation.tip.5':
     'GPX-radu ja retkede kohti ei pakuta kunagi ööbimiskohaks, ainult reisi tavalisi kohti.',
   'help.guide.confirm-stay-booking.step.1':
@@ -6442,7 +6442,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-hike.bullet.4':
     'Teekonnapunktide all olev „Raja üksikasjad“ näitab OpenStreetMapi andmete põhjal iga lõigu SAC-raskusastet, katet ja teetüüpi ning värvib marsruudi kaardil nende järgi. Miski siin ei muuda retke.',
   'help.guide.tour-hike-plan.step.4':
-    '„Lisa punkt“ on kohe alguses sees: klõpsa kaardil matka alguse ja lõpu kohal. Selle kõrval olev „Reisi kohad“ valib hoopis reisi onni või hotelli. Alates kahest punktist arvutab TREK matkamarsruudi.',
+    '„Lisa punkt“ on kohe alguses sees: klõpsa kaardil matka alguse ja lõpu kohal. Selle kõrval olev „Reisi kohad“ valib hoopis reisi onni või hotelli. Alates kahest punktist arvutab Manzil matkamarsruudi.',
   'help.guide.tour-hike-trail-details.title': 'Matka raskusastmete, katete ja teetüüpide vaatamine',
   'help.guide.tour-hike-trail-details.tip.1':
     'Teed, millel OpenStreetMapis väärtust pole, on loetletud jaotises „Teadmata“, ja teadmata ei tähenda lihtsat. Kui mõne juures on „Seekord ei õnnestunud küsida“, klõpsa „Proovi uuesti“.',
@@ -6474,7 +6474,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-bike.bullet.2':
     'Paremal olev „Retke kokkuvõte“ näitab väärtust „Sõiduaeg (hinnanguline)“, mis on marsruudiplaneerija aeg selle profiili jaoks koos tõusudega. Pause selles pole.',
   'help.guide.tour-bike-profile.step.4':
-    'Klõpsa jaotises „Teekonnapunktid“ „Reisi kohad“ ja vali algus ja lõpp, siin Hotel Alpenroyal ja seejärel Hotel Greif. Võid ka kontrollida, et „Lisa punkt“ on sees, ja klõpsata kaardil. Alates kahest punktist arvutab TREK marsruudi.',
+    'Klõpsa jaotises „Teekonnapunktid“ „Reisi kohad“ ja vali algus ja lõpp, siin Hotel Alpenroyal ja seejärel Hotel Greif. Võid ka kontrollida, et „Lisa punkt“ on sees, ja klõpsata kaardil. Alates kahest punktist arvutab Manzil marsruudi.',
   'help.guide.tour-bike-profile.tip.5':
     'Kui administraator lubab CyclOSM-i kaardi, pakub kaardi kihirida rattaretke avamisel ka valikut „Jalgratas“. Kui see lakkab laadimast, lülitu valikule „Kaart“. Retk ei muutu.',
   'help.guide.tour-bike-surfaces.tip.1':
@@ -6502,7 +6502,7 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.2':
     'Aerutamisretke kaart pakub vaateid „Kaart“ ja „Satelliit“ ning kattekihina OpenSeaMapi „Navigatsioonimärgid“.',
   'help.guide.tour-paddle-water-route.step.3':
-    'Vali „Planeeri järgmine lõik vett mööda“. TREK planeerib lõigu mööda jõge või järve sellest punktist järgmiseni.',
+    'Vali „Planeeri järgmine lõik vett mööda“. Manzil planeerib lõigu mööda jõge või järve sellest punktist järgmiseni.',
   'help.guide.tour-paddle-portage.title': 'Paadi kandmine ümber takistuse',
   'help.guide.tour-paddle-portage.tip.2':
     'Viimasel punktil rakendub „Siit alates kanna paati“ siis, kui lisad järgmise punkti. Real on kirjas „Siit alates kanda“ ja selle rist „Siiski mitte kanda“ tühistab selle.',
@@ -6609,7 +6609,7 @@ const help: TranslationStrings = {
     'Vii kursor päevas broneeringu reale: vasakul olev pide näitab, et seda saab lohistada.',
   'help.guide.place-image-from-file.tip.1': 'Pakutakse ainult JPG-, PNG-, GIF- ja WebP-faile; PDF-piletit mitte.',
   'help.guide.place-own-hours.step.4':
-    '„Lahtiolekuaegade“ paremal olevad nupud: kopeerimisnupp annab kõigile päevadele esmaspäeva ajad ja X eemaldab sinu ajad. Kui TREK on ise ajad leidnud, toob „Võta üle koha andmetest“ need tagasi.',
+    '„Lahtiolekuaegade“ paremal olevad nupud: kopeerimisnupp annab kõigile päevadele esmaspäeva ajad ja X eemaldab sinu ajad. Kui Manzil on ise ajad leidnud, toob „Võta üle koha andmetest“ need tagasi.',
   'help.guide.confirm-stay-booking.step.2': 'Broneering avaneb plaani peal. Selle päise esimene silt näitab olekut.',
   'help.ctx.trip-map.bullet.9':
     'Iga reisi retk on oma värvi joon, mille alguspunktis on nööpnõel. Klõpsa joonel, et avada retke kaart. Päeval, kus on retk, viib päeva marsruut retke alguspunkti ja jätkub sealt, kus retk lõpeb. Retkede loendis retke kõrval olev silm „Peida kaardil“ eemaldab selle joone sinu kaardilt.',
@@ -6625,7 +6625,7 @@ const help: TranslationStrings = {
   'help.guide.group-sort-bookings.step.1':
     'Klõpsa vaates „Kaardid“ või „Loend“ kolme vaateikooni järel olevatel liuguritel „Vaate valikud“.',
   'help.guide.create-booking.tip.4':
-    'Võrguühenduseta salvestatakse broneering selles seadmes ja sünkroonitakse, kui oled taas võrgus. Uute failide jaoks on vaja ühendust, nii et eemalda need või salvesta hiljem. Kui klõpsad kogemata vormist väljaspool või vajutad Escape, küsib TREK enne sisestatu kaotamist „Kas loobuda muudatustest?“.',
+    'Võrguühenduseta salvestatakse broneering selles seadmes ja sünkroonitakse, kui oled taas võrgus. Uute failide jaoks on vaja ühendust, nii et eemalda need või salvesta hiljem. Kui klõpsad kogemata vormist väljaspool või vajutad Escape, küsib Manzil enne sisestatu kaotamist „Kas loobuda muudatustest?“.',
   'help.guide.booking-on-map.tip.2': 'Majutus avaneb selle esimesel ööl.',
   'help.guide.export-bookings-csv.step.3':
     'Klõpsa „Vaate valikute“ järel oleval tabeliikoonil „Ekspordi tabelina (CSV)“.',
@@ -6638,7 +6638,7 @@ const help: TranslationStrings = {
   'help.guide.files-sync-settings.step.1':
     'Klõpsa riba paremas otsas „Dokumentide sünkroonimine“. Kui reis on seotud, avaneb paremal sinu salvestusteenuse kaart; kui teenuseid on mitu, klõpsa vasakul jaotises „See reis“ soovitud teenusel.',
   'help.guide.files-sync-settings.tip.3':
-    '„Kohesed uuendused“, link koos kopeerimisnupuga, on olemas ainult nende salvestusteenuste puhul, kus TREK ei saa muudatusi automaatselt jälgida. Kleebi link salvestusteenusesse ja muudatused jõuavad kohe, mitte järgmise kontrolli ajal.',
+    '„Kohesed uuendused“, link koos kopeerimisnupuga, on olemas ainult nende salvestusteenuste puhul, kus Manzil ei saa muudatusi automaatselt jälgida. Kleebi link salvestusteenusesse ja muudatused jõuavad kohe, mitte järgmise kontrolli ajal.',
   'help.guide.manage-notes.step.1':
     'Klõpsa märkme kaardi päises kolmel täpil („Veel valikuid“). Menüüs on „Laienda“, „Kinnita“, „Muuda“ ja „Kustuta“.',
   'help.guide.note-categories.title': 'Märkmete jaotamine kategooriatesse',
@@ -6679,7 +6679,7 @@ const help: TranslationStrings = {
   'help.ctx.trip-tour-detail.bullet.5':
     'Kaart on lugemiseks ja retkega seotud asjade jaoks. Marsruuti ennast muudetakse vahelehel „Retked“: ava see ja klõpsa retkel jaotises „Selle reisi retked“. Ka retke kustutatakse seal, mitte siin.',
   'help.guide.tour-detail-read.step.6':
-    'Keri edasi jaotisteni „Kirjeldus“ ja „Märkmed“, seejärel „Päritolu“: „Planeeritud rakenduses TREK“, fail, millest see imporditi, või wandereri rada, millest see pärineb, koos kuupäevaga.',
+    'Keri edasi jaotisteni „Kirjeldus“ ja „Märkmed“, seejärel „Päritolu“: „Planeeritud rakenduses Manzil“, fail, millest see imporditi, või wandereri rada, millest see pärineb, koos kuupäevaga.',
   'help.guide.tour-rename-colour.title': 'Retke ümbernimetamine ja värvi muutmine',
   'help.guide.tour-rename-colour.result': 'Retk on kogu reisis uue nimega ja selle joon on valitud värvis.',
   'help.guide.tour-take-along.tip.3':
@@ -6832,13 +6832,13 @@ const help: TranslationStrings = {
   'help.guide.tour-paddle-setup.tip.3':
     'Aerutamisretkel otsib „Matka ääres“ kõigepealt „Vettelaskmiskohad“, „Paadilaenutus“ ja „Joogivesi“.',
   'help.guide.tour-paddle-water-route.step.4':
-    'Lõik, mida TREK ei suutnud planeerida, muutub punaseks ja näitab põhjust, näiteks et piirkonna kohta pole veel veeandmeid. Klõpsa „Joonista sirgelt“, et see esialgu käsitsi joonistada.',
+    'Lõik, mida Manzil ei suutnud planeerida, muutub punaseks ja näitab põhjust, näiteks et piirkonna kohta pole veel veeandmeid. Klõpsa „Joonista sirgelt“, et see esialgu käsitsi joonistada.',
   'help.guide.tour-paddle-portage.goal':
     'Märgi lõik, kus paati kannad, nii et seda arvestatakse maismaana koos paadist väljumise ja tagasi vette mineku ajaga.',
   'help.guide.tour-paddle-portage.tip.3':
     'Kandmist arvestatakse kiirusega 2 km/h, kuni määrad kaardil „Ajahinnang“ oma „Kandmiskiirus“.',
   'help.guide.tour-paddle-lock.tip.1':
-    'TREK ei tea lüüside sõiduplaane. Ajad on ainult need, mille sisestad, nii et kontrolli lüüsi tööaegu ise.',
+    'Manzil ei tea lüüside sõiduplaane. Ajad on ainult need, mille sisestad, nii et kontrolli lüüsi tööaegu ise.',
   'help.guide.tour-paddle-time.step.3':
     'Rida „Vee peal“ on vee peal läbitav vahemaa sinu aerutamiskiirusega. Muuda kiirust veeru ülaosas väljal „Aerutamiskiirus“.',
   'help.guide.tour-paddle-wind.goal': 'Vaata aerutamispäeval retke alguspunkti tuuleprognoosi.',

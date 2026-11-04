@@ -10,7 +10,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'الألوان',
   'journey.studio.stickerSlot': 'اللون {index}',
   'journey.studio.stickerResetColours': 'الألوان الأصلية',
-  'journey.studio.stickerMissing': 'هذا الملصق غير موجود في مكتبة هذا الإصدار من TREK.',
+  'journey.studio.stickerMissing': 'هذا الملصق غير موجود في مكتبة هذا الإصدار من Manzil.',
   'journey.studio.stickerFlip': 'عكس أفقي',
   'journey.studio.stickerTurnLeft': 'تدوير لليسار',
   'journey.studio.stickerTurnRight': 'تدوير لليمين',

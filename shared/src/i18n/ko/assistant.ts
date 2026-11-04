@@ -246,7 +246,7 @@ const assistant: TranslationStrings = {
     '어시스턴트가 연결된 AI 제공자의 검색으로 웹을 찾아볼 수 있습니다(리뷰, 영업시간, 행사). ChatGPT, Anthropic, OpenRouter에서 작동하며 검색은 해당 제공자에게만 전달됩니다.',
   'assistant.admin.retentionDays': '{count}일',
   'assistant.admin.retentionForever': '영구',
-  'assistant.mobile.tile': 'TREK에 질문',
+  'assistant.mobile.tile': 'Manzil에 질문',
   'assistant.mobile.tileHint': '어시스턴트와 함께 계획',
   'assistant.mobile.backToChat': '채팅으로 돌아가기',
   'assistant.step.nearbyAt': '{place} 근처를 찾는 중',
@@ -453,7 +453,7 @@ const assistant: TranslationStrings = {
   'assistant.attach.found': '{name}에서 예약 {count}건을 찾았습니다. 원하는 예약을 아래에서 추가하세요.',
   'assistant.attach.none': '{name}에서 예약을 찾지 못했습니다.',
   'assistant.attach.why.aiNotConfigured':
-    '이곳에는 가져오기용 AI 읽기가 설정되어 있지 않아 TREK 자체 리더만 파일을 확인했습니다.',
+    '이곳에는 가져오기용 AI 읽기가 설정되어 있지 않아 Manzil 자체 리더만 파일을 확인했습니다.',
   'assistant.attach.why.aiFailed': 'AI 리더가 파일을 읽지 못했습니다.',
   'assistant.attach.why.noText': '읽을 수 있는 텍스트가 없습니다. 스캔한 문서일 가능성이 큽니다.',
   'assistant.attach.why.nothingFound': '예약처럼 보이는 내용이 없습니다.',

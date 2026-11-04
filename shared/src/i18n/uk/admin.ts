@@ -102,13 +102,13 @@ const admin: TranslationStrings = {
     'Користувачі без 2FA повинні завершити налаштування в розділі «Налаштування» перед використанням програми.',
   'admin.apiKeys': 'API-ключі',
   'admin.apiKeysHint':
-    "Звідки беруться дані про місця. Покажчику TREK ключ не потрібен; два постачальники нижче необов'язкові.",
+    "Звідки беруться дані про місця. Покажчику Manzil ключ не потрібен; два постачальники нижче необов'язкові.",
   'admin.trekApi.badgeDefault': 'Рекомендоване джерело',
   'admin.googleCaveat.badge': 'Не рекомендовано',
   'admin.googleCaveat.body':
-    'TREK має відкритий код, і ми тут не нейтральні. У такому масштабі відгуки та світлини звичайних закладів є лише в Google, і це і є монополія. Поле тут через брак альтернативи, а не тому, що ми його радимо. Тоді кожен запит іде до Google.',
+    'Manzil має відкритий код, і ми тут не нейтральні. У такому масштабі відгуки та світлини звичайних закладів є лише в Google, і це і є монополія. Поле тут через брак альтернативи, а не тому, що ми його радимо. Тоді кожен запит іде до Google.',
   'admin.trekApi.tagline':
-    'Власні сервіси TREK: пошук місць, пошук адрес і побудова маршрутів, без ключа Google і без введення будь-якого ключа. Кожна інсталяція отримує справедливий денний ліміт, рахується лише кількість запитів.',
+    'Власні сервіси Manzil: пошук місць, пошук адрес і побудова маршрутів, без ключа Google і без введення будь-якого ключа. Кожна інсталяція отримує справедливий денний ліміт, рахується лише кількість запитів.',
   'admin.trekApi.factPlaces': '73,6 мільйона місць у світі',
   'admin.trekApi.factNoKey': 'Ключ вводити не потрібно, справедливий денний ліміт',
   'admin.trekApi.factOffline': 'Пакети країн працюють офлайн',
@@ -175,7 +175,7 @@ const admin: TranslationStrings = {
   'admin.mapsKey': 'API-ключ Google Maps',
   'admin.mapsKeyHint': 'Необхідний для пошуку місць. Отримайте на console.cloud.google.com',
   'admin.mapsKeyHintLong':
-    'Без ключа Google API використовується рекомендований TREK API. З ключем додатково завантажуються світлини, оцінки та години роботи. Створити ключ можна на console.cloud.google.com.',
+    'Без ключа Google API використовується рекомендований Manzil API. З ключем додатково завантажуються світлини, оцінки та години роботи. Створити ключ можна на console.cloud.google.com.',
   'admin.recommended': 'Рекомендується',
   'admin.weatherKey': 'API-ключ OpenWeatherMap',
   'admin.weatherKeyHint': 'Для даних про погоду. Безкоштовно на openweathermap.org',
@@ -187,13 +187,13 @@ const admin: TranslationStrings = {
   'admin.keyFromEnv': 'Задано через {name}',
   'admin.placesProvider.title': 'Постачальник пошуку місць',
   'admin.placesProvider.subtitle':
-    'Власний індекс TREK і OpenStreetMap відповідають на кожен пошук. Тут обирається, кого запитати додатково, якщо вони нічого не знайшли: «Автоматично» надає перевагу Google за наявності ключа, потім Amap.',
+    'Власний індекс Manzil і OpenStreetMap відповідають на кожен пошук. Тут обирається, кого запитати додатково, якщо вони нічого не знайшли: «Автоматично» надає перевагу Google за наявності ключа, потім Amap.',
   'admin.placesProvider.auto': 'Автоматично',
   'admin.placesProvider.google': 'Google Places',
   'admin.placesProvider.amap': 'Amap (高德地图)',
   'admin.placesProvider.openstreetmap': 'OpenStreetMap',
   'admin.placesProvider.missingKey':
-    'Для обраного постачальника не задано ключ API, тому на пошук місць відповідають лише індекс TREK і OpenStreetMap.',
+    'Для обраного постачальника не задано ключ API, тому на пошук місць відповідають лише індекс Manzil і OpenStreetMap.',
   'admin.placesProvider.saved': 'Постачальника пошуку місць збережено',
   'admin.validateKey': 'Перевірити',
   'admin.keyValid': 'Підключено',
@@ -228,14 +228,14 @@ const admin: TranslationStrings = {
     'Показує зображення та опис під час додавання місця. Wikipedia та OpenStreetMap використовуються завжди; Google додається, якщо ввімкнено «Фото місць» або «Деталі місць».',
   'admin.placesGoogleOnly.title': 'Шукати лише через Google',
   'admin.placesGoogleOnly.subtitle':
-    'Кожен пошук і кожна підказка йдуть до Google Places. Вимкнено: спершу відповідають індекс TREK та OpenStreetMap, Google запитується лише тоді, коли вони нічого не знайшли.',
+    'Кожен пошук і кожна підказка йдуть до Google Places. Вимкнено: спершу відповідають індекс Manzil та OpenStreetMap, Google запитується лише тоді, коли вони нічого не знайшли.',
   'admin.placesGoogleOnly.missingKey':
-    'Потрібен ключ Google Maps API. Без нього пошук іде через індекс TREK та OpenStreetMap незалежно від цього перемикача.',
+    'Потрібен ключ Google Maps API. Без нього пошук іде через індекс Manzil та OpenStreetMap незалежно від цього перемикача.',
   'admin.placesGoogleOnly.otherProvider':
     'Потрібен Google як постачальник місць. Якщо вибрано Amap або OpenStreetMap, жоден пошук не йде до Google, хай як стоїть цей перемикач.',
   'admin.googleQuota.title': 'Денний ліміт запитів до Google',
   'admin.googleQuota.subtitle':
-    'Коли ліміт вичерпано, TREK не звертається до Google до наступного дня (UTC) і шукає через OpenStreetMap. Порожньо означає без ліміту.',
+    'Коли ліміт вичерпано, Manzil не звертається до Google до наступного дня (UTC) і шукає через OpenStreetMap. Порожньо означає без ліміту.',
   'admin.googleQuota.placeholder': 'Без ліміту',
   'admin.googleQuota.usedToday': 'Сьогодні: {used}',
   'admin.googleQuota.usedOfLimit': 'Сьогодні: {used} з {limit}',
@@ -386,7 +386,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sourceRepo': 'Репозиторій вихідного коду',
   'admin.plugins.reportIssue': 'Повідомити про проблему',
   'admin.plugins.homepage': 'Домашня сторінка',
-  'admin.plugins.requiresTrek': 'Потрібен TREK {version}+',
+  'admin.plugins.requiresTrek': 'Потрібен Manzil {version}+',
   'admin.plugins.reviewedOn': 'Перевірено {date}',
   'admin.plugins.perm.db:own': 'Зберігати власні дані в ізольованій базі даних',
   'admin.plugins.perm.db:read:trips': 'Читати подорожі, до яких має доступ поточний користувач',
@@ -456,7 +456,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:calendar-source': 'Надавати події для календаря',
   'admin.plugins.perm.hook:place-detail-provider': 'Додавати додаткові деталі (відгуки, оцінки, посилання) до місця',
   'admin.plugins.perm.hook:search-provider':
-    'Відповідати на пошук місць із власного індексу, поряд із результатами TREK',
+    'Відповідати на пошук місць із власного індексу, поряд із результатами Manzil',
   'admin.plugins.perm.hook:poi-category-provider':
     'Додавати власні категорії місць до «Досліджуйте місця на карті»; коли ви обираєте одну з них, розширення отримує область карти, яку ви переглядаєте',
   'admin.plugins.perm.hook:trip-warning-provider':
@@ -478,7 +478,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.mcp:tools':
     'Публікувати інструменти, які ШІ-асистент може запускати від вашого імені (він діє з правами, наданими плаґіну тут, а не зі своїми)',
   'admin.plugins.perm.geolocation:read':
-    'Запитувати ваше місцезнаходження в реальному часі, поки відкрито одне з його подань (TREK зчитує його з дозволом на геолокацію для цього сайту, а не з окремим дозволом розширення)',
+    'Запитувати ваше місцезнаходження в реальному часі, поки відкрито одне з його подань (Manzil зчитує його з дозволом на геолокацію для цього сайту, а не з окремим дозволом розширення)',
   'admin.plugins.perm.hook:pdf-section-provider': 'Додавати текстові розділи до PDF-експорту подорожі',
   'admin.plugins.perm.hook:atlas-layer-provider':
     'Виділяти країни на карті світу в Атласі (наприклад, списки бажань або попередження для мандрівників)',
@@ -507,26 +507,26 @@ const admin: TranslationStrings = {
   'admin.plugins.updateLater': 'Поки що залишити вимкненим',
   'admin.plugins.updateKeptOff': 'Оновлення встановлено — залишено вимкненим, доки ви не схвалите нові дозволи',
   'admin.plugins.reviewedMeaning':
-    '«Перевірено» означає, що супроводжувач TREK перевіряв цей плагін на наявність шкідливого коду в кожній версії — а не на якість чи працездатність. Це не гарантія того, що плагін безпечний.',
+    '«Перевірено» означає, що супроводжувач Manzil перевіряв цей плагін на наявність шкідливого коду в кожній версії — а не на якість чи працездатність. Це не гарантія того, що плагін безпечний.',
   'admin.plugins.security.title': 'Як обмежуються плагіни — і де їхні межі',
   'admin.plugins.security.isolationTitle': 'Кожен плагін працює в ізоляції',
   'admin.plugins.security.isolationBody':
-    'Плагін працює як власний ізольований процес, який може читати лише свої власні файли. Він не може читати вашу базу даних, ваш секрет входу чи ваш ключ шифрування, не може запускати інші програми та не може записувати файли будь-де. Його інтерфейс працює в ізольованому фреймі браузера, який не може читати ваш файл cookie сеансу чи торкатися сторінки TREK навколо нього.',
+    'Плагін працює як власний ізольований процес, який може читати лише свої власні файли. Він не може читати вашу базу даних, ваш секрет входу чи ваш ключ шифрування, не може запускати інші програми та не може записувати файли будь-де. Його інтерфейс працює в ізольованому фреймі браузера, який не може читати ваш файл cookie сеансу чи торкатися сторінки Manzil навколо нього.',
   'admin.plugins.security.permsTitle': 'Що означають дозволи',
   'admin.plugins.security.permsBody':
-    'Дозволи, показані перед встановленням, — це жорстке обмеження, яке TREK застосовує під час роботи плагіна: він буквально не може зробити нічого, чого немає у списку. Але вони говорять, що плагін може робити, а не що він насправді робить. Плагін, якому дозволено читати ваші подорожі та звертатися до сервера, може надіслати ваші подорожі на цей сервер, тож читайте дозволи та вихідні хости, а не лише опис.',
+    'Дозволи, показані перед встановленням, — це жорстке обмеження, яке Manzil застосовує під час роботи плагіна: він буквально не може зробити нічого, чого немає у списку. Але вони говорять, що плагін може робити, а не що він насправді робить. Плагін, якому дозволено читати ваші подорожі та звертатися до сервера, може надіслати ваші подорожі на цей сервер, тож читайте дозволи та вихідні хости, а не лише опис.',
   'admin.plugins.security.limitsTitle': 'Чого ми не можемо обіцяти',
   'admin.plugins.security.limitsBody':
-    'Ізоляція — це надійна програмна межа, але не абсолютна. Плагін діє рівно з тими правами, які ви схвалили, тож у межах цих прав він може поводитися інакше, ніж описано, і може надсилати дані, якими законно володіє, на заявлені ним хости. TREK не читає й не оцінює, що насправді робить код плагіна.',
+    'Ізоляція — це надійна програмна межа, але не абсолютна. Плагін діє рівно з тими правами, які ви схвалили, тож у межах цих прав він може поводитися інакше, ніж описано, і може надсилати дані, якими законно володіє, на заявлені ним хости. Manzil не читає й не оцінює, що насправді робить код плагіна.',
   'admin.plugins.security.worstTitle': 'Найгірший випадок',
   'admin.plugins.security.worstBody':
     'Шкідливий плагін, який ви увімкнули, може зловживати даними та підключеннями, які ви йому надали, — наприклад, розкрити подорожі, які йому дозволено читати. Він не може викрасти паролі, підробити вхід адміністратора, виконувати команди на вашому сервері чи отримати доступ до даних, яких ви не надали. Шкода залишається в межах того, що ви схвалили, а вимкнення плагіна зупиняє її.',
   'admin.plugins.security.reviewedTitle': 'Що означає «Перевірено»',
   'admin.plugins.security.reviewedBody':
-    'Перевірений плагін вручну сканував супроводжувач TREK на наявність шкідливого коду в кожній версії — перевіряли на ворожий код, а не на те, чи добре він працює. Це не обіцянка, що плагін безпечний.',
+    'Перевірений плагін вручну сканував супроводжувач Manzil на наявність шкідливого коду в кожній версії — перевіряли на ворожий код, а не на те, чи добре він працює. Це не обіцянка, що плагін безпечний.',
   'admin.plugins.security.signedTitle': 'Що означає «Підписано»',
   'admin.plugins.security.signedBody':
-    'Контрольна сума, яку TREK перевіряє під час кожного встановлення, доводить, що файли — це саме те, за що ручається реєстр. Підпис доводить інше: що вони походять від автора й підписані ключем, який є лише в нього. Підписаний плагін має і те, і те. Плагін без підпису не є небезпечним — він просто дає на одну гарантію менше, і сьогодні більшість плагінів у реєстрі не підписані.',
+    'Контрольна сума, яку Manzil перевіряє під час кожного встановлення, доводить, що файли — це саме те, за що ручається реєстр. Підпис доводить інше: що вони походять від автора й підписані ключем, який є лише в нього. Підписаний плагін має і те, і те. Плагін без підпису не є небезпечним — він просто дає на одну гарантію менше, і сьогодні більшість плагінів у реєстрі не підписані.',
   'admin.plugins.signed': 'Підписано',
   'admin.plugins.signedHint': 'Під час встановлення перевірено за ключем підпису автора',
   'admin.plugins.unsigned': 'Без підпису',
@@ -541,20 +541,20 @@ const admin: TranslationStrings = {
   'admin.plugins.sig.invalidBody':
     'Файли не відповідають підпису автора. Це не те, що підписав автор — їх або пошкоджено, або підмінено. Це не можна обійти.',
   'admin.plugins.sig.missingBody':
-    'Цей плагін був підписаний, коли ви його встановлювали, але нова версія не має підпису. TREK не прийме таке пониження мовчки. Це не можна обійти.',
+    'Цей плагін був підписаний, коли ви його встановлювали, але нова версія не має підпису. Manzil не прийме таке пониження мовчки. Це не можна обійти.',
   'admin.plugins.sig.incompleteBody':
     'Запис у реєстрі підписаний наполовину: він оголошує ключ автора, але версія не має підпису (або навпаки). Це помилка на боці плагіна. Це не можна обійти.',
   'admin.plugins.sig.pinnedKey': 'Ключ, з яким його встановлено',
   'admin.plugins.sig.newKey': 'Ключ, який він пропонує зараз',
   'admin.plugins.sig.confirmOutOfBand':
-    'TREK не може відрізнити законну зміну ключа від захоплення — звідси вони виглядають однаково. Перш ніж прийняти новий ключ, підтвердьте його в автора через канал, якому ви вже довіряєте. Щойно ви це зробите, плагін буде оновлено, а новий ключ — збережено.',
+    'Manzil не може відрізнити законну зміну ключа від захоплення — звідси вони виглядають однаково. Перш ніж прийняти новий ключ, підтвердьте його в автора через канал, якому ви вже довіряєте. Щойно ви це зробите, плагін буде оновлено, а новий ключ — збережено.',
   'admin.plugins.sig.retrustConfirm': 'Довіряти новому ключу й оновити',
   'admin.plugins.sig.cancel': 'Не довіряти',
   'admin.plugins.sig.consentUnsigned':
     "Ніщо не пов'язує цю версію з її автором — файли збігаються з реєстром, але не мають підпису автора.",
   'admin.plugins.security.trustTitle': 'Підсумок',
   'admin.plugins.security.trustBody':
-    'Встановлення плагіна — це те саме, що встановлення будь-якого стороннього застосунку: додавайте лише код від авторів, яким довіряєте, а в разі сумнівів спершу перевірте його самостійно. TREK не несе відповідальності за сторонні плагіни.',
+    'Встановлення плагіна — це те саме, що встановлення будь-якого стороннього застосунку: додавайте лише код від авторів, яким довіряєте, а в разі сумнівів спершу перевірте його самостійно. Manzil не несе відповідальності за сторонні плагіни.',
   'admin.plugins.runtimeOn': 'Середовище виконання ввімкнено',
   'admin.plugins.tabDiscover': 'Огляд',
   'admin.plugins.searchPlaceholder': 'Пошук плагінів…',
@@ -573,11 +573,11 @@ const admin: TranslationStrings = {
   'admin.plugins.updatesAvailable.one': 'Для ваших плагінів доступне {count} оновлення.',
   'admin.plugins.updatesAvailable.few': 'Для ваших плагінів доступні {count} оновлення.',
   'admin.plugins.updatesAvailable.many': 'Для ваших плагінів доступно {count} оновлень.',
-  'admin.plugins.newerNeedsTrek': 'Доступна v{version} — потрібен TREK {range}',
+  'admin.plugins.newerNeedsTrek': 'Доступна v{version} — потрібен Manzil {range}',
   'admin.plugins.versionsTitle': 'Версії',
   'admin.plugins.versionPickerTitle': 'Змінити версію — {name}',
   'admin.plugins.versionSwitch': 'Перейти на {version}',
-  'admin.plugins.versionNeedsTrek': 'потрібен TREK {range}',
+  'admin.plugins.versionNeedsTrek': 'потрібен Manzil {range}',
   'admin.plugins.changeVersion': 'Змінити версію…',
   'admin.plugins.noVersions': 'У реєстрі не знайдено опублікованих версій.',
   'admin.plugins.downgradeTitle': 'Відкотити цей плагін?',
@@ -648,30 +648,30 @@ const admin: TranslationStrings = {
   'admin.plugins.dep.download': 'Завантажити',
   'admin.plugins.dep.update': 'Оновити',
   'admin.plugins.dep.resolveHint': 'Завантажує останню сумісну версію разом з її залежностями.',
-  'admin.plugins.dep.trekIncompatible': 'Потрібен TREK {range} — на цьому сервері {host}',
-  'admin.plugins.dep.trekUnknown': 'Не вказано, які версії TREK підтримуються',
+  'admin.plugins.dep.trekIncompatible': 'Потрібен Manzil {range} — на цьому сервері {host}',
+  'admin.plugins.dep.trekUnknown': 'Не вказано, які версії Manzil підтримуються',
   'admin.plugins.installCompatible': 'Встановити {version}',
   'admin.plugins.installAnyway': 'Усе одно встановити',
   'admin.plugins.rangeBypass.pill': 'Перевірки версії вимкнено',
   'admin.plugins.rangeBypass.pillHint':
-    'Задано TREK_PLUGINS_IGNORE_TREK_RANGE — плагіни можна встановлювати та запускати поза версіями TREK, вказаними їхніми авторами',
-  'admin.plugins.rangeBypass.title': 'Поза підтримуваними версіями TREK',
-  'admin.plugins.rangeBypass.noticeTitle': 'Встановлено поза підтримуваними версіями TREK',
+    'Задано TREK_PLUGINS_IGNORE_TREK_RANGE — плагіни можна встановлювати та запускати поза версіями Manzil, вказаними їхніми авторами',
+  'admin.plugins.rangeBypass.title': 'Поза підтримуваними версіями Manzil',
+  'admin.plugins.rangeBypass.noticeTitle': 'Встановлено поза підтримуваними версіями Manzil',
   'admin.plugins.rangeBypass.body':
-    '«{name}» заявляє підтримку TREK {range}, а цей сервер працює на {host}. TREK пропускає його лише тому, що задано TREK_PLUGINS_IGNORE_TREK_RANGE. Автор не оновив діапазон версій плагіна для цього TREK, тож працездатність не гарантується — а в рідкісних випадках несумісний плагін може пошкодити дані TREK. Продовжуйте, лише якщо приймаєте цей ризик.',
+    '«{name}» заявляє підтримку Manzil {range}, а цей сервер працює на {host}. Manzil пропускає його лише тому, що задано TREK_PLUGINS_IGNORE_TREK_RANGE. Автор не оновив діапазон версій плагіна для цього Manzil, тож працездатність не гарантується — а в рідкісних випадках несумісний плагін може пошкодити дані Manzil. Продовжуйте, лише якщо приймаєте цей ризик.',
   'admin.plugins.rangeBypass.bodyUnknown':
-    '«{name}» не вказує, які версії TREK він підтримує; цей сервер працює на {host}. TREK пропускає його лише тому, що задано TREK_PLUGINS_IGNORE_TREK_RANGE. Ніщо не свідчить, що автор тестував його на цьому TREK, тож працездатність не гарантується — а в рідкісних випадках несумісний плагін може пошкодити дані TREK. Продовжуйте, лише якщо приймаєте цей ризик.',
-  'admin.plugins.dep.trekBypassed': 'Поза своїм діапазоном TREK ({range}) — перевірки версії вимкнено',
-  'admin.plugins.dep.trekBypassedUnknown': 'Діапазон TREK не вказано — перевірки версії вимкнено',
-  'admin.plugins.rangeBypass.titleAdmin': 'Не перевірено на цьому TREK',
+    '«{name}» не вказує, які версії Manzil він підтримує; цей сервер працює на {host}. Manzil пропускає його лише тому, що задано TREK_PLUGINS_IGNORE_TREK_RANGE. Ніщо не свідчить, що автор тестував його на цьому Manzil, тож працездатність не гарантується — а в рідкісних випадках несумісний плагін може пошкодити дані Manzil. Продовжуйте, лише якщо приймаєте цей ризик.',
+  'admin.plugins.dep.trekBypassed': 'Поза своїм діапазоном Manzil ({range}) — перевірки версії вимкнено',
+  'admin.plugins.dep.trekBypassedUnknown': 'Діапазон Manzil не вказано — перевірки версії вимкнено',
+  'admin.plugins.rangeBypass.titleAdmin': 'Не перевірено на цьому Manzil',
   'admin.plugins.rangeBypass.bodyAdmin':
-    'За словами автора, «{name}» підтримує TREK {range}, а на цьому сервері працює {host}. Автор ще не підтвердив його для цього TREK, тож він може не працювати, а в рідкісних випадках невідповідний плагін може пошкодити дані TREK. Ви все одно можете ним користуватися: ваше рішення діє лише для цього плагіна в цій версії, після оновлення TREK запитає знову.',
+    'За словами автора, «{name}» підтримує Manzil {range}, а на цьому сервері працює {host}. Автор ще не підтвердив його для цього Manzil, тож він може не працювати, а в рідкісних випадках невідповідний плагін може пошкодити дані Manzil. Ви все одно можете ним користуватися: ваше рішення діє лише для цього плагіна в цій версії, після оновлення Manzil запитає знову.',
   'admin.plugins.rangeBypass.bodyAdminUnknown':
-    '«{name}» не вказує, які версії TREK підтримує, а на цьому сервері працює {host}. Ніщо не вказує на те, що його перевіряли на цьому TREK, тож він може не працювати, а в рідкісних випадках невідповідний плагін може пошкодити дані TREK. Ви все одно можете ним користуватися: ваше рішення діє лише для цього плагіна в цій версії, після оновлення TREK запитає знову.',
-  'admin.plugins.dep.trekAccepted': 'Створено для TREK {range}, працює на ваш ризик',
-  'admin.plugins.dep.trekAcceptedUnknown': 'Версію TREK не вказано, працює на ваш ризик',
+    '«{name}» не вказує, які версії Manzil підтримує, а на цьому сервері працює {host}. Ніщо не вказує на те, що його перевіряли на цьому Manzil, тож він може не працювати, а в рідкісних випадках невідповідний плагін може пошкодити дані Manzil. Ви все одно можете ним користуватися: ваше рішення діє лише для цього плагіна в цій версії, після оновлення Manzil запитає знову.',
+  'admin.plugins.dep.trekAccepted': 'Створено для Manzil {range}, працює на ваш ризик',
+  'admin.plugins.dep.trekAcceptedUnknown': 'Версію Manzil не вказано, працює на ваш ризик',
   'admin.plugins.activateAnyway': 'Однаково увімкнути',
-  'admin.plugins.untestedChip': 'Ще не підтверджено для TREK {host}',
+  'admin.plugins.untestedChip': 'Ще не підтверджено для Manzil {host}',
   'admin.plugins.filters': 'Фільтр',
   'admin.plugins.security.short': 'Як захищені плагіни',
   'admin.plugins.accessTitle': 'До чого має доступ',
@@ -684,7 +684,7 @@ const admin: TranslationStrings = {
   'admin.plugins.metaReviewed': 'Перевірено',
   'admin.plugins.downloads': 'Завантаження',
   'admin.addons.title': 'Доповнення',
-  'admin.addons.subtitle': 'Увімкніть або вимкніть функції, щоб налаштувати TREK під себе.',
+  'admin.addons.subtitle': 'Увімкніть або вимкніть функції, щоб налаштувати Manzil під себе.',
   'admin.addons.catalog.memories.name': 'Фото (Immich)',
   'admin.addons.catalog.memories.description': 'Діліться фотографіями з подорожей через Immich',
   'admin.addons.catalog.mcp.name': 'MCP',
@@ -768,7 +768,7 @@ const admin: TranslationStrings = {
   'admin.weather.title': 'Дані про погоду',
   'admin.weather.badge': 'З 24 березня 2026',
   'admin.weather.description':
-    'TREK використовує Open-Meteo як джерело даних про погоду. Open-Meteo — безкоштовний сервіс з відкритим кодом, API-ключ не потрібен.',
+    'Manzil використовує Open-Meteo як джерело даних про погоду. Open-Meteo — безкоштовний сервіс з відкритим кодом, API-ключ не потрібен.',
   'admin.weather.forecast': 'Прогноз на 16 днів',
   'admin.weather.forecastDesc': 'Раніше 5 днів (OpenWeatherMap)',
   'admin.weather.climate': 'Історичні кліматичні дані',
@@ -827,15 +827,15 @@ const admin: TranslationStrings = {
   'admin.github.hideDetails': 'Сховати деталі',
   'admin.github.loadMore': 'Завантажити ще',
   'admin.github.loading': 'Завантаження...',
-  'admin.github.support': 'Допомагає продовжувати розробку TREK',
+  'admin.github.support': 'Допомагає продовжувати розробку Manzil',
   'admin.github.error': 'Не вдалося завантажити релізи',
   'admin.github.by': 'від',
   'admin.update.available': 'Доступне оновлення',
-  'admin.update.text': 'Доступна версія TREK {version}. У вас встановлено {current}.',
+  'admin.update.text': 'Доступна версія Manzil {version}. У вас встановлено {current}.',
   'admin.update.button': 'Переглянути на GitHub',
   'admin.update.install': 'Встановити оновлення',
   'admin.update.confirmTitle': 'Встановити оновлення?',
-  'admin.update.confirmText': 'TREK буде оновлено з {current} до {version}. Сервер перезапуститься автоматично.',
+  'admin.update.confirmText': 'Manzil буде оновлено з {current} до {version}. Сервер перезапуститься автоматично.',
   'admin.update.dataInfo':
     'Усі ваші дані (поїздки, користувачі, API-ключі, завантаження, Vacay, Atlas, бюджети) будуть збережені.',
   'admin.update.warning': 'Застосунок буде тимчасово недоступний під час перезапуску.',
@@ -847,9 +847,9 @@ const admin: TranslationStrings = {
   'admin.update.backupLink': 'Перейти до резервних копій',
   'admin.update.howTo': 'Як оновити',
   'admin.update.dockerText':
-    'Ваш екземпляр TREK працює в Docker. Для оновлення до {version} виконайте ці команди на сервері:',
+    'Ваш екземпляр Manzil працює в Docker. Для оновлення до {version} виконайте ці команди на сервері:',
   'admin.update.nonDockerText':
-    'Цей екземпляр TREK не працює в Docker. Щоб оновити до {version}, повторно запустіть метод встановлення або оновлення, який ви використовували, — наприклад, у Proxmox Community Scripts запустіть оновлення з консолі LXC:',
+    'Цей екземпляр Manzil не працює в Docker. Щоб оновити до {version}, повторно запустіть метод встановлення або оновлення, який ви використовували, — наприклад, у Proxmox Community Scripts запустіть оновлення з консолі LXC:',
   'admin.update.wikiLink': 'Відкрити інструкцію з оновлення',
   'admin.update.reloadHint': 'Перезавантажте сторінку через кілька секунд.',
   'admin.tabs.permissions': 'Дозволи',
@@ -857,7 +857,7 @@ const admin: TranslationStrings = {
   'admin.notifications.webhookPanel.title': 'Webhook',
   'admin.notifications.webPushPanel.title': 'Web Push',
   'admin.notifications.webPushPanel.hint':
-    'Дозволяє користувачам отримувати сповіщення на телефонах і комп’ютерах через браузер, навіть коли TREK закрито. Потрібен HTTPS; на iPhone та iPad TREK треба додати на початковий екран.',
+    'Дозволяє користувачам отримувати сповіщення на телефонах і комп’ютерах через браузер, навіть коли Manzil закрито. Потрібен HTTPS; на iPhone та iPad Manzil треба додати на початковий екран.',
   'admin.notifications.inappPanel.title': 'In-App',
   'admin.notifications.inappPanel.hint': 'Сповіщення в додатку завжди активні і не можуть бути вимкнені глобально.',
   'admin.notifications.adminWebhookPanel.title': 'Webhook адміністратора',
@@ -989,7 +989,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.catalogUnavailable': 'Geofabrik зараз недоступний. Спробуйте пізніше.',
   'admin.paddleRegions.attribution':
     'Дані © учасники OpenStreetMap (ODbL), регіональні вибірки від Geofabrik. Зчитуються наново 3-го числа кожного місяця.',
-  'admin.paddleRegions.toast.added': 'Регіон додано. TREK зчитує його у фоновому режимі.',
+  'admin.paddleRegions.toast.added': 'Регіон додано. Manzil зчитує його у фоновому режимі.',
   'admin.paddleRegions.toast.removed': 'Регіон видалено',
   'admin.paddleRegions.objects.few': '{count} об’єкти',
   'admin.paddleRegions.objects.many': '{count} об’єктів',
@@ -1023,11 +1023,11 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.auto.mode.ask': 'За запитом',
   'admin.paddleRegions.auto.mode.off': 'Вимкнено',
   'admin.paddleRegions.auto.modeHint.auto':
-    'Коли хтось планує сплав там, де ще немає даних про воду, TREK одразу завантажує найменший відповідний регіон, у межах ліміту розміру й лише кілька на день. Більші чекають тут як запит. До Geofabrik іде лише назва регіону, ніколи не місце.',
+    'Коли хтось планує сплав там, де ще немає даних про воду, Manzil одразу завантажує найменший відповідний регіон, у межах ліміту розміру й лише кілька на день. Більші чекають тут як запит. До Geofabrik іде лише назва регіону, ніколи не місце.',
   'admin.paddleRegions.auto.modeHint.ask':
     'Кожен новий регіон чекає тут, доки адміністратор його не дозволить. Якщо планує адміністратор, регіон завантажується одразу.',
   'admin.paddleRegions.auto.modeHint.off':
-    'TREK нічого не завантажує сам і нічого не запитує. Додавайте регіони тут вручну.',
+    'Manzil нічого не завантажує сам і нічого не запитує. Додавайте регіони тут вручну.',
   'admin.paddleRegions.auto.maxSize': 'Найбільший регіон для автозавантаження',
   'admin.paddleRegions.auto.maxSizeHint':
     'Більші регіони чекають тут як запит. Читання регіону триває кілька хвилин і весь цей час потребує пам’яті.',
@@ -1040,7 +1040,7 @@ const admin: TranslationStrings = {
   'admin.paddleRegions.requests.approve': 'Завантажити',
   'admin.paddleRegions.requests.decline': 'Відхилити',
   'admin.paddleRegions.origin.auto': 'Автоматично',
-  'admin.paddleRegions.origin.autoHint': 'TREK завантажив цей регіон сам для сплаву, який там планується.',
+  'admin.paddleRegions.origin.autoHint': 'Manzil завантажив цей регіон сам для сплаву, який там планується.',
   'admin.mfa.reset': 'Скинути 2FA',
   'admin.mfa.resetHint':
     'Вимикає двофакторну автентифікацію користувача, наприклад після втрати телефона. Його буде виведено з акаунта всюди, а після входу з паролем він зможе налаштувати її знову.',
@@ -1075,7 +1075,7 @@ const admin: TranslationStrings = {
   'admin.rotateJwt.button': 'Оновити',
   'admin.addons.ai.name': 'ШІ',
   'admin.addons.ai.description':
-    'Одне підключення для асистента й імпорту бронювань. MCP дає іншим ШІ-застосункам працювати з TREK.',
+    'Одне підключення для асистента й імпорту бронювань. MCP дає іншим ШІ-застосункам працювати з Manzil.',
   'admin.addons.ai.setup': 'Налаштувати ШІ',
   'admin.addons.ai.dialogSub': 'Підключення, спільне для асистента й ШІ-розбору, і що може кожен із них.',
   'admin.addons.ai.tab.connection': 'Підключення',
@@ -1105,16 +1105,16 @@ const admin: TranslationStrings = {
   'admin.contribute.status.off': 'Вимкнено',
   'admin.contribute.status.unavailable': 'Недоступно',
   'admin.contribute.noteActive':
-    'Те, що ваші користувачі вводять про місця, після перевірки потрапляє до кожного TREK. Дякуємо за допомогу.',
+    'Те, що ваші користувачі вводять про місця, після перевірки потрапляє до кожного Manzil. Дякуємо за допомогу.',
   'admin.contribute.noteOff':
     'Нехай те, що ваші користувачі вводять про місця, зробить TREK Places API кращим для всіх.',
   'admin.contribute.ineligible.env_off': 'Вимкнено для цієї інсталяції через TREK_PLACES_CONTRIBUTE.',
   'admin.contribute.ineligible.not_production': 'Передавати дані про місця може лише робоча інсталяція.',
   'admin.contribute.ineligible.demo': 'Демо-інсталяція не передає дані про місця.',
-  'admin.contribute.ineligible.index_off': 'Для передачі потрібен індекс TREK як джерело місць.',
+  'admin.contribute.ineligible.index_off': 'Для передачі потрібен індекс Manzil як джерело місць.',
   'admin.contribute.ineligible.custom_places_url':
     'Ця інсталяція використовує власний Places API, тож передавати дані нікуди.',
-  'admin.contribute.ineligible.services_off': 'Сервіси TREK для цієї інсталяції вимкнено.',
+  'admin.contribute.ineligible.services_off': 'Сервіси Manzil для цієї інсталяції вимкнено.',
   'admin.contribute.ineligible.no_key': 'Ця інсталяція ще не має ключа сервісів. Його запитують автоматично.',
   'admin.contribute.pause.key_invalid': 'Призупинено: сервіс не прийняв ключ цієї інсталяції.',
   'admin.contribute.pause.key_refused':
@@ -1158,9 +1158,9 @@ const admin: TranslationStrings = {
   'admin.contribute.offConfirm': 'Припинити передачу',
   'admin.contribute.refused.terms_outdated': 'Умови за цей час змінилися. Будь ласка, перегляньте їх ще раз.',
   'admin.contribute.refused.no_field': 'Виберіть принаймні одне поле для передачі.',
-  'admin.contribute.prompt.title': 'Допоможіть кожному TREK краще знати місця',
+  'admin.contribute.prompt.title': 'Допоможіть кожному Manzil краще знати місця',
   'admin.contribute.prompt.lead':
-    'Коли хтось у вас додає до місця вебсайт, телефон, години роботи чи опис, TREK може передати це далі. Після перевірки це побачить кожна інсталяція TREK, а ви натомість отримаєте те, що додали інші.',
+    'Коли хтось у вас додає до місця вебсайт, телефон, години роботи чи опис, Manzil може передати це далі. Після перевірки це побачить кожна інсталяція Manzil, а ви натомість отримаєте те, що додали інші.',
   'admin.contribute.prompt.why':
     'TREK Places API безкоштовний і не потребує ключа Google, бо побудований на відкритих даних. Кожна передана вами деталь робить його кращим для тисяч мандрівників. Дякуємо, що ви з нами.',
   'admin.contribute.prompt.whatLabel': 'Що передається',
@@ -1183,6 +1183,6 @@ const admin: TranslationStrings = {
   'admin.contribute.prompt.thanks': 'Дякуємо. Дані про місця тепер передаються.',
   'admin.servicesCard.title': 'Пошук місць і маршрути',
   'admin.servicesCard.hint':
-    'Власні сервіси TREK, який постачальник відповідає на пошук і громадський транспорт, та журнал пошуку.',
+    'Власні сервіси Manzil, який постачальник відповідає на пошук і громадський транспорт, та журнал пошуку.',
 };
 export default admin;

@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const system_notice: TranslationStrings = {
   'system_notice.v3_photos.title': '写真の場所が3.0で変更されました',
   'system_notice.v3_photos.body':
-    '旅行プランナー内の写真は削除されましたが、写真データは安全です。TREKがImmichやSynologyのライブラリを変更することはありません。\n\n写真は現在日記アドオンにあります。日記は任意機能です。未有効の場合は、管理画面 → アドオンで有効にしてください。',
+    '旅行プランナー内の写真は削除されましたが、写真データは安全です。ManzilがImmichやSynologyのライブラリを変更することはありません。\n\n写真は現在日記アドオンにあります。日記は任意機能です。未有効の場合は、管理画面 → アドオンで有効にしてください。',
   'system_notice.v3_journey.title': '日記登場 — 旅の日記',
   'system_notice.v3_journey.body': 'タイムライン、写真ギャラリー、インタラクティブな地図で旅を物語に。',
   'system_notice.v3_journey.cta_label': '日記を開く',
@@ -30,18 +30,18 @@ const system_notice: TranslationStrings = {
   'system_notice.v3014_whitespace_collision.title': '対応が必要：ユーザーアカウントの競合',
   'system_notice.v3014_whitespace_collision.body':
     '3.0.14 へのアップグレードにより、保存されているアカウントの先頭または末尾の空白が原因で、ユーザー名またはメールアドレスの競合が1件以上検出されました。影響を受けたアカウントは自動的にリネームされています。対象となるアカウントを特定するには、サーバーログで **[migration] WHITESPACE COLLISION** で始まる行を確認してください。',
-  'system_notice.welcome_v1.title': 'TREKへようこそ',
+  'system_notice.welcome_v1.title': 'Manzilへようこそ',
   'system_notice.welcome_v1.body': 'オールインワンの旅行プランナー。旅程作成、共有、整理をオンライン・オフラインで。',
   'system_notice.welcome_v1.cta_label': '旅行を計画',
-  'system_notice.welcome_v1.hero_alt': 'TREKのUIが重なった風景写真',
+  'system_notice.welcome_v1.hero_alt': 'ManzilのUIが重なった風景写真',
   'system_notice.welcome_v1.highlight_plan': '日ごとの旅程作成',
   'system_notice.welcome_v1.highlight_share': '仲間と共同編集',
   'system_notice.welcome_v1.highlight_offline': 'モバイルでオフライン対応',
   'system_notice.dev_test_modal.title': '[Dev] テスト通知',
   'system_notice.dev_test_modal.body': 'これは開発用テスト通知です。',
-  'system_notice.thank_you_support.title': 'TREKを使ってくれてありがとう',
+  'system_notice.thank_you_support.title': 'Manzilを使ってくれてありがとう',
   'system_notice.thank_you_support.body':
-    'TREKをインストールしてくれて、ちょっとお礼を言わせてください。本当に、心から嬉しいです。\n\n私は一人で開発をしていて、TREKは空いた時間に作っています。もともとは自分の旅のためだけの小さなツールでしたが、それ以来コミュニティから寄せられる応援や関心に、正直なところ圧倒されています。TREKは私自身がたくさんの思いを込めて作っていますが、それと同時に、形づくるのを手伝ってくれた多くの素晴らしい外部コントリビューターのおかげでもあります。\n\n**TREKはオープンソースで、完全に無料です。そしてこれからもずっと変わりません。有料プランも、サブスクリプションも、隠れた仕掛けも、一切ありません。約束します。**\n\nもしTREKがあなたの役に立っていて、開発を応援したいと思ってもらえたなら、ちょっとしたコーヒー一杯が、これからも作り続ける本当の支えになります。まったく無理はしないでください。でも一杯ごとに、夜なべの作業が続けられます。\n\nここにいてくれて、ありがとう。\n\n— Maurice',
+    'Manzilをインストールしてくれて、ちょっとお礼を言わせてください。本当に、心から嬉しいです。\n\n私は一人で開発をしていて、Manzilは空いた時間に作っています。もともとは自分の旅のためだけの小さなツールでしたが、それ以来コミュニティから寄せられる応援や関心に、正直なところ圧倒されています。Manzilは私自身がたくさんの思いを込めて作っていますが、それと同時に、形づくるのを手伝ってくれた多くの素晴らしい外部コントリビューターのおかげでもあります。\n\n**Manzilはオープンソースで、完全に無料です。そしてこれからもずっと変わりません。有料プランも、サブスクリプションも、隠れた仕掛けも、一切ありません。約束します。**\n\nもしManzilがあなたの役に立っていて、開発を応援したいと思ってもらえたなら、ちょっとしたコーヒー一杯が、これからも作り続ける本当の支えになります。まったく無理はしないでください。でも一杯ごとに、夜なべの作業が続けられます。\n\nここにいてくれて、ありがとう。\n\n— Maurice',
   'system_notice.thank_you_support.highlight_opensource': 'GitHubで100%オープンソース',
   'system_notice.thank_you_support.highlight_free': '永久に無料 — 有料プランは一切なし',
   'system_notice.thank_you_support.highlight_community': 'コミュニティと一緒に作っています',
@@ -55,7 +55,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.eyebrow': 'アップデート完了',
   'system_notice.release_notes.headline': '正しい場所を、いちばんに。',
   'system_notice.release_notes.intro':
-    '場所の検索、住所の検索、ルート計算が、dataforest cloud の協賛のもと TREK 自身のサーバーで動くようになりました。さらに、どの TREK も場所について知っていることを、ほかのすべての TREK と共有できます。',
+    '場所の検索、住所の検索、ルート計算が、dataforest cloud の協賛のもと Manzil 自身のサーバーで動くようになりました。さらに、どの Manzil も場所について知っていることを、ほかのすべての Manzil と共有できます。',
   'system_notice.release_notes.features_label': '今回の目玉',
   'system_notice.release_notes.features_aside': 'ほんの一部です',
   'system_notice.release_notes.feature_search_title': 'ちゃんと見つかる場所検索',
@@ -63,18 +63,18 @@ const system_notice: TranslationStrings = {
     '都市、島、名所、そしてコードで探す空港が最初に並び、カフェはあなたの周辺から見つかります。候補は入力しているそばから表示されます。',
   'system_notice.release_notes.feature_share_title': '場所の詳細を、みんなで',
   'system_notice.release_notes.feature_share_body':
-    'ウェブサイト、営業時間、写真を項目ごとにすべての TREK と共有できます。保存した場所には、ほかの人が追加した情報が自動で反映されます。',
+    'ウェブサイト、営業時間、写真を項目ごとにすべての Manzil と共有できます。保存した場所には、ほかの人が追加した情報が自動で反映されます。',
   'system_notice.release_notes.feature_routing_title': 'もっと速いルート計算',
   'system_notice.release_notes.feature_routing_body':
     '最大 20 か所の立ち寄り先がある一日も、まとめて一度にルート計算。遅いルートが一つあっても、ほかを待たせません。公共交通は、最初のプロバイダーで見つからなければ別のプロバイダーにも問い合わせます。',
-  'system_notice.release_notes.footnote': 'ほかにも、TREKのあちこちに細かな変更がたくさん入っています。',
+  'system_notice.release_notes.footnote': 'ほかにも、Manzilのあちこちに細かな変更がたくさん入っています。',
   'system_notice.release_notes.notes_label': 'リリースノート',
   'system_notice.release_notes.note_eyebrow': '開発者より',
-  'system_notice.release_notes.note_title': 'あなたがいるから、TREKを作り続けています。',
+  'system_notice.release_notes.note_title': 'あなたがいるから、Manzilを作り続けています。',
   'system_notice.release_notes.note_body':
-    'TREKは、自分の旅のための小さなツールとして始まりました。もっといい計画の立て方が欲しくて、仕事のあとに書いたものです。それからずっと、大きくなり続けてきました。いま使っていただいている機能のほとんどは、本業のかたわら、深夜や週末、電車の中で作ったものです。こんなもの、誰かが開いてくれる日は来るのだろうか。そうひとりで考えた夜も、何度もありました。',
+    'Manzilは、自分の旅のための小さなツールとして始まりました。もっといい計画の立て方が欲しくて、仕事のあとに書いたものです。それからずっと、大きくなり続けてきました。いま使っていただいている機能のほとんどは、本業のかたわら、深夜や週末、電車の中で作ったものです。こんなもの、誰かが開いてくれる日は来るのだろうか。そうひとりで考えた夜も、何度もありました。',
   'system_notice.release_notes.promise_label': '約束',
-  'system_notice.release_notes.promise_lead': 'TREKは、ずっと無料です。',
+  'system_notice.release_notes.promise_lead': 'Manzilは、ずっと無料です。',
   'system_notice.release_notes.promise_text':
     'すべての機能も、すべてのアップデートも、すべての人に。有料プランも、サブスクも、隠れた仕掛けもありません。',
   'system_notice.release_notes.note_body_after':
@@ -83,7 +83,7 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': '独立したままで',
   'system_notice.release_notes.support_lead': 'Google などに頼らずに。',
   'system_notice.release_notes.support_text':
-    '場所の検索、住所の検索、ルート計算は TREK 自身のサーバーで動いていて、今は dataforest cloud に協賛してもらっています。私はそのために毎日奮闘しています。この形を守り続けるには、あなたの応援が必要です。',
+    '場所の検索、住所の検索、ルート計算は Manzil 自身のサーバーで動いていて、今は dataforest cloud に協賛してもらっています。私はそのために毎日奮闘しています。この形を守り続けるには、あなたの応援が必要です。',
   'system_notice.release_notes.cta_bmc': 'コーヒーをおごる',
   'system_notice.release_notes.cta_kofi': 'Ko-fiで応援する',
 };

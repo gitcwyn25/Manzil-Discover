@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Inloggen…',
   'login.signIn': 'Inloggen',
   'login.createAdmin': 'Beheerdersaccount aanmaken',
-  'login.createAdminHint': 'Stel het eerste beheerdersaccount in voor TREK.',
+  'login.createAdminHint': 'Stel het eerste beheerdersaccount in voor Manzil.',
   'login.setNewPassword': 'Nieuw wachtwoord instellen',
   'login.setNewPasswordHint': 'U moet uw wachtwoord wijzigen voordat u verder kunt gaan.',
   'login.createAccount': 'Account aanmaken',
@@ -76,7 +76,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Inloggen met passkey mislukt. Probeer het opnieuw.',
   'login.insecureCookie.title': 'Inloggen blijft niet behouden via HTTP',
   'login.insecureCookie.body':
-    'Je verbindt via gewoon HTTP, dus je browser weigert de beveiligde sessiecookie van TREK. Het volgende verzoek mislukt dan met "Access token required". Oplossing: gebruik HTTPS, of zet voor een homelab COOKIE_SECURE=false.',
+    'Je verbindt via gewoon HTTP, dus je browser weigert de beveiligde sessiecookie van Manzil. Het volgende verzoek mislukt dan met "Access token required". Oplossing: gebruik HTTPS, of zet voor een homelab COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Open de gids voor probleemoplossing',
 };
 export default login;

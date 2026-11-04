@@ -59,6 +59,8 @@ export default function LoginPage(): React.ReactElement {
     setShowPassword,
     isLoading,
     error,
+    notice,
+    nativeLogin,
     setError,
     insecureCookie,
     appConfig,
@@ -134,7 +136,7 @@ export default function LoginPage(): React.ReactElement {
         <div className="takeoff-aurora takeoff-aurora-b" />
 
         <div className="takeoff-mark">
-          <img src="/logo-light.svg" alt="TREK" style={{ height: 'clamp(58px, 5.2vw, 84px)' }} />
+          <img src="/logo-light.svg" alt="Manzil" style={{ height: 'clamp(58px, 5.2vw, 84px)' }} />
           <p
             style={{
               margin: '12px 0 0',
@@ -390,7 +392,7 @@ export default function LoginPage(): React.ReactElement {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 12 }}>
             <img
               src="/logo-light.svg"
-              alt="TREK"
+              alt="Manzil"
               style={{
                 height: 'clamp(58px, 5.2vw, 84px)',
                 filter: 'drop-shadow(0 2px 10px rgba(4,8,20,0.55)) drop-shadow(0 0 34px rgba(4,8,20,0.45))',
@@ -450,7 +452,7 @@ export default function LoginPage(): React.ReactElement {
             className="mobile-logo"
           >
             <style>{`@media(min-width:1024px){.mobile-logo{display:none!important}}`}</style>
-            <img src="/logo-dark.svg" alt="TREK" style={{ height: 48 }} />
+            <img src="/logo-dark.svg" alt="Manzil" style={{ height: 48 }} />
             <p
               style={{
                 margin: 0,
@@ -1003,7 +1005,7 @@ export default function LoginPage(): React.ReactElement {
                           </div>
                           <button
                             type="button"
-                            onClick={() => navigate('/forgot-password')}
+                            onClick={() => navigate(nativeLogin ? '/forgot-password?auth=local' : '/forgot-password')}
                             style={{
                               background: 'none',
                               border: 'none',
@@ -1277,6 +1279,15 @@ export default function LoginPage(): React.ReactElement {
               {t('login.demoHint')}
             </button>
           )}
+          {notice && <p role="status" style={{ padding: 14, borderRadius: 10, background: '#eff6ff', color: '#112844' }}>{notice}</p>}
+          {appConfig?.supabase && <p style={{ margin: '16px 0 0', textAlign: 'center', fontSize: 13 }}>
+            <a href={nativeLogin ? '/login' : '/login?auth=local'} style={{ color: '#4b5563' }}>
+              {nativeLogin ? 'Use your Manzil account' : 'Administrator or existing local account'}
+            </a>
+          </p>}
+          <p style={{ margin: '20px 0 0', textAlign: 'center', fontSize: 13 }}>
+            <a href="/source.html" style={{ color: '#4b5563' }}>Source &amp; credits</a>
+          </p>
         </div>
       </div>
 

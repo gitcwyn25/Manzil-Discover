@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { authApi } from '../api/client'
+import { signOutSupabase } from '../api/supabaseAuth'
 import { connect, disconnect } from '../api/websocket'
 import type { User } from '../types'
 import { getApiErrorMessage } from '../types'
@@ -85,7 +86,7 @@ interface AuthState {
   register: (username: string, email: string, password: string, invite_token?: string) => Promise<AuthResponse>
   logout: () => Promise<void>
   /** Pass `{ silent: true }` to refresh the user without toggling global isLoading (avoids unmounting protected routes). */
-  loadUser: (opts?: { silent?: boolean }) => Promise<void>
+  loadUser: (opts?: { silent?: boolean; newSession?: boolean }) => Promise<void>
   updateMapsKey: (key: string | null) => Promise<void>
   updateApiKeys: (keys: Record<string, string | null>) => Promise<void>
   updateProfile: (profileData: Partial<User>) => Promise<void>
@@ -299,6 +300,7 @@ export const useAuthStore = create<AuthState>()(
     await forgetPushDeviceOnLogout()
     // 4. Tell server to clear the httpOnly cookie (best-effort).
     await fetch('/api/auth/logout', { method: 'POST', credentials: 'include' }).catch(() => {})
+    await signOutSupabase().catch(() => {})
     // 5. Clear service worker caches containing sensitive data.
     if ('caches' in window) {
       await Promise.all([
@@ -317,7 +319,8 @@ export const useAuthStore = create<AuthState>()(
     })
   },
 
-  loadUser: async (opts?: { silent?: boolean }) => {
+  loadUser: async (opts?: { silent?: boolean; newSession?: boolean }) => {
+    if (opts?.newSession) authSequence++
     const seq = authSequence
     const silent = !!opts?.silent
     if (!silent) set({ isLoading: true })

@@ -20,12 +20,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wandererの接続を削除しました',
   'wanderer.loadFailed': 'wandererの接続を読み込めませんでした',
   'wanderer.privateIp':
-    'このアドレスはプライベートネットワーク内にあります。TREKから到達できない場合は、管理者が内部ネットワークを許可する必要があります。',
+    'このアドレスはプライベートネットワーク内にあります。Manzilから到達できない場合は、管理者が内部ネットワークを許可する必要があります。',
   'wanderer.error.disabled': '管理者がツアーでwandererを有効にしていません。',
   'wanderer.error.not_connected': 'wandererはまだ接続されていません。',
   'wanderer.error.invalid_url': 'このアドレスは有効なwandererのURLではありません。',
   'wanderer.error.blocked_address':
-    'TREKはこのアドレスにアクセスできません。自分のネットワーク内のインスタンスには、管理者がALLOW_INTERNAL_NETWORK=trueを設定する必要があります。',
+    'Manzilはこのアドレスにアクセスできません。自分のネットワーク内のインスタンスには、管理者がALLOW_INTERNAL_NETWORK=trueを設定する必要があります。',
   'wanderer.error.unreachable':
     'wandererに接続できませんでした。アドレスと、インスタンスが動作しているかを確認してください。',
   'wanderer.error.tls': 'インスタンスの証明書を検証できませんでした。自己署名証明書の場合は、下で許可してください。',
@@ -37,7 +37,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     '応答がwandererから返されたものではありません。アドレスがwanderer自体を指しているか確認してください。',
   'wanderer.error.no_author':
-    'wandererは応答しましたが、このAPIトークンのアカウントにトレイルの作成者が示されていないため、TREKはどのトレイルがあなたのものか判断できません。',
+    'wandererは応答しましたが、このAPIトークンのアカウントにトレイルの作成者が示されていないため、Manzilはどのトレイルがあなたのものか判断できません。',
   'wanderer.error.too_large': 'トレイルのファイルが10 MBを超えています。',
   'wanderer.error.server_error': 'wandererがエラーを返しました。しばらくしてからもう一度お試しください。',
   'wanderer.error.offline': 'オフラインです。wandererはオンライン時のみ検索できます。',

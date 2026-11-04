@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const system_notice: TranslationStrings = {
   'system_notice.v3_photos.title': "Fotoğraflar 3.0'da taşındı",
   'system_notice.v3_photos.body':
-    "Seyahat Planlayıcı'daki **Fotoğraflar** kaldırıldı. Fotoğraflarınız güvende — TREK Immich veya Synology kütüphanenizi asla değiştirmedi.\\n\\nFotoğraflar artık **Journey** eklentisinde. Journey isteğe bağlıdır — henüz kullanılamıyorsa yöneticinizden Yönetici → Eklentiler bölümünden etkinleştirmesini isteyin.",
+    "Seyahat Planlayıcı'daki **Fotoğraflar** kaldırıldı. Fotoğraflarınız güvende — Manzil Immich veya Synology kütüphanenizi asla değiştirmedi.\\n\\nFotoğraflar artık **Journey** eklentisinde. Journey isteğe bağlıdır — henüz kullanılamıyorsa yöneticinizden Yönetici → Eklentiler bölümünden etkinleştirmesini isteyin.",
   'system_notice.v3_journey.title': 'Journey ile tanışın — seyahat günlüğü',
   'system_notice.v3_journey.body':
     'Seyahatlerinizi zaman çizelgeleri, fotoğraf galerileri ve etkileşimli haritalarla zengin hikâyelere dönüştürün.',
@@ -31,19 +31,19 @@ const system_notice: TranslationStrings = {
   'system_notice.v3014_whitespace_collision.title': 'İşlem gerekli: kullanıcı hesabı çakışması',
   'system_notice.v3014_whitespace_collision.body':
     '3.0.14 yükseltmesi, kayıtlı hesaplardaki baştaki/sondaki boşluklardan kaynaklanan bir veya daha fazla kullanıcı adı veya e-posta çakışması tespit etti. Etkilenen hesaplar otomatik olarak yeniden adlandırıldı. Hangi hesapların incelenmesi gerektiğini belirlemek için sunucu günlüklerinde **[migration] WHITESPACE COLLISION** ile başlayan satırlara bakın.',
-  'system_notice.welcome_v1.title': "TREK'e hoş Geldiniz",
+  'system_notice.welcome_v1.title': "Manzil'e hoş Geldiniz",
   'system_notice.welcome_v1.body':
     'Hepsi bir arada seyahat planlayıcınız. Program oluşturun, seyahatleri arkadaşlarınızla paylaşın ve çevrimiçi veya çevrimdışı düzenli kalın.',
   'system_notice.welcome_v1.cta_label': 'Seyahat planla',
-  'system_notice.welcome_v1.hero_alt': 'TREK planlama arayüzü kaplamalı manzaralı bir seyahat destinasyonu',
+  'system_notice.welcome_v1.hero_alt': 'Manzil planlama arayüzü kaplamalı manzaralı bir seyahat destinasyonu',
   'system_notice.welcome_v1.highlight_plan': 'Her seyahat için gün gün programlar',
   'system_notice.welcome_v1.highlight_share': 'Seyahat partnerleriyle işbirliği',
   'system_notice.welcome_v1.highlight_offline': 'Mobilde çevrimdışı çalışır',
   'system_notice.dev_test_modal.title': '[Dev] Test bildirimi',
   'system_notice.dev_test_modal.body': 'Bu yalnızca geliştirme ortamına özel bir test bildirimidir.',
-  'system_notice.thank_you_support.title': "TREK'i kullandığınız için teşekkürler",
+  'system_notice.thank_you_support.title': "Manzil'i kullandığınız için teşekkürler",
   'system_notice.thank_you_support.body':
-    "TREK'i yüklediğin için kısaca teşekkür etmek istiyorum — bu benim için gerçekten çok değerli.\n\nTek başına çalışan bir geliştiriciyim ve TREK'i boş zamanlarımda geliştiriyorum. Başlangıçta yalnızca kendi seyahatlerim için yaptığım küçük bir araçtı; o günden beri topluluktan gelen destek ve ilgi beni gerçekten hayrete düşürdü. TREK'i kendi adıma büyük bir sevgiyle hazırlıyorum — ama ona şekil vermeye yardım eden onca harika dış katkıcının da büyük payı var.\n\n**TREK açık kaynaklı ve tamamen ücretsiz — ve sonsuza dek böyle kalacak. Ücretli paketler yok, abonelikler yok, gizli bir şart yok. Söz veriyorum.**\n\nTREK işine yarıyorsa ve gelişimine destek olmak istersen, küçük bir kahve geliştirmeye devam etmeme cidden yardımcı oluyor — hiçbir baskı yok ama her fincan, o geç saatlere kadar süren çalışmaları ayakta tutuyor.\n\nBurada olduğun için teşekkür ederim.\n\n— Maurice",
+    "Manzil'i yüklediğin için kısaca teşekkür etmek istiyorum — bu benim için gerçekten çok değerli.\n\nTek başına çalışan bir geliştiriciyim ve Manzil'i boş zamanlarımda geliştiriyorum. Başlangıçta yalnızca kendi seyahatlerim için yaptığım küçük bir araçtı; o günden beri topluluktan gelen destek ve ilgi beni gerçekten hayrete düşürdü. Manzil'i kendi adıma büyük bir sevgiyle hazırlıyorum — ama ona şekil vermeye yardım eden onca harika dış katkıcının da büyük payı var.\n\n**Manzil açık kaynaklı ve tamamen ücretsiz — ve sonsuza dek böyle kalacak. Ücretli paketler yok, abonelikler yok, gizli bir şart yok. Söz veriyorum.**\n\nTREK işine yarıyorsa ve gelişimine destek olmak istersen, küçük bir kahve geliştirmeye devam etmeme cidden yardımcı oluyor — hiçbir baskı yok ama her fincan, o geç saatlere kadar süren çalışmaları ayakta tutuyor.\n\nBurada olduğun için teşekkür ederim.\n\n— Maurice",
   'system_notice.thank_you_support.highlight_opensource': "GitHub'da %100 açık kaynak",
   'system_notice.thank_you_support.highlight_free': 'Sonsuza dek ücretsiz — hiçbir ücretli plan yok',
   'system_notice.thank_you_support.highlight_community': 'Toplulukla birlikte geliştirildi',
@@ -62,19 +62,19 @@ const system_notice: TranslationStrings = {
     'Şehirler, adalar, simge yapılar ve koduyla aranan havalimanları önce gelir, kafeler çevrenizden gelir ve öneriler siz yazarken belirir.',
   'system_notice.release_notes.feature_share_title': 'Paylaşılan yer ayrıntıları',
   'system_notice.release_notes.feature_share_body':
-    'Web sitelerini, çalışma saatlerini ve fotoğrafları alan alan her TREK ile paylaşın, kayıtlı yerleriniz de başkalarının eklediklerini alır.',
+    'Web sitelerini, çalışma saatlerini ve fotoğrafları alan alan her Manzil ile paylaşın, kayıtlı yerleriniz de başkalarının eklediklerini alır.',
   'system_notice.release_notes.feature_routing_title': 'Daha hızlı rota hesaplama',
   'system_notice.release_notes.feature_routing_body':
     'Bütün bir gün, yirmi durağa kadar tek seferde hesaplanır, yavaş bir rota artık diğerlerini bekletmez ve toplu taşıma, ilk sağlayıcı bir şey bulamazsa ikinci bir sağlayıcıya sorar.',
   'system_notice.release_notes.footnote':
-    "Ayrıca TREK'in geri kalanına yayılmış, daha küçük değişikliklerden oluşan uzun bir liste var.",
+    "Ayrıca Manzil'in geri kalanına yayılmış, daha küçük değişikliklerden oluşan uzun bir liste var.",
   'system_notice.release_notes.notes_label': 'Sürüm notları',
   'system_notice.release_notes.note_eyebrow': 'Geliştiriciden bir not',
-  'system_notice.release_notes.note_title': "TREK'i geliştirmeye devam etmemin sebebi sensin.",
+  'system_notice.release_notes.note_title': "Manzil'i geliştirmeye devam etmemin sebebi sensin.",
   'system_notice.release_notes.note_body':
-    'TREK, kendi seyahatlerim için küçük bir araç olarak başladı. Onları daha iyi planlamak istediğim için iş çıkışlarında yazıyordum. O günden beri de büyümeyi hiç tam olarak bırakmadı. Kullandığın neredeyse her şey gece geç saatlerde, hafta sonlarında, trenlerde, tam zamanlı bir işin yanında yapıldı ve birinin onu bir gün gerçekten açıp açmayacağını içten içe merak ettiğim çok akşam oldu.',
+    'Manzil, kendi seyahatlerim için küçük bir araç olarak başladı. Onları daha iyi planlamak istediğim için iş çıkışlarında yazıyordum. O günden beri de büyümeyi hiç tam olarak bırakmadı. Kullandığın neredeyse her şey gece geç saatlerde, hafta sonlarında, trenlerde, tam zamanlı bir işin yanında yapıldı ve birinin onu bir gün gerçekten açıp açmayacağını içten içe merak ettiğim çok akşam oldu.',
   'system_notice.release_notes.promise_label': 'Söz',
-  'system_notice.release_notes.promise_lead': 'TREK sonsuza dek ücretsiz kalacak.',
+  'system_notice.release_notes.promise_lead': 'Manzil sonsuza dek ücretsiz kalacak.',
   'system_notice.release_notes.promise_text':
     'Her özellik, her güncelleme, herkes için. Ücretli paket yok, abonelik yok, gizli şart yok.',
   'system_notice.release_notes.note_body_after':
@@ -83,11 +83,11 @@ const system_notice: TranslationStrings = {
   'system_notice.release_notes.support_label': 'Bağımsız kalmak',
   'system_notice.release_notes.support_lead': 'Google ve benzerleri olmadan.',
   'system_notice.release_notes.support_text':
-    "Yer arama, adres arama ve rota hesaplama TREK'in kendi sunucularında çalışıyor, bugün dataforest cloud sponsorluğunda. Bunun için her gün mücadele ediyorum ve böyle kalması sizin desteğinize bağlı.",
+    "Yer arama, adres arama ve rota hesaplama Manzil'in kendi sunucularında çalışıyor, bugün dataforest cloud sponsorluğunda. Bunun için her gün mücadele ediyorum ve böyle kalması sizin desteğinize bağlı.",
   'system_notice.release_notes.cta_bmc': 'Bana bir kahve ısmarla',
   'system_notice.release_notes.cta_kofi': "Ko-fi'de Destek Ol",
   'system_notice.release_notes.headline': 'Önce doğru yer.',
   'system_notice.release_notes.intro':
-    "Yer arama, adres arama ve rota hesaplama artık dataforest cloud sponsorluğunda TREK'in kendi sunucularında çalışıyor ve her TREK, yerler hakkında bildiklerini diğer tüm TREK'lerle paylaşabiliyor.",
+    "Yer arama, adres arama ve rota hesaplama artık dataforest cloud sponsorluğunda Manzil'in kendi sunucularında çalışıyor ve her Manzil, yerler hakkında bildiklerini diğer tüm Manzil'lerle paylaşabiliyor.",
 };
 export default system_notice;

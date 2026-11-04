@@ -11,8 +11,8 @@ const tours: TranslationStrings = {
   'tours.addToDay': 'Aan dag toevoegen',
   'tours.badge.wanderer': 'wanderer',
   'tours.badge.gpx': 'GPX-import',
-  'tours.badge.planned': 'gepland in TREK',
-  'tours.badge.trek': 'TREK',
+  'tours.badge.planned': 'gepland in Manzil',
+  'tours.badge.trek': 'Manzil',
   'tours.badgeShort.gpx': 'GPX',
   'tours.badgeShort.wanderer': 'wanderer',
   'tours.caution.badge': 'voorzichtig gebruiken',
@@ -39,7 +39,7 @@ const tours: TranslationStrings = {
   'tours.alreadyOnDay': 'Deze tocht staat al op die dag.',
   'tours.conversion.title': 'Bewerkbare versie',
   'tours.conversion.intro':
-    'Een import is een opgenomen track. Plan een bewerkbare versie: TREK haalt er controlepunten uit, routeert ze opnieuw en laat zien hoe dicht dat in de buurt komt. Er verandert niets totdat je kiest.',
+    'Een import is een opgenomen track. Plan een bewerkbare versie: Manzil haalt er controlepunten uit, routeert ze opnieuw en laat zien hoe dicht dat in de buurt komt. Er verandert niets totdat je kiest.',
   'tours.conversion.replace': 'Import vervangen',
   'tours.conversion.replaceHint':
     'Plant deze tocht ter plekke opnieuw: de dagen en notities blijven, en de opgenomen track wordt bewaard zodat je ernaar terug kunt.',
@@ -127,7 +127,7 @@ const tours: TranslationStrings = {
   'tours.planner.safetyInfoLabel': 'Over veiligheid',
   'tours.planner.addPoint': 'Punt toevoegen',
   'tours.planner.addPointActive': 'Klik op de kaart',
-  'tours.planner.emptyHint': 'Zet „Punt toevoegen” aan en klik op de kaart. Vanaf twee punten berekent TREK de route.',
+  'tours.planner.emptyHint': 'Zet „Punt toevoegen” aan en klik op de kaart. Vanaf twee punten berekent Manzil de route.',
   'tours.planner.walkingEstimated': 'Geschatte looptijd',
   'tours.planner.walkingEstimatedShort': 'Geschatte tijd',
   'tours.planner.walkingEstimatedInfoLabel': 'Hoe de looptijd wordt geschat',
@@ -243,7 +243,7 @@ const tours: TranslationStrings = {
     'De wijzigingsdatum die wanderer bij de import gaf. Een aanwijzing, geen bewijs van een versie.',
   'tours.provenance.localState': 'Hier',
   'tours.provenance.plannedOver': 'Opnieuw gepland, opgenomen spoor bewaard',
-  'tours.provenance.editedLocally': 'Bewerkt in TREK',
+  'tours.provenance.editedLocally': 'Bewerkt in Manzil',
   'tours.provenance.asImported': 'Zoals geïmporteerd',
   'tours.provenance.openSource': 'Openen in wanderer',
   'tours.provenance.check': 'Bron controleren',
@@ -319,7 +319,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.menu': 'Wandeling uit Google Maps importeren',
   'tours.walkImport.title': 'Wandeling uit een Google Maps-link',
   'tours.walkImport.intro':
-    'Deel een wandelroute in Google Maps en plak de link hier. TREK leest de haltes en plant zelf de weg te voet ertussen.',
+    'Deel een wandelroute in Google Maps en plak de link hier. Manzil leest de haltes en plant zelf de weg te voet ertussen.',
   'tours.walkImport.urlLabel': 'Link naar de wandelroute',
   'tours.walkImport.urlHint': 'Een korte link van maps.app.goo.gl of het adres van de route op google.com/maps.',
   'tours.walkImport.read': 'Link lezen',
@@ -329,7 +329,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.source': 'Uit Google Maps',
   'tours.walkImport.openSource': 'Openen in Google Maps',
   'tours.walkImport.recalculated':
-    'TREK plant de weg tussen de haltes opnieuw; de lijn die in Google Maps getekend is, wordt niet overgenomen.',
+    'Manzil plant de weg tussen de haltes opnieuw; de lijn die in Google Maps getekend is, wordt niet overgenomen.',
   'tours.walkImport.noPosition': 'Geen positie in de link',
   'tours.walkImport.unresolved': '{count} haltes hebben geen positie in de link en worden weggelaten.',
   'tours.walkImport.unresolved.one': '{count} halte heeft geen positie in de link en wordt weggelaten.',
@@ -337,7 +337,7 @@ const tours: TranslationStrings = {
   'tours.walkImport.replacesDraft': 'Het laden van de wandeling vervangt de niet-opgeslagen wijzigingen in de planner.',
   'tours.walkImport.defaultName': 'Wandeling uit Google Maps',
   'tours.walkImport.draftNotice':
-    'Uit een wandelroute van Google Maps. TREK heeft de weg tussen de haltes zelf gepland.',
+    'Uit een wandelroute van Google Maps. Manzil heeft de weg tussen de haltes zelf gepland.',
   'tours.walkImport.offline': 'Voor het lezen van een link is een verbinding nodig.',
   'tours.walkImport.failed': 'De link kon nu niet worden gelezen. Probeer het zo dadelijk opnieuw.',
   'tours.walkImport.refusal.not_google_maps':
@@ -379,7 +379,7 @@ const tours: TranslationStrings = {
   'tours.poi.fromRoute': '{distance} van de route',
   'tours.poi.along': 'bij {distance}',
   'tours.poi.source.osm': 'Uit OpenStreetMap',
-  'tours.poi.source.trek': 'Uit de plekkenindex van TREK',
+  'tours.poi.source.trek': 'Uit de plekkenindex van Manzil',
   'tours.poi.hoursHint': 'Zoals de bron ze geeft; controleer ze voor je gaat.',
   'tours.poi.website': 'Webpagina',
   'tours.poi.slot.label': 'Waar het komt',
@@ -511,7 +511,7 @@ const tours: TranslationStrings = {
   'tours.ski.summary.build': 'Kaartgegevens van {build}',
   'tours.ski.summary.saved': 'Getoond zoals opgeslagen. Verplaats een punt of wijzig een optie om opnieuw te plannen.',
   'tours.ski.chooseTechnique': 'Kies de techniek, of Onbekend.',
-  'tours.ski.infoLabel': 'Wat TREK met skitochten en skisporen doet',
+  'tours.ski.infoLabel': 'Wat Manzil met skitochten en skisporen doet',
   'tours.ski.info':
     'Een geplande tocht volgt pistes, liften en loipes uit OpenStreetMap waar de pistedata reiken, en loopt elders recht tussen zijn punten. Een geïmporteerde track blijft zoals hij is opgenomen. Hoogtes komen uit de pistedata, het terrein of het bestand. Niets hier, ook niet de hellingkleuren in 3D, zegt iets over sneeuw, lawines of of pistes, liften en loipes open zijn.',
   'tours.ski.time': 'Skitijd',
@@ -926,7 +926,7 @@ const tours: TranslationStrings = {
   'tours.planner.routeLeg': 'Volgende stuk weer routeren',
   'tours.planner.freeLegBadge': 'Met de hand getekend, niet gerouteerd',
   'tours.planner.freeLegInfo':
-    'TREK verbindt deze twee punten met een rechte lijn. Geen router heeft dit stuk gepland of gecontroleerd.',
+    'Manzil verbindt deze twee punten met een rechte lijn. Geen router heeft dit stuk gepland of gecontroleerd.',
   'tours.map.seamarks': 'Zeemarkeringen',
   'tours.map.seamarksDown': 'Zeemarkeringen laden niet. De kaart en je route werken nog.',
   'tours.map.pistes': 'Pistes, langlaufloipes en liften',
@@ -975,9 +975,9 @@ const tours: TranslationStrings = {
   'tours.import.previewConfirm': '{count} tochten importeren',
   'tours.import.previewConfirm.one': '{count} tocht importeren',
   'tours.conversion.introPaddle':
-    'Een import is een opgenomen track. Plan een bewerkbare peddeltocht: TREK haalt er controlepunten uit, verbindt ze met rechte lijnen zoals een peddeltocht wordt getekend en laat zien hoe dicht dat in de buurt komt. Er verandert niets tot je kiest.',
+    'Een import is een opgenomen track. Plan een bewerkbare peddeltocht: Manzil haalt er controlepunten uit, verbindt ze met rechte lijnen zoals een peddeltocht wordt getekend en laat zien hoe dicht dat in de buurt komt. Er verandert niets tot je kiest.',
   'tours.conversion.introSki':
-    'Een import is een opgenomen track. Plan een bewerkbare skitocht: TREK haalt er controlepunten uit, verbindt ze met rechte lijnen zoals een skitocht wordt getekend en laat zien hoe dicht dat in de buurt komt. Er verandert niets tot je kiest.',
+    'Een import is een opgenomen track. Plan een bewerkbare skitocht: Manzil haalt er controlepunten uit, verbindt ze met rechte lijnen zoals een skitocht wordt getekend en laat zien hoe dicht dat in de buurt komt. Er verandert niets tot je kiest.',
   'tours.conversion.closePaddle':
     'Het voorstel volgt de track nauw. De punten zijn met rechte lijnen verbonden, dus het is niet dezelfde lijn.',
   'tours.planner.moreActions': 'Meer acties',
@@ -1009,7 +1009,7 @@ const tours: TranslationStrings = {
   'tours.paddle.lockBypassed': 'Omgedragen, het overdragen telt',
   'tours.paddle.time.title': 'Tijdschatting',
   'tours.paddle.time.assumptionInfo':
-    'TREK begint met 4 km/h op het water, 2 km/h bij het dragen en 10 minuten om uit en weer in te stappen bij elke overdraagplaats. Dit zijn startwaarden om aan te passen, geen normen en geen metingen. Sluistijden zijn alleen wat je zelf invult.',
+    'Manzil begint met 4 km/h op het water, 2 km/h bij het dragen en 10 minuten om uit en weer in te stappen bij elke overdraagplaats. Dit zijn startwaarden om aan te passen, geen normen en geen metingen. Sluistijden zijn alleen wat je zelf invult.',
   'tours.paddle.time.water': 'Op het water',
   'tours.paddle.time.carry': 'Dragen',
   'tours.paddle.time.carrySpeed': 'Draagtempo',
@@ -1089,7 +1089,7 @@ const tours: TranslationStrings = {
     'Hindernisgegevens dekken maar een deel van de route (stand van {date}). Controleer de rest zelf.',
   'tours.paddle.obstacles.none':
     'Geen hindernisgegevens voor dit gebied. Controleer stuwen, sluizen en overdraagplaatsen hier zelf.',
-  'tours.paddle.obstacles.offline': 'Zonder verbinding laadt TREK geen hindernisgegevens. Controleer het water zelf.',
+  'tours.paddle.obstacles.offline': 'Zonder verbinding laadt Manzil geen hindernisgegevens. Controleer het water zelf.',
   'tours.paddle.obstacles.error': 'De hindernisgegevens konden niet worden geladen. Controleer het water zelf.',
   'tours.paddle.obstacle.kind.weir': 'Stuw',
   'tours.paddle.obstacle.kind.dam': 'Dam', // same-as-en
@@ -1104,7 +1104,7 @@ const tours: TranslationStrings = {
   'tours.paddle.obstacle.kind.portage': 'Overdraagplaats',
   'tours.paddle.obstacle.kind.access': 'Vaarregel',
   'tours.paddle.obstacles.truncated':
-    'TREK toont hier maar een deel van de objecten; het gebied bevat er meer. Controleer het water zelf.',
+    'Manzil toont hier maar een deel van de objecten; het gebied bevat er meer. Controleer het water zelf.',
   'tours.paddle.obstacles.dateUnknown': 'onbekende datum',
   'tours.paddle.obstacleCard.onRoute': 'Op de route bij',
   'tours.paddle.obstacleCard.near': 'Nabij de route',
@@ -1191,7 +1191,7 @@ const tours: TranslationStrings = {
   'tours.paddle.safety.title': 'Veiligheid op het water',
   'tours.paddle.safety.short': 'Peddelen is niet zonder risico. Controleer zelf het water, de regels en het weer.',
   'tours.paddle.safety.text':
-    'Peddelen is niet zonder risico. Kaarten, routevoorstellen en aanwijzingen kunnen onvolledig of verouderd zijn. Controleer voor de tocht de actuele plaatselijke omstandigheden, de regels voor het bevaren van het water en het weer. Neem passende veiligheidsmaatregelen. TREK ondersteunt je planning en vervangt je eigen controle en verantwoorde beslissing niet.',
+    'Peddelen is niet zonder risico. Kaarten, routevoorstellen en aanwijzingen kunnen onvolledig of verouderd zijn. Controleer voor de tocht de actuele plaatselijke omstandigheden, de regels voor het bevaren van het water en het weer. Neem passende veiligheidsmaatregelen. Manzil ondersteunt je planning en vervangt je eigen controle en verantwoorde beslissing niet.',
   'tours.planner.shapingPoint': 'Vormpunt',
   'tours.planner.shapingHint': 'Stuurt de route zonder een stop te zijn. Sleep het naar waar de route moet lopen.',
   'tours.planner.makeStop': 'Maak er een stop van',
@@ -1245,7 +1245,7 @@ const tours: TranslationStrings = {
   'tours.paddle.routeAllOnWater': 'Met de hand getekende delen over het water plannen',
   'tours.paddle.auto': 'Gevonden',
   'tours.paddle.autoHint':
-    'TREK zette dit punt bij een overdraagplaats of sluis die het onderweg vond. Verplaats of wijzig je het, dan is het van jou.',
+    'Manzil zette dit punt bij een overdraagplaats of sluis die het onderweg vond. Verplaats of wijzig je het, dan is het van jou.',
   'tours.paddle.note.rapids': 'Wildwater {grade}',
   'tours.paddle.note.pass': 'Kanogoot',
   'tours.paddle.note.gap': 'Gat in de kaartgegevens',
@@ -1253,11 +1253,11 @@ const tours: TranslationStrings = {
   'tours.paddle.note.gapHint':
     'De watergegevens hebben hier een gat, overbrugd met een rechte lijn. Controleer het ter plaatse.',
   'tours.paddle.failed.not_on_water':
-    'Eén uiteinde van dit deel ligt niet op water dat TREK kent. Verplaats het naar de rivier of het meer.',
+    'Eén uiteinde van dit deel ligt niet op water dat Manzil kent. Verplaats het naar de rivier of het meer.',
   'tours.paddle.failed.no_region': 'Nog geen watergegevens voor dit gebied. Een beheerder kan de regio toevoegen.',
   'tours.paddle.failed.building':
     'De watergegevens van deze regio worden nog voorbereid. Probeer het over een paar minuten opnieuw.',
-  'tours.paddle.failed.no_water_path': 'TREK vond geen weg over het water tussen deze punten.',
+  'tours.paddle.failed.no_water_path': 'Manzil vond geen weg over het water tussen deze punten.',
   'tours.paddle.failed.cross_region': 'Deze punten liggen in twee regio’s zonder gedeelde watergegevens.',
   'tours.paddle.failed.busy': 'De routeplanner is bezet. Probeer het zo meteen opnieuw.',
   'tours.paddle.failed.timeout':
@@ -1275,8 +1275,8 @@ const tours: TranslationStrings = {
   'tours.paddle.load.phase.build': 'Waternet wordt gebouwd',
   'tours.paddle.load.hint':
     'Meestal een tot drie minuten. Plan gerust verder, het traject wordt daarna vanzelf gepland.',
-  'tours.paddle.load.reason.tooLarge': 'De regio is groter dan TREK uit zichzelf laadt.',
-  'tours.paddle.load.reason.limit': "TREK heeft vandaag al genoeg regio's uit zichzelf geladen.",
+  'tours.paddle.load.reason.tooLarge': 'De regio is groter dan Manzil uit zichzelf laadt.',
+  'tours.paddle.load.reason.limit': "Manzil heeft vandaag al genoeg regio's uit zichzelf geladen.",
   'tours.paddle.load.declined': 'Een beheerder heeft de watergegevens voor {region} afgewezen.',
   'tours.paddle.load.failed': 'De watergegevens voor {region} konden niet worden geladen.',
   'tours.paddle.load.noWater':
@@ -1302,7 +1302,7 @@ const tours: TranslationStrings = {
   'tours.horse.time': 'Rijtijd',
   'tours.horse.timeInfoLabel': 'Waarom er geen rijtijd is',
   'tours.horse.timeInfo':
-    'TREK berekent geen rijtijd: het tempo bepalen paard en ruiter. Vul zelf een geplande totale tijd in als je die wilt.',
+    'Manzil berekent geen rijtijd: het tempo bepalen paard en ruiter. Vul zelf een geplande totale tijd in als je die wilt.',
   'tours.horse.routes.title': 'Ruiterroutes',
   'tours.horse.routes.infoLabel': 'Over ruiterroutes',
   'tours.horse.routes.info':
@@ -1360,7 +1360,7 @@ const tours: TranslationStrings = {
   'tours.horse.recorded.asRecordedInfo':
     'De lijn blijft zoals het bestand haar heeft opgenomen. Er wordt niets opnieuw gepland.',
   'tours.horse.recorded.noTime': 'Geen rijtijd',
-  'tours.horse.recorded.noTimeInfo': 'TREK berekent geen rijtijd voor een rit: het tempo is aan paard en ruiter.',
+  'tours.horse.recorded.noTimeInfo': 'Manzil berekent geen rijtijd voor een rit: het tempo is aan paard en ruiter.',
   'tours.horse.recorded.accessUnchecked': 'Toegang niet gecontroleerd',
   'tours.horse.recorded.accessUncheckedInfo':
     'De import controleert niet of de wegen bereden mogen worden. Ter plekke gelden de borden.',
@@ -1521,7 +1521,7 @@ const tours: TranslationStrings = {
   'tours.planner.nothingToSave': 'Nog niets om op te slaan. Wijzig eerst de tocht.',
   'tours.detail.openInTours': 'Openen op het tabblad Tochten',
   'tours.planner.status.routingGeneric': 'Route berekenen…',
-  'tours.planner.emptyHintPlacing': 'Klik op de kaart om punten te zetten. Vanaf twee punten berekent TREK de route.',
+  'tours.planner.emptyHintPlacing': 'Klik op de kaart om punten te zetten. Vanaf twee punten berekent Manzil de route.',
   'tours.ski.drawStraight': 'Recht tekenen',
   'tours.horse.routes.stale': 'De lijst toont het kaartbeeld dat je doorzocht. Zoek opnieuw voor dit beeld.',
   'tours.horse.dialog.adoptGapHint':

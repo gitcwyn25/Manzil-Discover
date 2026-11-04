@@ -533,7 +533,7 @@ export class PapraClient {
     return guardDownload(response, {
       maxBytes: MAX_DOWNLOAD_BYTES,
       tooLarge: () =>
-        new PapraError('too_large', 'The Papra document is larger than TREK will transfer', response.status),
+        new PapraError('too_large', 'The Papra document is larger than Manzil will transfer', response.status),
       noBody: () => new PapraError('provider_error', 'Papra answered the document file with no body', response.status),
     });
   }

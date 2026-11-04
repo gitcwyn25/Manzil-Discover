@@ -51,7 +51,7 @@ import {
 const SESSION_NAME = 'FileStation';
 
 /** Shown in DSM's connected-devices list, so a user can recognise and revoke it. */
-const DEVICE_NAME = 'TREK';
+const DEVICE_NAME = 'Manzil';
 
 const AUTH_CGI = '/webapi/auth.cgi';
 const ENTRY_CGI = '/webapi/entry.cgi';

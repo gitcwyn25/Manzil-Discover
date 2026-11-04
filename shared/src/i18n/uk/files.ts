@@ -70,9 +70,9 @@ const files: TranslationStrings = {
   'files.notePlaceholder': 'Додати нотатку...',
   'files.assignTransport': 'Транспорт',
   'files.sourceTransport': 'Транспорт',
-  'files.uploadNeedsConnection': 'Для завантаження потрібне з’єднання. Спробуйте ще раз, коли TREK знову буде онлайн.',
+  'files.uploadNeedsConnection': 'Для завантаження потрібне з’єднання. Спробуйте ще раз, коли Manzil знову буде онлайн.',
   'files.linkNeedsConnection':
-    'Щоб прибрати цей зв’язок, потрібне з’єднання. Спробуйте ще раз, коли TREK знову буде онлайн.',
+    'Щоб прибрати цей зв’язок, потрібне з’єднання. Спробуйте ще раз, коли Manzil знову буде онлайн.',
   'files.placeFilesNeedConnection':
     'Для завантаження файлів потрібне з’єднання. Приберіть нові, щоб зберегти місце офлайн, або збережіть, коли знову будете онлайн.',
   'files.maxSize': 'Макс. {count} МБ',

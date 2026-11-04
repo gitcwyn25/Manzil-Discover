@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'サインイン中…',
   'login.signIn': 'サインイン',
   'login.createAdmin': '管理者アカウントを作成',
-  'login.createAdminHint': 'TREKの最初の管理者アカウントを設定します。',
+  'login.createAdminHint': 'Manzilの最初の管理者アカウントを設定します。',
   'login.setNewPassword': '新しいパスワードを設定',
   'login.setNewPasswordHint': '続行する前にパスワードを変更してください。',
   'login.createAccount': 'アカウントを作成',
@@ -76,7 +76,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'パスキーでのサインインに失敗しました。もう一度お試しください。',
   'login.insecureCookie.title': 'HTTP ではログインが保持されません',
   'login.insecureCookie.body':
-    '暗号化されていない HTTP で接続しているため、ブラウザーが TREK のセキュアなセッション Cookie を破棄し、次のリクエストが「Access token required」で失敗します。対処法: HTTPS を使うか、ホームラボなら COOKIE_SECURE=false を設定してください。',
+    '暗号化されていない HTTP で接続しているため、ブラウザーが Manzil のセキュアなセッション Cookie を破棄し、次のリクエストが「Access token required」で失敗します。対処法: HTTPS を使うか、ホームラボなら COOKIE_SECURE=false を設定してください。',
   'login.insecureCookie.link': 'トラブルシューティングガイドを開く',
 };
 export default login;

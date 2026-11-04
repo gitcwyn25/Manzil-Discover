@@ -3,10 +3,10 @@ import { pluralForm } from '../plural';
 
 const ca: NotificationLocale = {
   email: {
-    footer: 'Has rebut això perquè tens les notificacions activades a TREK.',
+    footer: 'Has rebut això perquè tens les notificacions activades a Manzil.',
     manage: 'Gestiona les preferències',
     madeWith: 'Fet amb',
-    openTrek: 'Obre TREK',
+    openTrek: 'Obre Manzil',
   },
   events: {
     trip_invite: (p) => ({
@@ -27,11 +27,11 @@ const ca: NotificationLocale = {
     }),
     vacay_invite: (p) => ({
       title: 'Invitació a Vacay Fusion',
-      body: `${p.actor} et va convidar a fusionar plans de vacances. Obre TREK per acceptar o rebutjar.`,
+      body: `${p.actor} et va convidar a fusionar plans de vacances. Obre Manzil per acceptar o rebutjar.`,
     }),
     vacay_share: (p) => ({
       title: 'Calendari de Vacay compartit',
-      body: `${p.actor} va compartir el seu calendari de vacances amb tu. Obre TREK per veure'l.`,
+      body: `${p.actor} va compartir el seu calendari de vacances amb tu. Obre Manzil per veure'l.`,
     }),
     photos_shared: (p) => ({
       title: pluralForm(p.count, 'ca', { one: `${p.count} foto compartida`, other: `${p.count} fotos compartides` }),
@@ -49,8 +49,8 @@ const ca: NotificationLocale = {
       body: `${p.actor} et va assignar a la categoria "${p.category}" a "${p.trip}".`,
     }),
     version_available: (p) => ({
-      title: 'Versió nova de TREK disponible',
-      body: `TREK ${p.version} ja està disponible. Visita el panell d'administració per actualitzar.`,
+      title: 'Versió nova de Manzil disponible',
+      body: `Manzil ${p.version} ja està disponible. Visita el panell d'administració per actualitzar.`,
     }),
     replica_failure: (p) => ({
       title: "Error de rèplica d'emmagatzematge",
@@ -73,7 +73,7 @@ const ca: NotificationLocale = {
     }),
     collection_invite: (p) => ({
       title: 'Invitació a una col·lecció',
-      body: `${p.actor} t'ha convidat a compartir una col·lecció. Obre TREK per acceptar-la o rebutjar-la.`,
+      body: `${p.actor} t'ha convidat a compartir una col·lecció. Obre Manzil per acceptar-la o rebutjar-la.`,
     }),
     wanderer_source_hint: (p) => ({
       title: `Camí de wanderer: ${p.tour}`,
@@ -89,7 +89,7 @@ const ca: NotificationLocale = {
   passwordReset: {
     subject: 'Restableix la teva contrasenya',
     greeting: 'Hola',
-    body: 'Vam rebre una sol·licitud per restablir la contrasenya del teu compte de TREK. Fes clic al botó de sota per establir una contrasenya nova.',
+    body: 'Vam rebre una sol·licitud per restablir la contrasenya del teu compte de Manzil. Fes clic al botó de sota per establir una contrasenya nova.',
     ctaIntro: 'Restableix la contrasenya',
     expiry: 'Aquest enllaç caduca en 60 minuts.',
     ignore: 'Si no ho vas sol·licitar tu, pots ignorar aquest correu — la teva contrasenya no canviarà.',

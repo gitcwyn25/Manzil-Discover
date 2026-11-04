@@ -249,7 +249,7 @@ const journey: TranslationStrings = {
   'journey.public.sharedVia': 'Megosztva a következőn keresztül:',
   'journey.public.madeWith': 'Készítve a következővel:',
   'journey.pdf.journeyBook': 'Útinaplókönyv',
-  'journey.pdf.madeWith': 'Készítve a TREK segítségével',
+  'journey.pdf.madeWith': 'Készítve a Manzil segítségével',
   'journey.pdf.day': 'Nap',
   'journey.pdf.theEnd': 'Vége',
   'journey.pdf.saveAsPdf': 'Mentés PDF-ként',
@@ -283,7 +283,7 @@ const journey: TranslationStrings = {
   'journey.editor.externalPhotosUnavailable': 'Nincs elérhető csatlakoztatott fotószolgáltató.',
   'journey.editor.externalPhotosPartialFailed': '{failed} fotócsoport sikertelen: mentsd újra az újrapróbáláshoz',
   'journey.picker.day': 'Ez a nap',
-  'journey.studio.title': 'TREK Studio', // same-as-en
+  'journey.studio.title': 'Manzil Studio', // same-as-en
   'journey.studio.open': 'Studio', // same-as-en
   'journey.studio.openAria': 'Fotókönyv-studio megnyitása',
   'journey.studio.backToJourney': 'Vissza az útinaplóhoz',
@@ -326,7 +326,7 @@ const journey: TranslationStrings = {
     'Fájlba menti az oldalpár elrendezését, a fényképek nélkül, megosztáshoz vagy újrafelhasználáshoz',
   'journey.studio.importSpread': 'Importálás',
   'journey.studio.importSpreadHint': 'Oldalpár hozzáadása letöltött elrendezésfájlból',
-  'journey.studio.importSpreadFailed': 'Ez a fájl nem TREK Studio oldalpár',
+  'journey.studio.importSpreadFailed': 'Ez a fájl nem Manzil Studio oldalpár',
   'journey.studio.desktopOnly': 'A Studióhoz nagyobb képernyő kell',
   'journey.studio.desktopOnlyHint':
     'Egy könyv tördeléséhez hely kell, ezért a Studio csak asztali gépen érhető el, és a PDF is. Az utazás minden más része itt a megszokott módon működik.',
@@ -850,7 +850,7 @@ const journey: TranslationStrings = {
   'journey.dayImport.routeRetry': 'Útvonal mentése újra',
   'journey.dayImport.stale':
     'A Dawarich nem válaszolt: {reason} A legutóbbi, {date} időpontú szinkronizálás tartózkodásai látszanak.',
-  'journey.dayImport.staleNever': 'A Dawarich nem válaszolt: {reason} A TREK által már ismert tartózkodások látszanak.',
+  'journey.dayImport.staleNever': 'A Dawarich nem válaszolt: {reason} A Manzil által már ismert tartózkodások látszanak.',
   'journey.dayImport.truncated': 'A Dawarich csak a nap egy részét küldte el. Hiányozhatnak tartózkodások.',
   'journey.dayImport.empty': 'A Dawarich nem talált tartózkodást ezen a napon.',
   'journey.prep.lastSuccess': 'Utoljára lekérve: {time}.',

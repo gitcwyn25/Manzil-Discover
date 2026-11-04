@@ -61,7 +61,7 @@ const settings: TranslationStrings = {
     'Ilma võtmeta näitavad CARTO aluskaardid vesimärki. Tasuta, kontot pole vaja, saadaval lehel',
   'settings.mapCartoKeyLink': 'carto.com aluskaardi API-võti',
   'settings.mapCartoKeyMissing':
-    'See mall on CARTO aluskaart. Ilma võtmeta lisab CARTO igale paanile teksti "API KEY REQUIRED". Kuni võtme sisestamiseni näitab TREK vaikealuskaarti.',
+    'See mall on CARTO aluskaart. Ilma võtmeta lisab CARTO igale paanile teksti "API KEY REQUIRED". Kuni võtme sisestamiseni näitab Manzil vaikealuskaarti.',
   'settings.mapStyle': 'Kaardi stiil',
   'settings.mapStylePlaceholder': 'Vali Mapboxi stiil',
   'settings.mapStyleHint': 'Valmisstiil või sinu enda mapbox://styles/USER/ID URL',
@@ -148,13 +148,13 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Tõuketeavitus',
   'settings.webPush.title': 'Tõuketeavitused selles seadmes',
   'settings.webPush.hint':
-    'Näitab TREKi teavitusi selles seadmes ka siis, kui TREK on suletud. Milliseid sündmusi saabub, määrab veerg Tõuketeavitus.',
+    'Näitab TREKi teavitusi selles seadmes ka siis, kui Manzil on suletud. Milliseid sündmusi saabub, määrab veerg Tõuketeavitus.',
   'settings.webPush.enable': 'Lülita selles seadmes sisse',
   'settings.webPush.disable': 'Lülita selles seadmes välja',
   'settings.webPush.enabled': 'Selles seadmes sisse lülitatud',
   'settings.webPush.unsupported': 'See brauser ei saa tõuketeavitusi vastu võtta.',
-  'settings.webPush.insecure': 'Tõuketeavituste jaoks peab TREK olema avatud HTTPS-i kaudu.',
-  'settings.webPush.iosInstall': "iPhone'is ja iPadis lisa TREK esmalt avakuvale ja ava see sealt.",
+  'settings.webPush.insecure': 'Tõuketeavituste jaoks peab Manzil olema avatud HTTPS-i kaudu.',
+  'settings.webPush.iosInstall': "iPhone'is ja iPadis lisa Manzil esmalt avakuvale ja ava see sealt.",
   'settings.webPush.denied':
     'TREKi teavitused on selles brauseris blokeeritud. Luba need brauseri seadetes ja proovi siis uuesti.',
   'settings.webPush.failed': 'Tõuketeavitusi ei õnnestunud selles seadmes sisse lülitada.',
@@ -288,13 +288,13 @@ const settings: TranslationStrings = {
   'settings.about.sponsor.address': 'Aadressiotsing',
   'settings.about.sponsor.routing': 'Teekonnad',
   'settings.about.descriptionManaged':
-    'TREK aitab korraldada reise esimesest ideest viimase mälestuseni. Päevaplaanid, eelarve, pakkimisnimekirjad, fotod ja palju muud — kõik ühes kohas.',
+    'Manzil aitab korraldada reise esimesest ideest viimase mälestuseni. Päevaplaanid, eelarve, pakkimisnimekirjad, fotod ja palju muud — kõik ühes kohas.',
   'settings.about.sourceTitle': 'Lähtekood',
   'settings.about.sourceHint': 'TREK on avatud lähtekoodiga, litsentsiga AGPL-3.0',
   'settings.about.supporters.badge': 'Igakuised toetajad',
   'settings.about.supporters.title': 'TREKi reisikaaslased',
   'settings.about.supporters.subtitle':
-    'Samal ajal kui sina planeerid järgmist teekonda, aitavad need inimesed planeerida TREKi tulevikku. Nende igakuine panus läheb otse arendusse ja töötundidesse — et TREK jääks avatud lähtekoodiga.',
+    'Samal ajal kui sina planeerid järgmist teekonda, aitavad need inimesed planeerida TREKi tulevikku. Nende igakuine panus läheb otse arendusse ja töötundidesse — et Manzil jääks avatud lähtekoodiga.',
   'settings.about.supporters.since': 'toetaja alates {date}',
   'settings.about.supporters.tierEmpty': 'Ole esimene',
   'settings.about.supporter.tier.noReturnTicket': 'Tagasisõidupiletita',
@@ -303,7 +303,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Säästureisija',
   'settings.about.supporter.tier.hostelBunkmate': 'Hostelikaaslane',
   'settings.about.description':
-    'TREK on ise majutatav reisiplaneerija, mis aitab korraldada reise esimesest ideest viimase mälestuseni. Päevaplaanid, eelarve, pakkimisnimekirjad, fotod ja palju muud — kõik ühes kohas, sinu enda serveris.',
+    'Manzil on ise majutatav reisiplaneerija, mis aitab korraldada reise esimesest ideest viimase mälestuseni. Päevaplaanid, eelarve, pakkimisnimekirjad, fotod ja palju muud — kõik ühes kohas, sinu enda serveris.',
   'settings.about.madeWith': 'Loodud',
   'settings.about.madeBy': "Maurice'i ja kasvava avatud lähtekoodi kogukonna poolt.",
   'settings.username': 'Kasutajanimi',
@@ -416,7 +416,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Luba ainult usaldatud serverile oma võrgus.',
   'settings.airtrail.writeBack': 'Kirjuta muudatused AirTraili tagasi',
   'settings.airtrail.writeBackHint':
-    'Vaikimisi väljas: AirTrail on andmete põhiline allikas ja TREK ainult loeb sealt. Luba see, et saata TREKis tehtud muudatused AirTraili tagasi.',
+    'Vaikimisi väljas: AirTrail on andmete põhiline allikas ja Manzil ainult loeb sealt. Luba see, et saata TREKis tehtud muudatused AirTraili tagasi.',
   'settings.airtrail.connected': 'Ühendatud',
   'settings.airtrail.notConnected': 'Ühendamata',
   'settings.airtrail.toast.saved': 'AirTraili ühendus salvestatud',
@@ -533,7 +533,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Ülevaade',
   'settings.startPageActiveTrip': 'Aktiivne reis',
   'settings.startPageHint':
-    'TREK avab kohe täna käiva või järgmise reisi. See on sama reis, mida avalehel esile tõstetakse.',
+    'Manzil avab kohe täna käiva või järgmise reisi. See on sama reis, mida avalehel esile tõstetakse.',
   'settings.startTripTab': 'Avatav vahekaart',
   'settings.startTripTabHint':
     'Vahekaart, millega reis avaneb. Kui see kuulub väljalülitatud lisamoodulile, avaneb selle asemel plaanivaade.',

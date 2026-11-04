@@ -191,7 +191,7 @@ const places: TranslationStrings = {
   'places.refresh.pill': 'Yeni məkan məlumatları',
   'places.refresh.title': 'Məkan məlumatlarını yenilə',
   'places.refresh.intro':
-    'TREK bu məkan haqqında daha yeni məlumatlar bilir. Nəyi götürəcəyinizi seçin, qalanı olduğu kimi qalır. Sonra məkanı yadda saxlayın.',
+    'Manzil bu məkan haqqında daha yeni məlumatlar bilir. Nəyi götürəcəyinizi seçin, qalanı olduğu kimi qalır. Sonra məkanı yadda saxlayın.',
   'places.refresh.apply': 'Götür',
   'places.refresh.replaces': 'Hazırda saxlanılanı əvəz edir',
   'places.refresh.empty': 'boş',

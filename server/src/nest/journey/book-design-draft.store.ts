@@ -67,7 +67,7 @@ export function designExpired(): DomainError {
   return new DomainError(410, 'This design is no longer kept', {
     code: 'book_design_expired',
     mcpMessage:
-      'This design is no longer kept (a draft lasts six hours and a restart of TREK forgets it): ' +
+      'This design is no longer kept (a draft lasts six hours and a restart of Manzil forgets it): ' +
       'run design_book again; the same directives and seed give the same design while the book and the journey ' +
       'are unchanged.',
   });

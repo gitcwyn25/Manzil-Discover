@@ -93,10 +93,10 @@ export class RoutingRelayService {
     }
     const url = this.endpoint(action);
     const headers = this.keyHeaders(url);
-    if (!headers) throw new DomainError(503, 'The TREK routing service is not available on this instance');
+    if (!headers) throw new DomainError(503, 'The Manzil routing service is not available on this instance');
     const now = Date.now();
     if (now < this.restingUntil) {
-      return refusal(503, 'The TREK routing service is resting', this.restingUntil - now);
+      return refusal(503, 'The Manzil routing service is resting', this.restingUntil - now);
     }
     const allowed = await this.rateLimit.check(
       'valhalla-relay',
@@ -160,8 +160,8 @@ export class RoutingRelayService {
       if (!timedOut) this.rest(REST_MS);
       logWarn(`[Routing relay] ${url.pathname}: ${err instanceof Error ? err.message : String(err)}`);
       throw timedOut
-        ? new DomainError(504, 'The TREK routing service took too long for this route')
-        : new DomainError(502, 'The TREK routing service did not answer');
+        ? new DomainError(504, 'The Manzil routing service took too long for this route')
+        : new DomainError(502, 'The Manzil routing service did not answer');
     }
   }
 

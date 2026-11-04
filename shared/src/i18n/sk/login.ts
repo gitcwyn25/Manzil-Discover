@@ -9,7 +9,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Prihlasovanie…',
   'login.signIn': 'Prihlásiť sa',
   'login.createAdmin': 'Vytvoriť účet administrátora',
-  'login.createAdminHint': 'Nastavte prvý administrátorský účet pre TREK.',
+  'login.createAdminHint': 'Nastavte prvý administrátorský účet pre Manzil.',
   'login.setNewPassword': 'Nastaviť nové heslo',
   'login.setNewPasswordHint': 'Pred pokračovaním musíte zmeniť heslo.',
   'login.createAccount': 'Vytvoriť účet',
@@ -76,7 +76,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Prihlásenie prístupovým kľúčom zlyhalo. Skúste to prosím znova.',
   'login.insecureCookie.title': 'Prihlásenie cez HTTP nevydrží',
   'login.insecureCookie.body':
-    'Pripájate sa cez obyčajné HTTP, takže váš prehliadač zahodí zabezpečený reláčný súbor cookie TREK — ďalšia požiadavka zlyhá s „Access token required“. Riešenie: použite HTTPS, alebo pre domáce laboratórium nastavte COOKIE_SECURE=false.',
+    'Pripájate sa cez obyčajné HTTP, takže váš prehliadač zahodí zabezpečený reláčný súbor cookie Manzil — ďalšia požiadavka zlyhá s „Access token required“. Riešenie: použite HTTPS, alebo pre domáce laboratórium nastavte COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Otvoriť sprievodcu riešením problémov',
 };
 export default login;

@@ -10,7 +10,7 @@ const login: TranslationStrings = {
   'login.signingIn': 'Вход…',
   'login.signIn': 'Войти',
   'login.createAdmin': 'Создать аккаунт администратора',
-  'login.createAdminHint': 'Настройте первый аккаунт администратора для TREK.',
+  'login.createAdminHint': 'Настройте первый аккаунт администратора для Manzil.',
   'login.setNewPassword': 'Установить новый пароль',
   'login.setNewPasswordHint': 'Вы должны сменить пароль, прежде чем продолжить.',
   'login.createAccount': 'Создать аккаунт',
@@ -77,7 +77,7 @@ const login: TranslationStrings = {
   'login.passkey.failed': 'Не удалось войти с помощью passkey. Попробуйте ещё раз.',
   'login.insecureCookie.title': 'Вход не сохранится по HTTP',
   'login.insecureCookie.body':
-    'Вы подключаетесь по обычному HTTP, поэтому браузер отбрасывает защищённый cookie сессии TREK, и следующий запрос завершается ошибкой «Access token required». Решение: используйте HTTPS или, для домашней сети, задайте COOKIE_SECURE=false.',
+    'Вы подключаетесь по обычному HTTP, поэтому браузер отбрасывает защищённый cookie сессии Manzil, и следующий запрос завершается ошибкой «Access token required». Решение: используйте HTTPS или, для домашней сети, задайте COOKIE_SECURE=false.',
   'login.insecureCookie.link': 'Открыть руководство по устранению неполадок',
 };
 export default login;

@@ -52,7 +52,7 @@ const settings: TranslationStrings = {
     'A CARTO alaptérképek kulcs nélkül vízjelet jelenítenek meg. Ingyenes, fiók nélkül, innen:',
   'settings.mapCartoKeyLink': 'carto.com alaptérkép API-kulcs',
   'settings.mapCartoKeyMissing':
-    'Ez a sablon CARTO alaptérkép. Kulcs nélkül a CARTO minden csempére ráírja: "API KEY REQUIRED". Amíg nincs kulcs megadva, a TREK az alapértelmezett alaptérképet mutatja.',
+    'Ez a sablon CARTO alaptérkép. Kulcs nélkül a CARTO minden csempére ráírja: "API KEY REQUIRED". Amíg nincs kulcs megadva, a Manzil az alapértelmezett alaptérképet mutatja.',
   'settings.mapStyle': 'Térkép stílus',
   'settings.mapStylePlaceholder': 'Válassz Mapbox stílust',
   'settings.mapStyleHint': 'Preset vagy saját mapbox://styles/USER/ID URL',
@@ -213,19 +213,19 @@ const settings: TranslationStrings = {
   'settings.about.featureRequestHint': 'Javasolj egy új funkciót',
   'settings.about.wikiHint': 'Dokumentáció és útmutatók',
   'settings.about.sponsor.eyebrow': 'Szponzorált infrastruktúra',
-  'settings.about.sponsor.title': 'A TREK saját szerverei a dataforest cloud gépein futnak',
+  'settings.about.sponsor.title': 'A Manzil saját szerverei a dataforest cloud gépein futnak',
   'settings.about.sponsor.body':
-    'A helykeresés, a címkeresés és az útvonaltervezés a TREK saját szervereiről érkezik a Google és társai helyett, a gépeket pedig, amelyeken futnak, a dataforest cloud szponzorálja.',
+    'A helykeresés, a címkeresés és az útvonaltervezés a Manzil saját szervereiről érkezik a Google és társai helyett, a gépeket pedig, amelyeken futnak, a dataforest cloud szponzorálja.',
   'settings.about.sponsor.cta': 'dataforest cloud megnyitása',
   'settings.about.sponsor.search': 'Helykeresés',
   'settings.about.sponsor.address': 'Címkeresés',
   'settings.about.sponsor.routing': 'Útvonaltervezés',
   'settings.about.descriptionManaged':
-    'A TREK segít megszervezni az utazásaidat az első ötlettől az utolsó emlékig. Napi tervezés, költségvetés, csomagolólisták, fotók és még sok más, egy helyen.',
+    'A Manzil segít megszervezni az utazásaidat az első ötlettől az utolsó emlékig. Napi tervezés, költségvetés, csomagolólisták, fotók és még sok más, egy helyen.',
   'settings.about.sourceTitle': 'Forráskód',
   'settings.about.sourceHint': 'A TREK nyílt forráskódú, AGPL-3.0 licenc alatt',
   'settings.about.supporters.badge': 'Havi támogatók',
-  'settings.about.supporters.title': 'Útitársak a TREK mellett',
+  'settings.about.supporters.title': 'Útitársak a Manzil mellett',
   'settings.about.supporters.subtitle':
     'Miközben te a következő útvonaladat tervezed, ők a TREK jövőjét tervezik velem együtt. Havi hozzájárulásuk közvetlenül fejlesztésre és valódi órákra fordítódik — hogy a TREK Open Source maradhasson.',
   'settings.about.supporters.since': 'támogató {date} óta',
@@ -236,7 +236,7 @@ const settings: TranslationStrings = {
   'settings.about.supporter.tier.budgetTraveller': 'Fapados utazó',
   'settings.about.supporter.tier.hostelBunkmate': 'Hosztel szobatárs',
   'settings.about.description':
-    'A TREK egy saját szerveren üzemeltetett útitervező, amely segít az utazásaid megszervezésében az első ötlettől az utolsó emlékig. Napi tervezés, költségvetés, csomagolási listák, fotók és még sok más — minden egy helyen, a saját szervereden.',
+    'A Manzil egy saját szerveren üzemeltetett útitervező, amely segít az utazásaid megszervezésében az első ötlettől az utolsó emlékig. Napi tervezés, költségvetés, csomagolási listák, fotók és még sok más — minden egy helyen, a saját szervereden.',
   'settings.about.madeWith': 'Készítve',
   'settings.about.madeBy': 'Maurice és egy növekvő nyílt forráskódú közösség által.',
   'settings.username': 'Felhasználónév',
@@ -357,7 +357,7 @@ const settings: TranslationStrings = {
   'settings.notificationPreferences.push': 'Push', // same-as-en
   'settings.webPush.title': 'Push értesítések ezen az eszközön',
   'settings.webPush.hint':
-    'Megjeleníti a TREK értesítéseit ezen az eszközön, akkor is, ha a TREK be van zárva. Hogy mely események érkeznek meg, azt a Push oszlop dönti el.',
+    'Megjeleníti a Manzil értesítéseit ezen az eszközön, akkor is, ha a Manzil be van zárva. Hogy mely események érkeznek meg, azt a Push oszlop dönti el.',
   'settings.webPush.enable': 'Bekapcsolás ezen az eszközön',
   'settings.webPush.disable': 'Kikapcsolás ezen az eszközön',
   'settings.webPush.enabled': 'Bekapcsolva ezen az eszközön',
@@ -365,7 +365,7 @@ const settings: TranslationStrings = {
   'settings.webPush.insecure': 'A pushhoz a TREK-et HTTPS-en keresztül kell megnyitni.',
   'settings.webPush.iosInstall': 'iPhone-on és iPaden először add hozzá a TREK-et a Főképernyőhöz, és onnan nyisd meg.',
   'settings.webPush.denied':
-    'A TREK értesítései le vannak tiltva ebben a böngészőben. Engedélyezd őket a böngésző beállításaiban, majd próbáld újra.',
+    'A Manzil értesítései le vannak tiltva ebben a böngészőben. Engedélyezd őket a böngésző beállításaiban, majd próbáld újra.',
   'settings.webPush.failed': 'A pusht nem sikerült bekapcsolni ezen az eszközön.',
   'settings.currency': 'Megjelenítési pénznem',
   'settings.currencyHint':
@@ -411,7 +411,7 @@ const settings: TranslationStrings = {
   'settings.airtrail.allowInsecureTlsHint': 'Csak megbízható, saját hálózaton futó példány esetén engedélyezd.',
   'settings.airtrail.writeBack': 'Módosítások visszaírása az AirTrailbe',
   'settings.airtrail.writeBackHint':
-    'Alapértelmezés szerint kikapcsolva: az AirTrail a hiteles forrás, és a TREK csak olvas belőle. Kapcsold be, hogy a TREK-ben végzett módosításokat visszaküldje az AirTrailbe.',
+    'Alapértelmezés szerint kikapcsolva: az AirTrail a hiteles forrás, és a Manzil csak olvas belőle. Kapcsold be, hogy a TREK-ben végzett módosításokat visszaküldje az AirTrailbe.',
   'settings.airtrail.connected': 'Csatlakoztatva',
   'settings.airtrail.notConnected': 'Nincs csatlakoztatva',
   'settings.airtrail.toast.saved': 'AirTrail-kapcsolat mentve',
@@ -531,7 +531,7 @@ const settings: TranslationStrings = {
   'settings.startPageDashboard': 'Irányítópult',
   'settings.startPageActiveTrip': 'Aktív utazás',
   'settings.startPageHint':
-    'A TREK egyből a most zajló utazást nyitja meg, vagy a következőt, amelyik indul. Ugyanaz az utazás, amelyet az irányítópult is kiemel.',
+    'A Manzil egyből a most zajló utazást nyitja meg, vagy a következőt, amelyik indul. Ugyanaz az utazás, amelyet az irányítópult is kiemel.',
   'settings.startTripTab': 'Kezdő fül',
   'settings.startTripTabHint':
     'Az a fül, amellyel az utazás megnyílik. Ha kikapcsolt bővítményhez tartozik, helyette a terv nézet nyílik meg.',

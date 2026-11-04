@@ -61,8 +61,8 @@ const files: TranslationStrings = {
   'files.confirm.emptyTrash': 'Hapus semua file di sampah secara permanen? Tindakan ini tidak bisa dibatalkan.',
   'files.noteLabel': 'Catatan',
   'files.notePlaceholder': 'Tambahkan catatan...',
-  'files.uploadNeedsConnection': 'Mengunggah butuh koneksi. Coba lagi setelah TREK kembali online.',
-  'files.linkNeedsConnection': 'Menghapus tautan ini butuh koneksi. Coba lagi setelah TREK kembali online.',
+  'files.uploadNeedsConnection': 'Mengunggah butuh koneksi. Coba lagi setelah Manzil kembali online.',
+  'files.linkNeedsConnection': 'Menghapus tautan ini butuh koneksi. Coba lagi setelah Manzil kembali online.',
   'files.placeFilesNeedConnection':
     'File butuh koneksi untuk diunggah. Hapus file baru untuk menyimpan tempat secara offline, atau simpan setelah kamu online lagi.',
   'files.maxSize': 'Maks. {count} MB',

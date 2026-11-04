@@ -11,7 +11,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'Colores',
   'journey.studio.stickerSlot': 'Color {index}',
   'journey.studio.stickerResetColours': 'Colores originales',
-  'journey.studio.stickerMissing': 'Esta pegatina no está en la biblioteca de esta versión de TREK.',
+  'journey.studio.stickerMissing': 'Esta pegatina no está en la biblioteca de esta versión de Manzil.',
   'journey.studio.stickerFlip': 'Reflejar',
   'journey.studio.stickerTurnLeft': 'Girar a la izquierda',
   'journey.studio.stickerTurnRight': 'Girar a la derecha',

@@ -9,7 +9,7 @@ const studioStickers: TranslationStrings = {
   'journey.studio.stickerColours': 'צבעים',
   'journey.studio.stickerSlot': 'צבע {index}',
   'journey.studio.stickerResetColours': 'הצבעים המקוריים',
-  'journey.studio.stickerMissing': 'המדבקה הזו אינה נמצאת בספרייה של הגרסה הזו של TREK.',
+  'journey.studio.stickerMissing': 'המדבקה הזו אינה נמצאת בספרייה של הגרסה הזו של Manzil.',
   'journey.studio.stickerFlip': 'היפוך מראה',
   'journey.studio.stickerTurnLeft': 'סיבוב שמאלה',
   'journey.studio.stickerTurnRight': 'סיבוב ימינה',

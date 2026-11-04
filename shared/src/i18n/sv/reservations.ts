@@ -144,7 +144,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'På kartan',
   'reservations.import.pinMissingTitle': 'Inte på kartan än',
   'reservations.import.pinMissingBody':
-    'TREK hittade inte boendet på kartan. Kontrollera namnet och adressen ovan och sök igen, eller spara det utan nål.',
+    'Manzil hittade inte boendet på kartan. Kontrollera namnet och adressen ovan och sök igen, eller spara det utan nål.',
   'reservations.import.pinRetry': 'Sök igen',
   'reservations.import.savedWithoutPin':
     'Sparat utan nål på kartan. Redigera platsen och ange dess position för att se den på kartan.',
@@ -272,7 +272,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Visa i filer',
   'reservations.filesNeedConnection':
     'Filer behöver en anslutning för att laddas upp. Ta bort de nya för att spara bokningen offline, eller spara när du är online igen.',
-  'reservations.needsConnection': 'Det här kräver en anslutning. Försök igen när TREK är online igen.',
+  'reservations.needsConnection': 'Det här kräver en anslutning. Försök igen när Manzil är online igen.',
   'reservations.exportCsvFiltered': 'Exportera de {shown} av {total} visade raderna (CSV)',
 };
 export default reservations;

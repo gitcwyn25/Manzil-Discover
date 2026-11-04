@@ -21,12 +21,12 @@ const wanderer: TranslationStrings = {
   'wanderer.disconnected': 'wanderer bağlantısı kaldırıldı',
   'wanderer.loadFailed': 'wanderer bağlantısı yüklenemedi',
   'wanderer.privateIp':
-    'Bu adres özel bir ağda. TREK bu adrese ulaşamıyorsa yöneticinin dahili ağlara izin vermesi gerekir.',
+    'Bu adres özel bir ağda. Manzil bu adrese ulaşamıyorsa yöneticinin dahili ağlara izin vermesi gerekir.',
   'wanderer.error.disabled': 'Yöneticiniz Turlar için wanderer’ı etkinleştirmedi.',
   'wanderer.error.not_connected': 'wanderer henüz bağlı değil.',
   'wanderer.error.invalid_url': 'Bu adres geçerli bir wanderer URL’si değil.',
   'wanderer.error.blocked_address':
-    'TREK bu adrese erişemez. Kendi ağınızdaki bir sunucu için yöneticinin ALLOW_INTERNAL_NETWORK=true ayarlaması gerekir.',
+    'Manzil bu adrese erişemez. Kendi ağınızdaki bir sunucu için yöneticinin ALLOW_INTERNAL_NETWORK=true ayarlaması gerekir.',
   'wanderer.error.unreachable': 'wanderer’a ulaşılamadı. Adresi ve sunucunun çalıştığını kontrol edin.',
   'wanderer.error.tls': 'Sunucunun sertifikası doğrulanamadı. Kendinden imzalıysa aşağıdan izin verin.',
   'wanderer.error.unauthorized': 'wanderer API belirtecini kabul etmedi. İptal edilmiş veya süresi dolmuş olabilir.',
@@ -36,7 +36,7 @@ const wanderer: TranslationStrings = {
   'wanderer.error.invalid_response':
     'Yanıt wanderer’dan gelmedi. Adresin doğrudan wanderer’ı gösterdiğini kontrol edin.',
   'wanderer.error.no_author':
-    'wanderer yanıt verdi ancak bu API belirtecinin hesabı için hiçbir parkur yazarı belirtmiyor, bu yüzden TREK hangi parkurların sizin olduğunu bilemiyor.',
+    'wanderer yanıt verdi ancak bu API belirtecinin hesabı için hiçbir parkur yazarı belirtmiyor, bu yüzden Manzil hangi parkurların sizin olduğunu bilemiyor.',
   'wanderer.error.too_large': 'Parkur dosyası 10 MB’tan büyük.',
   'wanderer.error.server_error': 'wanderer bir hatayla yanıt verdi. Daha sonra tekrar deneyin.',
   'wanderer.error.offline': 'Çevrimdışısınız. wanderer’da yalnızca çevrimiçiyken arama yapılabilir.',

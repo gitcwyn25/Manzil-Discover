@@ -3,7 +3,7 @@ import type { TranslationStrings } from '../types';
 const demo: TranslationStrings = {
   // The welcome dialog a demo instance opens with (components/Demo/DemoWelcome).
   'demo.welcome.eyebrow': 'Livedemo',
-  'demo.welcome.title': 'Välkommen till TREK',
+  'demo.welcome.title': 'Välkommen till Manzil',
   'demo.welcome.tagline':
     'Reseplaneraren att dela: planera tillsammans på kartan i realtid, från första idén till fotoboken efter resan.',
   'demo.welcome.resetTitle': 'Allt återställs varje timme',
@@ -16,7 +16,7 @@ const demo: TranslationStrings = {
     'Dagar, platser och rutter på kartan, med flyg, hotell, restauranger, bokningar och delade kostnader.',
   'demo.feature.tours.title': 'Turer och vandringar',
   'demo.feature.tours.body': 'Planera en vandring längs ledernätet och följ den över 3D-terräng med höjdprofil.',
-  'demo.feature.studio.title': 'Fotoböcker i TREK Studio',
+  'demo.feature.studio.title': 'Fotoböcker i Manzil Studio',
   'demo.feature.studio.body': 'Gör en resa till en formgiven fotobok, sida för sida.',
   'demo.feature.collab.title': 'Planera tillsammans live',
   'demo.feature.collab.body': 'Alla på resan ser varje ändring direkt, med chatt, anteckningar och omröstningar.',
@@ -30,7 +30,7 @@ const demo: TranslationStrings = {
   'demo.feature.collections.body':
     'Spara platser från olika resor i egna listor och kopiera dem till vilken plan som helst.',
   'demo.feature.offline.title': 'Fungerar offline',
-  'demo.feature.offline.body': 'Installera TREK som app och behåll planer, kartor och listor utan uppkoppling.',
+  'demo.feature.offline.body': 'Installera Manzil som app och behåll planer, kartor och listor utan uppkoppling.',
   'demo.welcome.limitsTitle': 'Ingår inte i demon',
   'demo.limit.uploads': 'Ladda upp foton, dokument och omslag',
   'demo.limit.account': 'Ändra kontot, lösenordet eller 2FA',
@@ -49,7 +49,7 @@ const demo: TranslationStrings = {
   // The photo credits, the welcome dialog's second view (components/Demo/DemoCredits).
   'demo.credits.title': 'Bildkällor',
   'demo.credits.intro':
-    'Bilderna i den här demon kommer från Wikimedia Commons, var och en under licensen som anges vid den. Licensen gäller bara bilden, inte TREK eller resten av demon.',
+    'Bilderna i den här demon kommer från Wikimedia Commons, var och en under licensen som anges vid den. Licensen gäller bara bilden, inte Manzil eller resten av demon.',
   'demo.credits.by': 'Foto: {author}',
   'demo.credits.publicDomain': 'Allmän egendom',
   'demo.credits.back': 'Tillbaka',

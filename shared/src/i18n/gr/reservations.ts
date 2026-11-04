@@ -146,7 +146,7 @@ const reservations: TranslationStrings = {
   'reservations.import.pinFound': 'Στον χάρτη',
   'reservations.import.pinMissingTitle': 'Δεν είναι ακόμη στον χάρτη',
   'reservations.import.pinMissingBody':
-    'Το TREK δεν βρήκε αυτό το κατάλυμα στον χάρτη. Ελέγξτε το όνομα και τη διεύθυνση παραπάνω και αναζητήστε ξανά ή αποθηκεύστε το χωρίς καρφίτσα.',
+    'Το Manzil δεν βρήκε αυτό το κατάλυμα στον χάρτη. Ελέγξτε το όνομα και τη διεύθυνση παραπάνω και αναζητήστε ξανά ή αποθηκεύστε το χωρίς καρφίτσα.',
   'reservations.import.pinRetry': 'Νέα αναζήτηση',
   'reservations.import.savedWithoutPin':
     'Αποθηκεύτηκε χωρίς καρφίτσα στον χάρτη. Επεξεργαστείτε το μέρος και ορίστε τη θέση του για να εμφανιστεί στον χάρτη.',
@@ -276,7 +276,7 @@ const reservations: TranslationStrings = {
   'reservations.showInFiles': 'Εμφάνιση στα αρχεία',
   'reservations.filesNeedConnection':
     'Τα αρχεία χρειάζονται σύνδεση για να ανέβουν. Αφαίρεσε τα νέα για να αποθηκεύσεις την κράτηση εκτός σύνδεσης ή αποθήκευσε όταν είσαι ξανά online.',
-  'reservations.needsConnection': 'Αυτό χρειάζεται σύνδεση. Δοκίμασε ξανά μόλις το TREK συνδεθεί ξανά.',
+  'reservations.needsConnection': 'Αυτό χρειάζεται σύνδεση. Δοκίμασε ξανά μόλις το Manzil συνδεθεί ξανά.',
   'reservations.exportCsvFiltered': 'Εξαγωγή των {shown} από {total} εμφανιζόμενων γραμμών (CSV)',
 };
 export default reservations;

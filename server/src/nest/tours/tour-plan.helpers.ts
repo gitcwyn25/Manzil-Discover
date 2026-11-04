@@ -150,7 +150,7 @@ export function tourCreateCommandOf(
 
 /** Why no way was planned for a ride or a run, in words that say what to do about it. */
 const UNPLANNED: Readonly<Record<UnroutedHikePlan['why'], (named: string, position: number | null) => string>> = {
-  no_valhalla: (named) => `TREK has no Valhalla router here to plan ${named} with its profile.`,
+  no_valhalla: (named) => `Manzil has no Valhalla router here to plan ${named} with its profile.`,
   router_unavailable: () => 'The router did not answer, for the way or for its heights; try again in a moment.',
   no_way: (named) => `No way for ${named} of this profile joins these points: try another profile or move the points.`,
   point_off_the_way: (_named, position) =>

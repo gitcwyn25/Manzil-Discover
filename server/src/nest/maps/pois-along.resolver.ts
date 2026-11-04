@@ -139,7 +139,7 @@ export class PoisAlongResolver {
       fallback: indexed.length > 0 && index.answered === 0 ? await this.askOverpass(indexed, query) : NOTHING,
     }));
     const [{ index, fallback }, overpass] = await Promise.all([indexPart, this.askOverpass(rest, query)]);
-    if (index.error) logWarn(`[Maps] TREK places index along a line: ${index.error}`);
+    if (index.error) logWarn(`[Maps] Manzil places index along a line: ${index.error}`);
     for (const answer of [overpass, fallback]) {
       if (answer.error) logWarn(`[Maps] OpenStreetMap along a line: ${answer.error}`);
     }
@@ -195,7 +195,7 @@ export class PoisAlongResolver {
         }
       }
     }
-    if (failure) logWarn(`[Maps] TREK places highlights along a line: ${reason(failure.reason)}`);
+    if (failure) logWarn(`[Maps] Manzil places highlights along a line: ${reason(failure.reason)}`);
     return [...found.values()];
   }
 

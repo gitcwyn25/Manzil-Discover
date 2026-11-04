@@ -60,7 +60,7 @@ const mobileTrip: TranslationStrings = {
   'mobileTrip.rtDesktopNote':
     'Tieto údaje sa nastavujú na počítači, kde môžete tiež porovnávať alternatívne trasy a nechať deň sledovať importovanú stopu.',
   'mobileTrip.planOnDesktop': 'Plánuje sa na počítači',
-  'mobileTrip.rtDriveOnTwoPlaces': 'Len čo má deň dve miesta, TREK jazdu vypočíta.',
+  'mobileTrip.rtDriveOnTwoPlaces': 'Len čo má deň dve miesta, Manzil jazdu vypočíta.',
   'mobileTrip.toursEmptyBody': 'Uložené túry sa zobrazia tu a môžeš ich pridať k dňu.',
   'mobileTrip.toursCount': '{count} túr',
   'mobileTrip.toursCount.one': '{count} túra',

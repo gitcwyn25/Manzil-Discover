@@ -39,7 +39,7 @@ const trip: TranslationStrings = {
   'trip.toast.placesDeleted.one': 'מקום אחד נמחק',
   'trip.toast.placesDeleted.two': 'שני מקומות נמחקו',
   'trip.invite.linkTitle': 'קישור הזמנה לטיול',
-  'trip.invite.linkHint': 'כל מי שיש לו חשבון TREK ופותח את הקישור מצטרף לטיול כחבר. צרו קישור חדש כדי לבטל את הישן.',
+  'trip.invite.linkHint': 'כל מי שיש לו חשבון Manzil ופותח את הקישור מצטרף לטיול כחבר. צרו קישור חדש כדי לבטל את הישן.',
   'trip.invite.create': 'יצירת קישור הזמנה',
   'trip.invite.regenerate': 'יצירה מחדש',
   'trip.invite.disable': 'השבתה',
